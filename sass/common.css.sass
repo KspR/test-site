@@ -6,39 +6,18 @@
 	font-family : bold
 	src : url("../fonts/Assistant/Assistant-Bold.ttf")
 
+@font-face
+	font-family : "boldest"
+	src : url("../fonts/Assistant/Assistant-ExtraBold.ttf")
+
 =align-middle
 	transform : translate(0, -50%)
 	position : relative
 	top : 50%
 
-$orange : orange
-$orange : #e88a44
-$blue : #60c1df
-$sea : #50b7b1
-$lightblue : #39b5d5
-$purple : #9b6da9
-$yellow : #e7c728
-$blue : #7fd9e6
-$sea : #bfdc9f
-$yellow : #fedb86
-$purple : #c791d2
+@import colors.css.sass
 
-$orange : #f68b19
-$orange : #f68119
-$orange : #f57724
-$orange : #ef7926
-$orange : #f1852b
-$orangeDark : #d6681e
-
-$darkblue : #2A2A2A
-$red : #cf4227
-$blue : #078cf9
-$grey : #8e8e8e
-$green : #79be70
-
-$blue : #4fb2f0
-
-@import examples.css.sass
+@import _examples.css.sass
 
 body.home, body.workflow, body.business-case, body.page-pricing
 	overflow : overlay
@@ -2337,3 +2316,25 @@ body.example
 				border : 1px solid rgba(255, 255, 255, 0.15)
 				border-radius : 5px
 				background-repeat : no-repeat
+
+
+// Common generic elements
+
+.text-link
+	color : $darkBlue
+	text-decoration : none
+
+	transition : color .2s
+
+	.fas
+		color : inherit
+		margin-left : 8px
+		font-size : .9em
+
+		transition : margin-left .2s
+
+.text-link:hover
+	color : $darkestBlue
+
+	.fas
+		margin-left : 14px

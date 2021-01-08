@@ -1,0 +1,406 @@
+@import colors.css.sass
+
+
+@media only screen and (min-width : 1080px)
+	.test
+	  color : black
+
+.ui_enterprise
+	position : relative
+	margin-top : 70px
+	font-family : regular
+
+	h2
+		font-size : 1.5rem
+		font-family : bold
+		color : $blackTitle
+
+	// --------------------------------------------------------------
+	// SECTION LANDING
+	// --------------------------------------------------------------
+
+	.bloc-landing
+		position : relative
+		display : flex
+		justify-content : center
+		align-items : center
+		color : white
+		background : $orange
+		padding-bottom : 40px
+		flex-direction : column
+		padding-bottom : 100px
+		padding-top : 50px
+		
+		.deco-background
+			position : absolute
+			top : 0
+			left : 0
+			height : 100%
+			width : 100%
+			display : block
+			img
+				height : 100%
+				position : absolute
+			img + img
+				right : 0
+		
+		h1, .intro-text, .cta
+			position : relative
+			
+		h1
+			margin : 0
+			margin-top : 20px
+			text-align : center
+			font-size : 1.8rem
+			letter-spacing : 1px
+		.intro-text
+			margin-top : 20px
+			text-align : center
+			opacity : .8
+			font-size : 1.4rem
+		.cta
+			margin-top : 20px
+		.fas
+			margin-right : 10px
+
+	// --------------------------------------------------------------
+	// end of SECTION LANDING
+	// --------------------------------------------------------------
+
+	// --------------------------------------------------------------
+	// SECTION SLIDER
+	// --------------------------------------------------------------
+
+	.screenshots-slider
+		display : flex
+		flex-direction : column
+		justify-content : center
+		align-items : center;
+		padding-bottom : 50px
+
+		.wrapper
+			display : inline-block
+			margin-top : -50px
+			border-radius : 10px
+			overflow : hidden
+			position : relative
+			box-shadow : 0 20px 100px 0 rgba(0,0,0,0.3)
+			padding-bottom : 26px
+
+			img
+				width : 80vw
+				max-width : 1100px
+			
+			nav
+				position : absolute
+				left : 0
+				background : white
+				height : 26px
+				display : flex
+				justify-content : center
+				width : 100%
+
+				ul
+					display : flex
+					margin-top : -7px
+					background : white
+					border-radius : 50px
+					padding : 8px 25px 10px
+					li
+						display : inline-block
+
+						.btn.bullet
+							border-radius : 99px
+							width : 16px
+							height : 16px
+							display : flex
+							justify-content : center
+							align-items : center
+							border : none;
+							background : transparent
+							
+						.btn.bullet:before
+							content : ""
+							display : inline-block
+							width : 8px
+							height : 8px
+							border-radius : 10px
+							background : $darkerBlue
+							opacity : .5
+
+							transition : opacity .2s, width .2s, height .2s
+						.btn.bullet.active:before
+							opacity : 1
+							width : 8px
+							height : 8px
+						.btn.bullet:not(.active):hover
+							cursor : pointer
+						.btn.bullet:not(.active):hover::before
+							opacity : 1
+							height : 12px
+							width : 12px
+					li + li
+						margin-left : 2px
+		
+		.legend
+			font-style : italic
+			font-size : 1rem
+			font-weight : 400
+			opacity : .7
+			text-align : center
+			margin-top : 15px
+
+	.companies
+		padding : 50px 0
+
+		h2
+			text-align : center
+
+		ul
+			display : flex
+			justify-content : center
+			margin-top : 70px
+			margin-bottom : 80px
+			
+			li
+				display : inline-block
+
+				img
+					display : inline-block
+					height : 50px
+					filter : grayscale(1)
+					opacity : .85
+
+			li + li 
+				margin-left : 50px
+
+	// --------------------------------------------------------------
+	// end of SECTION SLIDER
+	// --------------------------------------------------------------
+
+	// --------------------------------------------------------------
+	// SECTION READY TO DEPLOY
+	// --------------------------------------------------------------
+
+	.ready-to-deploy
+		display : flex
+		flex-direction : column
+		justify-content : center
+		align-items : center;
+		padding : 80px 0
+		background : rgba(0,0,0,.04)
+
+		h2
+			text-align : center
+
+		.wrapper
+			box-shadow : 0 0 100px 0 rgba(0,0,0,0.2)
+			margin-top : 70px
+			margin-bottom : 80px
+			font-size : 0
+			width : 80vw
+			max-width : 1100px
+
+			.row
+				display : flex
+			
+			.feature
+				padding : 16px 24px 24px
+				display : inline-block
+				width : 33.333%
+
+				.name
+					font-size : 1rem
+					margin-bottom : 15px
+					.fas:first-child
+						font-size : .9rem
+						margin-right : 8px
+						margin-left : 0
+
+				.description
+					font-size : 0.9rem
+					line-height : 1rem
+
+			.row:first-child .feature:nth-child(odd)
+					background : #ececec
+			.row:last-child .feature:nth-child(even)
+					background : #ececec
+
+
+	// --------------------------------------------------------------
+	// end of SECTION READY TO DEPLOY
+	// --------------------------------------------------------------
+
+	// --------------------------------------------------------------
+	// SECTION CUSTOMER STORY
+	// --------------------------------------------------------------
+
+	.customer-story
+		display : flex
+		flex-direction : column
+		justify-content : center
+		align-items : center;
+		padding : 80px 0
+
+		h2
+			text-align : center
+
+		.wrapper
+			box-shadow : 0 0 100px 0 rgba(0,0,0,0.2)
+			margin-top : 70px
+			margin-bottom : 80px
+			font-size : 0
+			width : 80vw
+			max-width : 1100px
+			height : 500px
+
+	// --------------------------------------------------------------
+	// end of SECTION CUSTOMER STORY
+	// --------------------------------------------------------------
+	
+	// --------------------------------------------------------------
+	// SECTION SAFETY FEATURES
+	// --------------------------------------------------------------
+
+	.safety-features
+		display : flex
+		flex-direction : column
+		justify-content : center
+		align-items : center;
+		padding : 80px 0 120px
+		background : #333
+		color : white
+		position : relative
+
+		.picto-deco
+			border-radius : 1000px
+			display : flex
+			align-items : center
+			justify-content : center
+			background : white
+			border : 4px solid #333
+			width : 120px
+			height : 120px
+			position : absolute
+			left : calc(100% / 2 - 60px)
+			top : -60px
+
+			.fas
+				font-size : 2.3rem
+				color : #333
+
+		h2
+			text-align : center
+
+		.wrapper
+			margin-top : 70px
+			width : 80vw
+			max-width : 900px
+			display : flex
+
+			ul
+				width : 50%
+				padding : 20px
+				.feature
+					.display-btn
+						border : none
+						background : transparent
+						color : white
+						display : inline-block
+						text-align : left
+						font-size : .9rem
+						line-height : 1.5rem
+						position : relative
+						padding-left : 24px
+
+						transition : color .2s
+
+						.far
+							margin-right : 5px
+							color : $darkBlue
+							font-size : 1.1em
+							position : absolute
+							top : 2px
+							left : 0
+
+							transition : transform .35s
+
+						&:hover
+							cursor : pointer
+							color : $darkBlue
+							.far
+
+						&:focus
+							border : none
+							outline : none
+					
+					.description
+						padding-left : 24px
+						opacity : .8
+						font-size : .9em
+						display : none
+						margin-top : 10px
+				
+				.feature.active
+					.far
+						transform : rotate(180deg)
+					.description
+						display : block
+
+				.feature + .feature
+					margin-top : 15px
+
+
+	// --------------------------------------------------------------
+	// end of SECTION SAFETY FEATURES
+	// --------------------------------------------------------------
+
+	// --------------------------------------------------------------
+	// SECTION LABELS
+	// --------------------------------------------------------------
+
+	.credibility-labels
+		display : flex
+		justify-content : center
+		align-items : center
+
+		.wrapper
+			margin-top : -30px
+			margin-bottom : 80px
+			font-size : 0
+			width : 80vw
+			max-width : 1000px
+			display : flex
+			justify-content : center
+			align-items : center
+			background : white
+			position : relative
+			box-shadow : 0 -30px 20px 0 rgba(0,0,0,.1)
+			padding : 80px
+			padding-bottom : 20px
+
+			.label-group
+				img
+					filter : grayscale(1)
+					margin-bottom : 20px
+					height : 60px
+				.legend
+					opacity : .7
+					font-size : .8rem
+
+			.label-group:first-child
+				text-align : right
+				img
+					height : 50px
+			.label-group:last-child
+				text-align : left
+
+			.separator
+				height : 100px
+				border-right : 1px solid rgba(0,0,0,.1)
+				margin : 0 70px
+
+	// --------------------------------------------------------------
+	// end of SECTION LABELS
+	// --------------------------------------------------------------
+

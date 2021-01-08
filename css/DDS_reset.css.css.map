@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAC,CAAC,CAAC;EACN,MAAM,EAAG,CAAC;EACV,OAAO,EAAG,CAAC;EACX,UAAU,EAAG,UAAU;CAAG;;AAE3B,AAAA,EAAE,CAAC;EACF,UAAU,EAAG,IAAI;CAAG",
+    "sources": [
+        "../sass/DDS_reset.css.sass"
+    ],
+    "names": [],
+    "file": "DDS_reset.css.css"
+}
