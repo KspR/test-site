@@ -28,7 +28,7 @@
 		background : $orange
 		padding-bottom : 40px
 		flex-direction : column
-		padding-bottom : 100px
+		padding-bottom : 180px
 		padding-top : 50px
 		
 		.deco-background
@@ -58,8 +58,9 @@
 			text-align : center
 			opacity : .8
 			font-size : 1.4rem
+			padding : 0 40px
 		.cta
-			margin-top : 20px
+			margin-top : 50px
 		.fas
 			margin-right : 10px
 
@@ -80,11 +81,11 @@
 
 		.wrapper
 			display : inline-block
-			margin-top : -50px
+			margin-top : -80px
 			border-radius : 10px
 			overflow : hidden
 			position : relative
-			box-shadow : 0 20px 100px 0 rgba(0,0,0,0.3)
+			box-shadow : 0 20px 100px 0 rgba(0,0,0,0.2)
 			padding-bottom : 26px
 
 			img
@@ -196,7 +197,7 @@
 		.wrapper
 			box-shadow : 0 0 100px 0 rgba(0,0,0,0.2)
 			margin-top : 70px
-			margin-bottom : 80px
+			margin-bottom : 50px
 			font-size : 0
 			width : 80vw
 			max-width : 1100px
@@ -240,19 +241,99 @@
 		flex-direction : column
 		justify-content : center
 		align-items : center;
-		padding : 80px 0
+		padding : 80px 0 150px
 
 		h2
 			text-align : center
 
 		.wrapper
-			box-shadow : 0 0 100px 0 rgba(0,0,0,0.2)
 			margin-top : 70px
 			margin-bottom : 80px
-			font-size : 0
 			width : 80vw
 			max-width : 1100px
 			height : 500px
+			padding-top : 80px
+			position : relative
+			
+			.illustration
+				width : calc(100% - 50px)
+				border-radius : 10px
+				overflow : hidden
+				height : 400px
+				background : beige
+				img
+					width : 100%
+			
+			.story-bloc
+				position : absolute
+				top : 0
+				right : 0
+				width : 600px
+				max-width : calc(100% - 20px)
+				display : flex
+				align-items : center
+				box-shadow : 0 20px 100px 0 rgba(0,0,0,0.3)
+				border-radius : 10px
+				overflow : hidden
+				background : #fff
+
+				.left-side
+					width : 100px
+					position : relative
+					&::before
+						content : ""
+						display : block
+						position : absolute
+						width : 150%
+						height : 600px
+						top : calc(50% - 300px)
+						left : -50%
+						background : $orange
+						transform : rotate(15deg)
+					.picto-deco
+				.right-side
+					width : 100%
+					padding : 30px 40px 30px 0
+
+					blockquote
+						font-size : 1.3rem
+						margin-bottom : 30px
+						margin-left : 60px
+					.customer-info
+						display : flex
+						align-items : center
+						.logo
+							height : 40px
+							margin-left : 50px
+						.portrait
+							height : 40px
+							border-radius : 100px
+							margin-left : 30px
+							background : #eee
+							font-size : .5rem
+						.customer-details
+							margin-left : 20px
+							.name
+								display : block
+								font-size : .9em
+								opacity : .7
+							.status
+								display : block
+								font-size : .8em
+								opacity : .6
+					.text-link
+						margin-left : calc(100% - 180px)
+						margin-top : 30px
+						display : block
+						text-align : left
+						
+			.text-link
+				display : block
+				text-align : center
+				margin-top : 50px
+				img
+					height : 16px
+					margin-right : 12px
 
 	// --------------------------------------------------------------
 	// end of SECTION CUSTOMER STORY
@@ -291,6 +372,8 @@
 
 		h2
 			text-align : center
+			color : white
+			margin-top : 60px
 
 		.wrapper
 			margin-top : 70px

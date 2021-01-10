@@ -34,7 +34,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-bottom: 100px;
+  padding-bottom: 180px;
   padding-top: 50px;
 }
 
@@ -73,10 +73,11 @@
   text-align: center;
   opacity: .8;
   font-size: 1.4rem;
+  padding: 0 40px;
 }
 
 .ui_enterprise .bloc-landing .cta {
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .ui_enterprise .bloc-landing .fas {
@@ -102,12 +103,12 @@
 
 .ui_enterprise .screenshots-slider .wrapper {
   display: inline-block;
-  margin-top: -50px;
+  margin-top: -80px;
   border-radius: 10px;
   overflow: hidden;
   position: relative;
-  -webkit-box-shadow: 0 20px 100px 0 rgba(0, 0, 0, 0.3);
-          box-shadow: 0 20px 100px 0 rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 20px 100px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 20px 100px 0 rgba(0, 0, 0, 0.2);
   padding-bottom: 26px;
 }
 
@@ -263,7 +264,7 @@
   -webkit-box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.2);
   margin-top: 70px;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
   font-size: 0;
   width: 80vw;
   max-width: 1100px;
@@ -319,7 +320,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 80px 0;
+  padding: 80px 0 150px;
 }
 
 .ui_enterprise .customer-story h2 {
@@ -327,14 +328,129 @@
 }
 
 .ui_enterprise .customer-story .wrapper {
-  -webkit-box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.2);
   margin-top: 70px;
   margin-bottom: 80px;
-  font-size: 0;
   width: 80vw;
   max-width: 1100px;
   height: 500px;
+  padding-top: 80px;
+  position: relative;
+}
+
+.ui_enterprise .customer-story .wrapper .illustration {
+  width: calc(100% - 50px);
+  border-radius: 10px;
+  overflow: hidden;
+  height: 400px;
+  background: beige;
+}
+
+.ui_enterprise .customer-story .wrapper .illustration img {
+  width: 100%;
+}
+
+.ui_enterprise .customer-story .wrapper .story-bloc {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 600px;
+  max-width: calc(100% - 20px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0 20px 100px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 20px 100px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.ui_enterprise .customer-story .wrapper .story-bloc .left-side {
+  width: 100px;
+  position: relative;
+}
+
+.ui_enterprise .customer-story .wrapper .story-bloc .left-side::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 150%;
+  height: 600px;
+  top: calc(50% - 300px);
+  left: -50%;
+  background: #f1852b;
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
+}
+
+.ui_enterprise .customer-story .wrapper .story-bloc .right-side {
+  width: 100%;
+  padding: 30px 40px 30px 0;
+}
+
+.ui_enterprise .customer-story .wrapper .story-bloc .right-side blockquote {
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+  margin-left: 60px;
+}
+
+.ui_enterprise .customer-story .wrapper .story-bloc .right-side .customer-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ui_enterprise .customer-story .wrapper .story-bloc .right-side .customer-info .logo {
+  height: 40px;
+  margin-left: 50px;
+}
+
+.ui_enterprise .customer-story .wrapper .story-bloc .right-side .customer-info .portrait {
+  height: 40px;
+  border-radius: 100px;
+  margin-left: 30px;
+  background: #eee;
+  font-size: .5rem;
+}
+
+.ui_enterprise .customer-story .wrapper .story-bloc .right-side .customer-info .customer-details {
+  margin-left: 20px;
+}
+
+.ui_enterprise .customer-story .wrapper .story-bloc .right-side .customer-info .customer-details .name {
+  display: block;
+  font-size: .9em;
+  opacity: .7;
+}
+
+.ui_enterprise .customer-story .wrapper .story-bloc .right-side .customer-info .customer-details .status {
+  display: block;
+  font-size: .8em;
+  opacity: .6;
+}
+
+.ui_enterprise .customer-story .wrapper .story-bloc .right-side .text-link {
+  margin-left: calc(100% - 180px);
+  margin-top: 30px;
+  display: block;
+  text-align: left;
+}
+
+.ui_enterprise .customer-story .wrapper .text-link {
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.ui_enterprise .customer-story .wrapper .text-link img {
+  height: 16px;
+  margin-right: 12px;
 }
 
 .ui_enterprise .safety-features {
@@ -384,6 +500,8 @@
 
 .ui_enterprise .safety-features h2 {
   text-align: center;
+  color: white;
+  margin-top: 60px;
 }
 
 .ui_enterprise .safety-features .wrapper {
