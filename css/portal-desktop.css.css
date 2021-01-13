@@ -410,8 +410,8 @@
   .footer {
     padding: 60px 0;
   }
-  .footer .bloc-plan {
-    margin-right: 100px;
+  .footer .bloc + .bloc {
+    margin-left: 50px;
   }
   .footer .bloc {
     display: inline-block;

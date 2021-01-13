@@ -2318,11 +2318,15 @@ body.example
 				background-repeat : no-repeat
 
 
+// =======================
 // Common generic elements
+// =======================
 
 .text-link
 	color : $darkBlue
 	text-decoration : none
+	display : inline-block
+	position : relative
 
 	transition : color .2s
 
@@ -2338,3 +2342,26 @@ body.example
 
 	.fas
 		margin-left : 14px
+		
+.text-link.underline-over
+
+	&::after
+		content : ""
+		display : block
+		position : absolute
+		bottom : 0
+		left : 50%
+		width : 0
+		height : 1px
+		border-bottom : 1px solid $darkestBlue
+
+		transition : width .2s, left .2s
+
+.text-link.underline-over:hover
+
+	&::after
+		width : 100%
+		left : 0
+
+.unsecable
+	white-space : nowrap  

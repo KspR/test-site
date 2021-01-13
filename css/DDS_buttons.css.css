@@ -2,7 +2,11 @@
   cursor: pointer;
 }
 
-.cta.round.light {
+.cta.round {
+  border-radius: 200px;
+}
+
+.cta.light {
   color: #333;
   background: white;
   padding: 10px 20px;
@@ -12,18 +16,24 @@
   font-weight: bold;
   outline: none;
   border: none;
-  -webkit-transition: background .2s, color .2s, -webkit-box-shadow .1s;
-  transition: background .2s, color .2s, -webkit-box-shadow .1s;
-  transition: box-shadow .1s, background .2s, color .2s;
-  transition: box-shadow .1s, background .2s, color .2s, -webkit-box-shadow .1s;
+  -webkit-transition: background .2s, color .2s, background .2s, -webkit-box-shadow .1s, -webkit-transform .2s;
+  transition: background .2s, color .2s, background .2s, -webkit-box-shadow .1s, -webkit-transform .2s;
+  transition: box-shadow .1s, background .2s, color .2s, background .2s, transform .2s;
+  transition: box-shadow .1s, background .2s, color .2s, background .2s, transform .2s, -webkit-box-shadow .1s, -webkit-transform .2s;
 }
 
-.cta.round.light .fas, .cta.round.light .fa {
+.cta.light .fas, .cta.light .fa {
   font-size: .7em;
   margin-right: .7em;
 }
 
-.cta.round.light:hover {
+.cta.light.dark-over:hover {
+  background: #111;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.cta.light.outline-over:hover {
   background: #f1852b;
   color: white;
   outline: none;

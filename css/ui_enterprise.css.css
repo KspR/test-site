@@ -110,11 +110,18 @@
   -webkit-box-shadow: 0 20px 100px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 20px 100px 0 rgba(0, 0, 0, 0.2);
   padding-bottom: 26px;
+  background: #f1852b;
 }
 
 .ui_enterprise .screenshots-slider .wrapper img {
-  width: 80vw;
-  max-width: 1100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  z-index: 1;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
 }
 
 .ui_enterprise .screenshots-slider .wrapper nav {
@@ -129,6 +136,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
+  z-index: 10;
 }
 
 .ui_enterprise .screenshots-slider .wrapper nav ul {
@@ -201,6 +209,40 @@
   opacity: .7;
   text-align: center;
   margin-top: 15px;
+  padding: 0 20px;
+  position: relative;
+}
+
+.ui_enterprise .screenshots-slider .legend span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  z-index: 1;
+  display: inline-block;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+.ui_enterprise .screenshots-slider.s1 .wrapper .s1,
+.ui_enterprise .screenshots-slider.s2 .wrapper .s2,
+.ui_enterprise .screenshots-slider.s3 .wrapper .s3 {
+  position: relative;
+  width: 80vw;
+  max-width: 1100px;
+  z-index: 5;
+  opacity: 1;
+}
+
+.ui_enterprise .screenshots-slider.s1 .legend .s1,
+.ui_enterprise .screenshots-slider.s2 .legend .s2,
+.ui_enterprise .screenshots-slider.s3 .legend .s3 {
+  position: relative;
+  width: 80vw;
+  max-width: 1100px;
+  z-index: 5;
+  opacity: 1;
 }
 
 .ui_enterprise .companies {
@@ -287,7 +329,9 @@
   margin-bottom: 15px;
 }
 
-.ui_enterprise .ready-to-deploy .wrapper .feature .name .fas:first-child {
+.ui_enterprise .ready-to-deploy .wrapper .feature .name .fas:first-child,
+.ui_enterprise .ready-to-deploy .wrapper .feature .name .far:first-child,
+.ui_enterprise .ready-to-deploy .wrapper .feature .name .fab:first-child {
   font-size: .9rem;
   margin-right: 8px;
   margin-left: 0;
@@ -412,7 +456,7 @@
 }
 
 .ui_enterprise .customer-story .wrapper .story-bloc .right-side .customer-info .portrait {
-  height: 40px;
+  height: 50px;
   border-radius: 100px;
   margin-left: 30px;
   background: #eee;
@@ -451,6 +495,19 @@
 .ui_enterprise .customer-story .wrapper .text-link img {
   height: 16px;
   margin-right: 12px;
+  position: relative;
+  top: 2px;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+
+.ui_enterprise .customer-story .wrapper .text-link:hover img {
+  -webkit-filter: grayscale(0.5);
+          filter: grayscale(0.5);
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
 }
 
 .ui_enterprise .safety-features {
@@ -537,7 +594,7 @@
   color: #3080e3;
   font-size: 1.1em;
   position: absolute;
-  top: 2px;
+  top: 3px;
   left: 0;
   -webkit-transition: -webkit-transform .35s;
   transition: -webkit-transform .35s;
@@ -607,8 +664,7 @@
   position: relative;
   -webkit-box-shadow: 0 -30px 20px 0 rgba(0, 0, 0, 0.1);
           box-shadow: 0 -30px 20px 0 rgba(0, 0, 0, 0.1);
-  padding: 80px;
-  padding-bottom: 20px;
+  padding: 80px 50px 20px;
 }
 
 .ui_enterprise .credibility-labels .wrapper .label-group img {
@@ -619,7 +675,7 @@
 }
 
 .ui_enterprise .credibility-labels .wrapper .label-group .legend {
-  opacity: .7;
+  color: #999;
   font-size: .8rem;
 }
 

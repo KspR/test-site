@@ -8,4 +8,13 @@ body * {
 ul {
   list-style: none;
 }
+
+button {
+  font-family: inherit;
+}
+
+button:focus {
+  border: none;
+  outline: none;
+}
 /*# sourceMappingURL=DDS_reset.css.css.map */
