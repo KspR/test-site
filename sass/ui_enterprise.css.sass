@@ -431,15 +431,29 @@
 						transform : rotate(90deg)
 		
 		@media only screen and (max-width : 768px)
+			.wrapper
+				padding-top : 0
+
 			.wrapper .illustration
-				width : calc(100% - 50px)
-				margin-top : 100px
+				margin-top : -50px
 				
 				img
 					width : 100%
 			
-				.story-bloc
-					position : absolute
+			.wrapper .story-bloc
+				position : relative
+				width : calc(100% - 40px)
+				margin-left : 40px
+
+				.left-side
+					display : none
+				.right-side
+					padding : 40px
+					blockquote
+						margin-left : 0
+					.customer-info
+						.logo
+							margin-left : 0
 
 	// --------------------------------------------------------------
 	// end of SECTION CUSTOMER STORY
