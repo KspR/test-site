@@ -594,16 +594,16 @@
   }
   .ui_enterprise .customer-story .wrapper .story-bloc .right-side .customer-info .logo {
     margin-left: 0;
-    display: block;
-    margin-bottom: 30px;
+    display: inline-block;
   }
   .ui_enterprise .customer-story .wrapper .story-bloc .right-side .customer-info .portrait {
     display: inline-block;
-    margin-left: 0;
+    margin-left: 20px;
   }
   .ui_enterprise .customer-story .wrapper .story-bloc .right-side .customer-info .customer-details {
-    display: inline-block;
-    margin-left: 20px;
+    display: block;
+    margin-top: 20px;
+    margin-left: 0;
   }
   .ui_enterprise .customer-story .wrapper .story-bloc .right-side .customer-info .customer-details .name {
     font-size: .9em;
