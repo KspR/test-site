@@ -14,6 +14,7 @@
 		font-size : 1.5rem
 		font-family : bold
 		color : $blackTitle
+		padding : 0 5%
 
 	// --------------------------------------------------------------
 	// SECTION LANDING
@@ -43,6 +44,21 @@
 				position : absolute
 			img + img
 				right : 0
+				left : unset
+
+			@media only screen and (max-width : 992px)
+				img
+					left : -30vw
+				img + img
+					right : -10vw
+					left : unset
+
+			@media only screen and (max-width : 768px)
+				img
+					left : -90vw
+				img + img
+					right : -50vw
+					left : unset
 		
 		h1, .intro-text, .cta
 			position : relative
@@ -212,6 +228,27 @@
 
 			li + li 
 				margin-left : 50px
+		
+		
+		@media only screen and (max-width : 768px)
+			ul
+				display : block
+				padding : 0 10%
+				font-size : 0
+
+				li
+					display : inline-block
+					width : 50%
+					text-align : center
+					
+					img
+						display : inline-block
+				
+				li + li
+					margin-left : 0
+
+				li + li + li
+					margin-top : 50px
 
 	// --------------------------------------------------------------
 	// end of SECTION SLIDER
@@ -267,6 +304,17 @@
 			.row:last-child .feature:nth-child(even)
 					background : #ececec
 
+			
+			@media only screen and (max-width : 768px)
+				.row
+					display : block
+				.feature
+					width : 100%
+					display : block
+					padding : 40px 50px
+					text-align : center
+
+
 
 	// --------------------------------------------------------------
 	// end of SECTION READY TO DEPLOY
@@ -288,19 +336,17 @@
 
 		.wrapper
 			margin-top : 70px
-			margin-bottom : 80px
+			margin-bottom : 30px
 			width : 80vw
-			max-width : 1100px
-			height : 500px
+			max-width : 900px
 			padding-top : 80px
 			position : relative
 			
 			.illustration
 				width : calc(100% - 50px)
+				max-height : 500px;
 				border-radius : 10px
 				overflow : hidden
-				height : 400px
-				background : beige
 				img
 					width : 100%
 			
@@ -383,6 +429,17 @@
 					img
 						filter : grayscale(.5)
 						transform : rotate(90deg)
+		
+		@media only screen and (max-width : 768px)
+			.wrapper .illustration
+				width : calc(100% - 50px)
+				margin-top : 100px
+				
+				img
+					width : 100%
+			
+				.story-bloc
+					position : absolute
 
 	// --------------------------------------------------------------
 	// end of SECTION CUSTOMER STORY
@@ -440,19 +497,19 @@
 						color : white
 						display : inline-block
 						text-align : left
-						font-size : .9rem
+						font-size : 1rem
 						line-height : 1.5rem
 						position : relative
-						padding-left : 24px
+						padding-left : 26px
 
 						transition : color .2s
 
 						.far
 							margin-right : 5px
 							color : $darkBlue
-							font-size : 1.1em
+							font-size : 1em
 							position : absolute
-							top : 3px
+							top : 5px
 							left : 0
 
 							transition : transform .35s
@@ -481,6 +538,20 @@
 
 				.feature + .feature
 					margin-top : 15px
+
+		
+		
+	@media only screen and (max-width : 768px)
+		.safety-features .wrapper
+			margin-top : 70px
+			width : 80vw
+			max-width : 900px
+			display : block
+
+			ul
+				width : 100%
+			ul + ul
+				padding-top : 0
 
 
 	// --------------------------------------------------------------
@@ -530,6 +601,24 @@
 				height : 100px
 				border-right : 1px solid rgba(0,0,0,.1)
 				margin : 0 70px
+		
+	@media only screen and (max-width : 768px)
+		.credibility-labels
+			display : block
+
+			.wrapper
+				margin : -40px auto 50px
+				width : 80%
+				display : block
+				.label-group
+					width : 100%
+					text-align : center !important
+					.legend
+						font-size : .9rem
+				.separator
+					display : none
+				.label-group ~ .label-group
+					margin-top : 60px
 
 	// --------------------------------------------------------------
 	// end of SECTION LABELS
