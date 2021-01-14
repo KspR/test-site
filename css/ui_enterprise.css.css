@@ -583,13 +583,42 @@
     display: none;
   }
   .ui_enterprise .customer-story .wrapper .story-bloc .right-side {
-    padding: 40px;
+    padding: 30px;
   }
   .ui_enterprise .customer-story .wrapper .story-bloc .right-side blockquote {
     margin-left: 0;
+    margin-bottom: 30px;
+  }
+  .ui_enterprise .customer-story .wrapper .story-bloc .right-side .customer-info {
+    display: block;
   }
   .ui_enterprise .customer-story .wrapper .story-bloc .right-side .customer-info .logo {
     margin-left: 0;
+    display: block;
+    margin-bottom: 30px;
+  }
+  .ui_enterprise .customer-story .wrapper .story-bloc .right-side .customer-info .portrait {
+    display: inline-block;
+    margin-left: 0;
+  }
+  .ui_enterprise .customer-story .wrapper .story-bloc .right-side .customer-info .customer-details {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  .ui_enterprise .customer-story .wrapper .story-bloc .right-side .customer-info .customer-details .name {
+    font-size: .9em;
+    opacity: .7;
+  }
+  .ui_enterprise .customer-story .wrapper .story-bloc .right-side .customer-info .customer-details .status {
+    display: block;
+    font-size: .8em;
+    opacity: .6;
+  }
+  .ui_enterprise .customer-story .wrapper .story-bloc .right-side .text-link {
+    margin-left: 0;
+    margin-top: 30px;
+    display: block;
+    text-align: left;
   }
 }
 
