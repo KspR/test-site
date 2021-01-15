@@ -80,7 +80,7 @@ $blue2 : #3892C7
 				width : 237px
 				height : 80px
 				background-size : contain
-				background-image : image-url("tmp/2020-10/business-case/company-logo.png")
+				background-image : url("tmp/2020-10/business-case/company-logo.png")
 
 				@media only screen and (min-width: 1080px)
 					float : left
@@ -555,6 +555,10 @@ body
 			a:not(.cta), .workflows
 				text-decoration : none
 				color : white
+				transition : color .3s
+				
+				&:hover
+					color : $orange
 
 			> a.cta, .workflows
 				+align-middle

@@ -2360,7 +2360,7 @@ body.page-not-found .wrapper .error {
   width: 237px;
   height: 80px;
   background-size: contain;
-  background-image: image-url("tmp/2020-10/business-case/company-logo.png");
+  background-image: url("tmp/2020-10/business-case/company-logo.png");
 }
 
 @media only screen and (min-width: 1080px) {
@@ -2989,6 +2989,12 @@ body .header .nav a.fav-sheet:before {
 body .header .nav a:not(.cta), body .header .nav .workflows {
   text-decoration: none;
   color: white;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+}
+
+body .header .nav a:not(.cta):hover, body .header .nav .workflows:hover {
+  color: #f1852b;
 }
 
 body .header .nav > a.cta, body .header .nav .workflows {
