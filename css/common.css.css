@@ -2989,8 +2989,8 @@ body .header .nav a.fav-sheet:before {
 body .header .nav a:not(.cta), body .header .nav .workflows {
   text-decoration: none;
   color: white;
-  -webkit-transition: color .3s;
-  transition: color .3s;
+  -webkit-transition: color .2s;
+  transition: color .2s;
 }
 
 body .header .nav a:not(.cta):hover, body .header .nav .workflows:hover {
