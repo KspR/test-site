@@ -1,256 +1,159 @@
 .ui_customer-story {
   position: relative;
   font-family: regular;
-  color: #444;
-}
-
-.ui_customer-story h2 {
-  font-size: 1.5rem;
-  font-family: bold;
-  color: #444;
-  padding: 0 5%;
-}
-
-.ui_customer-story > header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
+  color: #444; }
+  .ui_customer-story h2 {
+    font-size: 1.5rem;
+    font-family: bold;
+    color: #444;
+    padding: 0 5%; }
+  .ui_customer-story > header {
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding-top: 120px;
+    margin-top: 70px;
+    padding-bottom: 80px; }
+    .ui_customer-story > header::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: "";
+      display: block;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      background-image: url("../imgs/UI_Customer-story/draft-business-case-sympany.png");
+      background-position: center right;
+      background-repeat: no-repeat;
+      background-size: contain; }
+      @media only screen and (max-width: 1300px) {
+        .ui_customer-story > header::before {
+          filter: grayscale(1);
+          opacity: 0.13;
+          background-position: 100% 200px; } }
+    .ui_customer-story > header .main-info {
+      position: relative;
+      z-index: 2;
+      margin-left: 10%; }
+      .ui_customer-story > header .main-info .wrapper {
+        display: flex;
+        align-items: center; }
+        .ui_customer-story > header .main-info .wrapper .logo {
+          margin-right: 50px;
+          height: 100px;
+          border-radius: 5px 5px 0 5px; }
+        .ui_customer-story > header .main-info .wrapper h1 {
+          line-height: 2.4rem;
+          font-size: 1.8rem;
+          font-family: bold; }
+      .ui_customer-story > header .main-info .customers {
+        display: flex;
+        align-items: center;
+        margin-top: 60px; }
+        .ui_customer-story > header .main-info .customers .customer {
+          width: 350px;
+          padding: 25px;
+          border: 2px solid rgba(0, 0, 0, 0.08);
+          border-radius: 5px;
+          display: flex;
           align-items: center;
-  padding-top: 120px;
-  margin-top: 70px;
-  padding-bottom: 80px;
-}
+          background: white; }
+          .ui_customer-story > header .main-info .customers .customer .portrait {
+            border-radius: 100px;
+            height: 80px; }
+          .ui_customer-story > header .main-info .customers .customer .customer-details {
+            margin-left: 20px; }
+            .ui_customer-story > header .main-info .customers .customer .customer-details .name {
+              font-weight: 700;
+              font-size: 0.9em; }
+            .ui_customer-story > header .main-info .customers .customer .customer-details .status {
+              margin-top: 2px;
+              font-size: 0.85rem;
+              opacity: 0.7;
+              display: block; }
+        .ui_customer-story > header .main-info .customers .customer + .customer {
+          margin-left: 7px; }
+        @media only screen and (max-width: 1300px) {
+          .ui_customer-story > header .main-info .customers .customer {
+            border: none;
+            box-shadow: 0 5px 50px 0 rgba(0, 0, 0, 0.1); }
+          .ui_customer-story > header .main-info .customers .customer + .customer {
+            margin-left: 15px;
+            box-shadow: 20px 5px 50px 0 rgba(0, 0, 0, 0.1); } }
+  .ui_customer-story .customer-story {
+    background: #f2f2f2;
+    border-radius: 100px 0 0 0;
+    padding-top: 140px;
+    overflow: hidden;
+    max-width: 100%; }
+    .ui_customer-story .customer-story .wrapper {
+      position: relative;
+      background: white;
+      border-radius: 10px;
+      width: 900px;
+      max-width: 90%;
+      margin: 0 auto;
+      margin-bottom: 50px; }
+      .ui_customer-story .customer-story .wrapper .corner-deco {
+        display: block;
+        background: #f2f2f2;
+        border-radius: 200px;
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        top: -50px;
+        right: -50px; }
+      .ui_customer-story .customer-story .wrapper .illustration {
+        box-shadow: 0 20px 100px 0 rgba(0, 0, 0, 0.2);
+        width: calc(100% - 50px);
+        position: relative;
+        z-index: 1;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border-radius: 10px; }
+        .ui_customer-story .customer-story .wrapper .illustration.intro {
+          margin-top: -50px; }
+        .ui_customer-story .customer-story .wrapper .illustration.left-sided {
+          margin-left: -20px; }
+        .ui_customer-story .customer-story .wrapper .illustration.right-sided {
+          margin-right: -20px;
+          float: right; }
+      .ui_customer-story .customer-story .wrapper h2, .ui_customer-story .customer-story .wrapper > p, .ui_customer-story .customer-story .wrapper ol {
+        padding: 0 50px; }
+      .ui_customer-story .customer-story .wrapper h2 {
+        margin-bottom: 30px;
+        font-size: 1.3rem; }
+      .ui_customer-story .customer-story .wrapper > p {
+        margin-bottom: 20px;
+        line-height: 1.4rem; }
+      .ui_customer-story .customer-story .wrapper p + h2, .ui_customer-story .customer-story .wrapper ol + h2 {
+        margin-top: 70px; }
+      .ui_customer-story .customer-story .wrapper ol {
+        margin-top: 20px;
+        padding-left: 80px; }
+        .ui_customer-story .customer-story .wrapper ol li {
+          padding-left: 10px; }
+        .ui_customer-story .customer-story .wrapper ol li + li {
+          margin-top: 10px; }
+      .ui_customer-story .customer-story .wrapper .author-info {
+        border-top: 1px solid #eee;
+        padding: 50px;
+        margin-top: 40px;
+        display: flex;
+        align-items: center; }
+        .ui_customer-story .customer-story .wrapper .author-info .portrait {
+          border-radius: 70px;
+          height: 70px; }
+        .ui_customer-story .customer-story .wrapper .author-info .author-details {
+          margin-left: 20px; }
+          .ui_customer-story .customer-story .wrapper .author-info .author-details .name {
+            font-weight: bold;
+            font-size: 1rem; }
+          .ui_customer-story .customer-story .wrapper .author-info .author-details .status {
+            margin-top: 4px;
+            font-size: 0.9rem;
+            opacity: 0.7;
+            display: block; }
 
-.ui_customer-story > header::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  content: "";
-  display: block;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  background-image: url("../imgs/UI_Customer-story/draft-business-case-sympany.png");
-  background-position: center right;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-@media only screen and (max-width: 1300px) {
-  .ui_customer-story > header::before {
-    -webkit-filter: grayscale(1);
-            filter: grayscale(1);
-    opacity: .13;
-    background-position: 100% 200px;
-  }
-}
-
-.ui_customer-story > header .main-info {
-  position: relative;
-  z-index: 2;
-  margin-left: 10%;
-}
-
-.ui_customer-story > header .main-info .wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.ui_customer-story > header .main-info .wrapper .logo {
-  margin-right: 50px;
-  height: 100px;
-  border-radius: 5px 5px 0 5px;
-}
-
-.ui_customer-story > header .main-info .wrapper h1 {
-  line-height: 2.4rem;
-  font-size: 1.8rem;
-  font-family: bold;
-}
-
-.ui_customer-story > header .main-info .customers {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-top: 60px;
-}
-
-.ui_customer-story > header .main-info .customers .customer {
-  width: 350px;
-  padding: 25px;
-  border: 2px solid rgba(0, 0, 0, 0.08);
-  border-radius: 5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background: white;
-}
-
-.ui_customer-story > header .main-info .customers .customer .portrait {
-  border-radius: 100px;
-  height: 80px;
-}
-
-.ui_customer-story > header .main-info .customers .customer .customer-details {
-  margin-left: 20px;
-}
-
-.ui_customer-story > header .main-info .customers .customer .customer-details .name {
-  font-weight: 700;
-  font-size: .9em;
-}
-
-.ui_customer-story > header .main-info .customers .customer .customer-details .status {
-  margin-top: 2px;
-  font-size: 0.85rem;
-  opacity: .7;
-  display: block;
-}
-
-.ui_customer-story > header .main-info .customers .customer + .customer {
-  margin-left: 7px;
-}
-
-@media only screen and (max-width: 1300px) {
-  .ui_customer-story > header .main-info .customers .customer {
-    border: none;
-    -webkit-box-shadow: 0 5px 50px 0 rgba(0, 0, 0, 0.1);
-            box-shadow: 0 5px 50px 0 rgba(0, 0, 0, 0.1);
-  }
-  .ui_customer-story > header .main-info .customers .customer + .customer {
-    margin-left: 15px;
-    -webkit-box-shadow: 20px 5px 50px 0 rgba(0, 0, 0, 0.1);
-            box-shadow: 20px 5px 50px 0 rgba(0, 0, 0, 0.1);
-  }
-}
-
-.ui_customer-story .customer-story {
-  background: #f2f2f2;
-  border-radius: 100px 0 0 0;
-  padding-top: 140px;
-  overflow: hidden;
-  max-width: 100%;
-}
-
-.ui_customer-story .customer-story .wrapper {
-  position: relative;
-  background: white;
-  border-radius: 10px;
-  width: 900px;
-  max-width: 90%;
-  margin: 0 auto;
-  margin-bottom: 50px;
-}
-
-.ui_customer-story .customer-story .wrapper .corner-deco {
-  display: block;
-  background: #f2f2f2;
-  border-radius: 200px;
-  height: 100px;
-  width: 100px;
-  position: absolute;
-  top: -50px;
-  right: -50px;
-}
-
-.ui_customer-story .customer-story .wrapper .illustration {
-  -webkit-box-shadow: 0 20px 100px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 20px 100px 0 rgba(0, 0, 0, 0.2);
-  width: calc(100% - 50px);
-  position: relative;
-  position-z-index: 1;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  border-radius: 10px;
-}
-
-.ui_customer-story .customer-story .wrapper .illustration.intro {
-  margin-top: -50px;
-}
-
-.ui_customer-story .customer-story .wrapper .illustration.left-sided {
-  margin-left: -20px;
-}
-
-.ui_customer-story .customer-story .wrapper .illustration.right-sided {
-  margin-right: -20px;
-  float: right;
-}
-
-.ui_customer-story .customer-story .wrapper h2, .ui_customer-story .customer-story .wrapper > p, .ui_customer-story .customer-story .wrapper ol {
-  padding: 0 50px;
-}
-
-.ui_customer-story .customer-story .wrapper h2 {
-  margin-bottom: 30px;
-  font-size: 1.3rem;
-}
-
-.ui_customer-story .customer-story .wrapper > p {
-  margin-bottom: 20px;
-  line-height: 1.4rem;
-}
-
-.ui_customer-story .customer-story .wrapper p + h2, .ui_customer-story .customer-story .wrapper ol + h2 {
-  margin-top: 70px;
-}
-
-.ui_customer-story .customer-story .wrapper ol {
-  margin-top: 20px;
-  padding-left: 80px;
-}
-
-.ui_customer-story .customer-story .wrapper ol li {
-  padding-left: 10px;
-}
-
-.ui_customer-story .customer-story .wrapper ol li + li {
-  margin-top: 10px;
-}
-
-.ui_customer-story .customer-story .wrapper .author-info {
-  border-top: 1px solid #eee;
-  padding: 50px;
-  margin-top: 40px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.ui_customer-story .customer-story .wrapper .author-info .portrait {
-  border-radius: 70px;
-  height: 70px;
-}
-
-.ui_customer-story .customer-story .wrapper .author-info .author-details {
-  margin-left: 20px;
-}
-
-.ui_customer-story .customer-story .wrapper .author-info .author-details .name {
-  font-weight: bold;
-  font-size: 1rem;
-}
-
-.ui_customer-story .customer-story .wrapper .author-info .author-details .status {
-  margin-top: 4px;
-  font-size: 0.9rem;
-  opacity: .7;
-  display: block;
-}
 /*# sourceMappingURL=ui_customer-story.css.css.map */
