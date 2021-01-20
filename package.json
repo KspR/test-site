@@ -1,0 +1,23 @@
+{
+  "name": "test-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "watch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KspR/test-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KspR/test-site/issues"
+  },
+  "homepage": "https://github.com/KspR/test-site#readme",
+  "devDependencies": {
+    "handlebars": "^4.7.6",
+    "hound": "^1.0.5"
+  }
+}

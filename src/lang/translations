@@ -1,0 +1,793 @@
+hrefRoot
+	/
+	/fr/
+code
+	en
+	fr
+verbose
+	English
+	Français
+examples
+	title
+		Examples - Draft
+		Exemples - Draft
+	pageDescription
+		Have a look at our comprehensive example library to discover all you can do with Draft, although there is plenty more to imagine and build!
+		Découvrez notre collection d’exemples concrets, préparés par des experts. Cela vous donnera un large aperçu de ce que vous pouvez faire et construire grâce à Draft !
+example
+	pageDescription
+		&&example&& example on Draft. You can use it for free. No account required.
+		Exemple de &&example&& sur Draft. Vous pouvez l’utiliser sans créer de compte.
+	examples
+		Examples
+		Exemples
+	cta
+		Try example*
+		Essayez l'exemple*
+	asterisk
+		*No account required
+		*Pas de compte requis
+forgot
+	title
+		Forgot password - Draft
+		Mot de passe oublié - Draft
+	form
+		title
+			Reset password
+			Demande de réinitialisation
+		cta
+			Send reset link
+			Envoyer le lien de réinitialisation
+	sent
+		title
+			Reset password
+			Demande de réinitialisation
+		text
+			------
+			An email has been sent to your email address. You should receive it within 5 mins.<br />
+			You may need to check your spam folder.<br />
+			If you still have troubles, contact us at <a href="mailto:support@draft.io">support@draft.io</a>.
+			---
+			Un email a été envoyé à votre adresse email. Vous devriez le recevoir d'ici 5 minutes.<br />
+			Vous aurez peut-être à vérifier votre dossier "indésirables".<br />
+			Si vous rencontrez des problèmes, contactez-nous à <a href="mailto:support@draft.io">support@draft.io</a>.
+			------
+signup
+	title
+		Sign up - Draft
+		S'inscrire - Draft
+	validate
+		main
+			title
+				Validate your email
+				Validez votre adresse email
+			text
+				An email has been sent to your email address <br /><span class="email">%email%</span><br /><br />You'll be able to start with Draft once you've visited the link.
+				Un email vous a été envoyé à l’adresse suivante : <br /><span class="email">%email%</span><br /><br />Vous pourrez commencer à utiliser Draft une fois que vous aurez cliqué sur le lien contenu dans l’email reçu.
+			why
+				title
+					Why do we need to verify your email?
+					Pourquoi devons-nous verifier votre email ?
+				text
+					We use email addresses as a mean for our users to identify other users and share data with them.<br />Using a validated email gives us the necessary warranty that your identity on Draft and your data are safe.
+					Nous utilisons les adresses email comme moyen d’authentification des personnes avec lesquelles vous collaborez et partagez des informations.<br />S’assurer de la validité des adresses email de tous nos utilisateurs vous offre la garantie que votre identifé et vos données sont en sécurité sur Draft.
+	form
+		title
+			Sign up
+			S'inscrire
+		email
+			Email
+			Email
+		password
+			Password
+			Mot de passe
+		passwordc
+			Password confirmation
+			Confirmation
+		cta
+			Create account
+			S'inscrire
+		login
+			q
+				Already have an account?
+				Vous avez déjà un compte ?
+			invite
+				Log in
+				Se connecter
+		contact
+			q
+				Have questions?
+				Vous avez des questions ?
+			invite
+				Contact us
+				Contactez-nous
+login
+	title
+		Sign in - Draft
+		Se connecter - Draft
+	form
+		title
+			Log in
+			Se connecter
+		email
+			Email
+			Email
+		password
+			Password
+			Mot de passe
+		forgot
+			q
+				Forgotten your password?
+				Mot de passe oublié ?
+			invite
+				Reset it
+				Réinitialisez-le
+		signup
+			q
+				Don't have an account?
+				Pas encore de compte ?
+			invite
+				Sign up now
+				Inscrivez-vous
+id
+	en
+	fr
+root
+	/
+	/fr/
+pricing
+	forever
+		Forever
+		Pour toujours
+	faq
+		q1
+			q
+				What are drafts?
+				Qu’est-ce qu’un draft ?
+			a
+				Drafts are what we call our visual and collaborative digital documents that support creative and knowledge-based work, including Agile project management and product development.
+				Un draft est un document collaboratif, visuel et extrêmement malléable. Ce format de document a été conçu pour servir de support de réflexion, de prise de décision et de management visuel.
+		q2
+			q
+				Can I use Draft for free?
+				Puis-je utiliser Draft gratuitement ?
+			a
+				Yes, you can start using Draft now for free by signing up for a Free plan. It gives you access to 500 free items (across unlimited drafts), unlimited sharing, and more.
+				Bien sûr, notre plan gratuit est illimité dans le temps et vous permet d’utiliser jusqu’à 500 objets, seul ou bien à plusieurs avec d’autres utilisateurs ou invités, sans aucune limitation en matière de collaboration.
+		q3
+			q
+				What do you mean by an ‘unlimited number’ of guests?
+				Qu’entendez-vous par aucune limitation en matière de collaboration ?
+			a
+				Each draft you create comes equipped with its own URL. Regardless of the plan you’re on, you can grant access to your drafts to as many people as you want—whether they are Draft users or not—just by sharing the URL. There are no apps to download. There is no registration required. Just share a link and start collaborating with whomever you choose, instantly.
+				La collaboration et le partage font partie de l’ADN de Draft. En effet, chaque draft possède sa propre URL et peut-être partagé à qui vous le souhaitez, que ce soit d’autres utilisateurs Draft ou des invités ponctuels. Ces derniers n’ont pas besoin de se créer un compte pour collaborer et peuvent commencer à contribuer en quelques secondes.
+		q4
+			q
+				What's the difference between the Free and Pro plans?
+				Quelle est la différence entre le plan Gratuit et le plan Pro ?
+			a
+				The biggest difference between these two plans is based on how much content you can add to your drafts. In the Free plan, you can create up to 500 items across all of your drafts. In the Pro plan, there are no limits whatsoever.
+				La principale différence réside dans le fait que le plan Pro vous permet d’utiliser Draft au-delà de la limite de 500 objets, sans aucune restriction. Le plan Pro vous offre également la possibilité de partager plusieurs dossiers, et non un seul, avec d’autres utilisateurs Draft.
+		q5
+			q
+				Does Draft keep my data secure?
+				Draft n'est-il disponible que dans le cloud ?
+			a
+				Yes, our number one priority is to ensure your data is secure at all times. We use HTTPS protocol with TLSv1.2 or higher in transit and AES 256 at rest to give you peace of mind.
+				Pour vous permettre de satisfaire vos exigences de sécurité internes, Draft peut également être installé on-premise. L’application serait alors hébergée par vos soins sur votre propre réseau. Le prix serait adapté au cas par cas en fonction de vos spécifications.
+		q6
+			q
+				I want to use Draft for my team. What does the Team plan include?
+				Mes données sont-elles en sécurité ?
+			a
+				------
+				The Team plan was designed to streamline collaboration and knowledge management across teams and organizations. Key features include: 
+				<ul style="margin-left:20px;margin-top:5px;margin-bottom:5px;">
+					<li>Shared Sync Folder System: Anyone in a team can create folders to share easily with each other or with outside stakeholders (i.e. freelancers, agencies, customers, etc.).</li>
+					<li>Rich User Roles: Assign the right roles to each user within your Draft team, including manager, content manager, contributor, and viewer.</li>
+				</ul>
+				The Draft sync folder sharing system for teams is just as convenient and easy-to-use as other common file sharing tools like Dropbox or Google Drive. 
+				---
+				Draft utilise le protocole TLSv1.2 pour sécuriser les échanges de données entre vos terminaux et ses serveurs. Cela en garantit la confidentialité.
+				<br /><br />
+				Draft héberge ses données en France sur des serveurs OVH. Vos données sont protégées sur nos serveurs avec le standard de chiffrement AES 256 et sauvegardées une fois par jour sur un serveur de backup situé dans un autre lieu géographique, lui aussi sécurisé.
+				------
+		q7
+			q
+				What is an ‘admin’ in a Team plan?
+				Je veux collaborer en équipe au sein de mon organisation, qu’en est-il du plan Team ?
+			a
+				------
+				You can assign one (or several) admins to manage your Team plan. Only admins can add or remove users as your team changes.
+				---
+				Le plan Team a été conçu pour faciliter la collaboration et la gestion de la connaissance au sein d’une organisation.
+				<br /><br />
+				Tout d’abord, tous les membres de la Team partage un système de fichiers commun. Il s’agit du lien privilégié du partage de l’information.
+				<br /><br />
+				Ensuite, pour chaque projet, chaque membre de la Team peut créer des dossiers et les partager avec n’importe quel autre membre de la Team ainsi qu’avec des collaborateurs externes à la Team (freelance, agences, clients, fournisseurs, etc.). C’est aussi flexible et pratique que Google Drive !
+				------
+		q8
+			q
+				What is a ‘team member’ in a Team plan?
+				Qui administre la Team ?
+			a
+				A team member is anyone on a team having access to the shared sync folder system and other core Draft features. Unlike admins, they cannot add or remove users from your plan.
+				La license Team est administrée par un ou plusieurs administrateurs qui ont la capacité d’ajouter et retirer les accès à Team au fur et à mesure de l’évolution du périmètre de l’équipe.
+		q9
+			q
+				Do you offer discounts for education and non-profit organizations?
+				Proposez-vous une offre spéciale pour l’éducation et les ONG ?
+			a
+				Yes, we do! Please contact us at <a href="mailto:hi@draft.io">hi@draft.io</a> to learn more.
+				Oui, faciliter l’accès à l’éducation et à la connaissance à tout un chacun est l’une de nos missions les plus importantes. Nous vous invitons à nous contacter pour en discuter à l’adresse suivante : <a href="mailto:hi@draft.io">hi@draft.io</a>.
+	register
+		Sign up
+		S'inscrire
+	pageTitle
+		Pricing - Draft
+		Offres - Draft
+	pageDescription
+		Either you're solo or in a team, start right away for free.
+		Que vous soyez seul ou en équipe, commencez dès aujourd’hui avec notre plan gratuit.
+	title
+		Flexible pricing.<span class="if-not-1080"><br /></span><span class="if-1080"> </span>Scalable plans.
+		Des offres qui s’adaptent à l’évolution de vos besoins
+	baseline
+		Get started with a Free plan today
+		Démarrez dès aujourd’hui avec notre plan gratuit
+	periodYearly
+		<span class="if-1080">Pay yearly (save 17%)</span><span class="if-not-1080">Pay yearly (-17%)</span>
+		<span class="if-1080">Paiement annuel (-17%)</span><span class="if-not-1080">Paiement annuel (-17%)</span>
+	periodMonthly
+		<span>Pay monthly</span>
+		<span>Paiement mensuel</span>
+	team
+		contactSubject
+			I'm%20interested%20in%20your%20Team%20plan
+			Je%20suis%20intéressé%20par%20votre%20plan%20Team
+		title
+			Team
+			Team
+		punchline
+			Built for companies and teams
+			Pour les startups et les grandes entreprises
+		from
+			From
+			A partir de
+		users
+			Users
+			Utilisateurs
+		um
+			/user/mo
+			/util/mo
+		pum
+			Price/user/mo
+			Prix/util/mo
+		features
+			team-shared-folder
+				Team shared sync file system
+				Dossier commun partagé
+			fine-grained-access-management
+				Fine-grained access management
+				Gestion granulaire des droits d’accès
+			sso
+				SSO (SAML, etc)
+				SSO (SAML, etc.)
+			jira
+				Jira integration
+				Intégration Jira
+			phone-support
+				24/7 customer support
+				Support téléphonique et email 7j/7
+	pro
+		title
+			Pro
+			Pro
+		punchline
+			Get unlimited access to Draft tools
+			Pour devenir un véritable Drafter
+		features
+			unlimited-objects
+				Unlimited objects
+				Nombre d’objets illimité
+			unlimited-shared-folders
+				Unlimited shared folders
+				Nombre de dossiers partagés illimité
+			password-protection
+				Password protection per draft
+				Protection des drafts par mot de passe
+			manual-local-backup
+				Manual local backup
+				Backup local
+			email-support
+				Customer support (email only)
+				Support privilégié par email
+	free
+		title
+			Free
+			Gratuit
+		punchline
+			Start turning ideas into actions
+			Commencez à drafter immédiatement
+		features
+			up-to-500-objects
+				Up to 500 objects across drafts
+				Jusqu’à 500 objets à travers vos drafts
+			unlimited-drafts
+				Unlimited drafts
+				Nombre de drafts illimité
+			unlimited-url-sharing
+				Unlimited URL sharing
+				Partage et collaboration illimités
+			unlimited-guests
+				Unlimited guest contributors
+				Nombre d’invités illimité
+			one-shared-folder
+				One shared folder
+				Un dossier partagé
+home
+	pageDescription
+		Draft’s visual document universe has the power of flexible and collaborative virtual boards. Explore new ideas, agree on solutions, document action items, and drive desired outcomes efficiently.
+		Draft est un tableau virtuel collaboratif puissant et totalement malléable. Réunissez vos idées, évaluez vos options et planifiez visuellement pour développer les produits de demain avec succès.
+	title
+		Draft - Drive better outcomes, visually
+		Draft - Révélez le potentiel de vos équipes
+	landing
+		punchline
+			Drive better outcomes, visually.
+			Révélez le potentiel de vos équipes
+		baseline
+			Draft’s innovative ‘visual document universe’ enhances your ability to turn ideas into action.
+			Réunissez vos idées, évaluez vos options et planifiez visuellement dans un univers collaboratif et totalement malléable.
+	s1
+		title
+			A new path for planning and decision-making
+			Libérez l’intelligence collective des contraintes du monde digital
+		t1
+			If you feel like today’s digital tools get in the way of unleashing the full potential of your original projects, you’re not alone. That’s why we created <span>Draft</span>.
+			Comme nous, vous vous êtes sûrement déjà senti contraint par les outils et environnements digitaux existants.
+		t2
+			We knew there had to be <span>a better way for teams to think collectively and work collaboratively</span> in the digital environment—and overcome the challenges of turning ideas into meaningful action.
+			C’est pourquoi nous avons conçu <span>Draft</span>, un <span>format de document visuel et malléable</span> qui possède la puissance d’un tableau virtuel collaboratif.
+		t3
+			<span>Draft</span>’s one-of-a-kind ‘visual document universe’ does just that. It enables teams to explore new ideas, agree on solutions, document action items, and drive desired outcomes.
+			Draft est le <span>support digital idéal</span> pour explorer vos problèmes avec créativité, concevoir les solutions optimales et documenter juste ce qu’il faut pour mener vos projets à bien.
+	s2
+		title
+			A perfect balance between freedom and structure
+			Draft vous apporte le parfait équilibre entre liberté et structure
+		t1
+			title
+				Interact
+				Interagissez
+			text
+				Give teams a collaborative space for jotting down and refining ideas dynamically.
+				Collectez, notez et exploitez tous les éléments susceptibles de nourrir la réflexion collective.
+		t2
+			title
+				Imagine
+				Imaginez
+			text
+				Build a shared understanding of current challenges in order to identify desired outcomes.
+				Construisez une vision commune pour focaliser vos équipes sur les enjeux clés.
+		t3
+			title
+				Iterate
+				Itérez
+			text
+				Coordinate tasks across distributed teams quickly, easily, and seamlessly.
+				Coordonnez visuellement vos équipes et levez les obstacles pour atteindre vos objectifs.
+	s3
+		title
+			Who is Draft for?
+			Vos processus Agiles et Produit couverts de bout en bout
+		scrum-master
+			href
+				agile-project-management
+				agile-project-management
+			title
+				Agile Project Management
+				Gestion de projet Agile
+			detail
+				For Scrum Masters and Product Owners responsible for maintaining streamlined processes and running virtual ceremonies.
+				Pour les Scrum Masters et Product Owners qui construisent des artefacts de management visuel et animent des cérémonies et ateliers à distance.
+		product-manager
+			href
+				product-management
+				product-management
+			title
+				Product Management
+				Conception de produit
+			detail
+				For Product Managers, Designers, and Development Engineers in charge of building innovative products.
+				Pour les Product Managers, Designers et Développeurs qui imaginent et développent les produits technologiques de demain.
+		knowledge-worker
+			href
+				everyday-knowledge-work
+				everyday-knowledge-work
+			title
+				Everyday Creative Work
+				Travail créatif quotidien
+			detail
+				For anyone requiring a more visual, collaborative, and nonlinear way to tackle everyday creative challenges.
+				Pour les professionnels du digital qui souhaitent tirer profit d’un mode de travail à la fois plus visuel et plus créatif.
+		more
+			Learn more
+			En savoir plus
+	features
+		title
+			What does Draft do?
+			Des fonctionnalités au service de votre efficacité et de votre liberté d’action
+workflows
+	agile-project-management
+		pageDescription
+			For Scrum Masters and Product Owners responsible for maintaining streamlined processes and running virtual ceremonies, Draft embraces all Agile workflows with flexibility and simplicity.
+			Pour les Scrum Masters et Product Owners, Draft peut accueillir tout votre processus Agile. Planifiez visuellement et formalisez juste ce qu’il faut pour développer les produits de demain.
+		title
+			Draft for Agile Project Management
+			Draft pour la Gestion de projet Agile
+		landing
+			punchline
+				Draft for<br /><span>Agile Project Management</span>
+				Draft pour<br /><span>la gestion de projet Agile</span>
+			baseline
+				one
+					Plan and create unique products in fast-moving environments. Draft embraces all Agile workflows with flexibility, simplicity, and ease.
+					Planifier et formaliser juste ce qu’il faut pour développer des produits innovants dans un contexte incertain et changeant.
+				two
+					As a flexible yet structured visual support, Draft can embrace your whole Agile workflow.
+					En tant que support collaboratif et polyvalent, Draft peut accueillir l’intégralité de votre système de gestion de projet Agile.
+		ucs
+			story-mapping
+				title
+					Story Mapping
+					Story Mapping
+				text
+					Create a big picture of the user experience by mapping product requirements visually along a clean and cohesive narrative flow.
+					Prenez le recul nécessaire et construisez une compréhension commune des attentes de vos utilisateurs en cartographiant la structure narrative de leur parcours à travers votre produit.
+			scrum-board
+				title
+					Scrum Board
+					Scrum Board
+				text
+					Add greater transparency, clarity, and flexibility to team task management.
+					Gérez les tâches de votre équipe dans un outil flexible qui favorise aussi bien la transparence que la réflexion et la prise de décision collectives.
+			program-board
+				title
+					Program Board
+					Tableau des dépendances
+				text
+					Coordinate cross-functional teams in real-time and get a bird’s eye view of dependencies to prevent bottlenecks.
+					Construisez des artefacts de management visuel complexes et totalement personnalisés pour coordonner le travail de vos équipes, identifier les dépendances entre les tâches et lever les éventuels obstacles.
+			retrospective
+				title
+					Retrospective
+					Rétrospective
+				text
+					Design your own retrospective exercises or use one of our templates to get started.
+					Élaborez vos propres ateliers de rétrospective ou démarrez immédiatement à partir de l’un des nombreux modèles proposés (Timeline, 4Ls, Speedboat, Etoile de mer, Start/Stop/Continue)
+				template
+					timeline-retrospective
+					timeline-retrospective
+		features
+			title
+				Encourage communication and maximize transparency with these features
+				Des fonctionnalités spécialement imaginées pour encourager<br />la transparence et la communication dans vos projets Agiles
+			story-card
+				title
+					Story Cards
+					Cartes de <span>user stories</span>
+				text
+					Manage projects visually by gathering critical information about user stories on useful digital cards.
+					Mentionnez-y toutes les informations utiles au sujet de vos user stories (id, statut, taille, etc.).
+			jira-integration
+				title
+					Jira Integration
+					Intégration Jira symétrique
+				text
+					Streamline your team’s workflow in real-time with bi-directional syncing between Draft and Jira.
+					Synchronisez vos cartes Draft avec vos tickets Jira et fluidifiez l’ensemble de votre processus de gestion de projet Agile.
+			vote
+				title
+					Voting
+					Vote
+				text
+					Improve team decision-making by making sticky-notes or story card voteable.
+					Conduisez des sessions de vote pour rationaliser votre processus de prise de décision.
+			polling-booth-mode
+				title
+					Polling booth mode
+					Mode isoloir
+				text
+					Allow team members to add ideas without them being visible to others.
+					Ajoutez vos idées sans que celles-ci n’influencent la réflexion des autres participants.
+	product-management
+		pageDescription
+			For Product Managers, Designers, and Development Engineers in charge of building innovative products, Draft offers the perfect workspace for the entire product development process.
+			Pour les Product Managers, Designers et Développeurs, Draft est un environnement parfait pour réaliser le product discovery, affiner votre réflexion stratégique et partager vos roadmaps.
+		title
+			Draft for Product Management
+			Draft pour le Product Management
+		landing
+			punchline
+				Draft for<br /><span>Product Management</span>
+				Draft pour<br /><span>le Product Management</span>
+			baseline
+				one
+					Pinpoint user needs, assess opportunities, and build solutions in a collaborative and visual environment. Draft offers the perfect workspace for the entire product development process.
+					Exposez les problèmes rencontrés par vos utilisateurs, explorez les opportunités et visualisez les solutions possibles tout en impliquant votre équipe à chaque étape.
+				two
+					Draft is the perfect workspace to carry out your product discovery work, build intelligence, and share your product roadmaps.
+					Draft est un environnement idéal pour réaliser des recherches produit et marché, investiguer le comportement de ses utilisateurs et partager sa roadmap produit.
+		ucs
+			product-discovery
+				title
+					Product Discovery
+					Product Discovery
+				text
+					Collect market and competitive intelligence and then turn it into actionable knowledge that can guide decisions around if, why, and how you should develop your next product.
+					Collectez de l’information au sujet de votre marché, vos utilisateurs et vos concurrents. Transformez ces informations hétérogènes en connaissance décisive pour déterminer si oui, pourquoi et comment votre produit doit être développé.
+			prioritizing
+				title
+					Prioritization Frameworks
+					Table des Hypothèses
+				text
+					Address risks early-on and make smarter long-term product development decisions with Draft’s customizable prioritization frameworks.
+					Utilisez Draft pour travailler sur divers cadres de priorisation, traiter les risques identifiés en amont et, in fine, prendre de meilleures décisions.
+				template
+					defining-and-prioritizing-hypothesis-statements
+					defining-and-prioritizing-hypothesis-statements
+			user-flow
+				title
+					User Flow
+					Parcours Utilisateur
+				text
+					Build user-centric product experiences from the very start with flexible and visual user flows that enable real-time communication and collaboration across product teams.
+					Cartographiez les trajets de vos utilisateurs et projetez-vous dans leur expérience tout en favorisant la communication au sein de votre équipe.
+			product-roadmap
+				title
+					Product Roadmap
+					Roadmap Produit
+				text
+					Establish a central place where a product’s vision, strategic goals, and other relevant information can be stored and easily shared with all key stakeholders.
+					Établissez votre stratégie produit et ancrez vos objectifs stratégiques sur un support qui s’adapte à votre vision, puis partagez votre roadmap produit avec toutes les parties prenantes concernées.
+		features
+			title
+				Take advantage of these features to build great products, faster
+				Des fonctionnalités conçues pour développer de meilleurs produits, plus rapidement
+			lists
+				title
+					Lists
+					Listes
+				text
+					Jot down ideas and combine list items together easily to keep important information all in one place.
+					Notez vos idées à la chaîne et organisez vos documents intuitivement avec des listes protéiformes. 
+			unified-living-environment
+				title
+					Ever-Evolving Environment
+					Un environnement unifié et évolutif
+				text
+					Drive better outcomes via Draft’s seamless, flexible, and intuitive visual document universe.
+					Draft forme un univers unifié et évolutif au sein duquel vos projets peuvent prendre forme au fur et à mesure.
+			right-level-of-focus
+				title
+					Stay Focused
+					Toujours le bon niveau de détail
+				text
+					Easily arrange large amounts of diverse information into many smaller, more focused fragments to improve decision-making.
+					Fragmentez et associez différentes types et niveaux d’information afin d’éclaircir votre réflexion et aider vos prises de décision.
+			folder-sharing
+				title
+					Folder Sharing
+					Partage de dossiers
+				text
+					Spark collaboration and streamline knowledge management by sharing folders and assigning the right roles to each user.
+					Créez des dossiers et partagez-les avec d’autres utilisateurs pour impliquer toute votre équipe sur un même projet.
+	everyday-knowledge-work
+		pageDescription
+			For anyone requiring a more collaborative and nonlinear way to tackle everyday creative challenges, Draft helps you organize your thoughts so that you can get the most value out of them.
+			Pour tous ceux qui cherchent une manière plus visuelle et non-linéaire de réfléchir et s’organiser. Draft vous permet de décrire, manipuler et partager vos idées de façon à en tirer le maximum.
+		title
+			Draft for Everyday Creative Work
+			Draft pour le Travail créatif quotidien
+		landing
+			punchline
+				Draft for<br /><span>Everyday Creative Work</span>
+				Draft pour<br /><span>le travail créatif quotidien</span>
+			baseline
+				one
+					Add structure to new ideas, manage tasks, and collaborate seamlessly. Draft helps you organize your thoughts so that you can get the most value out of them.
+					Favorisez la porosité entre chaque étape de votre travail, qu’il soit personnel ou professionnel, individuel ou collaboratif.
+				two
+					Clarify your thoughts, list your tasks, and share your ideas. Draft let you describe and manipulate your knowledge in ways that help you get the best out of it.
+					Clarifiez vos pensées, listez les tâches à effectuer et partagez vos idées. Draft vous laisse représenter et manipuler vos idées d’une manière qui vous permet d’en tirer le maximum de valeur.
+		ucs
+			todo-lists
+				title
+					To-Do List
+					To-do List
+				text
+					Stay focused on what matters most by capturing all of your to-do’s in a single, convenient place.
+					Laissez reposer votre pensée en regroupant au même endroit toutes les choses que vous envisagez de faire afin de rester concentré sur ce qui a le plus de valeur pour vous.
+				template
+					to-do-list
+					to-do-list
+			organizing-your-ideas
+				title
+					Idea Organization
+					Organiser ses idées
+				text
+					Fuel ideation by jotting down and refining ideas in a dynamic, flexible, and visual workspace.
+					Combinez, affinez et structurez vos idées dans un environnement visuel et infini. Draft accompagne naturellement la croissance de vos projets.
+				template
+					affinity-diagram
+					affinity-diagram
+			creative-work
+				title
+					Creative Work
+					Travail créatif
+				text
+					Build cohesion and spark innovation with creative work via mood boards and other tools that make it easy to see, compare, and evaluate all creative assets in one central place.
+					En rendant visible l’intégralité du contenu créatif tout en offrant la possibilité de changer aisément de perspective, Draft vous aide à créer de nouvelles synthèses et générer des idées novatrices.
+				template
+					moodboard
+					moodboard
+			collecting-feedback
+				title
+					Feedback Sharing
+					Recueillir du feedback
+				text
+					Share ideas with colleagues and invite them to contribute feedback in a truly interactive way.
+					Draft vous offre une façon simple de partager vos idées et faire contribuer vos collaborateurs sur tout type de projet.
+		features
+			title
+				Release your creativity and improve your productivity with these features
+				Alliez créativité et efficacité avec les fonctionnalités suivantes
+			lists
+				title
+					Lists
+					Listes
+				text
+					Jot down ideas, capture whatever inspires you, and structure your thoughts via mixed-item lists and sublists.
+					Notez vos idées à la chaîne et organisez vos documents intuitivement avec des listes protéiformes.
+			simple-navigation
+				title
+					Simple Navigation
+					Un système de navigation ergonomique
+				text
+					Access all of your drafts with a single click via a clean, simple, and intuitive tabbed file management system.
+					Le système de fichiers à la Google Drive couplé au système d’onglets vous facilitent l’accès à toute information utile, à tout moment.
+			visual-clusters
+				title
+					Visual Clusters
+					Cluster visuels
+				text
+					Make the most of auto-adjusting convex hulls and fixed frames to gather information in a uniquely visual way.
+					Dessiner des cadres ou des enveloppes pour rassembler visuellement et intuitivement des informations de même nature.
+			folder-sharing
+				title
+					Folder Sharing
+					Partage de dossiers
+				text
+					Spark collaboration and streamline knowledge management by sharing folders and assigning the right roles to each user.
+					Créez des dossiers et partagez-les avec d’autres utilisateurs pour impliquer toute votre équipe sur un même projet.
+features
+	scalable-document
+		title
+			Unlimited scalability
+			Un support de travail visuel et évolutif
+		detail
+			Endlessly adapt your digital documents to meet your project’s specific needs and improve efficiency across distributed teams.
+			Profitez de la structure intrinsèque de Draft et de sa flexibilité pour organiser naturellement votre contenu.
+	right-level-of-focus
+		title
+			Intelligent organization
+			Toujours le bon niveau de focalisation
+		detail
+			Arrange large amounts of information into smaller and related sub-documents to facilitate project management and decision-making.
+			Fragmentez et associez différents types et niveaux d’information pour éclaircir votre réflexion et appuyer vos prises de décision.
+	collaboration
+		title
+			Seamless collaboration
+			Un tableau intrinsèquement collaboratif
+		detail
+			A shared, seamless, and disruption-free environment that enables asynchronous and real-time collaboration.
+			Co-éditez et interagissez avec vos équipes, en temps réel ou décalé, dans un univers commun partagé.
+	jira-integration
+		title
+			Integration with Jira
+			Intégration Jira symétrique et temps réel
+		detail
+			Synchronize Draft story cards with Jira to simplify and streamline your Agile project management workflows.
+			Synchronisez vos cartes Draft avec vos tickets Jira, et fluidifiez l’ensemble de votre processus de gestion de projet Agile.
+	large-collection-template
+		title
+			Examples and quick-start templates
+			Une large collection de modèles et d’exemples
+		detail
+			Don’t know where to begin? Our comprehensive example and template library helps you get the most out of Draft immediately.
+			Démarrez immédiatement à partir d’un des 30 modèles prêts à l’emploi ou découvrez Draft avec l’un des 40 exemples concrets, préparés par des experts.
+	unlimited-sharing
+		title
+			Easy sharing
+			Partage et collaboration illimités
+		detail
+			Share your drafts with as many collaborators as you’d like with a single click. No login required in guest mode.
+			Partagez vos drafts un par un, ou par dossier, en un clic. Collaborez avec qui vous voulez, sans limitation, grâce au mode “Invité”.
+workflow
+	discover-example
+		Discover this example
+		Découvrez cet exemple
+register
+	title
+		Start your first draft today!
+		Démarrez dès aujourd’hui
+	cta
+		Get started
+		S'inscrire
+	ph
+		Enter your email
+		Entrez votre email
+	detail
+		if-1080
+			Start your first draft today. Sign up for a Free plan.
+			Notre plan gratuit est illimité dans le temps et vous donne accès à toutes les fonctionnalités du <a href="pricing">plan Pro</a>.
+		if-not-1080
+			Start your first draft today.<br />Sign up for a Free plan.
+			Notre plan gratuit est illimité dans le temps<br />et vous donne accès à toutes les fonctionnalités du <a href="pricing">plan Pro</a>.
+footer
+	customer-stories
+		Customer stories
+		Customer stories
+	language
+		Language
+		Langue
+	product
+		Product
+		Produit
+	home
+		Home
+		Accueil
+	agile
+		Draft for Agile Project Management
+		Draft pour la gestion de projet Agile
+	pm
+		Draft for Product Management
+		Draft pour le Product Management
+	everyday
+		Draft for Everyday Creative Work
+		Draft pour le travail créatif quotidien
+	examples
+		Examples
+		Exemples
+	pricing
+		Pricing
+		Offres
+	login
+		Sign in
+		Se connecter
+	register
+		Sign up
+		S'inscrire
+	resources
+		Resources
+		Ressources
+	terms
+		Terms
+		Termes
+	privacy
+		Privacy
+		Sécurité et confidentialité
+	contact
+		Contact Us
+		Contactez-nous
+header
+	agile
+		Agile Project Management
+		Gestion de projet Agile
+	pm
+		Product Management
+		Product Management
+	everyday
+		Everyday Creative Work
+		Travail créatif quotidien
