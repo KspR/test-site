@@ -40,16 +40,12 @@ exports.watchHbs = function() {
 						if (/\.html$/.exec(e)) {
 							var template = fs.readFileSync(viewsDir + '/' + e).toString();
 							var hbs = HandleBars.compile(template);
-							fs.writeFile('./dist/' + e.split(/\.html$/)[0] + '.' + lang + '.html', hbs(data), function(err) {
-								if (err) {
-									console.log('err', err);
-								}
-							});
+							fs.writeFileSync('./dist/' + e.split(/\.html$/)[0] + '.' + lang + '.html', hbs(data));
 						}
 					})
 				}
 				catch(e) {
-					console.log(e);
+					// console.log(e);
 				}
 			}
 		});

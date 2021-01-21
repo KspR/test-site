@@ -55,6 +55,9 @@
         buffer = '';
         for (i = l = 0, ref = lines.length; 0 <= ref ? l < ref : l > ref; i = 0 <= ref ? ++l : --l) {
           line = lines[i];
+          console.log('------ new line ------');
+          console.log(line, inTranslation, mode);
+          console.log('---');
           if (mode !== 'multi') {
             if (line.text === '------') {
               mode = 'multi';
@@ -65,31 +68,39 @@
               if (lines[i + 1]) {
                 nextIndent = lines[i + 1].indent;
                 if (nextIndent === indent) {
+                  console.log('same indent as next line');
                   if (!inTranslation) {
+                    console.log('appended as new translation for current key ' + keys.join('.'));
                     langs[0][keys.join('.')] = line.text;
                     inTranslation = 1;
                   } else {
+                    console.log('appended as translation for current key ' + keys.join('.'));
                     langs[inTranslation][keys.join('.')] = line.text;
                     inTranslation++;
                   }
                 } else {
                   if (typeof inTranslation === 'number') {
+                    console.log('appnded as last translation for current key ' + keys.join('.'));
                     langs[inTranslation][keys.join('.')] = line.text;
                     inTranslation = false;
                   }
                   if (nextIndent > indent) {
+                    console.log('pushing key', keys.join('.'), line.text);
                     keys.push(line.text);
                   } else {
                     for (j = m = 0, ref1 = indent - nextIndent; 0 <= ref1 ? m < ref1 : m > ref1; j = 0 <= ref1 ? ++m : --m) {
                       keys.pop();
+                      console.log('poping key');
                     }
                   }
                 }
               } else {
+                console.log('appended as last translation');
                 langs[inTranslation][keys.join('.')] = line.text;
               }
             }
           } else {
+            console.log('mode is multi', inTranslation, buffer);
             if (line.text === '------') {
               langs[inTranslation][keys.join('.')] = buffer;
               mode = null;
@@ -99,6 +110,7 @@
                 nextIndent = lines[i + 1].indent;
                 for (j = n = 0, ref2 = indent - nextIndent; 0 <= ref2 ? n < ref2 : n > ref2; j = 0 <= ref2 ? ++n : --n) {
                   keys.pop();
+                  console.log('poping key');
                 }
               }
             } else if (line.text === '---') {
