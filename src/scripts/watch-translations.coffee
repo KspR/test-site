@@ -51,12 +51,11 @@ exports.watchTranslations = ->
 			for i in [0...lines.length]
 				line = lines[i]
 
-				console.log '------ new line ------'
-				console.log line, inTranslation, mode
-				console.log '---'
+				console.log '------ new line line', line, inTranslation, mode
 
 				if mode isnt 'multi'
 					if line.text is '------'
+						console.log 'setting mode to multi'
 						mode = 'multi'
 						inTranslation = 0
 						buffer = ''
@@ -93,6 +92,7 @@ exports.watchTranslations = ->
 					console.log 'mode is multi', inTranslation, buffer
 					if line.text is '------'
 						langs[inTranslation][keys.join('.')] = buffer
+						console.log 'setting mode to null'
 						mode = null
 						inTranslation = false
 

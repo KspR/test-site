@@ -55,11 +55,10 @@
         buffer = '';
         for (i = l = 0, ref = lines.length; 0 <= ref ? l < ref : l > ref; i = 0 <= ref ? ++l : --l) {
           line = lines[i];
-          console.log('------ new line ------');
-          console.log(line, inTranslation, mode);
-          console.log('---');
+          console.log('------ new line line', line, inTranslation, mode);
           if (mode !== 'multi') {
             if (line.text === '------') {
+              console.log('setting mode to multi');
               mode = 'multi';
               inTranslation = 0;
               buffer = '';
@@ -103,6 +102,7 @@
             console.log('mode is multi', inTranslation, buffer);
             if (line.text === '------') {
               langs[inTranslation][keys.join('.')] = buffer;
+              console.log('setting mode to null');
               mode = null;
               inTranslation = false;
               indent = line.indent;
