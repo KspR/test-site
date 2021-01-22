@@ -203,7 +203,7 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
 
 @media only screen and (max-width: 992px) {
   body > header.main-header #btnBurgerMenu {
-    display: block;
+    display: none;
   }
   body > header.main-header .burger-btn {
     display: flex;
