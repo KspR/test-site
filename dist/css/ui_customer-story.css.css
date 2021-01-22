@@ -65,7 +65,7 @@
 .ui_customer-story .ui-header .main-info .wrapper .logo {
   margin-right: 50px;
   height: 100px;
-  border-radius: 5px 5px 0 5px;
+  border-radius: 5px;
 }
 .ui_customer-story .ui-header .main-info .wrapper h1 {
   line-height: 2.4rem;
@@ -213,7 +213,7 @@
     background-position: 100% 102px;
   }
   .ui_customer-story .ui-header.sympany::before {
-    background-position: 100% 330px;
+    background-position: 100% 430px;
   }
   .ui_customer-story .ui-header {
     display: block;
@@ -231,7 +231,6 @@
     margin: 0 auto;
     display: block;
     height: 100px;
-    border-radius: 5px 5px 0 5px;
   }
   .ui_customer-story .ui-header .main-info .wrapper h1 {
     line-height: 2rem;
