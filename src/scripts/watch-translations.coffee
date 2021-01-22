@@ -41,7 +41,6 @@ exports.watchTranslations = ->
 				res
 			).filter((line) -> not(line.comment))
 
-			keys = []
 
 			keys = []
 			langs = [{}, {}]
@@ -52,6 +51,7 @@ exports.watchTranslations = ->
 				line = lines[i]
 
 				# console.log '------ new line line', line, inTranslation, mode
+				line.text = line.text.replace(/\r/, '')
 
 				if mode isnt 'multi'
 					if /^------/.exec(line.text)

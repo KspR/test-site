@@ -49,12 +49,12 @@
           return !line.comment;
         });
         keys = [];
-        keys = [];
         langs = [{}, {}];
         mode = null;
         buffer = '';
         for (i = l = 0, ref = lines.length; 0 <= ref ? l < ref : l > ref; i = 0 <= ref ? ++l : --l) {
           line = lines[i];
+          line.text = line.text.replace(/\r/, '');
           if (mode !== 'multi') {
             if (/^------/.exec(line.text)) {
               mode = 'multi';
