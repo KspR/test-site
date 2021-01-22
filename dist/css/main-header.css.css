@@ -131,9 +131,6 @@ body > header.main-header .burger-btn .wrapper .deco-btn-burger {
 body > header.main-header .burger-btn .wrapper .deco-btn-burger + .deco-btn-burger {
   margin-top: 8px;
 }
-body > header.main-header #btnBurgerMenu:checked + .burger-btn {
-  border: 2px solid green;
-}
 body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-btn-burger {
   transform: rotate(135deg);
 }
