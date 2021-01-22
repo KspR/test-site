@@ -267,7 +267,8 @@
     display: block;
   }
   .ui_customer-story .customer-story .wrapper .illustration.intro {
-    margin-top: -50px;
+    margin-top: -70px;
+    box-shadow: none;
   }
   .ui_customer-story .customer-story .wrapper .illustration.left-sided, .ui_customer-story .customer-story .wrapper .illustration.right-sided {
     margin-left: auto;
