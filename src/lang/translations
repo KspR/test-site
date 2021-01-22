@@ -791,3 +791,458 @@ header
 	everyday
 		Everyday Creative Work
 		Travail créatif quotidien
+separateur-XXX-END
+	================================================================================ XXX
+	================================================================================ XXX
+separateur-UI-USER-STORY
+	================================================================================ UI-USER-STORY
+	================================================================================ UI-USER-STORY EVOYAGEUR
+ui-customer-story
+	eVoyageur
+		header
+			title
+				Transforming customer experience<br>with User Story Mapping
+				Transformer l’expérience utilisateur<br>grâce au User Story Mapping
+			contributor1
+				name
+					Anne-Laure JEAN
+					Anne-Laure JEAN
+				status
+					Product Manager at e-Voyageurs SNCF
+					Product Manager at e-Voyageurs SNCF
+			contributor2
+				name
+					Mohamed MOUSSA
+					Mohamed MOUSSA
+				status
+					Scrum Master / Coach Agile at e-Voyageurs SNCF
+					Scrum Master / Coach Agile at e-Voyageurs SNCF
+		body-content
+			------
+			<img class="illustration left-sided intro" src="./imgs/UI_Customer-story/evoyageurs/1_story_mapping_ecrans.png" alt="Story mapping screenshot">
+			<h2>How SNCF's Digital Factory Made User Story Mapping a Central Tool for Conception and Development Workflows</h2>
+			<p>
+				The SNCF is France's state-owned railway company. The group employs 272,000 people and generates around €35B per year. On an average day, the train company operates 15,000 trains that transport roughly 10 million passengers around France: a truly massive footprint!
+			</p>
+			<p>
+				e-Voyageurs SNCF is the subsidiary responsible for the railway company’s ticketing system and online sales platform (Oui.sncf), which processes 110 million tickets per year, accounting for nearly €5B in total annual sales.
+			</p>
+			<p>
+				At e-Voyageurs SNCF, Anne-Laure Jean supervises product management for two Agile development teams (a total of 17 developers, QA testers, and product owners) that work on complex backend products. Mohamed Moussa is a Scrum Master in one of these teams, responsible for spreading Agile philosophy and best practices across SNCF’s Digital Factory.
+			</p>
+
+			<img class="illustration right-sided" src="./imgs/UI_Customer-story/evoyageurs/2_IMG_20200831_121410.jpg" alt="Management and monitoring whiteboard">
+			<h2>“Did we forget an essential part of the product?”</h2>
+			<p>
+				As Agile methodologies were introduced to the Factory, product owners were appointed in development teams almost overnight, without them having previous experience in that role. Some of them had a good intuition about which new product features were on the roadmap. Others lacked enough of a big picture view to get a clear understanding of the coming product and technical challenges. This created frustration for dev engineers who often find themselves having to make structural choices in terms of technical architecture without being able to envision all the consequences.
+			</p>
+			<p>
+				“Did we forget an essential part of the product?” was the question that kept Anne-Laure awake at night. With many inputs from various business owners, she faced a sensitive challenge for sorting things out in a meaningful way without letting key business insights aside.
+			</p>
+			<p>
+				It became clear that “product owners needed a tool to help get a broader view of which user stories were truly needed to solve midterm product development questions,” said Anne-Laure. By getting all of these details “on paper” in story map form, product owners were then able to provide their teams with the guidance they needed to better anticipate the eventual evolution of the product roadmap.
+			</p>
+			<p>
+				At that time, developers and QA testers claimed that “during grooming sessions, we only had a line of sight into the user stories coming in the next sprint, but not beyond that,” Mohamed explained. It’s at this point that he encouraged product owners to begin doing <a href="https://draft.io/example/story-mapping" class="text-link underline-over">User Story Mapping</a>.
+			</p>
+
+			<img class="illustration left-sided" src="./imgs/UI_Customer-story/evoyageurs/3_story_mapping_structure.png" alt="Story mapping illustration">
+			<h2>“Helping people speak the same language”</h2>
+			<p>
+				Once User Story Mapping was introduced in development teams, “it became clear that it was an ideal tool for helping product owners think in more detail about the products their teams were developing and organize their work in a smarter way,” said Mohamed.
+			</p>
+			<p>
+				Mohamed has long appreciated User Story Mapping because “it encourages teams to work with a common tool, creating a unique source of truth that helps everyone involved, whether business owners or development teams, finally speak the same language and enables product owners to better grasp the big picture in order to define user stories more wisely.”
+			</p>
+			<p>
+				The first priority was to map the needs of the entire project. Anne-Laure and Mohamed soon realized that they needed to adapt User Story Mapping to more clearly visualize the “problem space” (business owners) from the “solution space” (product owners).
+			</p>
+			<p>
+				Then, they put a new process in place whereby business owners were asked to regularly present their needs to the team in the form of User Story Maps and product owners were tasked with their development teams to determine the right solutions to present to stakeholders (not only business owners). The goal here was to create a collaborative and virtuous feedback loop.
+			</p>
+			<p>
+				In her role as a product manager, Anne-Laure helps business owners ideate and capture future product needs in the form of User Story Maps. And while this new process is, admittedly, on a bit of a learning curve for the entire team, she hopes that “User Story Mapping will progressively become a default tool for product development workflows moving forward.”
+			</p>
+			<p>
+				“Thanks to product owners and with the help of Anne-Laure, User Story Mapping has unified development teams harmoniously with the other parts of the business,” expressed Mohamed with a great deal of satisfaction.
+			</p>
+
+			<h2>“Standardizing language from management to QA testers”</h2>
+			<p>
+				So, what are the next steps? “We want to standardize the project management process in terms of ‘epics’ between business owners and development teams, in order to help stakeholders be able to follow up project progress more effectively,” explained Mohamed.
+			</p>
+			<p>
+				By taking advantage of the Jira integration with Draft, Mohamed’s next objective is to “standardize language from management to QA testers and sync up Draft’s epics cards with those available on Jira, to create a genuine, end-to-end continuity in the project management process from decision-makers to doers.”
+			</p>
+			---
+			<img class="illustration left-sided intro" src="./imgs/UI_Customer-story/evoyageurs/1_story_mapping_ecrans.png" alt="Captures de story mapping">
+			<h2>Comment la fabrique digitale de la SNCF a fait du User Story Mapping un outil central des processus de conception et développement</h2>
+			<p>
+				Grande entreprise ferroviaire publique française, la SNCF emploie 272 000 personnes et réalise un chiffre d’affaires d’environ 35 milliards d’euros par an. Au cours d’une journée type, la société gère 15 000 trains et transporte près de 10 millions de passagers, partout en France : une responsabilité immense !
+			</p>
+			<p>
+				Au sein du groupe, la filiale e-Voyageurs SNCF a la lourde charge du système de ticketing et de réservation en ligne (Oui.sncf) qui traite 110 millions de tickets par an, soit l’équivalent de près de 5 milliards d’euros de revenus.
+			</p>
+			<p>
+				Plus particulièrement, Anne-Laure Jean supervise le processus de product management auprès de 2 équipes de réalisation Agiles, composées, au total, de 17 développeurs et plusieurs QA testers et product owners. Celles-ci développent des produits backend complexes. Mohamed Moussa est Scrum Master dans l’une de ces équipes et, en parallèle, est responsable de l’évangélisation de la philosophie Agile et des meilleures pratiques de conception et de gestion de projet au sein de la Digital Factory.
+			</p>
+
+			<img class="illustration right-sided" src="./imgs/UI_Customer-story/evoyageurs/2_IMG_20200831_121410.jpg" alt="Tableau de planification et suivi">
+			<h2>“N’oublions-nous pas un composant essentiel du produit ?”</h2>
+			<p>
+				Lorsque l’Agilité fut introduite au sein de la Factory, des product owners furent nommés dans les équipes quasiment du jour au lendemain, sans que ceux-ci ne puissent pour autant s’appuyer sur une quelconque expérience passée dans ce rôle. Même si certains d’entre eux eurent de bonnes intuitions pour nourrir la roadmap produit, la plupart manquaient de recul pour identifier les fonctionnalités et défis à venir de façon relativement exhaustive. Cette situation créa rapidement une certaine frustration chez les ingénieurs, contraints d’opter pour des choix d’architecture technique structurants sans pouvoir réellement anticiper toutes les conséquences.
+			</p>
+			<p>
+				“N’oublions-nous pas un composant essentiel du produit ?” était la question qui taraudait Anne-Laure à ce moment-là. Avec tant d’information à prendre en compte auprès des différentes parties prenantes, elle ressentit la nécessité de trouver une méthode offrant davantage de certitude pour imaginer et concevoir les produits dans leur globalité.
+			</p>
+			<p>
+				Du point de vue d’Anne-Laure, il était devenu évident que “les product owners avaient besoin d’un outil qui puisse les aider à acquérir une vision plus globale des enjeux afin de déterminer plus facilement les user stories absolument nécessaires au bon fonctionnement du produit à moyen terme”. En encourageant les product owners à cartographier leurs produits sur un mur sous la forme d’un <a href="https://draft.io/example/story-mapping" class="text-link underline-over">User Story Mapping</a>, ils pourraient rapidement apporter à leur équipe une vision plus large et lointaine des évolutions futures.
+			</p>
+			<p>
+				A cette époque, les développeurs et testeurs regrettaient, auprès de Mohamed, le fait que, “au cours des grooming sessions, ils n’obtenaient qu’une vision court terme, le plus souvent à l’échelle du sprint, des user stories qu’ils devaient implémenter, mais pas plus loin.” C’est à ce moment-là que Mohamed décida d’encourager tous les product owners à exploiter la puissance du User Story Mapping.
+			</p>
+
+			<img class="illustration left-sided" src="./imgs/UI_Customer-story/evoyageurs/3_story_mapping_structure.png" alt="Structure de story mapping">
+			<h2>“Aider les collaborateurs et les parties prenantes à parler le même langage”</h2>
+			<p>
+				Une fois introduit au sein des équipes de développement, pour Mohamed, “il est devenu clair que le User Story Mapping était l’outil idéal pour aider les product owners à concevoir leurs produits de façon plus détaillée et exhaustive et, par conséquent, permettre aux ingénieurs de mieux organiser leur travail et anticiper les principaux écueils.”
+			</p>
+			<p>
+				Mohamed apprécie le User Story Mapping depuis de nombreuses années : “c’est une façon très efficace d’encourager les équipes à travailler sur une représentation commune, créant ainsi une unique source de vérité qui amène naturellement tous les collaborateurs et parties prenantes impliqués à parler le même langage. L’outil permet aux product owners d’acquérir une vision plus profonde et exhaustive de leurs produits et, donc, de découper et hiérarchiser les user stories de façon optimale.
+			</p>
+			<p>
+				Dès que les produits furent cartographiés avec leur axe narratif propre, Anne-Laure et Mohamed se sont rendus compte qu’ils avaient besoin d’adapter le User Story Mapping traditionnel dans le but de séparer plus explicitement l’espace des problèmes (qui concerne les business owners) de celui des solutions (dont les product owners ont la responsabilité).
+			</p>
+			<p>
+				En conséquence, ils ont mis en place un nouveau processus dans le cadre duquel, d’un côté, les business owners sont régulièrement amenés à présenter leurs besoins sous la forme de User Story Maps. De l’autre côté, les product owners, avec l’aide de leur équipe de développement, proposent les solutions qu’ils ont envisagées, l’objectif étant de créer une boucle de feedback collaborative et vertueuse entre toutes les parties prenantes au projet.
+			</p>
+			<p>
+				Dans son rôle de Product Manager, Anne-Laure accompagne les business owners dans leur processus d’idéation et recueille leurs attentes sous forme de User Story Maps. Même si cette nouvelle façon de fonctionner n’en est qu’à ses débuts, elle espère que le “User Story Mapping deviendra progressivement l’outil de référence dans l’ensemble du processus de product management.”
+			</p>
+			<p>
+				“Grâce à l’implication des product owners et le coaching d’Anne-Laure, le User Story Mapping a permis de faire collaborer les équipes de développement avec les autres composantes du groupe de façon harmonieuse et très efficace”, se réjouit Mohamed.
+			</p>
+
+			<h2>“Homogénéiser le langage utilisé du management aux QA testers”</h2>
+			<p>
+				Alors, quelles sont les prochaines étapes désormais ? “Nous voulons standardiser le processus de project management, au niveau des epics, entre les business owners et les équipes de développement, afin de permettre aux parties prenantes de suivre l’avancement des projets de façon totalement autonome”, explique Mohamed.
+			</p>
+			<p>
+				Plus précisément, en tirant profit de l’intégration entre Draft et Jira, Mohamed souhaite “homogénéiser le langage utiliser du management aux QA testers et synchroniser les cartes d’epic Draft avec celles de Jira dans le but de créer une véritable continuité allant des décideurs aux développeurs, et ce, de bout en bout du processus de gestion de projet.”
+			</p>
+			------
+separateur-END
+	================================================================================ UI-USER-STORY EVOYAGEUR END
+	================================================================================ XXX
+separateur-UI-USER-STORY
+	================================================================================ UI-USER-STORY
+	================================================================================ UI-USER-STORY SYMPANY
+ui-customer-story
+	sympany
+		header
+			title
+				Metamorphosing the decision-making<br>process with SAFe
+				Métamorphoser le processus<br>de décision grâce à SAFe
+			contributor1
+				name
+					Julian GERSTACKER
+					Julian GERSTACKER
+				status
+					Agile Transformation Manager<br>at Sympany
+					Agile Transformation Manager<br>chez Sympany
+		body-content
+			------
+			<img class="illustration left-sided intro" src="./imgs/UI_Customer-story/sympany/1_Sympany_Program_Board.jpg" alt="Illustration de program board">
+			<h2>How the Scaled Agile Framework has brought more transparency and accountability to the decision-making process</h2>
+			<p>
+				Founded 100 years ago, Basel-based Sympany is a respected insurance company catering to the Swiss and German markets. The company offers accident, health, property, and liability insurance coverage. Sympany’s 500 employees oversee more than 260,000 customer relationships, amounting to around CHF 1 billion (~USD 1.1 billion) in revenues from insurance premiums alone.
+			</p>
+			<p>
+				The company started a cultural shift two years ago by introducing a common Agile-at-scale framework—SAFe (Scaled Agile Framework)—into its business operations. The key objective of making this change was to break down the walls between departments and bring more transparency around achievements and issues across the company’s management and development teams. Sympany’s Agile Transformation Manager, Julian Gerstacker has led the charge of this from the very start.
+			</p>
+			<p>
+				The decision to move in this direction was a decisive moment aimed at ensuring the sustainability and future success of this century-old business. “Many startups have launched recently with the objective of revolutionizing the insurance experience. Sympany had to find ways of being more flexible to adapt to circumstances and eventually get ahead of the market,” Julian points out.
+			</p>
+
+			<img class="illustration right-sided" src="./imgs/UI_Customer-story/sympany/2_Sympany_Program_Board_2019-06.JPG" alt="Illustration de programm board">
+			<h2>“PI Planning forces us to define clearer goals that make issues obvious while encouraging increased accountability.”</h2>
+			<p>
+				Before the COVID-19 pandemic rattled the world, 10 different Scrum and Kanban teams used to meet every 10 weeks for a two-day PI Planning session. This meeting would take place in a large hotel conference room where the roughly 80-person development team, plus other key stakeholders would spend the two-day stretch collaborating on ideas and putting sticky-notes all over the place. During these meetings, a large conference room wall was essentially transformed into the team’s living <a href="https://draft.io/example/program-board" class="text-link underline-over">Program Board</a>.
+			</p>
+			<p>
+				This all changed when lockdown measures were enforced and most of Sympany’s employees had to begin working from home. After trying to build a virtual Program Board via a dedicated Jira add-on unsuccessfully, Julian made the switch to Draft to build a comprehensive PI Planning Board. This included an agenda, a Program Board, and a Risk Roaming matrix. Combined with Microsoft Teams’ virtual meeting capabilities, much of what once required physical interaction could now be replicated effectively in the digital space.
+
+			</p>
+			<p>
+				For Julian, the Scaled Agile Framework process has revolutionized his team’s ability to collaborate seamlessly, even in a 100% virtual capacity: “PI Planning forces us to define clearer goals that make issues obvious while encouraging increased accountability.” In addition to Draft, he documents all the processes in Confluence—increment by increment—to track every decision and change to the initial plan easily.
+			</p>
+
+			<h2>Staying focused on driving valuable, organization-wide outcomes</h2>
+			<p>
+				Between every PI Planning—and in addition to ongoing Scrum or Kanban ceremonies at the team level—Julian implemented a tailor-made process for maximizing team alignment, enabling everyone to “see the bigger picture and to focus on driving valuable, organization-wide outcomes rather than tackling team-specific priorities in various siloes.” This process consisted of three separate meetings, each occurring every two weeks:
+			</p>
+			<ol>
+				<li>
+					PMBSO (Product Management, Business and Service Owners) meetings to collect requirements from all of Sympany’s divisions. These meetings feed a Portfolio Kanban centralizing the features needed for the next increments.
+				</li>
+				<li>
+					Stakeholder meetings that assemble all key project players. These facilitate the flow of information between departments, which can be decisive in triggering new opportunities or identifying problematic organizational issues.
+				</li>
+				<li>
+					PO-Sync (Product Owners) meetings to ensure that all teams are on-track. These are important because it allows us to “focus on the changes and dependencies that need to be discussed with other teams,” explains Julian. 
+				</li>
+			</ol>
+
+			<img class="illustration left-sided" src="./imgs/UI_Customer-story/sympany/3_Sympany_Problem_Solving_workshop.jpg" alt="Atelier résolution de problèmes">
+			<h2>The impact of remote PI Planning</h2>
+			<p>
+				According to Julian, shifting to remote PI Planning has lost both the flexibility and spontaneity of team communications as well as a shared sense of ownership in the end-to-end process. Even so, the benefits of this still offset the detriments. Now he’s able to document PI Planning far better than ever before, making it easier for everyone on the team to keep track of all of the actions and decisions made during those meetings.
+			</p>
+			<p>
+				And finally, being able to share the outcomes of PI Planning meetings—including the latest version of the roadmap—to management and stakeholders, Julian has become much more than just the “sticky-note guy,” which can be the perception at the beginning of any Agile transformation. Now, he’s indisputably viewed as a strategic asset to the entire team.
+			</p>
+			<p>
+				Draft made it possible to replace those expensive creative collaboration spaces covered in sticky-notes and provide Sympany with a better and more innovative way to work and collaborate. Julian sums it up nicely, “Everyone can now be creative at home.”
+			</p>
+
+			<h2>What are the next steps?</h2>
+			<p>
+				“I want to bring Agile philosophy to every decision-making layer of the organization in order to help innovative ideas sprout from the bottom up,” even knowing that this can be a huge challenge to overcome in typically hierarchical Swiss businesses.
+			</p>
+			<p>
+				Additionally, to avoid Jira’s inherent constraints around the freedom and skills required to put project management tools in place, Julian “will also help teams build their own visual management artifacts on Draft,” including customized <a href="https://draft.io/example/kanban-board" class="text-link underline-over">Kanban boards</a>.”
+			</p>
+			---
+			<img class="illustration left-sided intro" src="./imgs/UI_Customer-story/sympany/1_Sympany_Program_Board.jpg" alt="Illustration program board">
+			<h2>Comment SAFe a apporté davantage de transparence et d’implication dans la prise de décision</h2>
+			<p>
+				Fondée à Bâle il y a une centaine d’années, Sympany est une compagnie d'assurance incontournable en Suisse alémanique et en Allemagne. La société propose un large éventail de couvertures dans les domaines de la santé, de l’automobile, de l’habitation et de la responsabilité civile. Le groupe compte environ 500 employés et gère 260 000 contrats qui représentent un volume de primes d’assurance de plus d’un milliard de francs suisses par an.
+			</p>
+			<p>
+				Depuis deux ans, pour faire évoluer sa culture d’entreprise, Sympany a amorcé une véritable révolution organisationnelle en introduisant SAFe (Scaled Agile Framework), le plus populaire des frameworks d’Agilité à l’échelle. L’objectif est de briser les silos entre les différents départements afin de faire émerger une compréhension commune des enjeux stratégiques. Julian Gerstacker pilote ce projet depuis le premier jour.
+			</p>
+			<p>
+				Cette transformation Agile est capitale car elle doit fournir au groupe centenaire les moyens d’assurer sa pérennité et de définitivement réussir son passage dans le 21ème siècle. “Récemment, de nombreuses startups se sont lancées avec pour vision de révolutionner l’expérience client sur le marché de l’assurance. Il devenait essentiel pour Sympany d’adopter un mode de fonctionnement plus flexible pour s’adapter aux nouveaux enjeux de l’industrie et, à terme, revenir à la pointe de l’innovation sur ce marché,” souligne Julian.
+			</p>
+
+			<img class="illustration right-sided" src="./imgs/UI_Customer-story/sympany/2_Sympany_Program_Board_2019-06.JPG" alt="Illustration program board">
+			<h2>“Le PI Planning nous a amenés à définir des objectifs plus explicites, ce qui a mis en évidence les problèmes organisationnels et favorisé la responsabilisation des équipes quant à l’atteinte des résultats.”</h2>
+			<p>
+				Avant que la pandémie ne bouleverse les habitudes de travail, une dizaine d’équipes de réalisation, organisées en Scrum ou en Kanban, avaient pris l'habitude de se retrouver, toutes les dix semaines, pour une session de PI Planning de deux jours. Celle-ci se déroulait généralement dans la grande salle de conférence d’un hôtel. Ainsi, en comptant quelques parties prenantes et managers clés, près de 80 personnes étaient amenées à collaborer, partager leurs idées et placer des post-it sur tous les murs de la salle. Un côté entier du lieu était d’ailleurs dédié à la construction du <a href="https://draft.io/example/program-board" class="text-link underline-over">Program Board</a>.
+			</p>
+			<p>
+				Tout fut remis en cause lorsque les mesures de confinement furent imposées et les collaborateurs de Sympany contraints de travailler depuis leur domicile. Après avoir testé, sans succès, un addon Jira pour construire un Program Board virtuel, Julian répliqua un véritable PI Planning Board virtuel sur Draft, celui-ci incluant un ordre du jour, un Program Board et une matrice ROAM de gestion des risques. Couplé aux fonctionnalités de visioconférence de Microsoft Teams, la collaboration trouvait désormais son prolongement naturel dans le monde virtuel.
+
+			</p>
+			<p>
+				Selon Julian, la mise en oeuvre de SAFe a d’ores et déjà métamorphosé la capacité des équipes à collaborer efficacement, et ce, même à distance : “Le PI Planning nous a forcés à définir des objectifs plus explicites, ce qui a mis en évidence les problèmes organisationnels et favorisé la responsabilisation des équipes quant à l’atteinte des résultats.” En complément de Draft, Julian documente tout le processus dans Confluence, incrément après incrément, afin de conserver la trace de toutes les prises de décision et identifier aisément les éventuels écarts par rapport au plan.
+			</p>
+
+			<h2>Rester concentrés sur les enjeux stratégiques les plus importants à l’échelle du groupe</h2>
+			<p>
+				Entre chaque PI Planning, en plus des cérémonies habituelles des frameworks Scrum ou Kanban, Julian a mis en place un processus sur-mesure dans le but d’offrir aux équipes davantage d’opportunités pour se coordonner et de permettre à chacun de s’imprégner des enjeux stratégiques du groupe. Ce processus s’articule autour de trois sessions de collaboration bihebdomadaires :
+			</p>
+			<ol>
+				<li>
+					Les PMBSO (Product Management, Business and Service Owners) meetings permettent de recueillir les besoins auprès de chaque département. Ceux-ci viennent ensuite nourrir un tableau de suivi qui a la forme d’un Portfolio Kanban. Il centralise tous les besoins en préparation des futurs incréments.
+				</li>
+				<li>
+					Les Stakeholder meetings réunissent tous les acteurs clés du projet, avec pour objectif de diffuser l’information entre les départements, ce qui est crucial pour faire émerger des opportunités business ou identifier d’éventuels freins organisationnels.
+				</li>
+				<li>
+					Les PO-Sync (Product Owners) meetings servent à suivre l’avancement des équipes. “Elles offrent un espace pour discuter des changements de direction par rapport au plan et des implications inter-équipes que ceux-ci peuvent entraîner,” explique Julian. 
+				</li>
+			</ol>
+
+			<img class="illustration left-sided" src="./imgs/UI_Customer-story/sympany/3_Sympany_Problem_Solving_workshop.jpg" alt="Problem solving workshop illustration">
+			<h2>Quels sont les impacts du télétravail sur le PI Planning ?</h2>
+			<p>
+				Du point de vue de Julian, la distance a, en partie, affecté la flexibilité et la spontanéité dans la communication entre équipes. Par ailleurs, il existe un risque que le sentiment d’appartenance à l’ensemble du programme s’étiole si la situation perdure. Néanmoins, les bénéfices l’emportent sur les inconvénients. Maintenant, il peut documenter le PI Planning de façon plus complète, ce qui permet à tous les participants de conserver une vision claire des actions décidées au cours de ces réunions, et des raisons pour lesquelles elles ont été décidées.
+			</p>
+			<p>
+				Par ailleurs, en ayant la possibilité de partager l’ensemble des supports de réflexion et de prise de décision au management et aux parties prenantes extérieures au programme, Julian a le sentiment d’être devenu un acteur à part entière de la stratégie d’entreprise. Et non plus le post-it guy, ce qui pouvait être la perception de son rôle par certains managers au début de la transformation Agile.
+			</p>
+			<p>
+				Draft permet finalement de remplacer les lieux traditionnels de créativité, souvent très onéreux à aménager et meubler, tout en favorisant des méthodes innovantes de travail et de collaboration. Julian le résume ainsi avec enthousiasme : “Tout le monde peut désormais être créatif chez soi !”
+			</p>
+
+			<h2>Quelles sont les prochaines étapes ?</h2>
+			<p>
+				“Afin que tous les collaborateurs aient l’opportunité de faire émerger des idées novatrices, je souhaite insuffler la philosophie Agile dans toutes les strates de l’organisation", clame Julien, tout en ayant bien conscience du challenge que cela représente dans une entreprise suisse-allemande à culture plutôt hiérarchique.
+			</p>
+			<p>
+				Outre le déploiement des valeurs Agiles, Julian souhaite utiliser Draft pour contourner les limites de Jira en matière de management visuel : “Je vais aider les équipes à construire leur propre artefact de management visuel, en particulier des  <a href="https://draft.io/example/kanban-board" class="text-link underline-over">Kanban boards</a> sur-mesure pleinement adaptés à leur workflow.”
+			</p>
+			------
+separateur-END
+	================================================================================ UI-USER-STORY SYMPANY END
+	================================================================================ XXX
+separateur-UI-USER-STORY
+	================================================================================ UI-USER-STORY
+	================================================================================ UI-USER-STORY TRANSILIEN
+ui-customer-story
+	transilien
+		header
+			title
+				Customizing common Agile-at-scale<br>frameworks to adapt<br>to remote working constraints
+				Construire un framework d'Agilité à l’échelle<br>sur-mesure pour mieux s’adapter aux enjeux<br>de la collaboration à distance
+			contributor1
+				name
+					Pierre WATIER
+					Pierre WATIER
+				status
+					Innovation & Agility Manager<br>at SNCF
+					Responsable Innovation & Agilité<br>chez SNCF
+			contributor2
+				name
+					Maxime BONNET
+					Maxime BONNET
+				status
+					Agile Coach<br>at CGI
+					Coach Agile<br>chez CGI
+		body-content
+			------
+			<img class="illustration left-sided intro" src="./imgs/UI_Customer-story/transilien/1_Transilien-Atelier_Role_et_Interactions.png" alt="Illustration">
+			<h2>xxx</h2>
+			<p>
+				Part of the SNCF, France's state-owned railway company, Transilien is the commuter rail network serving Île-de-France: the region surrounding and including the city of Paris. This division employs around 44 000 people and operates 15 train lines, few trams and buses within the region. Two of the lines are co-managed with the RATP, the state-owned rail network serving Paris and its suburbs.
+			</p>
+			<p>
+				Although Transilien only serves one region in France, its rail network makes up half of the combined distance traveled by all passenger trains in France every day, accounting for 7 out of 10 of the SNCF’s daily passengers (more than 3.5 Millions commuters, and 5200 trains, per day).
+			</p>
+			<p>
+				In 2016, Transilien’s IT department kicked off an ambitious initiative to adopt Agile methodologies across all of its projects—and to do so within a matter of a few years. Pierre Watier, Manager in charge of Innovation and Agility transformation, has set up a task force team of seasoned experts composed of five Agile Coaches, one Coach in Agile testing, one Organizational Coach, and one Design Thinking Consultant. They work across the 400-person IT department and are tasked with helping teams to choose the right frameworks and implement them in a way that fits their context.
+			</p>
+			<p>
+				Maxime Bonnet, Agile Coach at CGI, a Canadian global IT consulting and systems integration company, just happens to be one of these people. For the last four years, he has led the charge within the train operation division of Transilien’s IT department.
+			</p>
+			<p>
+				This division has three key objectives:
+			</p>
+			<ol>
+				<li>
+					Preparing the network’s train schedule and doing whatever it takes to ensure all trains run on-time as much as possible;
+				</li>
+				<li>
+					Handling train maintenance, so that trains are travel-ready at all times; and
+				</li>
+				<li>
+					Monitoring traffic across the rail network to provide senior management and other French authorities performance updates throughout the day.
+				</li>
+			</ol>
+
+			<img class="illustration right-sided" src="./imgs/UI_Customer-story/transilien/2_IMG_0046.JPG" alt="Illustration">
+			<h2>“Our PI Planning process also got senior management more involved…which forced them to take more responsibility and accountability for the trade-offs they suggested making.”</h2>
+			<p>
+				Maxime oversees a program involving 180 employees distributed across 13 different project teams. With the exception of one large team working on an ERP deployment, all project teams follow the Agile framework (Scrum, Kanban, and Extreme Programming).
+			</p>
+			<p>
+				Each team is made up of five to nine people, including one Product Owner (from the business), one Proxy Product Owner (from the IT department), one Scrum Master, and a few Developers. They work on projects ranging from thick-client application development to data mining and reporting tool development to projects related to their microservice-based infrastructure.
+			</p>
+			<p>
+				Since implementing Agile frameworks to the team’s day-to-day operations, they have completed a total of eight PI Planning sessions (four in-person and four remote). These occur every three months, with a series of three separate four-week sprints in between each.
+			</p>
+			<p>
+				Prior to COVID-19, 70 team members would meet live in Paris for a full-day PI Planning once every three months. To avoid needing to dedicate the typical two days required for these types of meetings, they established a best practice to share new features with the entire team at least two weeks in advance of the scheduled PI Planning. This gives all team members an opportunity to estimate the time required to develop and deploy those features and, therefore, come to the session with a clear point of view about how best to approach them.
+			</p>
+			<p>
+				Streamlining PI Planning in this way allowed all teams present to be more productive by spending the day filling in the Solution Board together. “Our PI Planning process also got senior management more involved and engaged in this work. Allowing them to collaborate with the entire team in this way—and land on important decisions together—forced them to take more responsibility and accountability for the trade-offs they suggested making,” explained Maxime.
+			</p>
+
+			<h2>“To prevent ‘video conference fatigue,’ we had to find ways of using time and space differently.”</h2>
+			<p>
+				When the first COVID-19 lockdown occurred back in March, there were only three weeks to go before the next PI Planning. The pressure was on to find an immediate solution. But Maxime felt “it would be impossible to keep the full attention of participants during an all-day remote workshop. So to prevent <a href="https://medium.com/@alex.beauchet/zoom-fatigue-is-not-about-zoom-16c742ecea6" class="text-link underline-over">video conference fatigue</a>, we had to find ways of using time and space differently.” This led them to split their typical one-day PI Planning session into a series of several shorter meetings over a two-week period of time.
+			</p>
+			<p>
+				Two weeks before the first of these shorter PI Planning meetings, features relevant to the next increment are now sent to project teams for consideration and estimation. Each team cuts these features into big user stories to identify the work required to deliver on them. Finally, the teams come together to collaborate on a Project Board, where the user stories are arranged along a simple timeline: sprint 1, sprint 2, sprint 3, and overtime.
+			</p>
+			<p>
+				On the day before PI Planning officially begins, a ‘speed dating’ process takes place between the Release Train Engineer (RTE)—supported by Agile Coaches—and the Product Owner of each project team. This involves the RTE and Agile Coaches collecting the teams’ Project Boards and summarizing them into a master Solution Board—which makes it easier to visualize dependencies between big user stories across teams and identify potential bottlenecks.
+			</p>
+			<p>
+				This first version of the Solution Board is finally presented to the epic owner, business owners, and cross-project product managers—who then adjust the features and the Solution Board based on perceived dependencies and bottlenecks. This final version of the Solution Board is then presented by senior management to the entire 180-person team joining the now-remote PI Planning session.“We’ve successfully designed a tailor-made Agile-at-scale framework, inspired mainly by SAFe® but also by LeSS and Scrum-of-Scrum frameworks,” says Maxime.
+			</p>
+
+			<img class="illustration left-sided" src="./imgs/UI_Customer-story/transilien/3_Transilien-Solution_Board.png" alt="Illustration">
+			<h2>The challenge of evolving PI Planning in a remote world</h2>
+			<p>
+				Maxime considers himself to be a “sticky-note guy.” He loves how sticky-notes inherently get people more involved and tend to make them more accountable for what they say. This is why he believes that retrospectives have lost their “sense of commitment” after migrating to digital tools. But not everyone always likes using sticky-notes either. This is especially the case among senior managers who oftentimes find them to be a bit childish.
+			</p>
+			<p>
+				By using a collaborative virtual board like Draft, Maxime has seen a boost in participation during these PI Planning sessions, especially among senior managers. Additionally, it has allowed his teams to document PI Planning better by giving them an easier way to organize and archive all visual management digital artifacts. All in all, the remote PI Planning sessions have become a more satisfying and productive experience for Transilien’s entire IT team. By giving everyone more time to prepare in advance—and to think through features or critical problems deeply—the end result has been a more productive and actionable process than ever before.
+			</p>
+			<p>
+				However, Maxime underscores that if it hadn’t been for the in-person PI Planning sessions prior to COVID-19, these remote sessions wouldn’t have been as successful. Those in-person experiences created a strong group dynamic and a sense of cohesion that made the transition into remote PI Planning seamless. This is why Maxime hopes that his team will be able to begin doing these sessions in-person again soon—with the help of Draft to streamline the process—to maintain those solid relationships while still driving a high level of efficiency. 
+			</p>
+			---
+			<img class="illustration left-sided intro" src="./imgs/UI_Customer-story/transilien/1_Transilien-Atelier_Role_et_Interactions.png" alt="Illustration">
+			<h2>xxx</h2>
+			<p>
+				Partie intégrante de la SNCF, l’entreprise ferroviaire publique française, Transilien est le nom du réseau de trains de banlieue desservant exclusivement les gares d'Île-de-France. Cette division emploie environ 44 000 personnes et gère 15 lignes ferroviaires, dont 2 en partenariat avec la RATP, ainsi que quelques lignes de tramway et de bus.
+			</p>
+			<p>
+				Bien que Transilien ne couvre qu’une seule région, le réseau qu’il gère représente, à l’échelle de la France, 7 voyageurs ferroviaires sur 10, et la moitié de la distance parcourue par tous les trains de passagers, soit plus de 3,5 millions de personnes et 5 200 trains, chaque jour.
+			</p>
+			<p>
+				En 2016, la DSI de Transilien a entrepris un ambitieux plan de transformation agile dont l’objectif est, en quelques années, de déployer les pratiques agiles au sein de tous les projets informatiques et techniques. Cette équipe a été mise en place et déployée par Pierre Watier, responsable Agilité & Innovation de la DSI. Aujourd’hui, une équipe composée de 5 Coachs Agiles, un coach en testing agile, un coach en organisation et deux consultants en Design Thinking accompagne les 400 collaborateurs de la DSI ainsi que les acteurs métiers des directions opérationnelles de Transilien, les aidant à choisir les méthodes adéquates et à les mettre en œuvre.
+			</p>
+			<p>
+				Maxime Bonnet, Coach Agile chez CGI, groupe international de conseil en technologie de l’information, est l’un des membres de cette équipe. Depuis 4 ans, en tant que Coach Agile, il accompagne le changement au sein de la division ‘production ferroviaire’ de la DSI. Celle-ci a trois principales missions :
+			</p>
+			<ol>
+				<li>
+					Préparer les plans de transport annuels et piloter le trafic au quotidien ;
+				</li>
+				<li>
+					Gérer la disponibilité des trains, des conducteurs et autres personnels, de façon à ce que les trains soient prêts à rouler au bon moment; et
+				</li>
+				<li>
+					Monitorer le trafic du réseau ferroviaire et fournir aux autorités de la région Ile-de-France les indicateurs de performance adéquats.
+				</li>
+			</ol>
+
+			<img class="illustration right-sided" src="./imgs/UI_Customer-story/transilien/2_IMG_0046.JPG" alt="Illustration">
+			<h2>“Le fait de collaborer directement avec les équipes projet et de prendre des décisions importantes tous ensemble a naturellement conduit le senior management à réaliser des arbitrages cruciaux, de façon totalement transparente.”</h2>
+			<p>
+				Maxime accompagne et supervise un programme qui implique 180 collaborateurs, répartis dans 13 équipes projet différentes. A l’exception d’une grande équipe responsable du déploiement d’un ERP, toutes ces équipes projets s'inscrivent dans un framework Agile (Scrum, Kanban, ou Extreme Programming).
+			</p>
+			<p>
+				Chaque équipe est composée de 5 à 9 personnes, incluant un Product Owner (provenant des métiers), un Proxy Product Owner (de la DSI), un Scrum Master et quelques développeurs. Celles-ci travaillent sur des projets allant du développement d’applications client-lourd à la construction d’outils de reporting exploitant d’importantes quantités de données, en passant par la fourniture d’APIs dans le cadre de leur architecture Microservices.
+
+			</p>
+			<p>
+				Depuis la mise en place des pratiques Agiles, ils ont réalisé, à date, 8 sessions de PI Planning : 4 colocalisées et 4 à distance. Ces sessions ont lieu tous les trois mois, soit 3 sprints de quatre semaines chacun.
+			</p>
+			<p>
+				Avant l’impact du COVID-19, 70 collaborateurs se retrouvaient à Paris, tous les trois mois, pour une journée consacrée au PI Planning. Déjà à l’époque, pour éviter de solliciter les équipes pendant deux jours entiers, avec toutes les contraintes logistiques que cela représente, Maxime et son équipe avaient mis en place un processus dans le cadre duquel, deux semaines avant la date du PI Planning, les features envisagées au cours du prochain incrément étaient partagées aux équipes. Cela leur permettait de prendre le temps de discuter de ces features et de les estimer en amont et, donc, d’avoir les idées claires quant à la meilleure façon de les implémenter.
+			</p>
+			<p>
+				De ce fait, préparer le PI Planning à l’avance permettait aux équipes d’être plus efficaces lors de la journée de travail qui, elle, était dédiée à la construction du Solution Board du programme. “Le processus que nous avons mis en place a permis au senior management de s’impliquer et de s'engager davantage dans la définition de la stratégie. Le fait de collaborer directement avec les équipes projet et de prendre des décisions importantes tous ensemble les a naturellement conduits à réaliser des arbitrages cruciaux, de façon totalement transparente”, explique Maxime.
+			</p>
+
+			<h2>“Pour prévenir le phénomène de fatigue communicationnelle, nous devions trouver une façon d’exploiter plus efficacement le temps et l’espace."</h2>
+			<p>
+				Quand le premier confinement fut imposé en mars, il ne restait que trois semaines à Maxime et son équipe pour préparer la prochaine session de PI Planning. Il leur fallait trouver rapidement une solution. Pour Maxime, “il aurait été impossible d’entretenir la pleine attention des participants au cours d’une journée entière d’ateliers à distance. Par conséquent, pour prévenir le phénomène de <a href="https://medium.com/@alex.beauchet/zoom-fatigue-is-not-about-zoom-16c742ecea6" class="text-link underline-over">fatigue communicationnelle</a>, nous devions trouver une façon d’exploiter plus efficacement le temps et l’espace.” Ils ont alors décidé d’éclater la journée traditionnelle de PI Planning en une série de courts ateliers, répartis sur une période de deux semaines.
+			</p>
+			<p>
+				Ainsi, deux semaines avant la session de PI Planning dans son nouveau format raccourci, les features envisagées pour le prochain incrément sont partagées aux équipes, qui les découpent en grosses user stories afin de les évaluer et de les estimer. Une fois ce travail terminé, chaque équipe présente son Project Board de l’incrément à venir. Les user stories y sont disposées suivant un axe horizontal temporel, avec pour colonnes : sprint 1, sprint 2, sprint 3 et au-delà.
+			</p>
+			<p>
+				La veille du PI Planning, une sorte de ‘speed dating’ est organisée entre le Release Train Engineer (RTE), accompagné des Coachs Agiles, et le Product Owner de chaque équipe projet. Le RTE recueille les Project Boards de chaque équipe et synthétise leurs plans au sein du Solution Board du programme, ce qui lui permet d’identifier les dépendances entre les user stories des différentes équipes et de prévenir les éventuels engorgements.
+			</p>
+			<p>
+				Cette première version du Solution Board est, ensuite, présentée à l’Epic Owner, aux Business Owners et aux Product Managers transversaux du programme, afin de définir les priorités et ajuster le plan. Enfin, la version finale du Solution Board est présentée à l’ensemble des 180 collaborateurs du programme. “Nous avons construit un véritable framework d’Agilité à l'échelle sur-mesure, inspiré principalement par SAFe® mais aussi par LeSS et Scrum-of-Scrum”, se réjouit Maxime.
+			</p>
+
+			<img class="illustration left-sided" src="./imgs/UI_Customer-story/transilien/3_Transilien-Solution_Board.png" alt="Illustration">
+			<h2>Les avantages et inconvénient du PI Planning à distance</h2>
+			<p>
+				Maxime se considère lui-même comme un fervent supporter du post-it. En effet, il apprécie la façon dont les post-it poussent les participants à s’impliquer et porter la responsabilité de leurs propos. C’est la raison pour laquelle, en passant par les outils de collaboration digitaux, il trouve que les rétrospectives ont perdu de leur impact. Cependant, tout le monde n’appréciait pas l’utilisation du post-it, notamment certains seniors managers qui le considèrent comme un outil infantilisant.
+			</p>
+			<p>
+				En utilisant un tableau virtuel collaboratif comme Draft, Maxime a observé une augmentation de la participation au cours des sessions de PI Planning, en particulier parmi les seniors managers. Par ailleurs, Draft a permis aux équipes de mieux documenter la prise de décision et archiver les artefacts de management visuel. Finalement, le PI Planning à distance est considéré comme une expérience plus satisfaisante et productive par les équipes du programme. En offrant à chacun l’opportunité de préparer la session à l’avance et, donc, de réfléchir en profondeur aux problèmes et aux solutions envisagées, le résultat final s’en est trouvé amélioré.
+			</p>
+			<p>
+				Toutefois, Maxime souligne l’importance des sessions physiques de PI Planning qui ont eu lieu avant le confinement. Elles ont, en effet, permis de créer la dynamique de groupe primordiale aux succès des sessions virtuelles. C’est pourquoi, dans le but de maintenir la cohésion des équipes et le haut niveau d’efficacité du processus, Maxime espère pouvoir prochainement organiser un PI Planning colocalisé.
+			</p>
+			------

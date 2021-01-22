@@ -15,13 +15,24 @@
 	// SECTION HEADER
 	// --------------------------------------------------------------
 
-	& > header
+	.ui-header.evoyageurs
+		&::before
+			background-image : url("../imgs/UI_Customer-story/evoyageurs/illustration_evoyageurs.jpg")
+			@media only screen and (max-width : 1390px)
+				background-position : 100% 102px
+	.ui-header.sympany
+		&::before
+			background-image : url("../imgs/UI_Customer-story/sympany/draft-business-case-sympany.png")
+			@media only screen and (max-width : 1390px)
+				background-position : 100% 228px
+	.ui-header
 		display : flex
 		position : relative
 		align-items : center
 		padding-top : 120px
 		margin-top : 70px
 		padding-bottom : 80px
+		overflow : hidden
 		
 		&::before
 			position : absolute
@@ -32,15 +43,12 @@
 			width : 100%
 			height : 100%
 			z-index : 1
-			background-image : url("../imgs/UI_Customer-story/draft-business-case-sympany.png")
 			background-position : center right
 			background-repeat : no-repeat
 			background-size : contain
-			@media only screen and (max-width : 1300px)
+			@media only screen and (max-width : 1390px)
 				filter : grayscale(1)
 				opacity : .13
-				background-position : 100% 200px
-
 
 		.main-info
 			position : relative
@@ -86,34 +94,13 @@
 				.customer + .customer
 					margin-left : 7px
 				
-				@media only screen and (max-width : 1300px)
-					.customer
-						border : none
-						box-shadow : 0 5px 50px 0 rgba(0,0,0,0.1)
-					.customer + .customer
-						margin-left : 15px
-						box-shadow : 20px 5px 50px 0 rgba(0,0,0,0.1)
-				
-			// @media only screen and (max-width : 1000px)
-			// 	.customers
-			// 		display : flex
-			// 		align-items : center
-			// 		margin-top : 20px
-			// 		.customer
-			// 			position : relative
-			// 			top : 100px
-			// 			border : none
-			// 			box-shadow : 0 15px 10px 5px rgba(0, 0, 0, 0.05)
-			// 			border-radius : 0 !important
-			// 		.customer + .customer
-			// 			margin-left : 15px
-			// 			box-shadow : 0 15px 10px 5px rgba(0, 0, 0, 0.05)
-
-		// .wrapper
-		// 	width : 100%
-		// 	text-align : right
-		// 	.illustration
-		// 		width : 100%
+				// @media only screen and (max-width : 1300px)
+				// 	.customer
+				// 		border : none
+				// 		box-shadow : 0 5px 50px 0 rgba(0,0,0,0.1)
+				// 	.customer + .customer
+				// 		margin-left : 15px
+				// 		box-shadow : 20px 5px 50px 0 rgba(0,0,0,0.1)
 
 	// --------------------------------------------------------------
 	// end of SECTION HEADER
@@ -134,7 +121,7 @@
 			position : relative
 			background : white
 			border-radius : 10px
-			width : 900px
+			width : 1100px
 			max-width : 90%
 			margin : 0 auto
 			margin-bottom : 50px
@@ -166,19 +153,19 @@
 					float : right
 			
 			h2, & > p, ol
-				padding : 0 50px
+				padding : 0 15%
 			h2
 				margin-bottom : 30px
 				font-size : 1.3rem
 			& > p
-				margin-bottom : 20px
-				line-height : 1.4rem
+				margin-bottom : 15px
+				line-height : 1.5rem
 			p + h2, ol + h2
-				margin-top : 70px
+				margin-top : 30px
 			
 			ol
 				margin-top : 20px
-				padding-left : 80px
+				padding-left : calc(15% + 80px)
 				li
 					padding-left : 10px
 				li + li
@@ -191,14 +178,16 @@
 				margin-top : 40px
 				display : flex
 				align-items : center
+				margin-left : 15%
+				padding-left : 0
 				.portrait
 					border-radius : 70px
-					height : 70px
+					height : 90px
 				.author-details
-					margin-left : 20px
+					margin-left : 35px
 					.name
 						font-weight : bold
-						font-size : 1rem
+						font-size : 1.1rem
 					.status
 						margin-top : 4px
 						font-size : 0.9rem

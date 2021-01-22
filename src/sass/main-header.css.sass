@@ -1,0 +1,244 @@
+@import colors.css.sass
+@import DDS_breakpoints.css.sass
+
+
+body > header.main-header
+	position : fixed
+	top : 0
+	left : 0
+	z-index : 100
+	width : 100%
+	color : white
+	.nav
+		height : 70px
+		display : flex
+		align-items : center
+		justify-content : flex-end
+		background : #2A2A2A
+	.nav .logo
+		margin-right : auto
+		height : 100%
+		display : flex
+		align-items : center
+		transition : opacity .2s
+		&:hover
+			opacity : 1
+			img
+				height : 52%
+		img
+			height : 50%
+			margin-left : 20px
+			transition : height .2s
+	.nav ul
+		display : flex
+		align-items : center
+		justify-content : flex-end
+		background : #2A2A2A
+		height : 100%
+		
+		li
+			position : relative
+			margin : 0 15px
+			.text-link
+				padding : 6px 0
+				color : white
+				&:hover
+					color : $orange
+			.toggle-wrapper
+				position : relative
+				&:hover
+					cursor : default
+				.menu
+					display : block
+					box-sizing : content-box
+					position : absolute
+					top : 100%
+					height : auto
+					width : auto
+					left : -10px
+					background : orange
+					z-index : -1
+					pointer-events : none
+					opacity : 0
+					padding : 15px
+					border-radius : 5px
+					font-size : 1rem
+					background-color : #333
+					-webkit-font-smoothing : antialiased
+					-webkit-transition : opacity 150ms ease-out
+					transition : opacity 150ms ease-out
+					li
+						white-space : nowrap
+			.toggle-wrapper:hover .menu
+				z-index : 10
+				opacity : 1
+				pointer-events : initial
+
+			.menu
+				li
+					a
+			&.logo + li
+				margin-left : auto
+				
+			&.logo
+				.logo
+		li.login a
+			border-left : 1px solid #666666
+			padding-left : 30px
+		li.subscribe a
+				margin-right : 20px
+
+	#btnBurgerMenu,
+	.burger-btn
+		position : absolute
+		top : 0
+		right : 0
+		z-index : 50
+		height : 100%
+		width : 80px
+		display : none
+
+	#btnBurgerMenu
+		z-index : 51
+		&:hover
+			cursor : pointer
+	.burger-btn
+		z-index : 52
+		justify-content : center
+		align-items : center
+		.wrapper
+			width : 40px
+			//text-align : center
+
+			transition : transform .3s
+			.deco-btn-burger
+				height : 3px
+				background : white
+				display : inline-block
+				display : block
+				width : 100%
+				border-radius : 2px
+				margin-left : auto
+				margin-right : auto
+
+				transition : transform .3s, margin-top .3s, width .3s
+				& + .deco-btn-burger
+					margin-top : 8px
+	
+	#btnBurgerMenu:checked
+		& + .burger-btn
+			border : 2px solid green
+			.wrapper
+				.deco-btn-burger
+					transform : rotate(135deg)
+				.deco-btn-burger + .deco-btn-burger
+					width : 0
+					margin-top : -3px
+					transform : rotate(0deg) scale(0)
+				.deco-btn-burger + .deco-btn-burger + .deco-btn-burger
+					transform : rotate(-135deg)
+					width : 100%
+
+			
+
+@media only screen and (max-width: $tabletBreakpoint)
+
+	body > header.main-header
+		#btnBurgerMenu
+			display : block
+		.burger-btn
+			display : flex
+
+		.nav
+		.nav .logo
+			z-index : 55
+			img
+		.nav ul
+			position : fixed
+			top : 100vh
+			left : 0
+			padding-top : 130px
+			height : 100vh
+			width : 100%
+			overflow : auto
+			//display : none
+			background : #2A2A2A
+			padding-left : 0
+			text-align : center
+			
+			li
+				position : relative
+				margin : 40px
+				opacity : 0
+				.text-link
+					padding : 0
+					font-size : 1.4rem
+				.toggle-wrapper
+					position : relative
+					.toggle, .dropdown-invite
+						display : none
+					.menu
+						display : block
+						box-sizing : border-box
+						position : relative
+						top : 0
+						width : auto
+						height : auto
+						left : 0
+						background : orange
+						z-index : 1
+						pointer-events : initial
+						opacity : 1
+						padding : 0
+						border-radius : 5px
+						font-size : 1rem
+						background-color : transparent
+						transition : opacity 150ms ease-out
+						li
+							padding : 0
+							margin-top : 20px
+							margin-bottom : 20px
+				.toggle-wrapper:hover .menu
+						z-index : 1
+						opacity : 1
+						pointer-events : initial
+
+				.menu
+					li
+						a
+				&.logo + li
+					margin-left : auto
+					
+				&.logo
+					.logo
+			li.login a
+				border-left : none
+				padding-left : 0
+			li.subscribe a
+					margin-right : 0
+			
+			
+			li.login
+				margin-top : 200px
+			li.subscribe
+				margin-top : -150px
+				a.cta
+					font-size : 1.6rem
+	
+	#btnBurgerMenu:checked ~ .nav ul
+		display : block
+		top : 0
+
+		& > li
+			opacity : 1
+
+			transition : opacity .3s
+		
+		& > li + li
+			transition : opacity .8s
+		& > li + li + li
+			transition : opacity 1.3s
+		& > li + li + li + li
+			transition : opacity 1.8s
+		& > li + li + li + li + li
+			transition : opacity 2.3s
