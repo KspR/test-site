@@ -276,7 +276,7 @@
     float: none;
   }
   .ui_customer-story .customer-story .wrapper h2, .ui_customer-story .customer-story .wrapper > p, .ui_customer-story .customer-story .wrapper ol {
-    padding: 0 40px;
+    padding: 0 30px;
   }
   .ui_customer-story .customer-story .wrapper h2 {
     line-height: 1.6rem;
@@ -291,8 +291,9 @@
     padding-left: 10px;
   }
   .ui_customer-story .customer-story .wrapper .author-info {
-    padding: 40px;
-    margin-left: 40px;
+    padding: 30px;
+    padding-left: 0;
+    margin-left: 0;
   }
   .ui_customer-story .customer-story .wrapper .author-info .portrait {
     height: 90px;
