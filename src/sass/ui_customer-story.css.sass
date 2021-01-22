@@ -1,4 +1,5 @@
 @import colors.css.sass
+@import DDS_breakpoints.css.sass
 
 .ui_customer-story
 	position : relative
@@ -197,3 +198,127 @@
 	// --------------------------------------------------------------
 	// end of SECTION CUSTOMER STORY
 	// --------------------------------------------------------------
+
+
+
+
+// ==============================================================
+// --------------------------------------------------------------
+// PHONE RESPONSIVE STYLES
+// --------------------------------------------------------------
+// ==============================================================
+
+@media only screen and (max-width: $phoneBreakpoint)
+
+	.ui_customer-story
+
+		h2
+			font-size : 1.4rem
+			font-family : bold
+			color : $blackTitle
+			padding : 0 5%
+
+		// --------------------------------------------------------------
+		// SECTION HEADER
+		// --------------------------------------------------------------
+
+		.ui-header.evoyageurs
+			&::before
+				background-position : 100% 102px
+		.ui-header.sympany
+			&::before
+				background-position : 100% 330px
+		.ui-header
+			display : block
+			padding-top : 40px
+			margin-top : 70px
+			padding-bottom : 80px
+
+			.main-info
+				margin-left : 0
+				.wrapper
+					display : block
+					.logo
+						margin : 0 auto
+						display : block
+						height : 100px
+						border-radius : 5px 5px 0 5px
+					h1
+						line-height : 2rem
+						font-size : 1.6rem
+						margin-top : 30px
+						text-align : center
+
+				.customers
+					display : block
+					margin-top : 60px
+					.customer
+						width : 90%
+						margin : 0 0 20px 5%
+						padding : 25px
+						.customer-details
+							margin-left : 20px
+							.status
+								margin-top : 2px
+								font-size : 0.9rem
+								opacity : .85
+					.customer + .customer
+						margin-left : 0
+
+		// --------------------------------------------------------------
+		// end of SECTION HEADER
+		// --------------------------------------------------------------
+
+		// --------------------------------------------------------------
+		// SECTION CUSTOMER STORY
+		// --------------------------------------------------------------
+		
+		.customer-story
+			.wrapper
+				width : 90%
+				margin-bottom : 50px
+				
+				.illustration
+					width : calc(90%)
+					display : block
+					&.intro
+						margin-top : -50px
+					&.left-sided,
+					&.right-sided
+						margin-left : auto
+						margin-right : auto
+						float : none
+				
+				h2, & > p, ol
+					padding : 0 40px
+				h2
+					line-height : 1.6rem
+				& > p
+					line-height : 1.4rem
+				
+				ol
+					padding-left : 60px
+					li
+						padding-left : 10px
+
+				
+				.author-info
+					padding : 40px
+					margin-left : 40px
+					.portrait
+						height : 90px
+					.author-details
+						margin-left : 25px
+						.status
+							font-size : 1rem
+							opacity : .8
+
+		// --------------------------------------------------------------
+		// end of SECTION CUSTOMER STORY
+		// --------------------------------------------------------------
+
+// ==============================================================
+// --------------------------------------------------------------
+// end of PHONE RESPONSIVE STYLES
+// --------------------------------------------------------------
+// ==============================================================

@@ -100,6 +100,7 @@ body > header.main-header
 
 	#btnBurgerMenu
 		z-index : 51
+		display : none
 		&:hover
 			cursor : pointer
 	.burger-btn
@@ -107,12 +108,11 @@ body > header.main-header
 		justify-content : center
 		align-items : center
 		.wrapper
-			width : 40px
-			//text-align : center
+			width : 30px
 
 			transition : transform .3s
 			.deco-btn-burger
-				height : 3px
+				height : 2px
 				background : white
 				display : inline-block
 				display : block
@@ -132,7 +132,7 @@ body > header.main-header
 					transform : rotate(135deg)
 				.deco-btn-burger + .deco-btn-burger
 					width : 0
-					margin-top : -3px
+					margin-top : -2px
 					transform : rotate(0deg) scale(0)
 				.deco-btn-burger + .deco-btn-burger + .deco-btn-burger
 					transform : rotate(-135deg)
@@ -156,7 +156,7 @@ body > header.main-header
 			position : fixed
 			top : 100vh
 			left : 0
-			padding-top : 130px
+			padding-top : 50px
 			height : 100vh
 			width : 100%
 			overflow : auto
@@ -167,7 +167,7 @@ body > header.main-header
 			
 			li
 				position : relative
-				margin : 40px
+				padding : 2vh 20px
 				opacity : 0
 				.text-link
 					padding : 0
@@ -195,8 +195,8 @@ body > header.main-header
 						transition : opacity 150ms ease-out
 						li
 							padding : 0
-							margin-top : 20px
-							margin-bottom : 20px
+							margin-top : calc(1vh + 10px)
+							margin-bottom : calc(1vh + 10px)
 				.toggle-wrapper:hover .menu
 						z-index : 1
 						opacity : 1
@@ -217,10 +217,14 @@ body > header.main-header
 					margin-right : 0
 			
 			
+			li.login, li.subscribe
+				padding-top : 0
+				padding-bottom : 0
 			li.login
-				margin-top : 200px
+				margin-top : calc(120px + 4vh)
 			li.subscribe
-				margin-top : -150px
+				margin-top : -120px
+				margin-bottom : 150px
 				a.cta
 					font-size : 1.6rem
 	
@@ -241,3 +245,10 @@ body > header.main-header
 			transition : opacity 1.8s
 		& > li + li + li + li + li
 			transition : opacity 2.3s
+
+
+@media only screen and (max-width: $phoneBreakpoint)
+
+	body > header.main-header
+		.nav
+			height : 50px
