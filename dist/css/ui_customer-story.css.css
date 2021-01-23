@@ -242,21 +242,21 @@
     display: block;
     margin-top: 60px;
   }
-  .ui_customer-story .ui-header .main-info .customers .customer {
+  .ui_customer-story .ui-header .main-info .customers .customer, .ui_customer-story .ui-header .main-info .customers .customer + .customer {
     width: 90%;
     margin: 0 0 20px 5%;
     padding: 25px;
   }
-  .ui_customer-story .ui-header .main-info .customers .customer .customer-details {
+  .ui_customer-story .ui-header .main-info .customers .customer .customer-details, .ui_customer-story .ui-header .main-info .customers .customer + .customer .customer-details {
     margin-left: 20px;
   }
-  .ui_customer-story .ui-header .main-info .customers .customer .customer-details .status {
+  .ui_customer-story .ui-header .main-info .customers .customer .customer-details .status, .ui_customer-story .ui-header .main-info .customers .customer + .customer .customer-details .status {
     margin-top: 2px;
     font-size: 0.9rem;
     opacity: 0.85;
   }
   .ui_customer-story .ui-header .main-info .customers .customer + .customer {
-    margin-left: 0;
+    margin-top: 20px;
   }
   .ui_customer-story .customer-story .wrapper {
     width: 90%;
@@ -267,7 +267,8 @@
     display: block;
   }
   .ui_customer-story .customer-story .wrapper .illustration.intro {
-    margin-top: -70px;
+    margin-top: 0;
+    top: -50px;
     box-shadow: none;
   }
   .ui_customer-story .customer-story .wrapper .illustration.left-sided, .ui_customer-story .customer-story .wrapper .illustration.right-sided {

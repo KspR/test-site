@@ -251,7 +251,7 @@
 				.customers
 					display : block
 					margin-top : 60px
-					.customer
+					.customer, .customer + .customer
 						width : 90%
 						margin : 0 0 20px 5%
 						padding : 25px
@@ -262,7 +262,7 @@
 								font-size : 0.9rem
 								opacity : .85
 					.customer + .customer
-						margin-left : 0
+						margin-top : 20px
 
 		// --------------------------------------------------------------
 		// end of SECTION HEADER
@@ -281,7 +281,8 @@
 					width : calc(90%)
 					display : block
 					&.intro
-						margin-top : -70px
+						margin-top : 0
+						top : -50px
 						box-shadow : none
 					&.left-sided,
 					&.right-sided
