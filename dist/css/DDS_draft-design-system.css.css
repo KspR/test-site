@@ -111,6 +111,16 @@ body > header.main-header .nav ul li .toggle-wrapper {
 body > header.main-header .nav ul li .toggle-wrapper:hover {
   cursor: default;
 }
+body > header.main-header .nav ul li .toggle-wrapper:hover .toggle .fas {
+  margin-left: 8px;
+  transform: rotate(90deg);
+}
+body > header.main-header .nav ul li .toggle-wrapper .toggle .fas {
+  font-size: 0.7em;
+  position: relative;
+  top: 0;
+  transition: transform 0.3s, margin-left 0.3s;
+}
 body > header.main-header .nav ul li .toggle-wrapper .menu {
   display: block;
   box-sizing: content-box;
@@ -155,15 +165,12 @@ body > header.main-header .burger-btn {
   right: 0;
   z-index: 50;
   height: 100%;
-  width: 80px;
+  width: 65px;
   display: none;
 }
 body > header.main-header #btnBurgerMenu {
   z-index: 51;
   display: none;
-}
-body > header.main-header #btnBurgerMenu:hover {
-  cursor: pointer;
 }
 body > header.main-header .burger-btn {
   z-index: 52;
@@ -177,7 +184,6 @@ body > header.main-header .burger-btn .wrapper {
 body > header.main-header .burger-btn .wrapper .deco-btn-burger {
   height: 2px;
   background: white;
-  display: inline-block;
   display: block;
   width: 100%;
   border-radius: 2px;
@@ -235,7 +241,7 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
   body > header.main-header .nav ul li .toggle-wrapper {
     position: relative;
   }
-  body > header.main-header .nav ul li .toggle-wrapper .toggle, body > header.main-header .nav ul li .toggle-wrapper .dropdown-invite {
+  body > header.main-header .nav ul li .toggle-wrapper .toggle {
     display: none;
   }
   body > header.main-header .nav ul li .toggle-wrapper .menu {

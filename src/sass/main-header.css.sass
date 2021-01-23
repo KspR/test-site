@@ -48,6 +48,16 @@ body > header.main-header
 				position : relative
 				&:hover
 					cursor : default
+					.toggle .fas
+						margin-left : 8px
+						transform : rotate(90deg)
+				.toggle
+					.fas
+						font-size : .7em
+						position : relative
+						top : 0
+
+						transition : transform .3s, margin-left .3s
 				.menu
 					display : block
 					box-sizing : content-box
@@ -95,14 +105,12 @@ body > header.main-header
 		right : 0
 		z-index : 50
 		height : 100%
-		width : 80px
+		width : 65px
 		display : none
 
 	#btnBurgerMenu
 		z-index : 51
 		display : none
-		&:hover
-			cursor : pointer
 	.burger-btn
 		z-index : 52
 		justify-content : center
@@ -114,7 +122,6 @@ body > header.main-header
 			.deco-btn-burger
 				height : 2px
 				background : white
-				display : inline-block
 				display : block
 				width : 100%
 				border-radius : 2px
@@ -174,7 +181,7 @@ body > header.main-header
 					font-size : 1.4rem
 				.toggle-wrapper
 					position : relative
-					.toggle, .dropdown-invite
+					.toggle
 						display : none
 					.menu
 						display : block
