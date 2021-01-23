@@ -1,0 +1,326 @@
+@import colors.sass
+@import DDS_breakpoints.sass
+
+.ui_customer-story
+	position : relative
+	font-family : regular
+	color : $blackTitle
+
+	h2
+		font-size : 1.5rem
+		font-family : bold
+		color : $blackTitle
+		padding : 0 5%
+
+	// --------------------------------------------------------------
+	// SECTION HEADER
+	// --------------------------------------------------------------
+
+	.ui-header.evoyageurs
+		&::before
+			background-image : url("../imgs/UI_Customer-story/evoyageurs/illustration_evoyageurs.jpg")
+			@media only screen and (max-width : 1390px)
+				background-position : 100% 102px
+	.ui-header.sympany
+		&::before
+			background-image : url("../imgs/UI_Customer-story/sympany/draft-business-case-sympany.png")
+			@media only screen and (max-width : 1390px)
+				background-position : 100% 228px
+	.ui-header
+		display : flex
+		position : relative
+		align-items : center
+		padding-top : 120px
+		margin-top : 70px
+		padding-bottom : 80px
+		overflow : hidden
+		
+		&::before
+			position : absolute
+			top : 0
+			left : 0
+			content : ""
+			display : block
+			width : 100%
+			height : 100%
+			z-index : 1
+			background-position : center right
+			background-repeat : no-repeat
+			background-size : contain
+			@media only screen and (max-width : 1390px)
+				filter : grayscale(1)
+				opacity : .13
+
+		.main-info
+			position : relative
+			z-index : 2
+			margin-left : 10%
+			.wrapper
+				display : flex
+				align-items : center
+				.logo
+					margin-right : 50px
+					height : 100px
+					border-radius : 5px
+				h1
+					line-height : 2.4rem
+					font-size : 1.8rem
+					font-family : bold
+
+			.customers
+				display : flex
+				align-items : center
+				margin-top : 60px
+				.customer
+					width : 350px
+					padding : 25px
+					border : 2px solid rgba(0,0,0,.08)
+					border-radius : 5px
+					display : flex
+					align-items : center
+					background : white
+					.portrait
+						border-radius : 100px
+						height : 80px
+					.customer-details
+						margin-left : 20px
+						.name
+							font-weight : 700
+							font-size : .9em
+						.status
+							margin-top : 2px
+							font-size : 0.85rem
+							opacity : .7
+							display : block
+				.customer + .customer
+					margin-left : 7px
+				
+				// @media only screen and (max-width : 1300px)
+				// 	.customer
+				// 		border : none
+				// 		box-shadow : 0 5px 50px 0 rgba(0,0,0,0.1)
+				// 	.customer + .customer
+				// 		margin-left : 15px
+				// 		box-shadow : 20px 5px 50px 0 rgba(0,0,0,0.1)
+
+	// --------------------------------------------------------------
+	// end of SECTION HEADER
+	// --------------------------------------------------------------
+
+	// --------------------------------------------------------------
+	// SECTION CUSTOMER STORY
+	// --------------------------------------------------------------
+	
+	.customer-story
+		background : #f2f2f2
+		border-radius : 100px 0 0 0
+		padding-top : 140px
+		overflow : hidden
+		max-width : 100%
+
+		.wrapper
+			position : relative
+			background : white
+			border-radius : 10px
+			width : 1100px
+			max-width : 90%
+			margin : 0 auto
+			margin-bottom : 50px
+
+			.corner-deco
+				display : block
+				background : #f2f2f2
+				border-radius : 200px
+				height : 100px
+				width : 100px
+				position : absolute
+				top : -50px
+				right : -50px
+			
+			.illustration
+				box-shadow : 0 20px 100px 0 rgba(0,0,0,0.2)
+				width : calc(100% - 50px)
+				position : relative
+				z-index : 1
+				margin-top : 50px
+				margin-bottom : 50px
+				border-radius : 10px
+				&.intro
+					margin-top : -50px
+				&.left-sided
+					margin-left : -20px
+				&.right-sided
+					margin-right : -20px
+					float : right
+			
+			h2, & > p, ol
+				padding : 0 15%
+			h2
+				margin-bottom : 30px
+				font-size : 1.3rem
+			& > p
+				margin-bottom : 15px
+				line-height : 1.5rem
+			p + h2, ol + h2
+				margin-top : 30px
+			
+			ol
+				margin-top : 20px
+				padding-left : calc(15% + 80px)
+				li
+					padding-left : 10px
+				li + li
+					margin-top : 10px
+
+			
+			.author-info
+				border-top : 1px solid #eee
+				padding : 50px
+				margin-top : 40px
+				display : flex
+				align-items : center
+				margin-left : 15%
+				padding-left : 0
+				.portrait
+					border-radius : 70px
+					height : 90px
+				.author-details
+					margin-left : 35px
+					.name
+						font-weight : bold
+						font-size : 1.1rem
+					.status
+						margin-top : 4px
+						font-size : 0.9rem
+						opacity : .7
+						display : block
+
+	// --------------------------------------------------------------
+	// end of SECTION CUSTOMER STORY
+	// --------------------------------------------------------------
+
+
+
+
+// ==============================================================
+// --------------------------------------------------------------
+// PHONE RESPONSIVE STYLES
+// --------------------------------------------------------------
+// ==============================================================
+
+@media only screen and (max-width: $phoneBreakpoint)
+
+	.ui_customer-story
+
+		h2
+			font-size : 1.4rem
+			font-family : bold
+			color : $blackTitle
+			padding : 0 5%
+
+		// --------------------------------------------------------------
+		// SECTION HEADER
+		// --------------------------------------------------------------
+
+		.ui-header.evoyageurs
+			&::before
+				background-position : 100% 490px
+		.ui-header.sympany
+			&::before
+				background-position : 100% 430px
+		.ui-header
+			display : block
+			padding-top : 40px
+			margin-top : 70px
+			padding-bottom : 80px
+
+			.main-info
+				margin-left : 0
+				.wrapper
+					display : block
+					.logo
+						margin : 0 auto
+						display : block
+						height : 100px
+					h1
+						line-height : 2rem
+						font-size : 1.6rem
+						margin-top : 30px
+						text-align : center
+
+				.customers
+					display : block
+					margin-top : 60px
+					.customer, .customer + .customer
+						width : 90%
+						margin : 0 0 20px 5%
+						padding : 25px
+						.customer-details
+							margin-left : 20px
+							.status
+								margin-top : 2px
+								font-size : 0.9rem
+								opacity : .85
+					.customer + .customer
+						margin-top : 20px
+
+		// --------------------------------------------------------------
+		// end of SECTION HEADER
+		// --------------------------------------------------------------
+
+		// --------------------------------------------------------------
+		// SECTION CUSTOMER STORY
+		// --------------------------------------------------------------
+		
+		.customer-story
+			.wrapper
+				width : 90%
+				margin-bottom : 50px
+				
+				.illustration
+					width : calc(90%)
+					display : block
+					&.intro
+						margin-top : 0
+						top : -50px
+						box-shadow : none
+					&.left-sided,
+					&.right-sided
+						margin-left : auto
+						margin-right : auto
+						float : none
+				
+				h2, & > p, ol
+					padding : 0 30px
+				h2
+					line-height : 1.6rem
+				& > p
+					line-height : 1.4rem
+				
+				ol
+					padding-left : 60px
+					li
+						padding-left : 10px
+
+				
+				.author-info
+					padding : 30px
+					padding-left : 30px
+					margin-left : 0
+					.portrait
+						height : 90px
+					.author-details
+						margin-left : 25px
+						.status
+							font-size : 1rem
+							opacity : .8
+
+		// --------------------------------------------------------------
+		// end of SECTION CUSTOMER STORY
+		// --------------------------------------------------------------
+
+// ==============================================================
+// --------------------------------------------------------------
+// end of PHONE RESPONSIVE STYLES
+// --------------------------------------------------------------
+// ==============================================================

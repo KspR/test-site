@@ -1,23 +1,22 @@
 @font-face
 	font-family : regular
-	src : url("../fonts/Assistant/Assistant-Regular.ttf")
+	src : url(font-path("Assistant/Assistant-Regular.ttf"))
 
 @font-face
 	font-family : bold
-	src : url("../fonts/Assistant/Assistant-Bold.ttf")
+	src : url(font-path("Assistant/Assistant-Bold.ttf"))
 
 @font-face
 	font-family : "boldest"
-	src : url("../fonts/Assistant/Assistant-ExtraBold.ttf")
+	src : url(font-path("Assistant/Assistant-ExtraBold.ttf"))
 
 =align-middle
 	transform : translate(0, -50%)
 	position : relative
 	top : 50%
 
-@import colors.css.sass
-
-@import _examples.css.sass
+@import colors.sass
+@import _examples.sass
 
 body.home, body.workflow, body.business-case, body.page-pricing
 	overflow : overlay
@@ -80,7 +79,7 @@ $blue2 : #3892C7
 				width : 237px
 				height : 80px
 				background-size : contain
-				background-image : url("tmp/2020-10/business-case/company-logo.png")
+				background-image : image-url("tmp/2020-10/business-case/company-logo.png")
 
 				@media only screen and (min-width: 1080px)
 					float : left

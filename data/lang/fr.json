@@ -1,7 +1,7 @@
 {
   "hrefRoot": "/fr/",
   "code": "fr",
-  "verbose": "Français",
+  "verbose": "Française",
   "examples": {
     "title": "Exemples - Draft",
     "pageDescription": "Découvrez notre collection d’exemples concrets, préparés par des experts. Cela vous donnera un large aperçu de ce que vous pouvez faire et construire grâce à Draft !"
@@ -391,11 +391,17 @@
     "cta": "S'inscrire",
     "ph": "Entrez votre email",
     "detail": {
+      "if_1080": "Notre plan gratuit est illimité dans le temps et vous donne accès à toutes les fonctionnalités du <a href=\"pricing\">plan Pro</a>.",
+      "if_not_1080": "Notre plan gratuit est illimité dans le temps<br />et vous donne accès à toutes les fonctionnalités du <a href=\"pricing\">plan Pro</a>.",
       "if-1080": "Notre plan gratuit est illimité dans le temps et vous donne accès à toutes les fonctionnalités du <a href=\"pricing\">plan Pro</a>.",
       "if-not-1080": "Notre plan gratuit est illimité dans le temps<br />et vous donne accès à toutes les fonctionnalités du <a href=\"pricing\">plan Pro</a>."
     }
   },
   "footer": {
+    "enterprise": "Entreprise",
+    "customer_stories": "Customer stories",
+    "help_center": "Centre d'aide",
+    "customer": "Client",
     "customer-stories": "Customer stories",
     "language": "Langue",
     "product": "Produit",
@@ -462,92 +468,93 @@
   "separateur-END": "================================================================================ XXX",
   "separateur-UI-ENTERPRISE": "================================================================================ UI-ENTERPRISE",
   "ui-enterprise": {
+    "title": "Draft pour Entreprises",
     "bloc-landing": {
-      "title": "xxxx",
-      "punchline": "xxx",
-      "cta": "xxx"
+      "title": "Draft pour Entreprises",
+      "punchline": "L’environnement collaboratif idéal pour résoudre vos problèmes collectivement,<br />rationaliser le processus de prise de décision et coordonner vos équipes visuellement.",
+      "cta": "Contactez-nous"
     },
     "screenshots-slider": {
-      "slide1": "xxx",
-      "slide2": "xxx",
-      "slide3": "xxx"
+      "slide1": "Event Modelling par Emmanuel Lehmann, Coach DevOps Agile & Craft chez Axa",
+      "slide2": "PI Planning Portal par Guillaume Decousser, Project Management chez Air France",
+      "slide3": "Design System par Cyril Bissonnier, Product Owner/UX Design Consultant chez Altran"
     },
     "companies": {
-      "title": "xxx"
+      "title": "Ils nous font confiance"
     },
     "ready-to-deploy": {
-      "title": "xxx",
+      "title": "Prêt à être déployé dans votre entreprise",
       "tile1": {
-        "title": "xxx",
-        "description": "xxx"
+        "title": "SSO compatible SAML 2.0",
+        "description": "Le système d’administration de votre Team Draft peut se connecter avec n’importe quel fournisseur d’identité compatible SAML 2.0."
       },
       "tile2": {
-        "title": "xxx",
-        "description": "xxx"
+        "title": "Gestion fine des droits d’accès et de partage",
+        "description": "Un système de dossiers partagés et de rôles vous permet de contrôler précisément qui vous souhaitez impliquer et dans quelle mesure."
       },
       "tile3": {
-        "title": "xxx",
-        "description": "xxx"
+        "title": "Accompagnement dédié",
+        "description": "Nous pouvons vous accompagner pas à pas dans le déploiement de Draft au sein de vos équipes. Des formations gratuites sont offertes sur demande."
       },
       "tile4": {
-        "title": "xxx",
-        "description": "xxx"
+        "title": "Serveur dédié",
+        "description": "Nous avons la possibilité d’héberger votre propre instance de Draft sur un serveur dédié à votre entreprise."
       },
       "tile5": {
-        "title": "xxx",
-        "description": "xxx"
+        "title": "Intégration Jira",
+        "description": "Vous pouvez fluidifier l’ensemble de votre processus Agile de gestion de projet en bénéficiant gratuitement de l’intégration Draft-Jira symétrique et temps réel."
       },
       "tile6": {
-        "title": "xxx",
-        "description": "xxx"
+        "title": "Ponts avec Azure DevOps",
+        "description": "Un système d’import/export vous permet d’échanger aisément des données entre Draft et Azure DevOps."
       }
     },
     "customer-story": {
-      "title": "xxx",
-      "quote": "xxx",
-      "author": "xxx",
-      "status": "xxx",
-      "cta": "xxx",
-      "cta2": "xxx"
+      "title": "Customer Story à la une",
+      "quote": "“Aider les collaborateurs et les parties prenantes à parler le même langage”",
+      "author": "Mohamed MOUSSA",
+      "status": "Scrum Master / Coach Agile<br>chez e-Voyageurs SNCF",
+      "cta": "Découvrez la Customer Story",
+      "cta2": "Découvrez d’autres Customer Stories"
     },
     "safety": {
-      "title": "xxx",
+      "title": "Nous veillons à la protection de vos données",
       "feature1": {
-        "title": "xxx",
-        "description": "xxx"
+        "title": "Hébergeur certifié ISO 27001, SOC 1, et SOC 2",
+        "description": "Vos données sont hébergées en France, chez OVH, qui maintient les plus haut niveaux de certification en matière de sécurité."
       },
       "feature2": {
-        "title": "xxx",
-        "description": "xxx"
+        "title": "Test de sécurité périodique",
+        "description": "Des tests de sécurité (penetration test) sont effectués périodiquement par des experts de premier plan. Les rapports d’audit peuvent être consultés sur demande."
       },
       "feature3": {
-        "title": "xxx",
-        "description": "xxx"
+        "title": "Données cryptées en transit et au repos",
+        "description": "Nous utilisons le protocole HTTPS au standard TLSv1.2 (ou supérieur) pour protéger vos données en transit et le protocole de chiffrement AES 256 pour protéger vos données au repos."
       },
       "feature4": {
-        "title": "xxx",
-        "description": "xxx"
+        "title": "Archivage de tous les logs de connexion",
+        "description": "Nous pouvons vous fournir les logs de connexion relatifs à votre instance Draft sur demande. Vous pouvez ainsi nourrir automatiquement votre système d’alerte."
       },
       "feature5": {
-        "title": "xxx",
-        "description": "xxx"
+        "title": "Filtre IP",
+        "description": "Nous pouvons filtrer par IP l’accès aux données de votre Team. C’est une façon efficace de prévenir toute fuite de données en dehors de votre organisation."
       },
       "feature6": {
-        "title": "xxx",
-        "description": "xxx"
+        "title": "Contrôle de domaine",
+        "description": "Nous pouvons restreindre l’accès aux données de votre Team à des adresses email liées à seulement certains noms de domaine."
       },
       "feature7": {
-        "title": "xxx",
-        "description": "xxx"
+        "title": "Partage public restreint",
+        "description": "Vous pouvez désactiver le partage de draft par lien public pour prévenir toute fuite de données en dehors de votre organisation."
       },
       "feature8": {
-        "title": "xxx",
-        "description": "xxx"
+        "title": "Processus de backup régulier",
+        "description": "Des backups quotidiens sont effectués sur un serveur géographiquement séparé des serveurs de production."
       }
     },
     "partners": {
-      "partner1": "xxx",
-      "partner2": "xxx"
+      "partner2": "Soutenu par OVH dans le cadre de l'<a class=\"unsecable text-link underline-over\" href=\"https://startup.ovhcloud.com/en/\">OVHcloudStartup Program</a>",
+      "partner1": "Membre du syndicat professionnel <a class=\"unsecable text-link underline-over\" href=\"https://syntec-numerique.fr/\">Syntec Numerique</a>."
     }
   }
 }

@@ -1,0 +1,761 @@
+@import colors.sass
+
+$blue2 : #3892C7
+
+@media only screen and (min-width: 1080px)
+	.workflow .ucs .uc, .business-case .main
+		position : relative
+
+		.top-left-corner
+			position : absolute
+			top : 0
+			left : 0
+			width : 150px
+			height : 150px
+			background-color : white
+
+			.circle
+				background-color : #f2f2f2
+				width : 300px
+				height : 300px
+				border-radius : 300px
+
+	.workflow .ucs .uc .wrapper .text-container, .business-case .main > .content
+		.visual-artifact
+			position : absolute
+			width : 150px
+			height : 84px
+			top : -84px
+			right : 0
+			background-size : 403px
+			background-position : right
+			background-image : image-url("tmp/2020-06/site/workflow/angle.png")
+
+	.business-case .main > .content
+		.visual-artifact
+			top : 216px
+
+	.business-case
+		font-family : regular
+		color : #444
+
+		.bloc-landing
+			position : relative
+			overflow : hidden
+			margin-top : 70px
+
+			.top-row
+				.company-logo
+					float : left
+					width : 237px
+					height : 80px
+					margin-right : 50px
+					background-size : contain
+					background-image : image-url("tmp/2020-10/business-case/company-logo.png")
+
+				.title
+					font-family : bold
+					font-size : 30px
+
+			.people
+				clear : left
+				margin-top : 80px
+				margin-bottom : 80px
+				overflow : hidden
+
+				.individual
+					float : left
+					padding : 30px
+					border : 2px solid #eee
+					border-radius : 5px
+					width : 288px
+					margin-right : 10px
+
+					.picture
+						float : left
+						width : 80px
+						height : 80px
+						border-radius : 50%
+						background-color : #eee
+						margin-right : 30px
+						background-size : contain
+
+					.text
+						float : left
+						margin-top : 10px
+
+					.name
+						color : $blue2
+
+						a
+							color : $blue2
+							text-decoration : none
+
+							&:visited
+								color : $blue2
+
+					.title
+						color : #777
+						font-size : 14px
+						margin-top : 3px
+
+			.illu
+				width : calc(100% - 900px)
+				height : 100%
+				background-size : contain
+				position : absolute
+				background-repeat : no-repeat
+				background-position : center
+				top : 0
+				right : 150px
+				background-image : image-url("tmp/2020-10/business-case/Illustration_sans_titre.jpg")
+
+			.wrapper
+				width : 760px
+				margin : 100px 0
+				margin-top : 130px
+				margin-left : 150px
+				position : relative
+				z-index : 1
+
+				.punchline
+					font-size : 40px
+					margin-bottom : 40px
+
+					span
+						font-weight : bold
+
+				.baseline:not(:last-child)
+					margin-bottom : 25px
+
+		.main
+			background-color : #f2f2f2
+			overflow : hidden
+			
+			> .content
+				margin-top : 150px
+				position : relative
+				box-sizing : border-box
+				width : 1100px
+				margin-left : calc(50% - 550px)
+				margin-bottom : 150px
+
+				.background
+					position : absolute
+					top : 300px
+					left : 0
+					width : 100%
+					height : calc(100% - 300px)
+					background-color : white
+					border-bottom-left-radius : 5px
+					border-bottom-right-radius : 5px
+
+				.wrapper
+					position : relative
+
+					img
+						position : relative
+
+						&:first-child
+							width : calc(100% - 75px)
+							height : 610px
+							left : -40px
+
+						box-shadow : 0px 20px 110px 0px rgba(0, 0, 0, 0.3)
+						border-radius : 10px
+
+						&:not(:first-child)
+							margin-top : 100px
+							width : calc(100% - 20px)
+
+						&:nth-child(4n+3):not(:first-child)
+							left : 65px
+
+						&:nth-child(4n+1):not(:first-child)
+							left : -40px
+
+					.bloc-text
+						margin-top : 35px
+						padding : 0 65px
+						overflow : hidden
+
+						.bloc-title
+							font-size : 22px
+							margin-top : 30px
+							font-family : bold
+
+						.bloc-content
+							margin-top : 30px
+
+		.article-sign
+			position : relative
+			border-top : 1px solid #eee
+			width : 100%
+			overflow : hidden
+			margin-top : 70px
+
+			.wrapper
+				margin : 40px 100px
+				overflow : hidden
+
+				.picture
+					width : 110px
+					height : 110px
+					border-radius : 50%
+					margin-right : 35px
+					float : left
+					background-image : image-url("tmp/2020-10/business-case/alexandre-beauchet.jpg")
+					background-size : cover
+
+				.text
+					float : left
+					margin-top : 15px
+
+					.name
+						color : #3892C7
+						font-family : bold
+
+						a
+							color : $blue2
+							text-decoration : none
+
+							&:visited
+								color : $blue2
+
+					.title
+						color : #aaa
+
+					.punchline
+						margin-top : 5px
+
+	.page-pricing
+		.period-alt
+			margin-left : calc(50% - 152px)
+
+			.period-yearly, .period-monthly
+				padding : 10px 15px
+
+		.plan
+			.top-row
+				.plan-title
+					font-size : 27px
+
+	.page-pricing.lang-fr
+		.period-alt
+			margin-left : calc(50% - 180px)
+
+	.home, .workflow
+		.bloc-landing
+			.wrapper
+				.baseline
+					line-height : 30px
+
+		.bloc-features
+			padding : 120px 0 !important
+
+			.features
+				width : 360px * 4 + 2px * 3
+
+	.home .bloc-features .features
+		width : 360px * 3 + 2px * 2
+		margin-bottom : 90px
+		.feature:nth-child(3n+1)
+			clear : left
+
+	.header
+		.signin, .workflows
+			margin-right : 30px
+
+		.logo
+			width : 150px
+			height : 40px
+
+			.picto
+				width : 125px
+				height : 40px
+				background-image : image-url("tmp/2020-05/logo-diag-orange-plus-text.png")
+
+	.signup-bloc
+		.form-wrapper
+			width : 404px
+			margin-left : calc(50% - 202px)
+
+	.bloc-last
+		.left-visual
+			width : calc(50% - 600px)
+
+	.home, .workflow
+		.bloc-features
+			.features
+				float : left
+				margin-left : 50%
+				transform : translate(-50%, 0)
+
+				.feature
+					width : 360px
+					height : 320px
+					padding : 20px
+					.detail
+						padding : 0 10px
+
+	body.agile-project-management
+		.bloc-landing
+			.illu
+				background-image : image-url("tmp/2020-06/site/landing/agile-project-management.png")
+
+	body.product-management
+		.bloc-landing
+			.illu
+				background-image : image-url("tmp/2020-06/site/landing/product-management.png")
+
+	body.everyday-knowledge-work
+		.bloc-landing
+			.illu
+				background-image : image-url("tmp/2020-06/site/landing/everyday-knowledge-work.png")
+
+	.workflow
+		.ucs
+			.uc
+				position : relative
+
+		.bloc-landing
+			position : relative
+			overflow : hidden
+			margin-top : 70px
+
+			.illu
+				width : calc(100% - 900px)
+				height : 350px
+				background-size : contain
+				position : absolute
+				background-repeat : no-repeat
+				background-position : center
+				top : 88px
+				right : 150px
+
+			.wrapper
+				width : 600px
+				margin : 100px 0
+				margin-top : 130px
+				margin-left : 150px
+
+				.punchline
+					font-size : 40px
+					margin-bottom : 40px
+
+					span
+						font-weight : bold
+
+				.baseline:not(:last-child)
+					margin-bottom : 25px
+
+	.section
+		.title
+			font-size : 34px
+
+	.bloc-last
+		padding : 60px 0 80px 0
+
+	.footer
+		overflow : hidden
+
+		.footer-wrapper
+			width : 1024px
+			margin-left : calc(50% - 512px)
+			z-index : 1
+
+			a.linkedin
+				margin-right : 50px
+
+
+		.oblique
+			width : calc(50% - 400px)
+			right : 0
+
+	.home
+		.bloc-landing
+			padding : 180px 0 !important
+			position : relative
+			margin : 0 !important
+			padding-bottom : 320px !important
+
+			.angular-grid, .landing-fresque
+				pointer-events : none
+
+			.angular-grid
+				position : absolute
+				bottom : -400px
+				width : 100%
+				height : 800px
+				background-image : image-url("tmp/2020-06/site/landing/angular-grid.png")
+				background-size : 1920px
+
+			.landing-fresque
+				position : absolute
+				bottom : 0
+				width : 100%
+				height : 371px
+				background-image : image-url("tmp/2020-06/site/landing/fresque.png")
+				background-size : 1885px
+				background-repeat : no-repeat
+				background-position : center
+
+			.wrapper
+				.punchline
+					font-size : 48px
+					line-height : 70px
+
+				.baseline
+					width : 440px
+					margin-left : calc(50% - 220px)
+
+				.signup-bloc
+					margin-top : 40px
+
+		.bloc-features
+			padding-bottom : 0 !important
+
+	.workflow
+		.uc
+			background-color : #f2f2f2
+
+			.text-wrapper
+				.title
+					font-size : 32px
+
+				.text
+					font-size : 16px
+					margin-top : 10px
+
+	.section:not(.bloc-features)
+		padding : 90px 0
+
+	.section-problem
+		padding-top : 300px !important
+
+	.bloc-discover, .bloc-features
+		.features, .workflows
+			margin-top : 90px
+
+	.footer
+		padding : 60px 0
+
+		.bloc + .bloc
+			margin-left : 50px
+			
+		.bloc
+			display : inline-block
+
+			.title
+				margin-bottom : 15px
+
+	.header
+		.nav
+			margin : 0 50px
+
+	.bloc-landing
+		.signup-bloc
+			margin-top : 30px
+
+	.bloc-last
+		.signup-bloc
+			margin-top : 30px
+
+	.workflow, .home
+		.bloc-discover, .bloc-features, .section
+			padding : 90px 0
+
+		.ucs
+			.uc:first-child
+				.wrapper
+					margin-top : 160px
+
+		$scw : calc(100% - 420px)
+		$sch : 538px
+		$tw : 420px
+
+		.uc
+			overflow : hidden
+
+			.wrapper
+				width : 1100px
+				margin-left : calc(50% - 550px)
+				position : relative
+				margin-bottom : 180px
+
+				.screenshot
+					z-index : 2
+					width : 100%
+					padding-bottom : 62.5%
+					border-radius : 10px
+					position : relative
+					margin-left : 0
+
+				.screenshot-wrapper
+					width :  $scw
+
+				.text-container
+					position : absolute
+					bottom : -60px
+					width : calc(100% - 60px)
+					background-color : white
+					border-radius : 10px
+					z-index : 1
+
+					.visual-artifact
+						bottom : 100%
+
+					.text-wrapper
+						width : $tw
+						padding : 60px
+						box-sizing : border-box
+						padding-bottom : 60px
+
+						.text
+							margin-bottom : 20px
+
+						a
+							color : $blue
+							text-decoration : none
+
+							&:hover
+								text-decoration : underline
+
+							&:visited
+								color : $blue
+
+		.uc:nth-child(2n+1) .wrapper
+			.text-container
+				right : 0
+
+				.visual-artifact
+					left : calc(100% - 420px)
+
+			.text-wrapper
+				margin-left : calc(100% - 420px)
+
+		.uc:nth-child(2n) .wrapper
+			.text-container
+				left : 0
+
+				.visual-artifact
+					left : 270px
+					transform : scaleX(-1)
+
+			.screenshot-wrapper
+				margin-left : $tw
+
+
+	.home
+		$w : 340px
+		$margin : 40px
+		.bloc-discover
+			.leaning-blocs
+				.gradient-overlay
+					position : absolute
+					top : 0
+					left : 0
+					width : 1020px
+					height : 200px
+					background: -moz-linear-gradient(45deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.32) 39%, rgba(0, 0, 0, 0) 100%)
+					background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.32) 39%, rgba(0, 0, 0, 0) 100%)
+					background: linear-gradient(45deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.32) 39%, rgba(0, 0, 0, 0) 100%)
+					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#00000000',GradientType=1 )
+
+			.workflows
+				float : left
+				margin-left : 50%
+				transform : translate(-50%, 0)
+				width : $w * 3 + $margin * 2
+
+				.workflow
+					float : left
+					width : $w
+
+					.illu
+						width : 360
+						height : 180px
+						background-size : contain
+						margin-bottom : 30px
+							
+				.workflow:not(:last-child)
+					margin-right : $margin
+
+		.section-solution
+			width : 1100px
+			margin-left : calc(50% - 1100px/2 - 32px) !important
+			padding-bottom : calc(90px + 180px)
+
+			.wrapper
+				margin-top : 90px
+
+			.bloc
+				width : 310px
+
+				.msg
+					box-sizing : border-box
+					padding : 18px 24px
+					width : 280px
+					height : 240px
+					font-size : 17px !important
+
+				.illu
+					width : 440px
+					height : 380px
+					margin-top : 40px
+					left : -40px
+					top : 60px
+
+			.bloc:not(:last-child)
+				margin-right : 80px
+
+		.section-problem
+			.title, .wrapper
+				width : 1100px
+				margin-left : calc(50% - 550px)
+
+			.wrapper
+				margin-top : 60px
+
+			.illu
+				float : left
+				width : calc(100% - 600px)
+				height : 400px
+				margin-right : 40px
+				position : relative
+
+			.text-wrapper
+				width : 560px
+				float : left
+				margin-top : 44px
+
+				.bloc
+					&:not(:last-child)
+						margin-bottom : 30px
+
+					.msg
+						float : left
+						clear : left
+						width : 100%
+
+						span
+							color : $orange
+
+		.landing
+			.bloc-wrapper
+				width : 720px
+				margin-left : calc(50% - 360px)
+
+				.baseline
+					max-width : 480px
+					margin-left : calc(50% - 240px)
+
+		.if-not-1080
+			display : none !important
+
+		.bloc-misc
+			padding : 4em 0
+			width : 100%
+			white-space : nowrap
+
+			.entry
+				width : 25%
+				box-sizing : border-box
+				padding : 0 2em
+				display : inline-block
+				white-space : normal
+				vertical-align : top
+
+				.title
+					font-size : 1.2em
+					margin-bottom : 0.33em
+
+		.footer
+			.bloc-plan
+				margin-right : 8em
+
+		.if-mobile
+			display : none
+
+		body
+			.header
+				.nav
+					width : calc(100% - 80px)
+					margin-left : 40px
+
+			.bloc-last
+				.cta-light
+					margin-left : 2em
+
+		.use-cases
+			.who-entries
+				text-align : center
+
+				.bloc-category
+					display : inline-block
+					vertical-align : top
+
+					margin-right : 4em
+
+		.home
+			overflow-x : hidden
+
+		.home
+			.bloc-landing
+				min-height : calc(85% - 60px)
+				position : relative
+				display : flex
+				justify-content : center
+				align-items : center
+
+				.wrapper
+					width : 580px
+					margin-top : 100px
+					margin-bottom : 100px
+
+				.register
+					margin-top : 100px
+
+			.bloc-av
+				height : 100%
+				width : 100%
+
+				display : flex
+				justify-content : center
+
+				.wrapper
+					position : relative
+					height : 100%
+
+					display : flex
+					flex-direction : horizontal
+					max-width : 1200px
+
+				.text-container
+					width : 360px
+					padding : 0 1em 0 1em
+					box-sizing : border-box
+					position : relative
+
+					.bloc-text
+						position : relative
+						top : 50%
+						transform : translate(0, -50%)
+
+				.video-container
+					flex : 1
+					box-sizing : border-box
+					position : relative
+
+					video
+						max-width : calc(100% - 2em)
+						max-height : 80%
+						position : relative
+						top : 50%
+						transform : translate(0, -50%)
+						box-shadow : 0 2px 4px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19)
+
+			.bloc-av:nth-child(2n)
+				.wrapper
+					.bloc-text
+						padding : 0 1em 0 1em

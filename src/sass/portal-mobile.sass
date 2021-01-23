@@ -1,0 +1,335 @@
+@import colors.sass
+
+@media only screen and (max-width: 1080px)
+	body.workflow
+		.bloc-landing
+			.illu
+				float : left
+				width : 100%
+				background-size : contain
+				padding-bottom : 54%
+				background-repeat : no-repeat
+				margin-top : 10px
+				margin-bottom : 10px
+
+	body.agile-project-management
+		.bloc-landing
+			.illu
+				background-image : image-url("tmp/2020-06/site/landing/agile-project-management.png")
+
+	body.product-management
+		.bloc-landing
+			.illu
+				background-image : image-url("tmp/2020-06/site/landing/product-management.png")
+
+	body.everyday-knowledge-work
+		.bloc-landing
+			.illu
+				background-image : image-url("tmp/2020-06/site/landing/everyday-knowledge-work.png")
+
+	.page-pricing:not(.lang-fr)
+		.period-alt
+			margin-left : calc(50% - 138px)
+
+	.page-pricing.lang-fr
+		.period-alt
+			margin-left : calc(50% - 181px)
+			width : 362px
+
+	.page-pricing
+		.period-alt
+			.period-yearly, .period-monthly
+				padding : 10px 15px
+				line-height : 22px
+
+		.plans-wrapper
+			.title, .baseline
+				text-align : center
+
+			.title
+				font-size : 24px
+				margin-bottom : 10px
+
+			.baseline
+				font-size : 15px
+				margin-bottom : 30px
+
+			.plan-title
+				font-size : 20px
+				line-height : 40px
+
+			.baseline
+				font-size : 15px
+				margin-bottom : 30px
+
+	.home, .workflow
+		.bloc-landing
+			.wrapper
+				.baseline
+					font-size : 18px
+					line-height : 24px
+
+	.workflow
+		.bloc-landing
+			.wrapper
+				.baseline:not(:last-child)
+					margin-bottom : 10px
+
+	.header
+		.workflows
+			margin-right : 20px
+
+		.nav
+			margin : 0 10px
+
+			.logo
+				width : 40px
+				height : 40px
+				
+				.picto
+					width : 40px
+					height : 40px
+					background-image : image-url("tmp/2020-06/site/logo-no-degrade.png")
+
+	.section
+		.title
+			font-size : 24px
+
+	.bloc-last
+		padding : 30px 0
+
+	.section-solution
+		.wrapper
+			margin-top : 30px
+
+	.bloc-discover, .bloc-features
+		.features, .workflows
+			margin-top : 30px
+
+	.section.bloc-features
+		padding : 30px 10px 10px 10px !important
+
+	.workflow
+		.bloc-landing
+			.punchline
+				font-size : 32px
+				line-height : 40px
+
+	.home
+		.bloc-landing
+			.punchline
+				font-size : 50px
+				line-height : 60px
+
+		.signup-bloc
+			margin-top : 30px
+
+	.section
+		padding : 40px 10px
+		width : 100%
+		box-sizing : border-box
+		overflow : hidden
+
+	.header
+		.signin, .cta-border, .separator
+			display : none
+
+	.footer
+		width : 100%
+		box-sizing : border-box
+		padding : 20px
+
+		a.linkedin
+			margin-right : 40px
+
+		.oblique
+			right : 0px
+
+		.bloc
+			overflow : hidden
+
+			.title
+				margin-bottom : 5px
+
+			&:not(:last-child)
+				margin-bottom : 30px
+
+	.if-1080
+		display : none !important
+
+	.workflow
+		.bloc-landing
+			.wrapper
+				text-align : center
+				padding : 20px
+				margin-top : 70px
+
+		.ucs
+			background-color : #f2f2f2
+			overflow : hidden
+
+		.uc
+			&:first-child
+				margin-top : 40px
+
+			margin-bottom : 30px
+
+			.wrapper
+				overflow : hidden
+				margin : 10px
+				background-color : white
+				border-radius : 40px
+
+				.text-wrapper
+					text-align : center
+					padding : 20px 20px
+
+					.title
+						font-size : 24px
+
+					.text
+						font-size : 17px
+						margin-top : 10px
+						line-height : 22px
+
+				.screenshot
+					width : 100%
+					height : 40%
+					background-size : cover !important
+					background-position : top left !important
+					border-top-left-radius : 40px
+					border-top-right-radius : 40px
+
+	.home, .workflow
+		.bloc-discover, .bloc-features
+			.features, .workflows
+				.illu
+					background-size : contain
+					background-repeat : no-repeat
+					background-position : center
+
+				.feature
+					width : 100%
+
+				.feature
+					padding : 10px 10px 30px 10px
+
+			.workflows
+				.illu
+					width : 100%
+					padding-bottom : 66%
+
+			.features
+				.illu
+					margin-bottom : 30px
+
+				text-align : center
+
+		.section-problem
+			.wrapper
+				margin-top : 20px
+
+				.illu
+					width : 100%
+					padding-bottom : 66%
+
+				.bloc
+					.msg
+						span
+							color : $orange
+							
+					width : calc(100% - 20px)
+					margin-left : 10px
+
+					margin-top : 20px
+
+				.bloc:nth-child(2)
+					.illu-wrapper
+						.inner
+							width : 100%
+							height : 100%
+							background-size :	90%
+							top : 0
+
+		.section-solution
+			padding-bottom : 100px
+
+			.bloc
+				width : calc(100% - 20px)
+				margin-left : 10px
+				padding-bottom : calc(100% - 20px)
+
+				.msg
+					padding : 20px
+					box-sizing : border-box
+					width : 100%
+					height : 100%
+					position : absolute !important
+					top : 0
+					left : 0
+
+				.illu
+					left : 10px
+					top : calc(130px - 12%)
+					width : 100%
+					padding-bottom : 100%
+					background-position : center
+
+			.bloc:not(:last-child)
+				margin-bottom : 90px
+
+		.bloc-discover
+			.leaning-blocs-container
+				display : none
+
+			.workflow
+				margin-bottom : 40px
+
+	.signup-bloc
+		.form-wrapper
+			width : calc(100% - 40px)
+			margin-left : 20px
+
+	.bloc-landing
+		.signup-bloc
+			.form-wrapper
+				input:not([type=submit])
+					width : calc(100% - 140px)
+
+	.bloc-last
+		.left-visual
+			width : 1px
+			left : -90px
+
+		.signup-bloc
+			position : relative
+			z-index : 1
+
+	.use-cases
+		.who-entries
+			text-align : center
+
+			.bloc-category
+				text-align : center
+
+			.bloc-category:not(:last-child)
+				margin-bottom : 2em
+
+		.bloc-use-case
+			width : 100%
+			margin-left : 0
+
+			padding : 4em 0
+
+			overflow : hidden
+
+			.bloc-text, .bloc-illustration
+				width : 100%
+
+			.bloc-illustration
+				margin : 2em 4em 0 4em
+
+				.illustration
+					width : calc(100% - 8em)
+					box-sizing : border-box
+

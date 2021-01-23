@@ -6,14 +6,7 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- BEGINCSS -->
-<link href="css/common.css.css" rel="stylesheet">
-<link href="css/colors.css.css" rel="stylesheet">
-<link href="css/portal-desktop.css.css" rel="stylesheet">
-<link href="css/portal-mobile.css.css" rel="stylesheet">
-<link href="css/DDS_draft-design-system.css.css" rel="stylesheet">
-<link href="css/ui_enterprise.css.css" rel="stylesheet">
-<!-- ENDCSS -->
+	<%= stylesheet_link_tag "portal" %>
 
 </head>
 
@@ -31,7 +24,7 @@
 		</span>
 	</label>
 	<nav class="nav">
-		<a class="logo text-link" href="/fr/"><img src="imgs/logo-diag-orange-plus-text.png" alt="Logo Draft"></a>
+		<a class="logo text-link" href="/fr/"><img src="<%= image_path("site/logo-diag-orange-plus-text.png") %>" alt="Logo Draft"></a>
 		<ul>
 			<li>
 				<div class="toggle-wrapper text-link">
@@ -64,8 +57,8 @@
 
 	<section class="bloc-landing">
 		<div class="deco-background">
-			<img src="./imgs/UI_Enterprise/ui_enterprise_landing_deco_grid_left.png" alt="deco">
-			<img src="./imgs/UI_Enterprise/ui_enterprise_landing_deco_grid_right.png" alt="deco">
+			<img src="<%= image_path("site/UI_Enterprise/ui_enterprise_landing_deco_grid_left.png") %>" alt="deco">
+			<img src="<%= image_path("site/UI_Enterprise/ui_enterprise_landing_deco_grid_right.png") %>" alt="deco">
 		</div>
 		<h1>Draft pour Entreprises</h1>
 		<p class="intro-text">
@@ -78,10 +71,10 @@
 
 	<section class="screenshots-slider s1">
 		<div class="wrapper">
-			<img class="s1" src="./imgs/UI_Enterprise/screenshot_enterprise_Axa.jpg" alt="Capture Draft Axa">
-			<img class="s2" src="./imgs/UI_Enterprise/screenshot_enterprise_Air_France.jpg"
+			<img class="s1" src="<%= image_path("site/UI_Enterprise/screenshot_enterprise_Axa.jpg") %>" alt="Capture Draft Axa">
+			<img class="s2" src="<%= image_path("site/UI_Enterprise/screenshot_enterprise_Air_France.jpg") %>"
 				alt="Capture Draft Air France">
-			<img class="s3" src="./imgs/UI_Enterprise/screenshot_enterprise_Altran.jpg" alt="Capture Draft Altran">
+			<img class="s3" src="<%= image_path("site/UI_Enterprise/screenshot_enterprise_Altran.jpg") %>" alt="Capture Draft Altran">
 
 			<nav>
 				<ul class="slider-btns">
@@ -101,10 +94,10 @@
 	<section class="companies">
 		<h2>Ils nous font confiance</h2>
 		<ul>
-			<li><img src="./imgs/UI_Enterprise/logo_axa.png" alt="Logo Axa"></li>
-			<li><img src="./imgs/UI_Enterprise/logo_sncf.png" alt="Logo SNCF"></li>
-			<li><img src="./imgs/UI_Enterprise/logo_enedis.png" alt="Logo Enedis"></li>
-			<li><img src="./imgs/UI_Enterprise/logo_tui.png" alt="Logo TUI"></li>
+			<li><img src="<%= image_path("site/UI_Enterprise/logo_axa.png") %>" alt="Logo Axa"></li>
+			<li><img src="<%= image_path("site/UI_Enterprise/logo_sncf.png") %>" alt="Logo SNCF"></li>
+			<li><img src="<%= image_path("site/UI_Enterprise/logo_enedis.png") %>" alt="Logo Enedis"></li>
+			<li><img src="<%= image_path("site/UI_Enterprise/logo_tui.png") %>" alt="Logo TUI"></li>
 		</ul>
 	</section>
 
@@ -170,8 +163,8 @@
 				<div class="right-side">
 					<blockquote>“Aider les collaborateurs et les parties prenantes à parler le même langage”</blockquote>
 					<div class="customer-info">
-						<img class="logo" src="./imgs/UI_Enterprise/logo_sncf.png" alt="Logo SNCF">
-						<img class="portrait" src="./imgs/UI_Enterprise/Mohamed_Moussa_SNCF.jpg"
+						<img class="logo" src="<%= image_path("site/UI_Enterprise/logo_sncf.png") %>" alt="Logo SNCF">
+						<img class="portrait" src="<%= image_path("site/UI_Enterprise/Mohamed_Moussa_SNCF.jpg") %>"
 							alt="Photo Mohamed Moussa">
 						<p class="customer-details">
 							<span class="name">Mohamed MOUSSA</span>
@@ -182,9 +175,9 @@
 				</div>
 			</div>
 			<figure class="illustration">
-				<img src="./imgs/UI_Enterprise/customer_story_illustration_sncf.jpg" alt="">
+				<img src="<%= image_path("site/UI_Enterprise/customer_story_illustration_sncf.jpg") %>" alt="">
 			</figure>
-			<a href="#" class="text-link"><img src="./imgs/UI_Enterprise/picto_galery.svg"
+			<a href="#" class="text-link"><img src="<%= image_path("site/UI_Enterprise/picto_galery.svg") %>"
 					alt="Picto deco user stories listing">Découvrez d’autres Customer Stories</a>
 		</div>
 	</section>
@@ -276,14 +269,14 @@
 	<section class="credibility-labels">
 		<div class="wrapper">
 			<div class="label-group">
-				<img src="./imgs/UI_Enterprise/logo_syntec_numerique.png" alt="Logo Syntec numérique">
+				<img src="<%= image_path("site/UI_Enterprise/logo_syntec_numerique.png") %>" alt="Logo Syntec numérique">
 				<p class="legend">
 					Membre du syndicat professionnel <a class="unsecable text-link underline-over" href="https://syntec-numerique.fr/">Syntec Numerique</a>.
 				</p>
 			</div>
 			<div class="separator"></div>
 			<div class="label-group">
-				<img src="./imgs/UI_Enterprise/logo_ovh_startup_program.png" alt="Logo OVHCloud Startup Program">
+				<img src="<%= image_path("site/UI_Enterprise/logo_ovh_startup_program.png") %>" alt="Logo OVHCloud Startup Program">
 				<p class="legend">
 					Soutenu par OVH dans le cadre de l'<a class="unsecable text-link underline-over" href="https://startup.ovhcloud.com/en/">OVHcloudStartup Program</a>
 				</p>

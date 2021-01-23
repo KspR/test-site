@@ -1,0 +1,178 @@
+<html lang="<%= @lang.code %>">
+	<head>
+		<!-- <% if JSON_CONFIG["google-tag-manager"] %>
+			<%= render "partials/google_tag_manager_head" %>
+		<% end %> -->
+		<title>
+			User Story Mapping
+		<!-- <%= @example["label"] %> - <%= @lang.example.examples %> - Draft -->
+		</title>
+		<!-- <meta name="description" content="<%= @lang.example.pageDescription.gsub('&&example&&', @example["label"]) %>" /> -->
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- <%= stylesheet_link_tag "portal" %> -->
+
+		<link rel="icon" href="/favicon.png?v=5" />
+<!-- 
+		<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/fr/example/<%= @example["id"].gsub(/_/, '-') %>" 
+			hreflang="x-default" />
+		<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/example//<%= @example["id"].gsub(/_/, '-') %>" 
+		  hreflang="en-GB" />
+		<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/example/<%= @example["id"].gsub(/_/, '-') %>" 
+		  hreflang="en-US" />
+		<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/fr/example/<%= @example["id"].gsub(/_/, '-') %>" 
+			hreflang="fr-FR" />
+		<% if @lang.code == 'en' %>
+			<link rel="canonical" href="<%= JSON_CONFIG['host'] %>/example/<%= @example["id"].gsub(/_/, '-') %>">
+		<% else %>
+			<link rel="canonical" href="<%= JSON_CONFIG['host'] %>/fr/example/<%= @example["id"].gsub(/_/, '-') %>">
+		<% end %> -->
+
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link href="css/common.css.css" rel="stylesheet">
+			<link href="css/colors.css.css" rel="stylesheet">
+			<link href="css/portal-desktop.css.css" rel="stylesheet">
+			<link href="css/portal-mobile.css.css" rel="stylesheet">
+			<link href="css/DDS_draft-design-system.css.css" rel="stylesheet">
+			<link href="css/ui_enterprise.css.css" rel="stylesheet">
+	</head>
+	<body class="dark example lang-fr"><!-- lang-code -->
+<!-- 		<% if JSON_CONFIG["google-tag-manager"] %>
+			<%= render "partials/google_tag_manager_body" %>
+		<% end %> -->
+		
+		<!-- <%= render "portal-v2/header" %> -->
+		<!-- begin header -->
+		<div id="top-of-site-pixel-anchor"></div>
+
+		<div class="header">
+			<div class="nav">
+				<a class="cta if-1080" href="/fr/get-started">S&#x27;inscrire</a>
+				<div class="a-container signin">
+					<span>Se connecter</span>
+					<a class="if-1080" href="/fr/login">Se connecter</a>
+				</div>
+				<div class="separator if-1080"></div>
+				<div class="a-container">
+					<span>Offres</span>
+					<a class="pricing" href="/fr/pricing">Offres</a>
+				</div>
+				<div class="a-container examples if-1080">
+					<span>Exemples</span>
+					<a href="/fr/examples">Exemples</a>
+				</div>
+				<div class="a-container customer-stories if-1080">
+					<span>Customer stories</span>
+					<a href="/fr/customer-stories/sncf-transforming-customer-experience-with-user-story-mapping">Customer
+						stories</a>
+				</div>
+				<div class="a-container customer-stories if-1080">
+					<span>Enterprise</span>
+					<a href="/fr/enterprise">Enterprise</a>
+				</div>
+				<div class="workflows">
+					<div class="toggle-wrapper">
+						<div class="toggle">Workflows</div>
+						<div class="dropdown-invite"></div>
+					</div>
+					<div class="menu">
+						<a href="/fr/agile-project-management">Gestion de projet Agile</a>
+						<a href="/fr/product-management">Product Management</a>
+						<a href="/fr/everyday-creative-work">Travail créatif quotidien</a>
+					</div>
+				</div>
+				<a class="logo" href="/fr/">
+					<div class="picto"></div>
+				</a>
+				<!-- <a class="fav" href="/">d</a> -->
+				<!-- <a class="fav-sheet" href="/">d</a> -->
+			</div>
+		</div>
+
+		<script>
+			document.ontouchstart = function (e) {
+				e.stopPropagation();
+			}
+		</script>
+		<!-- end header-->
+
+
+		<div class="content">
+			<div class="wrapper">
+				<div class="ariane">
+					<!-- <% if @lang.code != 'en' %> -->
+						<!-- <a href="/<%= @lang.code %>/examples"><%= @lang.example.examples %></a> -->
+					<!-- <% else %> -->
+						<a href="/examples">Examples</a>
+					<!-- <% end %> -->
+					<div class="separator">></div>
+					<div class="current">
+						User Story Mapping
+						<!-- <%= @example["label"] %> -->
+					</div>
+				</div>
+
+				<div class="bloc-top">
+					<h1>
+						<!-- <%= @example["label"] %> -->
+						User Story Mapping
+					</h1>
+					<div class="bloc-cta">
+						<div class="cta-border">
+							<!-- <%= @lang.example.cta %> -->
+							Essayer l'exemple*
+						</div>
+						<div class="no-account-required">
+							<!-- <%= @lang.example.asterisk %> -->
+							*Pas de compte requis
+						</div>
+					</div>
+				</div>
+				<div class="screenshot user-story-mapping"></div>
+				<div class="bloc-bottom">
+					<a class="previous" href="<%= @previous_href %>">
+						<!-- ← <%= @previous["label"] %> -->
+						← Collecte de Feedback
+					</a>
+					<a class="next" href="<%= @next_href %>">
+						<!-- <%= @next["label"] %> → -->
+						Scrum Board	→
+					</a>
+				</div>
+			</div>
+		</div>
+
+	<script>
+	if (
+	  "IntersectionObserver" in window &&
+	  "IntersectionObserverEntry" in window &&
+	  "intersectionRatio" in window.IntersectionObserverEntry.prototype
+	) {
+	let observer = new IntersectionObserver(entries => {
+	  if (entries[0].boundingClientRect.y < 0) {
+	    document.body.classList.add("header-not-at-top");
+	  } else {
+	    document.body.classList.remove("header-not-at-top");
+	  }
+	});
+	observer.observe(document.querySelector("#top-of-site-pixel-anchor"));
+	}
+	// document.querySelector('.bloc-cta .cta-border').addEventListener('pointerdown', function() {
+	// 	window.location.href = "/example/create/<%= @example["id"] %>";
+	// });
+	</script>
+		<!--<%= render "portal-v2/footer" %>-->
+<!-- 
+  <% if Rails.env == "production" && JSON_CONFIG['ga'] %>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      
+      ga('create', "<%= JSON_CONFIG['ga'] %>", 'auto');
+      ga('send', 'pageview');
+    </script>
+  <% end %> -->
+	</body>
+</html>

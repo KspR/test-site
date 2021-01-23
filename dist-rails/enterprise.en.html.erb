@@ -1,19 +1,12 @@
 <html>
 
 <head>
-	<title>Draft pour Entreprises</title>
+	<title>Draft for Enterprises</title>
 	<meta name="description" content="" />
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- BEGINCSS -->
-<link href="css/common.css.css" rel="stylesheet">
-<link href="css/colors.css.css" rel="stylesheet">
-<link href="css/portal-desktop.css.css" rel="stylesheet">
-<link href="css/portal-mobile.css.css" rel="stylesheet">
-<link href="css/DDS_draft-design-system.css.css" rel="stylesheet">
-<link href="css/ui_enterprise.css.css" rel="stylesheet">
-<!-- ENDCSS -->
+	<%= stylesheet_link_tag "portal" %>
 
 </head>
 
@@ -31,24 +24,24 @@
 		</span>
 	</label>
 	<nav class="nav">
-		<a class="logo text-link" href="/fr/"><img src="imgs/logo-diag-orange-plus-text.png" alt="Logo Draft"></a>
+		<a class="logo text-link" href="/"><img src="<%= image_path("site/logo-diag-orange-plus-text.png") %>" alt="Logo Draft"></a>
 		<ul>
 			<li>
 				<div class="toggle-wrapper text-link">
 					<div class="toggle">Workflows <i class="fas fa-chevron-down"></i></div>
 					<ul class="menu">
-						<li><a class="text-link" href="/fr/agile-project-management">Gestion de projet Agile</a></li>
-						<li><a class="text-link" href="/fr/product-management">Product Management</a></li>
-						<li><a class="text-link" href="/fr/everyday-creative-work">Travail créatif quotidien</a></li>
+						<li><a class="text-link" href="/agile-project-management">Agile Project Management</a></li>
+						<li><a class="text-link" href="/product-management">Product Management</a></li>
+						<li><a class="text-link" href="/everyday-creative-work">Everyday Creative Work</a></li>
 					</ul>
 				</div>
 			</li>
-			<li><a class="text-link" href="/fr/enterprise">Entreprise</a></li>
-			<li><a class="text-link" href="/fr/customer-stories/sncf-transforming-customer-experience-with-user-story-mapping">Customer stories</a></li>
-			<li><a class="text-link" href="/fr/examples">Exemples</a></li>
-			<li><a class="text-link" href="/fr/pricing">Offres</a></li>
-			<li class="login"><a class="text-link" href="/fr/login">Se connecter</a></li>
-			<li class="subscribe"><a class="cta" href="/fr/get-started">S'inscrire</a></li>
+			<li><a class="text-link" href="/enterprise">Enterprise</a></li>
+			<li><a class="text-link" href="/customer-stories/sncf-transforming-customer-experience-with-user-story-mapping">Customer stories</a></li>
+			<li><a class="text-link" href="/examples">Examples</a></li>
+			<li><a class="text-link" href="/pricing">Pricing</a></li>
+			<li class="login"><a class="text-link" href="/login">Sign in</a></li>
+			<li class="subscribe"><a class="cta" href="/get-started">Sign up</a></li>
 		</ul>
 
 		<!-- <a class="fav" href="/">d</a> -->
@@ -64,24 +57,24 @@
 
 	<section class="bloc-landing">
 		<div class="deco-background">
-			<img src="./imgs/UI_Enterprise/ui_enterprise_landing_deco_grid_left.png" alt="deco">
-			<img src="./imgs/UI_Enterprise/ui_enterprise_landing_deco_grid_right.png" alt="deco">
+			<img src="<%= image_path("site/UI_Enterprise/ui_enterprise_landing_deco_grid_left.png") %>" alt="deco">
+			<img src="<%= image_path("site/UI_Enterprise/ui_enterprise_landing_deco_grid_right.png") %>" alt="deco">
 		</div>
-		<h1>Draft pour Entreprises</h1>
+		<h1>Draft for Enterprise</h1>
 		<p class="intro-text">
-			L’environnement collaboratif idéal pour résoudre vos problèmes collectivement,<br />rationaliser le processus de prise de décision et coordonner vos équipes visuellement.
+			An ideal digital collaboration layer for empowering deep innovative thinking,<br />improving group decision-making, and tracking progress visually.
 		</p>
 		<a class="cta round light dark-over">
-			<i class="fas fa-chevron-right"></i>Contactez-nous
+			<i class="fas fa-chevron-right"></i>Contact sales
 		</a>
 	</section>
 
 	<section class="screenshots-slider s1">
 		<div class="wrapper">
-			<img class="s1" src="./imgs/UI_Enterprise/screenshot_enterprise_Axa.jpg" alt="Capture Draft Axa">
-			<img class="s2" src="./imgs/UI_Enterprise/screenshot_enterprise_Air_France.jpg"
+			<img class="s1" src="<%= image_path("site/UI_Enterprise/screenshot_enterprise_Axa.jpg") %>" alt="Capture Draft Axa">
+			<img class="s2" src="<%= image_path("site/UI_Enterprise/screenshot_enterprise_Air_France.jpg") %>"
 				alt="Capture Draft Air France">
-			<img class="s3" src="./imgs/UI_Enterprise/screenshot_enterprise_Altran.jpg" alt="Capture Draft Altran">
+			<img class="s3" src="<%= image_path("site/UI_Enterprise/screenshot_enterprise_Altran.jpg") %>" alt="Capture Draft Altran">
 
 			<nav>
 				<ul class="slider-btns">
@@ -92,68 +85,68 @@
 			</nav>
 		</div>
 		<h3 class="legend">
-			<span class="s1">Event Modelling par Emmanuel Lehmann, Coach DevOps Agile & Craft chez Axa</span>
-			<span class="s2">PI Planning Portal par Guillaume Decousser, Project Management chez Air France</span>
-			<span class="s3">Design System par Cyril Bissonnier, Product Owner/UX Design Consultant chez Altran</span>
+			<span class="s1">Event Modelling by Emmanuel Lehmann, Coach DevOps Agile & Craft at Axa</span>
+			<span class="s2">PI Planning Portal by Guillaume Decousser, Project Management at Air France</span>
+			<span class="s3">Design System by Cyril Bissonnier, Product Owner/UX Design Consultant at Altran</span>
 		</h3>
 	</section>
 
 	<section class="companies">
-		<h2>Ils nous font confiance</h2>
+		<h2>Trusted by leading global brands</h2>
 		<ul>
-			<li><img src="./imgs/UI_Enterprise/logo_axa.png" alt="Logo Axa"></li>
-			<li><img src="./imgs/UI_Enterprise/logo_sncf.png" alt="Logo SNCF"></li>
-			<li><img src="./imgs/UI_Enterprise/logo_enedis.png" alt="Logo Enedis"></li>
-			<li><img src="./imgs/UI_Enterprise/logo_tui.png" alt="Logo TUI"></li>
+			<li><img src="<%= image_path("site/UI_Enterprise/logo_axa.png") %>" alt="Logo Axa"></li>
+			<li><img src="<%= image_path("site/UI_Enterprise/logo_sncf.png") %>" alt="Logo SNCF"></li>
+			<li><img src="<%= image_path("site/UI_Enterprise/logo_enedis.png") %>" alt="Logo Enedis"></li>
+			<li><img src="<%= image_path("site/UI_Enterprise/logo_tui.png") %>" alt="Logo TUI"></li>
 		</ul>
 	</section>
 
 	<section class="ready-to-deploy">
-		<h2>Prêt à être déployé dans votre entreprise</h2>
+		<h2>Ready-to-deploy</h2>
 		<div class="wrapper">
 			<ul class="row">
 				<li class="feature">
-					<h3 class="name"><i class="fas fa-key"></i> SSO compatible SAML 2.0</h3>
+					<h3 class="name"><i class="fas fa-key"></i> SAML 2.0-based SSO</h3>
 					<p class="description">
-						Le système d’administration de votre Team Draft peut se connecter avec n’importe quel fournisseur d’identité compatible SAML 2.0.
+						Connect Draft’s team admin system to any SAML 2.0 identity provider.
 					</p>
 				</li>
 				<li class="feature">
 					<h3 class="name"><a class="text-link"
 						href="https://www.notion.so/How-does-a-Team-work-6766f11d356043dda5092334ec86fef0"><i
-							class="fas fa-unlock-alt"></i> Gestion fine des droits d’accès et de partage <i
+							class="fas fa-unlock-alt"></i> Fine-grained permission system <i
 							class="fas fa-long-arrow-alt-right"></i></a></h3>
 					<p class="description">
-						Un système de dossiers partagés et de rôles vous permet de contrôler précisément qui vous souhaitez impliquer et dans quelle mesure.
+						Create shared folders, manage users by group, and assign specific roles based on the level of Team member involvement required.
 					</p>
 				</li>
 				<li class="feature">
-					<h3 class="name"><i class="fas fa-tasks"></i> Accompagnement dédié</h3>
+					<h3 class="name"><i class="fas fa-tasks"></i> Customer success</h3>
 					<p class="description">
-						Nous pouvons vous accompagner pas à pas dans le déploiement de Draft au sein de vos équipes. Des formations gratuites sont offertes sur demande.
+						Onboard your team with ease and receive dedicated support and on-demand training to get the most value out of your drafts at all times.
 					</p>
 				</li>
 			</ul>
 			<ul class="row">
 				<li class="feature">
-					<h3 class="name"><i class="fas fa-server"></i> Serveur dédié</h3>
+					<h3 class="name"><i class="fas fa-server"></i> Dedicated server</h3>
 					<p class="description">
-						Nous avons la possibilité d’héberger votre propre instance de Draft sur un serveur dédié à votre entreprise.
+						We can host and manage your instance of Draft on a dedicated server.
 					</p>
 				</li>
 				<li class="feature">
 					<h3 class="name"><a class="text-link"
 							href="https://www.notion.so/Introduction-to-the-Jira-integration-9e0f4b934e794b1481a2bdab7315e399"><i
-								class="fab fa-jira"></i> Intégration Jira <i
+								class="fab fa-jira"></i> Jira integration <i
 								class="fas fa-long-arrow-alt-right"></i></a></h3>
 					<p class="description">
-						Vous pouvez fluidifier l’ensemble de votre processus Agile de gestion de projet en bénéficiant gratuitement de l’intégration Draft-Jira symétrique et temps réel.
+						Streamline your entire Agile project management workflow by connecting your Jira instance to Draft in just a few simple steps.
 					</p>
 				</li>
 				<li class="feature">
-					<h3 class="name"><i class="fab fa-windows"></i> Ponts avec Azure DevOps</h3>
+					<h3 class="name"><i class="fab fa-windows"></i> Bridges with Azure DevOps</h3>
 					<p class="description">
-						Un système d’import/export vous permet d’échanger aisément des données entre Draft et Azure DevOps.
+						Exchange data (import/export) smoothly between Draft and Azure DevOps.
 					</p>
 				</li>
 			</ul>
@@ -161,73 +154,73 @@
 	</section>
 
 	<section class="customer-story">
-		<h2>Customer Story à la une</h2>
+		<h2>Customer success in the spotlight</h2>
 		<div class="wrapper">
 			<div class="story-bloc">
 				<div class="left-side">
 					<div class="picto-deco"></div>
 				</div>
 				<div class="right-side">
-					<blockquote>“Aider les collaborateurs et les parties prenantes à parler le même langage”</blockquote>
+					<blockquote>“Helping people speak the same language” </blockquote>
 					<div class="customer-info">
-						<img class="logo" src="./imgs/UI_Enterprise/logo_sncf.png" alt="Logo SNCF">
-						<img class="portrait" src="./imgs/UI_Enterprise/Mohamed_Moussa_SNCF.jpg"
+						<img class="logo" src="<%= image_path("site/UI_Enterprise/logo_sncf.png") %>" alt="Logo SNCF">
+						<img class="portrait" src="<%= image_path("site/UI_Enterprise/Mohamed_Moussa_SNCF.jpg") %>"
 							alt="Photo Mohamed Moussa">
 						<p class="customer-details">
 							<span class="name">Mohamed MOUSSA</span>
-							<span class="status">Scrum Master / Coach Agile<br>chez e-Voyageurs SNCF</span>
+							<span class="status">Scrum Master / Coach Agile<br>at e-Voyageurs SNCF</span>
 						</p>
 					</div>
-					<a href="#" class="text-link">Découvrez la Customer Story <i class="fas fa-long-arrow-alt-right"></i></a>
+					<a href="#" class="text-link">Discover The Story <i class="fas fa-long-arrow-alt-right"></i></a>
 				</div>
 			</div>
 			<figure class="illustration">
-				<img src="./imgs/UI_Enterprise/customer_story_illustration_sncf.jpg" alt="">
+				<img src="<%= image_path("site/UI_Enterprise/customer_story_illustration_sncf.jpg") %>" alt="">
 			</figure>
-			<a href="#" class="text-link"><img src="./imgs/UI_Enterprise/picto_galery.svg"
-					alt="Picto deco user stories listing">Découvrez d’autres Customer Stories</a>
+			<a href="#" class="text-link"><img src="<%= image_path("site/UI_Enterprise/picto_galery.svg") %>"
+					alt="Picto deco user stories listing">Discover more Customer Stories</a>
 		</div>
 	</section>
 
 	<section class="safety-features">
 		<div class="picto-deco"><i class="fas fa-shield-alt"></i></div>
-		<h2>Nous veillons à la protection de vos données</h2>
+		<h2>Keeping your data safe and secure is our top priority</h2>
 		<div class="wrapper">
 			<ul>
 				<li class="feature">
 					<button class="display-btn">
 						<i class="far fa-caret-square-down"></i>
-						Hébergeur certifié ISO 27001, SOC 1, et SOC 2
+						ISO 27001-, SOC 1-, and SOC 2-compliance
 					</button>
 					<p class="description">
-						Vos données sont hébergées en France, chez OVH, qui maintient les plus haut niveaux de certification en matière de sécurité.
+						Your data is hosted by OVH, Europe’s largest hosting provider, to maintain the highest level of security standard and certification.
 					</p>
 				</li>
 				<li class="feature">
 					<button class="display-btn">
 						<i class="far fa-caret-square-down"></i>
-						Test de sécurité périodique
+						Independent third-party penetration tests
 					</button>
 					<p class="description">
-						Des tests de sécurité (penetration test) sont effectués périodiquement par des experts de premier plan. Les rapports d’audit peuvent être consultés sur demande.
+						Access periodic audit and follow-up reports on-demand at any time.
 					</p>
 				</li>
 				<li class="feature">
 					<button class="display-btn">
 						<i class="far fa-caret-square-down"></i>
-						Données cryptées en transit et au repos
+						Data encryption in transit and at rest
 					</button>
 					<p class="description">
-						Nous utilisons le protocole HTTPS au standard TLSv1.2 (ou supérieur) pour protéger vos données en transit et le protocole de chiffrement AES 256 pour protéger vos données au repos.
+						Draft uses HTTPS protocol with TLSv1.2 or higher in transit and AES 256 at rest.
 					</p>
 				</li>
 				<li class="feature">
 					<button class="display-btn">
 						<i class="far fa-caret-square-down"></i>
-						Archivage de tous les logs de connexion
+						Log management
 					</button>
 					<p class="description">
-						Nous pouvons vous fournir les logs de connexion relatifs à votre instance Draft sur demande. Vous pouvez ainsi nourrir automatiquement votre système d’alerte.
+						At your request, we can connect the logs to your existing system, so you can create your own alerts and monitoring.
 					</p>
 				</li>
 			</ul>
@@ -235,37 +228,37 @@
 				<li class="feature">
 					<button class="display-btn">
 						<i class="far fa-caret-square-down"></i>
-						Filtre IP
+						IP filtering
 					</button>
 					<p class="description">
-						Nous pouvons filtrer par IP l’accès aux données de votre Team. C’est une façon efficace de prévenir toute fuite de données en dehors de votre organisation.
+						You have the option to limit login from specific IPs only as a way of both preventing outside access to your data and enabling flexible collaboration within your organization.
 					</p>
 				</li>
 				<li class="feature">
 					<button class="display-btn">
 						<i class="far fa-caret-square-down"></i>
-						Contrôle de domaine
+						Domain control
 					</button>
 					<p class="description">
-						Nous pouvons restreindre l’accès aux données de votre Team à des adresses email liées à seulement certains noms de domaine.
+						You can whitelist email addresses from specific domains to prevent your team members from sharing drafts outside your organization inadvertently.
 					</p>
 				</li>
 				<li class="feature">
 					<button class="display-btn">
 						<i class="far fa-caret-square-down"></i>
-						Partage public restreint
+						Sharing controls
 					</button>
 					<p class="description">
-						Vous pouvez désactiver le partage de draft par lien public pour prévenir toute fuite de données en dehors de votre organisation.
+						Draft admins can disable the option to share boards via public links in order to prevent leaking sensitive information.
 					</p>
 				</li>
 				<li class="feature">
 					<button class="display-btn">
 						<i class="far fa-caret-square-down"></i>
-						Processus de backup régulier
+						Daily backups
 					</button>
 					<p class="description">
-						Des backups quotidiens sont effectués sur un serveur géographiquement séparé des serveurs de production.
+						We process backups daily and stock them for one year in a separate and secure location.
 					</p>
 				</li>
 			</ul>
@@ -276,16 +269,16 @@
 	<section class="credibility-labels">
 		<div class="wrapper">
 			<div class="label-group">
-				<img src="./imgs/UI_Enterprise/logo_syntec_numerique.png" alt="Logo Syntec numérique">
+				<img src="<%= image_path("site/UI_Enterprise/logo_syntec_numerique.png") %>" alt="Logo Syntec numérique">
 				<p class="legend">
-					Membre du syndicat professionnel <a class="unsecable text-link underline-over" href="https://syntec-numerique.fr/">Syntec Numerique</a>.
+					Member of France’s largest tech<br />professional corporation, <a class="unsecable text-link underline-over" href="https://syntec-numerique.fr/">Syntec Numerique</a>.
 				</p>
 			</div>
 			<div class="separator"></div>
 			<div class="label-group">
-				<img src="./imgs/UI_Enterprise/logo_ovh_startup_program.png" alt="Logo OVHCloud Startup Program">
+				<img src="<%= image_path("site/UI_Enterprise/logo_ovh_startup_program.png") %>" alt="Logo OVHCloud Startup Program">
 				<p class="legend">
-					Soutenu par OVH dans le cadre de l'<a class="unsecable text-link underline-over" href="https://startup.ovhcloud.com/en/">OVHcloudStartup Program</a>
+					Supported by Europe’s largest hosting provider,<br />part of the <a class="unsecable text-link underline-over" href="https://startup.ovhcloud.com/en/">OVHcloudStartup Program</a>.
 				</p>
 			</div>
 		</div>
@@ -295,20 +288,20 @@
 	<div class="left-visual">
 		<div class="rotated-square"></div>
 	</div>
-	<div class="title">Démarrez dès aujourd’hui</div>
-	<form class="signup-bloc" action="/fr//get-started">
+	<div class="title">Start your first draft today!</div>
+	<form class="signup-bloc" action="//get-started">
 	<div class="form-wrapper">
-		<input placeHolder="Entrez votre email" name="pre_email"></input>
+		<input placeHolder="Enter your email" name="pre_email"></input>
 		<div class="submit-wrapper">
 			<div class="triangle"></div>
-			<input type="submit" class="register cta" href="/fr/get-started" value="S'inscrire" />
+			<input type="submit" class="register cta" href="/get-started" value="Get started" />
 		</div>
 	</div>
 	<div class="if-1080">
-		<div class="detail">Notre plan gratuit est illimité dans le temps et vous donne accès à toutes les fonctionnalités du <a href="pricing">plan Pro</a>.</div>
+		<div class="detail">Start your first draft today. Sign up for a Free plan.</div>
 	</div>
 	<div class="if-not-1080">
-		<div class="detail">Notre plan gratuit est illimité dans le temps<br />et vous donne accès à toutes les fonctionnalités du <a href="pricing">plan Pro</a>.</div>
+		<div class="detail">Start your first draft today.<br />Sign up for a Free plan.</div>
 	</div>
 </form>
 	<!-- <a class="cta-border cta-border-darkblue" style="margin-left:40px;" href="/agile_project_management">Discover how Scrum Masters use Draft</a> -->
@@ -316,37 +309,37 @@
 	<div class="footer">
 	<div class="footer-wrapper">
 		<div class="bloc bloc-plan">
-			<div class="title">Produit</div>
-			<a href="/">Accueil</a>
-			<a href="/agile-project-management">Draft pour la gestion de projet Agile</a>
-			<a href="/product-management">Draft pour le Product Management</a>
-			<a href="/everyday-creative-work"Draft pour le travail créatif quotidien</a>
-			<a href="/examples">Exemples</a>
-			<a href="/login">Se connecter</a>
-			<a href="/get-started">S'inscrire</a>
+			<div class="title">Product</div>
+			<a href="/">Home</a>
+			<a href="/agile-project-management">Draft for Agile Project Management</a>
+			<a href="/product-management">Draft for Product Management</a>
+			<a href="/everyday-creative-work"Draft for Everyday Creative Work</a>
+			<a href="/examples">Examples</a>
+			<a href="/login">Sign in</a>
+			<a href="/get-started">Sign up</a>
 		</div>
 
 		<div class="bloc bloc-resources">
-			<div class="title">Client</div>
-			<a href="/enterprise">Entreprise</a>
+			<div class="title">Customer</div>
+			<a href="/enterprise">Enterprise</a>
 			<a href="/customer-stories">Customer stories</a>
-			<a href="/pricing">Offres</a>
+			<a href="/pricing">Pricing</a>
 		</div>
 
 		<div class="bloc bloc-resources">
-			<div class="title">Ressources</div>
+			<div class="title">Resources</div>
 			<a href="https://www.notion.so/Draft-s-Help-Center-cc9934be1af04688954d1d077ad004aa"
-				target="_blank">Centre d'aide</a>
+				target="_blank">Help center</a>
 			<a href="https://draft.io/assets/2020 10 27 Terms and conditions - Draft SAS.pdf"
-				target="_blank">Termes</a>
-			<a href="https://draft.io/assets/2020 10 27 Privacy Policy - Draft SAS.pdf" target="_blank">Sécurité et confidentialité</a>
-			<a href="mailto:hi@draft.io">Contactez-nous</a>
+				target="_blank">Terms</a>
+			<a href="https://draft.io/assets/2020 10 27 Privacy Policy - Draft SAS.pdf" target="_blank">Privacy</a>
+			<a href="mailto:hi@draft.io">Contact Us</a>
 
 			<div class="language-bloc">
-				<div class="bloc-title">Langue</div>
+				<div class="bloc-title">Language</div>
 				<div class="menu-wrapper">
 					<div class="toggle-wrapper">
-						<div class="toggle">Française</div>
+						<div class="toggle">English</div>
 						<div class="dropdown-invite"></div>
 					</div>
 					<div class="menu">

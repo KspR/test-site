@@ -6,7 +6,7 @@ code
 	fr
 verbose
 	English
-	Français
+	Française
 examples
 	title
 		Examples - Draft
@@ -729,6 +729,12 @@ register
 		Enter your email
 		Entrez votre email
 	detail
+		if_1080
+			Start your first draft today. Sign up for a Free plan.
+			Notre plan gratuit est illimité dans le temps et vous donne accès à toutes les fonctionnalités du <a href="pricing">plan Pro</a>.
+		if_not_1080
+			Start your first draft today.<br />Sign up for a Free plan.
+			Notre plan gratuit est illimité dans le temps<br />et vous donne accès à toutes les fonctionnalités du <a href="pricing">plan Pro</a>.
 		if-1080
 			Start your first draft today. Sign up for a Free plan.
 			Notre plan gratuit est illimité dans le temps et vous donne accès à toutes les fonctionnalités du <a href="pricing">plan Pro</a>.
@@ -736,6 +742,18 @@ register
 			Start your first draft today.<br />Sign up for a Free plan.
 			Notre plan gratuit est illimité dans le temps<br />et vous donne accès à toutes les fonctionnalités du <a href="pricing">plan Pro</a>.
 footer
+	enterprise
+		Enterprise
+		Entreprise
+	customer_stories
+		Customer stories
+		Customer stories
+	help_center
+		Help center
+		Centre d'aide
+	customer
+		Customer
+		Client
 	customer-stories
 		Customer stories
 		Customer stories
@@ -1253,159 +1271,162 @@ separateur-UI-ENTERPRISE
 	================================================================================ UI-UENTERPRISE
 	================================================================================ UI-ENTERPRISE
 ui-enterprise
+	title
+		Draft for Enterprises
+		Draft pour Entreprises
 	bloc-landing
 		title
 			Draft for Enterprise
-			xxxx
+			Draft pour Entreprises
 		punchline
-			The ideal digital collaborative layer for thinking deep collectively,<br>empowering decision-making, and tracking progress visually.
-			xxx
+			An ideal digital collaboration layer for empowering deep innovative thinking,<br />improving group decision-making, and tracking progress visually.
+			L’environnement collaboratif idéal pour résoudre vos problèmes collectivement,<br />rationaliser le processus de prise de décision et coordonner vos équipes visuellement.
 		cta
 			Contact sales
-			xxx
+			Contactez-nous
 	screenshots-slider
 		slide1
-			Event Modelling by Emmanuel Lehmann, Consultant in Software Craftmanship at Axa
-			xxx
+			Event Modelling by Emmanuel Lehmann, Coach DevOps Agile & Craft at Axa
+			Event Modelling par Emmanuel Lehmann, Coach DevOps Agile & Craft chez Axa
 		slide2
 			PI Planning Portal by Guillaume Decousser, Project Management at Air France
-			xxx
+			PI Planning Portal par Guillaume Decousser, Project Management chez Air France
 		slide3
 			Design System by Cyril Bissonnier, Product Owner/UX Design Consultant at Altran
-			xxx
+			Design System par Cyril Bissonnier, Product Owner/UX Design Consultant chez Altran
 	companies
 		title
-			Trusted by renowned companies
-			xxx
+			Trusted by leading global brands
+			Ils nous font confiance
 	ready-to-deploy
 		title
-			Ready-to-deploy in your Enterprise
-			xxx
+			Ready-to-deploy
+			Prêt à être déployé dans votre entreprise
 		tile1
 			title
 				SAML 2.0-based SSO
-				xxx
+				SSO compatible SAML 2.0
 			description
-				Draft’s team administration system can connect to any SAML 2.0 identity provider.
-				xxx
+				Connect Draft’s team admin system to any SAML 2.0 identity provider.
+				Le système d’administration de votre Team Draft peut se connecter avec n’importe quel fournisseur d’identité compatible SAML 2.0.
 		tile2
 			title
 				Fine-grained permission system
-				xxx
+				Gestion fine des droits d’accès et de partage
 			description
-				Create shared folders and attribute specific roles depending on how you want to involve team members.
-				xxx
+				Create shared folders, manage users by group, and assign specific roles based on the level of Team member involvement required.
+				Un système de dossiers partagés et de rôles vous permet de contrôler précisément qui vous souhaitez impliquer et dans quelle mesure.
 		tile3
 			title
-				Client success management
-				xxx
+				Customer success
+				Accompagnement dédié
 			description
-				We can help you onboard large teams and create your first essential drafts. Free training sessions on demand.
-				xxx
+				Onboard your team with ease and receive dedicated support and on-demand training to get the most value out of your drafts at all times.
+				Nous pouvons vous accompagner pas à pas dans le déploiement de Draft au sein de vos équipes. Des formations gratuites sont offertes sur demande.
 		tile4
 			title
 				Dedicated server
-				xxx
+				Serveur dédié
 			description
-				We can host your instance of the app on a dedicated server on demand.
-				xxx
+				We can host and manage your instance of Draft on a dedicated server.
+				Nous avons la possibilité d’héberger votre propre instance de Draft sur un serveur dédié à votre entreprise.
 		tile5
 			title
 				Jira integration
-				xxx
+				Intégration Jira
 			description
-				Streamline your whole Agile project management workflow by connecting your Jira instance to Draft in a few steps.
-				xxx
+				Streamline your entire Agile project management workflow by connecting your Jira instance to Draft in just a few simple steps.
+				Vous pouvez fluidifier l’ensemble de votre processus Agile de gestion de projet en bénéficiant gratuitement de l’intégration Draft-Jira symétrique et temps réel.
 		tile6
 			title
 				Bridges with Azure DevOps
-				xxx
+				Ponts avec Azure DevOps
 			description
-				Import/export system to exchange data smoothly between Draft and Azure DevOps.
-				xxx
+				Exchange data (import/export) smoothly between Draft and Azure DevOps.
+				Un système d’import/export vous permet d’échanger aisément des données entre Draft et Azure DevOps.
 	customer-story
 		title
-			Customer Story in the spotligh
-			xxx
+			Customer success in the spotlight
+			Customer Story à la une
 		quote
-			“Helping people speak the same language”
-			xxx
+			“Helping people speak the same language” 
+			“Aider les collaborateurs et les parties prenantes à parler le même langage”
 		author
 			Mohamed MOUSSA
-			xxx
+			Mohamed MOUSSA
 		status
 			Scrum Master / Coach Agile<br>at e-Voyageurs SNCF
-			xxx
+			Scrum Master / Coach Agile<br>chez e-Voyageurs SNCF
 		cta
 			Discover The Story
-			xxx
+			Découvrez la Customer Story
 		cta2
-			Discover More Customer Stories
-			xxx
+			Discover more Customer Stories
+			Découvrez d’autres Customer Stories
 	safety
 		title
-			We’re focused on keeping your data safe and secure
-			xxx
+			Keeping your data safe and secure is our top priority
+			Nous veillons à la protection de vos données
 		feature1
 			title
-				ISO 27001, SOC 1, and SOC 2 compliant hosting provider
-				xxx
+				ISO 27001-, SOC 1-, and SOC 2-compliance
+				Hébergeur certifié ISO 27001, SOC 1, et SOC 2
 			description
-				Your data is hosted by OVH, Europe’s largest hosting provider that maintains the highest level of security standard and certification.
-				xxx
+				Your data is hosted by OVH, Europe’s largest hosting provider, to maintain the highest level of security standard and certification.
+				Vos données sont hébergées en France, chez OVH, qui maintient les plus haut niveaux de certification en matière de sécurité.
 		feature2
 			title
-				Periodic independent 3rd party penetration tests
-				xxx
+				Independent third-party penetration tests
+				Test de sécurité périodique
 			description
-				Audit and follow-up reports can be read on demand.
-				xxx
+				Access periodic audit and follow-up reports on-demand at any time.
+				Des tests de sécurité (penetration test) sont effectués périodiquement par des experts de premier plan. Les rapports d’audit peuvent être consultés sur demande.
 		feature3
 			title
 				Data encryption in transit and at rest
-				xxx
+				Données cryptées en transit et au repos
 			description
-				We use HTTPS protocol with TLSv1.2 or higher in transit and AES 256 at rest.
-				xxx
+				Draft uses HTTPS protocol with TLSv1.2 or higher in transit and AES 256 at rest.
+				Nous utilisons le protocole HTTPS au standard TLSv1.2 (ou supérieur) pour protéger vos données en transit et le protocole de chiffrement AES 256 pour protéger vos données au repos.
 		feature4
 			title
-				Log of every action performed in the system
-				xxx
+				Log management
+				Archivage de tous les logs de connexion
 			description
-				On demand, we can connect the logs to your existing system, so that you can use your own alerts and monitoring.
-				xxx
+				At your request, we can connect the logs to your existing system, so you can create your own alerts and monitoring.
+				Nous pouvons vous fournir les logs de connexion relatifs à votre instance Draft sur demande. Vous pouvez ainsi nourrir automatiquement votre système d’alerte.
 		feature5
 			title
 				IP filtering
-				xxx
+				Filtre IP
 			description
-				You can enable sign in by users from specific IPs only to prevent outside access to your data while enabling flexible collaboration inside your organization.
-				xxx
+				You have the option to limit login from specific IPs only as a way of both preventing outside access to your data and enabling flexible collaboration within your organization.
+				Nous pouvons filtrer par IP l’accès aux données de votre Team. C’est une façon efficace de prévenir toute fuite de données en dehors de votre organisation.
 		feature6
 			title
 				Domain control
-				xxx
+				Contrôle de domaine
 			description
-				You can whitelist email addresses related to specific domains to prevent your team members form.
-				xxx
+				You can whitelist email addresses from specific domains to prevent your team members from sharing drafts outside your organization inadvertently.
+				Nous pouvons restreindre l’accès aux données de votre Team à des adresses email liées à seulement certains noms de domaine.
 		feature7
 			title
-				Board sharing controls
-				xxx
+				Sharing controls
+				Partage public restreint
 			description
-				You can disable users from sharing boards via public links to prevent leaks of sensitive information.
-				xxx
+				Draft admins can disable the option to share boards via public links in order to prevent leaking sensitive information.
+				Vous pouvez désactiver le partage de draft par lien public pour prévenir toute fuite de données en dehors de votre organisation.
 		feature8
 			title
-				Regular backup process
-				xxx
+				Daily backups
+				Processus de backup régulier
 			description
-				Backups are processed daily and stocked for one year in a separate location.
-				xxx
+				We process backups daily and stock them for one year in a separate and secure location.
+				Des backups quotidiens sont effectués sur un serveur géographiquement séparé des serveurs de production.
 	partners
-		partner1
-			Supported by Europe’s largest hosting provider<br>as part of the <a class="unsecable text-link underline-over" href="https://startup.ovhcloud.com/en/">OVHcloud	Startup Program</a>.
-			xxx
 		partner2
-			Member of France’s largest tech professional<br>corporation <a class="unsecable text-link underline-over" href="https://syntec-numerique.fr/">Syntec Numerique</a>.
-			xxx
+			Supported by Europe’s largest hosting provider,<br />part of the <a class="unsecable text-link underline-over" href="https://startup.ovhcloud.com/en/">OVHcloud	Startup Program</a>.
+			Soutenu par OVH dans le cadre de l'<a class="unsecable text-link underline-over" href="https://startup.ovhcloud.com/en/">OVHcloud	Startup Program</a>
+		partner1
+			Member of France’s largest tech<br />professional corporation, <a class="unsecable text-link underline-over" href="https://syntec-numerique.fr/">Syntec Numerique</a>.
+			Membre du syndicat professionnel <a class="unsecable text-link underline-over" href="https://syntec-numerique.fr/">Syntec Numerique</a>.

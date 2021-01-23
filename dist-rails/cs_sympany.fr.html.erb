@@ -1,0 +1,206 @@
+<html>
+
+<head>
+	<title>SNCF - User Story - Draft</title>
+	<meta name="description"
+		content="For Scrum Masters and Product Owners who build complex Agile artifacts and run remote ceremonies. As a flexible yet structured visual support, Draft can embrace your whole Agile workflow." />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/common.css.css" rel="stylesheet">
+	<link href="css/colors.css.css" rel="stylesheet">
+	<link href="css/portal-desktop.css.css" rel="stylesheet">
+	<link href="css/portal-mobile.css.css" rel="stylesheet">
+	<link href="css/DDS_draft-design-system.css.css" rel="stylesheet">
+	<link href="css/ui_customer-story.css.css" rel="stylesheet">
+</head>
+
+<body class="ui_customer-story">
+
+	<div id="top-of-site-pixel-anchor"></div>
+
+<header class="main-header">
+	<input type="checkbox" id="btnBurgerMenu" name="burger-menu-visibility">
+	<label for="btnBurgerMenu" class="burger-btn">
+		<span class="wrapper">
+			<span class="deco-btn-burger"></span>
+			<span class="deco-btn-burger"></span>
+			<span class="deco-btn-burger"></span>
+		</span>
+	</label>
+	<nav class="nav">
+		<a class="logo text-link" href="/fr/"><img src="<%= image_path("site/logo-diag-orange-plus-text.png") %>" alt="Logo Draft"></a>
+		<ul>
+			<li>
+				<div class="toggle-wrapper text-link">
+					<div class="toggle">Workflows <i class="fas fa-chevron-down"></i></div>
+					<ul class="menu">
+						<li><a class="text-link" href="/fr/agile-project-management">Gestion de projet Agile</a></li>
+						<li><a class="text-link" href="/fr/product-management">Product Management</a></li>
+						<li><a class="text-link" href="/fr/everyday-creative-work">Travail créatif quotidien</a></li>
+					</ul>
+				</div>
+			</li>
+			<li><a class="text-link" href="/fr/enterprise">Entreprise</a></li>
+			<li><a class="text-link" href="/fr/customer-stories/sncf-transforming-customer-experience-with-user-story-mapping">Customer stories</a></li>
+			<li><a class="text-link" href="/fr/examples">Exemples</a></li>
+			<li><a class="text-link" href="/fr/pricing">Offres</a></li>
+			<li class="login"><a class="text-link" href="/fr/login">Se connecter</a></li>
+			<li class="subscribe"><a class="cta" href="/fr/get-started">S'inscrire</a></li>
+		</ul>
+
+		<!-- <a class="fav" href="/">d</a> -->
+		<!-- <a class="fav-sheet" href="/">d</a> -->
+	</ul>
+</header>
+
+<script>
+	document.ontouchstart = function (e) {
+		e.stopPropagation();
+	}
+</script>
+
+	<section class="ui-header sympany">
+		<div class="main-info">
+			<div class="wrapper">
+				<img class="logo" src="<%= image_path("site/UI_Customer-story/sympany/logo_sympany.png") %>" alt="Logo Sympany">
+				<h1>Métamorphoser le processus<br>de décision grâce à SAFe</h1>
+			</div>
+			<ul class="customers">
+				<li class="customer">
+					<img class="portrait" src="<%= image_path("site/UI_Customer-story/sympany/Julian_Gerstacker.jpg") %>" alt="Photo portrait de Julian GERSTACKER">
+					<p class="customer-details">
+						<a class="name text-link underline-over" href="https://de.linkedin.com/in/julian-gerstacker-70132aaa" target="_blank">Julian GERSTACKER</a>
+						<span class="status">Agile Transformation Manager<br>chez Sympany</span>
+					</p>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="customer-story">
+
+		<div class="wrapper">
+
+			<span class="corner-deco"></span>
+
+			<img class="illustration left-sided intro" src="<%= image_path("site/UI_Customer-story/sympany/1_Sympany_Program_Board.jpg") %>" alt="Illustration program board"><h2>Comment SAFe a apporté davantage de transparence et d’implication dans la prise de décision</h2><p>Fondée à Bâle il y a une centaine d’années, Sympany est une compagnie d'assurance incontournable en Suisse alémanique et en Allemagne. La société propose un large éventail de couvertures dans les domaines de la santé, de l’automobile, de l’habitation et de la responsabilité civile. Le groupe compte environ 500 employés et gère 260 000 contrats qui représentent un volume de primes d’assurance de plus d’un milliard de francs suisses par an.</p><p>Depuis deux ans, pour faire évoluer sa culture d’entreprise, Sympany a amorcé une véritable révolution organisationnelle en introduisant SAFe (Scaled Agile Framework), le plus populaire des frameworks d’Agilité à l’échelle. L’objectif est de briser les silos entre les différents départements afin de faire émerger une compréhension commune des enjeux stratégiques. Julian Gerstacker pilote ce projet depuis le premier jour.</p><p>Cette transformation Agile est capitale car elle doit fournir au groupe centenaire les moyens d’assurer sa pérennité et de définitivement réussir son passage dans le 21ème siècle. “Récemment, de nombreuses startups se sont lancées avec pour vision de révolutionner l’expérience client sur le marché de l’assurance. Il devenait essentiel pour Sympany d’adopter un mode de fonctionnement plus flexible pour s’adapter aux nouveaux enjeux de l’industrie et, à terme, revenir à la pointe de l’innovation sur ce marché,” souligne Julian.</p><img class="illustration right-sided" src="<%= image_path("site/UI_Customer-story/sympany/2_Sympany_Program_Board_2019-06.JPG") %>" alt="Illustration program board"><h2>“Le PI Planning nous a amenés à définir des objectifs plus explicites, ce qui a mis en évidence les problèmes organisationnels et favorisé la responsabilisation des équipes quant à l’atteinte des résultats.”</h2><p>Avant que la pandémie ne bouleverse les habitudes de travail, une dizaine d’équipes de réalisation, organisées en Scrum ou en Kanban, avaient pris l'habitude de se retrouver, toutes les dix semaines, pour une session de PI Planning de deux jours. Celle-ci se déroulait généralement dans la grande salle de conférence d’un hôtel. Ainsi, en comptant quelques parties prenantes et managers clés, près de 80 personnes étaient amenées à collaborer, partager leurs idées et placer des post-it sur tous les murs de la salle. Un côté entier du lieu était d’ailleurs dédié à la construction du <a href="https://draft.io/example/program-board" class="text-link underline-over">Program Board</a>.</p><p>Tout fut remis en cause lorsque les mesures de confinement furent imposées et les collaborateurs de Sympany contraints de travailler depuis leur domicile. Après avoir testé, sans succès, un addon Jira pour construire un Program Board virtuel, Julian répliqua un véritable PI Planning Board virtuel sur Draft, celui-ci incluant un ordre du jour, un Program Board et une matrice ROAM de gestion des risques. Couplé aux fonctionnalités de visioconférence de Microsoft Teams, la collaboration trouvait désormais son prolongement naturel dans le monde virtuel.</p><p>Selon Julian, la mise en oeuvre de SAFe a d’ores et déjà métamorphosé la capacité des équipes à collaborer efficacement, et ce, même à distance : “Le PI Planning nous a forcés à définir des objectifs plus explicites, ce qui a mis en évidence les problèmes organisationnels et favorisé la responsabilisation des équipes quant à l’atteinte des résultats.” En complément de Draft, Julian documente tout le processus dans Confluence, incrément après incrément, afin de conserver la trace de toutes les prises de décision et identifier aisément les éventuels écarts par rapport au plan.</p><h2>Rester concentrés sur les enjeux stratégiques les plus importants à l’échelle du groupe</h2><p>Entre chaque PI Planning, en plus des cérémonies habituelles des frameworks Scrum ou Kanban, Julian a mis en place un processus sur-mesure dans le but d’offrir aux équipes davantage d’opportunités pour se coordonner et de permettre à chacun de s’imprégner des enjeux stratégiques du groupe. Ce processus s’articule autour de trois sessions de collaboration bihebdomadaires :</p><ol><li>Les PMBSO (Product Management, Business and Service Owners) meetings permettent de recueillir les besoins auprès de chaque département. Ceux-ci viennent ensuite nourrir un tableau de suivi qui a la forme d’un Portfolio Kanban. Il centralise tous les besoins en préparation des futurs incréments.</li><li>Les Stakeholder meetings réunissent tous les acteurs clés du projet, avec pour objectif de diffuser l’information entre les départements, ce qui est crucial pour faire émerger des opportunités business ou identifier d’éventuels freins organisationnels.</li><li>Les PO-Sync (Product Owners) meetings servent à suivre l’avancement des équipes. “Elles offrent un espace pour discuter des changements de direction par rapport au plan et des implications inter-équipes que ceux-ci peuvent entraîner,” explique Julian. </li></ol><img class="illustration left-sided" src="<%= image_path("site/UI_Customer-story/sympany/3_Sympany_Problem_Solving_workshop.jpg") %>" alt="Problem solving workshop illustration"><h2>Quels sont les impacts du télétravail sur le PI Planning ?</h2><p>Du point de vue de Julian, la distance a, en partie, affecté la flexibilité et la spontanéité dans la communication entre équipes. Par ailleurs, il existe un risque que le sentiment d’appartenance à l’ensemble du programme s’étiole si la situation perdure. Néanmoins, les bénéfices l’emportent sur les inconvénients. Maintenant, il peut documenter le PI Planning de façon plus complète, ce qui permet à tous les participants de conserver une vision claire des actions décidées au cours de ces réunions, et des raisons pour lesquelles elles ont été décidées.</p><p>Par ailleurs, en ayant la possibilité de partager l’ensemble des supports de réflexion et de prise de décision au management et aux parties prenantes extérieures au programme, Julian a le sentiment d’être devenu un acteur à part entière de la stratégie d’entreprise. Et non plus le post-it guy, ce qui pouvait être la perception de son rôle par certains managers au début de la transformation Agile.</p><p>Draft permet finalement de remplacer les lieux traditionnels de créativité, souvent très onéreux à aménager et meubler, tout en favorisant des méthodes innovantes de travail et de collaboration. Julian le résume ainsi avec enthousiasme : “Tout le monde peut désormais être créatif chez soi !”</p><h2>Quelles sont les prochaines étapes ?</h2><p>“Afin que tous les collaborateurs aient l’opportunité de faire émerger des idées novatrices, je souhaite insuffler la philosophie Agile dans toutes les strates de l’organisation", clame Julien, tout en ayant bien conscience du challenge que cela représente dans une entreprise suisse-allemande à culture plutôt hiérarchique.</p><p>Outre le déploiement des valeurs Agiles, Julian souhaite utiliser Draft pour contourner les limites de Jira en matière de management visuel : “Je vais aider les équipes à construire leur propre artefact de management visuel, en particulier des  <a href="https://draft.io/example/kanban-board" class="text-link underline-over">Kanban boards</a> sur-mesure pleinement adaptés à leur workflow.”</p>
+			
+			<footer class="author-info">
+				<img class="portrait" src="<%= image_path("site/UI_Customer-story/portrait_alexandre_beauchet.jpg") %>" alt="Photo portrait d'Alexandre BEAUCHET">
+				<p class="author-details">
+					<a class="name text-link underline-over" href="https://www.linkedin.com/in/alexandre-beauchet/" target="_blank">Alexandre BEAUCHET</a>
+					<span class="status">COO chez Draft</span>
+				</p>
+			</footer>
+		</div>
+
+	</section>
+
+	<div class="bloc-last">
+		<div class="left-visual">
+			<div class="rotated-square"></div>
+		</div>
+		<div class="title">Démarrez dès aujourd’hui</div>
+		<form class="signup-bloc" action="/fr/get-started">
+			<div class="form-wrapper">
+				<input placeHolder="Entrez votre email" name="pre_email"></input>
+				<div class="submit-wrapper">
+					<div class="triangle"></div>
+					<input type="submit" class="register cta" href="/fr/get-started" value="S&#x27;inscrire" />
+				</div>
+			</div>
+			<div class="if-1080">
+				<div class="detail">Notre plan gratuit est illimité dans le temps et vous donne accès à toutes les
+					fonctionnalités du <a href="pricing">plan Pro</a>.</div>
+			</div>
+			<div class="if-not-1080">
+				<div class="detail">Notre plan gratuit est illimité dans le temps<br />et vous donne accès à toutes les
+					fonctionnalités du <a href="pricing">plan Pro</a>.</div>
+			</div>
+		</form>
+		<!-- <a class="cta-border cta-border-darkblue" style="margin-left:40px;" href="/agile_project_management">Discover how Scrum Masters use Draft</a> -->
+	</div>
+	<div class="footer">
+		<div class="footer-wrapper">
+			<div class="bloc bloc-plan">
+				<div class="title">Produit</div>
+				<a href="/fr/">Accueil</a>
+				<a href="/fr/agile-project-management">Draft pour la gestion de projet Agile</a>
+				<a href="/fr/product-management">Draft pour le Product Management</a>
+				<a href="/fr/everyday-creative-work">Draft pour le travail créatif quotidien</a>
+				<a href="/fr/examples">Exemples</a>
+				<a href="/fr/pricing">Offres</a>
+				<a href="/fr/login">Se connecter</a>
+				<a href="/fr/get-started">S&#x27;inscrire</a>
+			</div>
+
+			<div class="bloc bloc-resources">
+				<div class="title">Ressources</div>
+				<a href="https://draft.io/assets/2020 10 27 Terms and conditions - Draft SAS.pdf"
+					target="_blank">Termes</a>
+				<a href="https://draft.io/assets/2020 10 27 Privacy Policy - Draft SAS.pdf" target="_blank">Sécurité et
+					confidentialité</a>
+				<a href="mailto:hi@draft.io">Contactez-nous</a>
+				<div class="language-bloc">
+					<div class="bloc-title">Langue</div>
+					<div class="menu-wrapper">
+						<div class="toggle-wrapper">
+							<div class="toggle">Français</div>
+							<div class="dropdown-invite"></div>
+						</div>
+						<div class="menu">
+							<a
+								href="/fr/customer-stories/sncf-transforming-customer-experience-with-user-story-mapping">Français</a>
+							<a
+								href="/customer-stories/sncf-transforming-customer-experience-with-user-story-mapping">English</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="socials">
+				<a href="/" class="logo"></a>
+				<a href="https://linkedin.com/company/draft-io" class="linkedin" target="_blank"></a>
+			</div>
+		</div>
+
+
+		<div class="oblique">
+			<div class="rotated-square"></div>
+		</div>
+	</div>
+
+	<script src="https://kit.fontawesome.com/6b4515f4ac.js" crossorigin="anonymous"></script>
+
+	<script>
+			(function (i, s, o, g, r, a, m) {
+				i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+					(i[r].q = i[r].q || []).push(arguments)
+				}, i[r].l = 1 * new Date(); a = s.createElement(o),
+					m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+			})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', "UA-144558715-1", 'auto');
+		ga('send', 'pageview');
+
+	</script>
+
+	<script>
+		if (
+			"IntersectionObserver" in window &&
+			"IntersectionObserverEntry" in window &&
+			"intersectionRatio" in window.IntersectionObserverEntry.prototype
+		) {
+			let observer = new IntersectionObserver(entries => {
+				if (entries[0].boundingClientRect.y < 0) {
+					document.body.classList.add("header-not-at-top");
+				} else {
+					document.body.classList.remove("header-not-at-top");
+				}
+			});
+			observer.observe(document.querySelector("#top-of-site-pixel-anchor"));
+		}
+	</script>
+</body>
+
+</html>

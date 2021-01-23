@@ -1,0 +1,275 @@
+@import colors.sass
+
+body.examples
+  font-family : regular
+  -webkit-font-smoothing : antialiased
+
+  overflow : hidden
+
+  .wrapper
+    height : 100%
+
+  .samples
+    background-color : #222
+    height : calc(100% - 70px) !important
+    margin-top : 70px !important
+    padding-top : 40px
+    box-sizing : border-box
+
+  a
+    text-decoration : none
+
+.home.panel
+  .wrapper
+    margin-top : 40px
+    height : calc(100% - 40px)
+
+.home.panel, body.examples
+  .discover
+    height : 100%
+    overflow-y : auto
+    color : #222
+
+    box-sizing : border-box
+
+    .wrapper
+      display : flex
+
+
+      .categories-wrapper
+        height : 100%
+        overflow-y : auto
+        flex : 1
+
+        position : relative
+        touch-action : initial
+        // for offsettop scroll
+
+    .title
+      font-size : 28px
+      margin-bottom : 2em
+
+      color : $orange
+      text-align : center
+
+    @media only screen and (max-width: 1080px)
+      .bloc-left
+        display : none
+
+    @media only screen and (min-width: 1080px)
+      .bloc-left
+        float : left
+        padding : 0 45px
+        padding-right : 120px
+
+        .bloc-left-title
+          width : 100%
+          color : rgba(255, 255, 255, .9)
+          margin-bottom : 30px
+          font-weight : bold
+          font-size : 15px
+
+        .selectbox-plain
+          float : left
+          height : calc(100% - 60px)
+
+          .option
+            padding-left : 20px
+            cursor : pointer
+            color : rgba(255, 255, 255, .6)
+            margin-bottom : 15px
+            font-size : 18px
+            border-left : 2px solid transparent
+
+          .option.selected
+            //background-color : rgba(0, 0, 0, .05)*/
+            border-left : 2px solid $orange
+            color : rgba(255, 255, 255, .8)
+
+    @media only screen and (max-width: 1080px)
+      .categories-container
+        display : flex
+        flex-direction : column
+        align-items : center
+
+    .category-content
+      margin-bottom : 30px
+      position : relative
+      // for offsettop scroll
+
+      @media only screen and (max-width: 1080px)
+        float : left
+        clear : left
+        overflow : hidden
+
+        .entries
+          overflow : hidden
+          float : left
+
+      @media only screen and (min-width: 240px) and (max-width: 480px)
+        .entries
+          min-width: 240px
+          
+          .entry
+            clear : left
+
+      @media only screen and (min-width: 480px) and (max-width: 720px)
+        .entries
+          min-width: 480px
+
+          .entry:nth-child(2n+1)
+            clear : left
+
+      @media only screen and (min-width: 720px) and (max-width: 1080px)
+        .entries
+          min-width: 720px
+
+          .entry:nth-child(3n+1)
+            clear : left
+
+      .category-title
+        font-size : 18px
+        color : rgba(255, 255, 255, .9)
+        margin-bottom : 22px
+
+      .entry:not(:last-child)
+        margin-right : 30px
+
+      .entry
+        @media only screen and (min-width: 1080px)
+          display : inline-block
+
+        @media only screen and (max-width: 1080px)
+          float : left
+          display : block
+
+        border-radius : 5px
+        cursor : pointer
+        vertical-align : top
+        margin-bottom : 30px
+        position : relative
+        box-sizing : border-box
+        border : 1px solid rgba(255, 255, 255, .15)
+
+        .preview
+          border-top-left-radius : 4px
+          border-top-right-radius : 4px
+
+          .mask
+            position : absolute
+            background-color : rgba(255, 255, 255, .1)
+            z-index : 1
+            top : 0
+            left : 0
+            width : 100%
+            height : 100%
+            opacity : 0
+            transition : opacity 150ms
+            border-radius : 4px
+
+        &:hover
+          .label
+            background-color : #444
+
+          .preview .mask
+            opacity : 1
+
+        width : 210px
+        cursor : pointer
+
+        border-bottom-left-radius : 5px
+        border-bottom-right-radius : 5px
+
+        .label
+          color : rgba(255, 255, 255, .8)
+          height : 60px
+          font-size : 15px
+          display : flex
+          align-items : center
+          justify-content : center
+          background-color : #333
+          border-bottom-left-radius : 4px
+          border-bottom-right-radius : 4px
+          transition : background-color 150ms ease
+          text-align : center
+
+        .preview
+          width : 100%
+          height : 115px
+          box-sizing : border-box
+          background-size : cover
+          background-position : center
+          background-repeat : no-repeat
+          margin-bottom : 2px
+
+=preview($name, $lang)
+  body.example.lang-#{$lang}
+    .screenshot.#{$name}
+      background-image : url("../imgs/examples/example-user-story-mapping.png")
+
+  body.lang-#{$lang} .home.panel, body.examples.lang-#{$lang}
+    .entry.#{$name} .preview
+      background-image : image-url("tmp/2019-01/mini/#{$lang}/example-#{$name}.png")
+
+    .full.#{$name}
+      background-image : image-url("tmp/2019-01/#{$lang}/example-#{$name}.png")
+      background-size : contain
+      background-repeat : no-repeat
+      background-position : center
+
+      width : calc(100% - 200px)
+      margin-left : 100px
+      height : 100%
+
+  body.lang-#{$lang}
+    .vertice-create-example.example-#{$name}
+      .viewport-container
+        background-image : image-url("tmp/2019-01/mini/#{$lang}/example-#{$name}.png")
+
+@each $lang in en, fr
+  +preview(collaborative-brainstorming, $lang)
+  +preview(moodboard, $lang)
+  +preview(design-thinking, $lang)
+  +preview(research-and-discussion, $lang)
+  +preview(customer-journey-mapping, $lang)
+  +preview(defining-and-prioritizing-hypothesis-statements, $lang)
+  +preview(twelve-month-roadmap, $lang)
+  +preview(business-model-canvas, $lang)
+  +preview(kanban-board, $lang)
+  +preview(user-story-mapping, $lang)
+  +preview(example-mapping, $lang)
+  +preview(program-board, $lang)
+  +preview(starfish-retrospective, $lang)
+  +preview(speedboat-retrospective, $lang)
+  +preview(start-stop-continue-retrospective, $lang)
+  +preview(timeline-retrospective, $lang)
+  +preview(mind-mapping, $lang)
+  +preview(organization-chart, $lang)
+  +preview(flow-diagram, $lang)
+  +preview(architecture-diagram, $lang)
+  +preview(to-do-list, $lang)
+  +preview(collecting-feedback, $lang)
+  +preview(document-review, $lang)
+  +preview(impact-mapping, $lang)
+  +preview(competitive-research-of-user-flow, $lang)
+  +preview(lean-startup-canvas, $lang)
+  +preview(okr-process, $lang)
+  +preview(scrum-board, $lang)
+  +preview(gist-planning-framework, $lang)
+  +preview(user-flow, $lang)
+  +preview(affinity-diagram, $lang)
+  +preview(scheduling, $lang)
+  +preview(site-mapping, $lang)
+  +preview(product-discovery, $lang)
+  +preview(product-roadmap, $lang)
+  +preview(fourls-retrospective, $lang)
+  +preview(persona, $lang)
+  +preview(scrumban, $lang)
+  +preview(product-vision-board, $lang)
+  +preview(gantt-chart, $lang)
+  +preview(empathy-map, $lang)
+  +preview(moscow-method, $lang)
+  +preview(planning-poker, $lang)
+  +preview(extreme-quotation, $lang)
+  +preview(niko-niko-calendar, $lang)
+  +preview(lotus-blossom-technique, $lang)
