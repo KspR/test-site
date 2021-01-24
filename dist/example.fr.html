@@ -29,73 +29,64 @@
 		<% end %> -->
 
 			<meta name="viewport" content="width=device-width, initial-scale=1">
-			<link href="css/common.css.css" rel="stylesheet">
-			<link href="css/colors.css.css" rel="stylesheet">
-			<link href="css/portal-desktop.css.css" rel="stylesheet">
-			<link href="css/portal-mobile.css.css" rel="stylesheet">
-			<link href="css/DDS_draft-design-system.css.css" rel="stylesheet">
-			<link href="css/ui_enterprise.css.css" rel="stylesheet">
+			
+			<!-- BEGINCSS -->
+<link href="css/common.css" rel="stylesheet">
+<link href="css/colors.css" rel="stylesheet">
+<link href="css/portal-desktop.css" rel="stylesheet">
+<link href="css/portal-mobile.css" rel="stylesheet">
+<link href="css/DDS_draft-design-system.css" rel="stylesheet">
+<link href="css/ui_enterprise.css" rel="stylesheet">
+<link href="css/ui_pricing.css" rel="stylesheet">
+<!-- ENDCSS -->
 	</head>
 	<body class="dark example lang-fr"><!-- lang-code -->
 <!-- 		<% if JSON_CONFIG["google-tag-manager"] %>
 			<%= render "partials/google_tag_manager_body" %>
 		<% end %> -->
 		
-		<!-- <%= render "portal-v2/header" %> -->
-		<!-- begin header -->
 		<div id="top-of-site-pixel-anchor"></div>
 
-		<div class="header">
-			<div class="nav">
-				<a class="cta if-1080" href="/fr/get-started">S&#x27;inscrire</a>
-				<div class="a-container signin">
-					<span>Se connecter</span>
-					<a class="if-1080" href="/fr/login">Se connecter</a>
+<header class="main-header">
+	<input type="checkbox" id="btnBurgerMenu" name="burger-menu-visibility">
+	<label for="btnBurgerMenu" class="burger-btn">
+		<span class="wrapper">
+			<span class="deco-btn-burger"></span>
+			<span class="deco-btn-burger"></span>
+			<span class="deco-btn-burger"></span>
+		</span>
+	</label>
+	<nav class="nav">
+		<a class="logo text-link" href="/fr/"><img src="imgs/logo-diag-orange-plus-text.png" alt="Logo Draft"></a>
+		<ul>
+			<li>
+				<div class="toggle-wrapper text-link">
+					<div class="toggle">Workflows <i class="fas fa-chevron-down"></i></div>
+					<ul class="menu">
+						<li><a class="text-link" href="/fr/agile-project-management">Gestion de projet Agile</a></li>
+						<li><a class="text-link" href="/fr/product-management">Product Management</a></li>
+						<li><a class="text-link" href="/fr/everyday-creative-work">Travail créatif quotidien</a></li>
+					</ul>
 				</div>
-				<div class="separator if-1080"></div>
-				<div class="a-container">
-					<span>Offres</span>
-					<a class="pricing" href="/fr/pricing">Offres</a>
-				</div>
-				<div class="a-container examples if-1080">
-					<span>Exemples</span>
-					<a href="/fr/examples">Exemples</a>
-				</div>
-				<div class="a-container customer-stories if-1080">
-					<span>Customer stories</span>
-					<a href="/fr/customer-stories/sncf-transforming-customer-experience-with-user-story-mapping">Customer
-						stories</a>
-				</div>
-				<div class="a-container customer-stories if-1080">
-					<span>Enterprise</span>
-					<a href="/fr/enterprise">Enterprise</a>
-				</div>
-				<div class="workflows">
-					<div class="toggle-wrapper">
-						<div class="toggle">Workflows</div>
-						<div class="dropdown-invite"></div>
-					</div>
-					<div class="menu">
-						<a href="/fr/agile-project-management">Gestion de projet Agile</a>
-						<a href="/fr/product-management">Product Management</a>
-						<a href="/fr/everyday-creative-work">Travail créatif quotidien</a>
-					</div>
-				</div>
-				<a class="logo" href="/fr/">
-					<div class="picto"></div>
-				</a>
-				<!-- <a class="fav" href="/">d</a> -->
-				<!-- <a class="fav-sheet" href="/">d</a> -->
-			</div>
-		</div>
+			</li>
+			<li><a class="text-link" href="/fr/enterprise">Entreprise</a></li>
+			<li><a class="text-link" href="/fr/customer-stories/sncf-transforming-customer-experience-with-user-story-mapping">Customer stories</a></li>
+			<li><a class="text-link" href="/fr/examples">Exemples</a></li>
+			<li><a class="text-link" href="/fr/pricing">Offres</a></li>
+			<li class="login"><a class="text-link" href="/fr/login">Se connecter</a></li>
+			<li class="subscribe"><a class="cta" href="/fr/get-started">S'inscrire</a></li>
+		</ul>
 
-		<script>
-			document.ontouchstart = function (e) {
-				e.stopPropagation();
-			}
-		</script>
-		<!-- end header-->
+		<!-- <a class="fav" href="/">d</a> -->
+		<!-- <a class="fav-sheet" href="/">d</a> -->
+	</ul>
+</header>
 
+<script>
+	document.ontouchstart = function (e) {
+		e.stopPropagation();
+	}
+</script>
 
 		<div class="content">
 			<div class="wrapper">
