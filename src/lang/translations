@@ -420,6 +420,9 @@ home
 			Des fonctionnalités au service de votre efficacité et de votre liberté d’action
 workflows
 	agile-project-management
+		id
+			agile-project-management
+			agile-project-management
 		pageDescription
 			For Scrum Masters and Product Owners responsible for maintaining streamlined processes and running virtual ceremonies, Draft embraces all Agile workflows with flexibility and simplicity.
 			Pour les Scrum Masters et Product Owners, Draft peut accueillir tout votre processus Agile. Planifiez visuellement et formalisez juste ce qu’il faut pour développer les produits de demain.

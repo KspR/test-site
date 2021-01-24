@@ -1,0 +1,154 @@
+<html lang="en">
+	<head>
+		
+		<% if JSON_CONFIG["google-tag-manager"] %>
+			<%= render "partials/google_tag_manager_head" %>
+		<% end %>
+		
+		
+		<meta name="google-site-verification" content="fFKHVWXCOaC3Q1GRNdqoBuEV5oQiTy6hCn252XEyNMM" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<%= stylesheet_link_tag "portal" %>
+
+		<title>Draft - Drive better outcomes, visually</title>
+		<meta name="description" content="Draft’s visual document universe has the power of flexible and collaborative virtual boards. Explore new ideas, agree on solutions, document action items, and drive desired outcomes efficiently." />
+		<link rel="icon" href="/favicon.png?v=202005" />
+
+		
+		<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/fr" 
+			hreflang="x-default" />
+		<link rel="alternate" href="<%= JSON_CONFIG['host'] %>" 
+		  hreflang="en-GB" />
+		<link rel="alternate" href="<%= JSON_CONFIG['host'] %>" 
+		  hreflang="en-US" />
+		<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/fr" 
+			hreflang="fr-FR" />
+		<% if @lang.code == 'en' %>
+			<link rel="canonical" href="<%= JSON_CONFIG['host'] %>">
+		<% else %>
+			<link rel="canonical" href="<%= JSON_CONFIG['host'] %>/fr">
+		<% end %>
+		
+	</head>
+	<body class="home landing dark lang-<%= @lang.code %>">
+		<% if JSON_CONFIG["google-tag-manager"] %>
+			<%= render "partials/google_tag_manager_body" %>
+		<% end %>
+		
+		<%= render "portal-v2/header" %>
+
+		<div class="section bloc-landing">
+			<div class="wrapper">
+				<div class="punchline"><%= @lang.home.landing.punchline %></div>
+				<div class="baseline"><%= raw @lang.home.landing.baseline %></div>
+				<%= render "portal-v2/get_started" %>
+			</div>
+
+			<div class="angular-grid"></div>
+			<div class="landing-fresque"></div>
+		</div>
+
+		<div class="section section-problem">
+			<div class="title"><%= @lang.home.s1.title %></div>
+			<div class="wrapper">
+				<div class="illu"></div>
+				<div class="text-wrapper">
+					<div class="bloc">
+						<div class="msg"><%= raw @lang.home.s1.t1 %></div>
+					</div>
+					<!-- <div class="bloc">
+						<div class="illu"></div>
+						<div class="msg">They indeed lack of either freedom or intuitive ways of collecting, creating, and conveying knowledge.</div>
+					</div> -->
+					<div class="bloc">
+						<div class="msg"><%= raw @lang.home.s1.t2 %></div>
+					</div>
+					<div class="bloc">
+						<div class="msg"><%= raw @lang.home.s1.t3 %></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="section section-solution">
+			<div class="title"><%= raw @lang.home.s2.title %></div>
+
+			<div class="wrapper">
+				<div class="bloc">
+					<div class="msg">
+						<div class="msg-title"><%= raw @lang.home.s2.t1.title %></div>
+						<div class="msg-text"><%= raw @lang.home.s2.t1.text %></div>
+					</div>
+					<div class="illu"></div>
+				</div>
+				<div class="bloc">
+					<div class="msg">
+						<div class="msg-title"><%= raw @lang.home.s2.t2.title %></div>
+						<div class="msg-text"><%= raw @lang.home.s2.t2.text %></div>
+					</div>
+					<div class="illu"></div>
+				</div>
+				<div class="bloc">
+					<div class="msg">
+						<div class="msg-title"><%= raw @lang.home.s2.t3.title %></div>
+						<div class="msg-text"><%= raw @lang.home.s2.t3.text %></div>
+					</div>
+					<div class="illu"></div>
+				</div>
+			</div>
+
+			<div style="clear:left;"></div>
+		</div>
+
+		<div class="section bloc-discover">
+			<div class="title"><%= raw @lang.home.s3.title %></div>
+			<div class="workflows">
+				<% ['scrum-master', 'product-manager', 'knowledge-worker'].each do |id| %>
+					<div class="workflow <%= id %>">
+						<div class="illu"></div>
+						<div class="label"><%= raw @lang.home.s3[id.to_sym].title %></div>
+						<div class="detail"><%= raw @lang.home.s3[id.to_sym].detail %></div>
+						<a href="<%= @lang.home.s3[id.to_sym].href %>"><%= @lang.home.s3.more %> →</a>
+					</div>
+				<% end %>
+			</div>
+
+			<div class="grids">
+				<div class="grid-1"><div class="bg"></div></div>
+				<div class="grid-2"><div class="bg"></div></div>
+				<div class="grid-3"><div class="bg"></div></div>
+			</div>
+		</div>
+
+		<div class="section bloc-features">
+			<div class="title"><%= @lang.home.features.title %></div>
+
+			<div class="features">
+				<% ['scalable-document', 'right-level-of-focus', 'collaboration', 'jira-integration', 'large-collection-template', 'unlimited-sharing'].each do |id| %>
+					<div class="feature <%= id %>">
+						<div class="illu"></div>
+						<div class="label"><%= raw @lang.features[id.to_sym].title %></div>
+						<div class="detail"><%= raw @lang.features[id.to_sym].detail %></div>
+					</div>
+				<% end %>
+			</div>
+		</div>
+
+		<%= render "portal-v2/bloc_last" %>
+		<%= render "portal-v2/footer" %>
+
+		<script>
+			document.querySelectorAll('.submit-wrapper .triangle').forEach(function(elt) {
+				elt.addEventListener('pointerdown', function(e) {
+					var target = e.target;
+					while (target && target.tagName !== 'FORM') {
+						target = target.parentNode;
+					}
+					if (target) {
+						target.submit();
+					}
+				});
+			});
+		</script>
+	</body>
+</html>

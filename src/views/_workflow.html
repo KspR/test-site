@@ -1,0 +1,130 @@
+{{#with (lookup lang.workflows workflow_id)}}
+	<html lang="{{../lang.code}}">
+		<head>
+			<!-- PRODONLY
+			<% if JSON_CONFIG["google-tag-manager"] %>
+				<%= render "partials/google_tag_manager_head" %>
+			<% end %>
+			-->
+
+			<title>{{this.title}}</title>
+			<meta name="description" content="{{this.pageDescription}}" />
+			
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			
+			{{{../includes.css}}}
+
+			<link rel="icon" href="/favicon.png?v=5" />
+
+			<!-- PRODONLY
+			<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/fr/<%= @workflow %>" 
+				hreflang="x-default" />
+			<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/<%= @workflow %>" 
+			  hreflang="en-GB" />
+			<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/<%= @workflow %>" 
+			  hreflang="en-US" />
+			<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/fr/<%= @workflow %>" 
+				hreflang="fr-FR" />
+			<% if @lang.code == 'en' %>
+				<link rel="canonical" href="<%= JSON_CONFIG['host'] %>/<%= @workflow %>">
+			<% else %>
+				<link rel="canonical" href="<%= JSON_CONFIG['host'] %>/fr/<%= @workflow %>">
+			<% end %>
+			-->
+
+		</head>
+		<body class="dark workflow {{../workflow_id}}">
+			<!-- PRODONLY
+			<% if JSON_CONFIG["google-tag-manager"] %>
+				<%= render "partials/google_tag_manager_body" %>
+			<% end %>
+			-->
+
+			{{{../includes.header}}}
+
+			<div class="bloc-landing">
+				<div class="wrapper">
+					<div class="punchline">{{{this.landing.punchline}}}</div>
+					<div class="if-not-1080"><div class="illu"></div></div>
+					<div class="baseline">{{{this.landing.baseline.one}}}</div>
+					<!-- <div class="baseline">{{{this.landing.baseline.two}}}</div> -->
+				</div>
+				<div class="if-1080"><div class="illu"></div></div>
+			</div>
+
+			<div class="ucs">
+				{{#each ../ucs}}
+					<div class="uc uc-{{this}}">
+						{{#ifEquals @index 0}}
+							<div class="top-left-corner"><div class="circle"></div></div>
+						{{/ifEquals}}
+
+						{{#with (lookup ../ucs this)}}
+							<div class="wrapper">
+								<div class="if-1080">
+									<div class="text-container">
+										<div class="visual-artifact"></div>
+										<div class="text-wrapper">
+											<div class="title">{{this.title}}</div>
+											<div class="text">{{this.text}}</div>
+											<div class="if-1080">
+												{{#if this.template}}
+													<a href="/example/{{this.template}}">
+												{{else}}
+													<a href="/example/{{../this}}">
+												{{/if}}
+													{{../../../lang.workflow.discover-example}} →
+												</a>
+											</div>
+										</div>
+									</div>
+									<div class="screenshot-wrapper">
+										<div class="screenshot"></div>
+									</div>
+								</div>
+								<div class="if-not-1080">
+									<div class="screenshot"></div>
+									<div class="text-container">
+										<div class="visual-artifact"></div>
+										<div class="text-wrapper">
+											<div class="title">{{this.title}}</div>
+											<div class="text">{{this.text}}</div>
+											<div class="if-1080">
+												{{#if this.template}}
+													<a href="/example/{{this.template}}">
+												{{else}}
+													<a href="/example/{{../this}}">
+												{{/if}}
+													{{../../../lang.workflow.discover-example}} →
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					{{/with}}
+				{{/each}}
+			</div>
+
+			<div class="section bloc-features">
+				<div class="title">{{{this.features.title}}}</div>
+
+				<div class="features">
+					{{#each ../features}}
+						<div class="feature {{this}}">
+							{{#with (lookup ../features this)}}
+								<div class="illu"></div>
+								<div class="label">{{{this.title}}}</div>
+								<div class="detail">{{{this.text}}}</div>
+							{{/with}}
+						</div>
+					{{/each}}
+				</div>
+			</div>
+
+			{{{../includes.get_started_last_bloc}}}
+			{{{../includes.footer}}}
+		</body>
+	</html>
+{{/with}}

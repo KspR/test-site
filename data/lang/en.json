@@ -208,6 +208,7 @@
   },
   "workflows": {
     "agile-project-management": {
+      "id": "agile-project-management",
       "pageDescription": "For Scrum Masters and Product Owners responsible for maintaining streamlined processes and running virtual ceremonies, Draft embraces all Agile workflows with flexibility and simplicity.",
       "title": "Draft for Agile Project Management",
       "landing": {

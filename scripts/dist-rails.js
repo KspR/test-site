@@ -20,6 +20,7 @@
         }
       });
       str = str.replace(/<!-- BEGINCSS -->(.|\n)*<!-- ENDCSS -->/, '<%= stylesheet_link_tag "portal" %>');
+      str = str.replace(/<!-- PRODONLY/g, '').replace(/END -->/g, '');
       return fs.writeFileSync('./dist-rails/' + file + '.erb', str);
     }
   });

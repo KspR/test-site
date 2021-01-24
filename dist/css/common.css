@@ -2383,14 +2383,14 @@ body {
       body > div.footer .socials .logo, body > div.footer .socials .linkedin {
         float: right; }
       body > div.footer .socials a.logo {
-        background-image: image-url("tmp/2020-06/site/logo-footer-white.png");
+        background-image: url("../imgs/UI_Landing/logo-footer-white.png");
         width: 40px;
         height: 40px;
         background-repeat: no-repeat;
         display: block;
         background-size: contain; }
       body > div.footer .socials a.linkedin {
-        background-image: image-url("tmp/2020-06/site/linkedin-white.png");
+        background-image: url("../imgs/UI_Landing/linkedin-white.png");
         width: 20px;
         height: 20px;
         display: block;
@@ -2485,29 +2485,29 @@ body {
     background-repeat: no-repeat;
     background-position: center; }
   body .uc-story-mapping .screenshot {
-    background-image: image-url("tmp/2020-03/site/agile-project-management/agile-project-management-screenshot-1.png"); }
+    background-image: url("../imgs/UI_Workflow/agile-project-management/agile-project-management-screenshot-1.png"); }
   body .uc-program-board .screenshot {
-    background-image: image-url("tmp/2020-03/site/agile-project-management/agile-project-management-screenshot-2.png"); }
+    background-image: url("../imgs/UI_Workflow/agile-project-management/agile-project-management-screenshot-2.png"); }
   body .uc-scrum-board .screenshot {
-    background-image: image-url("tmp/2020-03/site/agile-project-management/agile-project-management-screenshot-3.png"); }
+    background-image: url("../imgs/UI_Workflow/agile-project-management/agile-project-management-screenshot-3.png"); }
   body .uc-retrospective .screenshot {
-    background-image: image-url("tmp/2020-03/site/agile-project-management/agile-project-management-screenshot-4.png"); }
+    background-image: url("../imgs/UI_Workflow/agile-project-management/agile-project-management-screenshot-4.png"); }
   body .uc-product-discovery .screenshot {
-    background-image: image-url("tmp/2020-03/site/product-management/product-management-screenshot-1.png"); }
+    background-image: url("../imgs/UI_Workflow/product-management/product-management-screenshot-1.png"); }
   body .uc-prioritizing .screenshot {
-    background-image: image-url("tmp/2020-03/site/product-management/product-management-screenshot-2.png"); }
+    background-image: url("../imgs/UI_Workflow/product-management/product-management-screenshot-2.png"); }
   body .uc-user-flow .screenshot {
-    background-image: image-url("tmp/2020-03/site/product-management/product-management-screenshot-3.png"); }
+    background-image: url("../imgs/UI_Workflow/product-management/product-management-screenshot-3.png"); }
   body .uc-product-roadmap .screenshot {
-    background-image: image-url("tmp/2020-03/site/product-management/product-management-screenshot-4.png"); }
+    background-image: url("../imgs/UI_Workflow/product-management/product-management-screenshot-4.png"); }
   body .uc-todo-lists .screenshot {
-    background-image: image-url("tmp/2020-03/site/everyday-knowledge-work/everyday-knowledge-work-screenshot-1.png"); }
+    background-image: url("../imgs/UI_Workflow/everyday-knowledge-work/everyday-knowledge-work-screenshot-1.png"); }
   body .uc-organizing-your-ideas .screenshot {
-    background-image: image-url("tmp/2020-03/site/everyday-knowledge-work/everyday-knowledge-work-screenshot-2.png"); }
+    background-image: url("../imgs/UI_Workflow/everyday-knowledge-work/everyday-knowledge-work-screenshot-2.png"); }
   body .uc-creative-work .screenshot {
-    background-image: image-url("tmp/2020-03/site/everyday-knowledge-work/everyday-knowledge-work-screenshot-3.png"); }
+    background-image: url("../imgs/UI_Workflow/everyday-knowledge-work/everyday-knowledge-work-screenshot-3.png"); }
   body .uc-collecting-feedback .screenshot {
-    background-image: image-url("tmp/2020-03/site/everyday-knowledge-work/everyday-knowledge-work-screenshot-4.png"); }
+    background-image: url("../imgs/UI_Workflow/everyday-knowledge-work/everyday-knowledge-work-screenshot-4.png"); }
 
 .home .bloc-landing {
   background-color: #2A2A2A; }
@@ -2580,11 +2580,11 @@ body {
       background-position: center;
       background-size: contain; }
   .home .bloc-discover .workflows .workflow.scrum-master .illu, .workflow .bloc-discover .workflows .workflow.scrum-master .illu, .page-pricing .bloc-discover .workflows .workflow.scrum-master .illu {
-    background-image: image-url("tmp/2020-06/site/landing/agile-project-management.png"); }
+    background-image: url("../imgs/UI_Landing/agile-project-management.png"); }
   .home .bloc-discover .workflows .workflow.product-manager .illu, .workflow .bloc-discover .workflows .workflow.product-manager .illu, .page-pricing .bloc-discover .workflows .workflow.product-manager .illu {
-    background-image: image-url("tmp/2020-06/site/landing/product-management.png"); }
+    background-image: url("../imgs/UI_Landing/product-management.png"); }
   .home .bloc-discover .workflows .workflow.knowledge-worker .illu, .workflow .bloc-discover .workflows .workflow.knowledge-worker .illu, .page-pricing .bloc-discover .workflows .workflow.knowledge-worker .illu {
-    background-image: image-url("tmp/2020-06/site/landing/everyday-knowledge-work.png"); }
+    background-image: url("../imgs/UI_Landing/everyday-knowledge-work.png"); }
 
 .page-pricing .header .pricing, .page-examples .header .examples, .business-case .header .customer-stories {
   font-family: bold; }
@@ -2632,39 +2632,39 @@ body {
       .home .bloc-features .features .feature:not(:last-child), .workflow .bloc-features .features .feature:not(:last-child) {
         margin-bottom: 2px; } }
     .home .bloc-features .features .feature.vote .illu, .workflow .bloc-features .features .feature.vote .illu {
-      background-image: image-url("tmp/2020-06/site/features/vote.png"); }
+      background-image: url("../imgs/UI_Landing/features/vote.png"); }
     .home .bloc-features .features .feature.polling-booth-mode .illu, .workflow .bloc-features .features .feature.polling-booth-mode .illu {
-      background-image: image-url("tmp/2020-06/site/features/polling-booth-mode.png"); }
+      background-image: url("../imgs/UI_Landing/features/polling-booth-mode.png"); }
     .home .bloc-features .features .feature.story-card .illu, .workflow .bloc-features .features .feature.story-card .illu {
-      background-image: image-url("tmp/2020-06/site/features/story-card.png"); }
+      background-image: url("../imgs/UI_Landing/features/story-card.png"); }
     .home .bloc-features .features .feature.lists .illu, .workflow .bloc-features .features .feature.lists .illu {
-      background-image: image-url("tmp/2020-06/site/features/lists.png"); }
+      background-image: url("../imgs/UI_Landing/features/lists.png"); }
     .home .bloc-features .features .feature.unified-living-environment .illu, .workflow .bloc-features .features .feature.unified-living-environment .illu {
-      background-image: image-url("tmp/2020-06/site/features/unified-living-environment.png"); }
+      background-image: url("../imgs/UI_Landing/features/unified-living-environment.png"); }
     .home .bloc-features .features .feature.right-level-of-focus .illu, .workflow .bloc-features .features .feature.right-level-of-focus .illu {
-      background-image: image-url("tmp/2020-06/site/features/right-level-of-focus.png"); }
+      background-image: url("../imgs/UI_Landing/features/right-level-of-focus.png"); }
     .home .bloc-features .features .feature.folder-sharing .illu, .workflow .bloc-features .features .feature.folder-sharing .illu {
-      background-image: image-url("tmp/2020-06/site/features/folder-sharing.png"); }
+      background-image: url("../imgs/UI_Landing/features/folder-sharing.png"); }
     .home .bloc-features .features .feature.simple-navigation .illu, .workflow .bloc-features .features .feature.simple-navigation .illu {
-      background-image: image-url("tmp/2020-06/site/features/simple-navigation.png"); }
+      background-image: url("../imgs/UI_Landing/features/simple-navigation.png"); }
     .home .bloc-features .features .feature.visual-clusters .illu, .workflow .bloc-features .features .feature.visual-clusters .illu {
-      background-image: image-url("tmp/2020-06/site/features/visual-clusters.png"); }
+      background-image: url("../imgs/UI_Landing/features/visual-clusters.png"); }
     .home .bloc-features .features .feature.scalable-document .illu, .workflow .bloc-features .features .feature.scalable-document .illu {
-      background-image: image-url("tmp/2020-06/site/landing/features/scalable-document.png"); }
+      background-image: url("../imgs/UI_Landing/features/scalable-document.png"); }
     .home .bloc-features .features .feature.right-level-of-focus .illu, .workflow .bloc-features .features .feature.right-level-of-focus .illu {
-      background-image: image-url("tmp/2020-06/site/landing/features/right-level-of-focus.png"); }
+      background-image: url("../imgs/UI_Landing/features/right-level-of-focus.png"); }
     .home .bloc-features .features .feature.collaboration .illu, .workflow .bloc-features .features .feature.collaboration .illu {
-      background-image: image-url("tmp/2020-06/site/landing/features/collaboration-natural-part-workflow.png"); }
+      background-image: url("../imgs/UI_Landing/features/collaboration-natural-part-workflow.png"); }
     .home .bloc-features .features .feature.jira-integration .illu, .workflow .bloc-features .features .feature.jira-integration .illu {
-      background-image: image-url("tmp/2020-06/site/landing/features/jira-integration.png"); }
+      background-image: url("../imgs/UI_Landing/features/jira-integration.png"); }
     .home .bloc-features .features .feature.large-collection-template .illu, .workflow .bloc-features .features .feature.large-collection-template .illu {
-      background-image: image-url("tmp/2020-06/site/landing/features/large-collection-template.png"); }
+      background-image: url("../imgs/UI_Landing/features/large-collection-template.png"); }
     .home .bloc-features .features .feature.unlimited-sharing .illu, .workflow .bloc-features .features .feature.unlimited-sharing .illu {
-      background-image: image-url("tmp/2020-06/site/landing/features/unlimited-sharing.png"); }
+      background-image: url("../imgs/UI_Landing/features/unlimited-sharing.png"); }
     .home .bloc-features .features .feature.scalable-document .illu, .workflow .bloc-features .features .feature.scalable-document .illu {
-      background-image: image-url("tmp/2020-06/site/landing/features/scalable-document.png"); }
+      background-image: url("../imgs/UI_Landing/features/scalable-document.png"); }
     .home .bloc-features .features .feature.scalable-document .illu, .workflow .bloc-features .features .feature.scalable-document .illu {
-      background-image: image-url("tmp/2020-06/site/landing/features/scalable-document.png"); }
+      background-image: url("../imgs/UI_Landing/features/scalable-document.png"); }
 
 body .footer {
   color: white; }
@@ -2683,7 +2683,7 @@ body.home {
     body.home .section-problem .wrapper {
       overflow: hidden; }
       body.home .section-problem .wrapper .illu {
-        background-image: image-url("tmp/2020-06/site/landing/draft-illu-section-2.png");
+        background-image: url("../imgs/UI_Landing/draft-illu-section-2.png");
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center; }
@@ -2740,11 +2740,11 @@ body.home {
       background-repeat: no-repeat;
       background-position: center; }
   body.home .section-solution .wrapper .bloc:nth-child(3n+1) .illu {
-    background-image: image-url("tmp/2020-06/site/landing/solution-1.png"); }
+    background-image: url("../imgs/UI_Landing/solution-1.png"); }
   body.home .section-solution .wrapper .bloc:nth-child(3n+2) .illu {
-    background-image: image-url("tmp/2020-06/site/landing/solution-3.png"); }
+    background-image: url("../imgs/UI_Landing/solution-3.png"); }
   body.home .section-solution .wrapper .bloc:nth-child(3n+3) .illu {
-    background-image: image-url("tmp/2020-06/site/landing/solution-2.png"); }
+    background-image: url("../imgs/UI_Landing/solution-2.png"); }
   body.home .section.bloc-landing {
     border-top: none; }
   body.home .section.bloc-discover {
@@ -2785,7 +2785,7 @@ body.home {
         top: -202px; }
         body.home .section.bloc-discover .grids > * .bg {
           width: 100%;
-          background-image: image-url("tmp/2020-06/site/landing/angular-grid.png");
+          background-image: url("../imgs/UI_Landing/angular-grid.png");
           background-size: 1920px;
           position: absolute;
           background-position: calc(50% - 35px) -46px;
@@ -3528,5 +3528,3 @@ body.example {
 
 .unsecable {
   white-space: nowrap; }
-
-/*# sourceMappingURL=common.css.map */

@@ -22,7 +22,7 @@
     right: 0;
     background-size: 403px;
     background-position: right;
-    background-image: image-url("tmp/2020-06/site/workflow/angle.png"); }
+    background-image: url("../imgs/UI_Workflow/angle.png"); }
 
   .business-case .main > .content .visual-artifact {
     top: 216px; }
@@ -212,7 +212,7 @@
     .header .logo .picto {
       width: 125px;
       height: 40px;
-      background-image: image-url("tmp/2020-05/logo-diag-orange-plus-text.png"); }
+      background-image: url("../imgs/logo-diag-orange-plus-text"); }
 
   .signup-bloc .form-wrapper {
     width: 404px;
@@ -233,13 +233,13 @@
         padding: 0 10px; }
 
   body.agile-project-management .bloc-landing .illu {
-    background-image: image-url("tmp/2020-06/site/landing/agile-project-management.png"); }
+    background-image: url("../imgs/UI_Landing/agile-project-management.png"); }
 
   body.product-management .bloc-landing .illu {
-    background-image: image-url("tmp/2020-06/site/landing/product-management.png"); }
+    background-image: url("../imgs/UI_Landing/product-management.png"); }
 
   body.everyday-knowledge-work .bloc-landing .illu {
-    background-image: image-url("tmp/2020-06/site/landing/everyday-knowledge-work.png"); }
+    background-image: url("../imgs/UI_Landing/everyday-knowledge-work.png"); }
 
   .workflow .ucs .uc {
     position: relative; }
@@ -299,14 +299,14 @@
       bottom: -400px;
       width: 100%;
       height: 800px;
-      background-image: image-url("tmp/2020-06/site/landing/angular-grid.png");
+      background-image: url("../imgs/UI_Landing/angular-grid.png");
       background-size: 1920px; }
     .home .bloc-landing .landing-fresque {
       position: absolute;
       bottom: 0;
       width: 100%;
       height: 371px;
-      background-image: image-url("tmp/2020-06/site/landing/fresque.png");
+      background-image: url("../imgs/UI_Landing/fresque.png");
       background-size: 1885px;
       background-repeat: no-repeat;
       background-position: center; }
@@ -505,8 +505,6 @@
       .home .bloc-misc .entry .title {
         font-size: 1.2em;
         margin-bottom: 0.33em; }
-  .home .footer .bloc-plan {
-    margin-right: 8em; }
   .home .if-mobile {
     display: none; }
   .home body .header .nav {
@@ -567,5 +565,3 @@
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19); }
   .home .home .bloc-av:nth-child(2n) .wrapper .bloc-text {
     padding: 0 1em 0 1em; } }
-
-/*# sourceMappingURL=portal-desktop.css.map */
