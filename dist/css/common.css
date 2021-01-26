@@ -2992,6 +2992,7 @@ body > div.footer .oblique .rotated-square {
 body > div.footer .footer-wrapper {
   position: relative;
   z-index: 1;
+  padding-bottom: 40px;
 }
 body > div.footer .socials {
   position: absolute;
@@ -3059,9 +3060,6 @@ body > div.footer .bloc .language-bloc .toggle-wrapper:hover .dropdown-invite {
 }
 body > div.footer .bloc .language-bloc .menu-wrapper {
   position: relative;
-}
-body > div.footer .bloc .language-bloc .menu-wrapper:hover {
-  border-bottom: 1px solid transparent !important;
 }
 body > div.footer .bloc .language-bloc .menu-wrapper:hover .menu {
   opacity: 1;
