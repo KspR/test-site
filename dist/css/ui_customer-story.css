@@ -232,7 +232,7 @@
     background-position: 100% 430px;
   }
   .ui_customer-story .ui-header.transilien::before {
-    background-position: 100% 500px;
+    background-position: 120% 500px;
   }
   .ui_customer-story .ui-header {
     display: block;
