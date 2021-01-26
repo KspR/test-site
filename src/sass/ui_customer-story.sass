@@ -26,6 +26,19 @@
 			background-image : url("../imgs/UI_Customer-story/sympany/draft-business-case-sympany.png")
 			@media only screen and (max-width : 1390px)
 				background-position : 100% 228px
+	.ui-header.transilien
+		&::before
+			background-image : url("../imgs/UI_Customer-story/transilien/Transilien-illustration-v3.png")
+			@media only screen and (max-width : 1680px)
+				background-position : 100% 190px
+				filter : grayscale(1)
+				opacity : .13
+
+		.main-info
+			.wrapper
+				.logo
+					height : auto
+					max-width : 250px
 	.ui-header
 		display : flex
 		position : relative
@@ -70,6 +83,7 @@
 				display : flex
 				align-items : center
 				margin-top : 60px
+				max-width : 90%
 				.customer
 					width : 350px
 					padding : 25px
@@ -227,6 +241,9 @@
 		.ui-header.sympany
 			&::before
 				background-position : 100% 430px
+		.ui-header.transilien
+			&::before
+				background-position : 100% 500px
 		.ui-header
 			display : block
 			padding-top : 40px

@@ -25,6 +25,20 @@
     background-position: 100% 228px;
   }
 }
+.ui_customer-story .ui-header.transilien::before {
+  background-image: url("../imgs/UI_Customer-story/transilien/Transilien-illustration-v3.png");
+}
+@media only screen and (max-width: 1680px) {
+  .ui_customer-story .ui-header.transilien::before {
+    background-position: 100% 190px;
+    filter: grayscale(1);
+    opacity: 0.13;
+  }
+}
+.ui_customer-story .ui-header.transilien .main-info .wrapper .logo {
+  height: auto;
+  max-width: 250px;
+}
 .ui_customer-story .ui-header {
   display: flex;
   position: relative;
@@ -75,6 +89,7 @@
   display: flex;
   align-items: center;
   margin-top: 60px;
+  max-width: 90%;
 }
 .ui_customer-story .ui-header .main-info .customers .customer {
   width: 350px;
@@ -214,6 +229,9 @@
   .ui_customer-story .ui-header.sympany::before {
     background-position: 100% 430px;
   }
+  .ui_customer-story .ui-header.transilien::before {
+    background-position: 100% 500px;
+  }
   .ui_customer-story .ui-header {
     display: block;
     padding-top: 40px;
@@ -305,4 +323,4 @@
     font-size: 1rem;
     opacity: 0.8;
   }
-}/*# sourceMappingURL=ui_customer-story.css.map */mer-story.css.map */
+}/*# sourceMappingURL=ui_customer-story.css.map */
