@@ -108,7 +108,7 @@ body > header.main-header .nav ul li.login a {
   border-left: 1px solid #666666;
   padding-left: 30px;
 }
-body > header.main-header .nav ul li.subscribe a {
+body > header.main-header .nav ul li.signup a {
   margin-right: 20px;
 }
 body > header.main-header #btnBurgerMenu,
@@ -184,7 +184,7 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
   }
   body > header.main-header .nav ul li {
     position: relative;
-    padding: 1vh 20px;
+    padding: 10px 20px;
     opacity: 0;
   }
   body > header.main-header .nav ul li .text-link {
@@ -231,21 +231,21 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
     border-left: none;
     padding-left: 0;
   }
-  body > header.main-header .nav ul li.subscribe a {
+  body > header.main-header .nav ul li.signup a {
     margin-right: 0;
   }
-  body > header.main-header .nav ul li.login, body > header.main-header .nav ul li.subscribe {
+  body > header.main-header .nav ul li.login, body > header.main-header .nav ul li.signup {
     padding-top: 0;
     padding-bottom: 0;
   }
   body > header.main-header .nav ul li.login {
     margin-top: calc(120px + 3vh);
   }
-  body > header.main-header .nav ul li.subscribe {
-    margin-top: -120px;
+  body > header.main-header .nav ul li.signup {
+    margin-top: -100px;
     margin-bottom: 150px;
   }
-  body > header.main-header .nav ul li.subscribe a.cta {
+  body > header.main-header .nav ul li.signup a.cta {
     font-size: 1.6rem;
   }
 
