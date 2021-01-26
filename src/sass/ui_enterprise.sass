@@ -1,9 +1,5 @@
 @import colors.sass
-
-
-@media only screen and (min-width : 1080px)
-	.test
-		color : black
+@import DDS_breakpoints.sass
 
 .ui_enterprise
 	position : relative
@@ -46,18 +42,23 @@
 				right : 0
 				left : unset
 
-			@media only screen and (max-width : 992px)
+			@media only screen and (max-width : $tabletBreakpoint)
 				img
 					left : -30vw
 				img + img
 					right : -10vw
 					left : unset
 
-			@media only screen and (max-width : 768px)
+			@media only screen and (max-width : $phoneBreakpoint)
 				img
-					left : -90vw
+					left : -70vw
+					height : 50vh
+					top : unset
+					bottom : 0
 				img + img
-					right : -50vw
+					bottom : unset
+					top : 0
+					right : -40vw
 					left : unset
 		
 		h1, .intro-text, .cta
@@ -565,6 +566,9 @@
 						font-size : .9em
 						display : none
 						margin-top : 10px
+						border-left : 1px dotted gray
+						padding-left : 15px
+						margin-left : 26px
 				
 				.feature.active
 					.far
