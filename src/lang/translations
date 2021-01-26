@@ -841,7 +841,7 @@ ui-customer-story
 		body-content
 			------
 			<img class="illustration left-sided intro" src="./imgs/UI_Customer-story/evoyageurs/1_story_mapping_ecrans.png" alt="Story mapping screenshot">
-			<h2>How SNCF's Digital Factory Made User Story Mapping a Central Tool for Conception and Development Workflows</h2>
+			<h2>How SNCF's Digital Factory made User Story Mapping a central tool for conception and development workflows</h2>
 			<p>
 				The SNCF is France's state-owned railway company. The group employs 272,000 people and generates around €35B per year. On an average day, the train company operates 15,000 trains that transport roughly 10 million passengers around France: a truly massive footprint!
 			</p>
@@ -897,7 +897,7 @@ ui-customer-story
 			</p>
 			---
 			<img class="illustration left-sided intro" src="./imgs/UI_Customer-story/evoyageurs/1_story_mapping_ecrans.png" alt="Captures de story mapping">
-			<h2>Comment la fabrique digitale de la SNCF a fait du User Story Mapping un outil central des processus de conception et développement</h2>
+			<h2>Comment la Digital Factory d’e-Voyageurs SNCF exploite le User Story Mapping pour transformer l’expérience utilisateur</h2>
 			<p>
 				Grande entreprise ferroviaire publique française, la SNCF emploie 272 000 personnes et réalise un chiffre d’affaires d’environ 35 milliards d’euros par an. Au cours d’une journée type, la société gère 15 000 trains et transporte près de 10 millions de passagers, partout en France : une responsabilité immense !
 			</p>
@@ -1105,8 +1105,8 @@ ui-customer-story
 	transilien
 		header
 			title
-				Customizing common Agile-at-scale<br>frameworks to adapt<br>to remote working constraints
-				Construire un framework d'Agilité à l’échelle<br>sur-mesure pour mieux s’adapter aux enjeux<br>de la collaboration à distance
+				Customizing Agile-at-scale frameworks<br>to adapt to remote work
+				Concevoir un framework Agile sur-mesure<br>pour s’adapter au télétravail
 			contributor1
 				name
 					Pierre WATIER
@@ -1123,8 +1123,8 @@ ui-customer-story
 					Coach Agile<br>chez CGI
 		body-content
 			------
-			<img class="illustration left-sided intro" src="./imgs/UI_Customer-story/transilien/1_Transilien-Atelier_Role_et_Interactions.png" alt="Illustration">
-			<h2>xxx</h2>
+			<img class="illustration left-sided intro" src="./imgs/UI_Customer-story/transilien/3_Transilien-Solution_Board.png" alt="Illustration">
+			<h2>How Transilien customized common Agile-at-scale frameworks to adapt to remote working constraints</h2>
 			<p>
 				Part of the SNCF, France's state-owned railway company, Transilien is the commuter rail network serving Île-de-France: the region surrounding and including the city of Paris. This division employs around 44 000 people and operates 15 train lines, few trams and buses within the region. Two of the lines are co-managed with the RATP, the state-owned rail network serving Paris and its suburbs.
 			</p>
@@ -1184,7 +1184,7 @@ ui-customer-story
 				This first version of the Solution Board is finally presented to the epic owner, business owners, and cross-project product managers—who then adjust the features and the Solution Board based on perceived dependencies and bottlenecks. This final version of the Solution Board is then presented by senior management to the entire 180-person team joining the now-remote PI Planning session.“We’ve successfully designed a tailor-made Agile-at-scale framework, inspired mainly by SAFe® but also by LeSS and Scrum-of-Scrum frameworks,” says Maxime.
 			</p>
 
-			<img class="illustration left-sided" src="./imgs/UI_Customer-story/transilien/3_Transilien-Solution_Board.png" alt="Illustration">
+			<img class="illustration left-sided" src="./imgs/UI_Customer-story/transilien/1_Transilien-Atelier_Role_et_Interactions.png" alt="Illustration">
 			<h2>The challenge of evolving PI Planning in a remote world</h2>
 			<p>
 				Maxime considers himself to be a “sticky-note guy.” He loves how sticky-notes inherently get people more involved and tend to make them more accountable for what they say. This is why he believes that retrospectives have lost their “sense of commitment” after migrating to digital tools. But not everyone always likes using sticky-notes either. This is especially the case among senior managers who oftentimes find them to be a bit childish.
@@ -1197,7 +1197,7 @@ ui-customer-story
 			</p>
 			---
 			<img class="illustration left-sided intro" src="./imgs/UI_Customer-story/transilien/1_Transilien-Atelier_Role_et_Interactions.png" alt="Illustration">
-			<h2>xxx</h2>
+			<h2>Comment les leaders de la transformation de Transilien ont conçu un framework d'Agilité à l’échelle sur-mesure pour mieux s’adapter aux enjeux de la collaboration à distance</h2>
 			<p>
 				Partie intégrante de la SNCF, l’entreprise ferroviaire publique française, Transilien est le nom du réseau de trains de banlieue desservant exclusivement les gares d'Île-de-France. Cette division emploie environ 44 000 personnes et gère 15 lignes ferroviaires, dont 2 en partenariat avec la RATP, ainsi que quelques lignes de tramway et de bus.
 			</p>

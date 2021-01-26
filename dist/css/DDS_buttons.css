@@ -1,8 +1,10 @@
 .cta:hover {
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 .cta.round {
-  border-radius: 200px; }
+  border-radius: 200px;
+}
 
 .cta.light {
   color: #333;
@@ -14,18 +16,22 @@
   font-weight: bold;
   outline: none;
   border: none;
-  transition: box-shadow 0.1s, background 0.2s, color 0.2s, background 0.2s, transform 0.2s; }
-  .cta.light .fas, .cta.light .fa {
-    font-size: 0.7em;
-    margin-right: 0.7em; }
+  transition: box-shadow 0.1s, background 0.2s, color 0.2s, background 0.2s, transform 0.2s;
+}
+.cta.light .fas, .cta.light .fa {
+  font-size: 0.7em;
+  margin-right: 0.7em;
+}
 
 .cta.light.dark-over:hover {
   background: #111;
-  transform: scale(1.05); }
+  transform: scale(1.05);
+}
 
 .cta.light.outline-over:hover {
   background: #f1852b;
   color: white;
   outline: none;
   border: none;
-  box-shadow: 0 0 0 3px white; }
+  box-shadow: 0 0 0 3px white;
+}/*# sourceMappingURL=DDS_buttons.css.map */
