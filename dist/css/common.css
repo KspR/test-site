@@ -4455,36 +4455,20 @@ body.example .content .wrapper .screenshot {
   color: inherit;
   margin-left: 8px;
   font-size: 0.9em;
-  transition: margin-left 0.2s;
+  transition: transform 0.2s;
 }
 
 .text-link:hover {
   color: #1f5aa3;
 }
-.text-link:hover .fas {
-  margin-left: 14px;
+.text-link:hover .fas:last-child {
+  transform: translateX(5px);
 }
 
 .text-link.underline-over::after {
   content: "";
   display: block;
   position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 0;
-  height: 1px;
-  border-bottom: 1px solid #1f5aa3;
-  transition: width 0.2s, left 0.2s;
-}
-
-.text-link.underline-over:hover::after {
-  width: 100%;
-  left: 0;
-}
-
-.unsecable {
-  white-space: nowrap;
-}/*# sourceMappingURL=common.css.map */te;
   bottom: 0;
   left: 50%;
   width: 0;

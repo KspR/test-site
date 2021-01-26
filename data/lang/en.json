@@ -525,8 +525,8 @@
         "description": "Your data is hosted by OVH, Europe’s largest hosting provider, to maintain the highest level of security standard and certification."
       },
       "feature2": {
-        "title": "Independent third-party penetration tests",
-        "description": "Access periodic audit and follow-up reports on-demand at any time."
+        "title": "IP filtering",
+        "description": "You have the option to limit login from specific IPs only as a way of both preventing outside access to your data and enabling flexible collaboration within your organization."
       },
       "feature3": {
         "title": "Data encryption in transit and at rest",
@@ -537,8 +537,8 @@
         "description": "At your request, we can connect the logs to your existing system, so you can create your own alerts and monitoring."
       },
       "feature5": {
-        "title": "IP filtering",
-        "description": "You have the option to limit login from specific IPs only as a way of both preventing outside access to your data and enabling flexible collaboration within your organization."
+        "title": "Periodic independent 3rd party penetration tests",
+        "description": "Access periodic audit and follow-up reports on-demand at any time."
       },
       "feature6": {
         "title": "Domain control",

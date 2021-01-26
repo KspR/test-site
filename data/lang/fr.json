@@ -525,8 +525,8 @@
         "description": "Vos données sont hébergées en France, chez OVH, qui maintient les plus haut niveaux de certification en matière de sécurité."
       },
       "feature2": {
-        "title": "Test de sécurité périodique",
-        "description": "Des tests de sécurité (penetration test) sont effectués périodiquement par des experts de premier plan. Les rapports d’audit peuvent être consultés sur demande."
+        "title": "Filtre IP",
+        "description": "Nous pouvons filtrer par IP l’accès aux données de votre Team. C’est une façon efficace de prévenir toute fuite de données en dehors de votre organisation."
       },
       "feature3": {
         "title": "Données cryptées en transit et au repos",
@@ -537,8 +537,8 @@
         "description": "Nous pouvons vous fournir les logs de connexion relatifs à votre instance Draft sur demande. Vous pouvez ainsi nourrir automatiquement votre système d’alerte."
       },
       "feature5": {
-        "title": "Filtre IP",
-        "description": "Nous pouvons filtrer par IP l’accès aux données de votre Team. C’est une façon efficace de prévenir toute fuite de données en dehors de votre organisation."
+        "title": "Test de sécurité périodique",
+        "description": "Des tests de sécurité (penetration test) sont effectués périodiquement par des experts de premier plan. Les rapports d’audit peuvent être consultés sur demande."
       },
       "feature6": {
         "title": "Contrôle de domaine",
