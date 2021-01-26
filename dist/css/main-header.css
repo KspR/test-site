@@ -174,7 +174,7 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
     position: fixed;
     top: 100vh;
     left: 0;
-    padding-top: 50px;
+    padding-top: 70px;
     height: 100vh;
     width: 100%;
     overflow: auto;
@@ -184,7 +184,7 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
   }
   body > header.main-header .nav ul li {
     position: relative;
-    padding: 2vh 20px;
+    padding: 1vh 20px;
     opacity: 0;
   }
   body > header.main-header .nav ul li .text-link {
@@ -217,8 +217,7 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
   }
   body > header.main-header .nav ul li .toggle-wrapper .menu li {
     padding: 0;
-    margin-top: calc(1vh + 10px);
-    margin-bottom: calc(1vh + 10px);
+    margin-bottom: 6px;
   }
   body > header.main-header .nav ul li .toggle-wrapper:hover .menu {
     z-index: 1;
@@ -240,7 +239,7 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
     padding-bottom: 0;
   }
   body > header.main-header .nav ul li.login {
-    margin-top: calc(120px + 4vh);
+    margin-top: calc(120px + 3vh);
   }
   body > header.main-header .nav ul li.subscribe {
     margin-top: -120px;
@@ -273,7 +272,7 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
 }
 @media only screen and (max-width: 768px) {
   body {
-    margin-top: 50px;
+    padding-top: 50px;
   }
 
   body > header.main-header .nav {
