@@ -269,11 +269,6 @@
     background-image: url("../imgs/logo-diag-orange-plus-text");
   }
 
-  .signup-bloc .form-wrapper {
-    width: 404px;
-    margin-left: calc(50% - 202px);
-  }
-
   .bloc-last .left-visual {
     width: calc(50% - 600px);
   }
@@ -715,11 +710,6 @@
     top: 50%;
     transform: translate(0, -50%);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-  }
-  .home .home .bloc-av:nth-child(2n) .wrapper .bloc-text {
-    padding: 0 1em 0 1em;
-  }
-}/*# sourceMappingURL=portal-desktop.css.map */;
   }
   .home .home .bloc-av:nth-child(2n) .wrapper .bloc-text {
     padding: 0 1em 0 1em;
