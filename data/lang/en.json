@@ -537,12 +537,12 @@
         "description": "At your request, we can connect the logs to your existing system, so you can create your own alerts and monitoring."
       },
       "feature5": {
-        "title": "Periodic independent 3rd party penetration tests",
-        "description": "Access periodic audit and follow-up reports on-demand at any time."
-      },
-      "feature6": {
         "title": "Domain control",
         "description": "You can whitelist email addresses from specific domains to prevent your team members from sharing drafts outside your organization inadvertently."
+      },
+      "feature6": {
+        "title": "Periodic independent 3rd party penetration tests",
+        "description": "Access periodic audit and follow-up reports on-demand at any time."
       },
       "feature7": {
         "title": "Sharing controls",

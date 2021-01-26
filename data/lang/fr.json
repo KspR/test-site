@@ -537,12 +537,12 @@
         "description": "Nous pouvons vous fournir les logs de connexion relatifs à votre instance Draft sur demande. Vous pouvez ainsi nourrir automatiquement votre système d’alerte."
       },
       "feature5": {
-        "title": "Test de sécurité périodique",
-        "description": "Des tests de sécurité (penetration test) sont effectués périodiquement par des experts de premier plan. Les rapports d’audit peuvent être consultés sur demande."
-      },
-      "feature6": {
         "title": "Contrôle de domaine",
         "description": "Nous pouvons restreindre l’accès aux données de votre Team à des adresses email liées à seulement certains noms de domaine."
+      },
+      "feature6": {
+        "title": "Test de sécurité périodique",
+        "description": "Des tests de sécurité (penetration test) sont effectués périodiquement par des experts de premier plan. Les rapports d’audit peuvent être consultés sur demande."
       },
       "feature7": {
         "title": "Partage public restreint",

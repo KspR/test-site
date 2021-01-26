@@ -1400,18 +1400,18 @@ ui-enterprise
 				Nous pouvons vous fournir les logs de connexion relatifs à votre instance Draft sur demande. Vous pouvez ainsi nourrir automatiquement votre système d’alerte.
 		feature5
 			title
-				Periodic independent 3rd party penetration tests
-				Test de sécurité périodique
-			description
-				Access periodic audit and follow-up reports on-demand at any time.
-				Des tests de sécurité (penetration test) sont effectués périodiquement par des experts de premier plan. Les rapports d’audit peuvent être consultés sur demande.
-		feature6
-			title
 				Domain control
 				Contrôle de domaine
 			description
 				You can whitelist email addresses from specific domains to prevent your team members from sharing drafts outside your organization inadvertently.
 				Nous pouvons restreindre l’accès aux données de votre Team à des adresses email liées à seulement certains noms de domaine.
+		feature6
+			title
+				Periodic independent 3rd party penetration tests
+				Test de sécurité périodique
+			description
+				Access periodic audit and follow-up reports on-demand at any time.
+				Des tests de sécurité (penetration test) sont effectués périodiquement par des experts de premier plan. Les rapports d’audit peuvent être consultés sur demande.
 		feature7
 			title
 				Sharing controls
