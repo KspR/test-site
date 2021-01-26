@@ -37,7 +37,8 @@
 }
 .ui_customer-story .ui-header.transilien .main-info .wrapper .logo {
   height: auto;
-  max-width: 250px;
+  width: 250px;
+  max-width: 80%;
 }
 .ui_customer-story .ui-header {
   display: flex;
