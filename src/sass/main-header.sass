@@ -1,6 +1,12 @@
 @import colors.sass
 @import DDS_breakpoints.sass
 
+$desktopHeaderHeight : 70px
+$mobileHeaderHeight : 50px
+
+body
+	padding-top : $desktopHeaderHeight
+
 body > header.main-header
 	position : fixed
 	top : 0
@@ -9,7 +15,7 @@ body > header.main-header
 	width : 100%
 	color : white
 	.nav
-		height : 70px
+		height : $desktopHeaderHeight
 		display : flex
 		align-items : center
 		justify-content : flex-end
@@ -259,6 +265,9 @@ body > header.main-header
 
 @media only screen and (max-width: $phoneBreakpoint)
 
+	body
+		margin-top : $mobileHeaderHeight
+
 	body > header.main-header
 		.nav
-			height : 50px
+			height : $mobileHeaderHeight

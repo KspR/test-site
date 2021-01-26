@@ -1,3 +1,7 @@
+body {
+  padding-top: 70px;
+}
+
 body > header.main-header {
   position: fixed;
   top: 0;
@@ -268,6 +272,10 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
   }
 }
 @media only screen and (max-width: 768px) {
+  body {
+    margin-top: 50px;
+  }
+
   body > header.main-header .nav {
     height: 50px;
   }
