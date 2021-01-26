@@ -110,78 +110,86 @@
 	</section>
 
 	<div class="bloc-last">
-		<div class="left-visual">
-			<div class="rotated-square"></div>
-		</div>
-		<div class="title">Démarrez dès aujourd’hui</div>
-		<form class="signup-bloc" action="/fr/get-started">
-			<div class="form-wrapper">
-				<input placeHolder="Entrez votre email" name="pre_email"></input>
-				<div class="submit-wrapper">
-					<div class="triangle"></div>
-					<input type="submit" class="register cta" href="/fr/get-started" value="S&#x27;inscrire" />
-				</div>
-			</div>
-			<div class="if-1080">
-				<div class="detail">Notre plan gratuit est illimité dans le temps et vous donne accès à toutes les
-					fonctionnalités du <a href="pricing">plan Pro</a>.</div>
-			</div>
-			<div class="if-not-1080">
-				<div class="detail">Notre plan gratuit est illimité dans le temps<br />et vous donne accès à toutes les
-					fonctionnalités du <a href="pricing">plan Pro</a>.</div>
-			</div>
-		</form>
-		<!-- <a class="cta-border cta-border-darkblue" style="margin-left:40px;" href="/agile_project_management">Discover how Scrum Masters use Draft</a> -->
+	<div class="left-visual">
+		<div class="rotated-square"></div>
 	</div>
+	<div class="title">Start your first draft today!</div>
+	<form class="signup-bloc" action="//get-started">
+	<div class="form-wrapper">
+		<input placeHolder="Enter your email" name="pre_email"></input>
+		<div class="submit-wrapper">
+			<div class="triangle"></div>
+			<input type="submit" class="register cta" href="/get-started" value="Get started" />
+		</div>
+	</div>
+	<div class="if-1080">
+		<div class="detail">Start your first draft today. Sign up for a Free plan.</div>
+	</div>
+	<div class="if-not-1080">
+		<div class="detail">Start your first draft today.<br />Sign up for a Free plan.</div>
+	</div>
+</form>
+	<!-- <a class="cta-border cta-border-darkblue" style="margin-left:40px;" href="/agile_project_management">Discover how Scrum Masters use Draft</a> -->
+</div>
 	<div class="footer">
-		<div class="footer-wrapper">
-			<div class="bloc bloc-plan">
-				<div class="title">Produit</div>
-				<a href="/fr/">Accueil</a>
-				<a href="/fr/agile-project-management">Draft pour la gestion de projet Agile</a>
-				<a href="/fr/product-management">Draft pour le Product Management</a>
-				<a href="/fr/everyday-creative-work">Draft pour le travail créatif quotidien</a>
-				<a href="/fr/examples">Exemples</a>
-				<a href="/fr/pricing">Offres</a>
-				<a href="/fr/login">Se connecter</a>
-				<a href="/fr/get-started">S&#x27;inscrire</a>
-			</div>
+	<div class="footer-wrapper">
+		<div class="bloc bloc-plan">
+			<div class="title">Product</div>
+			<a href="/">Home</a>
+			<a href="/agile-project-management">Draft for Agile Project Management</a>
+			<a href="/product-management">Draft for Product Management</a>
+			<a href="/everyday-creative-work">Draft for Everyday Creative Work</a>
+			<a href="/examples">Examples</a>
+			<a href="/login">Sign in</a>
+			<a href="/get-started">Sign up</a>
+		</div>
 
-			<div class="bloc bloc-resources">
-				<div class="title">Ressources</div>
-				<a href="https://draft.io/assets/2020 10 27 Terms and conditions - Draft SAS.pdf"
-					target="_blank">Termes</a>
-				<a href="https://draft.io/assets/2020 10 27 Privacy Policy - Draft SAS.pdf" target="_blank">Sécurité et
-					confidentialité</a>
-				<a href="mailto:hi@draft.io">Contactez-nous</a>
-				<div class="language-bloc">
-					<div class="bloc-title">Langue</div>
-					<div class="menu-wrapper">
-						<div class="toggle-wrapper">
-							<div class="toggle">Français</div>
-							<div class="dropdown-invite"></div>
-						</div>
-						<div class="menu">
-							<a
-								href="/fr/customer-stories/sncf-transforming-customer-experience-with-user-story-mapping">Français</a>
-							<a
-								href="/customer-stories/sncf-transforming-customer-experience-with-user-story-mapping">English</a>
-						</div>
+		<div class="bloc bloc-resources">
+			<div class="title">Customer</div>
+			<a href="/enterprise">Enterprise</a>
+			<a href="/customer-stories">Customer stories</a>
+			<a href="/pricing">Pricing</a>
+		</div>
+
+		<div class="bloc bloc-resources">
+			<div class="title">Resources</div>
+			<a href="https://www.notion.so/Draft-s-Help-Center-cc9934be1af04688954d1d077ad004aa"
+				target="_blank">Help center</a>
+			<a href="https://draft.io/assets/2020 10 27 Terms and conditions - Draft SAS.pdf"
+				target="_blank">Terms</a>
+			<a href="https://draft.io/assets/2020 10 27 Privacy Policy - Draft SAS.pdf" target="_blank">Privacy</a>
+			<a href="mailto:hi@draft.io">Contact Us</a>
+
+			<div class="language-bloc">
+				<div class="bloc-title">Language</div>
+				<div class="menu-wrapper">
+					<div class="toggle-wrapper">
+						<div class="toggle">English</div>
+						<div class="dropdown-invite"></div>
+					</div>
+					<div class="menu">
+						<a
+							href="<%= @fr_url %>">Français</a>
+						<a
+							href="<%= @en_url %>">English</a>
 					</div>
 				</div>
 			</div>
-
-			<div class="socials">
-				<a href="/" class="logo"></a>
-				<a href="https://linkedin.com/company/draft-io" class="linkedin" target="_blank"></a>
-			</div>
 		</div>
 
-
-		<div class="oblique">
-			<div class="rotated-square"></div>
+		<div class="socials">
+			<a href="/" class="logo"></a>
+			<a href="https://linkedin.com/company/draft-io" class="linkedin" target="_blank"></a>
 		</div>
 	</div>
+
+
+	<div class="oblique">
+		<div class="rotated-square"></div>
+	</div>
+</div>
+
+<script src="https://kit.fontawesome.com/6b4515f4ac.js" crossorigin="anonymous"></script>
 
 	<script src="https://kit.fontawesome.com/6b4515f4ac.js" crossorigin="anonymous"></script>
 
