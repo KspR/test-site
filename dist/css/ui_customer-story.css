@@ -104,6 +104,7 @@
 .ui_customer-story .ui-header .main-info .customers .customer .portrait {
   border-radius: 100px;
   height: 80px;
+  width: 80px;
 }
 .ui_customer-story .ui-header .main-info .customers .customer .customer-details {
   margin-left: 20px;
