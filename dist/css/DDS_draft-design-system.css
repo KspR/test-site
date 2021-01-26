@@ -295,7 +295,7 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
     padding-bottom: 0;
   }
   body > header.main-header .nav ul li.login {
-    margin-top: calc(120px + 3vh);
+    margin-top: calc(100px + 3vh);
   }
   body > header.main-header .nav ul li.signup {
     margin-top: -100px;
