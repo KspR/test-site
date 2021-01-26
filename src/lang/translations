@@ -820,6 +820,9 @@ separateur-UI-USER-STORY
 	================================================================================ UI-USER-STORY EVOYAGEUR
 ui-customer-story
 	eVoyageur
+		meta-title
+			e-Voyageurs SNCF - User Story Mapping - Draft
+			e-Voyageurs SNCF - User Story Mapping - Draft
 		header
 			title
 				Transforming customer experience<br>with User Story Mapping
@@ -960,6 +963,9 @@ separateur-UI-USER-STORY
 	================================================================================ UI-USER-STORY SYMPANY
 ui-customer-story
 	sympany
+		meta-title
+			Sympany - Scaled Agile Framework - Draft
+			Sympany - Scaled Agile Framework - Draft
 		header
 			title
 				Metamorphosing the decision-making<br>process with SAFe
@@ -1103,6 +1109,9 @@ separateur-UI-USER-STORY
 	================================================================================ UI-USER-STORY TRANSILIEN
 ui-customer-story
 	transilien
+		meta-title
+			Transilien - Customized Agily-at-scale Framework - Draft
+			Transilien – Framework d’Agilité à l’échelle sur-mesure - Draft
 		header
 			title
 				Customizing Agile-at-scale frameworks<br>to adapt to remote work
@@ -1274,6 +1283,9 @@ separateur-UI-ENTERPRISE
 	================================================================================ UI-UENTERPRISE
 	================================================================================ UI-ENTERPRISE
 ui-enterprise
+	meta-title
+		Enterprise - Draft
+		Entreprise - Draft
 	title
 		Draft for Enterprises
 		Draft pour Entreprises
