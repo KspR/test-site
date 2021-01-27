@@ -27,9 +27,6 @@ body > header.main-header .nav .logo {
 body > header.main-header .nav .logo:hover {
   opacity: 1;
 }
-body > header.main-header .nav .logo:hover img {
-  height: 52%;
-}
 body > header.main-header .nav .logo img {
   height: 50%;
   margin-left: 20px;
