@@ -248,6 +248,7 @@
   }
   .ui_customer-story .ui-header .main-info .wrapper {
     display: block;
+    padding: 0 30px;
   }
   .ui_customer-story .ui-header .main-info .wrapper .logo {
     margin: 0 auto;
@@ -262,7 +263,7 @@
   }
   .ui_customer-story .ui-header .main-info .customers {
     display: block;
-    margin-top: 60px;
+    margin: 60px auto 0;
   }
   .ui_customer-story .ui-header .main-info .customers .customer, .ui_customer-story .ui-header .main-info .customers .customer + .customer {
     width: 90%;
