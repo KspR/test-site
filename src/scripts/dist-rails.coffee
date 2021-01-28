@@ -1,4 +1,5 @@
 fs = require('fs')
+cp = require('child_process')
 files = fs.readdirSync('./dist')
 files.forEach((file) ->
 	if /html$/.exec(file)
@@ -11,6 +12,8 @@ files.forEach((file) ->
 				return str
 		)
 		str = str.replace(/<!-- BEGINCSS -->(.|\n)*<!-- ENDCSS -->/, '<%= stylesheet_link_tag "portal" %>')
+		str = str.replace(/<!-- PRODONLY/g, '').replace(/END -->/g, '')
+		str = str.replace(/<!-- TESTONLY(.|\n)*?ENDTESTONLY -->/g, '')
 		fs.writeFileSync('./dist-rails/' + file + '.erb', str)
 )
 
@@ -23,11 +26,21 @@ files.forEach((file) ->
 				path = capture.replace('../', '').replace('fonts/', '')
 				return ' url(font-path("' + path + '"))'
 			else
-				if !/^http/.exec capture
+				if /^http/.exec capture
 					return str
 				else
-					path = capture.replace('./', '').replace('../', '')
-					return ' image-url("' + path + '")'
+					path = capture.replace('[^\.]\./', '').replace('\.\./', '').replace('imgs/', '')
+					return ' image-url("site/' + path + '")'
 		)
 		fs.writeFileSync('./dist-rails/sass/' + file, str)
+)
+
+fs.readdirSync('./dist-rails').forEach((file) ->
+	if /html/.exec(file)
+		cp.exec('cp ./dist-rails/' + file + ' /Users/KspR/Dev/whibo/app/views/site/' + file)
+)
+
+fs.readdirSync('./dist-rails/sass').forEach((file) ->
+	if /sass/.exec(file)
+		cp.exec('cp ./dist-rails/sass/' + file + ' /Users/KspR/Dev/whibo/app/assets/stylesheets/portal/' + file)
 )

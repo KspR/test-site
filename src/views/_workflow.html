@@ -5,7 +5,7 @@
 			<% if JSON_CONFIG["google-tag-manager"] %>
 				<%= render "partials/google_tag_manager_head" %>
 			<% end %>
-			-->
+			END -->
 
 			<title>{{this.title}}</title>
 			<meta name="description" content="{{this.pageDescription}}" />
@@ -30,15 +30,15 @@
 			<% else %>
 				<link rel="canonical" href="<%= JSON_CONFIG['host'] %>/fr/<%= @workflow %>">
 			<% end %>
-			-->
+			END -->
 
 		</head>
-		<body class="dark workflow {{../workflow_id}}">
+		<body class="dark has-header workflow {{../workflow_id}}">
 			<!-- PRODONLY
 			<% if JSON_CONFIG["google-tag-manager"] %>
 				<%= render "partials/google_tag_manager_body" %>
 			<% end %>
-			-->
+			END -->
 
 			{{{../includes.header}}}
 

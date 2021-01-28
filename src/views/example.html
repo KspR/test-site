@@ -1,19 +1,26 @@
 <html lang="<%= @lang.code %>">
 	<head>
-		<!-- <% if JSON_CONFIG["google-tag-manager"] %>
+		<!-- PRODONLY
+		<% if JSON_CONFIG["google-tag-manager"] %>
 			<%= render "partials/google_tag_manager_head" %>
-		<% end %> -->
+		<% end %>
+		END -->
 		<title>
+		<!-- TESTONLY -->
 			User Story Mapping
-		<!-- <%= @example["label"] %> - <%= @lang.example.examples %> - Draft -->
+		<!-- ENDTESTONLY -->
+		<!-- PRODONLY
+		<%= @example["label"] %> - <%= @lang.example.examples %> - Draft
+		END -->
 		</title>
-		<!-- <meta name="description" content="<%= @lang.example.pageDescription.gsub('&&example&&', @example["label"]) %>" /> -->
+		<!-- PRODONLY
+		<meta name="description" content="<%= @lang.example.pageDescription.gsub('&&example&&', @example["label"]) %>" />
+		END -->
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- <%= stylesheet_link_tag "portal" %> -->
 
 		<link rel="icon" href="/favicon.png?v=5" />
-<!-- 
+		<!-- PRODONLY
 		<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/fr/example/<%= @example["id"].gsub(/_/, '-') %>" 
 			hreflang="x-default" />
 		<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/example//<%= @example["id"].gsub(/_/, '-') %>" 
@@ -26,59 +33,91 @@
 			<link rel="canonical" href="<%= JSON_CONFIG['host'] %>/example/<%= @example["id"].gsub(/_/, '-') %>">
 		<% else %>
 			<link rel="canonical" href="<%= JSON_CONFIG['host'] %>/fr/example/<%= @example["id"].gsub(/_/, '-') %>">
-		<% end %> -->
+		<% end %>
+		END -->
 
 			<meta name="viewport" content="width=device-width, initial-scale=1">
 			
 			{{{includes.css}}}
 	</head>
-	<body class="dark example lang-fr"><!-- lang-code -->
-<!-- 		<% if JSON_CONFIG["google-tag-manager"] %>
+	<body class="dark has-header example lang-fr has-header"><!-- lang-code -->
+		<!-- PRODONLY
+		<% if JSON_CONFIG["google-tag-manager"] %>
 			<%= render "partials/google_tag_manager_body" %>
-		<% end %> -->
+		<% end %>
+		END -->
 		
 		{{{includes.header}}}
 
 		<div class="content">
 			<div class="wrapper">
 				<div class="ariane">
-					<!-- <% if @lang.code != 'en' %> -->
-						<!-- <a href="/<%= @lang.code %>/examples"><%= @lang.example.examples %></a> -->
-					<!-- <% else %> -->
+					<!-- PRODONLY
+					<% if @lang.code != 'en' %>
+						<a href="/<%= @lang.code %>/examples"><%= @lang.example.examples %></a>
+					<% else %>
 						<a href="/examples">Examples</a>
-					<!-- <% end %> -->
+					<% end %>
+					END -->
+					<!-- TESTONLY -->
+					<a href="/examples">Examples</a>
+					<!-- ENDTESTONLY -->
 					<div class="separator">></div>
 					<div class="current">
+						<!-- TESTONLY -->
 						User Story Mapping
-						<!-- <%= @example["label"] %> -->
+						<!-- ENDTESTONLY -->
+						<!-- PRODONLY
+						<%= @example["label"] %>
+						END -->
 					</div>
 				</div>
 
 				<div class="bloc-top">
 					<h1>
-						<!-- <%= @example["label"] %> -->
+						<!-- TESTONLY -->
 						User Story Mapping
+						<!-- ENDTESTONLY -->
+						<!-- PRODONLY
+						<%= @example["label"] %>
+						END -->
 					</h1>
 					<div class="bloc-cta">
 						<div class="cta-border">
-							<!-- <%= @lang.example.cta %> -->
+							<!-- TESTONLY -->
 							Essayer l'exemple*
+							<!-- ENDTESTONLY -->
+							<!-- PRODONLY
+							<%= @lang.example.cta %>
+							END -->
 						</div>
 						<div class="no-account-required">
-							<!-- <%= @lang.example.asterisk %> -->
+							<!-- TESTONLY -->
 							*Pas de compte requis
+							<!-- ENDTESTONLY -->
+							<!-- PRODONLY
+							<%= @lang.example.asterisk %>
+							END -->
 						</div>
 					</div>
 				</div>
 				<div class="screenshot user-story-mapping"></div>
 				<div class="bloc-bottom">
 					<a class="previous" href="<%= @previous_href %>">
-						<!-- ← <%= @previous["label"] %> -->
+						<!-- TESTONLY -->
 						← Collecte de Feedback
+						<!-- ENDTESTONLY -->
+						<!-- PRODONLY
+						← <%= @previous["label"] %>
+						END -->
 					</a>
 					<a class="next" href="<%= @next_href %>">
-						<!-- <%= @next["label"] %> → -->
+						<!-- TESTONLY -->
 						Scrum Board	→
+						<!-- ENDTESTONLY -->
+						<!-- PRODONLY
+						<%= @next["label"] %> →
+						END -->
 					</a>
 				</div>
 			</div>
@@ -99,12 +138,17 @@
 	});
 	observer.observe(document.querySelector("#top-of-site-pixel-anchor"));
 	}
-	// document.querySelector('.bloc-cta .cta-border').addEventListener('pointerdown', function() {
-	// 	window.location.href = "/example/create/<%= @example["id"] %>";
-	// });
 	</script>
-		<!--<%= render "portal-v2/footer" %>-->
-<!-- 
+	
+	<!-- PRODONLY
+	<script>
+	document.querySelector('.bloc-cta .cta-border').addEventListener('pointerdown', function() {
+		window.location.href = "/example/create/<%= @example["id"] %>";
+	});
+	</script>
+	END -->
+
+	<!-- PRODONLY 
   <% if Rails.env == "production" && JSON_CONFIG['ga'] %>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -115,6 +159,7 @@
       ga('create', "<%= JSON_CONFIG['ga'] %>", 'auto');
       ga('send', 'pageview');
     </script>
-  <% end %> -->
+  <% end %>
+  END -->
 	</body>
 </html>

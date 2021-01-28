@@ -1,20 +1,17 @@
 <html>
 
 <head>
-	<title>SNCF - User Story - Draft</title>
+	<title>e-Voyageurs SNCF - User Story Mapping - Draft</title>
 	<meta name="description"
 		content="For Scrum Masters and Product Owners who build complex Agile artifacts and run remote ceremonies. As a flexible yet structured visual support, Draft can embrace your whole Agile workflow." />
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="css/common.css.css" rel="stylesheet">
-	<link href="css/colors.css.css" rel="stylesheet">
-	<link href="css/portal-desktop.css.css" rel="stylesheet">
-	<link href="css/portal-mobile.css.css" rel="stylesheet">
-	<link href="css/DDS_draft-design-system.css.css" rel="stylesheet">
-	<link href="css/ui_customer-story.css.css" rel="stylesheet">
+
+	<%= stylesheet_link_tag "portal" %>
+
 </head>
 
-<body class="ui_customer-story">
+<body class="ui_customer-story has-header">
 
 	<div id="top-of-site-pixel-anchor"></div>
 
@@ -45,7 +42,7 @@
 			<li><a class="text-link" href="/fr/examples">Exemples</a></li>
 			<li><a class="text-link" href="/fr/pricing">Offres</a></li>
 			<li class="login"><a class="text-link" href="/fr/login">Se connecter</a></li>
-			<li class="subscribe"><a class="cta" href="/fr/get-started">S'inscrire</a></li>
+			<li class="signup"><a class="cta" href="/fr/get-started">S'inscrire</a></li>
 		</ul>
 
 		<!-- <a class="fav" href="/">d</a> -->
@@ -90,7 +87,7 @@
 
 			<span class="corner-deco"></span>
 
-			<img class="illustration left-sided intro" src="<%= image_path("site/UI_Customer-story/evoyageurs/1_story_mapping_ecrans.png") %>" alt="Captures de story mapping"><h2>Comment la fabrique digitale de la SNCF a fait du User Story Mapping un outil central des processus de conception et développement</h2><p>Grande entreprise ferroviaire publique française, la SNCF emploie 272 000 personnes et réalise un chiffre d’affaires d’environ 35 milliards d’euros par an. Au cours d’une journée type, la société gère 15 000 trains et transporte près de 10 millions de passagers, partout en France : une responsabilité immense !</p><p>Au sein du groupe, la filiale e-Voyageurs SNCF a la lourde charge du système de ticketing et de réservation en ligne (Oui.sncf) qui traite 110 millions de tickets par an, soit l’équivalent de près de 5 milliards d’euros de revenus.</p><p>Plus particulièrement, Anne-Laure Jean supervise le processus de product management auprès de 2 équipes de réalisation Agiles, composées, au total, de 17 développeurs et plusieurs QA testers et product owners. Celles-ci développent des produits backend complexes. Mohamed Moussa est Scrum Master dans l’une de ces équipes et, en parallèle, est responsable de l’évangélisation de la philosophie Agile et des meilleures pratiques de conception et de gestion de projet au sein de la Digital Factory.</p><img class="illustration right-sided" src="<%= image_path("site/UI_Customer-story/evoyageurs/2_IMG_20200831_121410.jpg") %>" alt="Tableau de planification et suivi"><h2>“N’oublions-nous pas un composant essentiel du produit ?”</h2><p>Lorsque l’Agilité fut introduite au sein de la Factory, des product owners furent nommés dans les équipes quasiment du jour au lendemain, sans que ceux-ci ne puissent pour autant s’appuyer sur une quelconque expérience passée dans ce rôle. Même si certains d’entre eux eurent de bonnes intuitions pour nourrir la roadmap produit, la plupart manquaient de recul pour identifier les fonctionnalités et défis à venir de façon relativement exhaustive. Cette situation créa rapidement une certaine frustration chez les ingénieurs, contraints d’opter pour des choix d’architecture technique structurants sans pouvoir réellement anticiper toutes les conséquences.</p><p>“N’oublions-nous pas un composant essentiel du produit ?” était la question qui taraudait Anne-Laure à ce moment-là. Avec tant d’information à prendre en compte auprès des différentes parties prenantes, elle ressentit la nécessité de trouver une méthode offrant davantage de certitude pour imaginer et concevoir les produits dans leur globalité.</p><p>Du point de vue d’Anne-Laure, il était devenu évident que “les product owners avaient besoin d’un outil qui puisse les aider à acquérir une vision plus globale des enjeux afin de déterminer plus facilement les user stories absolument nécessaires au bon fonctionnement du produit à moyen terme”. En encourageant les product owners à cartographier leurs produits sur un mur sous la forme d’un <a href="https://draft.io/example/story-mapping" class="text-link underline-over">User Story Mapping</a>, ils pourraient rapidement apporter à leur équipe une vision plus large et lointaine des évolutions futures.</p><p>A cette époque, les développeurs et testeurs regrettaient, auprès de Mohamed, le fait que, “au cours des grooming sessions, ils n’obtenaient qu’une vision court terme, le plus souvent à l’échelle du sprint, des user stories qu’ils devaient implémenter, mais pas plus loin.” C’est à ce moment-là que Mohamed décida d’encourager tous les product owners à exploiter la puissance du User Story Mapping.</p><img class="illustration left-sided" src="<%= image_path("site/UI_Customer-story/evoyageurs/3_story_mapping_structure.png") %>" alt="Structure de story mapping"><h2>“Aider les collaborateurs et les parties prenantes à parler le même langage”</h2><p>Une fois introduit au sein des équipes de développement, pour Mohamed, “il est devenu clair que le User Story Mapping était l’outil idéal pour aider les product owners à concevoir leurs produits de façon plus détaillée et exhaustive et, par conséquent, permettre aux ingénieurs de mieux organiser leur travail et anticiper les principaux écueils.”</p><p>Mohamed apprécie le User Story Mapping depuis de nombreuses années : “c’est une façon très efficace d’encourager les équipes à travailler sur une représentation commune, créant ainsi une unique source de vérité qui amène naturellement tous les collaborateurs et parties prenantes impliqués à parler le même langage. L’outil permet aux product owners d’acquérir une vision plus profonde et exhaustive de leurs produits et, donc, de découper et hiérarchiser les user stories de façon optimale.</p><p>Dès que les produits furent cartographiés avec leur axe narratif propre, Anne-Laure et Mohamed se sont rendus compte qu’ils avaient besoin d’adapter le User Story Mapping traditionnel dans le but de séparer plus explicitement l’espace des problèmes (qui concerne les business owners) de celui des solutions (dont les product owners ont la responsabilité).</p><p>En conséquence, ils ont mis en place un nouveau processus dans le cadre duquel, d’un côté, les business owners sont régulièrement amenés à présenter leurs besoins sous la forme de User Story Maps. De l’autre côté, les product owners, avec l’aide de leur équipe de développement, proposent les solutions qu’ils ont envisagées, l’objectif étant de créer une boucle de feedback collaborative et vertueuse entre toutes les parties prenantes au projet.</p><p>Dans son rôle de Product Manager, Anne-Laure accompagne les business owners dans leur processus d’idéation et recueille leurs attentes sous forme de User Story Maps. Même si cette nouvelle façon de fonctionner n’en est qu’à ses débuts, elle espère que le “User Story Mapping deviendra progressivement l’outil de référence dans l’ensemble du processus de product management.”</p><p>“Grâce à l’implication des product owners et le coaching d’Anne-Laure, le User Story Mapping a permis de faire collaborer les équipes de développement avec les autres composantes du groupe de façon harmonieuse et très efficace”, se réjouit Mohamed.</p><h2>“Homogénéiser le langage utilisé du management aux QA testers”</h2><p>Alors, quelles sont les prochaines étapes désormais ? “Nous voulons standardiser le processus de project management, au niveau des epics, entre les business owners et les équipes de développement, afin de permettre aux parties prenantes de suivre l’avancement des projets de façon totalement autonome”, explique Mohamed.</p><p>Plus précisément, en tirant profit de l’intégration entre Draft et Jira, Mohamed souhaite “homogénéiser le langage utiliser du management aux QA testers et synchroniser les cartes d’epic Draft avec celles de Jira dans le but de créer une véritable continuité allant des décideurs aux développeurs, et ce, de bout en bout du processus de gestion de projet.”</p>
+			<img class="illustration left-sided intro" src="<%= image_path("site/UI_Customer-story/evoyageurs/1_story_mapping_ecrans.png") %>" alt="Captures de story mapping"><h2>Comment la Digital Factory d’e-Voyageurs SNCF exploite le User Story Mapping pour transformer l’expérience utilisateur</h2><p>Grande entreprise ferroviaire publique française, la SNCF emploie 272 000 personnes et réalise un chiffre d’affaires d’environ 35 milliards d’euros par an. Au cours d’une journée type, la société gère 15 000 trains et transporte près de 10 millions de passagers, partout en France : une responsabilité immense !</p><p>Au sein du groupe, la filiale e-Voyageurs SNCF a la lourde charge du système de ticketing et de réservation en ligne (Oui.sncf) qui traite 110 millions de tickets par an, soit l’équivalent de près de 5 milliards d’euros de revenus.</p><p>Plus particulièrement, Anne-Laure Jean supervise le processus de product management auprès de 2 équipes de réalisation Agiles, composées, au total, de 17 développeurs et plusieurs QA testers et product owners. Celles-ci développent des produits backend complexes. Mohamed Moussa est Scrum Master dans l’une de ces équipes et, en parallèle, est responsable de l’évangélisation de la philosophie Agile et des meilleures pratiques de conception et de gestion de projet au sein de la Digital Factory.</p><img class="illustration right-sided" src="<%= image_path("site/UI_Customer-story/evoyageurs/2_IMG_20200831_121410.jpg") %>" alt="Tableau de planification et suivi"><h2>“N’oublions-nous pas un composant essentiel du produit ?”</h2><p>Lorsque l’Agilité fut introduite au sein de la Factory, des product owners furent nommés dans les équipes quasiment du jour au lendemain, sans que ceux-ci ne puissent pour autant s’appuyer sur une quelconque expérience passée dans ce rôle. Même si certains d’entre eux eurent de bonnes intuitions pour nourrir la roadmap produit, la plupart manquaient de recul pour identifier les fonctionnalités et défis à venir de façon relativement exhaustive. Cette situation créa rapidement une certaine frustration chez les ingénieurs, contraints d’opter pour des choix d’architecture technique structurants sans pouvoir réellement anticiper toutes les conséquences.</p><p>“N’oublions-nous pas un composant essentiel du produit ?” était la question qui taraudait Anne-Laure à ce moment-là. Avec tant d’information à prendre en compte auprès des différentes parties prenantes, elle ressentit la nécessité de trouver une méthode offrant davantage de certitude pour imaginer et concevoir les produits dans leur globalité.</p><p>Du point de vue d’Anne-Laure, il était devenu évident que “les product owners avaient besoin d’un outil qui puisse les aider à acquérir une vision plus globale des enjeux afin de déterminer plus facilement les user stories absolument nécessaires au bon fonctionnement du produit à moyen terme”. En encourageant les product owners à cartographier leurs produits sur un mur sous la forme d’un <a href="https://draft.io/example/story-mapping" class="text-link underline-over">User Story Mapping</a>, ils pourraient rapidement apporter à leur équipe une vision plus large et lointaine des évolutions futures.</p><p>A cette époque, les développeurs et testeurs regrettaient, auprès de Mohamed, le fait que, “au cours des grooming sessions, ils n’obtenaient qu’une vision court terme, le plus souvent à l’échelle du sprint, des user stories qu’ils devaient implémenter, mais pas plus loin.” C’est à ce moment-là que Mohamed décida d’encourager tous les product owners à exploiter la puissance du User Story Mapping.</p><img class="illustration left-sided" src="<%= image_path("site/UI_Customer-story/evoyageurs/3_story_mapping_structure.png") %>" alt="Structure de story mapping"><h2>“Aider les collaborateurs et les parties prenantes à parler le même langage”</h2><p>Une fois introduit au sein des équipes de développement, pour Mohamed, “il est devenu clair que le User Story Mapping était l’outil idéal pour aider les product owners à concevoir leurs produits de façon plus détaillée et exhaustive et, par conséquent, permettre aux ingénieurs de mieux organiser leur travail et anticiper les principaux écueils.”</p><p>Mohamed apprécie le User Story Mapping depuis de nombreuses années : “c’est une façon très efficace d’encourager les équipes à travailler sur une représentation commune, créant ainsi une unique source de vérité qui amène naturellement tous les collaborateurs et parties prenantes impliqués à parler le même langage. L’outil permet aux product owners d’acquérir une vision plus profonde et exhaustive de leurs produits et, donc, de découper et hiérarchiser les user stories de façon optimale.</p><p>Dès que les produits furent cartographiés avec leur axe narratif propre, Anne-Laure et Mohamed se sont rendus compte qu’ils avaient besoin d’adapter le User Story Mapping traditionnel dans le but de séparer plus explicitement l’espace des problèmes (qui concerne les business owners) de celui des solutions (dont les product owners ont la responsabilité).</p><p>En conséquence, ils ont mis en place un nouveau processus dans le cadre duquel, d’un côté, les business owners sont régulièrement amenés à présenter leurs besoins sous la forme de User Story Maps. De l’autre côté, les product owners, avec l’aide de leur équipe de développement, proposent les solutions qu’ils ont envisagées, l’objectif étant de créer une boucle de feedback collaborative et vertueuse entre toutes les parties prenantes au projet.</p><p>Dans son rôle de Product Manager, Anne-Laure accompagne les business owners dans leur processus d’idéation et recueille leurs attentes sous forme de User Story Maps. Même si cette nouvelle façon de fonctionner n’en est qu’à ses débuts, elle espère que le “User Story Mapping deviendra progressivement l’outil de référence dans l’ensemble du processus de product management.”</p><p>“Grâce à l’implication des product owners et le coaching d’Anne-Laure, le User Story Mapping a permis de faire collaborer les équipes de développement avec les autres composantes du groupe de façon harmonieuse et très efficace”, se réjouit Mohamed.</p><h2>“Homogénéiser le langage utilisé du management aux QA testers”</h2><p>Alors, quelles sont les prochaines étapes désormais ? “Nous voulons standardiser le processus de project management, au niveau des epics, entre les business owners et les équipes de développement, afin de permettre aux parties prenantes de suivre l’avancement des projets de façon totalement autonome”, explique Mohamed.</p><p>Plus précisément, en tirant profit de l’intégration entre Draft et Jira, Mohamed souhaite “homogénéiser le langage utiliser du management aux QA testers et synchroniser les cartes d’epic Draft avec celles de Jira dans le but de créer une véritable continuité allant des décideurs aux développeurs, et ce, de bout en bout du processus de gestion de projet.”</p>
 
 			<footer class="author-info">
 				<img class="portrait" src="<%= image_path("site/UI_Customer-story/portrait_alexandre_beauchet.jpg") %>" alt="Photo portrait d'Alexandre BEAUCHET">
@@ -104,78 +101,86 @@
 	</section>
 
 	<div class="bloc-last">
-		<div class="left-visual">
-			<div class="rotated-square"></div>
-		</div>
-		<div class="title">Démarrez dès aujourd’hui</div>
-		<form class="signup-bloc" action="/fr/get-started">
-			<div class="form-wrapper">
-				<input placeHolder="Entrez votre email" name="pre_email"></input>
-				<div class="submit-wrapper">
-					<div class="triangle"></div>
-					<input type="submit" class="register cta" href="/fr/get-started" value="S&#x27;inscrire" />
-				</div>
-			</div>
-			<div class="if-1080">
-				<div class="detail">Notre plan gratuit est illimité dans le temps et vous donne accès à toutes les
-					fonctionnalités du <a href="pricing">plan Pro</a>.</div>
-			</div>
-			<div class="if-not-1080">
-				<div class="detail">Notre plan gratuit est illimité dans le temps<br />et vous donne accès à toutes les
-					fonctionnalités du <a href="pricing">plan Pro</a>.</div>
-			</div>
-		</form>
-		<!-- <a class="cta-border cta-border-darkblue" style="margin-left:40px;" href="/agile_project_management">Discover how Scrum Masters use Draft</a> -->
+	<div class="left-visual">
+		<div class="rotated-square"></div>
 	</div>
+	<div class="title">Démarrez dès aujourd’hui</div>
+	<form class="signup-bloc" action="/fr/get-started">
+	<div class="form-wrapper">
+		<input placeHolder="Entrez votre email" name="pre_email"></input>
+		<div class="submit-wrapper">
+			<div class="triangle"></div>
+			<input type="submit" class="register cta" value="S'inscrire" />
+		</div>
+	</div>
+	<div class="if-1080">
+		<div class="detail">Notre plan gratuit est illimité dans le temps et vous donne accès à toutes les fonctionnalités du <a href="pricing">plan Pro</a>.</div>
+	</div>
+	<div class="if-not-1080">
+		<div class="detail">Notre plan gratuit est illimité dans le temps<br />et vous donne accès à toutes les fonctionnalités du <a href="pricing">plan Pro</a>.</div>
+	</div>
+</form>
+	<!-- <a class="cta-border cta-border-darkblue" style="margin-left:40px;" href="/agile_project_management">Discover how Scrum Masters use Draft</a> -->
+</div>
 	<div class="footer">
-		<div class="footer-wrapper">
-			<div class="bloc bloc-plan">
-				<div class="title">Produit</div>
-				<a href="/fr/">Accueil</a>
-				<a href="/fr/agile-project-management">Draft pour la gestion de projet Agile</a>
-				<a href="/fr/product-management">Draft pour le Product Management</a>
-				<a href="/fr/everyday-creative-work">Draft pour le travail créatif quotidien</a>
-				<a href="/fr/examples">Exemples</a>
-				<a href="/fr/pricing">Offres</a>
-				<a href="/fr/login">Se connecter</a>
-				<a href="/fr/get-started">S&#x27;inscrire</a>
-			</div>
+	<div class="footer-wrapper">
+		<div class="bloc bloc-plan">
+			<div class="title">Produit</div>
+			<a href="/fr/">Accueil</a>
+			<a href="/fr/agile-project-management">Draft pour la gestion de projet Agile</a>
+			<a href="/fr/product-management">Draft pour le Product Management</a>
+			<a href="/fr/everyday-creative-work">Draft pour le travail créatif quotidien</a>
+			<a href="/fr/examples">Exemples</a>
+			<a href="/fr/login">Se connecter</a>
+			<a href="/fr/get-started">S'inscrire</a>
+		</div>
 
-			<div class="bloc bloc-resources">
-				<div class="title">Ressources</div>
-				<a href="https://draft.io/assets/2020 10 27 Terms and conditions - Draft SAS.pdf"
-					target="_blank">Termes</a>
-				<a href="https://draft.io/assets/2020 10 27 Privacy Policy - Draft SAS.pdf" target="_blank">Sécurité et
-					confidentialité</a>
-				<a href="mailto:hi@draft.io">Contactez-nous</a>
-				<div class="language-bloc">
-					<div class="bloc-title">Langue</div>
-					<div class="menu-wrapper">
-						<div class="toggle-wrapper">
-							<div class="toggle">Français</div>
-							<div class="dropdown-invite"></div>
-						</div>
-						<div class="menu">
-							<a
-								href="/fr/customer-stories/sncf-transforming-customer-experience-with-user-story-mapping">Français</a>
-							<a
-								href="/customer-stories/sncf-transforming-customer-experience-with-user-story-mapping">English</a>
-						</div>
+		<div class="bloc bloc-resources">
+			<div class="title">Client</div>
+			<a href="/fr/enterprise">Entreprise</a>
+			<a href="/fr/customer-stories/sncf-transforming-customer-experience-with-user-story-mapping">Customer stories</a>
+			<a href="/fr/pricing">Offres</a>
+		</div>
+
+		<div class="bloc bloc-resources">
+			<div class="title">Ressources</div>
+			<a href="https://www.notion.so/Draft-s-Help-Center-cc9934be1af04688954d1d077ad004aa"
+				target="_blank">Centre d'aide</a>
+			<a href="https://draft.io/assets/2020 10 27 Terms and conditions - Draft SAS.pdf"
+				target="_blank">Termes</a>
+			<a href="https://draft.io/assets/2020 10 27 Privacy Policy - Draft SAS.pdf" target="_blank">Sécurité et confidentialité</a>
+			<a href="mailto:hi@draft.io">Contactez-nous</a>
+
+			<div class="language-bloc">
+				<div class="bloc-title">Langue</div>
+				<div class="menu-wrapper">
+					<div class="toggle-wrapper">
+						<div class="toggle">Française</div>
+						<div class="dropdown-invite"></div>
+					</div>
+					<div class="menu">
+						<a
+							href="<%= @fr_url %>">Français</a>
+						<a
+							href="<%= @en_url %>">English</a>
 					</div>
 				</div>
 			</div>
-
-			<div class="socials">
-				<a href="/" class="logo"></a>
-				<a href="https://linkedin.com/company/draft-io" class="linkedin" target="_blank"></a>
-			</div>
 		</div>
 
-
-		<div class="oblique">
-			<div class="rotated-square"></div>
+		<div class="socials">
+			<a href="/" class="logo"></a>
+			<a href="https://linkedin.com/company/draft-io" class="linkedin" target="_blank"></a>
 		</div>
 	</div>
+
+
+	<div class="oblique">
+		<div class="rotated-square"></div>
+	</div>
+</div>
+
+<script src="https://kit.fontawesome.com/6b4515f4ac.js" crossorigin="anonymous"></script>
 
 	<script src="https://kit.fontawesome.com/6b4515f4ac.js" crossorigin="anonymous"></script>
 

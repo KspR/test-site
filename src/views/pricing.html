@@ -5,7 +5,7 @@
     <% if JSON_CONFIG["google-tag-manager"] %>
       <%= render "partials/google_tag_manager_head" %>
     <% end %>
-    -->
+    END -->
 
     {{{includes.css}}}
 
@@ -29,15 +29,15 @@
     <% else %>
       <link rel="canonical" href="<%= JSON_CONFIG['host'] %>/fr/pricing">
     <% end %>
-    -->
+    END -->
   </head>
 
-  <body class="page-pricing yearly dark lang-{{lang.code}}">
+  <body class="page-pricing has-header yearly dark lang-{{lang.code}}">
   	<!-- PRODONLY
     <% if JSON_CONFIG["google-tag-manager"] %>
       <%= render "partials/google_tag_manager_body" %>
     <% end %>
-    -->
+    END -->
 
     {{{includes.header}}}
 

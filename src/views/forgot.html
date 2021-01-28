@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head profile="http://www.w3.org/2005/10/profile">
+  
+  {{{includes.css}}}
+
+  <link rel="icon" 
+    type="image/png" 
+    href="/assets/favicon.png" />
+
+    <title>{{{lang.forgot.title}}}</title>
+    <meta name="viewport" content="width=device-width;user-scalable=no,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+    <meta name="robots" content="noindex,nofollow" />
+  </head>
+
+  <body class="page-forgot has-header<% if @desktop %> is-desktop<% end %>">
+
+    {{{includes.header}}}
+
+    <div class="bloc-form">
+      <div class="title">{{{lang.forgot.form.title}}}</div>
+
+      <form action="forgot" method="POST">
+        <!-- PRODONLY
+        <% if @user_not_found %><div class="error">There is no account associated with this address.</div><% end %>
+        <input name="email" class="field field-email" placeHolder="Email"<% if @email %> value="{{{email}}}"<% end %> />
+        END -->
+
+        <!-- TESTONLY -->
+        <input name="email" class="field field-email" placeHolder="Email" />
+        <!-- ENDTESTONLY -->
+
+        <input class="send-button" type="submit" value="{{{lang.forgot.form.cta}}}" />
+      </form>
+    </div>
+
+    <!-- PRODONLY
+    <% if @desktop %>
+      <a class="back-to-login" href="/login">> back to login</a>
+    <% end %>
+
+    <script>
+      window.serverData = {};
+
+      <% if @errors %>
+        window.serverData.errors = <%= raw @errors.to_json %>
+      <% end %>
+
+      window.onload = function() {
+        setTimeout(function() {
+          document.getElementsByClassName('field-email')[0].focus();
+        }, 0);
+      };
+    </script>
+    END -->
+  </body>
+</html>

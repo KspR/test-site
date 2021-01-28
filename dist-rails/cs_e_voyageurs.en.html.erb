@@ -1,20 +1,17 @@
 <html>
 
 <head>
-	<title>SNCF - User Story - Draft</title>
+	<title>e-Voyageurs SNCF - User Story Mapping - Draft</title>
 	<meta name="description"
 		content="For Scrum Masters and Product Owners who build complex Agile artifacts and run remote ceremonies. As a flexible yet structured visual support, Draft can embrace your whole Agile workflow." />
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="css/common.css.css" rel="stylesheet">
-	<link href="css/colors.css.css" rel="stylesheet">
-	<link href="css/portal-desktop.css.css" rel="stylesheet">
-	<link href="css/portal-mobile.css.css" rel="stylesheet">
-	<link href="css/DDS_draft-design-system.css.css" rel="stylesheet">
-	<link href="css/ui_customer-story.css.css" rel="stylesheet">
+
+	<%= stylesheet_link_tag "portal" %>
+
 </head>
 
-<body class="ui_customer-story">
+<body class="ui_customer-story has-header">
 
 	<div id="top-of-site-pixel-anchor"></div>
 
@@ -45,7 +42,7 @@
 			<li><a class="text-link" href="/examples">Examples</a></li>
 			<li><a class="text-link" href="/pricing">Pricing</a></li>
 			<li class="login"><a class="text-link" href="/login">Sign in</a></li>
-			<li class="subscribe"><a class="cta" href="/get-started">Sign up</a></li>
+			<li class="signup"><a class="cta" href="/get-started">Sign up</a></li>
 		</ul>
 
 		<!-- <a class="fav" href="/">d</a> -->
@@ -90,7 +87,7 @@
 
 			<span class="corner-deco"></span>
 
-			<img class="illustration left-sided intro" src="<%= image_path("site/UI_Customer-story/evoyageurs/1_story_mapping_ecrans.png") %>" alt="Story mapping screenshot"><h2>How SNCF's Digital Factory Made User Story Mapping a Central Tool for Conception and Development Workflows</h2><p>The SNCF is France's state-owned railway company. The group employs 272,000 people and generates around €35B per year. On an average day, the train company operates 15,000 trains that transport roughly 10 million passengers around France: a truly massive footprint!</p><p>e-Voyageurs SNCF is the subsidiary responsible for the railway company’s ticketing system and online sales platform (Oui.sncf), which processes 110 million tickets per year, accounting for nearly €5B in total annual sales.</p><p>At e-Voyageurs SNCF, Anne-Laure Jean supervises product management for two Agile development teams (a total of 17 developers, QA testers, and product owners) that work on complex backend products. Mohamed Moussa is a Scrum Master in one of these teams, responsible for spreading Agile philosophy and best practices across SNCF’s Digital Factory.</p><img class="illustration right-sided" src="<%= image_path("site/UI_Customer-story/evoyageurs/2_IMG_20200831_121410.jpg") %>" alt="Management and monitoring whiteboard"><h2>“Did we forget an essential part of the product?”</h2><p>As Agile methodologies were introduced to the Factory, product owners were appointed in development teams almost overnight, without them having previous experience in that role. Some of them had a good intuition about which new product features were on the roadmap. Others lacked enough of a big picture view to get a clear understanding of the coming product and technical challenges. This created frustration for dev engineers who often find themselves having to make structural choices in terms of technical architecture without being able to envision all the consequences.</p><p>“Did we forget an essential part of the product?” was the question that kept Anne-Laure awake at night. With many inputs from various business owners, she faced a sensitive challenge for sorting things out in a meaningful way without letting key business insights aside.</p><p>It became clear that “product owners needed a tool to help get a broader view of which user stories were truly needed to solve midterm product development questions,” said Anne-Laure. By getting all of these details “on paper” in story map form, product owners were then able to provide their teams with the guidance they needed to better anticipate the eventual evolution of the product roadmap.</p><p>At that time, developers and QA testers claimed that “during grooming sessions, we only had a line of sight into the user stories coming in the next sprint, but not beyond that,” Mohamed explained. It’s at this point that he encouraged product owners to begin doing <a href="https://draft.io/example/story-mapping" class="text-link underline-over">User Story Mapping</a>.</p><img class="illustration left-sided" src="<%= image_path("site/UI_Customer-story/evoyageurs/3_story_mapping_structure.png") %>" alt="Story mapping illustration"><h2>“Helping people speak the same language”</h2><p>Once User Story Mapping was introduced in development teams, “it became clear that it was an ideal tool for helping product owners think in more detail about the products their teams were developing and organize their work in a smarter way,” said Mohamed.</p><p>Mohamed has long appreciated User Story Mapping because “it encourages teams to work with a common tool, creating a unique source of truth that helps everyone involved, whether business owners or development teams, finally speak the same language and enables product owners to better grasp the big picture in order to define user stories more wisely.”</p><p>The first priority was to map the needs of the entire project. Anne-Laure and Mohamed soon realized that they needed to adapt User Story Mapping to more clearly visualize the “problem space” (business owners) from the “solution space” (product owners).</p><p>Then, they put a new process in place whereby business owners were asked to regularly present their needs to the team in the form of User Story Maps and product owners were tasked with their development teams to determine the right solutions to present to stakeholders (not only business owners). The goal here was to create a collaborative and virtuous feedback loop.</p><p>In her role as a product manager, Anne-Laure helps business owners ideate and capture future product needs in the form of User Story Maps. And while this new process is, admittedly, on a bit of a learning curve for the entire team, she hopes that “User Story Mapping will progressively become a default tool for product development workflows moving forward.”</p><p>“Thanks to product owners and with the help of Anne-Laure, User Story Mapping has unified development teams harmoniously with the other parts of the business,” expressed Mohamed with a great deal of satisfaction.</p><h2>“Standardizing language from management to QA testers”</h2><p>So, what are the next steps? “We want to standardize the project management process in terms of ‘epics’ between business owners and development teams, in order to help stakeholders be able to follow up project progress more effectively,” explained Mohamed.</p><p>By taking advantage of the Jira integration with Draft, Mohamed’s next objective is to “standardize language from management to QA testers and sync up Draft’s epics cards with those available on Jira, to create a genuine, end-to-end continuity in the project management process from decision-makers to doers.”</p>
+			<img class="illustration left-sided intro" src="<%= image_path("site/UI_Customer-story/evoyageurs/1_story_mapping_ecrans.png") %>" alt="Story mapping screenshot"><h2>How SNCF's Digital Factory made User Story Mapping a central tool for conception and development workflows</h2><p>The SNCF is France's state-owned railway company. The group employs 272,000 people and generates around €35B per year. On an average day, the train company operates 15,000 trains that transport roughly 10 million passengers around France: a truly massive footprint!</p><p>e-Voyageurs SNCF is the subsidiary responsible for the railway company’s ticketing system and online sales platform (Oui.sncf), which processes 110 million tickets per year, accounting for nearly €5B in total annual sales.</p><p>At e-Voyageurs SNCF, Anne-Laure Jean supervises product management for two Agile development teams (a total of 17 developers, QA testers, and product owners) that work on complex backend products. Mohamed Moussa is a Scrum Master in one of these teams, responsible for spreading Agile philosophy and best practices across SNCF’s Digital Factory.</p><img class="illustration right-sided" src="<%= image_path("site/UI_Customer-story/evoyageurs/2_IMG_20200831_121410.jpg") %>" alt="Management and monitoring whiteboard"><h2>“Did we forget an essential part of the product?”</h2><p>As Agile methodologies were introduced to the Factory, product owners were appointed in development teams almost overnight, without them having previous experience in that role. Some of them had a good intuition about which new product features were on the roadmap. Others lacked enough of a big picture view to get a clear understanding of the coming product and technical challenges. This created frustration for dev engineers who often find themselves having to make structural choices in terms of technical architecture without being able to envision all the consequences.</p><p>“Did we forget an essential part of the product?” was the question that kept Anne-Laure awake at night. With many inputs from various business owners, she faced a sensitive challenge for sorting things out in a meaningful way without letting key business insights aside.</p><p>It became clear that “product owners needed a tool to help get a broader view of which user stories were truly needed to solve midterm product development questions,” said Anne-Laure. By getting all of these details “on paper” in story map form, product owners were then able to provide their teams with the guidance they needed to better anticipate the eventual evolution of the product roadmap.</p><p>At that time, developers and QA testers claimed that “during grooming sessions, we only had a line of sight into the user stories coming in the next sprint, but not beyond that,” Mohamed explained. It’s at this point that he encouraged product owners to begin doing <a href="https://draft.io/example/story-mapping" class="text-link underline-over">User Story Mapping</a>.</p><img class="illustration left-sided" src="<%= image_path("site/UI_Customer-story/evoyageurs/3_story_mapping_structure.png") %>" alt="Story mapping illustration"><h2>“Helping people speak the same language”</h2><p>Once User Story Mapping was introduced in development teams, “it became clear that it was an ideal tool for helping product owners think in more detail about the products their teams were developing and organize their work in a smarter way,” said Mohamed.</p><p>Mohamed has long appreciated User Story Mapping because “it encourages teams to work with a common tool, creating a unique source of truth that helps everyone involved, whether business owners or development teams, finally speak the same language and enables product owners to better grasp the big picture in order to define user stories more wisely.”</p><p>The first priority was to map the needs of the entire project. Anne-Laure and Mohamed soon realized that they needed to adapt User Story Mapping to more clearly visualize the “problem space” (business owners) from the “solution space” (product owners).</p><p>Then, they put a new process in place whereby business owners were asked to regularly present their needs to the team in the form of User Story Maps and product owners were tasked with their development teams to determine the right solutions to present to stakeholders (not only business owners). The goal here was to create a collaborative and virtuous feedback loop.</p><p>In her role as a product manager, Anne-Laure helps business owners ideate and capture future product needs in the form of User Story Maps. And while this new process is, admittedly, on a bit of a learning curve for the entire team, she hopes that “User Story Mapping will progressively become a default tool for product development workflows moving forward.”</p><p>“Thanks to product owners and with the help of Anne-Laure, User Story Mapping has unified development teams harmoniously with the other parts of the business,” expressed Mohamed with a great deal of satisfaction.</p><h2>“Standardizing language from management to QA testers”</h2><p>So, what are the next steps? “We want to standardize the project management process in terms of ‘epics’ between business owners and development teams, in order to help stakeholders be able to follow up project progress more effectively,” explained Mohamed.</p><p>By taking advantage of the Jira integration with Draft, Mohamed’s next objective is to “standardize language from management to QA testers and sync up Draft’s epics cards with those available on Jira, to create a genuine, end-to-end continuity in the project management process from decision-makers to doers.”</p>
 
 			<footer class="author-info">
 				<img class="portrait" src="<%= image_path("site/UI_Customer-story/portrait_alexandre_beauchet.jpg") %>" alt="Photo portrait d'Alexandre BEAUCHET">
@@ -104,78 +101,86 @@
 	</section>
 
 	<div class="bloc-last">
-		<div class="left-visual">
-			<div class="rotated-square"></div>
-		</div>
-		<div class="title">Démarrez dès aujourd’hui</div>
-		<form class="signup-bloc" action="/fr/get-started">
-			<div class="form-wrapper">
-				<input placeHolder="Entrez votre email" name="pre_email"></input>
-				<div class="submit-wrapper">
-					<div class="triangle"></div>
-					<input type="submit" class="register cta" href="/fr/get-started" value="S&#x27;inscrire" />
-				</div>
-			</div>
-			<div class="if-1080">
-				<div class="detail">Notre plan gratuit est illimité dans le temps et vous donne accès à toutes les
-					fonctionnalités du <a href="pricing">plan Pro</a>.</div>
-			</div>
-			<div class="if-not-1080">
-				<div class="detail">Notre plan gratuit est illimité dans le temps<br />et vous donne accès à toutes les
-					fonctionnalités du <a href="pricing">plan Pro</a>.</div>
-			</div>
-		</form>
-		<!-- <a class="cta-border cta-border-darkblue" style="margin-left:40px;" href="/agile_project_management">Discover how Scrum Masters use Draft</a> -->
+	<div class="left-visual">
+		<div class="rotated-square"></div>
 	</div>
+	<div class="title">Start your first draft today!</div>
+	<form class="signup-bloc" action="/get-started">
+	<div class="form-wrapper">
+		<input placeHolder="Enter your email" name="pre_email"></input>
+		<div class="submit-wrapper">
+			<div class="triangle"></div>
+			<input type="submit" class="register cta" value="Get started" />
+		</div>
+	</div>
+	<div class="if-1080">
+		<div class="detail">Start your first draft today. Sign up for a <a href="pricing">Free plan</a>.</div>
+	</div>
+	<div class="if-not-1080">
+		<div class="detail">Start your first draft today.<br />Sign up for a <a href="pricing">Free plan</a>.</div>
+	</div>
+</form>
+	<!-- <a class="cta-border cta-border-darkblue" style="margin-left:40px;" href="/agile_project_management">Discover how Scrum Masters use Draft</a> -->
+</div>
 	<div class="footer">
-		<div class="footer-wrapper">
-			<div class="bloc bloc-plan">
-				<div class="title">Produit</div>
-				<a href="/fr/">Accueil</a>
-				<a href="/fr/agile-project-management">Draft pour la gestion de projet Agile</a>
-				<a href="/fr/product-management">Draft pour le Product Management</a>
-				<a href="/fr/everyday-creative-work">Draft pour le travail créatif quotidien</a>
-				<a href="/fr/examples">Exemples</a>
-				<a href="/fr/pricing">Offres</a>
-				<a href="/fr/login">Se connecter</a>
-				<a href="/fr/get-started">S&#x27;inscrire</a>
-			</div>
+	<div class="footer-wrapper">
+		<div class="bloc bloc-plan">
+			<div class="title">Product</div>
+			<a href="/">Home</a>
+			<a href="/agile-project-management">Draft for Agile Project Management</a>
+			<a href="/product-management">Draft for Product Management</a>
+			<a href="/everyday-creative-work">Draft for Everyday Creative Work</a>
+			<a href="/examples">Examples</a>
+			<a href="/login">Sign in</a>
+			<a href="/get-started">Sign up</a>
+		</div>
 
-			<div class="bloc bloc-resources">
-				<div class="title">Ressources</div>
-				<a href="https://draft.io/assets/2020 10 27 Terms and conditions - Draft SAS.pdf"
-					target="_blank">Termes</a>
-				<a href="https://draft.io/assets/2020 10 27 Privacy Policy - Draft SAS.pdf" target="_blank">Sécurité et
-					confidentialité</a>
-				<a href="mailto:hi@draft.io">Contactez-nous</a>
-				<div class="language-bloc">
-					<div class="bloc-title">Langue</div>
-					<div class="menu-wrapper">
-						<div class="toggle-wrapper">
-							<div class="toggle">Français</div>
-							<div class="dropdown-invite"></div>
-						</div>
-						<div class="menu">
-							<a
-								href="/fr/customer-stories/sncf-transforming-customer-experience-with-user-story-mapping">Français</a>
-							<a
-								href="/customer-stories/sncf-transforming-customer-experience-with-user-story-mapping">English</a>
-						</div>
+		<div class="bloc bloc-resources">
+			<div class="title">Customer</div>
+			<a href="/enterprise">Enterprise</a>
+			<a href="/customer-stories/sncf-transforming-customer-experience-with-user-story-mapping">Customer stories</a>
+			<a href="/pricing">Pricing</a>
+		</div>
+
+		<div class="bloc bloc-resources">
+			<div class="title">Resources</div>
+			<a href="https://www.notion.so/Draft-s-Help-Center-cc9934be1af04688954d1d077ad004aa"
+				target="_blank">Help center</a>
+			<a href="https://draft.io/assets/2020 10 27 Terms and conditions - Draft SAS.pdf"
+				target="_blank">Terms</a>
+			<a href="https://draft.io/assets/2020 10 27 Privacy Policy - Draft SAS.pdf" target="_blank">Privacy</a>
+			<a href="mailto:hi@draft.io">Contact Us</a>
+
+			<div class="language-bloc">
+				<div class="bloc-title">Language</div>
+				<div class="menu-wrapper">
+					<div class="toggle-wrapper">
+						<div class="toggle">English</div>
+						<div class="dropdown-invite"></div>
+					</div>
+					<div class="menu">
+						<a
+							href="<%= @fr_url %>">Français</a>
+						<a
+							href="<%= @en_url %>">English</a>
 					</div>
 				</div>
 			</div>
-
-			<div class="socials">
-				<a href="/" class="logo"></a>
-				<a href="https://linkedin.com/company/draft-io" class="linkedin" target="_blank"></a>
-			</div>
 		</div>
 
-
-		<div class="oblique">
-			<div class="rotated-square"></div>
+		<div class="socials">
+			<a href="/" class="logo"></a>
+			<a href="https://linkedin.com/company/draft-io" class="linkedin" target="_blank"></a>
 		</div>
 	</div>
+
+
+	<div class="oblique">
+		<div class="rotated-square"></div>
+	</div>
+</div>
+
+<script src="https://kit.fontawesome.com/6b4515f4ac.js" crossorigin="anonymous"></script>
 
 	<script src="https://kit.fontawesome.com/6b4515f4ac.js" crossorigin="anonymous"></script>
 

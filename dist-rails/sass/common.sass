@@ -424,6 +424,8 @@ body
 	.signup-bloc
 		.form-wrapper
 			overflow : hidden
+			display : inline-block
+			max-width : 85%
 
 		.detail
 			font-size : 17px !important
@@ -451,7 +453,8 @@ body
 			padding : 10px 24px
 
 		input:not([type=submit])
-			width : 263px
+			width : 500px !important
+			max-width : 100%
 			background-color : white
 			border : none
 			outline : none
@@ -803,6 +806,7 @@ body
 		.footer-wrapper
 			position : relative
 			z-index : 1
+			padding-bottom : 40px
 
 		.socials
 			position : absolute
@@ -813,7 +817,7 @@ body
 				float : right
 
 			a.logo
-				background-image : image-url("tmp/2020-06/site/logo-footer-white.png")
+				background-image : image-url("site/UI_Landing/logo-footer-white.png")
 				width : 40px
 				height : 40px
 				background-repeat : no-repeat
@@ -821,7 +825,7 @@ body
 				background-size : contain
 
 			a.linkedin
-				background-image : image-url("tmp/2020-06/site/linkedin-white.png")
+				background-image : image-url("site/UI_Landing/linkedin-white.png")
 				width : 20px
 				height : 20px
 				display : block
@@ -875,7 +879,7 @@ body
 					position : relative
 
 					&:hover
-						border-bottom : 1px solid transparent !important
+						//border-bottom : 1px solid transparent !important
 
 						.menu
 							opacity : 1
@@ -947,42 +951,42 @@ body
 
 	.uc-story-mapping
 		.screenshot
-			background-image : image-url("tmp/2020-03/site/agile-project-management/agile-project-management-screenshot-1.png")
+			background-image : image-url("site/UI_Workflow/agile-project-management/agile-project-management-screenshot-1.png")
 	.uc-program-board
 		.screenshot
-			background-image : image-url("tmp/2020-03/site/agile-project-management/agile-project-management-screenshot-2.png")
+			background-image : image-url("site/UI_Workflow/agile-project-management/agile-project-management-screenshot-2.png")
 	.uc-scrum-board
 		.screenshot
-			background-image : image-url("tmp/2020-03/site/agile-project-management/agile-project-management-screenshot-3.png")
+			background-image : image-url("site/UI_Workflow/agile-project-management/agile-project-management-screenshot-3.png")
 	.uc-retrospective
 		.screenshot
-			background-image : image-url("tmp/2020-03/site/agile-project-management/agile-project-management-screenshot-4.png")
+			background-image : image-url("site/UI_Workflow/agile-project-management/agile-project-management-screenshot-4.png")
 
 	.uc-product-discovery
 		.screenshot
-			background-image : image-url("tmp/2020-03/site/product-management/product-management-screenshot-1.png")
+			background-image : image-url("site/UI_Workflow/product-management/product-management-screenshot-1.png")
 	.uc-prioritizing
 		.screenshot
-			background-image : image-url("tmp/2020-03/site/product-management/product-management-screenshot-2.png")
+			background-image : image-url("site/UI_Workflow/product-management/product-management-screenshot-2.png")
 	.uc-user-flow
 		.screenshot
-			background-image : image-url("tmp/2020-03/site/product-management/product-management-screenshot-3.png")
+			background-image : image-url("site/UI_Workflow/product-management/product-management-screenshot-3.png")
 	.uc-product-roadmap
 		.screenshot
-			background-image : image-url("tmp/2020-03/site/product-management/product-management-screenshot-4.png")
+			background-image : image-url("site/UI_Workflow/product-management/product-management-screenshot-4.png")
 
 	.uc-todo-lists
 		.screenshot
-			background-image : image-url("tmp/2020-03/site/everyday-knowledge-work/everyday-knowledge-work-screenshot-1.png")
+			background-image : image-url("site/UI_Workflow/everyday-knowledge-work/everyday-knowledge-work-screenshot-1.png")
 	.uc-organizing-your-ideas
 		.screenshot
-			background-image : image-url("tmp/2020-03/site/everyday-knowledge-work/everyday-knowledge-work-screenshot-2.png")
+			background-image : image-url("site/UI_Workflow/everyday-knowledge-work/everyday-knowledge-work-screenshot-2.png")
 	.uc-creative-work
 		.screenshot
-			background-image : image-url("tmp/2020-03/site/everyday-knowledge-work/everyday-knowledge-work-screenshot-3.png")
+			background-image : image-url("site/UI_Workflow/everyday-knowledge-work/everyday-knowledge-work-screenshot-3.png")
 	.uc-collecting-feedback
 		.screenshot
-			background-image : image-url("tmp/2020-03/site/everyday-knowledge-work/everyday-knowledge-work-screenshot-4.png")
+			background-image : image-url("site/UI_Workflow/everyday-knowledge-work/everyday-knowledge-work-screenshot-4.png")
 
 
 
@@ -1128,15 +1132,15 @@ body
 
 			.workflow.scrum-master
 				.illu
-					background-image : image-url("tmp/2020-06/site/landing/agile-project-management.png")
+					background-image : image-url("site/UI_Landing/agile-project-management.png")
 
 			.workflow.product-manager
 				.illu
-					background-image : image-url("tmp/2020-06/site/landing/product-management.png")
+					background-image : image-url("site/UI_Landing/product-management.png")
 
 			.workflow.knowledge-worker
 				.illu
-					background-image : image-url("tmp/2020-06/site/landing/everyday-knowledge-work.png")
+					background-image : image-url("site/UI_Landing/everyday-knowledge-work.png")
 
 .page-pricing .header .pricing, .page-examples .header .examples, .business-case .header .customer-stories
 	font-family : bold
@@ -1202,7 +1206,7 @@ body
 
 			=feature($name)
 				.feature.#{$name} .illu
-					background-image : image-url("tmp/2020-06/site/features/#{$name}.png")
+					background-image : image-url("site/UI_Landing/features/#{$name}.png")
 
 			+feature(vote)
 			+feature(polling-booth-mode)
@@ -1215,28 +1219,28 @@ body
 			+feature(visual-clusters)
 
 			.feature.scalable-document .illu
-				background-image : image-url("tmp/2020-06/site/landing/features/scalable-document.png")
+				background-image : image-url("site/UI_Landing/features/scalable-document.png")
 
 			.feature.right-level-of-focus .illu
-				background-image : image-url("tmp/2020-06/site/landing/features/right-level-of-focus.png")
+				background-image : image-url("site/UI_Landing/features/right-level-of-focus.png")
 
 			.feature.collaboration .illu
-				background-image : image-url("tmp/2020-06/site/landing/features/collaboration-natural-part-workflow.png")
+				background-image : image-url("site/UI_Landing/features/collaboration-natural-part-workflow.png")
 
 			.feature.jira-integration .illu
-				background-image : image-url("tmp/2020-06/site/landing/features/jira-integration.png")
+				background-image : image-url("site/UI_Landing/features/jira-integration.png")
 
 			.feature.large-collection-template .illu
-				background-image : image-url("tmp/2020-06/site/landing/features/large-collection-template.png")
+				background-image : image-url("site/UI_Landing/features/large-collection-template.png")
 
 			.feature.unlimited-sharing .illu
-				background-image : image-url("tmp/2020-06/site/landing/features/unlimited-sharing.png")
+				background-image : image-url("site/UI_Landing/features/unlimited-sharing.png")
 
 			.feature.scalable-document .illu
-				background-image : image-url("tmp/2020-06/site/landing/features/scalable-document.png")
+				background-image : image-url("site/UI_Landing/features/scalable-document.png")
 
 			.feature.scalable-document .illu
-				background-image : image-url("tmp/2020-06/site/landing/features/scalable-document.png")
+				background-image : image-url("site/UI_Landing/features/scalable-document.png")
 
 
 body
@@ -1261,7 +1265,7 @@ body.home
 		.wrapper
 			overflow : hidden
 			.illu
-				background-image : image-url("tmp/2020-06/site/landing/draft-illu-section-2.png")
+				background-image : image-url("site/UI_Landing/draft-illu-section-2.png")
 				background-size : contain
 				background-repeat : no-repeat
 				background-position : center
@@ -1339,15 +1343,15 @@ body.home
 					
 			.bloc:nth-child(3n+1)
 				.illu
-					background-image : image-url("tmp/2020-06/site/landing/solution-1.png")
+					background-image : image-url("site/UI_Landing/solution-1.png")
 
 			.bloc:nth-child(3n+2)
 				.illu
-					background-image : image-url("tmp/2020-06/site/landing/solution-3.png")
+					background-image : image-url("site/UI_Landing/solution-3.png")
 
 			.bloc:nth-child(3n+3)
 				.illu
-					background-image : image-url("tmp/2020-06/site/landing/solution-2.png")
+					background-image : image-url("site/UI_Landing/solution-2.png")
 
 	.section.bloc-landing
 		border-top : none
@@ -1398,7 +1402,7 @@ body.home
 
 				.bg
 					width : 100%
-					background-image : image-url("tmp/2020-06/site/landing/angular-grid.png")
+					background-image : image-url("site/UI_Landing/angular-grid.png")
 					background-size : 1920px
 					position : absolute
 					background-position : calc(50% - 35px) -46px
@@ -1453,7 +1457,6 @@ body.home
 					color : $blue !important
 
 	.bloc-landing
-		margin-top : 70px
 		text-align : center
 
 		.wrapper
@@ -2097,7 +2100,6 @@ body.landing
 
 	.page-pricing
 		.plans-wrapper
-			margin-top : 150px !important
 
 			.title, .baseline
 				text-align : center
@@ -2288,7 +2290,6 @@ body.example
 
 	.content
 		background-color : #222
-		margin-top : 70px !important
 		padding-top : 20px
 		box-sizing : border-box
 		height : calc(100% - 70px)
@@ -2339,13 +2340,13 @@ body.example
 		margin-left : 8px
 		font-size : .9em
 
-		transition : margin-left .2s
+		transition : transform .2s
 
 .text-link:hover
 	color : $darkestBlue
 
-	.fas
-		margin-left : 14px
+	.fas:last-child
+		transform : translateX(5px)
 		
 .text-link.underline-over
 

@@ -448,6 +448,9 @@ workflows
 				text
 					Create a big picture of the user experience by mapping product requirements visually along a clean and cohesive narrative flow.
 					Prenez le recul nécessaire et construisez une compréhension commune des attentes de vos utilisateurs en cartographiant la structure narrative de leur parcours à travers votre produit.
+				template
+					user-story-mapping
+					user-story-mapping
 			scrum-board
 				title
 					Scrum Board
@@ -733,16 +736,16 @@ register
 		Entrez votre email
 	detail
 		if_1080
-			Start your first draft today. Sign up for a Free plan.
+			Start your first draft today. Sign up for a <a href="pricing">Free plan</a>.
 			Notre plan gratuit est illimité dans le temps et vous donne accès à toutes les fonctionnalités du <a href="pricing">plan Pro</a>.
 		if_not_1080
-			Start your first draft today.<br />Sign up for a Free plan.
+			Start your first draft today.<br />Sign up for a <a href="pricing">Free plan</a>.
 			Notre plan gratuit est illimité dans le temps<br />et vous donne accès à toutes les fonctionnalités du <a href="pricing">plan Pro</a>.
 		if-1080
-			Start your first draft today. Sign up for a Free plan.
+			Start your first draft today. Sign up for a <a href="pricing">Free plan</a>.
 			Notre plan gratuit est illimité dans le temps et vous donne accès à toutes les fonctionnalités du <a href="pricing">plan Pro</a>.
 		if-not-1080
-			Start your first draft today.<br />Sign up for a Free plan.
+			Start your first draft today.<br />Sign up for a <a href="pricing">Free plan</a>.
 			Notre plan gratuit est illimité dans le temps<br />et vous donne accès à toutes les fonctionnalités du <a href="pricing">plan Pro</a>.
 footer
 	enterprise

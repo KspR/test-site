@@ -4,7 +4,7 @@
 $desktopHeaderHeight : 70px
 $mobileHeaderHeight : 50px
 
-body
+body.has-header
 	padding-top : $desktopHeaderHeight
 
 body > header.main-header
@@ -31,9 +31,9 @@ body > header.main-header
 			img
 				height : 52%
 		img
-			height : 50%
+			height : 52%
 			margin-left : 20px
-			transition : height .2s
+
 	.nav ul
 		display : flex
 		align-items : center
@@ -264,9 +264,9 @@ body > header.main-header
 
 @media only screen and (max-width: $phoneBreakpoint)
 
-	body
+	body.has-header
 		padding-top : $mobileHeaderHeight
 
-	body > header.main-header
+	body.has-header > header.main-header
 		.nav
 			height : $mobileHeaderHeight

@@ -1,6 +1,12 @@
 @import colors.sass
 @import DDS_breakpoints.sass
 
+$desktopHeaderHeight : 70px
+$mobileHeaderHeight : 50px
+
+body.has-header
+	padding-top : $desktopHeaderHeight
+
 body > header.main-header
 	position : fixed
 	top : 0
@@ -9,7 +15,7 @@ body > header.main-header
 	width : 100%
 	color : white
 	.nav
-		height : 70px
+		height : $desktopHeaderHeight
 		display : flex
 		align-items : center
 		justify-content : flex-end
@@ -25,15 +31,19 @@ body > header.main-header
 			img
 				height : 52%
 		img
-			height : 50%
+			height : 52%
 			margin-left : 20px
-			transition : height .2s
+
 	.nav ul
 		display : flex
 		align-items : center
 		justify-content : flex-end
 		background : #2A2A2A
 		height : 100%
+		
+		@media only screen and (max-width: 1060px)
+			li a, li .toggle
+				font-size : .9rem
 		
 		li
 			position : relative
@@ -94,7 +104,7 @@ body > header.main-header
 		li.login a
 			border-left : 1px solid #666666
 			padding-left : 30px
-		li.subscribe a
+		li.signup a
 			margin-right : 20px
 
 	#btnBurgerMenu,
@@ -162,7 +172,7 @@ body > header.main-header
 			position : fixed
 			top : 100vh
 			left : 0
-			padding-top : 50px
+			padding-top : 70px
 			height : 100vh
 			width : 100%
 			overflow : auto
@@ -173,7 +183,7 @@ body > header.main-header
 			
 			li
 				position : relative
-				padding : 2vh 20px
+				padding : 10px 20px
 				opacity : 0
 				.text-link
 					padding : 0
@@ -201,8 +211,7 @@ body > header.main-header
 						transition : opacity 150ms ease-out
 						li
 							padding : 0
-							margin-top : calc(1vh + 10px)
-							margin-bottom : calc(1vh + 10px)
+							margin-bottom : 6px
 				.toggle-wrapper:hover .menu
 					z-index : 1
 					opacity : 1
@@ -219,17 +228,17 @@ body > header.main-header
 			li.login a
 				border-left : none
 				padding-left : 0
-			li.subscribe a
+			li.signup a
 				margin-right : 0
 			
 			
-			li.login, li.subscribe
+			li.login, li.signup
 				padding-top : 0
 				padding-bottom : 0
 			li.login
-				margin-top : calc(120px + 4vh)
-			li.subscribe
-				margin-top : -120px
+				margin-top : calc(100px + 3vh)
+			li.signup
+				margin-top : -100px
 				margin-bottom : 150px
 				a.cta
 					font-size : 1.6rem
@@ -255,6 +264,9 @@ body > header.main-header
 
 @media only screen and (max-width: $phoneBreakpoint)
 
-	body > header.main-header
+	body.has-header
+		padding-top : $mobileHeaderHeight
+
+	body.has-header > header.main-header
 		.nav
-			height : 50px
+			height : $mobileHeaderHeight

@@ -4,7 +4,7 @@
 			<% if JSON_CONFIG["google-tag-manager"] %>
 				<%= render "partials/google_tag_manager_head" %>
 			<% end %>
-			-->
+			END -->
 
 			<title>Draft for Agile Project Management</title>
 			<meta name="description" content="For Scrum Masters and Product Owners responsible for maintaining streamlined processes and running virtual ceremonies, Draft embraces all Agile workflows with flexibility and simplicity." />
@@ -38,15 +38,15 @@
 			<% else %>
 				<link rel="canonical" href="<%= JSON_CONFIG['host'] %>/fr/<%= @workflow %>">
 			<% end %>
-			-->
+			END -->
 
 		</head>
-		<body class="dark workflow agile-project-management">
+		<body class="dark has-header workflow agile-project-management">
 			<!-- PRODONLY
 			<% if JSON_CONFIG["google-tag-manager"] %>
 				<%= render "partials/google_tag_manager_body" %>
 			<% end %>
-			-->
+			END -->
 
 			<div id="top-of-site-pixel-anchor"></div>
 
@@ -113,7 +113,7 @@
 											<div class="title">Story Mapping</div>
 											<div class="text">Create a big picture of the user experience by mapping product requirements visually along a clean and cohesive narrative flow.</div>
 											<div class="if-1080">
-													<a href="/example/story-mapping">
+													<a href="/example/user-story-mapping">
 													Discover this example →
 												</a>
 											</div>
@@ -131,7 +131,7 @@
 											<div class="title">Story Mapping</div>
 											<div class="text">Create a big picture of the user experience by mapping product requirements visually along a clean and cohesive narrative flow.</div>
 											<div class="if-1080">
-													<a href="/example/story-mapping">
+													<a href="/example/user-story-mapping">
 													Discover this example →
 												</a>
 											</div>
@@ -285,19 +285,19 @@
 		<div class="rotated-square"></div>
 	</div>
 	<div class="title">Start your first draft today!</div>
-	<form class="signup-bloc" action="//get-started">
+	<form class="signup-bloc" action="/get-started">
 	<div class="form-wrapper">
 		<input placeHolder="Enter your email" name="pre_email"></input>
 		<div class="submit-wrapper">
 			<div class="triangle"></div>
-			<input type="submit" class="register cta" href="/get-started" value="Get started" />
+			<input type="submit" class="register cta" value="Get started" />
 		</div>
 	</div>
 	<div class="if-1080">
-		<div class="detail">Start your first draft today. Sign up for a Free plan.</div>
+		<div class="detail">Start your first draft today. Sign up for a <a href="pricing">Free plan</a>.</div>
 	</div>
 	<div class="if-not-1080">
-		<div class="detail">Start your first draft today.<br />Sign up for a Free plan.</div>
+		<div class="detail">Start your first draft today.<br />Sign up for a <a href="pricing">Free plan</a>.</div>
 	</div>
 </form>
 	<!-- <a class="cta-border cta-border-darkblue" style="margin-left:40px;" href="/agile_project_management">Discover how Scrum Masters use Draft</a> -->
@@ -318,7 +318,7 @@
 		<div class="bloc bloc-resources">
 			<div class="title">Customer</div>
 			<a href="/enterprise">Enterprise</a>
-			<a href="/customer-stories">Customer stories</a>
+			<a href="/customer-stories/sncf-transforming-customer-experience-with-user-story-mapping">Customer stories</a>
 			<a href="/pricing">Pricing</a>
 		</div>
 

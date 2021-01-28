@@ -30,18 +30,75 @@
 		<% end %>
 		
 	</head>
-	<body class="home landing dark lang-<%= @lang.code %>">
+	<body class="home has-header landing dark lang-fr">
+		
 		<% if JSON_CONFIG["google-tag-manager"] %>
 			<%= render "partials/google_tag_manager_body" %>
 		<% end %>
 		
-		<%= render "portal-v2/header" %>
+
+		<div id="top-of-site-pixel-anchor"></div>
+
+<header class="main-header">
+	<input type="checkbox" id="btnBurgerMenu" name="burger-menu-visibility">
+	<label for="btnBurgerMenu" class="burger-btn">
+		<span class="wrapper">
+			<span class="deco-btn-burger"></span>
+			<span class="deco-btn-burger"></span>
+			<span class="deco-btn-burger"></span>
+		</span>
+	</label>
+	<nav class="nav">
+		<a class="logo text-link" href="/fr/"><img src="<%= image_path("site/logo-diag-orange-plus-text.png") %>" alt="Logo Draft"></a>
+		<ul>
+			<li>
+				<div class="toggle-wrapper text-link">
+					<div class="toggle">Workflows <i class="fas fa-chevron-down"></i></div>
+					<ul class="menu">
+						<li><a class="text-link" href="/fr/agile-project-management">Gestion de projet Agile</a></li>
+						<li><a class="text-link" href="/fr/product-management">Product Management</a></li>
+						<li><a class="text-link" href="/fr/everyday-creative-work">Travail créatif quotidien</a></li>
+					</ul>
+				</div>
+			</li>
+			<li><a class="text-link" href="/fr/enterprise">Entreprise</a></li>
+			<li><a class="text-link" href="/fr/customer-stories/sncf-transforming-customer-experience-with-user-story-mapping">Customer stories</a></li>
+			<li><a class="text-link" href="/fr/examples">Exemples</a></li>
+			<li><a class="text-link" href="/fr/pricing">Offres</a></li>
+			<li class="login"><a class="text-link" href="/fr/login">Se connecter</a></li>
+			<li class="signup"><a class="cta" href="/fr/get-started">S'inscrire</a></li>
+		</ul>
+
+		<!-- <a class="fav" href="/">d</a> -->
+		<!-- <a class="fav-sheet" href="/">d</a> -->
+	</ul>
+</header>
+
+<script>
+	document.ontouchstart = function (e) {
+		e.stopPropagation();
+	}
+</script>
 
 		<div class="section bloc-landing">
 			<div class="wrapper">
-				<div class="punchline"><%= @lang.home.landing.punchline %></div>
-				<div class="baseline"><%= raw @lang.home.landing.baseline %></div>
-				<%= render "portal-v2/get_started" %>
+				<div class="punchline">Révélez le potentiel de vos équipes</div>
+				<div class="baseline">Réunissez vos idées, évaluez vos options et planifiez visuellement dans un univers collaboratif et totalement malléable.</div>
+				<form class="signup-bloc" action="/fr/get-started">
+	<div class="form-wrapper">
+		<input placeHolder="Entrez votre email" name="pre_email"></input>
+		<div class="submit-wrapper">
+			<div class="triangle"></div>
+			<input type="submit" class="register cta" value="S'inscrire" />
+		</div>
+	</div>
+	<div class="if-1080">
+		<div class="detail">Notre plan gratuit est illimité dans le temps et vous donne accès à toutes les fonctionnalités du <a href="pricing">plan Pro</a>.</div>
+	</div>
+	<div class="if-not-1080">
+		<div class="detail">Notre plan gratuit est illimité dans le temps<br />et vous donne accès à toutes les fonctionnalités du <a href="pricing">plan Pro</a>.</div>
+	</div>
+</form>
 			</div>
 
 			<div class="angular-grid"></div>
@@ -49,49 +106,49 @@
 		</div>
 
 		<div class="section section-problem">
-			<div class="title"><%= @lang.home.s1.title %></div>
+			<div class="title">Libérez l’intelligence collective des contraintes du monde digital</div>
 			<div class="wrapper">
 				<div class="illu"></div>
 				<div class="text-wrapper">
 					<div class="bloc">
-						<div class="msg"><%= raw @lang.home.s1.t1 %></div>
+						<div class="msg">Comme nous, vous vous êtes sûrement déjà senti contraint par les outils et environnements digitaux existants.</div>
 					</div>
 					<!-- <div class="bloc">
 						<div class="illu"></div>
 						<div class="msg">They indeed lack of either freedom or intuitive ways of collecting, creating, and conveying knowledge.</div>
 					</div> -->
 					<div class="bloc">
-						<div class="msg"><%= raw @lang.home.s1.t2 %></div>
+						<div class="msg">C’est pourquoi nous avons conçu <span>Draft</span>, un <span>format de document visuel et malléable</span> qui possède la puissance d’un tableau virtuel collaboratif.</div>
 					</div>
 					<div class="bloc">
-						<div class="msg"><%= raw @lang.home.s1.t3 %></div>
+						<div class="msg">Draft est le <span>support digital idéal</span> pour explorer vos problèmes avec créativité, concevoir les solutions optimales et documenter juste ce qu’il faut pour mener vos projets à bien.</div>
 					</div>
 				</div>
 			</div>
 		</div>
 
 		<div class="section section-solution">
-			<div class="title"><%= raw @lang.home.s2.title %></div>
+			<div class="title">Draft vous apporte le parfait équilibre entre liberté et structure</div>
 
 			<div class="wrapper">
 				<div class="bloc">
 					<div class="msg">
-						<div class="msg-title"><%= raw @lang.home.s2.t1.title %></div>
-						<div class="msg-text"><%= raw @lang.home.s2.t1.text %></div>
+						<div class="msg-title">Interagissez</div>
+						<div class="msg-text">Collectez, notez et exploitez tous les éléments susceptibles de nourrir la réflexion collective.</div>
 					</div>
 					<div class="illu"></div>
 				</div>
 				<div class="bloc">
 					<div class="msg">
-						<div class="msg-title"><%= raw @lang.home.s2.t2.title %></div>
-						<div class="msg-text"><%= raw @lang.home.s2.t2.text %></div>
+						<div class="msg-title">Imaginez</div>
+						<div class="msg-text">Construisez une vision commune pour focaliser vos équipes sur les enjeux clés.</div>
 					</div>
 					<div class="illu"></div>
 				</div>
 				<div class="bloc">
 					<div class="msg">
-						<div class="msg-title"><%= raw @lang.home.s2.t3.title %></div>
-						<div class="msg-text"><%= raw @lang.home.s2.t3.text %></div>
+						<div class="msg-title">Itérez</div>
+						<div class="msg-text">Coordonnez visuellement vos équipes et levez les obstacles pour atteindre vos objectifs.</div>
 					</div>
 					<div class="illu"></div>
 				</div>
@@ -101,16 +158,26 @@
 		</div>
 
 		<div class="section bloc-discover">
-			<div class="title"><%= raw @lang.home.s3.title %></div>
+			<div class="title">Vos processus Agiles et Produit couverts de bout en bout</div>
 			<div class="workflows">
-				<% ['scrum-master', 'product-manager', 'knowledge-worker'].each do |id| %>
-					<div class="workflow <%= id %>">
-						<div class="illu"></div>
-						<div class="label"><%= raw @lang.home.s3[id.to_sym].title %></div>
-						<div class="detail"><%= raw @lang.home.s3[id.to_sym].detail %></div>
-						<a href="<%= @lang.home.s3[id.to_sym].href %>"><%= @lang.home.s3.more %> →</a>
+					<div class="workflow scrum-master">
+							<div class="illu"></div>
+							<div class="label">agile-project-management</div>
+							<div class="detail">Pour les Scrum Masters et Product Owners qui construisent des artefacts de management visuel et animent des cérémonies et ateliers à distance.</div>
+							<a href="agile-project-management">En savoir plus →</a>
 					</div>
-				<% end %>
+					<div class="workflow product-manager">
+							<div class="illu"></div>
+							<div class="label">product-management</div>
+							<div class="detail">Pour les Product Managers, Designers et Développeurs qui imaginent et développent les produits technologiques de demain.</div>
+							<a href="product-management">En savoir plus →</a>
+					</div>
+					<div class="workflow knowledge-worker">
+							<div class="illu"></div>
+							<div class="label">everyday-knowledge-work</div>
+							<div class="detail">Pour les professionnels du digital qui souhaitent tirer profit d’un mode de travail à la fois plus visuel et plus créatif.</div>
+							<a href="everyday-knowledge-work">En savoir plus →</a>
+					</div>
 			</div>
 
 			<div class="grids">
@@ -121,21 +188,123 @@
 		</div>
 
 		<div class="section bloc-features">
-			<div class="title"><%= @lang.home.features.title %></div>
+			<div class="title">Des fonctionnalités au service de votre efficacité et de votre liberté d’action</div>
 
 			<div class="features">
-				<% ['scalable-document', 'right-level-of-focus', 'collaboration', 'jira-integration', 'large-collection-template', 'unlimited-sharing'].each do |id| %>
-					<div class="feature <%= id %>">
-						<div class="illu"></div>
-						<div class="label"><%= raw @lang.features[id.to_sym].title %></div>
-						<div class="detail"><%= raw @lang.features[id.to_sym].detail %></div>
+					<div class="feature scalable-document">
+							<div class="illu"></div>
+							<div class="label">Un support de travail visuel et évolutif</div>
+							<div class="detail">Profitez de la structure intrinsèque de Draft et de sa flexibilité pour organiser naturellement votre contenu.</div>
 					</div>
-				<% end %>
+					<div class="feature right-level-of-focus">
+							<div class="illu"></div>
+							<div class="label">Toujours le bon niveau de focalisation</div>
+							<div class="detail">Fragmentez et associez différents types et niveaux d’information pour éclaircir votre réflexion et appuyer vos prises de décision.</div>
+					</div>
+					<div class="feature collaboration">
+							<div class="illu"></div>
+							<div class="label">Un tableau intrinsèquement collaboratif</div>
+							<div class="detail">Co-éditez et interagissez avec vos équipes, en temps réel ou décalé, dans un univers commun partagé.</div>
+					</div>
+					<div class="feature jira-integration">
+							<div class="illu"></div>
+							<div class="label">Intégration Jira symétrique et temps réel</div>
+							<div class="detail">Synchronisez vos cartes Draft avec vos tickets Jira, et fluidifiez l’ensemble de votre processus de gestion de projet Agile.</div>
+					</div>
+					<div class="feature large-collection-template">
+							<div class="illu"></div>
+							<div class="label">Une large collection de modèles et d’exemples</div>
+							<div class="detail">Démarrez immédiatement à partir d’un des 30 modèles prêts à l’emploi ou découvrez Draft avec l’un des 40 exemples concrets, préparés par des experts.</div>
+					</div>
+					<div class="feature unlimited-sharing">
+							<div class="illu"></div>
+							<div class="label">Partage et collaboration illimités</div>
+							<div class="detail">Partagez vos drafts un par un, ou par dossier, en un clic. Collaborez avec qui vous voulez, sans limitation, grâce au mode “Invité”.</div>
+					</div>
 			</div>
 		</div>
 
-		<%= render "portal-v2/bloc_last" %>
-		<%= render "portal-v2/footer" %>
+		<div class="bloc-last">
+	<div class="left-visual">
+		<div class="rotated-square"></div>
+	</div>
+	<div class="title">Démarrez dès aujourd’hui</div>
+	<form class="signup-bloc" action="/fr/get-started">
+	<div class="form-wrapper">
+		<input placeHolder="Entrez votre email" name="pre_email"></input>
+		<div class="submit-wrapper">
+			<div class="triangle"></div>
+			<input type="submit" class="register cta" value="S'inscrire" />
+		</div>
+	</div>
+	<div class="if-1080">
+		<div class="detail">Notre plan gratuit est illimité dans le temps et vous donne accès à toutes les fonctionnalités du <a href="pricing">plan Pro</a>.</div>
+	</div>
+	<div class="if-not-1080">
+		<div class="detail">Notre plan gratuit est illimité dans le temps<br />et vous donne accès à toutes les fonctionnalités du <a href="pricing">plan Pro</a>.</div>
+	</div>
+</form>
+	<!-- <a class="cta-border cta-border-darkblue" style="margin-left:40px;" href="/agile_project_management">Discover how Scrum Masters use Draft</a> -->
+</div>
+		<div class="footer">
+	<div class="footer-wrapper">
+		<div class="bloc bloc-plan">
+			<div class="title">Produit</div>
+			<a href="/fr/">Accueil</a>
+			<a href="/fr/agile-project-management">Draft pour la gestion de projet Agile</a>
+			<a href="/fr/product-management">Draft pour le Product Management</a>
+			<a href="/fr/everyday-creative-work">Draft pour le travail créatif quotidien</a>
+			<a href="/fr/examples">Exemples</a>
+			<a href="/fr/login">Se connecter</a>
+			<a href="/fr/get-started">S'inscrire</a>
+		</div>
+
+		<div class="bloc bloc-resources">
+			<div class="title">Client</div>
+			<a href="/fr/enterprise">Entreprise</a>
+			<a href="/fr/customer-stories/sncf-transforming-customer-experience-with-user-story-mapping">Customer stories</a>
+			<a href="/fr/pricing">Offres</a>
+		</div>
+
+		<div class="bloc bloc-resources">
+			<div class="title">Ressources</div>
+			<a href="https://www.notion.so/Draft-s-Help-Center-cc9934be1af04688954d1d077ad004aa"
+				target="_blank">Centre d'aide</a>
+			<a href="https://draft.io/assets/2020 10 27 Terms and conditions - Draft SAS.pdf"
+				target="_blank">Termes</a>
+			<a href="https://draft.io/assets/2020 10 27 Privacy Policy - Draft SAS.pdf" target="_blank">Sécurité et confidentialité</a>
+			<a href="mailto:hi@draft.io">Contactez-nous</a>
+
+			<div class="language-bloc">
+				<div class="bloc-title">Langue</div>
+				<div class="menu-wrapper">
+					<div class="toggle-wrapper">
+						<div class="toggle">Française</div>
+						<div class="dropdown-invite"></div>
+					</div>
+					<div class="menu">
+						<a
+							href="<%= @fr_url %>">Français</a>
+						<a
+							href="<%= @en_url %>">English</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="socials">
+			<a href="/" class="logo"></a>
+			<a href="https://linkedin.com/company/draft-io" class="linkedin" target="_blank"></a>
+		</div>
+	</div>
+
+
+	<div class="oblique">
+		<div class="rotated-square"></div>
+	</div>
+</div>
+
+<script src="https://kit.fontawesome.com/6b4515f4ac.js" crossorigin="anonymous"></script>
 
 		<script>
 			document.querySelectorAll('.submit-wrapper .triangle').forEach(function(elt) {

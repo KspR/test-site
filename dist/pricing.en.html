@@ -5,7 +5,7 @@
     <% if JSON_CONFIG["google-tag-manager"] %>
       <%= render "partials/google_tag_manager_head" %>
     <% end %>
-    -->
+    END -->
 
     <!-- BEGINCSS -->
 <link href="css/common.css" rel="stylesheet">
@@ -38,15 +38,15 @@
     <% else %>
       <link rel="canonical" href="<%= JSON_CONFIG['host'] %>/fr/pricing">
     <% end %>
-    -->
+    END -->
   </head>
 
-  <body class="page-pricing yearly dark lang-en">
+  <body class="page-pricing has-header yearly dark lang-en">
   	<!-- PRODONLY
     <% if JSON_CONFIG["google-tag-manager"] %>
       <%= render "partials/google_tag_manager_body" %>
     <% end %>
-    -->
+    END -->
 
     <div id="top-of-site-pixel-anchor"></div>
 
@@ -279,19 +279,19 @@
 		<div class="rotated-square"></div>
 	</div>
 	<div class="title">Start your first draft today!</div>
-	<form class="signup-bloc" action="//get-started">
+	<form class="signup-bloc" action="/get-started">
 	<div class="form-wrapper">
 		<input placeHolder="Enter your email" name="pre_email"></input>
 		<div class="submit-wrapper">
 			<div class="triangle"></div>
-			<input type="submit" class="register cta" href="/get-started" value="Get started" />
+			<input type="submit" class="register cta" value="Get started" />
 		</div>
 	</div>
 	<div class="if-1080">
-		<div class="detail">Start your first draft today. Sign up for a Free plan.</div>
+		<div class="detail">Start your first draft today. Sign up for a <a href="pricing">Free plan</a>.</div>
 	</div>
 	<div class="if-not-1080">
-		<div class="detail">Start your first draft today.<br />Sign up for a Free plan.</div>
+		<div class="detail">Start your first draft today.<br />Sign up for a <a href="pricing">Free plan</a>.</div>
 	</div>
 </form>
 	<!-- <a class="cta-border cta-border-darkblue" style="margin-left:40px;" href="/agile_project_management">Discover how Scrum Masters use Draft</a> -->
@@ -312,7 +312,7 @@
 		<div class="bloc bloc-resources">
 			<div class="title">Customer</div>
 			<a href="/enterprise">Enterprise</a>
-			<a href="/customer-stories">Customer stories</a>
+			<a href="/customer-stories/sncf-transforming-customer-experience-with-user-story-mapping">Customer stories</a>
 			<a href="/pricing">Pricing</a>
 		</div>
 

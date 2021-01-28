@@ -18,20 +18,33 @@
 
 	.ui-header.evoyageurs
 		&::before
-			background-image : url("../imgs/UI_Customer-story/evoyageurs/illustration_evoyageurs.jpg")
+			background-image : image-url("site/UI_Customer-story/evoyageurs/illustration_evoyageurs.jpg")
 			@media only screen and (max-width : 1390px)
 				background-position : 100% 102px
 	.ui-header.sympany
 		&::before
-			background-image : url("../imgs/UI_Customer-story/sympany/draft-business-case-sympany.png")
+			background-image : image-url("site/UI_Customer-story/sympany/draft-business-case-sympany.png")
 			@media only screen and (max-width : 1390px)
 				background-position : 100% 228px
+	.ui-header.transilien
+		&::before
+			background-image : image-url("site/UI_Customer-story/transilien/Transilien-illustration-v3.png")
+			@media only screen and (max-width : 1680px)
+				background-position : 100% 190px
+				filter : grayscale(1)
+				opacity : .13
+
+		.main-info
+			.wrapper
+				.logo
+					height : auto
+					width : 250px
+					max-width : 80%
 	.ui-header
 		display : flex
 		position : relative
 		align-items : center
 		padding-top : 120px
-		margin-top : 70px
 		padding-bottom : 80px
 		overflow : hidden
 		
@@ -71,6 +84,7 @@
 				display : flex
 				align-items : center
 				margin-top : 60px
+				max-width : 90%
 				.customer
 					width : 350px
 					padding : 25px
@@ -82,6 +96,7 @@
 					.portrait
 						border-radius : 100px
 						height : 80px
+						width : 80px
 					.customer-details
 						margin-left : 20px
 						.name
@@ -228,6 +243,9 @@
 		.ui-header.sympany
 			&::before
 				background-position : 100% 430px
+		.ui-header.transilien
+			&::before
+				background-position : 120% 500px
 		.ui-header
 			display : block
 			padding-top : 40px

@@ -1,7 +1,7 @@
 <html>
 
 <head>
-	<title>Draft pour Entreprises</title>
+	<title>Entreprise - Draft</title>
 	<meta name="description" content="" />
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,7 +10,7 @@
 
 </head>
 
-<body class="ui_enterprise">
+<body class="ui_enterprise has-header">
 
 	<div id="top-of-site-pixel-anchor"></div>
 
@@ -41,7 +41,7 @@
 			<li><a class="text-link" href="/fr/examples">Exemples</a></li>
 			<li><a class="text-link" href="/fr/pricing">Offres</a></li>
 			<li class="login"><a class="text-link" href="/fr/login">Se connecter</a></li>
-			<li class="subscribe"><a class="cta" href="/fr/get-started">S'inscrire</a></li>
+			<li class="signup"><a class="cta" href="/fr/get-started">S'inscrire</a></li>
 		</ul>
 
 		<!-- <a class="fav" href="/">d</a> -->
@@ -171,14 +171,16 @@
 							<span class="status">Scrum Master / Coach Agile<br>chez e-Voyageurs SNCF</span>
 						</p>
 					</div>
-					<a href="#" class="text-link">Découvrez la Customer Story <i class="fas fa-long-arrow-alt-right"></i></a>
+					<a href="customer-stories/sncf-transforming-customer-experience-with-user-story-mapping" class="text-link">Découvrez la Customer Story <i class="fas fa-long-arrow-alt-right"></i></a>
 				</div>
 			</div>
 			<figure class="illustration">
 				<img src="<%= image_path("site/UI_Enterprise/customer_story_illustration_sncf.jpg") %>" alt="">
 			</figure>
-			<a href="#" class="text-link"><img src="<%= image_path("site/UI_Enterprise/picto_galery.svg") %>"
+			<!--
+			<a href="/cs_e_voyageurs" class="text-link"><img src="<%= image_path("site/UI_Enterprise/picto_galery.svg") %>"
 					alt="Picto deco user stories listing">Découvrez d’autres Customer Stories</a>
+			-->
 		</div>
 	</section>
 
@@ -199,10 +201,10 @@
 				<li class="feature">
 					<button class="display-btn">
 						<i class="far fa-caret-square-down"></i>
-						Test de sécurité périodique
+						Filtre IP
 					</button>
 					<p class="description">
-						Des tests de sécurité (penetration test) sont effectués périodiquement par des experts de premier plan. Les rapports d’audit peuvent être consultés sur demande.
+						Nous pouvons filtrer par IP l’accès aux données de votre Team. C’est une façon efficace de prévenir toute fuite de données en dehors de votre organisation.
 					</p>
 				</li>
 				<li class="feature">
@@ -228,19 +230,19 @@
 				<li class="feature">
 					<button class="display-btn">
 						<i class="far fa-caret-square-down"></i>
-						Filtre IP
+						Contrôle de domaine
 					</button>
 					<p class="description">
-						Nous pouvons filtrer par IP l’accès aux données de votre Team. C’est une façon efficace de prévenir toute fuite de données en dehors de votre organisation.
+						Nous pouvons restreindre l’accès aux données de votre Team à des adresses email liées à seulement certains noms de domaine.
 					</p>
 				</li>
 				<li class="feature">
 					<button class="display-btn">
 						<i class="far fa-caret-square-down"></i>
-						Contrôle de domaine
+						Test de sécurité périodique
 					</button>
 					<p class="description">
-						Nous pouvons restreindre l’accès aux données de votre Team à des adresses email liées à seulement certains noms de domaine.
+						Des tests de sécurité (penetration test) sont effectués périodiquement par des experts de premier plan. Les rapports d’audit peuvent être consultés sur demande.
 					</p>
 				</li>
 				<li class="feature">
@@ -289,12 +291,12 @@
 		<div class="rotated-square"></div>
 	</div>
 	<div class="title">Démarrez dès aujourd’hui</div>
-	<form class="signup-bloc" action="/fr//get-started">
+	<form class="signup-bloc" action="/fr/get-started">
 	<div class="form-wrapper">
 		<input placeHolder="Entrez votre email" name="pre_email"></input>
 		<div class="submit-wrapper">
 			<div class="triangle"></div>
-			<input type="submit" class="register cta" href="/fr/get-started" value="S'inscrire" />
+			<input type="submit" class="register cta" value="S'inscrire" />
 		</div>
 	</div>
 	<div class="if-1080">
@@ -310,20 +312,20 @@
 	<div class="footer-wrapper">
 		<div class="bloc bloc-plan">
 			<div class="title">Produit</div>
-			<a href="/">Accueil</a>
-			<a href="/agile-project-management">Draft pour la gestion de projet Agile</a>
-			<a href="/product-management">Draft pour le Product Management</a>
-			<a href="/everyday-creative-work"Draft pour le travail créatif quotidien</a>
-			<a href="/examples">Exemples</a>
-			<a href="/login">Se connecter</a>
-			<a href="/get-started">S'inscrire</a>
+			<a href="/fr/">Accueil</a>
+			<a href="/fr/agile-project-management">Draft pour la gestion de projet Agile</a>
+			<a href="/fr/product-management">Draft pour le Product Management</a>
+			<a href="/fr/everyday-creative-work">Draft pour le travail créatif quotidien</a>
+			<a href="/fr/examples">Exemples</a>
+			<a href="/fr/login">Se connecter</a>
+			<a href="/fr/get-started">S'inscrire</a>
 		</div>
 
 		<div class="bloc bloc-resources">
 			<div class="title">Client</div>
-			<a href="/enterprise">Entreprise</a>
-			<a href="/customer-stories">Customer stories</a>
-			<a href="/pricing">Offres</a>
+			<a href="/fr/enterprise">Entreprise</a>
+			<a href="/fr/customer-stories/sncf-transforming-customer-experience-with-user-story-mapping">Customer stories</a>
+			<a href="/fr/pricing">Offres</a>
 		</div>
 
 		<div class="bloc bloc-resources">
@@ -364,7 +366,7 @@
 	</div>
 </div>
 
-	<script src="https://kit.fontawesome.com/6b4515f4ac.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/6b4515f4ac.js" crossorigin="anonymous"></script>
 
 	<script>
 			(function (i, s, o, g, r, a, m) {

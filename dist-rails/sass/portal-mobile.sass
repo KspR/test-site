@@ -1,6 +1,12 @@
 @import colors.sass
 
 @media only screen and (max-width: 1080px)
+	body.home.landing
+		.section.bloc-landing
+			.signup-bloc
+				input:not([type=submit])
+					width : calc(100% - 140px) !important
+
 	body.workflow
 		.bloc-landing
 			.illu
@@ -284,17 +290,6 @@
 
 			.workflow
 				margin-bottom : 40px
-
-	.signup-bloc
-		.form-wrapper
-			width : calc(100% - 40px)
-			margin-left : 20px
-
-	.bloc-landing
-		.signup-bloc
-			.form-wrapper
-				input:not([type=submit])
-					width : calc(100% - 140px)
 
 	.bloc-last
 		.left-visual

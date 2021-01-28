@@ -1,0 +1,118 @@
+<html lang="en">
+	<head>
+		<!-- PRODONLY
+    <% if JSON_CONFIG["google-tag-manager"] %>
+      <%= render "partials/google_tag_manager_head" %>
+    <% end %>
+    END -->
+    
+		<title>Examples - Draft</title>
+		<meta name="description" content="Have a look at our comprehensive example library to discover all you can do with Draft, although there is plenty more to imagine and build!" />
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- BEGINCSS -->
+<link href="css/common.css" rel="stylesheet">
+<link href="css/colors.css" rel="stylesheet">
+<link href="css/portal-desktop.css" rel="stylesheet">
+<link href="css/portal-mobile.css" rel="stylesheet">
+<link href="css/DDS_draft-design-system.css" rel="stylesheet">
+<link href="css/ui_enterprise.css" rel="stylesheet">
+<link href="css/ui_pricing.css" rel="stylesheet">
+<link href="css/ui_customer-story.css" rel="stylesheet">
+<!-- ENDCSS -->
+
+		<link rel="icon" href="/favicon.png?v=21" />
+
+		<!-- PRODONLY
+		<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/fr/examples" 
+			hreflang="x-default" />
+		<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/examples" 
+		  hreflang="en-GB" />
+		<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/examples" 
+		  hreflang="en-US" />
+		<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/fr/examples" 
+			hreflang="fr-FR" />
+		<% if @lang.code == 'en' %>
+			<link rel="canonical" href="<%= JSON_CONFIG['host'] %>/examples">
+		<% else %>
+			<link rel="canonical" href="<%= JSON_CONFIG['host'] %>/fr/examples">
+		<% end %>
+		END -->
+	</head>
+	<body class="examples has-header page-examples lang-en">
+		<!-- PRODONLY
+    <% if JSON_CONFIG["google-tag-manager"] %>
+      <%= render "partials/google_tag_manager_body" %>
+    <% end %>
+    END -->
+
+    <div id="top-of-site-pixel-anchor"></div>
+
+<header class="main-header">
+	<input type="checkbox" id="btnBurgerMenu" name="burger-menu-visibility">
+	<label for="btnBurgerMenu" class="burger-btn">
+		<span class="wrapper">
+			<span class="deco-btn-burger"></span>
+			<span class="deco-btn-burger"></span>
+			<span class="deco-btn-burger"></span>
+		</span>
+	</label>
+	<nav class="nav">
+		<a class="logo text-link" href="/"><img src="imgs/logo-diag-orange-plus-text.png" alt="Logo Draft"></a>
+		<ul>
+			<li>
+				<div class="toggle-wrapper text-link">
+					<div class="toggle">Workflows <i class="fas fa-chevron-down"></i></div>
+					<ul class="menu">
+						<li><a class="text-link" href="/agile-project-management">Agile Project Management</a></li>
+						<li><a class="text-link" href="/product-management">Product Management</a></li>
+						<li><a class="text-link" href="/everyday-creative-work">Everyday Creative Work</a></li>
+					</ul>
+				</div>
+			</li>
+			<li><a class="text-link" href="/enterprise">Enterprise</a></li>
+			<li><a class="text-link" href="/customer-stories/sncf-transforming-customer-experience-with-user-story-mapping">Customer stories</a></li>
+			<li><a class="text-link" href="/examples">Examples</a></li>
+			<li><a class="text-link" href="/pricing">Pricing</a></li>
+			<li class="login"><a class="text-link" href="/login">Sign in</a></li>
+			<li class="signup"><a class="cta" href="/get-started">Sign up</a></li>
+		</ul>
+
+		<!-- <a class="fav" href="/">d</a> -->
+		<!-- <a class="fav-sheet" href="/">d</a> -->
+	</ul>
+</header>
+
+<script>
+	document.ontouchstart = function (e) {
+		e.stopPropagation();
+	}
+</script>
+
+
+<div class="samples"><div class="discover"><div class="wrapper"><div class="bloc-left"><div class="bloc-left-title">Categories</div><div class="selectbox-plain"><div data-id="agile-artifacts" class="option">Agile Artifacts</div><div data-id="strategy-and-roadmapping" class="option">Strategy and Roadmapping</div><div data-id="product-management" class="option">Product Management</div><div data-id="agile-retrospectives" class="option">Agile Ceremonies</div><div data-id="creativity-and-innovation" class="option">Creativity and Innovation</div><div data-id="diagramming" class="option">Diagramming</div><div data-id="and-many-other" class="option">And many other possibilities!</div></div></div><div class="categories-wrapper" style="touch-action:initial;"><div class="categories-container"><div class="category-content"><div data-id="agile-artifacts" class="category-title">Agile Artifacts</div><div class="entries"><a href="example/user-story-mapping" class="user-story-mapping entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>User Story Mapping</span></div></a><a href="example/scrum-board" class="scrum-board entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>Scrum Board</span></div></a><a href="example/kanban-board" class="kanban-board entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>Kanban Board</span></div></a><a href="example/scrumban" class="scrumban entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>ScrumBan</span></div></a><a href="example/program-board" class="program-board entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>Program Board</span></div></a></div></div><div class="category-content"><div data-id="strategy-and-roadmapping" class="category-title">Strategy and Roadmapping</div><div class="entries"><a href="example/product-roadmap" class="product-roadmap entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>Product Roadmap</span></div></a><a href="example/twelve-month-roadmap" class="twelve-month-roadmap entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>12-month Roadmap</span></div></a><a href="example/gantt-chart" class="gantt-chart entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>Gantt Chart</span></div></a><a href="example/okr-process" class="okr-process entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>OKR Process</span></div></a><a href="example/impact-mapping" class="impact-mapping entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>Impact Mapping</span></div></a><a href="example/gist-planning-framework" class="gist-planning-framework entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>GIST Planning Framework</span></div></a><a href="example/scheduling" class="scheduling entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>Scheduling</span></div></a><a href="example/business-model-canvas" class="business-model-canvas entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>Business Model Canvas</span></div></a><a href="example/lean-startup-canvas" class="lean-startup-canvas entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>Lean Startup Canvas</span></div></a><a href="example/product-vision-board" class="product-vision-board entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>Product Vision Board</span></div></a></div></div><div class="category-content"><div data-id="product-management" class="category-title">Product Management</div><div class="entries"><a href="example/product-discovery" class="product-discovery entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>Product Discovery</span></div></a><a href="example/persona" class="persona entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>Persona</span></div></a><a href="example/customer-journey-mapping" class="customer-journey-mapping entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>Customer Journey Mapping</span></div></a><a href="example/defining-and-prioritizing-hypothesis-statements" class="defining-and-prioritizing-hypothesis-statements entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>Defining and Prioritizing Hypothesis</span></div></a><a href="example/example-mapping" class="example-mapping entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>Example Mapping</span></div></a><a href="example/user-flow" class="user-flow entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>User Flow</span></div></a><a href="example/site-mapping" class="site-mapping entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>Site Mapping</span></div></a><a href="example/empathy-map" class="empathy-map entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>Empathy Map</span></div></a><a href="example/moscow-method" class="moscow-method entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>MoSCoW Method</span></div></a></div></div><div class="category-content"><div data-id="agile-retrospectives" class="category-title">Agile Ceremonies</div><div class="entries"><a href="example/starfish-retrospective" class="starfish-retrospective entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>Starfish Retrospective</span></div></a><a href="example/speedboat-retrospective" class="speedboat-retrospective entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>Speedboat Retrospective</span></div></a><a href="example/start-stop-continue-retrospective" class="start-stop-continue-retrospective entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>Start-Stop-Continue Retrospective</span></div></a><a href="example/timeline-retrospective" class="timeline-retrospective entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>Timeline Retrospective</span></div></a><a href="example/fourls-retrospective" class="fourls-retrospective entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>4Ls Retrospective</span></div></a><a href="example/planning-poker" class="planning-poker entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>Planning Poker</span></div></a><a href="example/extreme-quotation" class="extreme-quotation entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>eXtreme Quotation</span></div></a><a href="example/niko-niko-calendar" class="niko-niko-calendar entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>Niko-Niko Calendar</span></div></a></div></div><div class="category-content"><div data-id="creativity-and-innovation" class="category-title">Creativity and Innovation</div><div class="entries"><a href="example/collaborative-brainstorming" class="collaborative-brainstorming entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>Collaborative Brainstorming</span></div></a><a href="example/moodboard" class="moodboard entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>Moodboard</span></div></a><a href="example/design-thinking" class="design-thinking entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>Design Thinking</span></div></a><a href="example/affinity-diagram" class="affinity-diagram entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>Affinity Diagram</span></div></a><a href="example/lotus-blossom-technique" class="lotus-blossom-technique entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>Lotus Blossom Technique</span></div></a><a href="example/research-and-discussion" class="research-and-discussion entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>Research &amp; Discussion</span></div></a></div></div><div class="category-content"><div data-id="diagramming" class="category-title">Diagramming</div><div class="entries"><a href="example/mind-mapping" class="mind-mapping entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>Mind Mapping</span></div></a><a href="example/organization-chart" class="organization-chart entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>Organization Chart</span></div></a><a href="example/flow-diagram" class="flow-diagram entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>Flow Diagram</span></div></a><a href="example/architecture-diagram" class="architecture-diagram entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>Architecture Diagram</span></div></a></div></div><div class="category-content"><div data-id="and-many-other" class="category-title">And many other possibilities!</div><div class="entries"><a href="example/to-do-list" class="to-do-list entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>To-do List</span></div></a><a href="example/collecting-feedback" class="collecting-feedback entry"><div class="preview"><div class="mask"></div></div><div class="label"><span>Collecting Feedback</span></div></a></div></div></div></div></div></div></div>
+
+	
+		<!-- PRODONLY
+  	<%= javascript_include_tag 'portal/examples' %>
+  	END -->
+
+		<!--<%= render "portal-v2/footer" %>-->
+
+	<!-- PRODONLY
+  <% if Rails.env == "production" && JSON_CONFIG['ga'] %>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      
+      ga('create', "<%= JSON_CONFIG['ga'] %>", 'auto');
+      ga('send', 'pageview');
+    </script>
+  <% end %>
+  END -->
+
+	</body>
+</html>

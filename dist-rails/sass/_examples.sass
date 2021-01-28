@@ -6,13 +6,17 @@ body.examples
 
   overflow : hidden
 
-  .wrapper
-    height : 100%
+  .discover
+    .wrapper
+      height : 100%
 
   .samples
     background-color : #222
+
     height : calc(100% - 70px) !important
-    margin-top : 70px !important
+    @media only screen and (max-width: 768px)
+      height : calc(100% - 50px) !important
+
     padding-top : 40px
     box-sizing : border-box
 
@@ -205,7 +209,7 @@ body.examples
 =preview($name, $lang)
   body.example.lang-#{$lang}
     .screenshot.#{$name}
-      background-image : url("../imgs/examples/example-user-story-mapping.png")
+      background-image : image-url("site/examples/example-user-story-mapping.png")
 
   body.lang-#{$lang} .home.panel, body.examples.lang-#{$lang}
     .entry.#{$name} .preview
