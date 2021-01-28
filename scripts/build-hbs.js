@@ -82,6 +82,7 @@ exports.buildHtml = function(cb) {
 		if (/\.json$/.exec(e)) {
 			lang = e.split(/\.json$/)[0];
 			data.lang = JSON.parse(fs.readFileSync(dataDir + '/lang/' + e).toString());
+			data.lang[lang] = true;
 
 			subPartials = ['get_started.html']
 			subPartials.forEach(function(e) {

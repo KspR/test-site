@@ -870,7 +870,7 @@ ui-customer-story
 				It became clear that “product owners needed a tool to help get a broader view of which user stories were truly needed to solve midterm product development questions,” said Anne-Laure. By getting all of these details “on paper” in story map form, product owners were then able to provide their teams with the guidance they needed to better anticipate the eventual evolution of the product roadmap.
 			</p>
 			<p>
-				At that time, developers and QA testers claimed that “during grooming sessions, we only had a line of sight into the user stories coming in the next sprint, but not beyond that,” Mohamed explained. It’s at this point that he encouraged product owners to begin doing <a href="https://draft.io/example/story-mapping" class="text-link underline-over">User Story Mapping</a>.
+				At that time, developers and QA testers claimed that “during grooming sessions, we only had a line of sight into the user stories coming in the next sprint, but not beyond that,” Mohamed explained. It’s at this point that he encouraged product owners to begin doing <a href="https://draft.io/example/story-mapping" class="text-link advanced-underline-over"><span>User</span> <span>Story</span> <span>Mapping</span></a>.
 			</p>
 
 			<img class="illustration left-sided" src="./imgs/UI_Customer-story/evoyageurs/3_story_mapping_structure.png" alt="Story mapping illustration">
@@ -923,7 +923,7 @@ ui-customer-story
 				“N’oublions-nous pas un composant essentiel du produit ?” était la question qui taraudait Anne-Laure à ce moment-là. Avec tant d’information à prendre en compte auprès des différentes parties prenantes, elle ressentit la nécessité de trouver une méthode offrant davantage de certitude pour imaginer et concevoir les produits dans leur globalité.
 			</p>
 			<p>
-				Du point de vue d’Anne-Laure, il était devenu évident que “les product owners avaient besoin d’un outil qui puisse les aider à acquérir une vision plus globale des enjeux afin de déterminer plus facilement les user stories absolument nécessaires au bon fonctionnement du produit à moyen terme”. En encourageant les product owners à cartographier leurs produits sur un mur sous la forme d’un <a href="https://draft.io/example/story-mapping" class="text-link underline-over">User Story Mapping</a>, ils pourraient rapidement apporter à leur équipe une vision plus large et lointaine des évolutions futures.
+				Du point de vue d’Anne-Laure, il était devenu évident que “les product owners avaient besoin d’un outil qui puisse les aider à acquérir une vision plus globale des enjeux afin de déterminer plus facilement les user stories absolument nécessaires au bon fonctionnement du produit à moyen terme”. En encourageant les product owners à cartographier leurs produits sur un mur sous la forme d’un <a href="https://draft.io/example/story-mapping" class="text-link advanced-underline-over"><span>User</span> <span>Story</span> <span>Mapping</span></a>, ils pourraient rapidement apporter à leur équipe une vision plus large et lointaine des évolutions futures.
 			</p>
 			<p>
 				A cette époque, les développeurs et testeurs regrettaient, auprès de Mohamed, le fait que, “au cours des grooming sessions, ils n’obtenaient qu’une vision court terme, le plus souvent à l’échelle du sprint, des user stories qu’ils devaient implémenter, mais pas plus loin.” C’est à ce moment-là que Mohamed décida d’encourager tous les product owners à exploiter la puissance du User Story Mapping.
@@ -997,7 +997,7 @@ ui-customer-story
 			<img class="illustration right-sided" src="./imgs/UI_Customer-story/sympany/2_Sympany_Program_Board_2019-06.JPG" alt="Illustration de programm board">
 			<h2>“PI Planning forces us to define clearer goals that make issues obvious while encouraging increased accountability.”</h2>
 			<p>
-				Before the COVID-19 pandemic rattled the world, 10 different Scrum and Kanban teams used to meet every 10 weeks for a two-day PI Planning session. This meeting would take place in a large hotel conference room where the roughly 80-person development team, plus other key stakeholders would spend the two-day stretch collaborating on ideas and putting sticky-notes all over the place. During these meetings, a large conference room wall was essentially transformed into the team’s living <a href="https://draft.io/example/program-board" class="text-link underline-over">Program Board</a>.
+				Before the COVID-19 pandemic rattled the world, 10 different Scrum and Kanban teams used to meet every 10 weeks for a two-day PI Planning session. This meeting would take place in a large hotel conference room where the roughly 80-person development team, plus other key stakeholders would spend the two-day stretch collaborating on ideas and putting sticky-notes all over the place. During these meetings, a large conference room wall was essentially transformed into the team’s living <a href="https://draft.io/example/program-board" class="text-link advanced-underline-over"><span>Program</span> <span>Board</span></a>.
 			</p>
 			<p>
 				This all changed when lockdown measures were enforced and most of Sympany’s employees had to begin working from home. After trying to build a virtual Program Board via a dedicated Jira add-on unsuccessfully, Julian made the switch to Draft to build a comprehensive PI Planning Board. This included an agenda, a Program Board, and a Risk Roaming matrix. Combined with Microsoft Teams’ virtual meeting capabilities, much of what once required physical interaction could now be replicated effectively in the digital space.
@@ -1040,7 +1040,7 @@ ui-customer-story
 				“I want to bring Agile philosophy to every decision-making layer of the organization in order to help innovative ideas sprout from the bottom up,” even knowing that this can be a huge challenge to overcome in typically hierarchical Swiss businesses.
 			</p>
 			<p>
-				Additionally, to avoid Jira’s inherent constraints around the freedom and skills required to put project management tools in place, Julian “will also help teams build their own visual management artifacts on Draft,” including customized <a href="https://draft.io/example/kanban-board" class="text-link underline-over">Kanban boards</a>.”
+				Additionally, to avoid Jira’s inherent constraints around the freedom and skills required to put project management tools in place, Julian “will also help teams build their own visual management artifacts on Draft,” including customized <a href="https://draft.io/example/kanban-board" class="text-link advanced-underline-over"><span>Kanban</span> <span>boards</span></a>.”
 			</p>
 			---
 			<img class="illustration left-sided intro" src="./imgs/UI_Customer-story/sympany/1_Sympany_Program_Board.jpg" alt="Illustration program board">
@@ -1058,7 +1058,7 @@ ui-customer-story
 			<img class="illustration right-sided" src="./imgs/UI_Customer-story/sympany/2_Sympany_Program_Board_2019-06.JPG" alt="Illustration program board">
 			<h2>“Le PI Planning nous a amenés à définir des objectifs plus explicites, ce qui a mis en évidence les problèmes organisationnels et favorisé la responsabilisation des équipes quant à l’atteinte des résultats.”</h2>
 			<p>
-				Avant que la pandémie ne bouleverse les habitudes de travail, une dizaine d’équipes de réalisation, organisées en Scrum ou en Kanban, avaient pris l'habitude de se retrouver, toutes les dix semaines, pour une session de PI Planning de deux jours. Celle-ci se déroulait généralement dans la grande salle de conférence d’un hôtel. Ainsi, en comptant quelques parties prenantes et managers clés, près de 80 personnes étaient amenées à collaborer, partager leurs idées et placer des post-it sur tous les murs de la salle. Un côté entier du lieu était d’ailleurs dédié à la construction du <a href="https://draft.io/example/program-board" class="text-link underline-over">Program Board</a>.
+				Avant que la pandémie ne bouleverse les habitudes de travail, une dizaine d’équipes de réalisation, organisées en Scrum ou en Kanban, avaient pris l'habitude de se retrouver, toutes les dix semaines, pour une session de PI Planning de deux jours. Celle-ci se déroulait généralement dans la grande salle de conférence d’un hôtel. Ainsi, en comptant quelques parties prenantes et managers clés, près de 80 personnes étaient amenées à collaborer, partager leurs idées et placer des post-it sur tous les murs de la salle. Un côté entier du lieu était d’ailleurs dédié à la construction du <a href="https://draft.io/example/program-board" class="text-link advanced-underline-over"><span>Program</span> <span>Board</span></a>.
 			</p>
 			<p>
 				Tout fut remis en cause lorsque les mesures de confinement furent imposées et les collaborateurs de Sympany contraints de travailler depuis leur domicile. Après avoir testé, sans succès, un addon Jira pour construire un Program Board virtuel, Julian répliqua un véritable PI Planning Board virtuel sur Draft, celui-ci incluant un ordre du jour, un Program Board et une matrice ROAM de gestion des risques. Couplé aux fonctionnalités de visioconférence de Microsoft Teams, la collaboration trouvait désormais son prolongement naturel dans le monde virtuel.
@@ -1101,7 +1101,7 @@ ui-customer-story
 				“Afin que tous les collaborateurs aient l’opportunité de faire émerger des idées novatrices, je souhaite insuffler la philosophie Agile dans toutes les strates de l’organisation", clame Julien, tout en ayant bien conscience du challenge que cela représente dans une entreprise suisse-allemande à culture plutôt hiérarchique.
 			</p>
 			<p>
-				Outre le déploiement des valeurs Agiles, Julian souhaite utiliser Draft pour contourner les limites de Jira en matière de management visuel : “Je vais aider les équipes à construire leur propre artefact de management visuel, en particulier des  <a href="https://draft.io/example/kanban-board" class="text-link underline-over">Kanban boards</a> sur-mesure pleinement adaptés à leur workflow.”
+				Outre le déploiement des valeurs Agiles, Julian souhaite utiliser Draft pour contourner les limites de Jira en matière de management visuel : “Je vais aider les équipes à construire leur propre artefact de management visuel, en particulier des  <a href="https://draft.io/example/kanban-board" class="text-link advanced-underline-over"><span>Kanban</span> <span>boards</span></a> sur-mesure pleinement adaptés à leur workflow.”
 			</p>
 			------
 separateur-END
@@ -1184,7 +1184,7 @@ ui-customer-story
 
 			<h2>“To prevent ‘video conference fatigue,’ we had to find ways of using time and space differently.”</h2>
 			<p>
-				When the first COVID-19 lockdown occurred back in March, there were only three weeks to go before the next PI Planning. The pressure was on to find an immediate solution. But Maxime felt “it would be impossible to keep the full attention of participants during an all-day remote workshop. So to prevent <a href="https://medium.com/@alex.beauchet/zoom-fatigue-is-not-about-zoom-16c742ecea6" class="text-link underline-over">video conference fatigue</a>, we had to find ways of using time and space differently.” This led them to split their typical one-day PI Planning session into a series of several shorter meetings over a two-week period of time.
+				When the first COVID-19 lockdown occurred back in March, there were only three weeks to go before the next PI Planning. The pressure was on to find an immediate solution. But Maxime felt “it would be impossible to keep the full attention of participants during an all-day remote workshop. So to prevent <a href="https://medium.com/@alex.beauchet/zoom-fatigue-is-not-about-zoom-16c742ecea6" class="text-link advanced-underline-over"><span>video</span> <span>conference</span> <span>fatigue</span></a>, we had to find ways of using time and space differently.” This led them to split their typical one-day PI Planning session into a series of several shorter meetings over a two-week period of time.
 			</p>
 			<p>
 				Two weeks before the first of these shorter PI Planning meetings, features relevant to the next increment are now sent to project teams for consideration and estimation. Each team cuts these features into big user stories to identify the work required to deliver on them. Finally, the teams come together to collaborate on a Project Board, where the user stories are arranged along a simple timeline: sprint 1, sprint 2, sprint 3, and overtime.
@@ -1255,7 +1255,7 @@ ui-customer-story
 
 			<h2>“Pour prévenir le phénomène de fatigue communicationnelle, nous devions trouver une façon d’exploiter plus efficacement le temps et l’espace."</h2>
 			<p>
-				Quand le premier confinement fut imposé en mars, il ne restait que trois semaines à Maxime et son équipe pour préparer la prochaine session de PI Planning. Il leur fallait trouver rapidement une solution. Pour Maxime, “il aurait été impossible d’entretenir la pleine attention des participants au cours d’une journée entière d’ateliers à distance. Par conséquent, pour prévenir le phénomène de <a href="https://medium.com/@alex.beauchet/zoom-fatigue-is-not-about-zoom-16c742ecea6" class="text-link underline-over">fatigue communicationnelle</a>, nous devions trouver une façon d’exploiter plus efficacement le temps et l’espace.” Ils ont alors décidé d’éclater la journée traditionnelle de PI Planning en une série de courts ateliers, répartis sur une période de deux semaines.
+				Quand le premier confinement fut imposé en mars, il ne restait que trois semaines à Maxime et son équipe pour préparer la prochaine session de PI Planning. Il leur fallait trouver rapidement une solution. Pour Maxime, “il aurait été impossible d’entretenir la pleine attention des participants au cours d’une journée entière d’ateliers à distance. Par conséquent, pour prévenir le phénomène de <a href="https://medium.com/@alex.beauchet/zoom-fatigue-is-not-about-zoom-16c742ecea6" class="text-link advanced-underline-over"><span>fatigue</span> <span>communicationnelle</span></a>, nous devions trouver une façon d’exploiter plus efficacement le temps et l’espace.” Ils ont alors décidé d’éclater la journée traditionnelle de PI Planning en une série de courts ateliers, répartis sur une période de deux semaines.
 			</p>
 			<p>
 				Ainsi, deux semaines avant la session de PI Planning dans son nouveau format raccourci, les features envisagées pour le prochain incrément sont partagées aux équipes, qui les découpent en grosses user stories afin de les évaluer et de les estimer. Une fois ce travail terminé, chaque équipe présente son Project Board de l’incrément à venir. Les user stories y sont disposées suivant un axe horizontal temporel, avec pour colonnes : sprint 1, sprint 2, sprint 3 et au-delà.
@@ -1444,7 +1444,7 @@ ui-enterprise
 	partners
 		partner2
 			Supported by Europe’s largest hosting provider,<br />part of the <a class="unsecable text-link underline-over" href="https://startup.ovhcloud.com/en/">OVHcloud	Startup Program</a>.
-			Soutenu par OVH dans le cadre de l'<a class="unsecable text-link underline-over" href="https://startup.ovhcloud.com/en/">OVHcloud	Startup Program</a>
+			Soutenu par OVH dans le cadre de l'<a class="unsecable text-link underline-over" href="https://startup.ovhcloud.com/en/">OVHcloud Startup Program</a>
 		partner1
 			Member of France’s largest tech<br />professional corporation, <a class="unsecable text-link underline-over" href="https://syntec-numerique.fr/">Syntec Numerique</a>.
 			Membre du syndicat professionnel <a class="unsecable text-link underline-over" href="https://syntec-numerique.fr/">Syntec Numerique</a>.

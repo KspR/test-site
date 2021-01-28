@@ -3526,5 +3526,27 @@ body.example {
   width: 100%;
   left: 0; }
 
+.text-link.advanced-underline-over {
+  display: inline; }
+
+.text-link.advanced-underline-over span {
+  display: inline-block;
+  position: relative; }
+
+.text-link.advanced-underline-over:hover span::after {
+  width: calc(100%);
+  left: 0; }
+
+.text-link.advanced-underline-over span::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 1px;
+  border-bottom: 1px solid #1f5aa3;
+  transition: width 0.2s, left 0.2s; }
+
 .unsecable {
   white-space: nowrap; }
