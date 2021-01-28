@@ -221,7 +221,8 @@
       "ucs": {
         "story-mapping": {
           "title": "Story Mapping",
-          "text": "Prenez le recul nécessaire et construisez une compréhension commune des attentes de vos utilisateurs en cartographiant la structure narrative de leur parcours à travers votre produit."
+          "text": "Prenez le recul nécessaire et construisez une compréhension commune des attentes de vos utilisateurs en cartographiant la structure narrative de leur parcours à travers votre produit.",
+          "template": "user-story-mapping"
         },
         "scrum-board": {
           "title": "Scrum Board",

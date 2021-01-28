@@ -221,7 +221,8 @@
       "ucs": {
         "story-mapping": {
           "title": "Story Mapping",
-          "text": "Create a big picture of the user experience by mapping product requirements visually along a clean and cohesive narrative flow."
+          "text": "Create a big picture of the user experience by mapping product requirements visually along a clean and cohesive narrative flow.",
+          "template": "user-story-mapping"
         },
         "scrum-board": {
           "title": "Scrum Board",
@@ -392,10 +393,10 @@
     "cta": "Get started",
     "ph": "Enter your email",
     "detail": {
-      "if_1080": "Start your first draft today. Sign up for a Free plan.",
-      "if_not_1080": "Start your first draft today.<br />Sign up for a Free plan.",
-      "if-1080": "Start your first draft today. Sign up for a Free plan.",
-      "if-not-1080": "Start your first draft today.<br />Sign up for a Free plan."
+      "if_1080": "Start your first draft today. Sign up for a <a href=\"pricing\">Free plan</a>.",
+      "if_not_1080": "Start your first draft today.<br />Sign up for a <a href=\"pricing\">Free plan</a>.",
+      "if-1080": "Start your first draft today. Sign up for a <a href=\"pricing\">Free plan</a>.",
+      "if-not-1080": "Start your first draft today.<br />Sign up for a <a href=\"pricing\">Free plan</a>."
     }
   },
   "footer": {
