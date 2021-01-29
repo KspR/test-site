@@ -358,6 +358,14 @@
   background: #f1852b;
   transform: rotate(15deg);
 }
+.ui_enterprise .customer-story .wrapper .story-bloc .left-side .picto-deco {
+  position: relative;
+  color: white;
+  top: -40px;
+  left: 8px;
+  text-align: center;
+  font-size: 8rem;
+}
 .ui_enterprise .customer-story .wrapper .story-bloc .right-side {
   width: 100%;
   padding: 30px 40px 30px 0;
@@ -396,10 +404,10 @@
   opacity: 0.6;
 }
 .ui_enterprise .customer-story .wrapper .story-bloc .right-side .text-link {
-  margin-left: calc(100% - 180px);
+  margin-left: 0;
   margin-top: 30px;
-  display: block;
   text-align: left;
+  float: right;
 }
 .ui_enterprise .customer-story .wrapper .text-link {
   display: block;
