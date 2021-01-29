@@ -376,7 +376,7 @@
     margin-top: 40px;
   }
   .ui_customer-stories .customer-stories .wrapper .story-bloc .top-side {
-    height: 250px;
+    height: 190px;
   }
   .ui_customer-stories .customer-stories .wrapper .story-bloc .top-side .logo {
     padding: 12px 14px;
@@ -429,4 +429,4 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-}/*# sourceMappingURL=ui_customer-stories.css.map */
+}
