@@ -18,19 +18,24 @@
 
 	.ui-header.evoyageurs
 		&::before
-			background-image : url("../imgs/UI_Customer-story/evoyageurs/illustration_evoyageurs.jpg")
+			background-image : url("../imgs/UI_Customer-stories/evoyageurs/illustration_evoyageurs.jpg")
 			@media only screen and (max-width : 1390px)
 				background-position : 100% 102px
+				filter : grayscale(1)
+				opacity : .13
 	.ui-header.sympany
 		&::before
-			background-image : url("../imgs/UI_Customer-story/sympany/draft-business-case-sympany.png")
+			background-image : url("../imgs/UI_Customer-stories/sympany/draft-business-case-sympany.png")
 			@media only screen and (max-width : 1390px)
 				background-position : 100% 228px
+				filter : grayscale(1)
+				opacity : .13
 	.ui-header.transilien
 		&::before
-			background-image : url("../imgs/UI_Customer-story/transilien/Transilien-illustration-v3.png")
-			@media only screen and (max-width : 1680px)
-				background-position : 100% 190px
+			background-image : url("../imgs/UI_Customer-stories/transilien/Transilien-illustration-v3.png")
+			background-position : 120% 100%
+			@media only screen and (max-width : 1490px)
+				background-position : 115% 190px
 				filter : grayscale(1)
 				opacity : .13
 
@@ -60,9 +65,6 @@
 			background-position : center right
 			background-repeat : no-repeat
 			background-size : contain
-			@media only screen and (max-width : 1390px)
-				filter : grayscale(1)
-				opacity : .13
 
 		.main-info
 			position : relative

@@ -232,7 +232,7 @@
 				margin-left : 50px
 		
 		
-		@media only screen and (max-width : 768px)
+		@media only screen and (max-width : $phoneBreakpoint)
 			ul
 				display : block
 				padding : 0 10%
@@ -307,7 +307,7 @@
 				background : #ececec
 
 			
-			@media only screen and (max-width : 768px)
+			@media only screen and (max-width : $phoneBreakpoint)
 				.row
 					display : block
 				.feature
@@ -379,6 +379,13 @@
 						background : $orange
 						transform : rotate(15deg)
 					.picto-deco
+						position : relative
+						color : white
+						top : -40px
+						left : 8px
+						text-align : center
+						font-size : 8rem
+						.fas
 				.right-side
 					width : 100%
 					padding : 30px 40px 30px 0
@@ -410,10 +417,10 @@
 								font-size : .8em
 								opacity : .6
 					.text-link
-						margin-left : calc(100% - 180px)
+						margin-left : 0
 						margin-top : 30px
-						display : block
 						text-align : left
+						float : right
 						
 			.text-link
 				display : block
@@ -432,7 +439,7 @@
 						filter : grayscale(.5)
 						transform : rotate(90deg)
 		
-		@media only screen and (max-width : 768px)
+		@media only screen and (max-width : $phoneBreakpoint)
 			.wrapper
 				padding-top : 0
 
@@ -582,7 +589,7 @@
 
 		
 		
-	@media only screen and (max-width : 768px)
+	@media only screen and (max-width : $phoneBreakpoint)
 		.safety-features .wrapper
 			margin-top : 70px
 			width : 80vw
@@ -643,7 +650,7 @@
 				border-right : 1px solid rgba(0,0,0,.1)
 				margin : 0 70px
 		
-	@media only screen and (max-width : 768px)
+	@media only screen and (max-width : $phoneBreakpoint)
 		.credibility-labels
 			display : block
 
