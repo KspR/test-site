@@ -103,6 +103,26 @@ body > header.main-header .nav ul li {
   position: relative;
   margin: 0 15px;
 }
+body > header.main-header .nav ul li .neutral {
+  position: absolute;
+  left: 0;
+}
+body > header.main-header .nav ul li .cta .neutral {
+  left: 26px;
+}
+body > header.main-header .nav ul li.login .neutral {
+  left: 30px;
+}
+body > header.main-header .nav ul li .selected {
+  visibility: hidden;
+  font-weight: bold;
+}
+body > header.main-header .nav ul li.active .neutral {
+  visibility: hidden;
+}
+body > header.main-header .nav ul li.active .selected {
+  visibility: visible;
+}
 body > header.main-header .nav ul li .text-link {
   padding: 6px 0;
   color: white;
@@ -330,6 +350,4 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
   body.has-header > header.main-header .nav {
     height: 50px;
   }
-}/*# sourceMappingURL=DDS_draft-design-system.css.map */50px;
-  }
-}/*# sourceMappingURL=DDS_draft-design-system.css.map */
+}

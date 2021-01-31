@@ -46,6 +46,20 @@ body > header.main-header
 		li
 			position : relative
 			margin : 0 15px
+			.neutral
+				position : absolute
+				left : 0
+			.cta .neutral
+				left : 26px
+			&.login .neutral
+				left : 30px
+			.selected
+				visibility : hidden
+				font-weight : bold
+			&.active .neutral
+				visibility : hidden
+			&.active .selected
+				visibility : visible
 			.text-link
 				padding : 6px 0
 				color : white
