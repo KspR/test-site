@@ -3007,7 +3007,14 @@ body > div.footer .oblique .rotated-square {
 body > div.footer .footer-wrapper {
   position: relative;
   z-index: 1;
-  padding-bottom: 40px;
+  padding-bottom: 90px;
+}
+body > div.footer .copyright {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0.6;
+  font-size: 0.9em;
 }
 body > div.footer .socials {
   position: absolute;
