@@ -198,6 +198,14 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
     padding-left: 0;
     text-align: center;
   }
+  body > header.main-header .nav ul li.active .selected, body > header.main-header .nav ul li .selected {
+    display: none;
+  }
+  body > header.main-header .nav ul li.active .neutral, body > header.main-header .nav ul li .neutral {
+    display: block;
+    position: relative;
+    left: unset !important;
+  }
   body > header.main-header .nav ul li {
     position: relative;
     padding: 10px 20px;

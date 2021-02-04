@@ -192,6 +192,13 @@ body > header.main-header
 			background : #2A2A2A
 			padding-left : 0
 			text-align : center
+
+			li.active .selected, li .selected
+				display : none
+			li.active .neutral, li .neutral
+				display : block
+				position : relative
+				left : unset !important
 			
 			li
 				position : relative
