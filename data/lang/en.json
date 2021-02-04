@@ -575,9 +575,9 @@
       "logo-path": "imgs/UI_Customer-stories/evoyageurs/logo_evoyageurs.png",
       "logo-alt-text": "EVoyageurs SNCF logo",
       "portrait-path": "imgs/UI_Customer-stories/evoyageurs/anne-laure-jean.jpg",
-      "quote": "“Product owners needed a tool to help get a broader view of which user stories were truly needed to solve midterm product development questions” ",
+      "quote": "“Product owners needed a tool to help get a broader view of which user stories were truly needed to solve midterm product development questions.” ",
       "author": "Anne-Laure JEAN",
-      "status": "Product Manager at e-Voyageurs SNCF"
+      "status": "Product Manager at e.Voyageurs SNCF"
     },
     "customer-story-sympany": {
       "illustration-path": "imgs/UI_Customer-stories/sympany/2_Sympany_Program_Board_2019-06.JPG",
@@ -594,11 +594,11 @@
       "logo-alt-text": "Transilien logo",
       "portrait-path": "imgs/UI_Customer-stories/transilien/Logo_Transilien_SNCF.png",
       "quote": "“To prevent ‘video conference fatigue,’ we had to find ways of using time and space differently.” ",
-      "author": "Pierre WATIER",
-      "status": "Innovation & Agility Manager at SNCF"
+      "author": "Maxime BONNET",
+      "status": "Agile Coach at CGI"
     },
     "sharing-cta": {
-      "label": "Share my story",
+      "label": "Share my Story",
       "mail-object": "I want to share my story"
     }
   }

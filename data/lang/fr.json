@@ -567,7 +567,7 @@
   "ui-customer-stories": {
     "header": {
       "title": "Customer Stories",
-      "intro-text": "Découvrez comment Draft profite à ses utilisateurs !<br><br>Lorem ipsum plan ahead and formalize just what it takes to deliver great products in an uncertain and fast-moving environment."
+      "intro-text": "Découvrez comment le management visuel et la collaboration peuvent contribuer à résoudre vos problèmes organisationnels."
     },
     "customer-story-cta": "Découvrez la Customer Story",
     "customer-story-evoyageurs": {
@@ -575,16 +575,16 @@
       "logo-path": "imgs/UI_Customer-stories/evoyageurs/logo_evoyageurs.png",
       "logo-alt-text": "Logo eVoyageurs SNCF",
       "portrait-path": "imgs/UI_Customer-stories/evoyageurs/anne-laure-jean.jpg",
-      "quote": "“-”",
+      "quote": "“Les product owners avaient besoin d’un outil qui puisse les aider à acquérir une vision plus globale des enjeux”",
       "author": "Anne-Laure JEAN",
-      "status": "Product Manager chez e-Voyageurs SNCF"
+      "status": "Product Manager chez e.Voyageurs SNCF"
     },
     "customer-story-sympany": {
       "illustration-path": "imgs/UI_Customer-stories/sympany/2_Sympany_Program_Board_2019-06.JPG",
       "logo-path": "imgs/UI_Customer-stories/sympany/logo_sympany.png",
       "logo-alt-text": "Logo Sympany",
       "portrait-path": "imgs/UI_Customer-stories/sympany/Julian_Gerstacker.jpg",
-      "quote": "“Le PI Planning nous a amenés à définir des objectifs plus explicites, ce qui a mis en évidence les problèmes organisationnels et favorisé la responsabilisation des équipes quant à l’atteinte des résultats.”",
+      "quote": "“Le PI Planning nous a amenés à définir des objectifs plus explicites, ce qui a mis en évidence les problèmes organisationnels.”",
       "author": "Julian GERSTACKER",
       "status": "Agile Transformation Manager chez Sympany"
     },
@@ -594,8 +594,8 @@
       "logo-alt-text": "Logo Transilien",
       "portrait-path": "imgs/UI_Customer-stories/transilien/Logo_Transilien_SNCF.png",
       "quote": "“Pour prévenir le phénomène de fatigue communicationnelle, nous devions trouver une façon d’exploiter plus efficacement le temps et l’espace.”",
-      "author": "Pierre WATIER",
-      "status": "Responsable Innovation & Agilité chez SNCF"
+      "author": "Maxime BONNET",
+      "status": "Coach Agile chez CGI"
     },
     "sharing-cta": {
       "label": "Partager mon expérience",
