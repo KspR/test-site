@@ -152,12 +152,12 @@
 .ui_customer-stories .focus-customer-story .wrapper .story-bloc .right-side .customer-info .customer-details .name {
   display: block;
   font-size: 0.9em;
-  opacity: 0.7;
+  opacity: 0.75;
 }
 .ui_customer-stories .focus-customer-story .wrapper .story-bloc .right-side .customer-info .customer-details .status {
   display: block;
   font-size: 0.8em;
-  opacity: 0.6;
+  opacity: 0.75;
 }
 .ui_customer-stories .focus-customer-story .wrapper .story-bloc .right-side .text-link {
   margin-left: 0;
@@ -224,12 +224,12 @@
   }
   .ui_customer-stories .focus-customer-story .wrapper .story-bloc .right-side .customer-info .customer-details .name {
     font-size: 0.9em;
-    opacity: 0.7;
+    opacity: 0.75;
   }
   .ui_customer-stories .focus-customer-story .wrapper .story-bloc .right-side .customer-info .customer-details .status {
     display: block;
     font-size: 0.8em;
-    opacity: 0.6;
+    opacity: 0.75;
   }
   .ui_customer-stories .focus-customer-story .wrapper .story-bloc .right-side .text-link {
     margin-left: 0;
@@ -289,12 +289,12 @@
 .ui_customer-stories .customer-stories .wrapper .story-bloc .bottom-side .customer-details .name {
   display: block;
   font-size: 0.9em;
-  opacity: 0.7;
+  opacity: 0.75;
 }
 .ui_customer-stories .customer-stories .wrapper .story-bloc .bottom-side .customer-details .status {
   display: block;
   font-size: 0.85em;
-  opacity: 0.6;
+  opacity: 0.75;
 }
 .ui_customer-stories .customer-stories .wrapper .story-bloc .text-link {
   margin-left: 0;
@@ -340,6 +340,28 @@
   .ui_customer-stories .customer-stories .wrapper .story-bloc .top-side .logo img {
     height: 38px;
   }
+}
+.ui_customer-stories .cta-sharing {
+  text-align: center;
+}
+.ui_customer-stories .cta-sharing .cta {
+  display: inline-block;
+  margin-bottom: 90px;
+  margin-top: -50px;
+  padding: 10px 40px;
+  font-size: 1.2rem;
+}
+.ui_customer-stories .cta-sharing .cta .fas {
+  font-size: 0.7em;
+  margin-right: 10px;
+}
+.ui_customer-stories .cta-sharing .cta.round {
+  background: #3080e3;
+  border-color: #3080e3;
+}
+.ui_customer-stories .cta-sharing .cta.round:hover {
+  background: #1f5aa3;
+  border-color: #1f5aa3;
 }
 
 @media only screen and (max-width: 768px) {

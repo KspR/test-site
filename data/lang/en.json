@@ -567,7 +567,7 @@
   "ui-customer-stories": {
     "header": {
       "title": "Customer Stories",
-      "intro-text": "Discover how renowned companies drive better and faster outcomes with Draft through practical and applicable cases"
+      "intro-text": "Discover how visual management and creative collaboration can help you overcome organizational problems and product challenges."
     },
     "customer-story-cta": "Discover The Story",
     "customer-story-evoyageurs": {
@@ -596,6 +596,10 @@
       "quote": "“To prevent ‘video conference fatigue,’ we had to find ways of using time and space differently.” ",
       "author": "Pierre WATIER",
       "status": "Innovation & Agility Manager at SNCF"
+    },
+    "sharing-cta": {
+      "label": "Share my story",
+      "mail-object": "I want to share my story"
     }
   }
 }

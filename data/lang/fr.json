@@ -596,6 +596,10 @@
       "quote": "“Pour prévenir le phénomène de fatigue communicationnelle, nous devions trouver une façon d’exploiter plus efficacement le temps et l’espace.”",
       "author": "Pierre WATIER",
       "status": "Responsable Innovation & Agilité chez SNCF"
+    },
+    "sharing-cta": {
+      "label": "Partager mon expérience",
+      "mail-object": "Je souhaite partager mon histoire"
     }
   }
 }

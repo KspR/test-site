@@ -1461,7 +1461,7 @@ ui-customer-stories
 			Customer Stories
 		intro-text
 			------
-			Discover how renowned companies drive better and faster outcomes with Draft through practical and applicable cases
+			Discover how visual management and creative collaboration can help you overcome organizational problems and product challenges.
 			---
 			Découvrez comment Draft profite à ses utilisateurs !
 			<br><br>
@@ -1536,3 +1536,10 @@ ui-customer-stories
 		status
 			Innovation & Agility Manager at SNCF
 			Responsable Innovation & Agilité chez SNCF
+	sharing-cta
+		label
+			Share my story
+			Partager mon expérience
+		mail-object
+			I want to share my story
+			Je souhaite partager mon histoire
