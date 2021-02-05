@@ -2150,10 +2150,6 @@ body.lang-fr .vertice-create-example.example-lotus-blossom-technique .viewport-c
   background-image: image-url("tmp/2019-01/mini/fr/example-lotus-blossom-technique.png");
 }
 
-body.home, body.workflow, body.business-case, body.page-pricing {
-  overflow: overlay;
-}
-
 .page-login, .page-get-started {
   overflow: hidden;
 }
