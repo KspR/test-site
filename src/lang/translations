@@ -1457,13 +1457,13 @@ separateur-UI-CUSTOMER-STORIES
 ui-customer-stories
 	header
 		title
-			Our customers' road to success.
-			Customer Stories
+			Sharing stories to reach success, together
+			De véritables retours d’expérience pour réussir, ensemble
 		intro-text
 			------
-			Discover how visual management and creative collaboration can help you overcome organizational problems and product challenges.
+			Discover how visual management and transparent collaboration can help you overcome organizational problems and build products that people love.
 			---
-			Découvrez comment le management visuel et la collaboration peuvent contribuer à résoudre vos problèmes organisationnels.
+			Découvrez comment le management visuel et une collaboration transparente peuvent vous aider à instaurer l’organisation idéale et apporter un maximum de valeur à vos clients.
 			------
 	customer-story-cta
 		Discover The Story
@@ -1483,7 +1483,7 @@ ui-customer-stories
 			imgs/UI_Customer-stories/evoyageurs/anne-laure-jean.jpg
 		quote
 			“Product owners needed a tool to help get a broader view of which user stories were truly needed to solve midterm product development questions.” 
-			“Les product owners avaient besoin d’un outil qui puisse les aider à acquérir une vision plus globale des enjeux”
+			“Les product owners avaient besoin d’un outil qui puisse les aider à acquérir une vision plus globale des enjeux.”
 		author
 			Anne-Laure JEAN
 			Anne-Laure JEAN

@@ -566,8 +566,8 @@
   "separateur-UI-CUSTOMER-STORIES": "================================================================================ UI-CUSTOMER-STORIES",
   "ui-customer-stories": {
     "header": {
-      "title": "Customer Stories",
-      "intro-text": "Découvrez comment le management visuel et la collaboration peuvent contribuer à résoudre vos problèmes organisationnels."
+      "title": "De véritables retours d’expérience pour réussir, ensemble",
+      "intro-text": "Découvrez comment le management visuel et une collaboration transparente peuvent vous aider à instaurer l’organisation idéale et apporter un maximum de valeur à vos clients."
     },
     "customer-story-cta": "Découvrez la Customer Story",
     "customer-story-evoyageurs": {
@@ -575,7 +575,7 @@
       "logo-path": "imgs/UI_Customer-stories/evoyageurs/logo_evoyageurs.png",
       "logo-alt-text": "Logo eVoyageurs SNCF",
       "portrait-path": "imgs/UI_Customer-stories/evoyageurs/anne-laure-jean.jpg",
-      "quote": "“Les product owners avaient besoin d’un outil qui puisse les aider à acquérir une vision plus globale des enjeux”",
+      "quote": "“Les product owners avaient besoin d’un outil qui puisse les aider à acquérir une vision plus globale des enjeux.”",
       "author": "Anne-Laure JEAN",
       "status": "Product Manager chez e.Voyageurs SNCF"
     },
