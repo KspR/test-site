@@ -10,7 +10,7 @@
   padding: 0 5%;
 }
 .ui_customer-story .ui-header.evoyageurs::before {
-  background-image: url("../imgs/UI_Customer-stories/evoyageurs/illustration_evoyageurs.jpg");
+  background-image: url("../imgs/UI_Customer-stories/evoyageurs/illustration_evoyageurs.png");
 }
 @media only screen and (max-width: 1390px) {
   .ui_customer-story .ui-header.evoyageurs::before {

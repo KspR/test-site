@@ -714,4 +714,7 @@
   .home .home .bloc-av:nth-child(2n) .wrapper .bloc-text {
     padding: 0 1em 0 1em;
   }
+}) .wrapper .bloc-text {
+    padding: 0 1em 0 1em;
+  }
 }
