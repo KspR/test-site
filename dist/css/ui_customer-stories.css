@@ -265,20 +265,6 @@
 .ui_customer-stories .customer-stories .wrapper .story-bloc .top-side .illustration img {
   width: 100%;
 }
-.ui_customer-stories .customer-stories .wrapper .story-bloc .top-side .logo {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background: white;
-  padding: 12px 14px;
-  box-sizing: content-box;
-  border-radius: 0 5px 0 0;
-  overflow: hidden;
-}
-.ui_customer-stories .customer-stories .wrapper .story-bloc .top-side .logo img {
-  display: inline-block;
-  height: 32px;
-}
 .ui_customer-stories .customer-stories .wrapper .story-bloc .bottom-side {
   background: white;
   padding: 26px;
@@ -286,6 +272,21 @@
 .ui_customer-stories .customer-stories .wrapper .story-bloc .bottom-side blockquote {
   font-size: 1.1rem;
   margin-bottom: 10px;
+  min-height: 100px;
+}
+.ui_customer-stories .customer-stories .wrapper .story-bloc .bottom-side .medias {
+  margin: 20px 0 20px;
+}
+.ui_customer-stories .customer-stories .wrapper .story-bloc .bottom-side .medias .portrait {
+  display: inline-block;
+  height: 50px;
+  border-radius: 100%;
+  vertical-align: middle;
+}
+.ui_customer-stories .customer-stories .wrapper .story-bloc .bottom-side .medias .logo {
+  height: 40px;
+  margin-left: 20px;
+  vertical-align: middle;
 }
 .ui_customer-stories .customer-stories .wrapper .story-bloc .bottom-side .customer-details .name {
   display: block;
