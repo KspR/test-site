@@ -246,6 +246,9 @@
   }
   .home .bloc-features .features, .workflow .bloc-features .features {
     width: 1446px;
+    max-width: 100%;
+    display: flex;
+    padding: 0 30px;
   }
 
   .home .bloc-features .features {
@@ -494,14 +497,11 @@
   .workflow .uc .wrapper .text-container .text-wrapper .text, .home .uc .wrapper .text-container .text-wrapper .text {
     margin-bottom: 20px;
   }
-  .workflow .uc .wrapper .text-container .text-wrapper a, .home .uc .wrapper .text-container .text-wrapper a {
+  .workflow .uc .wrapper .text-container .text-wrapper a:not(.text-link), .home .uc .wrapper .text-container .text-wrapper a:not(.text-link) {
     color: #4fb2f0;
     text-decoration: none;
   }
-  .workflow .uc .wrapper .text-container .text-wrapper a:hover, .home .uc .wrapper .text-container .text-wrapper a:hover {
-    text-decoration: underline;
-  }
-  .workflow .uc .wrapper .text-container .text-wrapper a:visited, .home .uc .wrapper .text-container .text-wrapper a:visited {
+  .workflow .uc .wrapper .text-container .text-wrapper a:not(.text-link):visited, .home .uc .wrapper .text-container .text-wrapper a:not(.text-link):visited {
     color: #4fb2f0;
   }
   .workflow .uc:nth-child(2n+1) .wrapper .text-container, .home .uc:nth-child(2n+1) .wrapper .text-container {
@@ -713,7 +713,5 @@
   }
   .home .home .bloc-av:nth-child(2n) .wrapper .bloc-text {
     padding: 0 1em 0 1em;
-  }
-}g: 0 1em 0 1em;
   }
 }
