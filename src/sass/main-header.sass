@@ -44,6 +44,7 @@ body > header.main-header
 				font-size : .9rem
 		
 		li
+			white-space : nowrap
 			position : relative
 			margin : 0 15px
 			.neutral
@@ -56,10 +57,7 @@ body > header.main-header
 			.selected
 				visibility : hidden
 				font-weight : bold
-			&.active .neutral
-				visibility : hidden
-			&.active .selected
-				visibility : visible
+
 			.text-link
 				padding : 6px 0
 				color : white
@@ -193,13 +191,13 @@ body > header.main-header
 			padding-left : 0
 			text-align : center
 
-			li.active .selected, li .selected
+			li .selected
 				display : none
-			li.active .neutral, li .neutral
+			li .neutral
 				display : block
 				position : relative
 				left : unset !important
-			
+
 			li
 				position : relative
 				padding : 10px 20px
@@ -289,3 +287,20 @@ body > header.main-header
 	body.has-header > header.main-header
 		.nav
 			height : $mobileHeaderHeight
+
+
+$pages : pricing, enterprise, customer-stories, examples
+@each $page in $pages
+	.header-#{$page} .page-#{$page}-li
+		.neutral
+			visibility : hidden !important
+		.selected
+			visibility : visible !important
+
+		@media only screen and (max-width: $tabletBreakpoint)
+			.selected
+				display : none
+			.neutral
+				display : block
+				position : relative
+				left : unset !important

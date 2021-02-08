@@ -1,3 +1,25 @@
+cbwc
+	title
+		You need to come back with a computer to sign up.
+		Vous devez revenir avec un ordinateur pour utiliser l'application.
+	body
+		------
+		Draft relies on its performance and powerful features to help you work and collaborate efficiently.
+		<br /><br />
+		Unfortunately, using Draft on a mobile device can't provide you with a satisfying experience.
+		<br /><br />
+		As we seek to give you the best experience possible, we would be grateful if you could come back with a computer to sign up for Draft.
+		<br /><br />
+		In the meantime, you can keep browsing the website with your current device.
+		---
+		Veuillez nous excuser, Draft n'est pas optimisé pour une utilisation sur mobile. Nous vous invitons à vous connecter à Draft depuis votre PC.
+		<br /><br />
+		Pourquoi Draft n'est-il pas optimisé pour une utilisation sur mobile ?
+		<br /><br />
+		En tant qu'outil de bureautique, Draft vous offre un grand nombre de fonctionnalités et de possibilités d'utilisation qui, de notre point de vue, ne peuvent être utilisées de façon satisfaisante sur mobile. 
+		<br /><br />
+		C'est la raison pour laquelle notre priorité est de vous permettre de travailler rapidement et efficacement sur Draft depuis votre PC.
+		------
 hrefRoot
 	/
 	/fr/
@@ -182,7 +204,7 @@ pricing
 			a
 				------
 				The Team plan was designed to streamline collaboration and knowledge management across teams and organizations. Key features include: 
-				<ul style="margin-left:20px;margin-top:5px;margin-bottom:5px;">
+				<ul style="margin-left:20px;margin-top:5px;margin-bottom:5px;list-style:initial;">
 					<li>Shared Sync Folder System: Anyone in a team can create folders to share easily with each other or with outside stakeholders (i.e. freelancers, agencies, customers, etc.).</li>
 					<li>Rich User Roles: Assign the right roles to each user within your Draft team, including manager, content manager, contributor, and viewer.</li>
 				</ul>
@@ -736,17 +758,17 @@ register
 		Entrez votre email
 	detail
 		if_1080
-			Start your first draft today. Sign up for a <a href="pricing">Free plan</a>.
-			Notre plan gratuit est illimité dans le temps et vous donne accès à toutes les fonctionnalités du <a href="pricing">plan Pro</a>.
+			Start your first draft today. Sign up for a <a href="/pricing">Free plan</a>.
+			Notre plan gratuit est illimité dans le temps et vous donne accès à toutes les fonctionnalités du <a href="/fr/pricing">plan Pro</a>.
 		if_not_1080
-			Start your first draft today.<br />Sign up for a <a href="pricing">Free plan</a>.
-			Notre plan gratuit est illimité dans le temps<br />et vous donne accès à toutes les fonctionnalités du <a href="pricing">plan Pro</a>.
+			Start your first draft today.<br />Sign up for a <a href="/pricing">Free plan</a>.
+			Notre plan gratuit est illimité dans le temps<br />et vous donne accès à toutes les fonctionnalités du <a href="/fr/pricing">plan Pro</a>.
 		if-1080
-			Start your first draft today. Sign up for a <a href="pricing">Free plan</a>.
-			Notre plan gratuit est illimité dans le temps et vous donne accès à toutes les fonctionnalités du <a href="pricing">plan Pro</a>.
+			Start your first draft today. Sign up for a <a href="/pricing">Free plan</a>.
+			Notre plan gratuit est illimité dans le temps et vous donne accès à toutes les fonctionnalités du <a href="/fr/pricing">plan Pro</a>.
 		if-not-1080
-			Start your first draft today.<br />Sign up for a <a href="pricing">Free plan</a>.
-			Notre plan gratuit est illimité dans le temps<br />et vous donne accès à toutes les fonctionnalités du <a href="pricing">plan Pro</a>.
+			Start your first draft today.<br />Sign up for a <a href="/pricing">Free plan</a>.
+			Notre plan gratuit est illimité dans le temps<br />et vous donne accès à toutes les fonctionnalités du <a href="/fr/pricing">plan Pro</a>.
 footer
 	enterprise
 		Enterprise
@@ -1302,6 +1324,9 @@ ui-enterprise
 		cta
 			Contact sales
 			Contactez-nous
+		mail-subject
+			I want to contact sales
+			Je souhaite contacter votre équipe commerciale
 	screenshots-slider
 		slide1
 			Event Modelling by Emmanuel Lehmann, Coach DevOps Agile & Craft at Axa

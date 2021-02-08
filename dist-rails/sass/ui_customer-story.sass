@@ -18,18 +18,23 @@
 
 	.ui-header.evoyageurs
 		&::before
-			background-image : image-url("site/UI_Customer-story/evoyageurs/illustration_evoyageurs.png")
+			background-image : image-url("site/UI_Customer-stories/evoyageurs/illustration_evoyageurs.png")
 			@media only screen and (max-width : 1390px)
 				background-position : 100% 102px
+				filter : grayscale(1)
+				opacity : .13
 	.ui-header.sympany
 		&::before
-			background-image : image-url("site/UI_Customer-story/sympany/draft-business-case-sympany.png")
+			background-image : image-url("site/UI_Customer-stories/sympany/draft-business-case-sympany.png")
 			@media only screen and (max-width : 1390px)
 				background-position : 100% 228px
+				filter : grayscale(1)
+				opacity : .13
 	.ui-header.transilien
 		&::before
-			background-image : image-url("site/UI_Customer-story/transilien/Transilien-illustration-v3.png")
-			@media only screen and (max-width : 1680px)
+			background-image : image-url("site/UI_Customer-stories/transilien/Transilien-illustration-v3.png")
+			background-position : 100% 100%
+			@media only screen and (max-width : 1660px)
 				background-position : 100% 190px
 				filter : grayscale(1)
 				opacity : .13
@@ -60,9 +65,6 @@
 			background-position : center right
 			background-repeat : no-repeat
 			background-size : contain
-			@media only screen and (max-width : 1390px)
-				filter : grayscale(1)
-				opacity : .13
 
 		.main-info
 			position : relative
@@ -104,7 +106,7 @@
 							font-size : .9em
 						.status
 							margin-top : 2px
-							font-size : 0.85rem
+							font-size : 0.95rem
 							opacity : .7
 							display : block
 				.customer + .customer
@@ -161,12 +163,15 @@
 				margin-bottom : 50px
 				border-radius : 10px
 				&.intro
-					margin-top : -50px
+					top : -50px
 				&.left-sided
 					margin-left : -20px
 				&.right-sided
 					margin-right : -20px
 					float : right
+			
+			.illustration.intro + h2
+				margin-top : -50px
 			
 			h2, & > p, ol
 				padding : 0 15%
@@ -206,7 +211,7 @@
 						font-size : 1.1rem
 					.status
 						margin-top : 4px
-						font-size : 0.9rem
+						font-size : 1rem
 						opacity : .7
 						display : block
 
@@ -256,6 +261,7 @@
 				margin-left : 0
 				.wrapper
 					display : block
+					padding : 0 30px
 					.logo
 						margin : 0 auto
 						display : block
@@ -268,7 +274,7 @@
 
 				.customers
 					display : block
-					margin-top : 60px
+					margin : 60px auto 0
 					.customer, .customer + .customer
 						width : 90%
 						margin : 0 0 20px 5%
@@ -277,7 +283,6 @@
 							margin-left : 20px
 							.status
 								margin-top : 2px
-								font-size : 0.9rem
 								opacity : .85
 					.customer + .customer
 						margin-top : 20px

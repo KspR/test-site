@@ -53,7 +53,11 @@
 		<ul>
 			<li>
 				<div class="toggle-wrapper text-link">
-					<div class="toggle">Workflows <i class="fas fa-chevron-down"></i></div>
+					<div class="toggle">
+						<!-- Workflows <i class="fas fa-chevron-down"></i> -->
+						<span class="selected">Workflows <i class="fas fa-chevron-down"></i></span>
+						<span class="neutral">Workflows <i class="fas fa-chevron-down"></i></span>
+					</div>
 					<ul class="menu">
 						<li><a class="text-link" href="/agile-project-management">Agile Project Management</a></li>
 						<li><a class="text-link" href="/product-management">Product Management</a></li>
@@ -61,12 +65,37 @@
 					</ul>
 				</div>
 			</li>
-			<li><a class="text-link" href="/enterprise">Enterprise</a></li>
-			<li><a class="text-link" href="/customer-stories/sncf-transforming-customer-experience-with-user-story-mapping">Customer stories</a></li>
-			<li><a class="text-link" href="/examples">Examples</a></li>
-			<li><a class="text-link" href="/pricing">Pricing</a></li>
-			<li class="login"><a class="text-link" href="/login">Sign in</a></li>
-			<li class="signup"><a class="cta" href="/get-started">Sign up</a></li>
+			<li class="page-enterprise-li"><a class="text-link" href="/enterprise">
+				<!-- Enterprise -->
+				<span class="selected">Enterprise</span>
+				<span class="neutral">Enterprise</span>
+			</a></li>
+			<li class="page-customer-stories-li"><a class="text-link" href="/customer-stories/sncf-transforming-customer-experience-with-user-story-mapping">
+				<!-- Customer stories -->
+				<span class="selected">Customer stories</span>
+				<span class="neutral">Customer stories</span>
+			</a></li>
+			<li class="page-examples-li"><a class="text-link" href="/examples">
+				<!-- Examples -->
+				<span class="selected">Examples</span>
+				<span class="neutral">Examples</span>
+			</a></li>
+			<li class="page-pricing-li"><a class="text-link" href="/pricing">
+				<!-- Pricing -->
+				<span class="selected">Pricing</span>
+				<span class="neutral">Pricing</span>
+			</a></li>
+			<li class="login"><a class="text-link" href="/login">
+				<!-- Sign in -->
+				<span class="selected">Sign in</span>
+				<span class="neutral">Sign in</span>
+
+			</a></li>
+			<li class="signup"><a class="cta" href="/get-started">
+				<!-- Sign up -->
+				<span class="selected">Sign up</span>
+				<span class="neutral">Sign up</span>
+			</a></li>
 		</ul>
 
 		<!-- <a class="fav" href="/">d</a> -->
@@ -93,10 +122,10 @@
 		</div>
 	</div>
 	<div class="if-1080">
-		<div class="detail">Start your first draft today. Sign up for a <a href="pricing">Free plan</a>.</div>
+		<div class="detail">Start your first draft today. Sign up for a <a href="/pricing">Free plan</a>.</div>
 	</div>
 	<div class="if-not-1080">
-		<div class="detail">Start your first draft today.<br />Sign up for a <a href="pricing">Free plan</a>.</div>
+		<div class="detail">Start your first draft today.<br />Sign up for a <a href="/pricing">Free plan</a>.</div>
 	</div>
 </form>
 			</div>
@@ -162,19 +191,19 @@
 			<div class="workflows">
 					<div class="workflow scrum-master">
 							<div class="illu"></div>
-							<div class="label">agile-project-management</div>
+							<div class="label">Agile Project Management</div>
 							<div class="detail">For Scrum Masters and Product Owners responsible for maintaining streamlined processes and running virtual ceremonies.</div>
 							<a href="agile-project-management">Learn more →</a>
 					</div>
 					<div class="workflow product-manager">
 							<div class="illu"></div>
-							<div class="label">product-management</div>
+							<div class="label">Product Management</div>
 							<div class="detail">For Product Managers, Designers, and Development Engineers in charge of building innovative products.</div>
 							<a href="product-management">Learn more →</a>
 					</div>
 					<div class="workflow knowledge-worker">
 							<div class="illu"></div>
-							<div class="label">everyday-knowledge-work</div>
+							<div class="label">Everyday Creative Work</div>
 							<div class="detail">For anyone requiring a more visual, collaborative, and nonlinear way to tackle everyday creative challenges.</div>
 							<a href="everyday-knowledge-work">Learn more →</a>
 					</div>
@@ -238,10 +267,10 @@
 		</div>
 	</div>
 	<div class="if-1080">
-		<div class="detail">Start your first draft today. Sign up for a <a href="pricing">Free plan</a>.</div>
+		<div class="detail">Start your first draft today. Sign up for a <a href="/pricing">Free plan</a>.</div>
 	</div>
 	<div class="if-not-1080">
-		<div class="detail">Start your first draft today.<br />Sign up for a <a href="pricing">Free plan</a>.</div>
+		<div class="detail">Start your first draft today.<br />Sign up for a <a href="/pricing">Free plan</a>.</div>
 	</div>
 </form>
 	<!-- <a class="cta-border cta-border-darkblue" style="margin-left:40px;" href="/agile_project_management">Discover how Scrum Masters use Draft</a> -->
@@ -295,6 +324,10 @@
 		<div class="socials">
 			<a href="/" class="logo"></a>
 			<a href="https://linkedin.com/company/draft-io" class="linkedin" target="_blank"></a>
+		</div>
+
+		<div class="copyright">
+			Copyright © 2019 - 2021 • Draft SAS
 		</div>
 	</div>
 

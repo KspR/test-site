@@ -1,4 +1,8 @@
 {
+  "cbwc": {
+    "title": "You need to come back with a computer to sign up.",
+    "body": "Draft relies on its performance and powerful features to help you work and collaborate efficiently.<br /><br />Unfortunately, using Draft on a mobile device can't provide you with a satisfying experience.<br /><br />As we seek to give you the best experience possible, we would be grateful if you could come back with a computer to sign up for Draft.<br /><br />In the meantime, you can keep browsing the website with your current device."
+  },
   "hrefRoot": "/",
   "code": "en",
   "verbose": "English",
@@ -94,7 +98,7 @@
       },
       "q6": {
         "q": "I want to use Draft for my team. What does the Team plan include?",
-        "a": "The Team plan was designed to streamline collaboration and knowledge management across teams and organizations. Key features include: <ul style=\"margin-left:20px;margin-top:5px;margin-bottom:5px;\"><li>Shared Sync Folder System: Anyone in a team can create folders to share easily with each other or with outside stakeholders (i.e. freelancers, agencies, customers, etc.).</li><li>Rich User Roles: Assign the right roles to each user within your Draft team, including manager, content manager, contributor, and viewer.</li></ul>The Draft sync folder sharing system for teams is just as convenient and easy-to-use as other common file sharing tools like Dropbox or Google Drive. "
+        "a": "The Team plan was designed to streamline collaboration and knowledge management across teams and organizations. Key features include: <ul style=\"margin-left:20px;margin-top:5px;margin-bottom:5px;list-style:initial;\"><li>Shared Sync Folder System: Anyone in a team can create folders to share easily with each other or with outside stakeholders (i.e. freelancers, agencies, customers, etc.).</li><li>Rich User Roles: Assign the right roles to each user within your Draft team, including manager, content manager, contributor, and viewer.</li></ul>The Draft sync folder sharing system for teams is just as convenient and easy-to-use as other common file sharing tools like Dropbox or Google Drive. "
       },
       "q7": {
         "q": "What is an ‘admin’ in a Team plan?",
@@ -393,10 +397,10 @@
     "cta": "Get started",
     "ph": "Enter your email",
     "detail": {
-      "if_1080": "Start your first draft today. Sign up for a <a href=\"pricing\">Free plan</a>.",
-      "if_not_1080": "Start your first draft today.<br />Sign up for a <a href=\"pricing\">Free plan</a>.",
-      "if-1080": "Start your first draft today. Sign up for a <a href=\"pricing\">Free plan</a>.",
-      "if-not-1080": "Start your first draft today.<br />Sign up for a <a href=\"pricing\">Free plan</a>."
+      "if_1080": "Start your first draft today. Sign up for a <a href=\"/pricing\">Free plan</a>.",
+      "if_not_1080": "Start your first draft today.<br />Sign up for a <a href=\"/pricing\">Free plan</a>.",
+      "if-1080": "Start your first draft today. Sign up for a <a href=\"/pricing\">Free plan</a>.",
+      "if-not-1080": "Start your first draft today.<br />Sign up for a <a href=\"/pricing\">Free plan</a>."
     }
   },
   "footer": {
@@ -478,7 +482,8 @@
     "bloc-landing": {
       "title": "Draft for Enterprise",
       "punchline": "An ideal digital collaboration layer for empowering deep innovative thinking,<br />improving group decision-making, and tracking progress visually.",
-      "cta": "Contact sales"
+      "cta": "Contact sales",
+      "mail-subject": "I want to contact sales"
     },
     "screenshots-slider": {
       "slide1": "Event Modelling by Emmanuel Lehmann, Coach DevOps Agile & Craft at Axa",

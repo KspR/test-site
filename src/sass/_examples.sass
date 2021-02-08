@@ -209,14 +209,14 @@ body.examples
 =preview($name, $lang)
   body.example.lang-#{$lang}
     .screenshot.#{$name}
-      background-image : url("../imgs/examples/example-user-story-mapping.png")
+      background-image : url("../imgs/examples/#{$lang}/full/example-#{$name}.png")
 
   body.lang-#{$lang} .home.panel, body.examples.lang-#{$lang}
     .entry.#{$name} .preview
-      background-image : image-url("tmp/2019-01/mini/#{$lang}/example-#{$name}.png")
+      background-image : url("../imgs/examples/#{$lang}/mini/example-#{$name}.png")
 
     .full.#{$name}
-      background-image : image-url("tmp/2019-01/#{$lang}/example-#{$name}.png")
+      background-image : url("../imgs/examples/#{$lang}/full/example-#{$name}.png")
       background-size : contain
       background-repeat : no-repeat
       background-position : center
@@ -276,4 +276,9 @@ body.examples
   +preview(planning-poker, $lang)
   +preview(extreme-quotation, $lang)
   +preview(niko-niko-calendar, $lang)
+  +preview(roam-board, $lang)
+  +preview(the-go-product-roadmap, $lang)
+  +preview(portfolio-kanban, $lang)
+  +preview(pi-planning-board, $lang)
+  +preview(three-little-pigs-retrospective, $lang)
   +preview(lotus-blossom-technique, $lang)

@@ -40,7 +40,7 @@
 			
 			{{{includes.css}}}
 	</head>
-	<body class="dark has-header example lang-fr has-header"><!-- lang-code -->
+	<body class="dark has-header example lang-fr has-header header-examples"><!-- lang-code -->
 		<!-- PRODONLY
 		<% if JSON_CONFIG["google-tag-manager"] %>
 			<%= render "partials/google_tag_manager_body" %>
@@ -101,7 +101,12 @@
 						</div>
 					</div>
 				</div>
-				<div class="screenshot user-story-mapping"></div>
+				<!-- TESTONLY -->
+				<img class="screenshot" src="./imgs/examples/{{{lang.code}}}/full/example-user-story-mapping.png" />
+				<!-- ENDTESTONLY -->
+				<!-- PRODONLY
+				<img class="screenshot" src="<%= image_path("site/examples/{{{lang.code}}}/full/example-" + @example["id"] + ".png") %>" alt="<%= @example["label"] %> example" />
+				END -->
 				<div class="bloc-bottom">
 					<a class="previous" href="<%= @previous_href %>">
 						<!-- TESTONLY -->
@@ -122,6 +127,8 @@
 				</div>
 			</div>
 		</div>
+
+	<script src="https://kit.fontawesome.com/6b4515f4ac.js" crossorigin="anonymous"></script>
 
 	<script>
 	if (

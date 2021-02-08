@@ -1,3 +1,6 @@
+<!-- PRODONLY
+<% @workflow = 'product-management' %>
+END -->
 	<html lang="en">
 		<head>
 			<!-- PRODONLY
@@ -61,9 +64,9 @@
 		</span>
 	</label>
 	<nav class="nav">
-		<a class="logo text-link" href="/"><img src="imgs/logo-diag-orange-plus-text.png" alt="Logo Draft"></a>
+		<a class="logo text-link" href="/"><img src="./imgs/logo-diag-orange-plus-text.png" alt="Logo Draft"></a>
 		<ul>
-			<li class="">
+			<li>
 				<div class="toggle-wrapper text-link">
 					<div class="toggle">
 						<!-- Workflows <i class="fas fa-chevron-down"></i> -->
@@ -77,22 +80,22 @@
 					</ul>
 				</div>
 			</li>
-			<li class=""><a class="text-link" href="/enterprise">
+			<li class="page-enterprise-li"><a class="text-link" href="/enterprise">
 				<!-- Enterprise -->
 				<span class="selected">Enterprise</span>
 				<span class="neutral">Enterprise</span>
 			</a></li>
-			<li class="active"><a class="text-link" href="/customer-stories/sncf-transforming-customer-experience-with-user-story-mapping">
+			<li class="page-customer-stories-li"><a class="text-link" href="/customer-stories/sncf-transforming-customer-experience-with-user-story-mapping">
 				<!-- Customer stories -->
 				<span class="selected">Customer stories</span>
 				<span class="neutral">Customer stories</span>
 			</a></li>
-			<li class=""><a class="text-link" href="/examples">
+			<li class="page-examples-li"><a class="text-link" href="/examples">
 				<!-- Examples -->
 				<span class="selected">Examples</span>
 				<span class="neutral">Examples</span>
 			</a></li>
-			<li class=""><a class="text-link" href="/pricing">
+			<li class="page-pricing-li"><a class="text-link" href="/pricing">
 				<!-- Pricing -->
 				<span class="selected">Pricing</span>
 				<span class="neutral">Pricing</span>
@@ -143,7 +146,7 @@
 											<div class="title">Product Discovery</div>
 											<div class="text">Collect market and competitive intelligence and then turn it into actionable knowledge that can guide decisions around if, why, and how you should develop your next product.</div>
 											<div class="if-1080">
-													<a class="text-link" href="/example/product-discovery">
+													<a class="text-link" href="example/product-discovery">
 													Discover this example <i class="fas fa-long-arrow-alt-right"></i>
 												</a>
 											</div>
@@ -161,7 +164,7 @@
 											<div class="title">Product Discovery</div>
 											<div class="text">Collect market and competitive intelligence and then turn it into actionable knowledge that can guide decisions around if, why, and how you should develop your next product.</div>
 											<div class="if-1080">
-													<a href="/example/product-discovery">
+													<a href="example/product-discovery">
 													Discover this example →
 												</a>
 											</div>
@@ -180,7 +183,7 @@
 											<div class="title">Prioritization Frameworks</div>
 											<div class="text">Address risks early-on and make smarter long-term product development decisions with Draft’s customizable prioritization frameworks.</div>
 											<div class="if-1080">
-													<a class="text-link" href="/example/defining-and-prioritizing-hypothesis-statements">
+													<a class="text-link" href="example/defining-and-prioritizing-hypothesis-statements">
 													Discover this example <i class="fas fa-long-arrow-alt-right"></i>
 												</a>
 											</div>
@@ -198,7 +201,7 @@
 											<div class="title">Prioritization Frameworks</div>
 											<div class="text">Address risks early-on and make smarter long-term product development decisions with Draft’s customizable prioritization frameworks.</div>
 											<div class="if-1080">
-													<a href="/example/defining-and-prioritizing-hypothesis-statements">
+													<a href="example/defining-and-prioritizing-hypothesis-statements">
 													Discover this example →
 												</a>
 											</div>
@@ -217,7 +220,7 @@
 											<div class="title">User Flow</div>
 											<div class="text">Build user-centric product experiences from the very start with flexible and visual user flows that enable real-time communication and collaboration across product teams.</div>
 											<div class="if-1080">
-													<a class="text-link" href="/example/user-flow">
+													<a class="text-link" href="example/user-flow">
 													Discover this example <i class="fas fa-long-arrow-alt-right"></i>
 												</a>
 											</div>
@@ -235,7 +238,7 @@
 											<div class="title">User Flow</div>
 											<div class="text">Build user-centric product experiences from the very start with flexible and visual user flows that enable real-time communication and collaboration across product teams.</div>
 											<div class="if-1080">
-													<a href="/example/user-flow">
+													<a href="example/user-flow">
 													Discover this example →
 												</a>
 											</div>
@@ -254,7 +257,7 @@
 											<div class="title">Product Roadmap</div>
 											<div class="text">Establish a central place where a product’s vision, strategic goals, and other relevant information can be stored and easily shared with all key stakeholders.</div>
 											<div class="if-1080">
-													<a class="text-link" href="/example/product-roadmap">
+													<a class="text-link" href="example/product-roadmap">
 													Discover this example <i class="fas fa-long-arrow-alt-right"></i>
 												</a>
 											</div>
@@ -272,7 +275,7 @@
 											<div class="title">Product Roadmap</div>
 											<div class="text">Establish a central place where a product’s vision, strategic goals, and other relevant information can be stored and easily shared with all key stakeholders.</div>
 											<div class="if-1080">
-													<a href="/example/product-roadmap">
+													<a href="example/product-roadmap">
 													Discover this example →
 												</a>
 											</div>
@@ -324,10 +327,10 @@
 		</div>
 	</div>
 	<div class="if-1080">
-		<div class="detail">Start your first draft today. Sign up for a <a href="pricing">Free plan</a>.</div>
+		<div class="detail">Start your first draft today. Sign up for a <a href="/pricing">Free plan</a>.</div>
 	</div>
 	<div class="if-not-1080">
-		<div class="detail">Start your first draft today.<br />Sign up for a <a href="pricing">Free plan</a>.</div>
+		<div class="detail">Start your first draft today.<br />Sign up for a <a href="/pricing">Free plan</a>.</div>
 	</div>
 </form>
 	<!-- <a class="cta-border cta-border-darkblue" style="margin-left:40px;" href="/agile_project_management">Discover how Scrum Masters use Draft</a> -->
