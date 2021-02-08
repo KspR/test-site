@@ -18,9 +18,6 @@
 @import colors.sass
 @import _examples.sass
 
-body.home, body.workflow, body.business-case, body.page-pricing
-	overflow : overlay
-
 .page-login, .page-get-started
 	overflow : hidden
 
@@ -811,7 +808,14 @@ body
 		.footer-wrapper
 			position : relative
 			z-index : 1
-			padding-bottom : 40px
+			padding-bottom : 90px
+
+		.copyright
+			position : absolute
+			bottom : 0
+			left : 0
+			opacity : .6
+			font-size : .9em
 
 		.socials
 			position : absolute

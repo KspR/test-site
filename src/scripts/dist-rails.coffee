@@ -4,7 +4,7 @@ files = fs.readdirSync('./dist')
 files.forEach((file) ->
 	if /html$/.exec(file)
 		str = fs.readFileSync('./dist/' + file).toString()
-		str = str.replace(/src=("|')([^'"]*)("|')/g, (str, _, capture) ->
+		str = str.replace(/src=("|')([^<][^'"]*)("|')/g, (str, _, capture) ->
 			if !/^http/.exec capture
 				path = 'site/' + capture.replace('./', '').replace('imgs/', '')
 				'src="<%= image_path("' + path + '") %>"'
@@ -13,7 +13,7 @@ files.forEach((file) ->
 		)
 		str = str.replace(/<!-- BEGINCSS -->(.|\n)*<!-- ENDCSS -->/, '<%= stylesheet_link_tag "portal" %>')
 		str = str.replace(/<!-- PRODONLY/g, '').replace(/END -->/g, '')
-		str = str.replace(/<!-- TESTONLY(.|\n)*?ENDTESTONLY -->/g, '')
+		str = str.replace(/<!-- TESTONLY(.|\n)*?ENDTESTONLY -->/g, '')	
 		fs.writeFileSync('./dist-rails/' + file + '.erb', str)
 )
 

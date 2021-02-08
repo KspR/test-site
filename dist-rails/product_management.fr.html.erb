@@ -35,7 +35,7 @@
 			
 
 		</head>
-		<body class="dark has-header workflow product-management">
+		<body class="has-header workflow product-management">
 			
 			<% if JSON_CONFIG["google-tag-manager"] %>
 				<%= render "partials/google_tag_manager_body" %>
@@ -58,7 +58,11 @@
 		<ul>
 			<li>
 				<div class="toggle-wrapper text-link">
-					<div class="toggle">Workflows <i class="fas fa-chevron-down"></i></div>
+					<div class="toggle">
+						<!-- Workflows <i class="fas fa-chevron-down"></i> -->
+						<span class="selected">Workflows <i class="fas fa-chevron-down"></i></span>
+						<span class="neutral">Workflows <i class="fas fa-chevron-down"></i></span>
+					</div>
 					<ul class="menu">
 						<li><a class="text-link" href="/fr/agile-project-management">Gestion de projet Agile</a></li>
 						<li><a class="text-link" href="/fr/product-management">Product Management</a></li>
@@ -66,12 +70,37 @@
 					</ul>
 				</div>
 			</li>
-			<li><a class="text-link" href="/fr/enterprise">Entreprise</a></li>
-			<li><a class="text-link" href="/fr/customer-stories/sncf-transforming-customer-experience-with-user-story-mapping">Customer stories</a></li>
-			<li><a class="text-link" href="/fr/examples">Exemples</a></li>
-			<li><a class="text-link" href="/fr/pricing">Offres</a></li>
-			<li class="login"><a class="text-link" href="/fr/login">Se connecter</a></li>
-			<li class="signup"><a class="cta" href="/fr/get-started">S'inscrire</a></li>
+			<li class="page-enterprise-li"><a class="text-link" href="/fr/enterprise">
+				<!-- Entreprise -->
+				<span class="selected">Entreprise</span>
+				<span class="neutral">Entreprise</span>
+			</a></li>
+			<li class="page-customer-stories-li"><a class="text-link" href="/fr/customer-stories/sncf-transforming-customer-experience-with-user-story-mapping">
+				<!-- Customer stories -->
+				<span class="selected">Customer stories</span>
+				<span class="neutral">Customer stories</span>
+			</a></li>
+			<li class="page-examples-li"><a class="text-link" href="/fr/examples">
+				<!-- Exemples -->
+				<span class="selected">Exemples</span>
+				<span class="neutral">Exemples</span>
+			</a></li>
+			<li class="page-pricing-li"><a class="text-link" href="/fr/pricing">
+				<!-- Offres -->
+				<span class="selected">Offres</span>
+				<span class="neutral">Offres</span>
+			</a></li>
+			<li class="login"><a class="text-link" href="/fr/login">
+				<!-- Se connecter -->
+				<span class="selected">Se connecter</span>
+				<span class="neutral">Se connecter</span>
+
+			</a></li>
+			<li class="signup"><a class="cta" href="/fr/get-started">
+				<!-- S'inscrire -->
+				<span class="selected">S'inscrire</span>
+				<span class="neutral">S'inscrire</span>
+			</a></li>
 		</ul>
 
 		<!-- <a class="fav" href="/">d</a> -->
@@ -107,8 +136,8 @@
 											<div class="title">Product Discovery</div>
 											<div class="text">Collectez de l’information au sujet de votre marché, vos utilisateurs et vos concurrents. Transformez ces informations hétérogènes en connaissance décisive pour déterminer si oui, pourquoi et comment votre produit doit être développé.</div>
 											<div class="if-1080">
-													<a href="example/product-discovery">
-													Découvrez cet exemple →
+													<a class="text-link" href="example/product-discovery">
+													Découvrez cet exemple <i class="fas fa-long-arrow-alt-right"></i>
 												</a>
 											</div>
 										</div>
@@ -144,8 +173,8 @@
 											<div class="title">Table des Hypothèses</div>
 											<div class="text">Utilisez Draft pour travailler sur divers cadres de priorisation, traiter les risques identifiés en amont et, in fine, prendre de meilleures décisions.</div>
 											<div class="if-1080">
-													<a href="example/defining-and-prioritizing-hypothesis-statements">
-													Découvrez cet exemple →
+													<a class="text-link" href="example/defining-and-prioritizing-hypothesis-statements">
+													Découvrez cet exemple <i class="fas fa-long-arrow-alt-right"></i>
 												</a>
 											</div>
 										</div>
@@ -181,8 +210,8 @@
 											<div class="title">Parcours Utilisateur</div>
 											<div class="text">Cartographiez les trajets de vos utilisateurs et projetez-vous dans leur expérience tout en favorisant la communication au sein de votre équipe.</div>
 											<div class="if-1080">
-													<a href="example/user-flow">
-													Découvrez cet exemple →
+													<a class="text-link" href="example/user-flow">
+													Découvrez cet exemple <i class="fas fa-long-arrow-alt-right"></i>
 												</a>
 											</div>
 										</div>
@@ -218,8 +247,8 @@
 											<div class="title">Roadmap Produit</div>
 											<div class="text">Établissez votre stratégie produit et ancrez vos objectifs stratégiques sur un support qui s’adapte à votre vision, puis partagez votre roadmap produit avec toutes les parties prenantes concernées.</div>
 											<div class="if-1080">
-													<a href="example/product-roadmap">
-													Découvrez cet exemple →
+													<a class="text-link" href="example/product-roadmap">
+													Découvrez cet exemple <i class="fas fa-long-arrow-alt-right"></i>
 												</a>
 											</div>
 										</div>
@@ -345,6 +374,10 @@
 		<div class="socials">
 			<a href="/" class="logo"></a>
 			<a href="https://linkedin.com/company/draft-io" class="linkedin" target="_blank"></a>
+		</div>
+
+		<div class="copyright">
+			Copyright © 2019 - 2021 • Draft SAS
 		</div>
 	</div>
 

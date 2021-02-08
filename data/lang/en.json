@@ -571,8 +571,8 @@
   "separateur-UI-CUSTOMER-STORIES": "================================================================================ UI-CUSTOMER-STORIES",
   "ui-customer-stories": {
     "header": {
-      "title": "Customer Stories",
-      "intro-text": "Discover how renowned companies drive better and faster outcomes with Draft through practical and applicable cases"
+      "title": "Sharing stories to reach success, together",
+      "intro-text": "Discover how visual management and transparent collaboration can help you overcome organizational problems and build products that people love."
     },
     "customer-story-cta": "Discover The Story",
     "customer-story-evoyageurs": {
@@ -580,9 +580,9 @@
       "logo-path": "imgs/UI_Customer-stories/evoyageurs/logo_evoyageurs.png",
       "logo-alt-text": "EVoyageurs SNCF logo",
       "portrait-path": "imgs/UI_Customer-stories/evoyageurs/anne-laure-jean.jpg",
-      "quote": "“Product owners needed a tool to help get a broader view of which user stories were truly needed to solve midterm product development questions” ",
+      "quote": "“Product owners needed a tool to help get a broader view of which user stories were truly needed to solve midterm product development questions.” ",
       "author": "Anne-Laure JEAN",
-      "status": "Product Manager at e-Voyageurs SNCF"
+      "status": "Product Manager at e.Voyageurs SNCF"
     },
     "customer-story-sympany": {
       "illustration-path": "imgs/UI_Customer-stories/sympany/2_Sympany_Program_Board_2019-06.JPG",
@@ -597,10 +597,14 @@
       "illustration-path": "imgs/UI_Customer-stories/transilien/2_IMG_0046.JPG\"",
       "logo-path": "imgs/UI_Customer-stories/transilien/Logo_Transilien_SNCF.png",
       "logo-alt-text": "Transilien logo",
-      "portrait-path": "imgs/UI_Customer-stories/transilien/Logo_Transilien_SNCF.png",
+      "portrait-path": "imgs/UI_Customer-stories/transilien/Maxime_Bonnet_photo_profil.jfif",
       "quote": "“To prevent ‘video conference fatigue,’ we had to find ways of using time and space differently.” ",
-      "author": "Pierre WATIER",
-      "status": "Innovation & Agility Manager at SNCF"
+      "author": "Maxime BONNET",
+      "status": "Agile Coach at CGI"
+    },
+    "sharing-cta": {
+      "label": "Share my Story",
+      "mail-object": "I want to share my story"
     }
   }
 }

@@ -16,37 +16,7 @@
 	// SECTION HEADER
 	// --------------------------------------------------------------
 
-	.ui-header.evoyageurs
-		&::before
-			background-image : url("../imgs/UI_Customer-story/evoyageurs/illustration_evoyageurs.jpg")
-			@media only screen and (max-width : 1390px)
-				background-position : 100% 102px
-				filter : grayscale(1)
-				opacity : .13
-	.ui-header.sympany
-		&::before
-			background-image : url("../imgs/UI_Customer-story/sympany/draft-business-case-sympany.png")
-			@media only screen and (max-width : 1250px)
-				background-position : 100% 320px
-				filter : grayscale(1)
-				opacity : .13
-	.ui-header.transilien
-		&::before
-			background-image : url("../imgs/UI_Customer-story/transilien/Transilien-illustration-v3.png")
-			background-position : 120% 100%
-			@media only screen and (max-width : 1490px)
-				background-position : 115% 190px
-				filter : grayscale(1)
-				opacity : .13
-
-		.main-info
-			.wrapper
-				.logo
-					height : auto
-					width : 250px
-					max-width : 80%
 	.ui-header
-		display : flex
 		position : relative
 		align-items : center
 		padding-top : 80px
@@ -54,45 +24,37 @@
 		overflow : hidden
 		@media only screen and (max-width : 1250px)
 			padding-bottom : 180px
-		
-		&::before
-			position : absolute
-			top : 0
-			left : 0
-			content : ""
-			display : block
-			width : 100%
-			height : 100%
-			z-index : 1
-			background-position : center right
-			background-repeat : no-repeat
-			background-size : contain
 
 		.main-info
 			position : relative
 			z-index : 2
-			margin-left : 10%
 			.wrapper
+				text-align : center
 				h1
 					line-height : 2.4rem
 					font-size : 1.8rem
 					font-family : bold
 				p
-					line-height : 1.3rem
+					line-height : 1.5rem
+					font-size : 1.4rem
 					margin-top : 20px
-					width : 500px
+					width : 720px
+					margin-left : auto
+					margin-right : auto
 					max-width : 80%
+
 				ul
+					justify-content : center
 					margin-top : 40px
 					display : flex
 					align-items : center
 					li
 						margin-top : 10px
 					li + li
-						margin-left : 24px
+						margin-left : 40px
 					img
 						display : inline-block
-						height : 50px
+						height : 54px
 						filter : grayscale(1)
 						opacity : .7
 
@@ -115,9 +77,10 @@
 			text-align : center
 
 		.wrapper
-			margin-top : 70px
-			width : 80vw
-			max-width : 900px
+			margin : 0 auto
+			margin-top : 20px
+			width : 80%
+			max-width : 1100px
 			padding-bottom : 40px
 			position : relative
 			
@@ -133,7 +96,7 @@
 				position : absolute
 				bottom : 0
 				right : 0
-				width : 600px
+				width : 700px
 				max-width : calc(100% - 20px)
 				display : flex
 				align-items : center
@@ -188,11 +151,11 @@
 							.name
 								display : block
 								font-size : .9em
-								opacity : .7
+								opacity : .75
 							.status
 								display : block
 								font-size : .8em
-								opacity : .6
+								opacity : .75
 					.text-link
 						margin-left : 0
 						margin-top : 30px
@@ -252,11 +215,11 @@
 							margin-left : 0
 							.name
 								font-size : .9em
-								opacity : .7
+								opacity : .75
 							.status
 								display : block
 								font-size : .8em
-								opacity : .6
+								opacity : .75
 					.text-link
 						margin-left : 0
 						margin-top : 30px
@@ -295,18 +258,6 @@
 						overflow : hidden
 						img
 							width : 100%
-					.logo
-						position : absolute
-						bottom : 0
-						left : 0
-						background : white
-						padding : 12px 14px
-						box-sizing : content-box
-						border-radius : 0 5px 0 0
-						overflow : hidden
-						img
-							display : inline-block
-							height : 32px
 				.bottom-side
 					background : white
 					padding : 26px
@@ -314,15 +265,27 @@
 					blockquote
 						font-size : 1.1rem
 						margin-bottom : 10px
+						min-height : 100px
+					.medias
+						margin : 20px 0 20px
+						.portrait
+							display : inline-block
+							height : 50px
+							border-radius : 100%
+							vertical-align : middle
+						.logo
+							height : 40px
+							margin-left : 20px
+							vertical-align : middle
 					.customer-details
 						.name
 							display : block
 							font-size : .9em
-							opacity : .7
+							opacity : .75
 						.status
 							display : block
 							font-size : .85em
-							opacity : .6
+							opacity : .75
 
 				.text-link
 					margin-left : 0
@@ -358,7 +321,7 @@
 						margin-top : 40px
 
 					.top-side
-						height : 250px
+						height : 190px
 						.logo
 							padding : 12px 14px
 							img
@@ -368,6 +331,28 @@
 	// --------------------------------------------------------------
 	// end of SECTION CUSTOMER STORIES
 	// --------------------------------------------------------------
+
+	.cta-sharing
+		text-align : center
+
+		.cta
+			display : inline-block
+			margin-bottom : 90px
+			margin-top : -50px
+			padding : 10px 40px
+			font-size : 1.2rem
+
+			.fas
+				font-size : .7em
+				margin-right : 10px
+		
+		.cta.round
+			background : $darkBlue
+			border-color : $darkBlue
+
+			&:hover
+				background : $darkestBlue
+				border-color : $darkestBlue
 
 // ==============================================================
 // --------------------------------------------------------------
@@ -394,7 +379,7 @@
 				background-position : 100% 490px
 		.ui-header.sympany
 			&::before
-				background-position : 100% 430px
+				background-position : 100% 380px
 		.ui-header.transilien
 			&::before
 				background-position : 120% 500px

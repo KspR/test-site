@@ -115,6 +115,7 @@ exports.buildHtml = function(cb) {
 							data.workflow_id = key;
 							data.features = data.workflows[key].features;
 							data.ucs = data.workflows[key].ucs;
+							// console.log('wot', e);
 							fs.writeFileSync('./dist/' + key.replace(/-/g, '_') + '.' + lang + '.html', hbs(data));
 						}
 					}

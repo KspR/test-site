@@ -36,7 +36,7 @@ END -->
 			END -->
 
 		</head>
-		<body class="dark has-header workflow {{../workflow_id}}">
+		<body class="has-header workflow {{../workflow_id}}">
 			<!-- PRODONLY
 			<% if JSON_CONFIG["google-tag-manager"] %>
 				<%= render "partials/google_tag_manager_body" %>
@@ -72,11 +72,11 @@ END -->
 											<div class="text">{{this.text}}</div>
 											<div class="if-1080">
 												{{#if this.template}}
-													<a href="{{../../lang.hrefRoot}}example/{{this.template}}">
+													<a class="text-link" href="{{../../lang.hrefRoot}}example/{{this.template}}">
 												{{else}}
-													<a href="{{../../lang.hrefRoot}}example/{{../this}}">
+													<a class="text-link" href="{{../../lang.hrefRoot}}example/{{../this}}">
 												{{/if}}
-													{{../../../lang.workflow.discover-example}} →
+													{{../../../lang.workflow.discover-example}} <i class="fas fa-long-arrow-alt-right"></i>
 												</a>
 											</div>
 										</div>

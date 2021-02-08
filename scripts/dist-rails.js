@@ -12,7 +12,7 @@
     var str;
     if (/html$/.exec(file)) {
       str = fs.readFileSync('./dist/' + file).toString();
-      str = str.replace(/src=("|')([^'"]*)("|')/g, function(str, _, capture) {
+      str = str.replace(/src=("|')([^<][^'"]*)("|')/g, function(str, _, capture) {
         var path;
         if (!/^http/.exec(capture)) {
           path = 'site/' + capture.replace('./', '').replace('imgs/', '');

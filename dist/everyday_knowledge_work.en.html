@@ -45,7 +45,7 @@ END -->
 			END -->
 
 		</head>
-		<body class="dark has-header workflow everyday-knowledge-work">
+		<body class="has-header workflow everyday-knowledge-work">
 			<!-- PRODONLY
 			<% if JSON_CONFIG["google-tag-manager"] %>
 				<%= render "partials/google_tag_manager_body" %>
@@ -64,11 +64,15 @@ END -->
 		</span>
 	</label>
 	<nav class="nav">
-		<a class="logo text-link" href="/"><img src="imgs/logo-diag-orange-plus-text.png" alt="Logo Draft"></a>
+		<a class="logo text-link" href="/"><img src="./imgs/logo-diag-orange-plus-text.png" alt="Logo Draft"></a>
 		<ul>
 			<li>
 				<div class="toggle-wrapper text-link">
-					<div class="toggle">Workflows <i class="fas fa-chevron-down"></i></div>
+					<div class="toggle">
+						<!-- Workflows <i class="fas fa-chevron-down"></i> -->
+						<span class="selected">Workflows <i class="fas fa-chevron-down"></i></span>
+						<span class="neutral">Workflows <i class="fas fa-chevron-down"></i></span>
+					</div>
 					<ul class="menu">
 						<li><a class="text-link" href="/agile-project-management">Agile Project Management</a></li>
 						<li><a class="text-link" href="/product-management">Product Management</a></li>
@@ -76,12 +80,37 @@ END -->
 					</ul>
 				</div>
 			</li>
-			<li><a class="text-link" href="/enterprise">Enterprise</a></li>
-			<li><a class="text-link" href="/customer-stories/sncf-transforming-customer-experience-with-user-story-mapping">Customer stories</a></li>
-			<li><a class="text-link" href="/examples">Examples</a></li>
-			<li><a class="text-link" href="/pricing">Pricing</a></li>
-			<li class="login"><a class="text-link" href="/login">Sign in</a></li>
-			<li class="signup"><a class="cta" href="/get-started">Sign up</a></li>
+			<li class="page-enterprise-li"><a class="text-link" href="/enterprise">
+				<!-- Enterprise -->
+				<span class="selected">Enterprise</span>
+				<span class="neutral">Enterprise</span>
+			</a></li>
+			<li class="page-customer-stories-li"><a class="text-link" href="/customer-stories/sncf-transforming-customer-experience-with-user-story-mapping">
+				<!-- Customer stories -->
+				<span class="selected">Customer stories</span>
+				<span class="neutral">Customer stories</span>
+			</a></li>
+			<li class="page-examples-li"><a class="text-link" href="/examples">
+				<!-- Examples -->
+				<span class="selected">Examples</span>
+				<span class="neutral">Examples</span>
+			</a></li>
+			<li class="page-pricing-li"><a class="text-link" href="/pricing">
+				<!-- Pricing -->
+				<span class="selected">Pricing</span>
+				<span class="neutral">Pricing</span>
+			</a></li>
+			<li class="login"><a class="text-link" href="/login">
+				<!-- Sign in -->
+				<span class="selected">Sign in</span>
+				<span class="neutral">Sign in</span>
+
+			</a></li>
+			<li class="signup"><a class="cta" href="/get-started">
+				<!-- Sign up -->
+				<span class="selected">Sign up</span>
+				<span class="neutral">Sign up</span>
+			</a></li>
 		</ul>
 
 		<!-- <a class="fav" href="/">d</a> -->
@@ -117,8 +146,8 @@ END -->
 											<div class="title">To-Do List</div>
 											<div class="text">Stay focused on what matters most by capturing all of your to-do’s in a single, convenient place.</div>
 											<div class="if-1080">
-													<a href="example/to-do-list">
-													Discover this example →
+													<a class="text-link" href="example/to-do-list">
+													Discover this example <i class="fas fa-long-arrow-alt-right"></i>
 												</a>
 											</div>
 										</div>
@@ -154,8 +183,8 @@ END -->
 											<div class="title">Idea Organization</div>
 											<div class="text">Fuel ideation by jotting down and refining ideas in a dynamic, flexible, and visual workspace.</div>
 											<div class="if-1080">
-													<a href="example/affinity-diagram">
-													Discover this example →
+													<a class="text-link" href="example/affinity-diagram">
+													Discover this example <i class="fas fa-long-arrow-alt-right"></i>
 												</a>
 											</div>
 										</div>
@@ -191,8 +220,8 @@ END -->
 											<div class="title">Creative Work</div>
 											<div class="text">Build cohesion and spark innovation with creative work via mood boards and other tools that make it easy to see, compare, and evaluate all creative assets in one central place.</div>
 											<div class="if-1080">
-													<a href="example/moodboard">
-													Discover this example →
+													<a class="text-link" href="example/moodboard">
+													Discover this example <i class="fas fa-long-arrow-alt-right"></i>
 												</a>
 											</div>
 										</div>
@@ -228,8 +257,8 @@ END -->
 											<div class="title">Feedback Sharing</div>
 											<div class="text">Share ideas with colleagues and invite them to contribute feedback in a truly interactive way.</div>
 											<div class="if-1080">
-													<a href="example/collecting-feedback">
-													Discover this example →
+													<a class="text-link" href="example/collecting-feedback">
+													Discover this example <i class="fas fa-long-arrow-alt-right"></i>
 												</a>
 											</div>
 										</div>
@@ -355,6 +384,10 @@ END -->
 		<div class="socials">
 			<a href="/" class="logo"></a>
 			<a href="https://linkedin.com/company/draft-io" class="linkedin" target="_blank"></a>
+		</div>
+
+		<div class="copyright">
+			Copyright © 2019 - 2021 • Draft SAS
 		</div>
 	</div>
 

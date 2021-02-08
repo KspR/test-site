@@ -35,11 +35,15 @@
 		</span>
 	</label>
 	<nav class="nav">
-		<a class="logo text-link" href="/"><img src="imgs/logo-diag-orange-plus-text.png" alt="Logo Draft"></a>
+		<a class="logo text-link" href="/"><img src="./imgs/logo-diag-orange-plus-text.png" alt="Logo Draft"></a>
 		<ul>
 			<li>
 				<div class="toggle-wrapper text-link">
-					<div class="toggle">Workflows <i class="fas fa-chevron-down"></i></div>
+					<div class="toggle">
+						<!-- Workflows <i class="fas fa-chevron-down"></i> -->
+						<span class="selected">Workflows <i class="fas fa-chevron-down"></i></span>
+						<span class="neutral">Workflows <i class="fas fa-chevron-down"></i></span>
+					</div>
 					<ul class="menu">
 						<li><a class="text-link" href="/agile-project-management">Agile Project Management</a></li>
 						<li><a class="text-link" href="/product-management">Product Management</a></li>
@@ -47,12 +51,37 @@
 					</ul>
 				</div>
 			</li>
-			<li><a class="text-link" href="/enterprise">Enterprise</a></li>
-			<li><a class="text-link" href="/customer-stories/sncf-transforming-customer-experience-with-user-story-mapping">Customer stories</a></li>
-			<li><a class="text-link" href="/examples">Examples</a></li>
-			<li><a class="text-link" href="/pricing">Pricing</a></li>
-			<li class="login"><a class="text-link" href="/login">Sign in</a></li>
-			<li class="signup"><a class="cta" href="/get-started">Sign up</a></li>
+			<li class="page-enterprise-li"><a class="text-link" href="/enterprise">
+				<!-- Enterprise -->
+				<span class="selected">Enterprise</span>
+				<span class="neutral">Enterprise</span>
+			</a></li>
+			<li class="page-customer-stories-li"><a class="text-link" href="/customer-stories/sncf-transforming-customer-experience-with-user-story-mapping">
+				<!-- Customer stories -->
+				<span class="selected">Customer stories</span>
+				<span class="neutral">Customer stories</span>
+			</a></li>
+			<li class="page-examples-li"><a class="text-link" href="/examples">
+				<!-- Examples -->
+				<span class="selected">Examples</span>
+				<span class="neutral">Examples</span>
+			</a></li>
+			<li class="page-pricing-li"><a class="text-link" href="/pricing">
+				<!-- Pricing -->
+				<span class="selected">Pricing</span>
+				<span class="neutral">Pricing</span>
+			</a></li>
+			<li class="login"><a class="text-link" href="/login">
+				<!-- Sign in -->
+				<span class="selected">Sign in</span>
+				<span class="neutral">Sign in</span>
+
+			</a></li>
+			<li class="signup"><a class="cta" href="/get-started">
+				<!-- Sign up -->
+				<span class="selected">Sign up</span>
+				<span class="neutral">Sign up</span>
+			</a></li>
 		</ul>
 
 		<!-- <a class="fav" href="/">d</a> -->
@@ -69,16 +98,15 @@
 	<section class="ui-header sympany">
 		<div class="main-info">
 			<div class="wrapper">
-				<h1>Customer Stories</h1>
+				<h1>Sharing stories to reach success, together</h1>
 				<p>
-					Discover how renowned companies drive better and faster outcomes with Draft through practical and applicable cases
+					Discover how visual management and transparent collaboration can help you overcome organizational problems and build products that people love.
 				</p>
 				<ul class="references-logos">
 					<li><img src="imgs/UI_Customer-stories/logos/logo_axa.png" alt="logo Axa"></li>
-					<li><img src="imgs/UI_Customer-stories/logos/logo_evoyageurs.png" alt="logo eVoyageurs"></li>
+					<li><img src="imgs/UI_Customer-stories/logos/logo_sncf.png" alt="logo eVoyageurs"></li>
 					<li><img src="imgs/UI_Customer-stories/logos/logo_sympany.png" alt="logo Sympany"></li>
 					<li><img src="imgs/UI_Customer-stories/logos/logo_tui.png" alt="logo TUI"></li>
-					<li><img src="imgs/UI_Customer-stories/logos/Logo_Transilien_SNCF.png" alt="logo Transilien SNCF"></li>
 				</ul>
 			</div>
 		</div>
@@ -94,14 +122,14 @@
 					</div>
 				</div>
 				<div class="right-side">
-					<blockquote>“Product owners needed a tool to help get a broader view of which user stories were truly needed to solve midterm product development questions” </blockquote>
+					<blockquote>“Product owners needed a tool to help get a broader view of which user stories were truly needed to solve midterm product development questions.” </blockquote>
 					<div class="customer-info">
 						<img class="logo" src="imgs/UI_Customer-stories/evoyageurs/logo_evoyageurs.png" alt="EVoyageurs SNCF logo">
 						<img class="portrait" src="imgs/UI_Customer-stories/evoyageurs/anne-laure-jean.jpg"
 							alt="Anne-Laure JEAN photo">
 						<p class="customer-details">
 							<span class="name">Anne-Laure JEAN</span>
-							<span class="status">Product Manager at e-Voyageurs SNCF</span>
+							<span class="status">Product Manager at e.Voyageurs SNCF</span>
 						</p>
 					</div>
 
@@ -121,41 +149,37 @@
 					<figure class="illustration">
 						<img src="./imgs/UI_Enterprise/customer_story_illustration_sncf.jpg" alt="Illustration">
 					</figure>
-					<figure class="logo">
-						<img src="imgs/UI_Customer-stories/evoyageurs/logo_evoyageurs.png" alt="EVoyageurs SNCF logo">
-					</figure>
 				</div>
 				
 				<div class="bottom-side">
-					<blockquote>“Product owners needed a tool to help get a broader view of which user stories were truly needed to solve midterm product development questions” </blockquote>
+					<blockquote>“Product owners needed a tool to help get a broader view of which user stories were truly needed to solve midterm product development questions.” </blockquote>
+					<div class="medias">
+						<img class="portrait" src="imgs/UI_Customer-stories/evoyageurs/anne-laure-jean.jpg"
+							alt="Anne-Laure JEAN photo">
+						<img class="logo" src="imgs/UI_Customer-stories/evoyageurs/logo_evoyageurs.png" alt="EVoyageurs SNCF logo">
+					</div>
 					<p class="customer-details">
 						<span class="name">Anne-Laure JEAN</span>
-						<span class="status">Product Manager at e-Voyageurs SNCF</span>
+						<span class="status">Product Manager at e.Voyageurs SNCF</span>
 					</p>
 				</div>
 
 				<a href="customer-stories/sncf-transforming-customer-experience-with-user-story-mapping" class="text-link">Discover The Story <i class="fas fa-long-arrow-alt-right"></i></a>
 			</li>
-
-
-
-
-
-
-
-
 			<li class="story-bloc">
 				<div class="top-side">
 					<figure class="illustration">
 						<img src="imgs/UI_Customer-stories/sympany/2_Sympany_Program_Board_2019-06.JPG" alt="Illustration">
 					</figure>
-					<figure class="logo">
-						<img src="imgs/UI_Customer-stories/sympany/logo_sympany.png" alt="Sympany logo">
-					</figure>
 				</div>
 				
 				<div class="bottom-side">
 					<blockquote>“PI Planning forces us to define clearer goals that make issues obvious while encouraging increased accountability.” </blockquote>
+					<div class="medias">
+						<img class="portrait" src="imgs/UI_Customer-stories/sympany/Julian_Gerstacker.jpg"
+							alt="Anne-Laure JEAN photo">
+						<img class="logo" src="imgs/UI_Customer-stories/sympany/logo_sympany.png" alt="EVoyageurs SNCF logo">
+					</div>
 					<p class="customer-details">
 						<span class="name">Julian GERSTACKER</span>
 						<span class="status">Agile Transformation Manager at Sympany</span>
@@ -164,36 +188,36 @@
 
 				<a href="customer-stories/sncf-transforming-customer-experience-with-user-story-mapping" class="text-link">Discover The Story <i class="fas fa-long-arrow-alt-right"></i></a>
 			</li>
-
-
-
-
-
-
-
-
-
 			<li class="story-bloc">
 				<div class="top-side">
 					<figure class="illustration">
 						<img src="imgs/UI_Customer-stories/transilien/2_IMG_0046.JPG"" alt="Illustration">
 					</figure>
-					<figure class="logo">
-						<img src="imgs/UI_Customer-stories/transilien/Logo_Transilien_SNCF.png" alt="Transilien logo">
-					</figure>
 				</div>
 				
 				<div class="bottom-side">
 					<blockquote>“To prevent ‘video conference fatigue,’ we had to find ways of using time and space differently.” </blockquote>
+					<div class="medias">
+						<img class="portrait" src="imgs/UI_Customer-stories/transilien/Maxime_Bonnet_photo_profil.jfif"
+							alt="Anne-Laure JEAN photo">
+						<img class="logo" src="imgs/UI_Customer-stories/transilien/Logo_Transilien_SNCF.png" alt="EVoyageurs SNCF logo">
+					</div>
 					<p class="customer-details">
-						<span class="name">Pierre WATIER</span>
-						<span class="status">Innovation & Agility Manager at SNCF</span>
+						<span class="name">Maxime BONNET</span>
+						<span class="status">Agile Coach at CGI</span>
 					</p>
 				</div>
 				
 				<a href="customer-stories/sncf-transforming-customer-experience-with-user-story-mapping" class="text-link">Discover The Story <i class="fas fa-long-arrow-alt-right"></i></a>
 			</li>
 		</ul>
+	</section>
+
+	<section class="cta-sharing">
+		<a class="btn cta round" href="mailto:hi@draft.io?subject=I want to share my story">
+			<i class="fas fa-quote-right"></i>
+			Share my Story
+		</a>
 	</section>
 
 
@@ -268,6 +292,10 @@
 		<div class="socials">
 			<a href="/" class="logo"></a>
 			<a href="https://linkedin.com/company/draft-io" class="linkedin" target="_blank"></a>
+		</div>
+
+		<div class="copyright">
+			Copyright © 2019 - 2021 • Draft SAS
 		</div>
 	</div>
 

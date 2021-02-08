@@ -1230,7 +1230,7 @@ ui-customer-story
 				However, Maxime underscores that if it hadn’t been for the in-person PI Planning sessions prior to COVID-19, these remote sessions wouldn’t have been as successful. Those in-person experiences created a strong group dynamic and a sense of cohesion that made the transition into remote PI Planning seamless. This is why Maxime hopes that his team will be able to begin doing these sessions in-person again soon—with the help of Draft to streamline the process—to maintain those solid relationships while still driving a high level of efficiency. 
 			</p>
 			---
-			<img class="illustration left-sided intro" src="./imgs/UI_Customer-stories/transilien/1_Transilien-Atelier_Role_et_Interactions.png" alt="Illustration">
+			<img class="illustration left-sided intro" src="./imgs/UI_Customer-stories/transilien/3_Transilien-Solution_Board.png" alt="Illustration">
 			<h2>Comment les leaders de la transformation de Transilien ont conçu un framework d'Agilité à l’échelle sur-mesure pour mieux s’adapter aux enjeux de la collaboration à distance</h2>
 			<p>
 				Partie intégrante de la SNCF, l’entreprise ferroviaire publique française, Transilien est le nom du réseau de trains de banlieue desservant exclusivement les gares d'Île-de-France. Cette division emploie environ 44 000 personnes et gère 15 lignes ferroviaires, dont 2 en partenariat avec la RATP, ainsi que quelques lignes de tramway et de bus.
@@ -1289,7 +1289,7 @@ ui-customer-story
 				Cette première version du Solution Board est, ensuite, présentée à l’Epic Owner, aux Business Owners et aux Product Managers transversaux du programme, afin de définir les priorités et ajuster le plan. Enfin, la version finale du Solution Board est présentée à l’ensemble des 180 collaborateurs du programme. “Nous avons construit un véritable framework d’Agilité à l'échelle sur-mesure, inspiré principalement par SAFe® mais aussi par LeSS et Scrum-of-Scrum”, se réjouit Maxime.
 			</p>
 
-			<img class="illustration left-sided" src="./imgs/UI_Customer-stories/transilien/3_Transilien-Solution_Board.png" alt="Illustration">
+			<img class="illustration left-sided" src="./imgs/UI_Customer-stories/transilien/1_Transilien-Atelier_Role_et_Interactions.png" alt="Illustration">
 			<h2>Les avantages et inconvénient du PI Planning à distance</h2>
 			<p>
 				Maxime se considère lui-même comme un fervent supporter du post-it. En effet, il apprécie la façon dont les post-it poussent les participants à s’impliquer et porter la responsabilité de leurs propos. C’est la raison pour laquelle, en passant par les outils de collaboration digitaux, il trouve que les rétrospectives ont perdu de leur impact. Cependant, tout le monde n’appréciait pas l’utilisation du post-it, notamment certains seniors managers qui le considèrent comme un outil infantilisant.
@@ -1482,15 +1482,13 @@ separateur-UI-CUSTOMER-STORIES
 ui-customer-stories
 	header
 		title
-			Customer Stories
-			Customer Stories
+			Sharing stories to reach success, together
+			De véritables retours d’expérience pour réussir, ensemble
 		intro-text
 			------
-			Discover how renowned companies drive better and faster outcomes with Draft through practical and applicable cases
+			Discover how visual management and transparent collaboration can help you overcome organizational problems and build products that people love.
 			---
-			Découvrez comment Draft profite à ses utilisateurs !
-			<br><br>
-			Lorem ipsum plan ahead and formalize just what it takes to deliver great products in an uncertain and fast-moving environment.
+			Découvrez comment le management visuel et une collaboration transparente peuvent vous aider à instaurer l’organisation idéale et apporter un maximum de valeur à vos clients.
 			------
 	customer-story-cta
 		Discover The Story
@@ -1509,14 +1507,14 @@ ui-customer-stories
 			imgs/UI_Customer-stories/evoyageurs/anne-laure-jean.jpg
 			imgs/UI_Customer-stories/evoyageurs/anne-laure-jean.jpg
 		quote
-			“Product owners needed a tool to help get a broader view of which user stories were truly needed to solve midterm product development questions” 
-			“-”
+			“Product owners needed a tool to help get a broader view of which user stories were truly needed to solve midterm product development questions.” 
+			“Les product owners avaient besoin d’un outil qui puisse les aider à acquérir une vision plus globale des enjeux.”
 		author
 			Anne-Laure JEAN
 			Anne-Laure JEAN
 		status
-			Product Manager at e-Voyageurs SNCF
-			Product Manager chez e-Voyageurs SNCF
+			Product Manager at e.Voyageurs SNCF
+			Product Manager chez e.Voyageurs SNCF
 	customer-story-sympany
 		illustration-path
 			imgs/UI_Customer-stories/sympany/2_Sympany_Program_Board_2019-06.JPG
@@ -1532,7 +1530,7 @@ ui-customer-stories
 			imgs/UI_Customer-stories/sympany/Julian_Gerstacker.jpg
 		quote
 			“PI Planning forces us to define clearer goals that make issues obvious while encouraging increased accountability.” 
-			“Le PI Planning nous a amenés à définir des objectifs plus explicites, ce qui a mis en évidence les problèmes organisationnels et favorisé la responsabilisation des équipes quant à l’atteinte des résultats.”
+			“Le PI Planning nous a amenés à définir des objectifs plus explicites, ce qui a mis en évidence les problèmes organisationnels.”
 		author
 			Julian GERSTACKER
 			Julian GERSTACKER
@@ -1550,14 +1548,21 @@ ui-customer-stories
 			Transilien logo
 			Logo Transilien
 		portrait-path
-			imgs/UI_Customer-stories/transilien/Logo_Transilien_SNCF.png
-			imgs/UI_Customer-stories/transilien/Logo_Transilien_SNCF.png
+			imgs/UI_Customer-stories/transilien/Maxime_Bonnet_photo_profil.jfif
+			imgs/UI_Customer-stories/transilien/Maxime_Bonnet_photo_profil.jfif
 		quote
 			“To prevent ‘video conference fatigue,’ we had to find ways of using time and space differently.” 
 			“Pour prévenir le phénomène de fatigue communicationnelle, nous devions trouver une façon d’exploiter plus efficacement le temps et l’espace.”
 		author
-			Pierre WATIER
-			Pierre WATIER
+			Maxime BONNET
+			Maxime BONNET
 		status
-			Innovation & Agility Manager at SNCF
-			Responsable Innovation & Agilité chez SNCF
+			Agile Coach at CGI
+			Coach Agile chez CGI
+	sharing-cta
+		label
+			Share my Story
+			Partager mon expérience
+		mail-object
+			I want to share my story
+			Je souhaite partager mon histoire
