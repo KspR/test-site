@@ -3554,7 +3554,8 @@ body.landing .bloc-av {
     padding: 0 15px; }
     .page-get-started-mobile .main-bloc .title {
       font-size: 19px !important;
-      margin-bottom: 30px !important; }
+      margin-bottom: 30px !important;
+      text-align: center; }
     .page-get-started-mobile .main-bloc .detail {
       text-align: center;
       font-size: 17px;

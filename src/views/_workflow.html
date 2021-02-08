@@ -1,3 +1,6 @@
+<!-- PRODONLY
+<% @workflow = '{{workflow_id}}' %>
+END -->
 {{#with (lookup lang.workflows workflow_id)}}
 	<html lang="{{../lang.code}}">
 		<head>
@@ -69,9 +72,9 @@
 											<div class="text">{{this.text}}</div>
 											<div class="if-1080">
 												{{#if this.template}}
-													<a href="/example/{{this.template}}">
+													<a href="{{../../lang.hrefRoot}}example/{{this.template}}">
 												{{else}}
-													<a href="/example/{{../this}}">
+													<a href="{{../../lang.hrefRoot}}example/{{../this}}">
 												{{/if}}
 													{{../../../lang.workflow.discover-example}} →
 												</a>
@@ -91,9 +94,9 @@
 											<div class="text">{{this.text}}</div>
 											<div class="if-1080">
 												{{#if this.template}}
-													<a href="/example/{{this.template}}">
+													<a href="{{../../lang.hrefRoot}}example/{{this.template}}">
 												{{else}}
-													<a href="/example/{{../this}}">
+													<a href="{{../../lang.hrefRoot}}example/{{../this}}">
 												{{/if}}
 													{{../../../lang.workflow.discover-example}} →
 												</a>

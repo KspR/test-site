@@ -1,4 +1,8 @@
 {
+  "cbwc": {
+    "title": "Vous devez revenir avec un ordinateur pour utiliser l'application.",
+    "body": "Veuillez nous excuser, Draft n'est pas optimisé pour une utilisation sur mobile. Nous vous invitons à vous connecter à Draft depuis votre PC.<br /><br />Pourquoi Draft n'est-il pas optimisé pour une utilisation sur mobile ?<br /><br />En tant qu'outil de bureautique, Draft vous offre un grand nombre de fonctionnalités et de possibilités d'utilisation qui, de notre point de vue, ne peuvent être utilisées de façon satisfaisante sur mobile. <br /><br />C'est la raison pour laquelle notre priorité est de vous permettre de travailler rapidement et efficacement sur Draft depuis votre PC."
+  },
   "hrefRoot": "/fr/",
   "code": "fr",
   "verbose": "Française",
