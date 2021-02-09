@@ -3,16 +3,17 @@ const hbs = require('./build-hbs.js');
 const hound = require('hound');
 
 const fs = require('fs');
-fs.watch('./src/lang/translations', (eventType) => {
-	if (eventType === 'change') {
-		try {
-			tr.buildTranslations(() => hbs.buildHtml() )
-		}
-		catch(e) {
-			console.log(e);
-		}
+const langWatcher = hound.watch('./src/lang');
+const buildTrs = () => {
+	try {
+		tr.buildTranslations(() => hbs.buildHtml() )
 	}
-});
+	catch(e) {
+		console.log(e);
+	}
+};
+langWatcher.on('change', buildTrs);
+langWatcher.on('create', buildTrs);
 
 var dirs = ['./src', './data'];
 dirs.forEach(function(dir) {
