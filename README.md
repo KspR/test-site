@@ -84,4 +84,4 @@ Les retours à la ligne ne sont pas répercutés dans le HTML. On s'en sert pour
 On peut mettre des balises HTML dans les traductions, on utilise donc des <br /> pour forcer des retours à la ligne par exemple.
 
 ### Utilisation
-Les traductions peuvent être insérer dans les fichiers templates (de src/views/) en utilisant la syntaxe {{{branche.sous-branche.traduction}}}. On utilise le format de templating [handlebars](https://handlebarsjs.com/).
+Les traductions peuvent être insérées dans les fichiers templates (de src/views/) en utilisant la syntaxe {{{branche.sous-branche.traduction}}}. On utilise le format de templating [handlebars](https://handlebarsjs.com/).
