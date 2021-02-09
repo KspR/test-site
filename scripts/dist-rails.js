@@ -21,7 +21,7 @@
           return str;
         }
       });
-      str = str.replace(/<!-- BEGINCSS -->(.|\n)*<!-- ENDCSS -->/, '<%= stylesheet_link_tag "portal" %>');
+      str = str.replace(/<!-- BEGINCSS -->(.|\n)*<!-- ENDCSS -->/, '<%= stylesheet_link_tag "portal" %><link rel="icon" href="/favicon.png?v=6" />');
       str = str.replace(/<!-- PRODONLY/g, '').replace(/END -->/g, '');
       str = str.replace(/<!-- TESTONLY(.|\n)*?ENDTESTONLY -->/g, '');
       return fs.writeFileSync('./dist-rails/' + file + '.erb', str);

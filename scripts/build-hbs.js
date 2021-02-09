@@ -77,53 +77,58 @@ exports.buildHtml = function(cb) {
 		});
 	});
 
-	files = fs.readdirSync(dataDir + '/lang');
-	files.forEach(function(e) {
-		if (/\.json$/.exec(e)) {
-			lang = e.split(/\.json$/)[0];
-			data.lang = JSON.parse(fs.readFileSync(dataDir + '/lang/' + e).toString());
-			data.lang[lang] = true;
+	['en', 'fr'].forEach((lang) => {
+		data.lang = {}
+		data.lang[lang] = true; // used for "if lang.fr is true"
 
-			subPartials = ['get_started.html']
-			subPartials.forEach(function(e) {
-				if (/\.html$/.exec(e)) {
-					var template = fs.readFileSync(partialsDir + '/' + e).toString();
-					var hbs = HandleBars.compile(template);
-					data.includes[e.split(/\.html$/)[0]] = hbs(data);
+		let files = fs.readdirSync(dataDir + '/lang');
+		files.forEach(function(e) {
+			if ((new RegExp("\\." + lang + ".json")).exec(e)) {
+				let d = JSON.parse(fs.readFileSync(dataDir + '/lang/' + e).toString());
+				for (var key in d) {
+					data.lang[key] = d[key];
 				}
-			});
+			}
+		});
 
-			let files = fs.readdirSync(partialsDir);
-			files.forEach(function(e) {
-				if (/\.html$/.exec(e)) {
-					if (subPartials.includes(e)) {
-						return;
-					}
-					var template = fs.readFileSync(partialsDir + '/' + e).toString();
-					var hbs = HandleBars.compile(template);
-					data.includes[e.split(/\.html$/)[0]] = hbs(data);
-				}
-			});
+		subPartials = ['get_started.html']
+		subPartials.forEach(function(e) {
+			if (/\.html$/.exec(e)) {
+				var template = fs.readFileSync(partialsDir + '/' + e).toString();
+				var hbs = HandleBars.compile(template);
+				data.includes[e.split(/\.html$/)[0]] = hbs(data);
+			}
+		});
 
-			files = fs.readdirSync(viewsDir);
-			files.forEach(function(e) {
-				if (/\.html$/.exec(e)) {
-					var template = fs.readFileSync(viewsDir + '/' + e).toString();
-					var hbs = HandleBars.compile(template);
-					if (e === '_workflow.html') { // special file
-						for (var key in data.workflows) {
-							data.workflow_id = key;
-							data.features = data.workflows[key].features;
-							data.ucs = data.workflows[key].ucs;
-							// console.log('wot', e);
-							fs.writeFileSync('./dist/' + key.replace(/-/g, '_') + '.' + lang + '.html', hbs(data));
-						}
-					}
-					else {
-						fs.writeFileSync('./dist/' + e.split(/\.html$/)[0] + '.' + lang + '.html', hbs(data));
+		files = fs.readdirSync(partialsDir);
+		files.forEach(function(e) {
+			if (/\.html$/.exec(e)) {
+				if (subPartials.includes(e)) {
+					return;
+				}
+				var template = fs.readFileSync(partialsDir + '/' + e).toString();
+				var hbs = HandleBars.compile(template);
+				data.includes[e.split(/\.html$/)[0]] = hbs(data);
+			}
+		});
+
+		files = fs.readdirSync(viewsDir);
+		files.forEach(function(e) {
+			if (/\.html$/.exec(e)) {
+				var template = fs.readFileSync(viewsDir + '/' + e).toString();
+				var hbs = HandleBars.compile(template);
+				if (e === '_workflow.html') { // special file
+					for (var key in data.workflows) {
+						data.workflow_id = key;
+						data.features = data.workflows[key].features;
+						data.ucs = data.workflows[key].ucs;
+						fs.writeFileSync('./dist/' + key.replace(/-/g, '_') + '.' + lang + '.html', hbs(data));
 					}
 				}
-			});
-		}
-	});
+				else {
+					fs.writeFileSync('./dist/' + e.split(/\.html$/)[0] + '.' + lang + '.html', hbs(data));
+				}
+			}
+		});
+	})
 }
