@@ -9,8 +9,8 @@ git clone https://github.com/KspR/test-site
 ------
 Le repo contient un dossier src/ où sont mis tous les fichiers source qui permettent de générer le site.
 Ce dossier src/ contient :
-- un dossier lang/ où on met les fichiers de traduction ;
-- un dossier views/ où on met les templates des pages.
+* un dossier lang/ où on met les fichiers de traduction ;
+* un dossier views/ où on met les templates des pages.
 
 Les fichiers sources sont compilés dans dist/ (pour la partie site) par l'intermédiaire du script watch.js et du compilateur sass.
 On édite donc les fichiers de src/, et on ouvre le site depuis dist/.
@@ -19,11 +19,11 @@ On édite donc les fichiers de src/, et on ouvre le site depuis dist/.
 ------
 ##### Lancer les compilateurs
 Les commandes qui suivent sont des "watchers" qui compilent dès lorsqu'un changement est détecté. Il n'y a donc pas besoin de les relancer à chaque modification.
-- Traductions et templates html :
+* Traductions et templates html :
   ```
   node scripts/watch.js
   ```
-- SASS :
+* SASS :
   ```
   sass --sourcemap=none --watch src/sass:dist/css
   ```
@@ -58,8 +58,8 @@ branche-niveau0-0
 
 ###### Structure
 Une branche avec sous-branches d'avant dernier-niveau (dans l'exemple "traduction-xxx") est une entrée de traduction. Elle doit donc *obligatoirement* contenir exactement 2 sous-branches :
-    - la première sous-branche est la traduction anglaise ;
-    - la deuxième la traduction française.
+    * la première sous-branche est la traduction anglaise ;
+    * la deuxième la traduction française.
     
 ###### Nom des branches
 Les noms de branches et sous-branches ne doivent pas contenir d'espace. Par convention on utilise du kebab-case (pas de majuscules et des tirets pour séparer les mots).
