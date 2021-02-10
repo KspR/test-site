@@ -28,6 +28,18 @@ Les commandes qui suivent sont des "watchers" qui compilent dès lorsqu'un chang
   sass --sourcemap=none --watch src/sass:dist/css
   ```
 
+#### Puller les modifications
+```
+git pull origin master
+```
+
+#### Pusher les modifications
+```
+git add .
+git commit -m "[explications_sur_les_modifications]"
+git push origin master
+```
+
 # Editer le site
 ------
 ### Traductions
