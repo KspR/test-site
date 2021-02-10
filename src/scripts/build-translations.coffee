@@ -51,64 +51,66 @@ exports.buildTranslations = (cb) ->
 			for i in [0...lines.length]
 				line = lines[i]
 
-				# console.log '------ new line line', line, inTranslation, mode
-				line.text = line.text.replace(/\r/, '')
+				if line.text && line.text.trim()
 
-				if mode isnt 'multi'
-					if /^------/.exec(line.text)
-						# console.log 'setting mode to multi'
-						mode = 'multi'
-						inTranslation = 0
-						buffer = ''
-					else
-						indent = line.indent
-						if lines[i+1]
-							nextIndent = lines[i+1].indent
-							if nextIndent is indent
-								# console.log 'same indent as next line'
-								if not inTranslation
-									# console.log 'appended as new translation for current key ' + keys.join('.')
-									langs[0][keys.join('.')] = line.text
-									inTranslation = 1
-								else
-									# console.log 'appended as translation for current key ' + keys.join('.')
-									langs[inTranslation][keys.join('.')] = line.text
-									inTranslation++
-							else
-								if typeof(inTranslation) is 'number'
-									# console.log 'appnded as last translation for current key ' + keys.join('.')
-									langs[inTranslation][keys.join('.')] = line.text
-									inTranslation = false
-								if nextIndent > indent
-									# console.log 'pushing key', keys.join('.'), line.text
-									keys.push(line.text)
-								else
-									for j in [0...indent-nextIndent]
-										keys.pop()
-										# console.log 'poping key'
+					# console.log '------ new line line', line, inTranslation, mode
+					line.text = line.text.replace(/\r/, '')
+
+					if mode isnt 'multi'
+						if /^------/.exec(line.text)
+							# console.log 'setting mode to multi'
+							mode = 'multi'
+							inTranslation = 0
+							buffer = ''
 						else
-							# console.log 'appended as last translation'
-							langs[inTranslation][keys.join('.')] = line.text
-				else
-					# console.log 'mode is multi', inTranslation, buffer
-					if /^------/.exec(line.text)
-						langs[inTranslation][keys.join('.')] = buffer
-						# console.log 'setting mode to null'
-						mode = null
-						inTranslation = false
-
-						indent = line.indent
-						if lines[i+1]
-							nextIndent = lines[i+1].indent
-							for j in [0...indent-nextIndent]
-								keys.pop()
-								# console.log 'poping key'
-					else if /^---/.exec(line.text)
-						langs[inTranslation][keys.join('.')] = buffer
-						inTranslation++
-						buffer = ''
+							indent = line.indent
+							if lines[i+1]
+								nextIndent = lines[i+1].indent
+								if nextIndent is indent
+									# console.log 'same indent as next line'
+									if not inTranslation
+										# console.log 'appended as new translation for current key ' + keys.join('.')
+										langs[0][keys.join('.')] = line.text
+										inTranslation = 1
+									else
+										# console.log 'appended as translation for current key ' + keys.join('.')
+										langs[inTranslation][keys.join('.')] = line.text
+										inTranslation++
+								else
+									if typeof(inTranslation) is 'number'
+										# console.log 'appnded as last translation for current key ' + keys.join('.')
+										langs[inTranslation][keys.join('.')] = line.text
+										inTranslation = false
+									if nextIndent > indent
+										# console.log 'pushing key', keys.join('.'), line.text
+										keys.push(line.text)
+									else
+										for j in [0...indent-nextIndent]
+											keys.pop()
+											# console.log 'poping key'
+							else
+								# console.log 'appended as last translation'
+								langs[inTranslation][keys.join('.')] = line.text
 					else
-						buffer += line.text
+						# console.log 'mode is multi', inTranslation, buffer
+						if /^------/.exec(line.text)
+							langs[inTranslation][keys.join('.')] = buffer
+							# console.log 'setting mode to null'
+							mode = null
+							inTranslation = false
+
+							indent = line.indent
+							if lines[i+1]
+								nextIndent = lines[i+1].indent
+								for j in [0...indent-nextIndent]
+									keys.pop()
+									# console.log 'poping key'
+						else if /^---/.exec(line.text)
+							langs[inTranslation][keys.join('.')] = buffer
+							inTranslation++
+							buffer = ''
+						else
+							buffer += line.text
 
 			# console.log langs
 			

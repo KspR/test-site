@@ -55,59 +55,61 @@
         buffer = '';
         for (i = l = 0, ref = lines.length; 0 <= ref ? l < ref : l > ref; i = 0 <= ref ? ++l : --l) {
           line = lines[i];
-          line.text = line.text.replace(/\r/, '');
-          if (mode !== 'multi') {
-            if (/^------/.exec(line.text)) {
-              mode = 'multi';
-              inTranslation = 0;
-              buffer = '';
-            } else {
-              indent = line.indent;
-              if (lines[i + 1]) {
-                nextIndent = lines[i + 1].indent;
-                if (nextIndent === indent) {
-                  if (!inTranslation) {
-                    langs[0][keys.join('.')] = line.text;
-                    inTranslation = 1;
+          if (line.text && line.text.trim()) {
+            line.text = line.text.replace(/\r/, '');
+            if (mode !== 'multi') {
+              if (/^------/.exec(line.text)) {
+                mode = 'multi';
+                inTranslation = 0;
+                buffer = '';
+              } else {
+                indent = line.indent;
+                if (lines[i + 1]) {
+                  nextIndent = lines[i + 1].indent;
+                  if (nextIndent === indent) {
+                    if (!inTranslation) {
+                      langs[0][keys.join('.')] = line.text;
+                      inTranslation = 1;
+                    } else {
+                      langs[inTranslation][keys.join('.')] = line.text;
+                      inTranslation++;
+                    }
                   } else {
-                    langs[inTranslation][keys.join('.')] = line.text;
-                    inTranslation++;
-                  }
-                } else {
-                  if (typeof inTranslation === 'number') {
-                    langs[inTranslation][keys.join('.')] = line.text;
-                    inTranslation = false;
-                  }
-                  if (nextIndent > indent) {
-                    keys.push(line.text);
-                  } else {
-                    for (j = m = 0, ref1 = indent - nextIndent; 0 <= ref1 ? m < ref1 : m > ref1; j = 0 <= ref1 ? ++m : --m) {
-                      keys.pop();
+                    if (typeof inTranslation === 'number') {
+                      langs[inTranslation][keys.join('.')] = line.text;
+                      inTranslation = false;
+                    }
+                    if (nextIndent > indent) {
+                      keys.push(line.text);
+                    } else {
+                      for (j = m = 0, ref1 = indent - nextIndent; 0 <= ref1 ? m < ref1 : m > ref1; j = 0 <= ref1 ? ++m : --m) {
+                        keys.pop();
+                      }
                     }
                   }
-                }
-              } else {
-                langs[inTranslation][keys.join('.')] = line.text;
-              }
-            }
-          } else {
-            if (/^------/.exec(line.text)) {
-              langs[inTranslation][keys.join('.')] = buffer;
-              mode = null;
-              inTranslation = false;
-              indent = line.indent;
-              if (lines[i + 1]) {
-                nextIndent = lines[i + 1].indent;
-                for (j = n = 0, ref2 = indent - nextIndent; 0 <= ref2 ? n < ref2 : n > ref2; j = 0 <= ref2 ? ++n : --n) {
-                  keys.pop();
+                } else {
+                  langs[inTranslation][keys.join('.')] = line.text;
                 }
               }
-            } else if (/^---/.exec(line.text)) {
-              langs[inTranslation][keys.join('.')] = buffer;
-              inTranslation++;
-              buffer = '';
             } else {
-              buffer += line.text;
+              if (/^------/.exec(line.text)) {
+                langs[inTranslation][keys.join('.')] = buffer;
+                mode = null;
+                inTranslation = false;
+                indent = line.indent;
+                if (lines[i + 1]) {
+                  nextIndent = lines[i + 1].indent;
+                  for (j = n = 0, ref2 = indent - nextIndent; 0 <= ref2 ? n < ref2 : n > ref2; j = 0 <= ref2 ? ++n : --n) {
+                    keys.pop();
+                  }
+                }
+              } else if (/^---/.exec(line.text)) {
+                langs[inTranslation][keys.join('.')] = buffer;
+                inTranslation++;
+                buffer = '';
+              } else {
+                buffer += line.text;
+              }
             }
           }
         }
