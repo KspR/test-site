@@ -967,8 +967,8 @@ separateur-UI-USER-STORY
 ui-customer-story
 	sympany
 		meta-title
-			Sympany - Scaled Agile Framework - Draft
-			Sympany - Scaled Agile Framework - Draft
+			Sympany - Scaled Agile Transformation - Draft
+			Sympany - Scaled Agile Transformation - Draft
 		header
 			title
 				Metamorphosing the decision-making<br>process with SAFe
@@ -1287,18 +1287,18 @@ separateur-UI-ENTERPRISE
 	================================================================================ UI-ENTERPRISE
 ui-enterprise
 	meta-title
-		Enterprise - Draft
-		Entreprise - Draft
+		Draft for Enterprise
+		Draft pour Entreprise
 	title
-		Draft for Enterprises
-		Draft pour Entreprises
+		Draft for Enterprise
+		Draft pour Entreprise
 	bloc-landing
 		title
 			Draft for Enterprise
-			Draft pour Entreprises
+			Draft pour Entreprise
 		punchline
-			An ideal digital collaboration layer for empowering deep innovative thinking,<br />improving group decision-making, and tracking progress visually.
-			L’environnement collaboratif idéal pour résoudre vos problèmes collectivement,<br />rationaliser le processus de prise de décision et coordonner vos équipes visuellement.
+			An ideal digital collaboration layer for stimulating out-of-the-box thinking, rationalizing<br />group decision-making, and envisioning the best path to achieve your goals.
+			L’environnement collaboratif idéal pour réfléchir en dehors du cadre, rationaliser le processus<br />de prise de décision, et déterminer le meilleur chemin pour atteindre vos objectifs.
 		cta
 			Contact sales
 			Contactez-nous
