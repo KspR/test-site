@@ -17,7 +17,7 @@ On édite donc les fichiers de src/, et on ouvre le site depuis dist/.
 
 # Commandes
 ------
-##### Lancer les compilateurs
+#### Lancer les compilateurs
 Les commandes qui suivent sont des "watchers" qui compilent dès lorsqu'un changement est détecté. Il n'y a donc pas besoin de les relancer à chaque modification.
 * Traductions et templates html :
   ```
@@ -46,7 +46,7 @@ git push origin master
 Les fichiers de traduction sont dans un format custom et sont placés dans src/lang. Ce format permet de générer un fichier JSON correspondant à chaque langue. Ces fichiers JSON sont ensuite utilisés lors de la compilation des templates html pour remplacer les clés de traduction par les chaînes de caractères correspondantes.
 
 #### Format des fichiers de traducion
-###### Exemple
+#### Exemple
 Le format ressemble à ça :
 ```
 branche-niveau0-0
@@ -68,15 +68,15 @@ branche-niveau0-0
 ...
 ```
 
-###### Structure
+#### Structure
 Une branche avec sous-branches d'avant dernier-niveau (dans l'exemple "traduction-xxx") est une entrée de traduction. Elle doit donc *obligatoirement* contenir exactement 2 sous-branches :
     * la première sous-branche est la traduction anglaise ;
     * la deuxième la traduction française.
     
-###### Nom des branches
+#### Nom des branches
 Les noms de branches et sous-branches ne doivent pas contenir d'espace. Par convention on utilise du kebab-case (pas de majuscules et des tirets pour séparer les mots).
 
-###### Multiligne
+#### Multiligne
 Les traductions normales ne peuvent pas contenir de retour à la ligne comme ça serait interprété comme un passage à la branche suivante. Pour faire des traductions multilignes, il faut donc englober les deux traductions dans 6 tirets à la suite, et les séparer par 3 tirets à la suite, comme sur l'exemple suivant :
 ```
 # traductions multilignes
@@ -92,7 +92,7 @@ branche-niveau0-0
 ```
 Les retours à la ligne ne sont pas répercutés dans le HTML. On s'en sert pour des raisons de lisibilité.
 
-###### Balises html dans les traductions
+#### Balises html dans les traductions
 On peut mettre des balises HTML dans les traductions, on utilise donc des <br /> pour forcer des retours à la ligne par exemple.
 
 ### Utilisation
