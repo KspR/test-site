@@ -4539,7 +4539,6 @@ body.business-case .main a:visited {
 body.example {
   font-family: regular;
   -webkit-font-smoothing: antialiased;
-  overflow: hidden;
 }
 body.example .ariane {
   font-size: 16px;
@@ -4690,7 +4689,7 @@ body.example .content .wrapper .screenshot {
   text-decoration: none;
   display: inline-block;
   position: relative;
-  transition: color 0.2s;
+  transition: color 0.2s, opacity 0.1s;
 }
 .text-link .fas {
   color: inherit;
@@ -4716,6 +4715,10 @@ body.example .content .wrapper .screenshot {
   height: 1px;
   border-bottom: 1px solid #1f5aa3;
   transition: width 0.2s, left 0.2s;
+}
+
+.text-link.light.underline-over::after {
+  border-color: white;
 }
 
 .text-link.underline-over:hover::after {
@@ -4746,6 +4749,46 @@ body.example .content .wrapper .screenshot {
   width: 0;
   height: 1px;
   border-bottom: 1px solid #1f5aa3;
+  transition: width 0.2s, left 0.2s;
+}
+
+.text-link.underline::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px solid #1f5aa3;
+  transition: width 0.2s, left 0.2s;
+}
+
+.text-link.underline:hover::after {
+  width: calc(100% - 20px);
+  left: 0;
+}
+
+.text-link.light.underline::after {
+  border-color: white;
+}
+
+.text-link.light {
+  color: white;
+}
+.text-link.light.underline:hover {
+  opacity: 0.8;
+}
+
+.unsecable {
+  white-space: nowrap;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}der-bottom: 1px solid #1f5aa3;
   transition: width 0.2s, left 0.2s;
 }
 

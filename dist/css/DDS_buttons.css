@@ -35,3 +35,8 @@
   border: none;
   box-shadow: 0 0 0 3px white;
 }
+
+.cta.outline {
+  border: 2px solid #f1852b;
+  background: transparent;
+}

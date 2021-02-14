@@ -54,7 +54,7 @@
 
 <!-- ENDCSS -->
 	</head>
-	<body class="dark has-header example lang-fr has-header header-examples"><!-- lang-code -->
+	<body class="ui_example has-header example lang-fr header-examples"><!-- lang-code -->
 		<!-- PRODONLY
 		<% if JSON_CONFIG["google-tag-manager"] %>
 			<%= render "partials/google_tag_manager_body" %>
@@ -133,9 +133,11 @@
 	}
 </script>
 
-		<div class="content">
+		<section class="landing">
+
 			<div class="wrapper">
-				<div class="ariane">
+
+				<nav class="breadcrumb small">
 					<!-- PRODONLY
 					<% if @lang.code != 'en' %>
 						<a href="/<%= @lang.code %>/examples"><%= @lang.example.examples %></a>
@@ -144,20 +146,20 @@
 					<% end %>
 					END -->
 					<!-- TESTONLY -->
-					<a href="/examples">Examples</a>
+					<a class="text-link light" href="/examples">Examples</a>
 					<!-- ENDTESTONLY -->
-					<div class="separator">></div>
-					<div class="current">
+					<i class="fas fa-chevron-right separator"></i>
+					<span class="current">
 						<!-- TESTONLY -->
 						User Story Mapping
 						<!-- ENDTESTONLY -->
 						<!-- PRODONLY
 						<%= @example["label"] %>
 						END -->
-					</div>
-				</div>
+					</span>
+				</nav>
 
-				<div class="bloc-top">
+				<div class="title-bar">
 					<h1>
 						<!-- TESTONLY -->
 						User Story Mapping
@@ -166,51 +168,131 @@
 						<%= @example["label"] %>
 						END -->
 					</h1>
-					<div class="bloc-cta">
-						<div class="cta-border">
+					<div class="actions">
+						<a href="#" class="cta round outline">
 							<!-- TESTONLY -->
-							Essayer l'exemple*
+							Essayer l'exemple
 							<!-- ENDTESTONLY -->
 							<!-- PRODONLY
-							<%= @lang.example.cta %>
+							<%= @lang.ex_UserStoryMapping.cta %>
 							END -->
-						</div>
-						<div class="no-account-required">
-							<!-- TESTONLY -->
-							*Pas de compte requis
-							<!-- ENDTESTONLY -->
-							<!-- PRODONLY
-							<%= @lang.example.asterisk %>
-							END -->
-						</div>
+							<span class="mention">
+								<!-- TESTONLY -->
+								Pas de compte requis
+								<!-- ENDTESTONLY -->
+								<!-- PRODONLY
+								<%= @lang.example.asterisk %>
+								END -->
+							</span>
+						</a>
+						<span class="separator"></span>
+						<a href="#" class="text-link light underline">Utiliser le template</a>
 					</div>
 				</div>
-				<!-- TESTONLY -->
-				<img class="screenshot" src="./imgs/examples/en/full/example-user-story-mapping.png" />
-				<!-- ENDTESTONLY -->
-				<!-- PRODONLY
-				<img class="screenshot" src="<%= image_path("site/examples/en/full/example-" + @example["id"] + ".png") %>" alt="<%= @example["label"] %> example" />
-				END -->
-				<div class="bloc-bottom">
-					<a class="previous" href="<%= @previous_href %>">
-						<!-- TESTONLY -->
-						← Collecte de Feedback
-						<!-- ENDTESTONLY -->
-						<!-- PRODONLY
-						← <%= @previous["label"] %>
-						END -->
-					</a>
-					<a class="next" href="<%= @next_href %>">
-						<!-- TESTONLY -->
-						Scrum Board	→
-						<!-- ENDTESTONLY -->
-						<!-- PRODONLY
-						<%= @next["label"] %> →
-						END -->
-					</a>
-				</div>
+
+				<figure class="main-screenshot">
+					<!-- TESTONLY -->
+					<img class="screenshot" src="./imgs/examples/en/full/example-user-story-mapping.png" alt="" />
+					<!-- ENDTESTONLY -->
+					<!-- PRODONLY
+					<img class="screenshot" src="<%= image_path("site/examples/en/full/example-" + @example["id"] + ".png") %>" alt="<%= @example["label"] %> example" />
+					END -->
+				</figure>
+
 			</div>
-		</div>
+
+		</section>
+
+		<section class="main-content">
+			<div class="wrapper">
+				<h2>What is User Story Mapping?</h2>
+				<p>
+					User Story Mapping is about delivering more outcomes by building less. It may seem contradictory at first sight, but it’s really what this exercise is all about. Let me give you a quick overview.
+				</p>
+				<p>
+					User Story Mapping is about delivering more outcomes by building less. It may seem contradictory at first sight, but it’s really what this exercise is all about. Let me give you a quick overview.
+				</p>
+				<p class="clearfix">
+					<!-- TESTONLY -->
+					<img class="float left" src="./imgs/examples/en/full/example-user-story-mapping.png" alt="" />
+					<!-- ENDTESTONLY -->
+					<!-- PRODONLY
+					<img class="float left" src="<%= image_path("site/examples/en/full/example-" + @example["id"] + ".png") %>" alt="<%= @example["label"] %> example" />
+					END -->
+					User Story Mapping is about delivering more outcomes by building less. It may seem contradictory at first sight, but it’s really what this exercise is all about. Let me give you a quick overview.
+				</p>
+			</div>
+			<div class="tips-block">
+				<h2>Some tips from <b>Jeff Patton</b> himself</h2>
+
+				<p>
+					In April 2020, I had the chance to interview Jeff Patton himself. He kindly gave me some clarifications about his conception of User Story Mapping. Here are the main takeaways:
+				</p>
+
+				<ul>
+					<li>
+						It’s like the outline of a screenplay of a movie. You write the story of your users through your product’s adventure.
+					</li>
+				</ul>
+				<footer>
+					<img src="./imgs/UI_examples/UserStoryMapping/portrait_Jeff_Patton.jpg" class="portrait" alt="Portrait Jeff Patton">
+					<div class="author">
+						<span class="name">Jeff Patton</span>
+						<span class="status">
+							Author of "User Story Mapping: Discover the Whole Story,
+							<br>Build the Right Product"
+						</span>
+					</div>
+				</footer>
+			</div>
+
+			<div class="resources-block">
+				<i class="fas fa-bookmark deco"></i>
+				<h2>Suggested resources to master User Story Mapping further</h2>
+				<ul class="resources-list">
+					<li>
+						<i class="fas fa-external-link-alt"></i>
+						Essential Jeff Pathon’s website: 
+						<a class="text-link light underline" href="#">jpattonassociates.com/user-story-mapping/</a>
+					</li>
+					<li>
+						<i class="far fa-bookmark"></i>
+						Judicaël Paquet’s didactic blog article: 
+						<a class="text-link light underline" href="#">User Story Mapping - Example/</a>
+					</li>
+					<li>
+						<i class="far fa-play-circle"></i>
+						UXClub.com’s popular video: 
+						<a class="text-link light underline" href="#">How to do User Story Mapping/</a>
+					</li>
+				</ul>
+			</div>
+
+		</section>
+
+		<footer class="examples-nav">
+			<nav class="wrapper">
+				<a class="text-link previous" href="<%= @previous_href %>">
+					<!-- TESTONLY -->
+					<i class="fas fa-long-arrow-alt-left"></i> Collecte de Feedback
+					<!-- ENDTESTONLY -->
+					<!-- PRODONLY
+					← <%= @previous["label"] %>
+					END -->
+				</a>
+				<span class="separator"></span>
+				<span class="current-example">User Story Mapping</span>
+				<span class="separator"></span>
+				<a class="text-link next" href="<%= @next_href %>">
+					<!-- TESTONLY -->
+					Scrum Board	<i class="fas fa-long-arrow-alt-right"></i>
+					<!-- ENDTESTONLY -->
+					<!-- PRODONLY
+					<%= @next["label"] %> →
+					END -->
+				</a>
+			</nav>
+		</footer>
 
 	<script src="https://kit.fontawesome.com/6b4515f4ac.js" crossorigin="anonymous"></script>
 
