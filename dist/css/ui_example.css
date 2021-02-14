@@ -193,9 +193,10 @@
   display: block;
 }
 .ui_example .main-content .resources-block {
-  background: #1f5aa3;
+  background: #3080e3;
   position: relative;
   color: white;
+  overflow: hidden;
 }
 .ui_example .main-content .resources-block .deco {
   position: absolute;

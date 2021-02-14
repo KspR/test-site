@@ -2428,7 +2428,7 @@ body.page-not-found .wrapper .error {
   width: 237px;
   height: 80px;
   background-size: contain;
-  background-image: image-url("tmp/2020-10/business-case/company-logo.png");
+  background-image: url("tmp/2020-10/business-case/company-logo.png");
 }
 @media only screen and (min-width: 1080px) {
   .business-case .bloc-landing .top-row .company-logo {
@@ -2547,7 +2547,7 @@ body.page-not-found .wrapper .error {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: image-url("tmp/2020-10/business-case/Illustration_sans_titre.jpg");
+  background-image: url("tmp/2020-10/business-case/Illustration_sans_titre.jpg");
 }
 @media only screen and (min-width: 1080px) {
   .business-case .bloc-landing .illu {
@@ -2733,7 +2733,7 @@ body.page-not-found .wrapper .error {
 .business-case .article-sign .wrapper .picture {
   border-radius: 50%;
   float: left;
-  background-image: image-url("tmp/2020-10/business-case/alexandre-beauchet.jpg");
+  background-image: url("tmp/2020-10/business-case/alexandre-beauchet.jpg");
   background-size: cover;
 }
 @media only screen and (min-width: 1080px) {
@@ -3021,7 +3021,7 @@ body .header .nav .workflows .toggle-wrapper .dropdown-invite {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: image-url("tmp/2020-03/site/header-dropdown.png");
+  background-image: url("tmp/2020-03/site/header-dropdown.png");
   opacity: 0.8;
   transition: opacity 150ms ease-out;
 }
@@ -3279,7 +3279,7 @@ body > div.footer .bloc .language-bloc .toggle-wrapper .dropdown-invite {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: image-url("tmp/2020-03/site/header-dropdown.png");
+  background-image: url("tmp/2020-03/site/header-dropdown.png");
   opacity: 0.8;
   transition: opacity 150ms ease-out;
 }
@@ -3439,16 +3439,16 @@ body .uc-collecting-feedback .screenshot {
   margin-left: 1em;
 }
 .home .bloc-landing .wrapper .illustrations .entry.capture, .workflow .bloc-landing .wrapper .illustrations .entry.capture, .page-pricing .bloc-landing .wrapper .illustrations .entry.capture {
-  background-image: image-url("tmp/2018-01-site/capture.png");
+  background-image: url("tmp/2018-01-site/capture.png");
 }
 .home .bloc-landing .wrapper .illustrations .entry.explore, .workflow .bloc-landing .wrapper .illustrations .entry.explore, .page-pricing .bloc-landing .wrapper .illustrations .entry.explore {
-  background-image: image-url("tmp/2018-01-site/explore.png");
+  background-image: url("tmp/2018-01-site/explore.png");
 }
 .home .bloc-landing .wrapper .illustrations .entry.visual, .workflow .bloc-landing .wrapper .illustrations .entry.visual, .page-pricing .bloc-landing .wrapper .illustrations .entry.visual {
-  background-image: image-url("tmp/2018-01-site/visual.png");
+  background-image: url("tmp/2018-01-site/visual.png");
 }
 .home .bloc-landing .wrapper .illustrations .entry.continuous-collaboration, .workflow .bloc-landing .wrapper .illustrations .entry.continuous-collaboration, .page-pricing .bloc-landing .wrapper .illustrations .entry.continuous-collaboration {
-  background-image: image-url("tmp/2018-01-site/continuous-collaboration.png");
+  background-image: url("tmp/2018-01-site/continuous-collaboration.png");
 }
 .home .section .title, .workflow .section .title, .page-pricing .section .title {
   text-align: center;
@@ -3670,31 +3670,31 @@ body.home .section-problem .wrapper .bloc .msg {
   }
 }
 body.home .section-problem .wrapper .bloc:nth-child(1) .illu {
-  background-image: image-url("tmp/2020-03/site/landing/problem-1.png");
+  background-image: url("tmp/2020-03/site/landing/problem-1.png");
 }
 body.home .section-problem .wrapper .bloc:nth-child(2) .illu-wrapper {
   position: relative;
 }
 body.home .section-problem .wrapper .bloc:nth-child(2) .illu-wrapper .illu {
   background-size: 40px;
-  background-image: image-url("tmp/2020-03/site/grid-white.png");
+  background-image: url("tmp/2020-03/site/grid-white.png");
   background-repeat: repeat;
   background-position: 0 0 !important;
 }
 body.home .section-problem .wrapper .bloc:nth-child(2) .illu-wrapper .inner {
   position: absolute;
   background-repeat: no-repeat;
-  background-image: image-url("tmp/2020-03/site/landing/problem-2.svg");
+  background-image: url("tmp/2020-03/site/landing/problem-2.svg");
 }
 body.home .section-problem .wrapper .bloc:nth-child(3) .illu {
-  background-image: image-url("tmp/2020-03/site/landing/problem-5.jpeg");
+  background-image: url("tmp/2020-03/site/landing/problem-5.jpeg");
 }
 body.home .section-problem .wrapper .bloc:nth-child(4) {
   margin-left: 270px;
 }
 body.home .section-problem .wrapper .bloc:nth-child(4) .illu {
   background-color: #333;
-  background-image: image-url("tmp/2020-03/site/landing/problem-2.jpg");
+  background-image: url("tmp/2020-03/site/landing/problem-2.jpg");
 }
 body.home .section-solution .wrapper .bloc {
   float: left;
@@ -4193,7 +4193,7 @@ body.landing .bloc-av {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: image-url("tmp/2020-08/logo-white.png");
+  background-image: url("tmp/2020-08/logo-white.png");
   margin-bottom: 20px;
 }
 .page-login .splash .centered .punchline, .page-login .splash .centered .punchline-fill, .page-get-started .splash .centered .punchline, .page-get-started .splash .centered .punchline-fill, .page-validate-email .splash .centered .punchline, .page-validate-email .splash .centered .punchline-fill {
@@ -4223,7 +4223,7 @@ body.landing .bloc-av {
   opacity: 0.3;
 }
 .page-login .splash .bg, .page-get-started .splash .bg, .page-validate-email .splash .bg {
-  background-image: image-url("tmp/2020-08/splash-bg.png");
+  background-image: url("tmp/2020-08/splash-bg.png");
   position: absolute;
   width: 1280px;
   height: 600px;
@@ -4248,7 +4248,7 @@ body.landing .bloc-av {
   overflow: hidden;
 }
 .page-login .splash .bg-fill-container .bg-fill .bg-color, .page-get-started .splash .bg-fill-container .bg-fill .bg-color, .page-validate-email .splash .bg-fill-container .bg-fill .bg-color {
-  background-image: image-url("tmp/2020-08/splash-bg-colored-rew.png");
+  background-image: url("tmp/2020-08/splash-bg-colored-rew.png");
   width: 1280px;
   height: 600px;
   background-size: contain;
@@ -4276,7 +4276,7 @@ body.landing .bloc-av {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: image-url("tmp/2020-10/logo-white-login.png");
+  background-image: url("tmp/2020-10/logo-white-login.png");
   margin-left: calc(50% - 205px);
 }
 
@@ -4788,10 +4788,4 @@ body.example .content .wrapper .screenshot {
   content: "";
   display: block;
   clear: both;
-}der-bottom: 1px solid #1f5aa3;
-  transition: width 0.2s, left 0.2s;
-}
-
-.unsecable {
-  white-space: nowrap;
 }
