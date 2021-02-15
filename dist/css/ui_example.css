@@ -285,9 +285,96 @@
   height: 14px;
 }
 .ui_example .examples-nav .wrapper .current-example {
-  opacity: 0.5;
+  opacity: 0.7;
   font-size: 1rem;
 }
 .ui_example .examples-nav.dark .wrapper .separator {
   border-left: 1px solid #EEE;
+}
+@media only screen and (max-width: 768px) {
+  .ui_example .landing .wrapper {
+    padding: 20px;
+  }
+  .ui_example .landing .wrapper .title-bar h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .ui_example .landing .wrapper .title-bar .actions {
+    flex-direction: column;
+  }
+  .ui_example .landing .wrapper .title-bar .actions .separator {
+    display: none;
+  }
+  .ui_example .landing .wrapper .title-bar .actions .text-link {
+    margin-top: 50px;
+  }
+  .ui_example .main-content .wrapper {
+    padding: 0 30px;
+  }
+  .ui_example .main-content .wrapper p.clearfix img.float {
+    margin: 40px 40px 40px 10px;
+    margin-top: 0;
+    max-height: 500px;
+    max-width: calc(50% - 50px);
+  }
+  .ui_example .main-content .wrapper p.clearfix img.float.left {
+    margin-left: -10px;
+  }
+  .ui_example .main-content .wrapper p.clearfix img.float.right {
+    margin-right: -10px;
+  }
+  .ui_example .main-content .tips-block,
+.ui_example .main-content .resources-block {
+    max-width: calc(100% - 20px);
+    margin: 40px auto 0;
+    padding: 30px 30px;
+  }
+  .ui_example .main-content .tips-block h2 {
+    margin-bottom: 20px;
+  }
+  .ui_example .main-content .tips-block ul {
+    margin-left: 0px;
+  }
+  .ui_example .main-content .tips-block ul + p {
+    margin-top: 20px;
+  }
+  .ui_example .main-content .tips-block footer {
+    flex-direction: column;
+    align-items: start;
+  }
+  .ui_example .main-content .tips-block footer .portrait {
+    width: 80px;
+    height: 80px;
+  }
+  .ui_example .main-content .tips-block footer .author {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .ui_example .main-content .resources-block .deco {
+    display: none;
+  }
+  .ui_example .main-content .resources-block h2 {
+    font-size: 1.2rem;
+  }
+  .ui_example .examples-nav {
+    height: auto;
+    padding: 20px;
+  }
+  .ui_example .examples-nav .wrapper {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .ui_example .examples-nav .wrapper .separator {
+    border-top: 1px solid #555;
+    border-left: none;
+    margin: 10px 0;
+    height: 1px;
+    width: 20px;
+    display: block;
+  }
+  .ui_example .examples-nav.dark .wrapper .separator {
+    border-top: 1px solid #555;
+    border-left: none;
+  }
 }

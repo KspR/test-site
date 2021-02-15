@@ -271,7 +271,7 @@
 				display : block
 				height : 14px
 			.current-example
-				opacity : .5
+				opacity : .7
 				font-size : 1rem
 		
 		&.dark
@@ -282,3 +282,113 @@
 	// --------------------------------------------------------------
 	// end of SECTION FOOTER / NAV
 	// --------------------------------------------------------------
+
+	// ======================================================================================
+	// RESPONSIVE MOBILE
+	// ======================================================================================
+
+
+	@media only screen and (max-width : $phoneBreakpoint)
+		.landing
+			.wrapper
+				padding : 20px
+				
+				.title-bar
+
+					h1
+						text-align : center
+						margin-top : 50px
+						margin-bottom : 50px
+					.actions
+						flex-direction : column
+						.separator
+							display : none
+						.text-link
+							margin-top : 50px
+
+		// --------------------------------------------------------------
+		// end of SECTION LANDING
+		// --------------------------------------------------------------
+
+		// --------------------------------------------------------------
+		// SECTION MAIN-CONTENT
+		// --------------------------------------------------------------
+			
+		.main-content
+			
+			.wrapper
+				padding : 0 30px
+				p.clearfix
+					img.float
+						margin : 40px 40px 40px 10px
+						margin-top : 0
+						max-height : 500px
+						max-width : calc(50% - 50px)
+					img.float.left
+						margin-left : -10px
+					img.float.right
+						margin-right : -10px
+
+			.tips-block,
+			.resources-block
+				max-width : calc(100% - 20px)
+				margin : 40px auto 0
+				padding : 30px 30px
+
+			.tips-block
+				h2
+					margin-bottom : 20px
+				p
+				ul
+					margin-left : 0px
+				ul + p
+					margin-top : 20px
+				footer
+					flex-direction : column
+					align-items : start
+					.portrait
+						width : 80px
+						height : 80px
+					.author
+						margin-left : 0
+						margin-top : 20px
+			
+			.resources-block
+				.deco
+					display : none
+				h2
+					font-size : 1.2rem
+
+		// --------------------------------------------------------------
+		// end of SECTION MAIN-CONTENT
+		// --------------------------------------------------------------
+
+		// --------------------------------------------------------------
+		// SECTION FOOTER / NAV
+		// --------------------------------------------------------------
+		
+		.examples-nav
+			&.dark
+			height : auto
+			padding : 20px
+			.wrapper
+				flex-direction : column
+				justify-content : center
+				.separator
+					border-top : 1px solid #555
+					border-left : none
+					margin : 10px 0
+					height : 1px
+					width : 20px
+					display : block
+				.current-example
+			
+			&.dark
+				.wrapper
+					.separator
+						border-top : 1px solid #555
+						border-left : none
+
+		// --------------------------------------------------------------
+		// end of SECTION FOOTER / NAV
+		// --------------------------------------------------------------
