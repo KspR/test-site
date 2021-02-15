@@ -140,7 +140,7 @@
   border-radius: 5px;
 }
 .ui_example .main-content .tips-block {
-  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.1);
 }
 .ui_example .main-content .tips-block h2 {
   font-size: 1.3rem;
@@ -365,7 +365,7 @@
   }
   .ui_example .examples-nav {
     height: auto;
-    padding: 20px 10px;
+    padding: 20px 20px;
   }
   .ui_example .examples-nav .wrapper {
     justify-content: center;
