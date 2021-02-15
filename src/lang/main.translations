@@ -994,7 +994,7 @@ ui-customer-story
 				The decision to move in this direction was a decisive moment aimed at ensuring the sustainability and future success of this century-old business. “Many startups have launched recently with the objective of revolutionizing the insurance experience. Sympany had to find ways of being more flexible to adapt to circumstances and eventually get ahead of the market,” Julian points out.
 			</p>
 
-			<img class="illustration right-sided" src="./imgs/MUT_Customers/customer_sympany/2_Sympany_Program_Board_2019-06.jpg" alt="Illustration de programm board">
+			<img class="illustration right-sided" src="./imgs/MUT_Customers/customer_sympany/2_Sympany_Program_Board_201906.jpg" alt="Illustration de programm board">
 			<h2>“PI Planning forces us to define clearer goals that make issues obvious while encouraging increased accountability.”</h2>
 			<p>
 				Before the COVID-19 pandemic rattled the world, 10 different Scrum and Kanban teams used to meet every 10 weeks for a two-day PI Planning session. This meeting would take place in a large hotel conference room where the roughly 80-person development team, plus other key stakeholders would spend the two-day stretch collaborating on ideas and putting sticky-notes all over the place. During these meetings, a large conference room wall was essentially transformed into the team’s living <a href="https://draft.io/example/program-board" class="text-link advanced-underline-over"><span>Program</span> <span>Board</span></a>.
@@ -1055,7 +1055,7 @@ ui-customer-story
 				Cette transformation Agile est capitale car elle doit fournir au groupe centenaire les moyens d’assurer sa pérennité et de définitivement réussir son passage dans le 21ème siècle. “Récemment, de nombreuses startups se sont lancées avec pour vision de révolutionner l’expérience client sur le marché de l’assurance. Il devenait essentiel pour Sympany d’adopter un mode de fonctionnement plus flexible pour s’adapter aux nouveaux enjeux de l’industrie et, à terme, revenir à la pointe de l’innovation sur ce marché,” souligne Julian.
 			</p>
 
-			<img class="illustration right-sided" src="./imgs/MUT_Customers/customer_sympany/2_Sympany_Program_Board_2019-06.jpg" alt="Illustration program board">
+			<img class="illustration right-sided" src="./imgs/MUT_Customers/customer_sympany/2_Sympany_Program_Board_201906.jpg" alt="Illustration program board">
 			<h2>“Le PI Planning nous a amenés à définir des objectifs plus explicites, ce qui a mis en évidence les problèmes organisationnels et favorisé la responsabilisation des équipes quant à l’atteinte des résultats.”</h2>
 			<p>
 				Avant que la pandémie ne bouleverse les habitudes de travail, une dizaine d’équipes de réalisation, organisées en Scrum ou en Kanban, avaient pris l'habitude de se retrouver, toutes les dix semaines, pour une session de PI Planning de deux jours. Celle-ci se déroulait généralement dans la grande salle de conférence d’un hôtel. Ainsi, en comptant quelques parties prenantes et managers clés, près de 80 personnes étaient amenées à collaborer, partager leurs idées et placer des post-it sur tous les murs de la salle. Un côté entier du lieu était d’ailleurs dédié à la construction du <a href="https://draft.io/fr/example/program-board" class="text-link advanced-underline-over"><span>Program</span> <span>Board</span></a>.
@@ -1495,8 +1495,8 @@ ui-customer-stories
 			Product Manager chez e.Voyageurs SNCF
 	customer-story-sympany
 		illustration-path
-			./imgs/MUT_Customers/customer_sympany/2_Sympany_Program_Board_2019-06.jpg
-			./imgs/MUT_Customers/customer_sympany/2_Sympany_Program_Board_2019-06.jpg
+			./imgs/MUT_Customers/customer_sympany/2_Sympany_Program_Board_201906.jpg
+			./imgs/MUT_Customers/customer_sympany/2_Sympany_Program_Board_201906.jpg
 		logo-path
 			imgs/MUT_Customers/customer_sympany/logo_sympany.png
 			imgs/MUT_Customers/customer_sympany/logo_sympany.png
