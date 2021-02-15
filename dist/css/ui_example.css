@@ -292,6 +292,9 @@
   border-left: 1px solid #EEE;
 }
 @media only screen and (max-width: 768px) {
+  .ui_example {
+    padding-bottom: 180px;
+  }
   .ui_example .landing .wrapper {
     padding: 20px;
   }
@@ -356,6 +359,12 @@
   }
   .ui_example .main-content .resources-block h2 {
     font-size: 1.2rem;
+  }
+  .ui_example .main-content .resources-block .text-link.underline {
+    text-decoration: underline;
+  }
+  .ui_example .main-content .resources-block .text-link.underline::after {
+    display: none;
   }
   .ui_example .examples-nav {
     height: auto;
