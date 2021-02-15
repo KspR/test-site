@@ -141,6 +141,8 @@ body > header.main-header .nav ul li .toggle-wrapper:hover .toggle .fas {
   transform: rotate(90deg);
 }
 body > header.main-header .nav ul li .toggle-wrapper .toggle .fas {
+  min-width: 14px;
+  display: inline-block;
   font-size: 0.7em;
   position: relative;
   top: 0;
