@@ -581,7 +581,7 @@
       "status": "Product Manager at e.Voyageurs SNCF"
     },
     "customer-story-sympany": {
-      "illustration-path": "imgs/MUT_Customers/customer_sympany/2_Sympany_Program_Board_2019-06.jpg",
+      "illustration-path": "./imgs/MUT_Customers/customer_sympany/2_Sympany_Program_Board_2019-06.jpg",
       "logo-path": "imgs/MUT_Customers/customer_sympany/logo_sympany.png",
       "logo-alt-text": "Sympany logo",
       "portrait-path": "imgs/MUT_Customers/customer_sympany/Julian_Gerstacker.jpg",
@@ -590,7 +590,7 @@
       "status": "Agile Transformation Manager at Sympany"
     },
     "customer-story-transilien": {
-      "illustration-path": "imgs/MUT_Customers/customer_transilien/2_IMG_0046.jpg\"",
+      "illustration-path": "./imgs/MUT_Customers/customer_transilien/2_IMG_0046.jpg\"",
       "logo-path": "imgs/MUT_Customers/customer_transilien/Logo_Transilien_SNCF.png",
       "logo-alt-text": "Transilien logo",
       "portrait-path": "imgs/MUT_Customers/customer_transilien/Maxime_Bonnet_photo_profil.jfif",

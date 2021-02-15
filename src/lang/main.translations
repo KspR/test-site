@@ -1495,8 +1495,8 @@ ui-customer-stories
 			Product Manager chez e.Voyageurs SNCF
 	customer-story-sympany
 		illustration-path
-			imgs/MUT_Customers/customer_sympany/2_Sympany_Program_Board_2019-06.jpg
-			imgs/MUT_Customers/customer_sympany/2_Sympany_Program_Board_2019-06.jpg
+			./imgs/MUT_Customers/customer_sympany/2_Sympany_Program_Board_2019-06.jpg
+			./imgs/MUT_Customers/customer_sympany/2_Sympany_Program_Board_2019-06.jpg
 		logo-path
 			imgs/MUT_Customers/customer_sympany/logo_sympany.png
 			imgs/MUT_Customers/customer_sympany/logo_sympany.png
@@ -1517,8 +1517,8 @@ ui-customer-stories
 			Agile Transformation Manager chez Sympany
 	customer-story-transilien
 		illustration-path
-			imgs/MUT_Customers/customer_transilien/2_IMG_0046.jpg"
-			imgs/MUT_Customers/customer_transilien/2_IMG_0046.jpg"
+			./imgs/MUT_Customers/customer_transilien/2_IMG_0046.jpg"
+			./imgs/MUT_Customers/customer_transilien/2_IMG_0046.jpg"
 		logo-path
 			imgs/MUT_Customers/customer_transilien/Logo_Transilien_SNCF.png
 			imgs/MUT_Customers/customer_transilien/Logo_Transilien_SNCF.png
