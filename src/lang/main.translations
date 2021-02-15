@@ -1164,7 +1164,7 @@ ui-customer-story
 				</li>
 			</ol>
 
-			<img class="illustration right-sided" src="./imgs/MUT_Customers/customer_transilien/2_IMG_0046.jpg" alt="Illustration">
+			<img class="illustration right-sided" src="./imgs/MUT_Customers/customer_transilien/2_Meeting.jpg" alt="Illustration">
 			<h2>“Our PI Planning process also got senior management more involved…which forced them to take more responsibility and accountability for the trade-offs they suggested making.”</h2>
 			<p>
 				Maxime oversees a program involving 180 employees distributed across 13 different project teams. With the exception of one large team working on an ERP deployment, all project teams follow the Agile framework (Scrum, Kanban, and Extreme Programming).
@@ -1234,7 +1234,7 @@ ui-customer-story
 				</li>
 			</ol>
 
-			<img class="illustration right-sided" src="./imgs/MUT_Customers/customer_transilien/2_IMG_0046.jpg" alt="Illustration">
+			<img class="illustration right-sided" src="./imgs/MUT_Customers/customer_transilien/2_Meeting.jpg" alt="Illustration">
 			<h2>“Le fait de collaborer directement avec les équipes projet et de prendre des décisions importantes tous ensemble a naturellement conduit le senior management à réaliser des arbitrages cruciaux, de façon totalement transparente.”</h2>
 			<p>
 				Maxime accompagne et supervise un programme qui implique 180 collaborateurs, répartis dans 13 équipes projet différentes. A l’exception d’une grande équipe responsable du déploiement d’un ERP, toutes ces équipes projets s'inscrivent dans un framework Agile (Scrum, Kanban, ou Extreme Programming).
@@ -1517,8 +1517,8 @@ ui-customer-stories
 			Agile Transformation Manager chez Sympany
 	customer-story-transilien
 		illustration-path
-			./imgs/MUT_Customers/customer_transilien/2_IMG_0046.jpg"
-			./imgs/MUT_Customers/customer_transilien/2_IMG_0046.jpg"
+			./imgs/MUT_Customers/customer_transilien/2_Meeting.jpg"
+			./imgs/MUT_Customers/customer_transilien/2_Meeting.jpg"
 		logo-path
 			imgs/MUT_Customers/customer_transilien/Logo_Transilien_SNCF.png
 			imgs/MUT_Customers/customer_transilien/Logo_Transilien_SNCF.png
