@@ -292,9 +292,6 @@
   border-left: 1px solid #EEE;
 }
 @media only screen and (max-width: 768px) {
-  .ui_example {
-    padding-bottom: 180px;
-  }
   .ui_example .landing .wrapper {
     padding: 20px;
   }
