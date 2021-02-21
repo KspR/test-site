@@ -826,6 +826,9 @@ ui-customer-story
 		meta-title
 			e.Voyageurs SNCF - User Story Mapping - Draft
 			e.Voyageurs SNCF - User Story Mapping - Draft
+		meta-description
+			How SNCF's Digital Factory made User Story Mapping a central tool for conception and development workflows.
+			Comment la Digital Factory d’e-Voyageurs SNCF exploite le User Story Mapping pour transformer l’expérience utilisateur.
 		header
 			title
 				Transforming customer experience<br>with User Story Mapping
@@ -969,6 +972,9 @@ ui-customer-story
 		meta-title
 			Sympany - Scaled Agile Transformation - Draft
 			Sympany - Scaled Agile Transformation - Draft
+		meta-description
+			How the Scaled Agile Framework has brought more transparency and accountability to the decision-making process.
+			Comment SAFe a apporté davantage de transparence et d’implication dans la prise de décision.
 		header
 			title
 				Metamorphosing the decision-making<br>process with SAFe
@@ -1115,6 +1121,9 @@ ui-customer-story
 		meta-title
 			Transilien - Customized Agily-at-scale Framework - Draft
 			Transilien – Framework d’Agilité à l’échelle sur-mesure - Draft
+		meta-description
+			How Transilien customized common Agile-at-scale frameworks to adapt to remote working constraints.
+			Comment les leaders de la transformation de Transilien ont conçu un framework d'Agilité à l’échelle sur-mesure pour mieux s’adapter aux enjeux de la collaboration à distance.
 		header
 			title
 				Customizing Agile-at-scale frameworks<br>to adapt to remote work
@@ -1289,6 +1298,9 @@ ui-enterprise
 	meta-title
 		Draft for Enterprise
 		Draft pour Entreprise
+	meta-description
+		An ideal digital collaboration layer for stimulating out-of-the-box thinking, rationalizing group decision-making, and envisioning the best path to achieve your goals.
+		L’environnement collaboratif idéal pour réfléchir en dehors du cadre, rationaliser le processus de prise de décision, et déterminer le meilleur chemin pour atteindre vos objectifs.
 	title
 		Draft for Enterprise
 		Draft pour Entreprise
@@ -1446,11 +1458,11 @@ ui-enterprise
 				Des backups quotidiens sont effectués sur un serveur géographiquement séparé des serveurs de production.
 	partners
 		partner2
-			Supported by Europe’s largest hosting provider,<br />part of the <a class="unsecable text-link underline-over" href="https://startup.ovhcloud.com/en/">OVHcloud	Startup Program</a>.
-			Soutenu par OVH dans le cadre de l'<a class="unsecable text-link underline-over" href="https://startup.ovhcloud.com/en/">OVHcloud Startup Program</a>
+			Supported by Europe’s largest hosting provider,<br>part of the <a class="unsecable text-link underline-over" href="https://startup.ovhcloud.com/en/">OVHcloud	Startup Program</a>.
+			Soutenu par OVH dans le cadre<br>de l'<a class="unsecable text-link underline-over" href="https://startup.ovhcloud.com/en/">OVHcloud Startup Program</a>
 		partner1
-			Member of France’s largest tech<br />professional corporation, <a class="unsecable text-link underline-over" href="https://syntec-numerique.fr/">Syntec Numerique</a>.
-			Membre du syndicat professionnel <a class="unsecable text-link underline-over" href="https://syntec-numerique.fr/">Syntec Numerique</a>.
+			Member of France’s largest tech professional<br>corporation, <a class="unsecable text-link underline-over" href="https://syntec-numerique.fr/">Syntec Numerique</a>.
+			Membre du syndicat professionnel<br><a class="unsecable text-link underline-over" href="https://syntec-numerique.fr/">Syntec Numerique</a>.
 separateur-END
 	================================================================================ UI-ENTERPRISE END
 	================================================================================ XXX
@@ -1458,6 +1470,12 @@ separateur-UI-CUSTOMER-STORIES
 	================================================================================ UI-CUSTOMER-STORIES
 	================================================================================ UI-CUSTOMER-STORIES
 ui-customer-stories
+	meta-title
+		Customer stories - Draft
+		Customer stories - Draft
+	meta-description
+		Discover how our users make the most of visual management and transparent collaboration to streamline their development process and build products that people love.
+		Découvrez comment nos utilisateurs exploitent la collaboration et le management visuel pour fluidifier leur processus de développement et apporter un maximum de valeur à leurs clients.
 	header
 		title
 			Sharing stories to reach success, together

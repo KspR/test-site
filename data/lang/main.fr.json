@@ -430,6 +430,7 @@
   "ui-customer-story": {
     "eVoyageur": {
       "meta-title": "e.Voyageurs SNCF - User Story Mapping - Draft",
+      "meta-description": "Comment la Digital Factory d’e-Voyageurs SNCF exploite le User Story Mapping pour transformer l’expérience utilisateur.",
       "header": {
         "title": "Transformer l’expérience utilisateur<br>grâce au User Story Mapping",
         "contributor1": {
@@ -445,6 +446,7 @@
     },
     "sympany": {
       "meta-title": "Sympany - Scaled Agile Transformation - Draft",
+      "meta-description": "Comment SAFe a apporté davantage de transparence et d’implication dans la prise de décision.",
       "header": {
         "title": "Métamorphoser le processus<br>de décision grâce à SAFe",
         "contributor1": {
@@ -456,6 +458,7 @@
     },
     "transilien": {
       "meta-title": "Transilien – Framework d’Agilité à l’échelle sur-mesure - Draft",
+      "meta-description": "Comment les leaders de la transformation de Transilien ont conçu un framework d'Agilité à l’échelle sur-mesure pour mieux s’adapter aux enjeux de la collaboration à distance.",
       "header": {
         "title": "Concevoir un framework Agile sur-mesure<br>pour s’adapter au télétravail",
         "contributor1": {
@@ -474,6 +477,7 @@
   "separateur-UI-ENTERPRISE": "================================================================================ UI-ENTERPRISE",
   "ui-enterprise": {
     "meta-title": "Draft pour Entreprise",
+    "meta-description": "L’environnement collaboratif idéal pour réfléchir en dehors du cadre, rationaliser le processus de prise de décision, et déterminer le meilleur chemin pour atteindre vos objectifs.",
     "title": "Draft pour Entreprise",
     "bloc-landing": {
       "title": "Draft pour Entreprise",
@@ -560,12 +564,14 @@
       }
     },
     "partners": {
-      "partner2": "Soutenu par OVH dans le cadre de l'<a class=\"unsecable text-link underline-over\" href=\"https://startup.ovhcloud.com/en/\">OVHcloud Startup Program</a>",
-      "partner1": "Membre du syndicat professionnel <a class=\"unsecable text-link underline-over\" href=\"https://syntec-numerique.fr/\">Syntec Numerique</a>."
+      "partner2": "Soutenu par OVH dans le cadre<br>de l'<a class=\"unsecable text-link underline-over\" href=\"https://startup.ovhcloud.com/en/\">OVHcloud Startup Program</a>",
+      "partner1": "Membre du syndicat professionnel<br><a class=\"unsecable text-link underline-over\" href=\"https://syntec-numerique.fr/\">Syntec Numerique</a>."
     }
   },
   "separateur-UI-CUSTOMER-STORIES": "================================================================================ UI-CUSTOMER-STORIES",
   "ui-customer-stories": {
+    "meta-title": "Customer stories - Draft",
+    "meta-description": "Découvrez comment nos utilisateurs exploitent la collaboration et le management visuel pour fluidifier leur processus de développement et apporter un maximum de valeur à leurs clients.",
     "header": {
       "title": "De véritables retours d’expérience pour réussir, ensemble",
       "intro-text": "Découvrez comment le management visuel et une collaboration transparente peuvent vous aider à instaurer l’organisation idéale et apporter un maximum de valeur à vos clients."

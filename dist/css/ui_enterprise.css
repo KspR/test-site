@@ -605,6 +605,9 @@
   box-shadow: 0 -30px 20px 0 rgba(0, 0, 0, 0.1);
   padding: 80px 50px 20px;
 }
+.ui_enterprise .credibility-labels .wrapper .label-group {
+  width: 50%;
+}
 .ui_enterprise .credibility-labels .wrapper .label-group img {
   filter: grayscale(1);
   margin-bottom: 20px;
@@ -612,13 +615,10 @@
 }
 .ui_enterprise .credibility-labels .wrapper .label-group .legend {
   color: #999;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 .ui_enterprise .credibility-labels .wrapper .label-group:first-child {
   text-align: right;
-}
-.ui_enterprise .credibility-labels .wrapper .label-group:first-child img {
-  height: 50px;
 }
 .ui_enterprise .credibility-labels .wrapper .label-group:last-child {
   text-align: left;
@@ -649,5 +649,7 @@
   }
   .ui_enterprise .credibility-labels .wrapper .label-group ~ .label-group {
     margin-top: 60px;
+  }
+}gin-top: 60px;
   }
 }

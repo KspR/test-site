@@ -1,0 +1,325 @@
+<html lang="<%= @lang.code %>">
+	<head>
+		<!-- PRODONLY
+		<% if JSON_CONFIG["google-tag-manager"] %>
+			<%= render "partials/google_tag_manager_head" %>
+		<% end %>
+		END -->
+		<title>
+		<!-- TESTONLY -->
+		User Story Mapping
+		<!-- ENDTESTONLY -->
+		<!-- PRODONLY
+		<%= @example["label"] %> - <%= @lang.example.examples %> - Draft
+		END -->
+		</title>
+		<!-- PRODONLY
+		<meta name="description" content="<%= @lang.example.pageDescription.gsub('&&example&&', @example["label"]) %>" />
+		END -->
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="icon" href="/favicon.png?v=5" />
+		<!-- PRODONLY
+		<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/fr/example/<%= @example["id"].gsub(/_/, '-') %>" 
+			hreflang="x-default" />
+		<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/example//<%= @example["id"].gsub(/_/, '-') %>" 
+		  hreflang="en-GB" />
+		<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/example/<%= @example["id"].gsub(/_/, '-') %>" 
+		  hreflang="en-US" />
+		<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/fr/example/<%= @example["id"].gsub(/_/, '-') %>" 
+			hreflang="fr-FR" />
+		<% if @lang.code == 'en' %>
+			<link rel="canonical" href="<%= JSON_CONFIG['host'] %>/example/<%= @example["id"].gsub(/_/, '-') %>">
+		<% else %>
+			<link rel="canonical" href="<%= JSON_CONFIG['host'] %>/fr/example/<%= @example["id"].gsub(/_/, '-') %>">
+		<% end %>
+		END -->
+
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			
+			<!-- BEGINCSS -->
+<link href="css/common.css" rel="stylesheet">
+<link href="css/colors.css" rel="stylesheet">
+<link href="css/portal-desktop.css" rel="stylesheet">
+<link href="css/portal-mobile.css" rel="stylesheet">
+<link href="css/DDS_draft-design-system.css" rel="stylesheet">
+<link href="css/ui_enterprise.css" rel="stylesheet">
+<link href="css/ui_pricing.css" rel="stylesheet">
+<link href="css/ui_example.css" rel="stylesheet">
+<link href="css/ui_customer-story.css" rel="stylesheet">
+<link href="css/ui_customer-stories.css" rel="stylesheet">
+
+<link href="css/TEST_ONLY_ui_sommaire.css" rel="stylesheet">
+
+<!-- ENDCSS -->
+	</head>
+	<body class="ui_example has-header example lang-fr header-examples"><!-- lang-code -->
+		<!-- PRODONLY
+		<% if JSON_CONFIG["google-tag-manager"] %>
+			<%= render "partials/google_tag_manager_body" %>
+		<% end %>
+		END -->
+		
+		<div id="top-of-site-pixel-anchor"></div>
+
+<header class="main-header">
+	<input type="checkbox" id="btnBurgerMenu" name="burger-menu-visibility">
+	<label for="btnBurgerMenu" class="burger-btn">
+		<span class="wrapper">
+			<span class="deco-btn-burger"></span>
+			<span class="deco-btn-burger"></span>
+			<span class="deco-btn-burger"></span>
+		</span>
+	</label>
+	<nav class="nav">
+		<a class="logo text-link" href="/fr/"><img src="./imgs/logo-diag-orange-plus-text.png" alt="Logo Draft"></a>
+		<ul>
+			<li>
+				<div class="toggle-wrapper text-link">
+					<div class="toggle">
+						<!-- Workflows <i class="fas fa-chevron-down"></i> -->
+						<span class="selected">Workflows <i class="fas fa-chevron-down"></i></span>
+						<span class="neutral">Workflows <i class="fas fa-chevron-down"></i></span>
+					</div>
+					<ul class="menu">
+						<li><a class="text-link" href="/fr/agile-project-management">Gestion de projet Agile</a></li>
+						<li><a class="text-link" href="/fr/product-management">Product Management</a></li>
+						<li><a class="text-link" href="/fr/everyday-creative-work">Travail créatif quotidien</a></li>
+					</ul>
+				</div>
+			</li>
+			<li class="page-enterprise-li"><a class="text-link" href="/fr/enterprise">
+				<!-- Entreprise -->
+				<span class="selected">Entreprise</span>
+				<span class="neutral">Entreprise</span>
+			</a></li>
+			<li class="page-customer-stories-li"><a class="text-link" href="/fr/customer-stories">
+				<!-- Customer stories -->
+				<span class="selected">Customer stories</span>
+				<span class="neutral">Customer stories</span>
+			</a></li>
+			<li class="page-examples-li"><a class="text-link" href="/fr/examples">
+				<!-- Exemples -->
+				<span class="selected">Exemples</span>
+				<span class="neutral">Exemples</span>
+			</a></li>
+			<li class="page-pricing-li"><a class="text-link" href="/fr/pricing">
+				<!-- Offres -->
+				<span class="selected">Offres</span>
+				<span class="neutral">Offres</span>
+			</a></li>
+			<li class="login"><a class="text-link" href="/fr/login">
+				<!-- Se connecter -->
+				<span class="selected">Se connecter</span>
+				<span class="neutral">Se connecter</span>
+
+			</a></li>
+			<li class="signup"><a class="cta" href="/fr/get-started">
+				<!-- S'inscrire -->
+				<span class="selected">S'inscrire</span>
+				<span class="neutral">S'inscrire</span>
+			</a></li>
+		</ul>
+
+		<!-- <a class="fav" href="/">d</a> -->
+		<!-- <a class="fav-sheet" href="/">d</a> -->
+	</ul>
+</header>
+
+<script>
+	document.ontouchstart = function (e) {
+		e.stopPropagation();
+	}
+</script>
+
+		<section class="landing">
+
+			<div class="wrapper">
+
+				<nav class="breadcrumb small">
+					<!-- PRODONLY
+					<% if @lang.code != 'en' %>
+						<a href="/<%= @lang.code %>/examples"><%= @lang.example.examples %></a>
+					<% else %>
+						<a href="/examples">Examples</a>
+					<% end %>
+					END -->
+					<!-- TESTONLY -->
+					<a class="text-link light" href="/examples">Examples</a>
+					<!-- ENDTESTONLY -->
+					<i class="fas fa-chevron-right separator"></i>
+					<span class="current">
+						<!-- TESTONLY -->
+						User Story Mapping
+						<!-- ENDTESTONLY -->
+						<!-- PRODONLY
+						<%= @example["label"] %>
+						END -->
+					</span>
+				</nav>
+
+				<div class="title-bar">
+					<h1>
+						<!-- TESTONLY -->
+						User Story Mapping
+						<!-- ENDTESTONLY -->
+						<!-- PRODONLY
+						<%= @example["label"] %>
+						END -->
+					</h1>
+					<div class="actions">
+						<a href="#" class="cta round outline">
+							<!-- TESTONLY -->
+							Essayer l'exemple
+							<!-- ENDTESTONLY -->
+							<!-- PRODONLY
+							<%= @lang.ex_UserStoryMapping.cta %>
+							END -->
+							<span class="mention">
+								<!-- TESTONLY -->
+								Pas de compte requis
+								<!-- ENDTESTONLY -->
+								<!-- PRODONLY
+								<%= @lang.example.asterisk %>
+								END -->
+							</span>
+						</a>
+						<span class="separator"></span>
+						<a href="#" class="text-link light underline">Utiliser ce template</a>
+					</div>
+				</div>
+
+				<figure class="main-screenshot">
+					<!-- TESTONLY -->
+					<img class="screenshot" src="./imgs/examples/fr/full/example-user-story-mapping.png" alt="" />
+					<!-- ENDTESTONLY -->
+					<!-- PRODONLY
+					<img class="screenshot" src="<%= image_path("site/examples/fr/full/example-" + @example["id"] + ".png") %>" alt="<%= @example["label"] %> example" />
+					END -->
+				</figure>
+
+			</div>
+
+		</section>
+
+		<section class="main-content">
+			<div class="wrapper">
+				<h2>Qu’est ce que le User Story Mapping ?</h2><p>L’objectif du User Story Mapping est de délivrer davantage de valeur à ses utilisateurs en fabricant moins. Cela semble contradictoire à première vue mais c’est bien de cela dont il s’agit. Et c’est ce que nous allons voir dans cette brève introduction.</p><p>Popularisé par Jeff Patton, le User Story Mapping est devenu une manière commune de faciliter la collaboration entre les business owners et les équipes de développement en vue de fabriquer le bon produit, dans le bon ordre. Compte tenu de sa puissance et de son efficacité, cet atelier est, aujourd’hui, très apprécié des équipes Agiles pour prioriser de façon optimale leur backlog.</p><p>Tout d’abord, il faut que vous vous mettiez dans la peau de vos utilisateurs afin de décrire la cinématique dans laquelle ils s’inscrivent lorsqu’ils utilisent votre produit. Détaillez chaque étape, si possible, en conservant un ordre chronologique. Le flux narratif qui en résulte forme le squelette de votre User Story Map, composé d’activités ou de fonctionnalités macro.</p><p>Ensuite, vous allez lister les user stories qui permettent à vos utilisateurs d’atteindre leurs objectifs à travers votre produit. La définition des user stories favorise l’échange entre les business owners et les équipes de développement, conduisant progressivement à la construction d’une compréhension commune des enjeux business, produit et technique.</p><p>Pour finir, il vous suffit de positionner les user stories selon l’axe vertical et en regrouper un certain nombre avec pour objectif d’apporter le minimum de valeur ajoutée requis à vos utilisateurs : c’est ce qu’on appelle le MVP (pour Minimum Viable Product). Vous pouvez poursuivre l’exercice en déterminant une deuxième puis une troisième version de votre produit, mais sachez que beaucoup de choses peuvent survenir entre temps !</p><h2>Qu’est-ce qu’un MVP ?</h2><p>L’une des erreurs fréquentes au sujet du MVP est de penser qu’il s’agit seulement d’un produit qui fonctionne, sur le plan technique. Faisons l’analogie suivante : quand nous parlons de la nature et que nous utilisons le terme ‘viable’ pour parler d’un organisme vivant, cela signifie que cet organisme peut survivre de façon autonome dans son environnement. Le concept de MVP est similaire.</p><p>En conservant cette analogie à l’esprit, on peut définir le MVP comme étant la plus petite mise en production qui permet aux utilisateurs d’atteindre leurs objectifs (non un produit bâclé !) et, par conséquent, dans le cadre de votre processus Agile, vous permet de tirer des enseignements pertinents auprès de vos utilisateurs.</p>
+			</div>
+
+			<div class="tips-block">
+				<h2>Quelques conseils de <b>Jeff Patton</b> lui-même</h2>
+
+				<p>En avril 2020, nous avons eu le plaisir d’échanger avec Jeff Patton pour comprendre plus finement sa propre conception du User Story Mapping. Il a pu préciser certains points et partager sa vision de l’exercice. Ainsi, pour Jeff Patton, le User Story Mapping :</p><ul><li>C’est comme la trame du scénario d’un film. Vous écrivez le scénario de vos utilisateurs qui vivent des péripéties à travers votre produit ;</li><li>C’est un outil de réflexion “vivant”. Après quelques mois, il ne faut pas hésiter à le modifier, voire même à le jeter, et recommencer à zéro ;</li><li>C’est par nature incomplet et imprécis. Il ne faut pas essayer d’être exhaustif et se perdre dans trop détail ;</li><li>C’est à la fois une représentation visuelle commune et un portail vers d’autres éléments du produit, ce qui caractérise la puissance et le succès de cet outil ;</li><li>C’est un artefact qui se construit naturellement, au fur et à mesure de l’atelier, et non qui possède une structure a priori.</li></ul>
+
+				<footer>
+					<img src="./imgs/UI_Examples/UserStoryMapping/portrait_Jeff_Patton.jpg" class="portrait" alt="Jeff Patton portrait">
+					<div class="author">
+						<span class="name">Jeff Patton</span>
+						<span class="status">
+							Auteur de "User Story Mapping: Discover the Whole Story,<br>Build the Right Product"
+						</span>
+					</div>
+				</footer>
+			</div>
+
+			<div class="tips-block">
+				<h2>Quelques autres conseils de professionnels du Product Management</h2>
+
+				<p>Fatima-Zahra Hamil, Coach Produit expérimentée chez Publicis Sapient, souligne deux étapes critiques préalables au bon déroulement d’une session de User Story Mapping :</p><ul><li>Affiner la vision afin que celle-ci reflète la compréhension des enjeux marché et des problèmes rencontrés par les utilisateurs ;</li><li>Décrire précisément les <a class="text-link underline-over" href="https://draft.io/fr/example/persona">Personas</a>. C’est ce qui permet, ensuite, de facilement identifier les fonctionnalités qui vont réellement apporter de la valeur ajoutée aux utilisateurs.</li></ul><p>A l’issue d’un atelier de User Story Mapping abouti, vous devriez avoir à disposition tous les éléments nécessaires à la construction de votre <a class="text-link advanced-underline-over" href="https://draft.io/fr/example/product-roadmap"><span>Product</span> <span>Roadmap</span></a>.</p>
+
+				<footer>
+					<img src="./imgs/UI_Examples/UserStoryMapping/portrait_Fatima-Zahra_Hamil.jpg" class="portrait" alt="Fatima-Zahra Hamil portrait">
+					<div class="author">
+						<span class="name">Fatima-Zahra Hamil</span>
+						<span class="status">
+							Coach produit chevronnée chez Publicis Sapient
+						</span>
+					</div>
+				</footer>
+			</div>
+
+			<div class="resources-block">
+				<i class="fas fa-bookmark deco"></i>
+				<h2>Suggestions de ressources pour devenir un expert du User Story Mapping</h2>
+				<ul class="resources-list">
+					<li><i class="fas fa-external-link-alt"></i>Pour les anglophones, le site de Jeff Pathon : <a class="text-link light underline" href="https://www.jpattonassociates.com/user-story-mapping/">jpattonassociates.com/user-story-mapping/</a></li><li><i class="far fa-bookmark"></i>Le blog de Judicaël Paquet, Coach Agile, et son billet : <a class="text-link light underline" href="https://blog.myagilepartner.fr/index.php/2017/07/29/story-mapping/">User Story Mapping - Example/</a></li><li><i class="far fa-bookmark"></i>Le blog de Martial Segura, Coach Agile, et son article : <a class="text-link light underline" href="https://www.oeildecoach.com/creer-1er-user-story-mapping/">Comment créer votre 1er User Story Mapping ?/</a></li><li><i class="far fa-play-circle"></i>Scrum Life, la chaîne YouTube de Jean-Pierre Lambert, Coach Agile, avec la vidéo <a class="text-link light underline" href="https://www.youtube.com/watch?v=dvnU_R0mu98">Le storytelling au service du backlog : le User Story Mapping/</a></li>
+				</ul>
+			</div>
+
+		</section>
+
+		<footer class="examples-nav dark">
+			<nav class="wrapper">
+				<a class="text-link light previous" href="<%= @previous_href %>">
+					<!-- TESTONLY -->
+					<i class="fas fa-long-arrow-alt-left"></i> Collecte de Feedback
+					<!-- ENDTESTONLY -->
+					<!-- PRODONLY
+					<i class="fas fa-long-arrow-alt-left"></i> <%= @previous["label"] %>
+					END -->
+				</a>
+				<span class="separator"></span>
+				<span class="current-example">
+					<!-- TESTONLY -->
+					User Story Mapping
+					<!-- ENDTESTONLY -->
+					<!-- PRODONLY
+					<%= @example["label"] %>
+					END -->
+				</span>
+				<span class="separator"></span>
+				<a class="text-link light next" href="<%= @next_href %>">
+					<!-- TESTONLY -->
+					Scrum Board	<i class="fas fa-long-arrow-alt-right"></i>
+					<!-- ENDTESTONLY -->
+					<!-- PRODONLY
+					<%= @next["label"] %> <i class="fas fa-long-arrow-alt-right"></i>
+					END -->
+				</a>
+			</nav>
+		</footer>
+
+	<script src="https://kit.fontawesome.com/6b4515f4ac.js" crossorigin="anonymous"></script>
+
+	<script>
+	if (
+	  "IntersectionObserver" in window &&
+	  "IntersectionObserverEntry" in window &&
+	  "intersectionRatio" in window.IntersectionObserverEntry.prototype
+	) {
+	let observer = new IntersectionObserver(entries => {
+	  if (entries[0].boundingClientRect.y < 0) {
+	    document.body.classList.add("header-not-at-top");
+	  } else {
+	    document.body.classList.remove("header-not-at-top");
+	  }
+	});
+	observer.observe(document.querySelector("#top-of-site-pixel-anchor"));
+	}
+	</script>
+	
+	<!-- PRODONLY
+	<script>
+	document.querySelector('.bloc-cta .cta-border').addEventListener('pointerdown', function() {
+		window.location.href = "/example/create/<%= @example["id"] %>";
+	});
+	</script>
+	END -->
+
+	<!-- PRODONLY 
+  <% if Rails.env == "production" && JSON_CONFIG['ga'] %>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      
+      ga('create', "<%= JSON_CONFIG['ga'] %>", 'auto');
+      ga('send', 'pageview');
+    </script>
+  <% end %>
+  END -->
+	</body>
+</html>

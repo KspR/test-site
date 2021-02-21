@@ -54,7 +54,7 @@
 
 <!-- ENDCSS -->
 	</head>
-	<body class="dark has-header example lang-fr has-header header-examples"><!-- lang-code -->
+	<body class="ui_example galery-mode-only has-header example lang-fr header-examples"><!-- lang-code -->
 		<!-- PRODONLY
 		<% if JSON_CONFIG["google-tag-manager"] %>
 			<%= render "partials/google_tag_manager_body" %>
@@ -133,9 +133,11 @@
 	}
 </script>
 
-		<div class="content">
+		<section class="landing">
+
 			<div class="wrapper">
-				<div class="ariane">
+
+				<nav class="breadcrumb small">
 					<!-- PRODONLY
 					<% if @lang.code != 'en' %>
 						<a href="/<%= @lang.code %>/examples"><%= @lang.example.examples %></a>
@@ -144,20 +146,20 @@
 					<% end %>
 					END -->
 					<!-- TESTONLY -->
-					<a href="/examples">Examples</a>
+					<a class="text-link light" href="/examples">Examples</a>
 					<!-- ENDTESTONLY -->
-					<div class="separator">></div>
-					<div class="current">
+					<i class="fas fa-chevron-right separator"></i>
+					<span class="current">
 						<!-- TESTONLY -->
 						User Story Mapping
 						<!-- ENDTESTONLY -->
 						<!-- PRODONLY
 						<%= @example["label"] %>
 						END -->
-					</div>
-				</div>
+					</span>
+				</nav>
 
-				<div class="bloc-top">
+				<div class="title-bar">
 					<h1>
 						<!-- TESTONLY -->
 						User Story Mapping
@@ -166,51 +168,64 @@
 						<%= @example["label"] %>
 						END -->
 					</h1>
-					<div class="bloc-cta">
-						<div class="cta-border">
+					<div class="actions">
+						<a href="#" class="cta round outline">
 							<!-- TESTONLY -->
-							Essayer l'exemple*
+							Essayer l'exemple
 							<!-- ENDTESTONLY -->
 							<!-- PRODONLY
-							<%= @lang.example.cta %>
+							<%= @lang.ex_UserStoryMapping.cta %>
 							END -->
-						</div>
-						<div class="no-account-required">
-							<!-- TESTONLY -->
-							*Pas de compte requis
-							<!-- ENDTESTONLY -->
-							<!-- PRODONLY
-							<%= @lang.example.asterisk %>
-							END -->
-						</div>
+							<span class="mention">
+								<!-- TESTONLY -->
+								Pas de compte requis
+								<!-- ENDTESTONLY -->
+								<!-- PRODONLY
+								<%= @lang.example.asterisk %>
+								END -->
+							</span>
+						</a>
+						<span class="separator"></span>
+						<a href="#" class="text-link light underline">Utiliser le template</a>
 					</div>
 				</div>
-				<!-- TESTONLY -->
-				<img class="screenshot" src="./imgs/examples/en/full/example-user-story-mapping.png" />
-				<!-- ENDTESTONLY -->
-				<!-- PRODONLY
-				<img class="screenshot" src="<%= image_path("site/examples/en/full/example-" + @example["id"] + ".png") %>" alt="<%= @example["label"] %> example" />
-				END -->
-				<div class="bloc-bottom">
-					<a class="previous" href="<%= @previous_href %>">
-						<!-- TESTONLY -->
-						← Collecte de Feedback
-						<!-- ENDTESTONLY -->
-						<!-- PRODONLY
-						← <%= @previous["label"] %>
-						END -->
-					</a>
-					<a class="next" href="<%= @next_href %>">
-						<!-- TESTONLY -->
-						Scrum Board	→
-						<!-- ENDTESTONLY -->
-						<!-- PRODONLY
-						<%= @next["label"] %> →
-						END -->
-					</a>
-				</div>
+
+				<figure class="main-screenshot">
+					<!-- TESTONLY -->
+					<img class="screenshot" src="./imgs/examples/en/full/example-user-story-mapping.png" alt="" />
+					<!-- ENDTESTONLY -->
+					<!-- PRODONLY
+					<img class="screenshot" src="<%= image_path("site/examples/en/full/example-" + @example["id"] + ".png") %>" alt="<%= @example["label"] %> example" />
+					END -->
+				</figure>
+
 			</div>
-		</div>
+
+		</section>
+
+		<footer class="examples-nav dark">
+			<nav class="wrapper">
+				<a class="text-link light previous" href="<%= @previous_href %>">
+					<!-- TESTONLY -->
+					<i class="fas fa-long-arrow-alt-left"></i> Collecte de Feedback
+					<!-- ENDTESTONLY -->
+					<!-- PRODONLY
+					← <%= @previous["label"] %>
+					END -->
+				</a>
+				<span class="separator"></span>
+				<span class="current-example">User Story Mapping</span>
+				<span class="separator"></span>
+				<a class="text-link light next" href="<%= @next_href %>">
+					<!-- TESTONLY -->
+					Scrum Board	<i class="fas fa-long-arrow-alt-right"></i>
+					<!-- ENDTESTONLY -->
+					<!-- PRODONLY
+					<%= @next["label"] %> →
+					END -->
+				</a>
+			</nav>
+		</footer>
 
 	<script src="https://kit.fontawesome.com/6b4515f4ac.js" crossorigin="anonymous"></script>
 

@@ -1,0 +1,73 @@
+ex_sb
+	title
+		Scrum Board
+		Scrum Board
+	mainContent
+		------
+		<h2>What is a Scrum Board?</h2>
+		<p>
+			A Scrum Board (or Scrum Task Board) is the visual management artifact used by Scrum teams to track tasks’ advancement within a sprint. It centralizes all necessary operational information to develop the product according to the Scrum Agile framework.
+		</p>
+		<p>
+			As the board is updated as soon as a task is completed, it is the perfect support to hold the Daily Scrum Meetings. Within the team, it brings total transparency regarding any issues a member of the team might face. Finally, it naturally conveys information to stakeholders who would like to get a quick overview of what is going in on in the team, without having to disturb any member of the team.
+		</p>
+		<p>
+			As proof of its efficiency, the Scrum Board has since been adapted to become a personal and family organizational tool. It is also more and more used at school, from elementary school to university, to track the ‘Scrum workflow’ of the class.
+		</p>
+		<h2>How to build a Scrum Board?</h2>
+		<p>
+			In general, Scrum Boards are organized in 4 columns: a column “Stories”, plus three columns “Todo”, “In Progress”, and “Done”, like in an ordinary <a class="text-link advanced-underline-over" href="https://draft.io/example/kanban-board"><span>Kanban</span> <span>Board</span></a>. The User Stories that are planned to be implemented during the sprint are listed in the Stories column, also called the sprint backlog. In the other columns, User Stories are split into subtasks whose advancement is tracked by moving them from one column to another one. 
+		</p>
+		<p>
+			Each User Story and its related group of tasks is separated by swimlanes from other User Stories and related tasks. You can also bring a color code if you want to categorize tasks visually. Above the table, you should mention the sprint goal explicitly. It’s like the product vision at the sprint level and will guide all coming discussions.
+		</p>
+		<p>
+			To bring additional essential information to your Agile team, you can add other complementary components to your core Scrum Board: product backlog, Daily Scrum Meeting’s agenda, test column, Definition of Done checklist, burndown chart, a specific line to track bug fixing, tracking of impediments, tracking of team members’ vacations, etc.
+		</p>
+		---
+		<h2>Qu’est-ce qu’un Scrum Board ?</h2>
+		<p>
+			Un Scrum Board (ou Scrum Task Board) est un outil de management visuel utilisé par les équipes Scrum pour suivre l’avancement des tâches au cours d’un sprint. Il permet de centraliser toutes les informations utiles au bon fonctionnement de l’équipe, en accord avec le framework Agile Scrum.
+		</p>
+		<p>
+			Le tableau étant actualisé au fur et à mesure de l’achèvement des tâches, c’est le parfait support de discussion pour les Daily Scrum Meetings. Le Scrum Board favorise une transparence totale quant aux éventuels problèmes rencontrés par les membres de l’équipe. Par ailleurs, il permet de diffuser l’information aux parties prenantes, en particulier les autres équipes ou les managers, de façon systématique et ordonnée, et sans que celles-ci n’aient besoin de solliciter l’équipe Scrum.
+		</p>
+		<p>
+			Fort de son succès, le Scrum Board a depuis été repris et adapté pour devenir un outil d’organisation individuel ou, même, familial. Il est également de plus en plus utilisé à l’école, de la primaire à l’université, pour organiser le ‘Scrum workflow’ de la classe.
+		</p>
+		<h2>Comment construire un Scrum Board ?</h2>
+		<p>
+			En général, les Scrum Boards possèdent 4 colonnes : une colonne “Stories”, plus trois autres colonnes “A faire”, “En cours” et “Fait”, comme dans un <a class="text-link advanced-underline-over" href="https://draft.io/fr/example/kanban-board"><span>Kanban</span> <span>Board</span></a>élémentaire. Les User Stories que l’équipe a prévu d’implémenter au cours du sprint (aussi appelé le sprint backlog) sont placées dans la colonne Stories. Les autres colonnes servent à suivre l’avancement des tâches relatives à chacune des User Stories.
+		</p>
+		<p>
+			Chaque User Story et l’ensemble des tâches qui lui sont liées sont séparées des autres User Stories et tâches par des lignes de nage horizontales. Vous pouvez également définir un code couleur afin de catégoriser visuellement les tâches. Au-dessus du tableau Scrum, indiquez explicitement l’objectif du sprint ; il vous permettra de guider toutes les discussions qui auront lieu et de hiérarchiser naturellement les problèmes à résoudre.
+		</p>
+		<p>
+			Afin d’apporter toutes les informations nécessaires au bon fonctionnement de l’équipe, vous pouvez ajouter plusieurs autres éléments à votre Scrum Board. Par exemple : un backlog produit, l’agenda du Daily Scrum Meeting, une colonne "À tester", la checklist du Definition Done, un burndown chart, une ligne pour les bugs, un tableau annexe pour suivre l’avancement de la résolution des obstacles, un tableau pour suivre les congés , etc.
+		</p>
+		------
+	resourcesBlock
+		title
+			Suggested resources to become an expert in building Scrum Boards
+			Suggestions de ressources pour construire votre propre Scrum Board
+		linksList
+			------
+			<li>
+				<i class="fas fa-bookmark"></i>
+				Judicaël Paquet’s instructive blog article: <a class="text-link light underline" href="https://www.myagilepartner.com/blog/index.php/2019/05/15/make-a-complete-scrum-board/">Make a complete scrum board/</a>
+			</li>
+			<li>
+				<i class="far fa-play-circle"></i>
+				Kane Mar’s introductive video: <a class="text-link light underline" href="https://www.youtube.com/watch?v=Ti2g66b7MUo">[Scrum 101] The Task Board/</a>
+			</li>
+			---
+			<li>
+				<i class="fas fa-bookmark"></i>
+				Le blog de Judicaël Paquet, Coach Agile, à travers un article qui montre comment construire un Scrum Board pas à pas : <a class="text-link light underline" href="https://blog.myagilepartner.fr/index.php/2016/12/21/scrum-board/">Scrum Board Complet - nos astuces/</a>
+			</li>
+			<li>
+				<i class="far fa-play-circle"></i>
+				La vidéo très complète des deux Coach Agiles, Jean-Pierre Lambert et Constantin Guay, sur la chaîne YouTube Scrum Life : <a class="text-link light underline" href="https://www.youtube.com/watch?v=8zw8dh_O1Xs">Scrum Board : Comment bien débuter ?</a>
+			</li>
+			------
+			
