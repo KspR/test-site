@@ -97,6 +97,7 @@
 }
 .ui_example.galery-mode-only .landing {
   padding-bottom: 120px;
+  min-height: calc(100vh - 80px);
 }
 .ui_example.galery-mode-only .landing .title-bar {
   margin-bottom: 50px;
