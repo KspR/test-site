@@ -62,6 +62,9 @@ button:focus {
 body.has-header {
   padding-top: 70px;
 }
+body.has-header.header-not-at-top > header.main-header .nav {
+  background: #323232;
+}
 
 body > header.main-header {
   position: fixed;
@@ -70,6 +73,7 @@ body > header.main-header {
   z-index: 100;
   width: 100%;
   color: white;
+  transition: box-shadow 0.3s;
 }
 body > header.main-header .nav {
   height: 70px;
@@ -77,6 +81,7 @@ body > header.main-header .nav {
   align-items: center;
   justify-content: flex-end;
   background: #2A2A2A;
+  transition: background 0.2s;
 }
 body > header.main-header .nav .logo {
   margin-right: auto;
@@ -96,7 +101,6 @@ body > header.main-header .nav ul {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  background: #2A2A2A;
   height: 100%;
 }
 @media only screen and (max-width: 1060px) {

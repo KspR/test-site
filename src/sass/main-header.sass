@@ -6,6 +6,11 @@ $mobileHeaderHeight : 50px
 
 body.has-header
 	padding-top : $desktopHeaderHeight
+	
+	&.header-not-at-top > header.main-header .nav
+		//border-bottom : 1px solid rgba(255,255,255,.1)
+		// box-shadow : 0 10px 50px 0 rgba(0,0,0,0.2)
+		background : $lightenDarkBackground
 
 body > header.main-header
 	position : fixed
@@ -14,12 +19,16 @@ body > header.main-header
 	z-index : 100
 	width : 100%
 	color : white
+
+	transition : box-shadow .3s
 	.nav
 		height : $desktopHeaderHeight
 		display : flex
 		align-items : center
 		justify-content : flex-end
 		background : #2A2A2A
+
+		transition : background .2s
 	.nav .logo
 		margin-right : auto
 		height : 100%
@@ -36,7 +45,6 @@ body > header.main-header
 		display : flex
 		align-items : center
 		justify-content : flex-end
-		background : #2A2A2A
 		height : 100%
 		
 		@media only screen and (max-width: 1060px)
