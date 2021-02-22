@@ -7,6 +7,7 @@ body > header.main-header {
   left: 0;
   z-index: 100;
   width: 100%;
+<<<<<<< HEAD
   color: white; }
   body > header.main-header .nav {
     height: 70px;
@@ -136,6 +137,172 @@ body > header.main-header {
   body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-btn-burger + .deco-btn-burger + .deco-btn-burger {
     transform: rotate(-135deg);
     width: 100%; }
+=======
+  color: white;
+}
+body > header.main-header .nav {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background: #2A2A2A;
+}
+body > header.main-header .nav .logo {
+  margin-right: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  transition: opacity 0.2s;
+}
+body > header.main-header .nav .logo:hover {
+  opacity: 1;
+}
+body > header.main-header .nav .logo img {
+  height: 52%;
+  margin-left: 20px;
+}
+body > header.main-header .nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background: #2A2A2A;
+  height: 100%;
+}
+@media only screen and (max-width: 1060px) {
+  body > header.main-header .nav ul li a, body > header.main-header .nav ul li .toggle {
+    font-size: 0.9rem;
+  }
+}
+body > header.main-header .nav ul li {
+  white-space: nowrap;
+  position: relative;
+  margin: 0 15px;
+}
+body > header.main-header .nav ul li .neutral {
+  position: absolute;
+  left: 0;
+}
+body > header.main-header .nav ul li .cta .neutral {
+  left: 26px;
+}
+body > header.main-header .nav ul li.login .neutral {
+  left: 30px;
+}
+body > header.main-header .nav ul li .selected {
+  visibility: hidden;
+  font-weight: bold;
+}
+body > header.main-header .nav ul li .text-link {
+  padding: 6px 0;
+  color: white;
+}
+body > header.main-header .nav ul li .text-link:hover {
+  color: #f1852b;
+}
+body > header.main-header .nav ul li .toggle-wrapper {
+  position: relative;
+}
+body > header.main-header .nav ul li .toggle-wrapper:hover {
+  cursor: default;
+}
+body > header.main-header .nav ul li .toggle-wrapper:hover .toggle .fas {
+  margin-left: 8px;
+  transform: rotate(90deg);
+}
+body > header.main-header .nav ul li .toggle-wrapper .toggle .fas {
+  min-width: 14px;
+  display: inline-block;
+  font-size: 0.7em;
+  position: relative;
+  top: 0;
+  transition: transform 0.3s, margin-left 0.3s;
+}
+body > header.main-header .nav ul li .toggle-wrapper .menu {
+  display: block;
+  box-sizing: content-box;
+  position: absolute;
+  top: 100%;
+  height: auto;
+  width: auto;
+  left: -10px;
+  background: orange;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #333;
+  -webkit-font-smoothing: antialiased;
+  transition: opacity 150ms ease-out;
+}
+body > header.main-header .nav ul li .toggle-wrapper .menu li {
+  white-space: nowrap;
+}
+body > header.main-header .nav ul li .toggle-wrapper:hover .menu {
+  z-index: 10;
+  opacity: 1;
+  pointer-events: initial;
+}
+body > header.main-header .nav ul li.logo + li {
+  margin-left: auto;
+}
+body > header.main-header .nav ul li.login a {
+  border-left: 1px solid #666666;
+  padding-left: 30px;
+}
+body > header.main-header .nav ul li.signup a {
+  margin-right: 20px;
+}
+body > header.main-header #btnBurgerMenu,
+body > header.main-header .burger-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 50;
+  height: 100%;
+  width: 65px;
+  display: none;
+}
+body > header.main-header #btnBurgerMenu {
+  z-index: 51;
+  display: none;
+}
+body > header.main-header .burger-btn {
+  z-index: 52;
+  justify-content: center;
+  align-items: center;
+}
+body > header.main-header .burger-btn .wrapper {
+  width: 30px;
+  transition: transform 0.3s;
+}
+body > header.main-header .burger-btn .wrapper .deco-btn-burger {
+  height: 2px;
+  background: white;
+  display: block;
+  width: 100%;
+  border-radius: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform 0.3s, margin-top 0.3s, width 0.3s;
+}
+body > header.main-header .burger-btn .wrapper .deco-btn-burger + .deco-btn-burger {
+  margin-top: 8px;
+}
+body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-btn-burger {
+  transform: rotate(135deg);
+}
+body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-btn-burger + .deco-btn-burger {
+  width: 0;
+  margin-top: -2px;
+  transform: rotate(0deg) scale(0);
+}
+body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-btn-burger + .deco-btn-burger + .deco-btn-burger {
+  transform: rotate(-135deg);
+  width: 100%;
+}
+>>>>>>> 94aa1787d64d935c2ce5eed173c397b0b6f0e5c1
 
 @media only screen and (max-width: 992px) {
   body > header.main-header #btnBurgerMenu {

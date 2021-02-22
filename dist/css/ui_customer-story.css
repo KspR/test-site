@@ -10,7 +10,7 @@
   padding: 0 5%;
 }
 .ui_customer-story .ui-header.evoyageurs::before {
-  background-image: url("../imgs/UI_Customer-stories/evoyageurs/illustration_evoyageurs.png");
+  background-image: url("../imgs/MUT_Customers/customer_evoyageurs/illustration_evoyageurs.png");
 }
 @media only screen and (max-width: 1390px) {
   .ui_customer-story .ui-header.evoyageurs::before {
@@ -20,7 +20,7 @@
   }
 }
 .ui_customer-story .ui-header.sympany::before {
-  background-image: url("../imgs/UI_Customer-stories/sympany/draft-business-case-sympany.png");
+  background-image: url("../imgs/MUT_Customers/customer_sympany/draft-business-case-sympany.png");
 }
 @media only screen and (max-width: 1390px) {
   .ui_customer-story .ui-header.sympany::before {
@@ -30,7 +30,7 @@
   }
 }
 .ui_customer-story .ui-header.transilien::before {
-  background-image: url("../imgs/UI_Customer-stories/transilien/Transilien-illustration-v3.png");
+  background-image: url("../imgs/MUT_Customers/customer_transilien/Transilien-illustration-v3.png");
   background-position: 100% 100%;
 }
 @media only screen and (max-width: 1660px) {
@@ -157,7 +157,7 @@
   border-radius: 10px;
 }
 .ui_customer-story .customer-story .wrapper .illustration.intro {
-  top: -50px;
+  top: -90px;
 }
 .ui_customer-story .customer-story .wrapper .illustration.left-sided {
   margin-left: -20px;
@@ -167,7 +167,7 @@
   float: right;
 }
 .ui_customer-story .customer-story .wrapper .illustration.intro + h2 {
-  margin-top: -50px;
+  margin-top: -70px;
 }
 .ui_customer-story .customer-story .wrapper h2, .ui_customer-story .customer-story .wrapper > p, .ui_customer-story .customer-story .wrapper ol {
   padding: 0 15%;

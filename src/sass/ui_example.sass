@@ -1,0 +1,416 @@
+@import colors.sass
+@import DDS_breakpoints.sass
+
+.ui_example
+
+	padding-bottom : 120px
+	height : auto
+
+	// --------------------------------------------------------------
+	// SECTION LANDING
+	// --------------------------------------------------------------
+
+	.landing
+
+		background : $darkBackground
+		color : white
+
+		.wrapper
+			width : 1280px
+			max-width : 100%
+			margin : 0 auto
+			padding : 40px
+			padding-bottom : 0
+
+			.breadcrumb.small
+				.text-link, span, .fas, .far
+					font-size : .9rem
+					color : inherit
+					opacity : .6
+					transition : opacity .2s
+				.fas, .far
+					font-size : .5em
+					margin : 0 8px
+					opacity : .6
+				.current
+					font-weight : bold
+					opacity : .6
+				.text-link:hover
+					opacity : 1
+					
+
+			.title-bar
+				display : flex
+				align-items : center
+				margin-top : 20px
+
+				h1
+				.actions
+					margin-left : auto
+					display : flex
+					align-items : center
+					color : white
+					.cta
+						position : relative
+						font-size : 1.2rem
+						padding : 15px 50px
+						.mention
+							position : absolute
+							width : 100%
+							display : block
+							text-align : center
+							bottom : -30px
+							left : 0
+							font-size : .8rem
+							opacity : .6
+							pointer-events : none
+							cursor : default
+					.separator
+						display : block
+						width : 1px
+						height : 80px
+						transform : rotate(10deg)
+						background : white
+						opacity : .1
+						margin : 0 40px
+					.text-link
+						color : white
+						font-size : 1.1rem
+			
+			@media only screen and (max-width : 850px)
+				.title-bar
+					display : block
+					h1
+					.actions
+						margin-top : 20px
+				
+			.main-screenshot
+				width : 100%
+				.screenshot
+					display : block
+					border-radius : 10px
+					width : 100%
+					transform : translateY(50px)
+
+	// --------------------------------------------------------------
+	// end of SECTION LANDING
+	// --------------------------------------------------------------
+
+	// --------------------------------------------------------------
+	// SECTION MAIN-CONTENT
+	// --------------------------------------------------------------
+		
+	.main-content
+		padding-top : 80px
+		
+		.wrapper
+			width : 800px
+			max-width : 100%
+			margin : 0 auto
+			margin-top : 30px
+			max-width : 100%
+			padding : 0 40px
+			h2
+				font-size : 1.5rem
+				margin-bottom : 30px
+			p + h2
+				margin-top : 30px
+			p
+				margin-bottom : 15px
+				line-height : 1.7rem
+				font-size : 1.2rem
+
+				&.clearfix
+					margin-top : 30px
+					img.float
+						border-radius : 5px
+						margin : 30px
+						margin-top : 0
+						max-height : 500px
+						max-width : calc(50% - 30px)
+					img.float.left
+						float : left
+						margin-left : -30px
+					img.float.right
+						float : right
+						margin-right : -30px
+
+		.tips-block,
+		.resources-block
+			width : 860px
+			max-width : calc(100% - 80px)
+			margin : 40px auto 0
+			padding : 40px 50px
+			border-radius : 5px
+
+		.tips-block
+			box-shadow : 0 0 50px 0 rgba(0,0,0,0.1)
+			h2
+				font-size : 1.3rem
+				margin-bottom : 30px
+			p
+				margin-bottom : 15px
+				line-height : 1.7rem
+				font-size : 1.2rem
+			ul
+				margin-top : 20px
+				margin-left : 20px
+				li
+					position : relative
+					padding-left : 20px
+					line-height : 1.7rem
+					font-size : 1.2rem
+					&::before
+						content : "•"
+						display : block
+						position : absolute
+						left : 0
+				li + li
+					margin-top : 10px
+			ul + p
+				margin-top : 20px
+			footer
+				display : flex
+				align-items : center
+				border-top : 1px solid #eaeaea
+				padding-top : 30px
+				margin-top : 30px
+				.portrait
+					border-radius : 100%
+					width : 100px
+					height : 100px
+					display : block
+				.author
+					margin-left : 30px
+					margin-top : 10px
+					.name
+						display : block
+						font-weight : bold
+						font-size : 1.2rem
+					.status
+						opacity : .75
+						margin-top : 5px
+						font-size : 1rem
+						display : block
+		
+		.resources-block
+			background : $darkBlue
+			position : relative
+			color : white
+			overflow : hidden
+			.deco
+				position : absolute
+				right : 40px
+				top : -20px
+				font-size : 2.6rem
+				opacity : .1
+				transform : scaleY(3)
+			h2
+				font-size : 1.3rem
+			.resources-list
+				margin-top : 30px
+				li
+					position : relative
+					padding-left : 24px
+					.fas, .far
+						position : absolute
+						left : 0
+						top : 4px
+						font-size : .8rem
+						opacity : .7
+					.text-link
+				li + li
+					margin-top : 10px
+
+	// --------------------------------------------------------------
+	// end of SECTION MAIN-CONTENT
+	// --------------------------------------------------------------
+
+	// --------------------------------------------------------------
+	// SECTION FOOTER / NAV
+	// --------------------------------------------------------------
+	
+	.examples-nav
+		background : white
+		box-shadow : 0 20px 100px 0 rgba(0,0,0,0.2)
+		&.dark
+			background : $lightenDarkBackground
+			color : white
+		height : 60px
+		position : fixed
+		left : 0
+		bottom : 0
+		width : 100%
+		display : block
+		.wrapper
+			display : flex
+			height : 100%
+			justify-content : center
+			align-items : center
+			margin : auto
+			.text-link
+				font-size : 1rem
+				opacity : .8
+				.fas
+					font-size : 1em
+					margin : 0
+					display : inline-block
+				&.previous .fas
+					margin-right : 8px
+				&.next .fas
+					margin-left : 8px
+				&.previous:hover .fas
+					transform : translateX(-5px)
+
+				&:hover
+					opacity : 1
+			.separator
+				border-left : 1px solid #555
+				opacity : .2
+				margin : 0 20px
+				display : block
+				height : 14px
+			.current-example
+				opacity : .7
+				font-size : 1rem
+		
+		&.dark
+			.wrapper
+				.separator
+					border-left : 1px solid #EEE
+
+	// --------------------------------------------------------------
+	// end of SECTION FOOTER / NAV
+	// --------------------------------------------------------------
+
+	// ======================================================================================
+	// RESPONSIVE MOBILE
+	// ======================================================================================
+
+
+	@media only screen and (max-width : $phoneBreakpoint)
+
+		.landing
+			.wrapper
+				padding : 20px
+				
+				.title-bar
+
+					h1
+						text-align : center
+						margin-top : 50px
+						margin-bottom : 50px
+					.actions
+						flex-direction : column
+						.separator
+							display : none
+						.text-link
+							margin-top : 50px
+
+		// --------------------------------------------------------------
+		// end of SECTION LANDING
+		// --------------------------------------------------------------
+
+		// --------------------------------------------------------------
+		// SECTION MAIN-CONTENT
+		// --------------------------------------------------------------
+			
+		.main-content
+			
+			.wrapper
+				padding : 0 30px
+				p.clearfix
+					img.float
+						margin : 40px 40px 40px 10px
+						margin-top : 0
+						max-height : 500px
+						max-width : calc(50% - 50px)
+					img.float.left
+						margin-left : -10px
+					img.float.right
+						margin-right : -10px
+
+			.tips-block,
+			.resources-block
+				max-width : calc(100% - 20px)
+				margin : 40px auto 0
+				padding : 30px 30px
+
+			.tips-block
+				h2
+					margin-bottom : 20px
+				p
+				ul
+					margin-left : 0px
+				ul + p
+					margin-top : 20px
+				footer
+					flex-direction : column
+					align-items : start
+					.portrait
+						width : 80px
+						height : 80px
+					.author
+						margin-left : 0
+						margin-top : 20px
+			
+			.resources-block
+				.deco
+					display : none
+				h2
+					font-size : 1.2rem
+
+				.text-link.underline
+					text-decoration : underline
+				.text-link.underline::after
+					display : none
+
+		// --------------------------------------------------------------
+		// end of SECTION MAIN-CONTENT
+		// --------------------------------------------------------------
+
+		// --------------------------------------------------------------
+		// SECTION FOOTER / NAV
+		// --------------------------------------------------------------
+		
+		.examples-nav
+			height : auto
+			padding : 20px 20px
+			.wrapper
+				justify-content : center
+				.current-example, .current-example + .separator
+					display : none
+				.text-link
+					max-width : 50%
+					text-overflow : ellipsis
+					display : block
+					overflow : hidden
+					white-space : nowrap
+
+					&.next
+						padding-right : 20px
+					&.previous
+						padding-left : 20px
+
+					&.next .fas,
+					&.previous .fas
+						position : absolute
+						top : 4px
+					&.next .fas
+						right : 0
+					&.previous .fas
+						left : 0
+				
+				.text-link:hover
+					.fas:last-child
+						transform : none
+			
+			&.dark
+				.wrapper
+					.separator
+						border-top : 1px solid #555
+						border-left : none
+
+		// --------------------------------------------------------------
+		// end of SECTION FOOTER / NAV
+		// --------------------------------------------------------------

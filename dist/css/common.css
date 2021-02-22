@@ -168,13 +168,13 @@ body.examples {
         background-repeat: no-repeat;
         margin-bottom: 2px; }
 
-body.example.lang-en .screenshot.collaborative-brainstorming {
-  background-image: url("../imgs/examples/en/full/example-collaborative-brainstorming.png"); }
+body.example.lang-en .screenshot.user-story-mapping {
+  background-image: url("../imgs/examples/en/full/example-user-story-mapping.png"); }
 
-body.lang-en .home.panel .entry.collaborative-brainstorming .preview, body.examples.lang-en .entry.collaborative-brainstorming .preview {
-  background-image: url("../imgs/examples/en/mini/example-collaborative-brainstorming.png"); }
-body.lang-en .home.panel .full.collaborative-brainstorming, body.examples.lang-en .full.collaborative-brainstorming {
-  background-image: url("../imgs/examples/en/full/example-collaborative-brainstorming.png");
+body.lang-en .home.panel .entry.user-story-mapping .preview, body.examples.lang-en .entry.user-story-mapping .preview {
+  background-image: url("../imgs/examples/en/mini/example-user-story-mapping.png"); }
+body.lang-en .home.panel .full.user-story-mapping, body.examples.lang-en .full.user-story-mapping {
+  background-image: url("../imgs/examples/en/full/example-user-story-mapping.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -182,16 +182,16 @@ body.lang-en .home.panel .full.collaborative-brainstorming, body.examples.lang-e
   margin-left: 100px;
   height: 100%; }
 
-body.lang-en .vertice-create-example.example-collaborative-brainstorming .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-collaborative-brainstorming.png"); }
+body.lang-en .vertice-create-example.example-user-story-mapping .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/en/example-user-story-mapping.png"); }
 
-body.example.lang-en .screenshot.moodboard {
-  background-image: url("../imgs/examples/en/full/example-moodboard.png"); }
+body.example.lang-en .screenshot.scrum-board {
+  background-image: url("../imgs/examples/en/full/example-scrum-board.png"); }
 
-body.lang-en .home.panel .entry.moodboard .preview, body.examples.lang-en .entry.moodboard .preview {
-  background-image: url("../imgs/examples/en/mini/example-moodboard.png"); }
-body.lang-en .home.panel .full.moodboard, body.examples.lang-en .full.moodboard {
-  background-image: url("../imgs/examples/en/full/example-moodboard.png");
+body.lang-en .home.panel .entry.scrum-board .preview, body.examples.lang-en .entry.scrum-board .preview {
+  background-image: url("../imgs/examples/en/mini/example-scrum-board.png"); }
+body.lang-en .home.panel .full.scrum-board, body.examples.lang-en .full.scrum-board {
+  background-image: url("../imgs/examples/en/full/example-scrum-board.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -199,16 +199,16 @@ body.lang-en .home.panel .full.moodboard, body.examples.lang-en .full.moodboard 
   margin-left: 100px;
   height: 100%; }
 
-body.lang-en .vertice-create-example.example-moodboard .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-moodboard.png"); }
+body.lang-en .vertice-create-example.example-scrum-board .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/en/example-scrum-board.png"); }
 
-body.example.lang-en .screenshot.design-thinking {
-  background-image: url("../imgs/examples/en/full/example-design-thinking.png"); }
+body.example.lang-en .screenshot.kanban-board {
+  background-image: url("../imgs/examples/en/full/example-kanban-board.png"); }
 
-body.lang-en .home.panel .entry.design-thinking .preview, body.examples.lang-en .entry.design-thinking .preview {
-  background-image: url("../imgs/examples/en/mini/example-design-thinking.png"); }
-body.lang-en .home.panel .full.design-thinking, body.examples.lang-en .full.design-thinking {
-  background-image: url("../imgs/examples/en/full/example-design-thinking.png");
+body.lang-en .home.panel .entry.kanban-board .preview, body.examples.lang-en .entry.kanban-board .preview {
+  background-image: url("../imgs/examples/en/mini/example-kanban-board.png"); }
+body.lang-en .home.panel .full.kanban-board, body.examples.lang-en .full.kanban-board {
+  background-image: url("../imgs/examples/en/full/example-kanban-board.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -216,16 +216,16 @@ body.lang-en .home.panel .full.design-thinking, body.examples.lang-en .full.desi
   margin-left: 100px;
   height: 100%; }
 
-body.lang-en .vertice-create-example.example-design-thinking .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-design-thinking.png"); }
+body.lang-en .vertice-create-example.example-kanban-board .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/en/example-kanban-board.png"); }
 
-body.example.lang-en .screenshot.research-and-discussion {
-  background-image: url("../imgs/examples/en/full/example-research-and-discussion.png"); }
+body.example.lang-en .screenshot.scrumban {
+  background-image: url("../imgs/examples/en/full/example-scrumban.png"); }
 
-body.lang-en .home.panel .entry.research-and-discussion .preview, body.examples.lang-en .entry.research-and-discussion .preview {
-  background-image: url("../imgs/examples/en/mini/example-research-and-discussion.png"); }
-body.lang-en .home.panel .full.research-and-discussion, body.examples.lang-en .full.research-and-discussion {
-  background-image: url("../imgs/examples/en/full/example-research-and-discussion.png");
+body.lang-en .home.panel .entry.scrumban .preview, body.examples.lang-en .entry.scrumban .preview {
+  background-image: url("../imgs/examples/en/mini/example-scrumban.png"); }
+body.lang-en .home.panel .full.scrumban, body.examples.lang-en .full.scrumban {
+  background-image: url("../imgs/examples/en/full/example-scrumban.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -233,8 +233,280 @@ body.lang-en .home.panel .full.research-and-discussion, body.examples.lang-en .f
   margin-left: 100px;
   height: 100%; }
 
-body.lang-en .vertice-create-example.example-research-and-discussion .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-research-and-discussion.png"); }
+body.lang-en .vertice-create-example.example-scrumban .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/en/example-scrumban.png"); }
+
+body.example.lang-en .screenshot.program-board {
+  background-image: url("../imgs/examples/en/full/example-program-board.png"); }
+
+body.lang-en .home.panel .entry.program-board .preview, body.examples.lang-en .entry.program-board .preview {
+  background-image: url("../imgs/examples/en/mini/example-program-board.png"); }
+body.lang-en .home.panel .full.program-board, body.examples.lang-en .full.program-board {
+  background-image: url("../imgs/examples/en/full/example-program-board.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-en .vertice-create-example.example-program-board .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/en/example-program-board.png"); }
+
+body.example.lang-en .screenshot.pi-planning-board {
+  background-image: url("../imgs/examples/en/full/example-pi-planning-board.png"); }
+
+body.lang-en .home.panel .entry.pi-planning-board .preview, body.examples.lang-en .entry.pi-planning-board .preview {
+  background-image: url("../imgs/examples/en/mini/example-pi-planning-board.png"); }
+body.lang-en .home.panel .full.pi-planning-board, body.examples.lang-en .full.pi-planning-board {
+  background-image: url("../imgs/examples/en/full/example-pi-planning-board.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-en .vertice-create-example.example-pi-planning-board .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/en/example-pi-planning-board.png"); }
+
+body.example.lang-en .screenshot.portfolio-kanban {
+  background-image: url("../imgs/examples/en/full/example-portfolio-kanban.png"); }
+
+body.lang-en .home.panel .entry.portfolio-kanban .preview, body.examples.lang-en .entry.portfolio-kanban .preview {
+  background-image: url("../imgs/examples/en/mini/example-portfolio-kanban.png"); }
+body.lang-en .home.panel .full.portfolio-kanban, body.examples.lang-en .full.portfolio-kanban {
+  background-image: url("../imgs/examples/en/full/example-portfolio-kanban.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-en .vertice-create-example.example-portfolio-kanban .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/en/example-portfolio-kanban.png"); }
+
+body.example.lang-en .screenshot.product-roadmap {
+  background-image: url("../imgs/examples/en/full/example-product-roadmap.png"); }
+
+body.lang-en .home.panel .entry.product-roadmap .preview, body.examples.lang-en .entry.product-roadmap .preview {
+  background-image: url("../imgs/examples/en/mini/example-product-roadmap.png"); }
+body.lang-en .home.panel .full.product-roadmap, body.examples.lang-en .full.product-roadmap {
+  background-image: url("../imgs/examples/en/full/example-product-roadmap.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-en .vertice-create-example.example-product-roadmap .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/en/example-product-roadmap.png"); }
+
+body.example.lang-en .screenshot.twelve-month-roadmap {
+  background-image: url("../imgs/examples/en/full/example-twelve-month-roadmap.png"); }
+
+body.lang-en .home.panel .entry.twelve-month-roadmap .preview, body.examples.lang-en .entry.twelve-month-roadmap .preview {
+  background-image: url("../imgs/examples/en/mini/example-twelve-month-roadmap.png"); }
+body.lang-en .home.panel .full.twelve-month-roadmap, body.examples.lang-en .full.twelve-month-roadmap {
+  background-image: url("../imgs/examples/en/full/example-twelve-month-roadmap.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-en .vertice-create-example.example-twelve-month-roadmap .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/en/example-twelve-month-roadmap.png"); }
+
+body.example.lang-en .screenshot.gantt-chart {
+  background-image: url("../imgs/examples/en/full/example-gantt-chart.png"); }
+
+body.lang-en .home.panel .entry.gantt-chart .preview, body.examples.lang-en .entry.gantt-chart .preview {
+  background-image: url("../imgs/examples/en/mini/example-gantt-chart.png"); }
+body.lang-en .home.panel .full.gantt-chart, body.examples.lang-en .full.gantt-chart {
+  background-image: url("../imgs/examples/en/full/example-gantt-chart.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-en .vertice-create-example.example-gantt-chart .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/en/example-gantt-chart.png"); }
+
+body.example.lang-en .screenshot.okr-process {
+  background-image: url("../imgs/examples/en/full/example-okr-process.png"); }
+
+body.lang-en .home.panel .entry.okr-process .preview, body.examples.lang-en .entry.okr-process .preview {
+  background-image: url("../imgs/examples/en/mini/example-okr-process.png"); }
+body.lang-en .home.panel .full.okr-process, body.examples.lang-en .full.okr-process {
+  background-image: url("../imgs/examples/en/full/example-okr-process.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-en .vertice-create-example.example-okr-process .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/en/example-okr-process.png"); }
+
+body.example.lang-en .screenshot.impact-mapping {
+  background-image: url("../imgs/examples/en/full/example-impact-mapping.png"); }
+
+body.lang-en .home.panel .entry.impact-mapping .preview, body.examples.lang-en .entry.impact-mapping .preview {
+  background-image: url("../imgs/examples/en/mini/example-impact-mapping.png"); }
+body.lang-en .home.panel .full.impact-mapping, body.examples.lang-en .full.impact-mapping {
+  background-image: url("../imgs/examples/en/full/example-impact-mapping.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-en .vertice-create-example.example-impact-mapping .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/en/example-impact-mapping.png"); }
+
+body.example.lang-en .screenshot.gist-planning-framework {
+  background-image: url("../imgs/examples/en/full/example-gist-planning-framework.png"); }
+
+body.lang-en .home.panel .entry.gist-planning-framework .preview, body.examples.lang-en .entry.gist-planning-framework .preview {
+  background-image: url("../imgs/examples/en/mini/example-gist-planning-framework.png"); }
+body.lang-en .home.panel .full.gist-planning-framework, body.examples.lang-en .full.gist-planning-framework {
+  background-image: url("../imgs/examples/en/full/example-gist-planning-framework.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-en .vertice-create-example.example-gist-planning-framework .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/en/example-gist-planning-framework.png"); }
+
+body.example.lang-en .screenshot.scheduling {
+  background-image: url("../imgs/examples/en/full/example-scheduling.png"); }
+
+body.lang-en .home.panel .entry.scheduling .preview, body.examples.lang-en .entry.scheduling .preview {
+  background-image: url("../imgs/examples/en/mini/example-scheduling.png"); }
+body.lang-en .home.panel .full.scheduling, body.examples.lang-en .full.scheduling {
+  background-image: url("../imgs/examples/en/full/example-scheduling.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-en .vertice-create-example.example-scheduling .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/en/example-scheduling.png"); }
+
+body.example.lang-en .screenshot.business-model-canvas {
+  background-image: url("../imgs/examples/en/full/example-business-model-canvas.png"); }
+
+body.lang-en .home.panel .entry.business-model-canvas .preview, body.examples.lang-en .entry.business-model-canvas .preview {
+  background-image: url("../imgs/examples/en/mini/example-business-model-canvas.png"); }
+body.lang-en .home.panel .full.business-model-canvas, body.examples.lang-en .full.business-model-canvas {
+  background-image: url("../imgs/examples/en/full/example-business-model-canvas.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-en .vertice-create-example.example-business-model-canvas .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/en/example-business-model-canvas.png"); }
+
+body.example.lang-en .screenshot.lean-startup-canvas {
+  background-image: url("../imgs/examples/en/full/example-lean-startup-canvas.png"); }
+
+body.lang-en .home.panel .entry.lean-startup-canvas .preview, body.examples.lang-en .entry.lean-startup-canvas .preview {
+  background-image: url("../imgs/examples/en/mini/example-lean-startup-canvas.png"); }
+body.lang-en .home.panel .full.lean-startup-canvas, body.examples.lang-en .full.lean-startup-canvas {
+  background-image: url("../imgs/examples/en/full/example-lean-startup-canvas.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-en .vertice-create-example.example-lean-startup-canvas .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/en/example-lean-startup-canvas.png"); }
+
+body.example.lang-en .screenshot.product-vision-board {
+  background-image: url("../imgs/examples/en/full/example-product-vision-board.png"); }
+
+body.lang-en .home.panel .entry.product-vision-board .preview, body.examples.lang-en .entry.product-vision-board .preview {
+  background-image: url("../imgs/examples/en/mini/example-product-vision-board.png"); }
+body.lang-en .home.panel .full.product-vision-board, body.examples.lang-en .full.product-vision-board {
+  background-image: url("../imgs/examples/en/full/example-product-vision-board.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-en .vertice-create-example.example-product-vision-board .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/en/example-product-vision-board.png"); }
+
+body.example.lang-en .screenshot.the-go-product-roadmap {
+  background-image: url("../imgs/examples/en/full/example-the-go-product-roadmap.png"); }
+
+body.lang-en .home.panel .entry.the-go-product-roadmap .preview, body.examples.lang-en .entry.the-go-product-roadmap .preview {
+  background-image: url("../imgs/examples/en/mini/example-the-go-product-roadmap.png"); }
+body.lang-en .home.panel .full.the-go-product-roadmap, body.examples.lang-en .full.the-go-product-roadmap {
+  background-image: url("../imgs/examples/en/full/example-the-go-product-roadmap.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-en .vertice-create-example.example-the-go-product-roadmap .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/en/example-the-go-product-roadmap.png"); }
+
+body.example.lang-en .screenshot.product-discovery {
+  background-image: url("../imgs/examples/en/full/example-product-discovery.png"); }
+
+body.lang-en .home.panel .entry.product-discovery .preview, body.examples.lang-en .entry.product-discovery .preview {
+  background-image: url("../imgs/examples/en/mini/example-product-discovery.png"); }
+body.lang-en .home.panel .full.product-discovery, body.examples.lang-en .full.product-discovery {
+  background-image: url("../imgs/examples/en/full/example-product-discovery.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-en .vertice-create-example.example-product-discovery .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/en/example-product-discovery.png"); }
+
+body.example.lang-en .screenshot.persona {
+  background-image: url("../imgs/examples/en/full/example-persona.png"); }
+
+body.lang-en .home.panel .entry.persona .preview, body.examples.lang-en .entry.persona .preview {
+  background-image: url("../imgs/examples/en/mini/example-persona.png"); }
+body.lang-en .home.panel .full.persona, body.examples.lang-en .full.persona {
+  background-image: url("../imgs/examples/en/full/example-persona.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-en .vertice-create-example.example-persona .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/en/example-persona.png"); }
 
 body.example.lang-en .screenshot.customer-journey-mapping {
   background-image: url("../imgs/examples/en/full/example-customer-journey-mapping.png"); }
@@ -270,74 +542,6 @@ body.lang-en .home.panel .full.defining-and-prioritizing-hypothesis-statements, 
 body.lang-en .vertice-create-example.example-defining-and-prioritizing-hypothesis-statements .viewport-container {
   background-image: image-url("tmp/2019-01/mini/en/example-defining-and-prioritizing-hypothesis-statements.png"); }
 
-body.example.lang-en .screenshot.twelve-month-roadmap {
-  background-image: url("../imgs/examples/en/full/example-twelve-month-roadmap.png"); }
-
-body.lang-en .home.panel .entry.twelve-month-roadmap .preview, body.examples.lang-en .entry.twelve-month-roadmap .preview {
-  background-image: url("../imgs/examples/en/mini/example-twelve-month-roadmap.png"); }
-body.lang-en .home.panel .full.twelve-month-roadmap, body.examples.lang-en .full.twelve-month-roadmap {
-  background-image: url("../imgs/examples/en/full/example-twelve-month-roadmap.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-en .vertice-create-example.example-twelve-month-roadmap .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-twelve-month-roadmap.png"); }
-
-body.example.lang-en .screenshot.business-model-canvas {
-  background-image: url("../imgs/examples/en/full/example-business-model-canvas.png"); }
-
-body.lang-en .home.panel .entry.business-model-canvas .preview, body.examples.lang-en .entry.business-model-canvas .preview {
-  background-image: url("../imgs/examples/en/mini/example-business-model-canvas.png"); }
-body.lang-en .home.panel .full.business-model-canvas, body.examples.lang-en .full.business-model-canvas {
-  background-image: url("../imgs/examples/en/full/example-business-model-canvas.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-en .vertice-create-example.example-business-model-canvas .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-business-model-canvas.png"); }
-
-body.example.lang-en .screenshot.kanban-board {
-  background-image: url("../imgs/examples/en/full/example-kanban-board.png"); }
-
-body.lang-en .home.panel .entry.kanban-board .preview, body.examples.lang-en .entry.kanban-board .preview {
-  background-image: url("../imgs/examples/en/mini/example-kanban-board.png"); }
-body.lang-en .home.panel .full.kanban-board, body.examples.lang-en .full.kanban-board {
-  background-image: url("../imgs/examples/en/full/example-kanban-board.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-en .vertice-create-example.example-kanban-board .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-kanban-board.png"); }
-
-body.example.lang-en .screenshot.user-story-mapping {
-  background-image: url("../imgs/examples/en/full/example-user-story-mapping.png"); }
-
-body.lang-en .home.panel .entry.user-story-mapping .preview, body.examples.lang-en .entry.user-story-mapping .preview {
-  background-image: url("../imgs/examples/en/mini/example-user-story-mapping.png"); }
-body.lang-en .home.panel .full.user-story-mapping, body.examples.lang-en .full.user-story-mapping {
-  background-image: url("../imgs/examples/en/full/example-user-story-mapping.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-en .vertice-create-example.example-user-story-mapping .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-user-story-mapping.png"); }
-
 body.example.lang-en .screenshot.example-mapping {
   background-image: url("../imgs/examples/en/full/example-example-mapping.png"); }
 
@@ -355,13 +559,13 @@ body.lang-en .home.panel .full.example-mapping, body.examples.lang-en .full.exam
 body.lang-en .vertice-create-example.example-example-mapping .viewport-container {
   background-image: image-url("tmp/2019-01/mini/en/example-example-mapping.png"); }
 
-body.example.lang-en .screenshot.program-board {
-  background-image: url("../imgs/examples/en/full/example-program-board.png"); }
+body.example.lang-en .screenshot.user-flow {
+  background-image: url("../imgs/examples/en/full/example-user-flow.png"); }
 
-body.lang-en .home.panel .entry.program-board .preview, body.examples.lang-en .entry.program-board .preview {
-  background-image: url("../imgs/examples/en/mini/example-program-board.png"); }
-body.lang-en .home.panel .full.program-board, body.examples.lang-en .full.program-board {
-  background-image: url("../imgs/examples/en/full/example-program-board.png");
+body.lang-en .home.panel .entry.user-flow .preview, body.examples.lang-en .entry.user-flow .preview {
+  background-image: url("../imgs/examples/en/mini/example-user-flow.png"); }
+body.lang-en .home.panel .full.user-flow, body.examples.lang-en .full.user-flow {
+  background-image: url("../imgs/examples/en/full/example-user-flow.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -369,8 +573,59 @@ body.lang-en .home.panel .full.program-board, body.examples.lang-en .full.progra
   margin-left: 100px;
   height: 100%; }
 
-body.lang-en .vertice-create-example.example-program-board .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-program-board.png"); }
+body.lang-en .vertice-create-example.example-user-flow .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/en/example-user-flow.png"); }
+
+body.example.lang-en .screenshot.site-mapping {
+  background-image: url("../imgs/examples/en/full/example-site-mapping.png"); }
+
+body.lang-en .home.panel .entry.site-mapping .preview, body.examples.lang-en .entry.site-mapping .preview {
+  background-image: url("../imgs/examples/en/mini/example-site-mapping.png"); }
+body.lang-en .home.panel .full.site-mapping, body.examples.lang-en .full.site-mapping {
+  background-image: url("../imgs/examples/en/full/example-site-mapping.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-en .vertice-create-example.example-site-mapping .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/en/example-site-mapping.png"); }
+
+body.example.lang-en .screenshot.empathy-map {
+  background-image: url("../imgs/examples/en/full/example-empathy-map.png"); }
+
+body.lang-en .home.panel .entry.empathy-map .preview, body.examples.lang-en .entry.empathy-map .preview {
+  background-image: url("../imgs/examples/en/mini/example-empathy-map.png"); }
+body.lang-en .home.panel .full.empathy-map, body.examples.lang-en .full.empathy-map {
+  background-image: url("../imgs/examples/en/full/example-empathy-map.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-en .vertice-create-example.example-empathy-map .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/en/example-empathy-map.png"); }
+
+body.example.lang-en .screenshot.moscow-method {
+  background-image: url("../imgs/examples/en/full/example-moscow-method.png"); }
+
+body.lang-en .home.panel .entry.moscow-method .preview, body.examples.lang-en .entry.moscow-method .preview {
+  background-image: url("../imgs/examples/en/mini/example-moscow-method.png"); }
+body.lang-en .home.panel .full.moscow-method, body.examples.lang-en .full.moscow-method {
+  background-image: url("../imgs/examples/en/full/example-moscow-method.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-en .vertice-create-example.example-moscow-method .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/en/example-moscow-method.png"); }
 
 body.example.lang-en .screenshot.starfish-retrospective {
   background-image: url("../imgs/examples/en/full/example-starfish-retrospective.png"); }
@@ -439,6 +694,227 @@ body.lang-en .home.panel .full.timeline-retrospective, body.examples.lang-en .fu
 
 body.lang-en .vertice-create-example.example-timeline-retrospective .viewport-container {
   background-image: image-url("tmp/2019-01/mini/en/example-timeline-retrospective.png"); }
+
+body.example.lang-en .screenshot.fourls-retrospective {
+  background-image: url("../imgs/examples/en/full/example-fourls-retrospective.png"); }
+
+body.lang-en .home.panel .entry.fourls-retrospective .preview, body.examples.lang-en .entry.fourls-retrospective .preview {
+  background-image: url("../imgs/examples/en/mini/example-fourls-retrospective.png"); }
+body.lang-en .home.panel .full.fourls-retrospective, body.examples.lang-en .full.fourls-retrospective {
+  background-image: url("../imgs/examples/en/full/example-fourls-retrospective.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-en .vertice-create-example.example-fourls-retrospective .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/en/example-fourls-retrospective.png"); }
+
+body.example.lang-en .screenshot.three-little-pigs-retrospective {
+  background-image: url("../imgs/examples/en/full/example-three-little-pigs-retrospective.png"); }
+
+body.lang-en .home.panel .entry.three-little-pigs-retrospective .preview, body.examples.lang-en .entry.three-little-pigs-retrospective .preview {
+  background-image: url("../imgs/examples/en/mini/example-three-little-pigs-retrospective.png"); }
+body.lang-en .home.panel .full.three-little-pigs-retrospective, body.examples.lang-en .full.three-little-pigs-retrospective {
+  background-image: url("../imgs/examples/en/full/example-three-little-pigs-retrospective.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-en .vertice-create-example.example-three-little-pigs-retrospective .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/en/example-three-little-pigs-retrospective.png"); }
+
+body.example.lang-en .screenshot.esvp-retrospective {
+  background-image: url("../imgs/examples/en/full/example-esvp-retrospective.png"); }
+
+body.lang-en .home.panel .entry.esvp-retrospective .preview, body.examples.lang-en .entry.esvp-retrospective .preview {
+  background-image: url("../imgs/examples/en/mini/example-esvp-retrospective.png"); }
+body.lang-en .home.panel .full.esvp-retrospective, body.examples.lang-en .full.esvp-retrospective {
+  background-image: url("../imgs/examples/en/full/example-esvp-retrospective.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-en .vertice-create-example.example-esvp-retrospective .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/en/example-esvp-retrospective.png"); }
+
+body.example.lang-en .screenshot.planning-poker {
+  background-image: url("../imgs/examples/en/full/example-planning-poker.png"); }
+
+body.lang-en .home.panel .entry.planning-poker .preview, body.examples.lang-en .entry.planning-poker .preview {
+  background-image: url("../imgs/examples/en/mini/example-planning-poker.png"); }
+body.lang-en .home.panel .full.planning-poker, body.examples.lang-en .full.planning-poker {
+  background-image: url("../imgs/examples/en/full/example-planning-poker.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-en .vertice-create-example.example-planning-poker .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/en/example-planning-poker.png"); }
+
+body.example.lang-en .screenshot.extreme-quotation {
+  background-image: url("../imgs/examples/en/full/example-extreme-quotation.png"); }
+
+body.lang-en .home.panel .entry.extreme-quotation .preview, body.examples.lang-en .entry.extreme-quotation .preview {
+  background-image: url("../imgs/examples/en/mini/example-extreme-quotation.png"); }
+body.lang-en .home.panel .full.extreme-quotation, body.examples.lang-en .full.extreme-quotation {
+  background-image: url("../imgs/examples/en/full/example-extreme-quotation.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-en .vertice-create-example.example-extreme-quotation .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/en/example-extreme-quotation.png"); }
+
+body.example.lang-en .screenshot.niko-niko-calendar {
+  background-image: url("../imgs/examples/en/full/example-niko-niko-calendar.png"); }
+
+body.lang-en .home.panel .entry.niko-niko-calendar .preview, body.examples.lang-en .entry.niko-niko-calendar .preview {
+  background-image: url("../imgs/examples/en/mini/example-niko-niko-calendar.png"); }
+body.lang-en .home.panel .full.niko-niko-calendar, body.examples.lang-en .full.niko-niko-calendar {
+  background-image: url("../imgs/examples/en/full/example-niko-niko-calendar.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-en .vertice-create-example.example-niko-niko-calendar .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/en/example-niko-niko-calendar.png"); }
+
+body.example.lang-en .screenshot.roam-board {
+  background-image: url("../imgs/examples/en/full/example-roam-board.png"); }
+
+body.lang-en .home.panel .entry.roam-board .preview, body.examples.lang-en .entry.roam-board .preview {
+  background-image: url("../imgs/examples/en/mini/example-roam-board.png"); }
+body.lang-en .home.panel .full.roam-board, body.examples.lang-en .full.roam-board {
+  background-image: url("../imgs/examples/en/full/example-roam-board.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-en .vertice-create-example.example-roam-board .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/en/example-roam-board.png"); }
+
+body.example.lang-en .screenshot.collaborative-brainstorming {
+  background-image: url("../imgs/examples/en/full/example-collaborative-brainstorming.png"); }
+
+body.lang-en .home.panel .entry.collaborative-brainstorming .preview, body.examples.lang-en .entry.collaborative-brainstorming .preview {
+  background-image: url("../imgs/examples/en/mini/example-collaborative-brainstorming.png"); }
+body.lang-en .home.panel .full.collaborative-brainstorming, body.examples.lang-en .full.collaborative-brainstorming {
+  background-image: url("../imgs/examples/en/full/example-collaborative-brainstorming.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-en .vertice-create-example.example-collaborative-brainstorming .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/en/example-collaborative-brainstorming.png"); }
+
+body.example.lang-en .screenshot.moodboard {
+  background-image: url("../imgs/examples/en/full/example-moodboard.png"); }
+
+body.lang-en .home.panel .entry.moodboard .preview, body.examples.lang-en .entry.moodboard .preview {
+  background-image: url("../imgs/examples/en/mini/example-moodboard.png"); }
+body.lang-en .home.panel .full.moodboard, body.examples.lang-en .full.moodboard {
+  background-image: url("../imgs/examples/en/full/example-moodboard.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-en .vertice-create-example.example-moodboard .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/en/example-moodboard.png"); }
+
+body.example.lang-en .screenshot.design-thinking {
+  background-image: url("../imgs/examples/en/full/example-design-thinking.png"); }
+
+body.lang-en .home.panel .entry.design-thinking .preview, body.examples.lang-en .entry.design-thinking .preview {
+  background-image: url("../imgs/examples/en/mini/example-design-thinking.png"); }
+body.lang-en .home.panel .full.design-thinking, body.examples.lang-en .full.design-thinking {
+  background-image: url("../imgs/examples/en/full/example-design-thinking.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-en .vertice-create-example.example-design-thinking .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/en/example-design-thinking.png"); }
+
+body.example.lang-en .screenshot.affinity-diagram {
+  background-image: url("../imgs/examples/en/full/example-affinity-diagram.png"); }
+
+body.lang-en .home.panel .entry.affinity-diagram .preview, body.examples.lang-en .entry.affinity-diagram .preview {
+  background-image: url("../imgs/examples/en/mini/example-affinity-diagram.png"); }
+body.lang-en .home.panel .full.affinity-diagram, body.examples.lang-en .full.affinity-diagram {
+  background-image: url("../imgs/examples/en/full/example-affinity-diagram.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-en .vertice-create-example.example-affinity-diagram .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/en/example-affinity-diagram.png"); }
+
+body.example.lang-en .screenshot.lotus-blossom-technique {
+  background-image: url("../imgs/examples/en/full/example-lotus-blossom-technique.png"); }
+
+body.lang-en .home.panel .entry.lotus-blossom-technique .preview, body.examples.lang-en .entry.lotus-blossom-technique .preview {
+  background-image: url("../imgs/examples/en/mini/example-lotus-blossom-technique.png"); }
+body.lang-en .home.panel .full.lotus-blossom-technique, body.examples.lang-en .full.lotus-blossom-technique {
+  background-image: url("../imgs/examples/en/full/example-lotus-blossom-technique.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-en .vertice-create-example.example-lotus-blossom-technique .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/en/example-lotus-blossom-technique.png"); }
+
+body.example.lang-en .screenshot.research-and-discussion {
+  background-image: url("../imgs/examples/en/full/example-research-and-discussion.png"); }
+
+body.lang-en .home.panel .entry.research-and-discussion .preview, body.examples.lang-en .entry.research-and-discussion .preview {
+  background-image: url("../imgs/examples/en/mini/example-research-and-discussion.png"); }
+body.lang-en .home.panel .full.research-and-discussion, body.examples.lang-en .full.research-and-discussion {
+  background-image: url("../imgs/examples/en/full/example-research-and-discussion.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-en .vertice-create-example.example-research-and-discussion .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/en/example-research-and-discussion.png"); }
 
 body.example.lang-en .screenshot.mind-mapping {
   background-image: url("../imgs/examples/en/full/example-mind-mapping.png"); }
@@ -542,13 +1018,13 @@ body.lang-en .home.panel .full.collecting-feedback, body.examples.lang-en .full.
 body.lang-en .vertice-create-example.example-collecting-feedback .viewport-container {
   background-image: image-url("tmp/2019-01/mini/en/example-collecting-feedback.png"); }
 
-body.example.lang-en .screenshot.document-review {
-  background-image: url("../imgs/examples/en/full/example-document-review.png"); }
+body.example.lang-fr .screenshot.user-story-mapping {
+  background-image: url("../imgs/examples/fr/full/example-user-story-mapping.png"); }
 
-body.lang-en .home.panel .entry.document-review .preview, body.examples.lang-en .entry.document-review .preview {
-  background-image: url("../imgs/examples/en/mini/example-document-review.png"); }
-body.lang-en .home.panel .full.document-review, body.examples.lang-en .full.document-review {
-  background-image: url("../imgs/examples/en/full/example-document-review.png");
+body.lang-fr .home.panel .entry.user-story-mapping .preview, body.examples.lang-fr .entry.user-story-mapping .preview {
+  background-image: url("../imgs/examples/fr/mini/example-user-story-mapping.png"); }
+body.lang-fr .home.panel .full.user-story-mapping, body.examples.lang-fr .full.user-story-mapping {
+  background-image: url("../imgs/examples/fr/full/example-user-story-mapping.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -556,16 +1032,16 @@ body.lang-en .home.panel .full.document-review, body.examples.lang-en .full.docu
   margin-left: 100px;
   height: 100%; }
 
-body.lang-en .vertice-create-example.example-document-review .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-document-review.png"); }
+body.lang-fr .vertice-create-example.example-user-story-mapping .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/fr/example-user-story-mapping.png"); }
 
-body.example.lang-en .screenshot.impact-mapping {
-  background-image: url("../imgs/examples/en/full/example-impact-mapping.png"); }
+body.example.lang-fr .screenshot.scrum-board {
+  background-image: url("../imgs/examples/fr/full/example-scrum-board.png"); }
 
-body.lang-en .home.panel .entry.impact-mapping .preview, body.examples.lang-en .entry.impact-mapping .preview {
-  background-image: url("../imgs/examples/en/mini/example-impact-mapping.png"); }
-body.lang-en .home.panel .full.impact-mapping, body.examples.lang-en .full.impact-mapping {
-  background-image: url("../imgs/examples/en/full/example-impact-mapping.png");
+body.lang-fr .home.panel .entry.scrum-board .preview, body.examples.lang-fr .entry.scrum-board .preview {
+  background-image: url("../imgs/examples/fr/mini/example-scrum-board.png"); }
+body.lang-fr .home.panel .full.scrum-board, body.examples.lang-fr .full.scrum-board {
+  background-image: url("../imgs/examples/fr/full/example-scrum-board.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -573,16 +1049,16 @@ body.lang-en .home.panel .full.impact-mapping, body.examples.lang-en .full.impac
   margin-left: 100px;
   height: 100%; }
 
-body.lang-en .vertice-create-example.example-impact-mapping .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-impact-mapping.png"); }
+body.lang-fr .vertice-create-example.example-scrum-board .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/fr/example-scrum-board.png"); }
 
-body.example.lang-en .screenshot.competitive-research-of-user-flow {
-  background-image: url("../imgs/examples/en/full/example-competitive-research-of-user-flow.png"); }
+body.example.lang-fr .screenshot.kanban-board {
+  background-image: url("../imgs/examples/fr/full/example-kanban-board.png"); }
 
-body.lang-en .home.panel .entry.competitive-research-of-user-flow .preview, body.examples.lang-en .entry.competitive-research-of-user-flow .preview {
-  background-image: url("../imgs/examples/en/mini/example-competitive-research-of-user-flow.png"); }
-body.lang-en .home.panel .full.competitive-research-of-user-flow, body.examples.lang-en .full.competitive-research-of-user-flow {
-  background-image: url("../imgs/examples/en/full/example-competitive-research-of-user-flow.png");
+body.lang-fr .home.panel .entry.kanban-board .preview, body.examples.lang-fr .entry.kanban-board .preview {
+  background-image: url("../imgs/examples/fr/mini/example-kanban-board.png"); }
+body.lang-fr .home.panel .full.kanban-board, body.examples.lang-fr .full.kanban-board {
+  background-image: url("../imgs/examples/fr/full/example-kanban-board.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -590,16 +1066,16 @@ body.lang-en .home.panel .full.competitive-research-of-user-flow, body.examples.
   margin-left: 100px;
   height: 100%; }
 
-body.lang-en .vertice-create-example.example-competitive-research-of-user-flow .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-competitive-research-of-user-flow.png"); }
+body.lang-fr .vertice-create-example.example-kanban-board .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/fr/example-kanban-board.png"); }
 
-body.example.lang-en .screenshot.lean-startup-canvas {
-  background-image: url("../imgs/examples/en/full/example-lean-startup-canvas.png"); }
+body.example.lang-fr .screenshot.scrumban {
+  background-image: url("../imgs/examples/fr/full/example-scrumban.png"); }
 
-body.lang-en .home.panel .entry.lean-startup-canvas .preview, body.examples.lang-en .entry.lean-startup-canvas .preview {
-  background-image: url("../imgs/examples/en/mini/example-lean-startup-canvas.png"); }
-body.lang-en .home.panel .full.lean-startup-canvas, body.examples.lang-en .full.lean-startup-canvas {
-  background-image: url("../imgs/examples/en/full/example-lean-startup-canvas.png");
+body.lang-fr .home.panel .entry.scrumban .preview, body.examples.lang-fr .entry.scrumban .preview {
+  background-image: url("../imgs/examples/fr/mini/example-scrumban.png"); }
+body.lang-fr .home.panel .full.scrumban, body.examples.lang-fr .full.scrumban {
+  background-image: url("../imgs/examples/fr/full/example-scrumban.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -607,16 +1083,16 @@ body.lang-en .home.panel .full.lean-startup-canvas, body.examples.lang-en .full.
   margin-left: 100px;
   height: 100%; }
 
-body.lang-en .vertice-create-example.example-lean-startup-canvas .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-lean-startup-canvas.png"); }
+body.lang-fr .vertice-create-example.example-scrumban .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/fr/example-scrumban.png"); }
 
-body.example.lang-en .screenshot.okr-process {
-  background-image: url("../imgs/examples/en/full/example-okr-process.png"); }
+body.example.lang-fr .screenshot.program-board {
+  background-image: url("../imgs/examples/fr/full/example-program-board.png"); }
 
-body.lang-en .home.panel .entry.okr-process .preview, body.examples.lang-en .entry.okr-process .preview {
-  background-image: url("../imgs/examples/en/mini/example-okr-process.png"); }
-body.lang-en .home.panel .full.okr-process, body.examples.lang-en .full.okr-process {
-  background-image: url("../imgs/examples/en/full/example-okr-process.png");
+body.lang-fr .home.panel .entry.program-board .preview, body.examples.lang-fr .entry.program-board .preview {
+  background-image: url("../imgs/examples/fr/mini/example-program-board.png"); }
+body.lang-fr .home.panel .full.program-board, body.examples.lang-fr .full.program-board {
+  background-image: url("../imgs/examples/fr/full/example-program-board.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -624,16 +1100,16 @@ body.lang-en .home.panel .full.okr-process, body.examples.lang-en .full.okr-proc
   margin-left: 100px;
   height: 100%; }
 
-body.lang-en .vertice-create-example.example-okr-process .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-okr-process.png"); }
+body.lang-fr .vertice-create-example.example-program-board .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/fr/example-program-board.png"); }
 
-body.example.lang-en .screenshot.scrum-board {
-  background-image: url("../imgs/examples/en/full/example-scrum-board.png"); }
+body.example.lang-fr .screenshot.pi-planning-board {
+  background-image: url("../imgs/examples/fr/full/example-pi-planning-board.png"); }
 
-body.lang-en .home.panel .entry.scrum-board .preview, body.examples.lang-en .entry.scrum-board .preview {
-  background-image: url("../imgs/examples/en/mini/example-scrum-board.png"); }
-body.lang-en .home.panel .full.scrum-board, body.examples.lang-en .full.scrum-board {
-  background-image: url("../imgs/examples/en/full/example-scrum-board.png");
+body.lang-fr .home.panel .entry.pi-planning-board .preview, body.examples.lang-fr .entry.pi-planning-board .preview {
+  background-image: url("../imgs/examples/fr/mini/example-pi-planning-board.png"); }
+body.lang-fr .home.panel .full.pi-planning-board, body.examples.lang-fr .full.pi-planning-board {
+  background-image: url("../imgs/examples/fr/full/example-pi-planning-board.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -641,16 +1117,16 @@ body.lang-en .home.panel .full.scrum-board, body.examples.lang-en .full.scrum-bo
   margin-left: 100px;
   height: 100%; }
 
-body.lang-en .vertice-create-example.example-scrum-board .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-scrum-board.png"); }
+body.lang-fr .vertice-create-example.example-pi-planning-board .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/fr/example-pi-planning-board.png"); }
 
-body.example.lang-en .screenshot.gist-planning-framework {
-  background-image: url("../imgs/examples/en/full/example-gist-planning-framework.png"); }
+body.example.lang-fr .screenshot.portfolio-kanban {
+  background-image: url("../imgs/examples/fr/full/example-portfolio-kanban.png"); }
 
-body.lang-en .home.panel .entry.gist-planning-framework .preview, body.examples.lang-en .entry.gist-planning-framework .preview {
-  background-image: url("../imgs/examples/en/mini/example-gist-planning-framework.png"); }
-body.lang-en .home.panel .full.gist-planning-framework, body.examples.lang-en .full.gist-planning-framework {
-  background-image: url("../imgs/examples/en/full/example-gist-planning-framework.png");
+body.lang-fr .home.panel .entry.portfolio-kanban .preview, body.examples.lang-fr .entry.portfolio-kanban .preview {
+  background-image: url("../imgs/examples/fr/mini/example-portfolio-kanban.png"); }
+body.lang-fr .home.panel .full.portfolio-kanban, body.examples.lang-fr .full.portfolio-kanban {
+  background-image: url("../imgs/examples/fr/full/example-portfolio-kanban.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -658,16 +1134,16 @@ body.lang-en .home.panel .full.gist-planning-framework, body.examples.lang-en .f
   margin-left: 100px;
   height: 100%; }
 
-body.lang-en .vertice-create-example.example-gist-planning-framework .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-gist-planning-framework.png"); }
+body.lang-fr .vertice-create-example.example-portfolio-kanban .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/fr/example-portfolio-kanban.png"); }
 
-body.example.lang-en .screenshot.user-flow {
-  background-image: url("../imgs/examples/en/full/example-user-flow.png"); }
+body.example.lang-fr .screenshot.product-roadmap {
+  background-image: url("../imgs/examples/fr/full/example-product-roadmap.png"); }
 
-body.lang-en .home.panel .entry.user-flow .preview, body.examples.lang-en .entry.user-flow .preview {
-  background-image: url("../imgs/examples/en/mini/example-user-flow.png"); }
-body.lang-en .home.panel .full.user-flow, body.examples.lang-en .full.user-flow {
-  background-image: url("../imgs/examples/en/full/example-user-flow.png");
+body.lang-fr .home.panel .entry.product-roadmap .preview, body.examples.lang-fr .entry.product-roadmap .preview {
+  background-image: url("../imgs/examples/fr/mini/example-product-roadmap.png"); }
+body.lang-fr .home.panel .full.product-roadmap, body.examples.lang-fr .full.product-roadmap {
+  background-image: url("../imgs/examples/fr/full/example-product-roadmap.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -675,16 +1151,16 @@ body.lang-en .home.panel .full.user-flow, body.examples.lang-en .full.user-flow 
   margin-left: 100px;
   height: 100%; }
 
-body.lang-en .vertice-create-example.example-user-flow .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-user-flow.png"); }
+body.lang-fr .vertice-create-example.example-product-roadmap .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/fr/example-product-roadmap.png"); }
 
-body.example.lang-en .screenshot.affinity-diagram {
-  background-image: url("../imgs/examples/en/full/example-affinity-diagram.png"); }
+body.example.lang-fr .screenshot.twelve-month-roadmap {
+  background-image: url("../imgs/examples/fr/full/example-twelve-month-roadmap.png"); }
 
-body.lang-en .home.panel .entry.affinity-diagram .preview, body.examples.lang-en .entry.affinity-diagram .preview {
-  background-image: url("../imgs/examples/en/mini/example-affinity-diagram.png"); }
-body.lang-en .home.panel .full.affinity-diagram, body.examples.lang-en .full.affinity-diagram {
-  background-image: url("../imgs/examples/en/full/example-affinity-diagram.png");
+body.lang-fr .home.panel .entry.twelve-month-roadmap .preview, body.examples.lang-fr .entry.twelve-month-roadmap .preview {
+  background-image: url("../imgs/examples/fr/mini/example-twelve-month-roadmap.png"); }
+body.lang-fr .home.panel .full.twelve-month-roadmap, body.examples.lang-fr .full.twelve-month-roadmap {
+  background-image: url("../imgs/examples/fr/full/example-twelve-month-roadmap.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -692,16 +1168,16 @@ body.lang-en .home.panel .full.affinity-diagram, body.examples.lang-en .full.aff
   margin-left: 100px;
   height: 100%; }
 
-body.lang-en .vertice-create-example.example-affinity-diagram .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-affinity-diagram.png"); }
+body.lang-fr .vertice-create-example.example-twelve-month-roadmap .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/fr/example-twelve-month-roadmap.png"); }
 
-body.example.lang-en .screenshot.scheduling {
-  background-image: url("../imgs/examples/en/full/example-scheduling.png"); }
+body.example.lang-fr .screenshot.gantt-chart {
+  background-image: url("../imgs/examples/fr/full/example-gantt-chart.png"); }
 
-body.lang-en .home.panel .entry.scheduling .preview, body.examples.lang-en .entry.scheduling .preview {
-  background-image: url("../imgs/examples/en/mini/example-scheduling.png"); }
-body.lang-en .home.panel .full.scheduling, body.examples.lang-en .full.scheduling {
-  background-image: url("../imgs/examples/en/full/example-scheduling.png");
+body.lang-fr .home.panel .entry.gantt-chart .preview, body.examples.lang-fr .entry.gantt-chart .preview {
+  background-image: url("../imgs/examples/fr/mini/example-gantt-chart.png"); }
+body.lang-fr .home.panel .full.gantt-chart, body.examples.lang-fr .full.gantt-chart {
+  background-image: url("../imgs/examples/fr/full/example-gantt-chart.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -709,16 +1185,16 @@ body.lang-en .home.panel .full.scheduling, body.examples.lang-en .full.schedulin
   margin-left: 100px;
   height: 100%; }
 
-body.lang-en .vertice-create-example.example-scheduling .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-scheduling.png"); }
+body.lang-fr .vertice-create-example.example-gantt-chart .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/fr/example-gantt-chart.png"); }
 
-body.example.lang-en .screenshot.site-mapping {
-  background-image: url("../imgs/examples/en/full/example-site-mapping.png"); }
+body.example.lang-fr .screenshot.okr-process {
+  background-image: url("../imgs/examples/fr/full/example-okr-process.png"); }
 
-body.lang-en .home.panel .entry.site-mapping .preview, body.examples.lang-en .entry.site-mapping .preview {
-  background-image: url("../imgs/examples/en/mini/example-site-mapping.png"); }
-body.lang-en .home.panel .full.site-mapping, body.examples.lang-en .full.site-mapping {
-  background-image: url("../imgs/examples/en/full/example-site-mapping.png");
+body.lang-fr .home.panel .entry.okr-process .preview, body.examples.lang-fr .entry.okr-process .preview {
+  background-image: url("../imgs/examples/fr/mini/example-okr-process.png"); }
+body.lang-fr .home.panel .full.okr-process, body.examples.lang-fr .full.okr-process {
+  background-image: url("../imgs/examples/fr/full/example-okr-process.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -726,16 +1202,16 @@ body.lang-en .home.panel .full.site-mapping, body.examples.lang-en .full.site-ma
   margin-left: 100px;
   height: 100%; }
 
-body.lang-en .vertice-create-example.example-site-mapping .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-site-mapping.png"); }
+body.lang-fr .vertice-create-example.example-okr-process .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/fr/example-okr-process.png"); }
 
-body.example.lang-en .screenshot.product-discovery {
-  background-image: url("../imgs/examples/en/full/example-product-discovery.png"); }
+body.example.lang-fr .screenshot.impact-mapping {
+  background-image: url("../imgs/examples/fr/full/example-impact-mapping.png"); }
 
-body.lang-en .home.panel .entry.product-discovery .preview, body.examples.lang-en .entry.product-discovery .preview {
-  background-image: url("../imgs/examples/en/mini/example-product-discovery.png"); }
-body.lang-en .home.panel .full.product-discovery, body.examples.lang-en .full.product-discovery {
-  background-image: url("../imgs/examples/en/full/example-product-discovery.png");
+body.lang-fr .home.panel .entry.impact-mapping .preview, body.examples.lang-fr .entry.impact-mapping .preview {
+  background-image: url("../imgs/examples/fr/mini/example-impact-mapping.png"); }
+body.lang-fr .home.panel .full.impact-mapping, body.examples.lang-fr .full.impact-mapping {
+  background-image: url("../imgs/examples/fr/full/example-impact-mapping.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -743,16 +1219,16 @@ body.lang-en .home.panel .full.product-discovery, body.examples.lang-en .full.pr
   margin-left: 100px;
   height: 100%; }
 
-body.lang-en .vertice-create-example.example-product-discovery .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-product-discovery.png"); }
+body.lang-fr .vertice-create-example.example-impact-mapping .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/fr/example-impact-mapping.png"); }
 
-body.example.lang-en .screenshot.product-roadmap {
-  background-image: url("../imgs/examples/en/full/example-product-roadmap.png"); }
+body.example.lang-fr .screenshot.gist-planning-framework {
+  background-image: url("../imgs/examples/fr/full/example-gist-planning-framework.png"); }
 
-body.lang-en .home.panel .entry.product-roadmap .preview, body.examples.lang-en .entry.product-roadmap .preview {
-  background-image: url("../imgs/examples/en/mini/example-product-roadmap.png"); }
-body.lang-en .home.panel .full.product-roadmap, body.examples.lang-en .full.product-roadmap {
-  background-image: url("../imgs/examples/en/full/example-product-roadmap.png");
+body.lang-fr .home.panel .entry.gist-planning-framework .preview, body.examples.lang-fr .entry.gist-planning-framework .preview {
+  background-image: url("../imgs/examples/fr/mini/example-gist-planning-framework.png"); }
+body.lang-fr .home.panel .full.gist-planning-framework, body.examples.lang-fr .full.gist-planning-framework {
+  background-image: url("../imgs/examples/fr/full/example-gist-planning-framework.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -760,16 +1236,16 @@ body.lang-en .home.panel .full.product-roadmap, body.examples.lang-en .full.prod
   margin-left: 100px;
   height: 100%; }
 
-body.lang-en .vertice-create-example.example-product-roadmap .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-product-roadmap.png"); }
+body.lang-fr .vertice-create-example.example-gist-planning-framework .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/fr/example-gist-planning-framework.png"); }
 
-body.example.lang-en .screenshot.fourls-retrospective {
-  background-image: url("../imgs/examples/en/full/example-fourls-retrospective.png"); }
+body.example.lang-fr .screenshot.scheduling {
+  background-image: url("../imgs/examples/fr/full/example-scheduling.png"); }
 
-body.lang-en .home.panel .entry.fourls-retrospective .preview, body.examples.lang-en .entry.fourls-retrospective .preview {
-  background-image: url("../imgs/examples/en/mini/example-fourls-retrospective.png"); }
-body.lang-en .home.panel .full.fourls-retrospective, body.examples.lang-en .full.fourls-retrospective {
-  background-image: url("../imgs/examples/en/full/example-fourls-retrospective.png");
+body.lang-fr .home.panel .entry.scheduling .preview, body.examples.lang-fr .entry.scheduling .preview {
+  background-image: url("../imgs/examples/fr/mini/example-scheduling.png"); }
+body.lang-fr .home.panel .full.scheduling, body.examples.lang-fr .full.scheduling {
+  background-image: url("../imgs/examples/fr/full/example-scheduling.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -777,16 +1253,16 @@ body.lang-en .home.panel .full.fourls-retrospective, body.examples.lang-en .full
   margin-left: 100px;
   height: 100%; }
 
-body.lang-en .vertice-create-example.example-fourls-retrospective .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-fourls-retrospective.png"); }
+body.lang-fr .vertice-create-example.example-scheduling .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/fr/example-scheduling.png"); }
 
-body.example.lang-en .screenshot.persona {
-  background-image: url("../imgs/examples/en/full/example-persona.png"); }
+body.example.lang-fr .screenshot.business-model-canvas {
+  background-image: url("../imgs/examples/fr/full/example-business-model-canvas.png"); }
 
-body.lang-en .home.panel .entry.persona .preview, body.examples.lang-en .entry.persona .preview {
-  background-image: url("../imgs/examples/en/mini/example-persona.png"); }
-body.lang-en .home.panel .full.persona, body.examples.lang-en .full.persona {
-  background-image: url("../imgs/examples/en/full/example-persona.png");
+body.lang-fr .home.panel .entry.business-model-canvas .preview, body.examples.lang-fr .entry.business-model-canvas .preview {
+  background-image: url("../imgs/examples/fr/mini/example-business-model-canvas.png"); }
+body.lang-fr .home.panel .full.business-model-canvas, body.examples.lang-fr .full.business-model-canvas {
+  background-image: url("../imgs/examples/fr/full/example-business-model-canvas.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -794,16 +1270,16 @@ body.lang-en .home.panel .full.persona, body.examples.lang-en .full.persona {
   margin-left: 100px;
   height: 100%; }
 
-body.lang-en .vertice-create-example.example-persona .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-persona.png"); }
+body.lang-fr .vertice-create-example.example-business-model-canvas .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/fr/example-business-model-canvas.png"); }
 
-body.example.lang-en .screenshot.scrumban {
-  background-image: url("../imgs/examples/en/full/example-scrumban.png"); }
+body.example.lang-fr .screenshot.lean-startup-canvas {
+  background-image: url("../imgs/examples/fr/full/example-lean-startup-canvas.png"); }
 
-body.lang-en .home.panel .entry.scrumban .preview, body.examples.lang-en .entry.scrumban .preview {
-  background-image: url("../imgs/examples/en/mini/example-scrumban.png"); }
-body.lang-en .home.panel .full.scrumban, body.examples.lang-en .full.scrumban {
-  background-image: url("../imgs/examples/en/full/example-scrumban.png");
+body.lang-fr .home.panel .entry.lean-startup-canvas .preview, body.examples.lang-fr .entry.lean-startup-canvas .preview {
+  background-image: url("../imgs/examples/fr/mini/example-lean-startup-canvas.png"); }
+body.lang-fr .home.panel .full.lean-startup-canvas, body.examples.lang-fr .full.lean-startup-canvas {
+  background-image: url("../imgs/examples/fr/full/example-lean-startup-canvas.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -811,16 +1287,16 @@ body.lang-en .home.panel .full.scrumban, body.examples.lang-en .full.scrumban {
   margin-left: 100px;
   height: 100%; }
 
-body.lang-en .vertice-create-example.example-scrumban .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-scrumban.png"); }
+body.lang-fr .vertice-create-example.example-lean-startup-canvas .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/fr/example-lean-startup-canvas.png"); }
 
-body.example.lang-en .screenshot.product-vision-board {
-  background-image: url("../imgs/examples/en/full/example-product-vision-board.png"); }
+body.example.lang-fr .screenshot.product-vision-board {
+  background-image: url("../imgs/examples/fr/full/example-product-vision-board.png"); }
 
-body.lang-en .home.panel .entry.product-vision-board .preview, body.examples.lang-en .entry.product-vision-board .preview {
-  background-image: url("../imgs/examples/en/mini/example-product-vision-board.png"); }
-body.lang-en .home.panel .full.product-vision-board, body.examples.lang-en .full.product-vision-board {
-  background-image: url("../imgs/examples/en/full/example-product-vision-board.png");
+body.lang-fr .home.panel .entry.product-vision-board .preview, body.examples.lang-fr .entry.product-vision-board .preview {
+  background-image: url("../imgs/examples/fr/mini/example-product-vision-board.png"); }
+body.lang-fr .home.panel .full.product-vision-board, body.examples.lang-fr .full.product-vision-board {
+  background-image: url("../imgs/examples/fr/full/example-product-vision-board.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -828,16 +1304,16 @@ body.lang-en .home.panel .full.product-vision-board, body.examples.lang-en .full
   margin-left: 100px;
   height: 100%; }
 
-body.lang-en .vertice-create-example.example-product-vision-board .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-product-vision-board.png"); }
+body.lang-fr .vertice-create-example.example-product-vision-board .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/fr/example-product-vision-board.png"); }
 
-body.example.lang-en .screenshot.gantt-chart {
-  background-image: url("../imgs/examples/en/full/example-gantt-chart.png"); }
+body.example.lang-fr .screenshot.the-go-product-roadmap {
+  background-image: url("../imgs/examples/fr/full/example-the-go-product-roadmap.png"); }
 
-body.lang-en .home.panel .entry.gantt-chart .preview, body.examples.lang-en .entry.gantt-chart .preview {
-  background-image: url("../imgs/examples/en/mini/example-gantt-chart.png"); }
-body.lang-en .home.panel .full.gantt-chart, body.examples.lang-en .full.gantt-chart {
-  background-image: url("../imgs/examples/en/full/example-gantt-chart.png");
+body.lang-fr .home.panel .entry.the-go-product-roadmap .preview, body.examples.lang-fr .entry.the-go-product-roadmap .preview {
+  background-image: url("../imgs/examples/fr/mini/example-the-go-product-roadmap.png"); }
+body.lang-fr .home.panel .full.the-go-product-roadmap, body.examples.lang-fr .full.the-go-product-roadmap {
+  background-image: url("../imgs/examples/fr/full/example-the-go-product-roadmap.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -845,16 +1321,16 @@ body.lang-en .home.panel .full.gantt-chart, body.examples.lang-en .full.gantt-ch
   margin-left: 100px;
   height: 100%; }
 
-body.lang-en .vertice-create-example.example-gantt-chart .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-gantt-chart.png"); }
+body.lang-fr .vertice-create-example.example-the-go-product-roadmap .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/fr/example-the-go-product-roadmap.png"); }
 
-body.example.lang-en .screenshot.empathy-map {
-  background-image: url("../imgs/examples/en/full/example-empathy-map.png"); }
+body.example.lang-fr .screenshot.product-discovery {
+  background-image: url("../imgs/examples/fr/full/example-product-discovery.png"); }
 
-body.lang-en .home.panel .entry.empathy-map .preview, body.examples.lang-en .entry.empathy-map .preview {
-  background-image: url("../imgs/examples/en/mini/example-empathy-map.png"); }
-body.lang-en .home.panel .full.empathy-map, body.examples.lang-en .full.empathy-map {
-  background-image: url("../imgs/examples/en/full/example-empathy-map.png");
+body.lang-fr .home.panel .entry.product-discovery .preview, body.examples.lang-fr .entry.product-discovery .preview {
+  background-image: url("../imgs/examples/fr/mini/example-product-discovery.png"); }
+body.lang-fr .home.panel .full.product-discovery, body.examples.lang-fr .full.product-discovery {
+  background-image: url("../imgs/examples/fr/full/example-product-discovery.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -862,16 +1338,16 @@ body.lang-en .home.panel .full.empathy-map, body.examples.lang-en .full.empathy-
   margin-left: 100px;
   height: 100%; }
 
-body.lang-en .vertice-create-example.example-empathy-map .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-empathy-map.png"); }
+body.lang-fr .vertice-create-example.example-product-discovery .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/fr/example-product-discovery.png"); }
 
-body.example.lang-en .screenshot.moscow-method {
-  background-image: url("../imgs/examples/en/full/example-moscow-method.png"); }
+body.example.lang-fr .screenshot.persona {
+  background-image: url("../imgs/examples/fr/full/example-persona.png"); }
 
-body.lang-en .home.panel .entry.moscow-method .preview, body.examples.lang-en .entry.moscow-method .preview {
-  background-image: url("../imgs/examples/en/mini/example-moscow-method.png"); }
-body.lang-en .home.panel .full.moscow-method, body.examples.lang-en .full.moscow-method {
-  background-image: url("../imgs/examples/en/full/example-moscow-method.png");
+body.lang-fr .home.panel .entry.persona .preview, body.examples.lang-fr .entry.persona .preview {
+  background-image: url("../imgs/examples/fr/mini/example-persona.png"); }
+body.lang-fr .home.panel .full.persona, body.examples.lang-fr .full.persona {
+  background-image: url("../imgs/examples/fr/full/example-persona.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -879,229 +1355,8 @@ body.lang-en .home.panel .full.moscow-method, body.examples.lang-en .full.moscow
   margin-left: 100px;
   height: 100%; }
 
-body.lang-en .vertice-create-example.example-moscow-method .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-moscow-method.png"); }
-
-body.example.lang-en .screenshot.planning-poker {
-  background-image: url("../imgs/examples/en/full/example-planning-poker.png"); }
-
-body.lang-en .home.panel .entry.planning-poker .preview, body.examples.lang-en .entry.planning-poker .preview {
-  background-image: url("../imgs/examples/en/mini/example-planning-poker.png"); }
-body.lang-en .home.panel .full.planning-poker, body.examples.lang-en .full.planning-poker {
-  background-image: url("../imgs/examples/en/full/example-planning-poker.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-en .vertice-create-example.example-planning-poker .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-planning-poker.png"); }
-
-body.example.lang-en .screenshot.extreme-quotation {
-  background-image: url("../imgs/examples/en/full/example-extreme-quotation.png"); }
-
-body.lang-en .home.panel .entry.extreme-quotation .preview, body.examples.lang-en .entry.extreme-quotation .preview {
-  background-image: url("../imgs/examples/en/mini/example-extreme-quotation.png"); }
-body.lang-en .home.panel .full.extreme-quotation, body.examples.lang-en .full.extreme-quotation {
-  background-image: url("../imgs/examples/en/full/example-extreme-quotation.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-en .vertice-create-example.example-extreme-quotation .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-extreme-quotation.png"); }
-
-body.example.lang-en .screenshot.niko-niko-calendar {
-  background-image: url("../imgs/examples/en/full/example-niko-niko-calendar.png"); }
-
-body.lang-en .home.panel .entry.niko-niko-calendar .preview, body.examples.lang-en .entry.niko-niko-calendar .preview {
-  background-image: url("../imgs/examples/en/mini/example-niko-niko-calendar.png"); }
-body.lang-en .home.panel .full.niko-niko-calendar, body.examples.lang-en .full.niko-niko-calendar {
-  background-image: url("../imgs/examples/en/full/example-niko-niko-calendar.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-en .vertice-create-example.example-niko-niko-calendar .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-niko-niko-calendar.png"); }
-
-body.example.lang-en .screenshot.roam-board {
-  background-image: url("../imgs/examples/en/full/example-roam-board.png"); }
-
-body.lang-en .home.panel .entry.roam-board .preview, body.examples.lang-en .entry.roam-board .preview {
-  background-image: url("../imgs/examples/en/mini/example-roam-board.png"); }
-body.lang-en .home.panel .full.roam-board, body.examples.lang-en .full.roam-board {
-  background-image: url("../imgs/examples/en/full/example-roam-board.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-en .vertice-create-example.example-roam-board .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-roam-board.png"); }
-
-body.example.lang-en .screenshot.the-go-product-roadmap {
-  background-image: url("../imgs/examples/en/full/example-the-go-product-roadmap.png"); }
-
-body.lang-en .home.panel .entry.the-go-product-roadmap .preview, body.examples.lang-en .entry.the-go-product-roadmap .preview {
-  background-image: url("../imgs/examples/en/mini/example-the-go-product-roadmap.png"); }
-body.lang-en .home.panel .full.the-go-product-roadmap, body.examples.lang-en .full.the-go-product-roadmap {
-  background-image: url("../imgs/examples/en/full/example-the-go-product-roadmap.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-en .vertice-create-example.example-the-go-product-roadmap .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-the-go-product-roadmap.png"); }
-
-body.example.lang-en .screenshot.portfolio-kanban {
-  background-image: url("../imgs/examples/en/full/example-portfolio-kanban.png"); }
-
-body.lang-en .home.panel .entry.portfolio-kanban .preview, body.examples.lang-en .entry.portfolio-kanban .preview {
-  background-image: url("../imgs/examples/en/mini/example-portfolio-kanban.png"); }
-body.lang-en .home.panel .full.portfolio-kanban, body.examples.lang-en .full.portfolio-kanban {
-  background-image: url("../imgs/examples/en/full/example-portfolio-kanban.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-en .vertice-create-example.example-portfolio-kanban .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-portfolio-kanban.png"); }
-
-body.example.lang-en .screenshot.pi-planning-board {
-  background-image: url("../imgs/examples/en/full/example-pi-planning-board.png"); }
-
-body.lang-en .home.panel .entry.pi-planning-board .preview, body.examples.lang-en .entry.pi-planning-board .preview {
-  background-image: url("../imgs/examples/en/mini/example-pi-planning-board.png"); }
-body.lang-en .home.panel .full.pi-planning-board, body.examples.lang-en .full.pi-planning-board {
-  background-image: url("../imgs/examples/en/full/example-pi-planning-board.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-en .vertice-create-example.example-pi-planning-board .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-pi-planning-board.png"); }
-
-body.example.lang-en .screenshot.three-little-pigs-retrospective {
-  background-image: url("../imgs/examples/en/full/example-three-little-pigs-retrospective.png"); }
-
-body.lang-en .home.panel .entry.three-little-pigs-retrospective .preview, body.examples.lang-en .entry.three-little-pigs-retrospective .preview {
-  background-image: url("../imgs/examples/en/mini/example-three-little-pigs-retrospective.png"); }
-body.lang-en .home.panel .full.three-little-pigs-retrospective, body.examples.lang-en .full.three-little-pigs-retrospective {
-  background-image: url("../imgs/examples/en/full/example-three-little-pigs-retrospective.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-en .vertice-create-example.example-three-little-pigs-retrospective .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-three-little-pigs-retrospective.png"); }
-
-body.example.lang-en .screenshot.lotus-blossom-technique {
-  background-image: url("../imgs/examples/en/full/example-lotus-blossom-technique.png"); }
-
-body.lang-en .home.panel .entry.lotus-blossom-technique .preview, body.examples.lang-en .entry.lotus-blossom-technique .preview {
-  background-image: url("../imgs/examples/en/mini/example-lotus-blossom-technique.png"); }
-body.lang-en .home.panel .full.lotus-blossom-technique, body.examples.lang-en .full.lotus-blossom-technique {
-  background-image: url("../imgs/examples/en/full/example-lotus-blossom-technique.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-en .vertice-create-example.example-lotus-blossom-technique .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-lotus-blossom-technique.png"); }
-
-body.example.lang-fr .screenshot.collaborative-brainstorming {
-  background-image: url("../imgs/examples/fr/full/example-collaborative-brainstorming.png"); }
-
-body.lang-fr .home.panel .entry.collaborative-brainstorming .preview, body.examples.lang-fr .entry.collaborative-brainstorming .preview {
-  background-image: url("../imgs/examples/fr/mini/example-collaborative-brainstorming.png"); }
-body.lang-fr .home.panel .full.collaborative-brainstorming, body.examples.lang-fr .full.collaborative-brainstorming {
-  background-image: url("../imgs/examples/fr/full/example-collaborative-brainstorming.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-fr .vertice-create-example.example-collaborative-brainstorming .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-collaborative-brainstorming.png"); }
-
-body.example.lang-fr .screenshot.moodboard {
-  background-image: url("../imgs/examples/fr/full/example-moodboard.png"); }
-
-body.lang-fr .home.panel .entry.moodboard .preview, body.examples.lang-fr .entry.moodboard .preview {
-  background-image: url("../imgs/examples/fr/mini/example-moodboard.png"); }
-body.lang-fr .home.panel .full.moodboard, body.examples.lang-fr .full.moodboard {
-  background-image: url("../imgs/examples/fr/full/example-moodboard.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-fr .vertice-create-example.example-moodboard .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-moodboard.png"); }
-
-body.example.lang-fr .screenshot.design-thinking {
-  background-image: url("../imgs/examples/fr/full/example-design-thinking.png"); }
-
-body.lang-fr .home.panel .entry.design-thinking .preview, body.examples.lang-fr .entry.design-thinking .preview {
-  background-image: url("../imgs/examples/fr/mini/example-design-thinking.png"); }
-body.lang-fr .home.panel .full.design-thinking, body.examples.lang-fr .full.design-thinking {
-  background-image: url("../imgs/examples/fr/full/example-design-thinking.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-fr .vertice-create-example.example-design-thinking .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-design-thinking.png"); }
-
-body.example.lang-fr .screenshot.research-and-discussion {
-  background-image: url("../imgs/examples/fr/full/example-research-and-discussion.png"); }
-
-body.lang-fr .home.panel .entry.research-and-discussion .preview, body.examples.lang-fr .entry.research-and-discussion .preview {
-  background-image: url("../imgs/examples/fr/mini/example-research-and-discussion.png"); }
-body.lang-fr .home.panel .full.research-and-discussion, body.examples.lang-fr .full.research-and-discussion {
-  background-image: url("../imgs/examples/fr/full/example-research-and-discussion.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-fr .vertice-create-example.example-research-and-discussion .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-research-and-discussion.png"); }
+body.lang-fr .vertice-create-example.example-persona .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/fr/example-persona.png"); }
 
 body.example.lang-fr .screenshot.customer-journey-mapping {
   background-image: url("../imgs/examples/fr/full/example-customer-journey-mapping.png"); }
@@ -1137,74 +1392,6 @@ body.lang-fr .home.panel .full.defining-and-prioritizing-hypothesis-statements, 
 body.lang-fr .vertice-create-example.example-defining-and-prioritizing-hypothesis-statements .viewport-container {
   background-image: image-url("tmp/2019-01/mini/fr/example-defining-and-prioritizing-hypothesis-statements.png"); }
 
-body.example.lang-fr .screenshot.twelve-month-roadmap {
-  background-image: url("../imgs/examples/fr/full/example-twelve-month-roadmap.png"); }
-
-body.lang-fr .home.panel .entry.twelve-month-roadmap .preview, body.examples.lang-fr .entry.twelve-month-roadmap .preview {
-  background-image: url("../imgs/examples/fr/mini/example-twelve-month-roadmap.png"); }
-body.lang-fr .home.panel .full.twelve-month-roadmap, body.examples.lang-fr .full.twelve-month-roadmap {
-  background-image: url("../imgs/examples/fr/full/example-twelve-month-roadmap.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-fr .vertice-create-example.example-twelve-month-roadmap .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-twelve-month-roadmap.png"); }
-
-body.example.lang-fr .screenshot.business-model-canvas {
-  background-image: url("../imgs/examples/fr/full/example-business-model-canvas.png"); }
-
-body.lang-fr .home.panel .entry.business-model-canvas .preview, body.examples.lang-fr .entry.business-model-canvas .preview {
-  background-image: url("../imgs/examples/fr/mini/example-business-model-canvas.png"); }
-body.lang-fr .home.panel .full.business-model-canvas, body.examples.lang-fr .full.business-model-canvas {
-  background-image: url("../imgs/examples/fr/full/example-business-model-canvas.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-fr .vertice-create-example.example-business-model-canvas .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-business-model-canvas.png"); }
-
-body.example.lang-fr .screenshot.kanban-board {
-  background-image: url("../imgs/examples/fr/full/example-kanban-board.png"); }
-
-body.lang-fr .home.panel .entry.kanban-board .preview, body.examples.lang-fr .entry.kanban-board .preview {
-  background-image: url("../imgs/examples/fr/mini/example-kanban-board.png"); }
-body.lang-fr .home.panel .full.kanban-board, body.examples.lang-fr .full.kanban-board {
-  background-image: url("../imgs/examples/fr/full/example-kanban-board.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-fr .vertice-create-example.example-kanban-board .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-kanban-board.png"); }
-
-body.example.lang-fr .screenshot.user-story-mapping {
-  background-image: url("../imgs/examples/fr/full/example-user-story-mapping.png"); }
-
-body.lang-fr .home.panel .entry.user-story-mapping .preview, body.examples.lang-fr .entry.user-story-mapping .preview {
-  background-image: url("../imgs/examples/fr/mini/example-user-story-mapping.png"); }
-body.lang-fr .home.panel .full.user-story-mapping, body.examples.lang-fr .full.user-story-mapping {
-  background-image: url("../imgs/examples/fr/full/example-user-story-mapping.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-fr .vertice-create-example.example-user-story-mapping .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-user-story-mapping.png"); }
-
 body.example.lang-fr .screenshot.example-mapping {
   background-image: url("../imgs/examples/fr/full/example-example-mapping.png"); }
 
@@ -1222,13 +1409,13 @@ body.lang-fr .home.panel .full.example-mapping, body.examples.lang-fr .full.exam
 body.lang-fr .vertice-create-example.example-example-mapping .viewport-container {
   background-image: image-url("tmp/2019-01/mini/fr/example-example-mapping.png"); }
 
-body.example.lang-fr .screenshot.program-board {
-  background-image: url("../imgs/examples/fr/full/example-program-board.png"); }
+body.example.lang-fr .screenshot.user-flow {
+  background-image: url("../imgs/examples/fr/full/example-user-flow.png"); }
 
-body.lang-fr .home.panel .entry.program-board .preview, body.examples.lang-fr .entry.program-board .preview {
-  background-image: url("../imgs/examples/fr/mini/example-program-board.png"); }
-body.lang-fr .home.panel .full.program-board, body.examples.lang-fr .full.program-board {
-  background-image: url("../imgs/examples/fr/full/example-program-board.png");
+body.lang-fr .home.panel .entry.user-flow .preview, body.examples.lang-fr .entry.user-flow .preview {
+  background-image: url("../imgs/examples/fr/mini/example-user-flow.png"); }
+body.lang-fr .home.panel .full.user-flow, body.examples.lang-fr .full.user-flow {
+  background-image: url("../imgs/examples/fr/full/example-user-flow.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -1236,8 +1423,59 @@ body.lang-fr .home.panel .full.program-board, body.examples.lang-fr .full.progra
   margin-left: 100px;
   height: 100%; }
 
-body.lang-fr .vertice-create-example.example-program-board .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-program-board.png"); }
+body.lang-fr .vertice-create-example.example-user-flow .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/fr/example-user-flow.png"); }
+
+body.example.lang-fr .screenshot.site-mapping {
+  background-image: url("../imgs/examples/fr/full/example-site-mapping.png"); }
+
+body.lang-fr .home.panel .entry.site-mapping .preview, body.examples.lang-fr .entry.site-mapping .preview {
+  background-image: url("../imgs/examples/fr/mini/example-site-mapping.png"); }
+body.lang-fr .home.panel .full.site-mapping, body.examples.lang-fr .full.site-mapping {
+  background-image: url("../imgs/examples/fr/full/example-site-mapping.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-fr .vertice-create-example.example-site-mapping .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/fr/example-site-mapping.png"); }
+
+body.example.lang-fr .screenshot.empathy-map {
+  background-image: url("../imgs/examples/fr/full/example-empathy-map.png"); }
+
+body.lang-fr .home.panel .entry.empathy-map .preview, body.examples.lang-fr .entry.empathy-map .preview {
+  background-image: url("../imgs/examples/fr/mini/example-empathy-map.png"); }
+body.lang-fr .home.panel .full.empathy-map, body.examples.lang-fr .full.empathy-map {
+  background-image: url("../imgs/examples/fr/full/example-empathy-map.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-fr .vertice-create-example.example-empathy-map .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/fr/example-empathy-map.png"); }
+
+body.example.lang-fr .screenshot.moscow-method {
+  background-image: url("../imgs/examples/fr/full/example-moscow-method.png"); }
+
+body.lang-fr .home.panel .entry.moscow-method .preview, body.examples.lang-fr .entry.moscow-method .preview {
+  background-image: url("../imgs/examples/fr/mini/example-moscow-method.png"); }
+body.lang-fr .home.panel .full.moscow-method, body.examples.lang-fr .full.moscow-method {
+  background-image: url("../imgs/examples/fr/full/example-moscow-method.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-fr .vertice-create-example.example-moscow-method .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/fr/example-moscow-method.png"); }
 
 body.example.lang-fr .screenshot.starfish-retrospective {
   background-image: url("../imgs/examples/fr/full/example-starfish-retrospective.png"); }
@@ -1306,6 +1544,227 @@ body.lang-fr .home.panel .full.timeline-retrospective, body.examples.lang-fr .fu
 
 body.lang-fr .vertice-create-example.example-timeline-retrospective .viewport-container {
   background-image: image-url("tmp/2019-01/mini/fr/example-timeline-retrospective.png"); }
+
+body.example.lang-fr .screenshot.fourls-retrospective {
+  background-image: url("../imgs/examples/fr/full/example-fourls-retrospective.png"); }
+
+body.lang-fr .home.panel .entry.fourls-retrospective .preview, body.examples.lang-fr .entry.fourls-retrospective .preview {
+  background-image: url("../imgs/examples/fr/mini/example-fourls-retrospective.png"); }
+body.lang-fr .home.panel .full.fourls-retrospective, body.examples.lang-fr .full.fourls-retrospective {
+  background-image: url("../imgs/examples/fr/full/example-fourls-retrospective.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-fr .vertice-create-example.example-fourls-retrospective .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/fr/example-fourls-retrospective.png"); }
+
+body.example.lang-fr .screenshot.three-little-pigs-retrospective {
+  background-image: url("../imgs/examples/fr/full/example-three-little-pigs-retrospective.png"); }
+
+body.lang-fr .home.panel .entry.three-little-pigs-retrospective .preview, body.examples.lang-fr .entry.three-little-pigs-retrospective .preview {
+  background-image: url("../imgs/examples/fr/mini/example-three-little-pigs-retrospective.png"); }
+body.lang-fr .home.panel .full.three-little-pigs-retrospective, body.examples.lang-fr .full.three-little-pigs-retrospective {
+  background-image: url("../imgs/examples/fr/full/example-three-little-pigs-retrospective.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-fr .vertice-create-example.example-three-little-pigs-retrospective .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/fr/example-three-little-pigs-retrospective.png"); }
+
+body.example.lang-fr .screenshot.esvp-retrospective {
+  background-image: url("../imgs/examples/fr/full/example-esvp-retrospective.png"); }
+
+body.lang-fr .home.panel .entry.esvp-retrospective .preview, body.examples.lang-fr .entry.esvp-retrospective .preview {
+  background-image: url("../imgs/examples/fr/mini/example-esvp-retrospective.png"); }
+body.lang-fr .home.panel .full.esvp-retrospective, body.examples.lang-fr .full.esvp-retrospective {
+  background-image: url("../imgs/examples/fr/full/example-esvp-retrospective.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-fr .vertice-create-example.example-esvp-retrospective .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/fr/example-esvp-retrospective.png"); }
+
+body.example.lang-fr .screenshot.planning-poker {
+  background-image: url("../imgs/examples/fr/full/example-planning-poker.png"); }
+
+body.lang-fr .home.panel .entry.planning-poker .preview, body.examples.lang-fr .entry.planning-poker .preview {
+  background-image: url("../imgs/examples/fr/mini/example-planning-poker.png"); }
+body.lang-fr .home.panel .full.planning-poker, body.examples.lang-fr .full.planning-poker {
+  background-image: url("../imgs/examples/fr/full/example-planning-poker.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-fr .vertice-create-example.example-planning-poker .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/fr/example-planning-poker.png"); }
+
+body.example.lang-fr .screenshot.extreme-quotation {
+  background-image: url("../imgs/examples/fr/full/example-extreme-quotation.png"); }
+
+body.lang-fr .home.panel .entry.extreme-quotation .preview, body.examples.lang-fr .entry.extreme-quotation .preview {
+  background-image: url("../imgs/examples/fr/mini/example-extreme-quotation.png"); }
+body.lang-fr .home.panel .full.extreme-quotation, body.examples.lang-fr .full.extreme-quotation {
+  background-image: url("../imgs/examples/fr/full/example-extreme-quotation.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-fr .vertice-create-example.example-extreme-quotation .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/fr/example-extreme-quotation.png"); }
+
+body.example.lang-fr .screenshot.niko-niko-calendar {
+  background-image: url("../imgs/examples/fr/full/example-niko-niko-calendar.png"); }
+
+body.lang-fr .home.panel .entry.niko-niko-calendar .preview, body.examples.lang-fr .entry.niko-niko-calendar .preview {
+  background-image: url("../imgs/examples/fr/mini/example-niko-niko-calendar.png"); }
+body.lang-fr .home.panel .full.niko-niko-calendar, body.examples.lang-fr .full.niko-niko-calendar {
+  background-image: url("../imgs/examples/fr/full/example-niko-niko-calendar.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-fr .vertice-create-example.example-niko-niko-calendar .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/fr/example-niko-niko-calendar.png"); }
+
+body.example.lang-fr .screenshot.roam-board {
+  background-image: url("../imgs/examples/fr/full/example-roam-board.png"); }
+
+body.lang-fr .home.panel .entry.roam-board .preview, body.examples.lang-fr .entry.roam-board .preview {
+  background-image: url("../imgs/examples/fr/mini/example-roam-board.png"); }
+body.lang-fr .home.panel .full.roam-board, body.examples.lang-fr .full.roam-board {
+  background-image: url("../imgs/examples/fr/full/example-roam-board.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-fr .vertice-create-example.example-roam-board .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/fr/example-roam-board.png"); }
+
+body.example.lang-fr .screenshot.collaborative-brainstorming {
+  background-image: url("../imgs/examples/fr/full/example-collaborative-brainstorming.png"); }
+
+body.lang-fr .home.panel .entry.collaborative-brainstorming .preview, body.examples.lang-fr .entry.collaborative-brainstorming .preview {
+  background-image: url("../imgs/examples/fr/mini/example-collaborative-brainstorming.png"); }
+body.lang-fr .home.panel .full.collaborative-brainstorming, body.examples.lang-fr .full.collaborative-brainstorming {
+  background-image: url("../imgs/examples/fr/full/example-collaborative-brainstorming.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-fr .vertice-create-example.example-collaborative-brainstorming .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/fr/example-collaborative-brainstorming.png"); }
+
+body.example.lang-fr .screenshot.moodboard {
+  background-image: url("../imgs/examples/fr/full/example-moodboard.png"); }
+
+body.lang-fr .home.panel .entry.moodboard .preview, body.examples.lang-fr .entry.moodboard .preview {
+  background-image: url("../imgs/examples/fr/mini/example-moodboard.png"); }
+body.lang-fr .home.panel .full.moodboard, body.examples.lang-fr .full.moodboard {
+  background-image: url("../imgs/examples/fr/full/example-moodboard.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-fr .vertice-create-example.example-moodboard .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/fr/example-moodboard.png"); }
+
+body.example.lang-fr .screenshot.design-thinking {
+  background-image: url("../imgs/examples/fr/full/example-design-thinking.png"); }
+
+body.lang-fr .home.panel .entry.design-thinking .preview, body.examples.lang-fr .entry.design-thinking .preview {
+  background-image: url("../imgs/examples/fr/mini/example-design-thinking.png"); }
+body.lang-fr .home.panel .full.design-thinking, body.examples.lang-fr .full.design-thinking {
+  background-image: url("../imgs/examples/fr/full/example-design-thinking.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-fr .vertice-create-example.example-design-thinking .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/fr/example-design-thinking.png"); }
+
+body.example.lang-fr .screenshot.affinity-diagram {
+  background-image: url("../imgs/examples/fr/full/example-affinity-diagram.png"); }
+
+body.lang-fr .home.panel .entry.affinity-diagram .preview, body.examples.lang-fr .entry.affinity-diagram .preview {
+  background-image: url("../imgs/examples/fr/mini/example-affinity-diagram.png"); }
+body.lang-fr .home.panel .full.affinity-diagram, body.examples.lang-fr .full.affinity-diagram {
+  background-image: url("../imgs/examples/fr/full/example-affinity-diagram.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-fr .vertice-create-example.example-affinity-diagram .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/fr/example-affinity-diagram.png"); }
+
+body.example.lang-fr .screenshot.lotus-blossom-technique {
+  background-image: url("../imgs/examples/fr/full/example-lotus-blossom-technique.png"); }
+
+body.lang-fr .home.panel .entry.lotus-blossom-technique .preview, body.examples.lang-fr .entry.lotus-blossom-technique .preview {
+  background-image: url("../imgs/examples/fr/mini/example-lotus-blossom-technique.png"); }
+body.lang-fr .home.panel .full.lotus-blossom-technique, body.examples.lang-fr .full.lotus-blossom-technique {
+  background-image: url("../imgs/examples/fr/full/example-lotus-blossom-technique.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-fr .vertice-create-example.example-lotus-blossom-technique .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/fr/example-lotus-blossom-technique.png"); }
+
+body.example.lang-fr .screenshot.research-and-discussion {
+  background-image: url("../imgs/examples/fr/full/example-research-and-discussion.png"); }
+
+body.lang-fr .home.panel .entry.research-and-discussion .preview, body.examples.lang-fr .entry.research-and-discussion .preview {
+  background-image: url("../imgs/examples/fr/mini/example-research-and-discussion.png"); }
+body.lang-fr .home.panel .full.research-and-discussion, body.examples.lang-fr .full.research-and-discussion {
+  background-image: url("../imgs/examples/fr/full/example-research-and-discussion.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+  height: 100%; }
+
+body.lang-fr .vertice-create-example.example-research-and-discussion .viewport-container {
+  background-image: image-url("tmp/2019-01/mini/fr/example-research-and-discussion.png"); }
 
 body.example.lang-fr .screenshot.mind-mapping {
   background-image: url("../imgs/examples/fr/full/example-mind-mapping.png"); }
@@ -1409,499 +1868,6 @@ body.lang-fr .home.panel .full.collecting-feedback, body.examples.lang-fr .full.
 body.lang-fr .vertice-create-example.example-collecting-feedback .viewport-container {
   background-image: image-url("tmp/2019-01/mini/fr/example-collecting-feedback.png"); }
 
-body.example.lang-fr .screenshot.document-review {
-  background-image: url("../imgs/examples/fr/full/example-document-review.png"); }
-
-body.lang-fr .home.panel .entry.document-review .preview, body.examples.lang-fr .entry.document-review .preview {
-  background-image: url("../imgs/examples/fr/mini/example-document-review.png"); }
-body.lang-fr .home.panel .full.document-review, body.examples.lang-fr .full.document-review {
-  background-image: url("../imgs/examples/fr/full/example-document-review.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-fr .vertice-create-example.example-document-review .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-document-review.png"); }
-
-body.example.lang-fr .screenshot.impact-mapping {
-  background-image: url("../imgs/examples/fr/full/example-impact-mapping.png"); }
-
-body.lang-fr .home.panel .entry.impact-mapping .preview, body.examples.lang-fr .entry.impact-mapping .preview {
-  background-image: url("../imgs/examples/fr/mini/example-impact-mapping.png"); }
-body.lang-fr .home.panel .full.impact-mapping, body.examples.lang-fr .full.impact-mapping {
-  background-image: url("../imgs/examples/fr/full/example-impact-mapping.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-fr .vertice-create-example.example-impact-mapping .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-impact-mapping.png"); }
-
-body.example.lang-fr .screenshot.competitive-research-of-user-flow {
-  background-image: url("../imgs/examples/fr/full/example-competitive-research-of-user-flow.png"); }
-
-body.lang-fr .home.panel .entry.competitive-research-of-user-flow .preview, body.examples.lang-fr .entry.competitive-research-of-user-flow .preview {
-  background-image: url("../imgs/examples/fr/mini/example-competitive-research-of-user-flow.png"); }
-body.lang-fr .home.panel .full.competitive-research-of-user-flow, body.examples.lang-fr .full.competitive-research-of-user-flow {
-  background-image: url("../imgs/examples/fr/full/example-competitive-research-of-user-flow.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-fr .vertice-create-example.example-competitive-research-of-user-flow .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-competitive-research-of-user-flow.png"); }
-
-body.example.lang-fr .screenshot.lean-startup-canvas {
-  background-image: url("../imgs/examples/fr/full/example-lean-startup-canvas.png"); }
-
-body.lang-fr .home.panel .entry.lean-startup-canvas .preview, body.examples.lang-fr .entry.lean-startup-canvas .preview {
-  background-image: url("../imgs/examples/fr/mini/example-lean-startup-canvas.png"); }
-body.lang-fr .home.panel .full.lean-startup-canvas, body.examples.lang-fr .full.lean-startup-canvas {
-  background-image: url("../imgs/examples/fr/full/example-lean-startup-canvas.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-fr .vertice-create-example.example-lean-startup-canvas .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-lean-startup-canvas.png"); }
-
-body.example.lang-fr .screenshot.okr-process {
-  background-image: url("../imgs/examples/fr/full/example-okr-process.png"); }
-
-body.lang-fr .home.panel .entry.okr-process .preview, body.examples.lang-fr .entry.okr-process .preview {
-  background-image: url("../imgs/examples/fr/mini/example-okr-process.png"); }
-body.lang-fr .home.panel .full.okr-process, body.examples.lang-fr .full.okr-process {
-  background-image: url("../imgs/examples/fr/full/example-okr-process.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-fr .vertice-create-example.example-okr-process .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-okr-process.png"); }
-
-body.example.lang-fr .screenshot.scrum-board {
-  background-image: url("../imgs/examples/fr/full/example-scrum-board.png"); }
-
-body.lang-fr .home.panel .entry.scrum-board .preview, body.examples.lang-fr .entry.scrum-board .preview {
-  background-image: url("../imgs/examples/fr/mini/example-scrum-board.png"); }
-body.lang-fr .home.panel .full.scrum-board, body.examples.lang-fr .full.scrum-board {
-  background-image: url("../imgs/examples/fr/full/example-scrum-board.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-fr .vertice-create-example.example-scrum-board .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-scrum-board.png"); }
-
-body.example.lang-fr .screenshot.gist-planning-framework {
-  background-image: url("../imgs/examples/fr/full/example-gist-planning-framework.png"); }
-
-body.lang-fr .home.panel .entry.gist-planning-framework .preview, body.examples.lang-fr .entry.gist-planning-framework .preview {
-  background-image: url("../imgs/examples/fr/mini/example-gist-planning-framework.png"); }
-body.lang-fr .home.panel .full.gist-planning-framework, body.examples.lang-fr .full.gist-planning-framework {
-  background-image: url("../imgs/examples/fr/full/example-gist-planning-framework.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-fr .vertice-create-example.example-gist-planning-framework .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-gist-planning-framework.png"); }
-
-body.example.lang-fr .screenshot.user-flow {
-  background-image: url("../imgs/examples/fr/full/example-user-flow.png"); }
-
-body.lang-fr .home.panel .entry.user-flow .preview, body.examples.lang-fr .entry.user-flow .preview {
-  background-image: url("../imgs/examples/fr/mini/example-user-flow.png"); }
-body.lang-fr .home.panel .full.user-flow, body.examples.lang-fr .full.user-flow {
-  background-image: url("../imgs/examples/fr/full/example-user-flow.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-fr .vertice-create-example.example-user-flow .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-user-flow.png"); }
-
-body.example.lang-fr .screenshot.affinity-diagram {
-  background-image: url("../imgs/examples/fr/full/example-affinity-diagram.png"); }
-
-body.lang-fr .home.panel .entry.affinity-diagram .preview, body.examples.lang-fr .entry.affinity-diagram .preview {
-  background-image: url("../imgs/examples/fr/mini/example-affinity-diagram.png"); }
-body.lang-fr .home.panel .full.affinity-diagram, body.examples.lang-fr .full.affinity-diagram {
-  background-image: url("../imgs/examples/fr/full/example-affinity-diagram.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-fr .vertice-create-example.example-affinity-diagram .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-affinity-diagram.png"); }
-
-body.example.lang-fr .screenshot.scheduling {
-  background-image: url("../imgs/examples/fr/full/example-scheduling.png"); }
-
-body.lang-fr .home.panel .entry.scheduling .preview, body.examples.lang-fr .entry.scheduling .preview {
-  background-image: url("../imgs/examples/fr/mini/example-scheduling.png"); }
-body.lang-fr .home.panel .full.scheduling, body.examples.lang-fr .full.scheduling {
-  background-image: url("../imgs/examples/fr/full/example-scheduling.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-fr .vertice-create-example.example-scheduling .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-scheduling.png"); }
-
-body.example.lang-fr .screenshot.site-mapping {
-  background-image: url("../imgs/examples/fr/full/example-site-mapping.png"); }
-
-body.lang-fr .home.panel .entry.site-mapping .preview, body.examples.lang-fr .entry.site-mapping .preview {
-  background-image: url("../imgs/examples/fr/mini/example-site-mapping.png"); }
-body.lang-fr .home.panel .full.site-mapping, body.examples.lang-fr .full.site-mapping {
-  background-image: url("../imgs/examples/fr/full/example-site-mapping.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-fr .vertice-create-example.example-site-mapping .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-site-mapping.png"); }
-
-body.example.lang-fr .screenshot.product-discovery {
-  background-image: url("../imgs/examples/fr/full/example-product-discovery.png"); }
-
-body.lang-fr .home.panel .entry.product-discovery .preview, body.examples.lang-fr .entry.product-discovery .preview {
-  background-image: url("../imgs/examples/fr/mini/example-product-discovery.png"); }
-body.lang-fr .home.panel .full.product-discovery, body.examples.lang-fr .full.product-discovery {
-  background-image: url("../imgs/examples/fr/full/example-product-discovery.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-fr .vertice-create-example.example-product-discovery .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-product-discovery.png"); }
-
-body.example.lang-fr .screenshot.product-roadmap {
-  background-image: url("../imgs/examples/fr/full/example-product-roadmap.png"); }
-
-body.lang-fr .home.panel .entry.product-roadmap .preview, body.examples.lang-fr .entry.product-roadmap .preview {
-  background-image: url("../imgs/examples/fr/mini/example-product-roadmap.png"); }
-body.lang-fr .home.panel .full.product-roadmap, body.examples.lang-fr .full.product-roadmap {
-  background-image: url("../imgs/examples/fr/full/example-product-roadmap.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-fr .vertice-create-example.example-product-roadmap .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-product-roadmap.png"); }
-
-body.example.lang-fr .screenshot.fourls-retrospective {
-  background-image: url("../imgs/examples/fr/full/example-fourls-retrospective.png"); }
-
-body.lang-fr .home.panel .entry.fourls-retrospective .preview, body.examples.lang-fr .entry.fourls-retrospective .preview {
-  background-image: url("../imgs/examples/fr/mini/example-fourls-retrospective.png"); }
-body.lang-fr .home.panel .full.fourls-retrospective, body.examples.lang-fr .full.fourls-retrospective {
-  background-image: url("../imgs/examples/fr/full/example-fourls-retrospective.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-fr .vertice-create-example.example-fourls-retrospective .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-fourls-retrospective.png"); }
-
-body.example.lang-fr .screenshot.persona {
-  background-image: url("../imgs/examples/fr/full/example-persona.png"); }
-
-body.lang-fr .home.panel .entry.persona .preview, body.examples.lang-fr .entry.persona .preview {
-  background-image: url("../imgs/examples/fr/mini/example-persona.png"); }
-body.lang-fr .home.panel .full.persona, body.examples.lang-fr .full.persona {
-  background-image: url("../imgs/examples/fr/full/example-persona.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-fr .vertice-create-example.example-persona .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-persona.png"); }
-
-body.example.lang-fr .screenshot.scrumban {
-  background-image: url("../imgs/examples/fr/full/example-scrumban.png"); }
-
-body.lang-fr .home.panel .entry.scrumban .preview, body.examples.lang-fr .entry.scrumban .preview {
-  background-image: url("../imgs/examples/fr/mini/example-scrumban.png"); }
-body.lang-fr .home.panel .full.scrumban, body.examples.lang-fr .full.scrumban {
-  background-image: url("../imgs/examples/fr/full/example-scrumban.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-fr .vertice-create-example.example-scrumban .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-scrumban.png"); }
-
-body.example.lang-fr .screenshot.product-vision-board {
-  background-image: url("../imgs/examples/fr/full/example-product-vision-board.png"); }
-
-body.lang-fr .home.panel .entry.product-vision-board .preview, body.examples.lang-fr .entry.product-vision-board .preview {
-  background-image: url("../imgs/examples/fr/mini/example-product-vision-board.png"); }
-body.lang-fr .home.panel .full.product-vision-board, body.examples.lang-fr .full.product-vision-board {
-  background-image: url("../imgs/examples/fr/full/example-product-vision-board.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-fr .vertice-create-example.example-product-vision-board .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-product-vision-board.png"); }
-
-body.example.lang-fr .screenshot.gantt-chart {
-  background-image: url("../imgs/examples/fr/full/example-gantt-chart.png"); }
-
-body.lang-fr .home.panel .entry.gantt-chart .preview, body.examples.lang-fr .entry.gantt-chart .preview {
-  background-image: url("../imgs/examples/fr/mini/example-gantt-chart.png"); }
-body.lang-fr .home.panel .full.gantt-chart, body.examples.lang-fr .full.gantt-chart {
-  background-image: url("../imgs/examples/fr/full/example-gantt-chart.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-fr .vertice-create-example.example-gantt-chart .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-gantt-chart.png"); }
-
-body.example.lang-fr .screenshot.empathy-map {
-  background-image: url("../imgs/examples/fr/full/example-empathy-map.png"); }
-
-body.lang-fr .home.panel .entry.empathy-map .preview, body.examples.lang-fr .entry.empathy-map .preview {
-  background-image: url("../imgs/examples/fr/mini/example-empathy-map.png"); }
-body.lang-fr .home.panel .full.empathy-map, body.examples.lang-fr .full.empathy-map {
-  background-image: url("../imgs/examples/fr/full/example-empathy-map.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-fr .vertice-create-example.example-empathy-map .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-empathy-map.png"); }
-
-body.example.lang-fr .screenshot.moscow-method {
-  background-image: url("../imgs/examples/fr/full/example-moscow-method.png"); }
-
-body.lang-fr .home.panel .entry.moscow-method .preview, body.examples.lang-fr .entry.moscow-method .preview {
-  background-image: url("../imgs/examples/fr/mini/example-moscow-method.png"); }
-body.lang-fr .home.panel .full.moscow-method, body.examples.lang-fr .full.moscow-method {
-  background-image: url("../imgs/examples/fr/full/example-moscow-method.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-fr .vertice-create-example.example-moscow-method .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-moscow-method.png"); }
-
-body.example.lang-fr .screenshot.planning-poker {
-  background-image: url("../imgs/examples/fr/full/example-planning-poker.png"); }
-
-body.lang-fr .home.panel .entry.planning-poker .preview, body.examples.lang-fr .entry.planning-poker .preview {
-  background-image: url("../imgs/examples/fr/mini/example-planning-poker.png"); }
-body.lang-fr .home.panel .full.planning-poker, body.examples.lang-fr .full.planning-poker {
-  background-image: url("../imgs/examples/fr/full/example-planning-poker.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-fr .vertice-create-example.example-planning-poker .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-planning-poker.png"); }
-
-body.example.lang-fr .screenshot.extreme-quotation {
-  background-image: url("../imgs/examples/fr/full/example-extreme-quotation.png"); }
-
-body.lang-fr .home.panel .entry.extreme-quotation .preview, body.examples.lang-fr .entry.extreme-quotation .preview {
-  background-image: url("../imgs/examples/fr/mini/example-extreme-quotation.png"); }
-body.lang-fr .home.panel .full.extreme-quotation, body.examples.lang-fr .full.extreme-quotation {
-  background-image: url("../imgs/examples/fr/full/example-extreme-quotation.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-fr .vertice-create-example.example-extreme-quotation .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-extreme-quotation.png"); }
-
-body.example.lang-fr .screenshot.niko-niko-calendar {
-  background-image: url("../imgs/examples/fr/full/example-niko-niko-calendar.png"); }
-
-body.lang-fr .home.panel .entry.niko-niko-calendar .preview, body.examples.lang-fr .entry.niko-niko-calendar .preview {
-  background-image: url("../imgs/examples/fr/mini/example-niko-niko-calendar.png"); }
-body.lang-fr .home.panel .full.niko-niko-calendar, body.examples.lang-fr .full.niko-niko-calendar {
-  background-image: url("../imgs/examples/fr/full/example-niko-niko-calendar.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-fr .vertice-create-example.example-niko-niko-calendar .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-niko-niko-calendar.png"); }
-
-body.example.lang-fr .screenshot.roam-board {
-  background-image: url("../imgs/examples/fr/full/example-roam-board.png"); }
-
-body.lang-fr .home.panel .entry.roam-board .preview, body.examples.lang-fr .entry.roam-board .preview {
-  background-image: url("../imgs/examples/fr/mini/example-roam-board.png"); }
-body.lang-fr .home.panel .full.roam-board, body.examples.lang-fr .full.roam-board {
-  background-image: url("../imgs/examples/fr/full/example-roam-board.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-fr .vertice-create-example.example-roam-board .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-roam-board.png"); }
-
-body.example.lang-fr .screenshot.the-go-product-roadmap {
-  background-image: url("../imgs/examples/fr/full/example-the-go-product-roadmap.png"); }
-
-body.lang-fr .home.panel .entry.the-go-product-roadmap .preview, body.examples.lang-fr .entry.the-go-product-roadmap .preview {
-  background-image: url("../imgs/examples/fr/mini/example-the-go-product-roadmap.png"); }
-body.lang-fr .home.panel .full.the-go-product-roadmap, body.examples.lang-fr .full.the-go-product-roadmap {
-  background-image: url("../imgs/examples/fr/full/example-the-go-product-roadmap.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-fr .vertice-create-example.example-the-go-product-roadmap .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-the-go-product-roadmap.png"); }
-
-body.example.lang-fr .screenshot.portfolio-kanban {
-  background-image: url("../imgs/examples/fr/full/example-portfolio-kanban.png"); }
-
-body.lang-fr .home.panel .entry.portfolio-kanban .preview, body.examples.lang-fr .entry.portfolio-kanban .preview {
-  background-image: url("../imgs/examples/fr/mini/example-portfolio-kanban.png"); }
-body.lang-fr .home.panel .full.portfolio-kanban, body.examples.lang-fr .full.portfolio-kanban {
-  background-image: url("../imgs/examples/fr/full/example-portfolio-kanban.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-fr .vertice-create-example.example-portfolio-kanban .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-portfolio-kanban.png"); }
-
-body.example.lang-fr .screenshot.pi-planning-board {
-  background-image: url("../imgs/examples/fr/full/example-pi-planning-board.png"); }
-
-body.lang-fr .home.panel .entry.pi-planning-board .preview, body.examples.lang-fr .entry.pi-planning-board .preview {
-  background-image: url("../imgs/examples/fr/mini/example-pi-planning-board.png"); }
-body.lang-fr .home.panel .full.pi-planning-board, body.examples.lang-fr .full.pi-planning-board {
-  background-image: url("../imgs/examples/fr/full/example-pi-planning-board.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-fr .vertice-create-example.example-pi-planning-board .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-pi-planning-board.png"); }
-
-body.example.lang-fr .screenshot.three-little-pigs-retrospective {
-  background-image: url("../imgs/examples/fr/full/example-three-little-pigs-retrospective.png"); }
-
-body.lang-fr .home.panel .entry.three-little-pigs-retrospective .preview, body.examples.lang-fr .entry.three-little-pigs-retrospective .preview {
-  background-image: url("../imgs/examples/fr/mini/example-three-little-pigs-retrospective.png"); }
-body.lang-fr .home.panel .full.three-little-pigs-retrospective, body.examples.lang-fr .full.three-little-pigs-retrospective {
-  background-image: url("../imgs/examples/fr/full/example-three-little-pigs-retrospective.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-fr .vertice-create-example.example-three-little-pigs-retrospective .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-three-little-pigs-retrospective.png"); }
-
-body.example.lang-fr .screenshot.lotus-blossom-technique {
-  background-image: url("../imgs/examples/fr/full/example-lotus-blossom-technique.png"); }
-
-body.lang-fr .home.panel .entry.lotus-blossom-technique .preview, body.examples.lang-fr .entry.lotus-blossom-technique .preview {
-  background-image: url("../imgs/examples/fr/mini/example-lotus-blossom-technique.png"); }
-body.lang-fr .home.panel .full.lotus-blossom-technique, body.examples.lang-fr .full.lotus-blossom-technique {
-  background-image: url("../imgs/examples/fr/full/example-lotus-blossom-technique.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: calc(100% - 200px);
-  margin-left: 100px;
-  height: 100%; }
-
-body.lang-fr .vertice-create-example.example-lotus-blossom-technique .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-lotus-blossom-technique.png"); }
-
 .page-login, .page-get-started {
   overflow: hidden; }
 
@@ -1957,7 +1923,7 @@ body.page-not-found {
       width: 237px;
       height: 80px;
       background-size: contain;
-      background-image: image-url("tmp/2020-10/business-case/company-logo.png"); }
+      background-image: url("tmp/2020-10/business-case/company-logo.png"); }
       @media only screen and (min-width: 1080px) {
         .business-case .bloc-landing .top-row .company-logo {
           float: left;
@@ -2040,7 +2006,7 @@ body.page-not-found {
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
-      background-image: image-url("tmp/2020-10/business-case/Illustration_sans_titre.jpg"); }
+      background-image: url("tmp/2020-10/business-case/Illustration_sans_titre.jpg"); }
       @media only screen and (min-width: 1080px) {
         .business-case .bloc-landing .illu {
           width: calc(100% - 900px);
@@ -2172,7 +2138,7 @@ body.page-not-found {
       .business-case .article-sign .wrapper .picture {
         border-radius: 50%;
         float: left;
-        background-image: image-url("tmp/2020-10/business-case/alexandre-beauchet.jpg");
+        background-image: url("tmp/2020-10/business-case/alexandre-beauchet.jpg");
         background-size: cover; }
         @media only screen and (min-width: 1080px) {
           .business-case .article-sign .wrapper .picture {
@@ -2401,7 +2367,7 @@ body {
           background-size: contain;
           background-repeat: no-repeat;
           background-position: center;
-          background-image: image-url("tmp/2020-03/site/header-dropdown.png");
+          background-image: url("tmp/2020-03/site/header-dropdown.png");
           opacity: 0.8;
           transition: opacity 150ms ease-out; }
         body .header .nav .workflows .toggle-wrapper:hover .dropdown-invite {
@@ -2607,7 +2573,7 @@ body {
             background-size: contain;
             background-repeat: no-repeat;
             background-position: center;
-            background-image: image-url("tmp/2020-03/site/header-dropdown.png");
+            background-image: url("tmp/2020-03/site/header-dropdown.png");
             opacity: 0.8;
             transition: opacity 150ms ease-out; }
           body > div.footer .bloc .language-bloc .toggle-wrapper:hover .dropdown-invite {
@@ -2727,13 +2693,13 @@ body {
         .home .bloc-landing .wrapper .illustrations .entry:not(:nth-child(1)), .workflow .bloc-landing .wrapper .illustrations .entry:not(:nth-child(1)), .page-pricing .bloc-landing .wrapper .illustrations .entry:not(:nth-child(1)) {
           margin-left: 1em; }
         .home .bloc-landing .wrapper .illustrations .entry.capture, .workflow .bloc-landing .wrapper .illustrations .entry.capture, .page-pricing .bloc-landing .wrapper .illustrations .entry.capture {
-          background-image: image-url("tmp/2018-01-site/capture.png"); }
+          background-image: url("tmp/2018-01-site/capture.png"); }
         .home .bloc-landing .wrapper .illustrations .entry.explore, .workflow .bloc-landing .wrapper .illustrations .entry.explore, .page-pricing .bloc-landing .wrapper .illustrations .entry.explore {
-          background-image: image-url("tmp/2018-01-site/explore.png"); }
+          background-image: url("tmp/2018-01-site/explore.png"); }
         .home .bloc-landing .wrapper .illustrations .entry.visual, .workflow .bloc-landing .wrapper .illustrations .entry.visual, .page-pricing .bloc-landing .wrapper .illustrations .entry.visual {
-          background-image: image-url("tmp/2018-01-site/visual.png"); }
+          background-image: url("tmp/2018-01-site/visual.png"); }
         .home .bloc-landing .wrapper .illustrations .entry.continuous-collaboration, .workflow .bloc-landing .wrapper .illustrations .entry.continuous-collaboration, .page-pricing .bloc-landing .wrapper .illustrations .entry.continuous-collaboration {
-          background-image: image-url("tmp/2018-01-site/continuous-collaboration.png"); }
+          background-image: url("tmp/2018-01-site/continuous-collaboration.png"); }
   .home .section .title, .workflow .section .title, .page-pricing .section .title {
     text-align: center; }
   .home .bloc-discover .feature, .home .bloc-discover .workflow, .home .bloc-features .feature, .home .bloc-features .workflow, .workflow .bloc-discover .feature, .workflow .bloc-discover .workflow, .workflow .bloc-features .feature, .workflow .bloc-features .workflow, .page-pricing .bloc-discover .feature, .page-pricing .bloc-discover .workflow, .page-pricing .bloc-features .feature, .page-pricing .bloc-features .workflow {
@@ -2890,25 +2856,25 @@ body.home {
             body.home .section-problem .wrapper .bloc .msg {
               line-height: 26px; } }
       body.home .section-problem .wrapper .bloc:nth-child(1) .illu {
-        background-image: image-url("tmp/2020-03/site/landing/problem-1.png"); }
+        background-image: url("tmp/2020-03/site/landing/problem-1.png"); }
       body.home .section-problem .wrapper .bloc:nth-child(2) .illu-wrapper {
         position: relative; }
         body.home .section-problem .wrapper .bloc:nth-child(2) .illu-wrapper .illu {
           background-size: 40px;
-          background-image: image-url("tmp/2020-03/site/grid-white.png");
+          background-image: url("tmp/2020-03/site/grid-white.png");
           background-repeat: repeat;
           background-position: 0 0 !important; }
         body.home .section-problem .wrapper .bloc:nth-child(2) .illu-wrapper .inner {
           position: absolute;
           background-repeat: no-repeat;
-          background-image: image-url("tmp/2020-03/site/landing/problem-2.svg"); }
+          background-image: url("tmp/2020-03/site/landing/problem-2.svg"); }
       body.home .section-problem .wrapper .bloc:nth-child(3) .illu {
-        background-image: image-url("tmp/2020-03/site/landing/problem-5.jpeg"); }
+        background-image: url("tmp/2020-03/site/landing/problem-5.jpeg"); }
       body.home .section-problem .wrapper .bloc:nth-child(4) {
         margin-left: 270px; }
         body.home .section-problem .wrapper .bloc:nth-child(4) .illu {
           background-color: #333;
-          background-image: image-url("tmp/2020-03/site/landing/problem-2.jpg"); }
+          background-image: url("tmp/2020-03/site/landing/problem-2.jpg"); }
   body.home .section-solution .wrapper .bloc {
     float: left;
     position: relative; }
@@ -3304,7 +3270,7 @@ body.landing .bloc-av {
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
-        background-image: image-url("tmp/2020-08/logo-white.png");
+        background-image: url("tmp/2020-08/logo-white.png");
         margin-bottom: 20px; }
       .page-login .splash .centered .punchline, .page-login .splash .centered .punchline-fill, .page-get-started .splash .centered .punchline, .page-get-started .splash .centered .punchline-fill, .page-validate-email .splash .centered .punchline, .page-validate-email .splash .centered .punchline-fill {
         font-size: 22px;
@@ -3328,7 +3294,7 @@ body.landing .bloc-av {
     .page-login .splash .version.acknowledged, .page-get-started .splash .version.acknowledged, .page-validate-email .splash .version.acknowledged {
       opacity: 0.3; }
     .page-login .splash .bg, .page-get-started .splash .bg, .page-validate-email .splash .bg {
-      background-image: image-url("tmp/2020-08/splash-bg.png");
+      background-image: url("tmp/2020-08/splash-bg.png");
       position: absolute;
       width: 1280px;
       height: 600px;
@@ -3350,7 +3316,7 @@ body.landing .bloc-av {
         height: 600px;
         overflow: hidden; }
         .page-login .splash .bg-fill-container .bg-fill .bg-color, .page-get-started .splash .bg-fill-container .bg-fill .bg-color, .page-validate-email .splash .bg-fill-container .bg-fill .bg-color {
-          background-image: image-url("tmp/2020-08/splash-bg-colored-rew.png");
+          background-image: url("tmp/2020-08/splash-bg-colored-rew.png");
           width: 1280px;
           height: 600px;
           background-size: contain; }
@@ -3375,7 +3341,7 @@ body.landing .bloc-av {
       background-size: contain;
       background-position: center;
       background-repeat: no-repeat;
-      background-image: image-url("tmp/2020-10/logo-white-login.png");
+      background-image: url("tmp/2020-10/logo-white-login.png");
       margin-left: calc(50% - 205px); }
 
 .page-login, .page-get-started, .page-forgot, .page-validate-email {
@@ -3583,8 +3549,7 @@ body.business-case .main a {
 
 body.example {
   font-family: regular;
-  -webkit-font-smoothing: antialiased;
-  overflow: hidden; }
+  -webkit-font-smoothing: antialiased; }
   body.example .ariane {
     font-size: 16px; }
     body.example .ariane > * {
@@ -3692,7 +3657,7 @@ body.example {
   text-decoration: none;
   display: inline-block;
   position: relative;
-  transition: color 0.2s; }
+  transition: color 0.2s, opacity 0.1s; }
   .text-link .fas {
     color: inherit;
     margin-left: 8px;
@@ -3714,6 +3679,9 @@ body.example {
   height: 1px;
   border-bottom: 1px solid #1f5aa3;
   transition: width 0.2s, left 0.2s; }
+
+.text-link.light.underline-over::after {
+  border-color: white; }
 
 .text-link.underline-over:hover::after {
   width: 100%;
@@ -3743,3 +3711,34 @@ body.example {
 
 .unsecable {
   white-space: nowrap; }
+
+.text-link.underline::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px solid #1f5aa3;
+  transition: width 0.2s, left 0.2s; }
+
+.text-link.underline:hover::after {
+  width: calc(100% - 20px);
+  left: 0; }
+
+.text-link.light.underline::after {
+  border-color: white; }
+
+.text-link.light {
+  color: white; }
+  .text-link.light.underline:hover {
+    opacity: 0.8; }
+
+.unsecable {
+  white-space: nowrap; }
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both; }
