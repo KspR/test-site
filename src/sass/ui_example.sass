@@ -51,6 +51,7 @@
 					display : flex
 					align-items : center
 					color : white
+					min-height : 80px
 					.cta
 						position : relative
 						font-size : 1.1rem
@@ -88,17 +89,21 @@
 							transform : translateY(15px)
 							background : transparent
 							opacity : .6
-					.separator
-						display : block
-						width : 1px
-						height : 80px
-						transform : rotate(10deg)
-						background : white
-						opacity : .1
-						margin : 0 40px
-					.text-link
-						color : white
-						font-size : 1.1rem
+					.separator, .text-link
+						display : none
+					&.has-template
+						.separator
+							display : block
+							width : 1px
+							height : 80px
+							transform : rotate(10deg)
+							background : white
+							opacity : .1
+							margin : 0 40px
+						.text-link
+							display : block
+							color : white
+							font-size : 1.1rem
 			
 			@media only screen and (max-width : 850px)
 				.title-bar

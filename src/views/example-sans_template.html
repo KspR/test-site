@@ -7,7 +7,7 @@
 		END -->
 		<title>
 		<!-- TESTONLY -->
-		{{{lang.ex_sb.title}}}
+		User Story Mapping
 		<!-- ENDTESTONLY -->
 		<!-- PRODONLY
 		<%= @example["label"] %> - <%= @lang.example.examples %> - Draft
@@ -40,7 +40,7 @@
 			
 			{{{includes.css}}}
 	</head>
-	<body class="ui_example has-header example lang-fr header-examples"><!-- lang-code -->
+	<body class="ui_example galery-mode-only has-header example lang-fr header-examples"><!-- lang-code -->
 		<!-- PRODONLY
 		<% if JSON_CONFIG["google-tag-manager"] %>
 			<%= render "partials/google_tag_manager_body" %>
@@ -62,12 +62,12 @@
 					<% end %>
 					END -->
 					<!-- TESTONLY -->
-					<a class="text-link light" href="/examples">{{{lang.ui_examples.pageName}}}</a>
+					<a class="text-link light" href="/examples">Examples</a>
 					<!-- ENDTESTONLY -->
 					<i class="fas fa-chevron-right separator"></i>
 					<span class="current">
 						<!-- TESTONLY -->
-						{{{lang.ex_sb.title}}}
+						User Story Mapping
 						<!-- ENDTESTONLY -->
 						<!-- PRODONLY
 						<%= @example["label"] %>
@@ -78,23 +78,23 @@
 				<div class="title-bar">
 					<h1>
 						<!-- TESTONLY -->
-						{{{lang.ex_sb.title}}}
+						User Story Mapping
 						<!-- ENDTESTONLY -->
 						<!-- PRODONLY
 						<%= @example["label"] %>
 						END -->
 					</h1>
-					<div class="actions has-template">
+					<div class="actions">
 						<a href="#" class="cta round outline">
 							<!-- TESTONLY -->
-							{{{lang.ui_example.actionsBar.cta.label}}}
+							Essayer l'exemple
 							<!-- ENDTESTONLY -->
 							<!-- PRODONLY
 							<%= @lang.ex_UserStoryMapping.cta %>
 							END -->
 							<span class="mention">
 								<!-- TESTONLY -->
-								{{{lang.ui_example.actionsBar.cta.mention}}}
+								Pas de compte requis
 								<!-- ENDTESTONLY -->
 								<!-- PRODONLY
 								<%= @lang.example.asterisk %>
@@ -108,28 +108,13 @@
 
 				<figure class="main-screenshot">
 					<!-- TESTONLY -->
-					<img class="screenshot" src="./imgs/examples/{{{lang.code}}}/full/example-scrum-board.png" alt="Draft Scrum Board illustration" />
+					<img class="screenshot" src="./imgs/examples/{{{lang.code}}}/full/example-user-story-mapping.png" alt="" />
 					<!-- ENDTESTONLY -->
 					<!-- PRODONLY
 					<img class="screenshot" src="<%= image_path("site/examples/{{{lang.code}}}/full/example-" + @example["id"] + ".png") %>" alt="<%= @example["label"] %> example" />
 					END -->
 				</figure>
 
-			</div>
-
-		</section>
-
-		<section class="main-content">
-			<div class="wrapper">
-				{{{lang.ex_sb.mainContent}}}
-			</div>
-
-			<div class="resources-block">
-				<i class="fas fa-bookmark deco"></i>
-				<h2>{{{lang.ex_sb.resourcesBlock.title}}}</h2>
-				<ul class="resources-list">
-					{{{lang.ex_sb.resourcesBlock.linksList}}}
-				</ul>
 			</div>
 
 		</section>
@@ -141,25 +126,18 @@
 					<i class="fas fa-long-arrow-alt-left"></i> Collecte de Feedback
 					<!-- ENDTESTONLY -->
 					<!-- PRODONLY
-					<i class="fas fa-long-arrow-alt-left"></i> <%= @previous["label"] %>
+					← <%= @previous["label"] %>
 					END -->
 				</a>
 				<span class="separator"></span>
-				<span class="current-example">
-					<!-- TESTONLY -->
-					{{{lang.ex_sb.title}}}
-					<!-- ENDTESTONLY -->
-					<!-- PRODONLY
-					<%= @example["label"] %>
-					END -->
-				</span>
+				<span class="current-example">User Story Mapping</span>
 				<span class="separator"></span>
 				<a class="text-link light next" href="<%= @next_href %>">
 					<!-- TESTONLY -->
 					Scrum Board	<i class="fas fa-long-arrow-alt-right"></i>
 					<!-- ENDTESTONLY -->
 					<!-- PRODONLY
-					<%= @next["label"] %> <i class="fas fa-long-arrow-alt-right"></i>
+					<%= @next["label"] %> →
 					END -->
 				</a>
 			</nav>
