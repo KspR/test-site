@@ -1,4 +1,4 @@
 dump.rdb
-.dist-rails/
+dist-rails/
 .DS_Store
 .sass-cache/
