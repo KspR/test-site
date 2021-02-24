@@ -8,6 +8,7 @@
     padding: 0 5%; }
   .ui_enterprise .bloc-landing {
     position: relative;
+<<<<<<< HEAD
     display: flex;
     justify-content: center;
     align-items: center;
@@ -524,3 +525,221 @@
           display: none; }
         .ui_enterprise .credibility-labels .wrapper .label-group ~ .label-group {
           margin-top: 60px; } }
+=======
+    width: calc(100% - 40px);
+    margin-left: 40px;
+  }
+  .ui_enterprise .customer-story .wrapper .story-bloc .left-side {
+    display: none;
+  }
+  .ui_enterprise .customer-story .wrapper .story-bloc .right-side {
+    padding: 30px;
+  }
+  .ui_enterprise .customer-story .wrapper .story-bloc .right-side blockquote {
+    margin-left: 0;
+    margin-bottom: 30px;
+  }
+  .ui_enterprise .customer-story .wrapper .story-bloc .right-side .customer-info {
+    display: block;
+  }
+  .ui_enterprise .customer-story .wrapper .story-bloc .right-side .customer-info .logo {
+    margin-left: 0;
+    display: inline-block;
+  }
+  .ui_enterprise .customer-story .wrapper .story-bloc .right-side .customer-info .portrait {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  .ui_enterprise .customer-story .wrapper .story-bloc .right-side .customer-info .customer-details {
+    display: block;
+    margin-top: 20px;
+    margin-left: 0;
+  }
+  .ui_enterprise .customer-story .wrapper .story-bloc .right-side .customer-info .customer-details .name {
+    font-size: 0.9em;
+    opacity: 0.7;
+  }
+  .ui_enterprise .customer-story .wrapper .story-bloc .right-side .customer-info .customer-details .status {
+    display: block;
+    font-size: 0.8em;
+    opacity: 0.6;
+  }
+  .ui_enterprise .customer-story .wrapper .story-bloc .right-side .text-link {
+    margin-left: 0;
+    margin-top: 30px;
+    display: block;
+    text-align: left;
+  }
+}
+.ui_enterprise .safety-features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0 120px;
+  background: #333;
+  color: white;
+  position: relative;
+}
+.ui_enterprise .safety-features .picto-deco {
+  border-radius: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border: 4px solid #333;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  left: calc(100% / 2 - 60px);
+  top: -60px;
+}
+.ui_enterprise .safety-features .picto-deco .fas {
+  font-size: 2.3rem;
+  color: #333;
+}
+.ui_enterprise .safety-features h2 {
+  text-align: center;
+  color: white;
+  margin-top: 60px;
+}
+.ui_enterprise .safety-features .wrapper {
+  margin-top: 70px;
+  width: 80vw;
+  max-width: 900px;
+  display: flex;
+}
+.ui_enterprise .safety-features .wrapper ul {
+  width: 50%;
+  padding: 20px;
+}
+.ui_enterprise .safety-features .wrapper ul .feature .display-btn {
+  border: none;
+  background: transparent;
+  color: white;
+  display: inline-block;
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  position: relative;
+  padding-left: 26px;
+  transition: color 0.2s;
+}
+.ui_enterprise .safety-features .wrapper ul .feature .display-btn .far {
+  margin-right: 5px;
+  color: #3080e3;
+  font-size: 1em;
+  position: absolute;
+  top: 5px;
+  left: 0;
+  transition: transform 0.35s;
+}
+.ui_enterprise .safety-features .wrapper ul .feature .display-btn:hover {
+  cursor: pointer;
+  color: #3080e3;
+}
+.ui_enterprise .safety-features .wrapper ul .feature .display-btn:focus {
+  border: none;
+  outline: none;
+}
+.ui_enterprise .safety-features .wrapper ul .feature .description {
+  padding-left: 24px;
+  opacity: 0.8;
+  font-size: 0.9em;
+  display: none;
+  margin-top: 10px;
+  border-left: 1px dotted gray;
+  padding-left: 15px;
+  margin-left: 26px;
+}
+.ui_enterprise .safety-features .wrapper ul .feature.active .far {
+  transform: rotate(180deg);
+}
+.ui_enterprise .safety-features .wrapper ul .feature.active .description {
+  display: block;
+}
+.ui_enterprise .safety-features .wrapper ul .feature + .feature {
+  margin-top: 15px;
+}
+@media only screen and (max-width: 768px) {
+  .ui_enterprise .safety-features .wrapper {
+    margin-top: 70px;
+    width: 80vw;
+    max-width: 900px;
+    display: block;
+  }
+  .ui_enterprise .safety-features .wrapper ul {
+    width: 100%;
+  }
+  .ui_enterprise .safety-features .wrapper ul + ul {
+    padding-top: 0;
+  }
+}
+.ui_enterprise .credibility-labels {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ui_enterprise .credibility-labels .wrapper {
+  margin-top: -30px;
+  margin-bottom: 80px;
+  font-size: 0;
+  width: 80vw;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  position: relative;
+  box-shadow: 0 -30px 20px 0 rgba(0, 0, 0, 0.1);
+  padding: 80px 50px 20px;
+}
+.ui_enterprise .credibility-labels .wrapper .label-group {
+  width: 50%;
+}
+.ui_enterprise .credibility-labels .wrapper .label-group img {
+  filter: grayscale(1);
+  margin-bottom: 20px;
+  height: 60px;
+}
+.ui_enterprise .credibility-labels .wrapper .label-group .legend {
+  color: #999;
+  font-size: 1rem;
+}
+.ui_enterprise .credibility-labels .wrapper .label-group:first-child {
+  text-align: right;
+}
+.ui_enterprise .credibility-labels .wrapper .label-group:last-child {
+  text-align: left;
+}
+.ui_enterprise .credibility-labels .wrapper .separator {
+  height: 100px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 0 70px;
+}
+@media only screen and (max-width: 768px) {
+  .ui_enterprise .credibility-labels {
+    display: block;
+  }
+  .ui_enterprise .credibility-labels .wrapper {
+    margin: -40px auto 50px;
+    width: 80%;
+    display: block;
+  }
+  .ui_enterprise .credibility-labels .wrapper .label-group {
+    width: 100%;
+    text-align: center !important;
+  }
+  .ui_enterprise .credibility-labels .wrapper .label-group .legend {
+    font-size: 0.9rem;
+  }
+  .ui_enterprise .credibility-labels .wrapper .separator {
+    display: none;
+  }
+  .ui_enterprise .credibility-labels .wrapper .label-group ~ .label-group {
+    margin-top: 60px;
+  }
+}gin-top: 60px;
+  }
+}
+>>>>>>> c724f34d35c6cd032f5219a3b3b4caf5873db9e6

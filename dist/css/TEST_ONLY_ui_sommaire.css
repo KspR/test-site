@@ -1,6 +1,5 @@
 .ui_sommaire {
   min-height: 100vh;
-  overflow: hidden;
   background: #EEE;
 }
 .ui_sommaire.has-header {

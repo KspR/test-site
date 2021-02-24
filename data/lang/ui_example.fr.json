@@ -1,0 +1,11 @@
+{
+  "ui_example": {
+    "actionsBar": {
+      "cta": {
+        "label": "Essayer l'exemple",
+        "mention": "Pas de compte requis"
+      },
+      "textLink": "Utiliser ce template"
+    }
+  }
+}

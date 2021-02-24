@@ -1,0 +1,199 @@
+ex_usm
+	title
+		User Story Mapping
+		User Story Mapping
+	mainContent
+		------
+		<h2>What is User Story Mapping?</h2>
+		<p>
+			User Story Mapping is about delivering more outcomes by building less. It may seem contradictory at first sight, but it’s really what this exercise is all about. Let me give you a quick overview.
+		</p>
+		<p>
+			Popularized by Jeff Patton, User Story Mapping has become a popular way of enhancing collaboration between business owners and development teams to build the right product, in the proper order. Since it is a powerful and efficient workshop, it is highly praised by Agile teams to help them prioritize their backlog.
+		</p>
+		<p>
+			First, you need to put yourself in your users’ shoes to build the narrative flow along with their navigation through your product. Detail each step, if possible, by sticking to chronological order. These will be the backbone of your User Story Map composed of big user stories called epics.
+		</p>
+		<p>
+			Then, you determine the user stories that enable your users to reach their outcome successfully, i.e., why they would use your product at first. This part of the process triggers a conversation between business owners and the development team that builds a shared understanding of the situation.
+		</p>
+		<p>
+			To finish, you hierarchize user stories along the vertical axis to determine a minimum set of tasks that would bring the minimum, but necessary, business value to your users: it is called the MVP for Minimum Viable Product. You can extend the exercise by considering a second and a third version, but many things can occur till then!
+		</p>
+		<h2>What is an MVP?</h2>
+		<p>
+			One common misconception about MVP is thinking that it is just a product that should work, technically speaking. When we talk about nature, we use the term ‘viable’ to talk about a living organism, which means an organism that can survive on its own. The idea is the same when we talk about MVP.
+		</p>
+		<p>
+			Keeping this standard in mind, the MVP is the smallest product release that makes your users achieve their desired outcome (not a crappy product!) and, in your Agile iterative process, can give you enlightening feedback about what your users are actually expecting from you.
+		</p>
+		---
+		<h2>Qu’est ce que le User Story Mapping ?</h2>
+		<p>
+			L’objectif du User Story Mapping est de délivrer davantage de valeur à ses utilisateurs en fabricant moins. Cela semble contradictoire à première vue mais c’est bien de cela dont il s’agit. Et c’est ce que nous allons voir dans cette brève introduction.
+		</p>
+		<p>
+			Popularisé par Jeff Patton, le User Story Mapping est devenu une manière commune de faciliter la collaboration entre les business owners et les équipes de développement en vue de fabriquer le bon produit, dans le bon ordre. Compte tenu de sa puissance et de son efficacité, cet atelier est, aujourd’hui, très apprécié des équipes Agiles pour prioriser de façon optimale leur backlog.
+		</p>
+		<p>
+			Tout d’abord, il faut que vous vous mettiez dans la peau de vos utilisateurs afin de décrire la cinématique dans laquelle ils s’inscrivent lorsqu’ils utilisent votre produit. Détaillez chaque étape, si possible, en conservant un ordre chronologique. Le flux narratif qui en résulte forme le squelette de votre User Story Map, composé d’activités ou de fonctionnalités macro.
+		</p>
+		<p>
+			Ensuite, vous allez lister les user stories qui permettent à vos utilisateurs d’atteindre leurs objectifs à travers votre produit. La définition des user stories favorise l’échange entre les business owners et les équipes de développement, conduisant progressivement à la construction d’une compréhension commune des enjeux business, produit et technique.
+		</p>
+		<p>
+			Pour finir, il vous suffit de positionner les user stories selon l’axe vertical et en regrouper un certain nombre avec pour objectif d’apporter le minimum de valeur ajoutée requis à vos utilisateurs : c’est ce qu’on appelle le MVP (pour Minimum Viable Product). Vous pouvez poursuivre l’exercice en déterminant une deuxième puis une troisième version de votre produit, mais sachez que beaucoup de choses peuvent survenir entre temps !
+		</p>
+		<h2>Qu’est-ce qu’un MVP ?</h2>
+		<p>
+			L’une des erreurs fréquentes au sujet du MVP est de penser qu’il s’agit seulement d’un produit qui fonctionne, sur le plan technique. Faisons l’analogie suivante : quand nous parlons de la nature et que nous utilisons le terme ‘viable’ pour parler d’un organisme vivant, cela signifie que cet organisme peut survivre de façon autonome dans son environnement. Le concept de MVP est similaire.
+		</p>
+		<p>
+			En conservant cette analogie à l’esprit, on peut définir le MVP comme étant la plus petite mise en production qui permet aux utilisateurs d’atteindre leurs objectifs (non un produit bâclé !) et, par conséquent, dans le cadre de votre processus Agile, vous permet de tirer des enseignements pertinents auprès de vos utilisateurs.
+		</p>
+		------
+	tipsBlock1
+		title
+			Some tips from <b>Jeff Patton</b> himself
+			Quelques conseils de <b>Jeff Patton</b> lui-même
+		mainContent
+			------
+			<p>
+				In April 2020, I had the chance to interview Jeff Patton himself. He kindly gave me some clarifications about his conception of User Story Mapping. Here are the main takeaways:
+			</p>
+
+			<ul>
+				<li>
+					It’s like the outline of a screenplay of a movie. You write the story of your users through your product’s adventure.
+				</li>
+				<li>
+					It’s a living thinking tool. Don’t hesitate to throw it away and build a new one from scratch.
+				</li>
+				<li>
+					It’s imprecise and incomplete by nature. Don’t try to be exhaustive.
+				</li>
+				<li>
+					It’s both a common visual representation and a portal towards other parts of the product development system. It is what makes User Story Mapping so powerful.
+				</li>
+				<li>
+					It is an artifact that grows organically as you can’t predict the structure a priori. You should naturally find the right structure a posteriori.
+				</li>
+			</ul>
+			---
+			<p>
+				En avril 2020, nous avons eu le plaisir d’échanger avec Jeff Patton pour comprendre plus finement sa propre conception du User Story Mapping. Il a pu préciser certains points et partager sa vision de l’exercice. Ainsi, pour Jeff Patton, le User Story Mapping :
+			</p>
+
+			<ul>
+				<li>
+					C’est comme la trame du scénario d’un film. Vous écrivez le scénario de vos utilisateurs qui vivent des péripéties à travers votre produit ;
+				</li>
+				<li>
+					C’est un outil de réflexion “vivant”. Après quelques mois, il ne faut pas hésiter à le modifier, voire même à le jeter, et recommencer à zéro ;
+				</li>
+				<li>
+					C’est par nature incomplet et imprécis. Il ne faut pas essayer d’être exhaustif et se perdre dans trop détail ;
+				</li>
+				<li>
+					C’est à la fois une représentation visuelle commune et un portail vers d’autres éléments du produit, ce qui caractérise la puissance et le succès de cet outil ;
+				</li>
+				<li>
+					C’est un artefact qui se construit naturellement, au fur et à mesure de l’atelier, et non qui possède une structure a priori.
+				</li>
+			</ul>
+			------
+		authorPortrait
+			./imgs/UI_Examples/UserStoryMapping/portrait_Jeff_Patton.jpg
+			./imgs/UI_Examples/UserStoryMapping/portrait_Jeff_Patton.jpg
+		authorName
+			Jeff Patton
+			Jeff Patton
+		authorStatus
+			Author of "User Story Mapping: Discover the Whole Story,<br>Build the Right Product"
+			Auteur de "User Story Mapping: Discover the Whole Story,<br>Build the Right Product"
+	tipsBlock2
+		title
+			Some other tips from Product Management professionals
+			Quelques autres conseils de professionnels du Product Management
+		mainContent
+			------
+			<p>
+				Fatima-Zahra Hamil, seasoned Product Coach at Publicis Sapient, underscores two critical steps to go through to run a successful User Story Mapping session:
+			</p>
+
+			<ul>
+				<li>
+					Refine your vision to reflect your understanding of the market, your users, and their problems.
+				</li>
+				<li>
+					Describe your <a class="text-link underline-over" href="https://draft.io/example/persona">Persona</a> precisely. It is crucial to identify what features will really bring business value to your users.
+				</li>
+			</ul>
+
+			<p>
+				After a fruitful User Story Mapping session, you should have all the elements to build your <a class="text-link advanced-underline-over" href="https://draft.io/example/product-roadmap"><span>Product</span> <span>Roadmap</span></a>.
+			</p>
+			---
+			<p>
+				Fatima-Zahra Hamil, Coach Produit expérimentée chez Publicis Sapient, souligne deux étapes critiques préalables au bon déroulement d’une session de User Story Mapping :
+			</p>
+
+			<ul>
+				<li>
+					Affiner la vision afin que celle-ci reflète la compréhension des enjeux marché et des problèmes rencontrés par les utilisateurs ;
+				</li>
+				<li>
+					Décrire précisément les <a class="text-link underline-over" href="https://draft.io/fr/example/persona">Personas</a>. C’est ce qui permet, ensuite, de facilement identifier les fonctionnalités qui vont réellement apporter de la valeur ajoutée aux utilisateurs.
+				</li>
+			</ul>
+
+			<p>
+				A l’issue d’un atelier de User Story Mapping abouti, vous devriez avoir à disposition tous les éléments nécessaires à la construction de votre <a class="text-link advanced-underline-over" href="https://draft.io/fr/example/product-roadmap"><span>Product</span> <span>Roadmap</span></a>.
+			</p>
+			------
+		authorPortrait
+			./imgs/UI_Examples/UserStoryMapping/portrait_Fatima-Zahra_Hamil.jpg
+			./imgs/UI_Examples/UserStoryMapping/portrait_Fatima-Zahra_Hamil.jpg
+		authorName
+			Fatima-Zahra Hamil
+			Fatima-Zahra Hamil
+		authorStatus
+			Seasoned Product Coach at Publicis Sapient
+			Coach produit chevronnée chez Publicis Sapient
+	resourcesBlock
+		title
+			Suggested resources to master User Story Mapping further
+			Suggestions de ressources pour devenir un expert du User Story Mapping
+		linksList
+			------
+			<li>
+				<i class="fas fa-external-link-alt"></i>
+				Essential Jeff Pathon’s website: <a class="text-link light underline" href="https://www.jpattonassociates.com/user-story-mapping/">jpattonassociates.com/user-story-mapping/</a>
+			</li>
+			<li>
+				<i class="far fa-bookmark"></i>
+				Judicaël Paquet’s didactic blog article: <a class="text-link light underline" href="https://www.myagilepartner.com/blog/index.php/2018/08/19/story-mapping/">User Story Mapping - Example/</a>
+			</li>
+			<li>
+				<i class="far fa-play-circle"></i>
+				UXClub.com’s popular video: <a class="text-link light underline" href="https://www.youtube.com/watch?v=k_4SchJgAI4">How to do User Story Mapping/</a>
+			</li>
+			---
+			<li>
+				<i class="fas fa-external-link-alt"></i>
+				Pour les anglophones, le site de Jeff Pathon : <a class="text-link light underline" href="https://www.jpattonassociates.com/user-story-mapping/">jpattonassociates.com/user-story-mapping/</a>
+			</li>
+			<li>
+				<i class="far fa-bookmark"></i>
+				Le blog de Judicaël Paquet, Coach Agile, et son billet : <a class="text-link light underline" href="https://blog.myagilepartner.fr/index.php/2017/07/29/story-mapping/">User Story Mapping - Example/</a>
+			</li>
+			<li>
+				<i class="far fa-bookmark"></i>
+				Le blog de Martial Segura, Coach Agile, et son article : <a class="text-link light underline" href="https://www.oeildecoach.com/creer-1er-user-story-mapping/">Comment créer votre 1er User Story Mapping ?/</a>
+			</li>
+			<li>
+				<i class="far fa-play-circle"></i>
+				Scrum Life, la chaîne YouTube de Jean-Pierre Lambert, Coach Agile, avec la vidéo <a class="text-link light underline" href="https://www.youtube.com/watch?v=dvnU_R0mu98">Le storytelling au service du backlog : le User Story Mapping/</a>
+			</li>
+			------
+			

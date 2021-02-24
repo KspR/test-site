@@ -1,0 +1,12 @@
+ui_example
+	actionsBar
+		cta
+			label
+				Try example
+				Essayer l'exemple
+			mention
+				No account required
+				Pas de compte requis
+		textLink
+			Use this template
+			Utiliser ce template

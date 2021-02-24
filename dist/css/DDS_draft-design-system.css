@@ -227,7 +227,7 @@ body > header.main-header .nav ul {
 body > header.main-header .nav ul li {
   white-space: nowrap;
   position: relative;
-  margin: 0 15px;
+  margin: 0 12px;
 }
 body > header.main-header .nav ul li .neutral {
   position: absolute;
@@ -241,7 +241,7 @@ body > header.main-header .nav ul li.login .neutral {
 }
 body > header.main-header .nav ul li .selected {
   visibility: hidden;
-  font-weight: bold;
+  font-family: bold;
 }
 body > header.main-header .nav ul li .text-link {
   padding: 6px 0;
@@ -461,6 +461,7 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
     display: none; }
   .header-pricing .page-pricing-li .neutral {
     display: block;
+    visibility: visible !important;
     position: relative;
     left: unset !important; } }
 
@@ -473,6 +474,7 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
     display: none; }
   .header-enterprise .page-enterprise-li .neutral {
     display: block;
+    visibility: visible !important;
     position: relative;
     left: unset !important; } }
 
@@ -485,6 +487,7 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
     display: none; }
   .header-customer-stories .page-customer-stories-li .neutral {
     display: block;
+    visibility: visible !important;
     position: relative;
     left: unset !important; } }
 
@@ -497,5 +500,6 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
     display: none; }
   .header-examples .page-examples-li .neutral {
     display: block;
+    visibility: visible !important;
     position: relative;
     left: unset !important; } }

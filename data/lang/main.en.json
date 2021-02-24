@@ -430,6 +430,7 @@
   "ui-customer-story": {
     "eVoyageur": {
       "meta-title": "e.Voyageurs SNCF - User Story Mapping - Draft",
+      "meta-description": "How SNCF's Digital Factory made User Story Mapping a central tool for conception and development workflows.",
       "header": {
         "title": "Transforming customer experience<br>with User Story Mapping",
         "contributor1": {
@@ -445,6 +446,7 @@
     },
     "sympany": {
       "meta-title": "Sympany - Scaled Agile Transformation - Draft",
+      "meta-description": "How the Scaled Agile Framework has brought more transparency and accountability to the decision-making process.",
       "header": {
         "title": "Metamorphosing the decision-making<br>process with SAFe",
         "contributor1": {
@@ -456,6 +458,7 @@
     },
     "transilien": {
       "meta-title": "Transilien - Customized Agily-at-scale Framework - Draft",
+      "meta-description": "How Transilien customized common Agile-at-scale frameworks to adapt to remote working constraints.",
       "header": {
         "title": "Customizing Agile-at-scale frameworks<br>to adapt to remote work",
         "contributor1": {
@@ -474,6 +477,7 @@
   "separateur-UI-ENTERPRISE": "================================================================================ UI-UENTERPRISE",
   "ui-enterprise": {
     "meta-title": "Draft for Enterprise",
+    "meta-description": "An ideal digital collaboration layer for stimulating out-of-the-box thinking, rationalizing group decision-making, and envisioning the best path to achieve your goals.",
     "title": "Draft for Enterprise",
     "bloc-landing": {
       "title": "Draft for Enterprise",
@@ -560,12 +564,14 @@
       }
     },
     "partners": {
-      "partner2": "Supported by Europe’s largest hosting provider,<br />part of the <a class=\"unsecable text-link underline-over\" href=\"https://startup.ovhcloud.com/en/\">OVHcloudStartup Program</a>.",
-      "partner1": "Member of France’s largest tech<br />professional corporation, <a class=\"unsecable text-link underline-over\" href=\"https://syntec-numerique.fr/\">Syntec Numerique</a>."
+      "partner2": "Supported by Europe’s largest hosting provider,<br>part of the <a class=\"unsecable text-link underline-over\" href=\"https://startup.ovhcloud.com/en/\">OVHcloudStartup Program</a>.",
+      "partner1": "Member of France’s largest tech professional<br>corporation, <a class=\"unsecable text-link underline-over\" href=\"https://syntec-numerique.fr/\">Syntec Numerique</a>."
     }
   },
   "separateur-UI-CUSTOMER-STORIES": "================================================================================ UI-CUSTOMER-STORIES",
   "ui-customer-stories": {
+    "meta-title": "Customer stories - Draft",
+    "meta-description": "Discover how our users make the most of visual management and transparent collaboration to streamline their development process and build products that people love.",
     "header": {
       "title": "Sharing stories to reach success, together",
       "intro-text": "Discover how visual management and transparent collaboration can help you overcome organizational problems and build products that people love."
