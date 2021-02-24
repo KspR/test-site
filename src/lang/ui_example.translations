@@ -1,4 +1,7 @@
 ui_example
+	meta-title
+		Example - Draft
+		Exemple - Draft
 	actionsBar
 		cta
 			label

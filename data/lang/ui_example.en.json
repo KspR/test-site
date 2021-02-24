@@ -1,5 +1,6 @@
 {
   "ui_example": {
+    "meta-title": "Example - Draft",
     "actionsBar": {
       "cta": {
         "label": "Try example",
