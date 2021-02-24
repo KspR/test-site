@@ -7,7 +7,7 @@
 		END -->
 		<title>
 		<!-- TESTONLY -->
-		Scrum Board - Exemple - Draft
+		User Story Mapping Exemple - Draft
 		<!-- ENDTESTONLY -->
 		<!-- PRODONLY
 		<%= @example["label"] %> - <%= @lang.example.examples %> - Draft
@@ -16,8 +16,6 @@
 		<!-- PRODONLY
 		<meta name="description" content="<%= @lang.example.pageDescription.gsub('&&example&&', @example["label"]) %>" />
 		END -->
-
-		<meta name="description" content="Le Scrum Board est un outil de management visuel utilisé par les équipes Scrum pour suivre l’avancement des tâches et centraliser toutes les informations utiles à leur bon fonctionnement.">
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -56,7 +54,7 @@
 
 <!-- ENDCSS -->
 	</head>
-	<body class="ui_example has-header example lang-fr header-examples"><!-- lang-code -->
+	<body class="ui_example galery-mode-only has-header example lang-fr header-examples"><!-- lang-code -->
 		<!-- PRODONLY
 		<% if JSON_CONFIG["google-tag-manager"] %>
 			<%= render "partials/google_tag_manager_body" %>
@@ -148,12 +146,12 @@
 					<% end %>
 					END -->
 					<!-- TESTONLY -->
-					<a class="text-link light" href="/examples">Exemples</a>
+					<a class="text-link light" href="/examples">Examples</a>
 					<!-- ENDTESTONLY -->
 					<i class="fas fa-chevron-right separator"></i>
 					<span class="current">
 						<!-- TESTONLY -->
-						Scrum Board
+						User Story Mapping
 						<!-- ENDTESTONLY -->
 						<!-- PRODONLY
 						<%= @example["label"] %>
@@ -164,13 +162,13 @@
 				<div class="title-bar">
 					<h1>
 						<!-- TESTONLY -->
-						Scrum Board
+						User Story Mapping
 						<!-- ENDTESTONLY -->
 						<!-- PRODONLY
 						<%= @example["label"] %>
 						END -->
 					</h1>
-					<div class="actions has-template">
+					<div class="actions">
 						<a href="#" class="cta round outline">
 							<!-- TESTONLY -->
 							Essayer l'exemple
@@ -194,28 +192,13 @@
 
 				<figure class="main-screenshot">
 					<!-- TESTONLY -->
-					<img class="screenshot" src="./imgs/examples/fr/full/example-scrum-board.png" alt="Draft Scrum Board illustration" />
+					<img class="screenshot" src="./imgs/examples/fr/full/example-user-story-mapping.png" alt="" />
 					<!-- ENDTESTONLY -->
 					<!-- PRODONLY
 					<img class="screenshot" src="<%= image_path("site/examples/fr/full/example-" + @example["id"] + ".png") %>" alt="<%= @example["label"] %> example" />
 					END -->
 				</figure>
 
-			</div>
-
-		</section>
-
-		<section class="main-content">
-			<div class="wrapper">
-				<h2>Qu’est-ce qu’un Scrum Board ?</h2><p>Un Scrum Board (ou Scrum Task Board) est un outil de management visuel utilisé par les équipes Scrum pour suivre l’avancement des tâches au cours d’un sprint. Il permet de centraliser toutes les informations utiles au bon fonctionnement de l’équipe, en accord avec le framework Agile Scrum.</p><p>Le tableau étant actualisé au fur et à mesure de l’achèvement des tâches, c’est le parfait support de discussion pour les Daily Scrum Meetings. Le Scrum Board favorise une transparence totale quant aux éventuels problèmes rencontrés par les membres de l’équipe. Par ailleurs, il permet de diffuser l’information aux parties prenantes, en particulier les autres équipes ou les managers, de façon systématique et ordonnée, et sans que celles-ci n’aient besoin de solliciter l’équipe Scrum.</p><p>Fort de son succès, le Scrum Board a depuis été repris et adapté pour devenir un outil d’organisation individuel ou, même, familial. Il est également de plus en plus utilisé à l’école, de la primaire à l’université, pour organiser le ‘Scrum workflow’ de la classe.</p><h2>Comment construire un Scrum Board ?</h2><p>En général, les Scrum Boards possèdent 4 colonnes : une colonne “Stories”, plus trois autres colonnes “A faire”, “En cours” et “Fait”, comme dans un <a class="text-link advanced-underline-over" href="https://draft.io/fr/example/kanban-board"><span>Kanban</span> <span>Board</span></a>élémentaire. Les User Stories que l’équipe a prévu d’implémenter au cours du sprint (aussi appelé le sprint backlog) sont placées dans la colonne Stories. Les autres colonnes servent à suivre l’avancement des tâches relatives à chacune des User Stories.</p><p>Chaque User Story et l’ensemble des tâches qui lui sont liées sont séparées des autres User Stories et tâches par des lignes de nage horizontales. Vous pouvez également définir un code couleur afin de catégoriser visuellement les tâches. Au-dessus du tableau Scrum, indiquez explicitement l’objectif du sprint ; il vous permettra de guider toutes les discussions qui auront lieu et de hiérarchiser naturellement les problèmes à résoudre.</p><p>Afin d’apporter toutes les informations nécessaires au bon fonctionnement de l’équipe, vous pouvez ajouter plusieurs autres éléments à votre Scrum Board. Par exemple : un backlog produit, l’agenda du Daily Scrum Meeting, une colonne "À tester", la checklist du Definition Done, un burndown chart, une ligne pour les bugs, un tableau annexe pour suivre l’avancement de la résolution des obstacles, un tableau pour suivre les congés , etc.</p>
-			</div>
-
-			<div class="resources-block">
-				<i class="fas fa-bookmark deco"></i>
-				<h2>Suggestions de ressources pour construire votre propre Scrum Board</h2>
-				<ul class="resources-list">
-					<li><i class="fas fa-bookmark"></i>Le blog de Judicaël Paquet, Coach Agile, à travers un article qui montre comment construire un Scrum Board pas à pas : <a class="text-link light underline" href="https://blog.myagilepartner.fr/index.php/2016/12/21/scrum-board/">Scrum Board Complet - nos astuces/</a></li><li><i class="far fa-play-circle"></i>La vidéo très complète des deux Coach Agiles, Jean-Pierre Lambert et Constantin Guay, sur la chaîne YouTube Scrum Life : <a class="text-link light underline" href="https://www.youtube.com/watch?v=8zw8dh_O1Xs">Scrum Board : Comment bien débuter ?</a></li>
-				</ul>
 			</div>
 
 		</section>
@@ -227,25 +210,18 @@
 					<i class="fas fa-long-arrow-alt-left"></i> Collecte de Feedback
 					<!-- ENDTESTONLY -->
 					<!-- PRODONLY
-					<i class="fas fa-long-arrow-alt-left"></i> <%= @previous["label"] %>
+					← <%= @previous["label"] %>
 					END -->
 				</a>
 				<span class="separator"></span>
-				<span class="current-example">
-					<!-- TESTONLY -->
-					Scrum Board
-					<!-- ENDTESTONLY -->
-					<!-- PRODONLY
-					<%= @example["label"] %>
-					END -->
-				</span>
+				<span class="current-example">User Story Mapping</span>
 				<span class="separator"></span>
 				<a class="text-link light next" href="<%= @next_href %>">
 					<!-- TESTONLY -->
 					Scrum Board	<i class="fas fa-long-arrow-alt-right"></i>
 					<!-- ENDTESTONLY -->
 					<!-- PRODONLY
-					<%= @next["label"] %> <i class="fas fa-long-arrow-alt-right"></i>
+					<%= @next["label"] %> →
 					END -->
 				</a>
 			</nav>

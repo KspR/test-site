@@ -7,7 +7,7 @@
 		END -->
 		<title>
 		<!-- TESTONLY -->
-		{{{lang.ex_usm.meta-title}}}
+		User Story Mapping {{{lang.ui_example.meta-title}}}
 		<!-- ENDTESTONLY -->
 		<!-- PRODONLY
 		<%= @example["label"] %> - <%= @lang.example.examples %> - Draft
@@ -16,8 +16,6 @@
 		<!-- PRODONLY
 		<meta name="description" content="<%= @lang.example.pageDescription.gsub('&&example&&', @example["label"]) %>" />
 		END -->
-
-		<meta name="description" content="{{{lang.ex_usm.meta-description}}}">
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -42,7 +40,7 @@
 			
 			{{{includes.css}}}
 	</head>
-	<body class="ui_example has-header example lang-fr header-examples"><!-- lang-code -->
+	<body class="ui_example galery-mode-only has-header example lang-fr header-examples"><!-- lang-code -->
 		<!-- PRODONLY
 		<% if JSON_CONFIG["google-tag-manager"] %>
 			<%= render "partials/google_tag_manager_body" %>
@@ -64,12 +62,12 @@
 					<% end %>
 					END -->
 					<!-- TESTONLY -->
-					<a class="text-link light" href="/examples">{{{lang.ui_examples.pageName}}}</a>
+					<a class="text-link light" href="/examples">Examples</a>
 					<!-- ENDTESTONLY -->
 					<i class="fas fa-chevron-right separator"></i>
 					<span class="current">
 						<!-- TESTONLY -->
-						{{{lang.ex_usm.title}}}
+						User Story Mapping
 						<!-- ENDTESTONLY -->
 						<!-- PRODONLY
 						<%= @example["label"] %>
@@ -80,7 +78,7 @@
 				<div class="title-bar">
 					<h1>
 						<!-- TESTONLY -->
-						{{{lang.ex_usm.title}}}
+						User Story Mapping
 						<!-- ENDTESTONLY -->
 						<!-- PRODONLY
 						<%= @example["label"] %>
@@ -89,14 +87,14 @@
 					<div class="actions">
 						<a href="#" class="cta round outline">
 							<!-- TESTONLY -->
-							{{{lang.ui_example.actionsBar.cta.label}}}
+							Essayer l'exemple
 							<!-- ENDTESTONLY -->
 							<!-- PRODONLY
 							<%= @lang.ex_UserStoryMapping.cta %>
 							END -->
 							<span class="mention">
 								<!-- TESTONLY -->
-								{{{lang.ui_example.actionsBar.cta.mention}}}
+								Pas de compte requis
 								<!-- ENDTESTONLY -->
 								<!-- PRODONLY
 								<%= @lang.example.asterisk %>
@@ -121,53 +119,6 @@
 
 		</section>
 
-		<section class="main-content">
-			<div class="wrapper">
-				{{{lang.ex_usm.mainContent}}}
-			</div>
-
-			<div class="tips-block">
-				<h2>{{{lang.ex_usm.tipsBlock1.title}}}</h2>
-
-				{{{lang.ex_usm.tipsBlock1.mainContent}}}
-
-				<footer>
-					<img src="{{{lang.ex_usm.tipsBlock1.authorPortrait}}}" class="portrait" alt="{{{lang.ex_usm.tipsBlock1.authorName}}} portrait">
-					<div class="author">
-						<span class="name">{{{lang.ex_usm.tipsBlock1.authorName}}}</span>
-						<span class="status">
-							{{{lang.ex_usm.tipsBlock1.authorStatus}}}
-						</span>
-					</div>
-				</footer>
-			</div>
-
-			<div class="tips-block">
-				<h2>{{{lang.ex_usm.tipsBlock2.title}}}</h2>
-
-				{{{lang.ex_usm.tipsBlock2.mainContent}}}
-
-				<footer>
-					<img src="{{{lang.ex_usm.tipsBlock2.authorPortrait}}}" class="portrait" alt="{{{lang.ex_usm.tipsBlock2.authorName}}} portrait">
-					<div class="author">
-						<span class="name">{{{lang.ex_usm.tipsBlock2.authorName}}}</span>
-						<span class="status">
-							{{{lang.ex_usm.tipsBlock2.authorStatus}}}
-						</span>
-					</div>
-				</footer>
-			</div>
-
-			<div class="resources-block">
-				<i class="fas fa-bookmark deco"></i>
-				<h2>{{{lang.ex_usm.resourcesBlock.title}}}</h2>
-				<ul class="resources-list">
-					{{{lang.ex_usm.resourcesBlock.linksList}}}
-				</ul>
-			</div>
-
-		</section>
-
 		<footer class="examples-nav dark">
 			<nav class="wrapper">
 				<a class="text-link light previous" href="<%= @previous_href %>">
@@ -175,25 +126,18 @@
 					<i class="fas fa-long-arrow-alt-left"></i> Collecte de Feedback
 					<!-- ENDTESTONLY -->
 					<!-- PRODONLY
-					<i class="fas fa-long-arrow-alt-left"></i> <%= @previous["label"] %>
+					← <%= @previous["label"] %>
 					END -->
 				</a>
 				<span class="separator"></span>
-				<span class="current-example">
-					<!-- TESTONLY -->
-					{{{lang.ex_usm.title}}}
-					<!-- ENDTESTONLY -->
-					<!-- PRODONLY
-					<%= @example["label"] %>
-					END -->
-				</span>
+				<span class="current-example">User Story Mapping</span>
 				<span class="separator"></span>
 				<a class="text-link light next" href="<%= @next_href %>">
 					<!-- TESTONLY -->
 					Scrum Board	<i class="fas fa-long-arrow-alt-right"></i>
 					<!-- ENDTESTONLY -->
 					<!-- PRODONLY
-					<%= @next["label"] %> <i class="fas fa-long-arrow-alt-right"></i>
+					<%= @next["label"] %> →
 					END -->
 				</a>
 			</nav>
