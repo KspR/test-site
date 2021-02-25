@@ -187,13 +187,19 @@
 						<%= @example["label"] %>
 						END -->
 					</h1>
+					<!-- TESTONLY -->
 					<div class="actions has-template">
-						<a href="#" class="cta round outline">
+					<!-- ENDTESTONLY -->
+					<!-- PRODONLY
+					<div class="actions <%= @has_template ? "has-template" : "" %>">
+					END -->
 							<!-- TESTONLY -->
+							<a href="#" class="cta round outline">
 							Essayer l'exemple
 							<!-- ENDTESTONLY -->
 							<!-- PRODONLY
-							<%= @lang.ex_UserStoryMapping.cta %>
+							<a href="https://draft.io/example/create/<%= @example["id"] %>" class="cta round outline">
+							Essayer l'exemple
 							END -->
 							<span class="mention">
 								<!-- TESTONLY -->
@@ -205,7 +211,12 @@
 							</span>
 						</a>
 						<span class="separator"></span>
+						<!-- TESTONLY -->
 						<a href="#" class="text-link light underline">Utiliser ce template</a>
+						<!-- ENDTESTONLY -->
+						<!-- PRODONLY
+						<a href="https://draft.io/template/create/<%= @example["id"] %>" class="text-link light underline">Utiliser ce template</a>
+						END -->
 					</div>
 				</div>
 
@@ -226,21 +237,40 @@
 			<nav class="wrapper">
 				<a class="text-link light previous" href="<%= @previous_href %>">
 					<!-- TESTONLY -->
-					<i class="fas fa-long-arrow-alt-left"></i> Collecte de Feedback
+					<span class="link-label">
+						Previous example lorem
+						<i class="fas fa-long-arrow-alt-left"></i>
+					</span>
 					<!-- ENDTESTONLY -->
 					<!-- PRODONLY
-					<i class="fas fa-long-arrow-alt-left"></i> <%= @previous["label"] %>
+					<span class="link-label">
+						<%= @previous["label"] %>
+						<i class="fas fa-long-arrow-alt-left"></i>
+					</span>
 					END -->
 				</a>
 				<span class="separator"></span>
-				<span class="current-example">User Story Mapping</span>
+				<span class="current-example">
+					<!-- TESTONLY -->
+					Current example ipsum
+					<!-- ENDTESTONLY -->
+					<!-- PRODONLY
+					<%= @example["label"] %>
+					END -->
+				</span>
 				<span class="separator"></span>
 				<a class="text-link light next" href="<%= @next_href %>">
 					<!-- TESTONLY -->
-					Scrum Board	<i class="fas fa-long-arrow-alt-right"></i>
+					<span class="link-label">
+						Next example consectim
+						<i class="fas fa-long-arrow-alt-right"></i>
+					</span>
 					<!-- ENDTESTONLY -->
 					<!-- PRODONLY
-					<%= @next["label"] %> <i class="fas fa-long-arrow-alt-right"></i>
+					<span class="link-label">
+						<%= @next["label"] %>
+						<i class="fas fa-long-arrow-alt-right"></i>
+					</span>
 					END -->
 				</a>
 			</nav>
