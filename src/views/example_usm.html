@@ -58,9 +58,9 @@
 				<nav class="breadcrumb small">
 					<!-- PRODONLY
 					<% if @lang.code != 'en' %>
-						<a href="/<%= @lang.code %>/examples"><%= @lang.example.examples %></a>
+						<a class="text-link light" href="/<%= @lang.code %>/examples"><%= @lang.example.examples %></a>
 					<% else %>
-						<a href="/examples">Examples</a>
+						<a class="text-link light" href="/examples">Examples</a>
 					<% end %>
 					END -->
 					<!-- TESTONLY -->
@@ -169,19 +169,25 @@
 		</section>
 
 		<footer class="examples-nav dark">
-			<nav class="wrapper">
+			<nav class="breadcrumb small">
 				<a class="text-link light previous" href="<%= @previous_href %>">
 					<!-- TESTONLY -->
-					<i class="fas fa-long-arrow-alt-left"></i> Collecte de Feedback
+					<span class="link-label">
+						Previous example lorem
+						<i class="fas fa-long-arrow-alt-left"></i>
+					</span>
 					<!-- ENDTESTONLY -->
 					<!-- PRODONLY
-					<i class="fas fa-long-arrow-alt-left"></i> <%= @previous["label"] %>
+					<span class="link-label">
+						<%= @previous["label"] %>
+						<i class="fas fa-long-arrow-alt-left"></i>
+					</span>
 					END -->
 				</a>
 				<span class="separator"></span>
 				<span class="current-example">
 					<!-- TESTONLY -->
-					{{{lang.ex_usm.title}}}
+					Current example ipsum
 					<!-- ENDTESTONLY -->
 					<!-- PRODONLY
 					<%= @example["label"] %>
@@ -190,10 +196,16 @@
 				<span class="separator"></span>
 				<a class="text-link light next" href="<%= @next_href %>">
 					<!-- TESTONLY -->
-					Scrum Board	<i class="fas fa-long-arrow-alt-right"></i>
+					<span class="link-label">
+						Next example consectim
+						<i class="fas fa-long-arrow-alt-right"></i>
+					</span>
 					<!-- ENDTESTONLY -->
 					<!-- PRODONLY
-					<%= @next["label"] %> <i class="fas fa-long-arrow-alt-right"></i>
+					<span class="link-label">
+						<%= @next["label"] %>
+						<i class="fas fa-long-arrow-alt-right"></i>
+					</span>
 					END -->
 				</a>
 			</nav>
