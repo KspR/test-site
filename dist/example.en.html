@@ -138,44 +138,25 @@
 			<div class="wrapper">
 
 				<nav class="breadcrumb small">
-					<a class="text-link light previous" href="<%= @previous_href %>">
+					<!-- PRODONLY
+					<% if @lang.code != 'en' %>
+						<a class="text-link light" href="/<%= @lang.code %>/examples"><%= @lang.example.examples %></a>
+					<% else %>
+						<a class="text-link light" href="/examples">Examples</a>
+					<% end %>
+					END -->
+					<!-- TESTONLY -->
+					<a class="text-link light" href="/examples">Examples</a>
+					<!-- ENDTESTONLY -->
+					<i class="fas fa-chevron-right separator"></i>
+					<span class="current">
 						<!-- TESTONLY -->
-						<span class="link-label">
-							Previous example lorem
-							<i class="fas fa-long-arrow-alt-left"></i>
-						</span>
-						<!-- ENDTESTONLY -->
-						<!-- PRODONLY
-						<span class="link-label">
-							<%= @previous["label"] %>
-							<i class="fas fa-long-arrow-alt-left"></i>
-						</span>
-						END -->
-					</a>
-					<span class="separator"></span>
-					<span class="current-example">
-						<!-- TESTONLY -->
-						Current example ipsum
+						User Story Mapping
 						<!-- ENDTESTONLY -->
 						<!-- PRODONLY
 						<%= @example["label"] %>
 						END -->
 					</span>
-					<span class="separator"></span>
-					<a class="text-link light next" href="<%= @next_href %>">
-						<!-- TESTONLY -->
-						<span class="link-label">
-							Next example consectim
-							<i class="fas fa-long-arrow-alt-right"></i>
-						</span>
-						<!-- ENDTESTONLY -->
-						<!-- PRODONLY
-						<span class="link-label">
-							<%= @next["label"] %>
-							<i class="fas fa-long-arrow-alt-right"></i>
-						</span>
-						END -->
-					</a>
 				</nav>
 
 				<div class="title-bar">
