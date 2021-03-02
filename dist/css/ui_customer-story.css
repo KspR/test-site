@@ -40,10 +40,20 @@
     opacity: 0.13;
   }
 }
-.ui_customer-story .ui-header.transilien .main-info .wrapper .logo {
-  height: auto;
-  width: 250px;
-  max-width: 80%;
+.ui_customer-story .ui-header.tui::before {
+  background-image: url("../imgs/MUT_Customers/customer_tui/draft-business-case-tui.svg");
+  background-position: 100% 100%;
+}
+@media only screen and (max-width: 1660px) {
+  .ui_customer-story .ui-header.tui::before {
+    background-position: 100% 190px;
+    filter: grayscale(1);
+    opacity: 0.13;
+  }
+}
+.ui_customer-story .ui-header.tui .main-info .wrapper .logo {
+  width: auto;
+  height: 100px;
 }
 .ui_customer-story .ui-header {
   display: flex;
@@ -204,10 +214,21 @@
 }
 .ui_customer-story .customer-story .wrapper .author-info .portrait {
   border-radius: 70px;
-  height: 90px;
+  height: 70px;
+}
+.ui_customer-story .customer-story .wrapper .author-info .medium-picture {
+  margin-left: 25px;
+}
+.ui_customer-story .customer-story .wrapper .author-info .medium-picture img {
+  height: 50px;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+.ui_customer-story .customer-story .wrapper .author-info .medium-picture:hover img {
+  opacity: 1;
 }
 .ui_customer-story .customer-story .wrapper .author-info .author-details {
-  margin-left: 35px;
+  margin-left: 15px;
 }
 .ui_customer-story .customer-story .wrapper .author-info .author-details .name {
   font-weight: bold;
@@ -234,6 +255,9 @@
     background-position: 100% 430px;
   }
   .ui_customer-story .ui-header.transilien::before {
+    background-position: 120% 500px;
+  }
+  .ui_customer-story .ui-header.tui::before {
     background-position: 120% 500px;
   }
   .ui_customer-story .ui-header {
@@ -326,7 +350,5 @@
   .ui_customer-story .customer-story .wrapper .author-info .author-details .status {
     font-size: 1rem;
     opacity: 0.8;
-  }
-}.8;
   }
 }

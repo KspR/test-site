@@ -1,0 +1,134 @@
+ui-cr-tui
+	meta-title
+		TUI - Multi-site Visual Management System - Draft
+		TUI - Système de management visuel multi-site - Draft
+	meta-description
+		How TUI digitalized its visual management system to better synchronize the work of several European distributed teams.
+		Comment TUI a digitalisé son système de management visuel pour coordonner plus efficacement ses équipes européennes distribuées géographiquement.
+	header
+		title
+			Managing a multi-site Paneuropean<br>development program visually
+			Gérer visuellement un programme<br>multi-site paneuropéen
+		contributor1
+			name
+				Julien LANGE
+				Julien LANGE
+			status
+				Problem Solver, President<br>at WiScale France
+				Problem Solver, Président<br>chez WiScale France
+	body-content
+		------
+		<img class="illustration left-sided intro" src="imgs/MUT_Customers/customer_tui/1_Tui_Forecast_board.png" alt="Forecast board screenshot">
+		<h2>How TUI digitalized its visual management system to better synchronize the work of several European distributed teams</h2>
+		<p>
+			With over 70,000 employees spread across 100 countries and a vast portfolio of 150 aircraft, over 400 hotels, and 18 cruise ships, TUI is one of the largest leisure, travel, and tourism companies in the world. In 2019, the Anglo-German multinational served 21 million customers to generate a massive $19B in revenue.
+		</p>
+		<p>
+			Over the last three years, the group has taken some big steps to unify its IT infrastructure and streamline end-to-end operations. After many years of M&A activity, the group’s IT infrastructure had become an inefficient hodgepodge of heterogeneous and barely interoperable sub-systems. This comes at a time when TUI has worked extensively at automating and maintaining the integrity of information exchange with airports and other airlines.
+		</p>
+		<p>
+			The project team responsible for overseeing this effort is made up of 80 people divided into 23 smaller development teams (in Belgium, France, Germany, the Netherlands, and the UK), led by one proxy product owner in each Team and supported by a scrum master shared across the teams.
+		</p>
+		<p>
+			In April 2018, TUI France appointed Julien as a Scrum Master consultant for two development teams based in France.
+		</p>
+
+		<img class="illustration right-sided" src="./imgs/MUT_Customers/customer_tui/2_Tui_Board_physique.jpg" alt="Physical whiteboard">
+		<h2>“It was just impossible to handle”</h2>
+		<p>
+			Every three months, around 100 people, which included the project team and other key stakeholders (business owners, business experts, etc.), would meet in Belgium for two-day workshops to discuss ongoing sub-projects, remove obstacles or barriers to success, and set the roadmap for the next three months. During these workshops, they regularly used a fifteen-meter wall to build what looks like a huge program board with sticky-notes to coordinate and track the advancement across all teams.
+		</p>
+		<p>
+			In the project’s early days, they would take pictures of the Kanban board at the end of each workshop to ensure nothing was forgotten. Then in the time between the end of one session and the beginning of another, they would exchange new information by phone or email, at which point someone would need to take new photos of the updated program board and send them off to all teams. “It was just impossible to handle,” admitted Julien.
+		</p>
+
+		<img class="illustration left-sided" src="./imgs/MUT_Customers/customer_tui/3_Tui_Priority_Meeting.png" alt="Priority meeting screenshot">
+		<h2>“We’ve built a multi-layer, multi-teams, multi-site visual management system”</h2>
+		<p>
+			After going through this inefficient process a few times, Julien proposed using Draft’s infinite blackboard to replicate the massive, real-life program board wall digitally as a way of keeping teams in sync more effectively between two workshop sessions. This has, in essence, allowed them to build a vast project management artifact that can seamlessly evolve alongside the team’s progress against various project milestones.
+		</p>
+		<p>
+			This helped them become acutely aware of different expectations and needs across various stakeholders. For instance, the program manager only ever needed to follow up on project status at a high-level without getting lost in the minor details. Similarly, business owners were fine with having only an epic-level view of the project. Product owners, on the other hand, needed to get into more detail by setting and tracking team progress at the user story-level.
+		</p>
+		<p>
+			Because of these various needs and the different level of detail required by different stakeholders, they decided to split the big, overarching board into smaller and more specific project management artifacts to form an interconnected, three-layer visual management artifact that could give everyone involved access to the right level of detail they needed throughout the project’s lifecycle.
+		</p>
+		<p>
+			For example, an epic in one board can be associated with details available on another board without any critical information being “lost in translation.” In other words, all the underlying user stories that come together to make up a given project could now be connected seamlessly, even though different bits of information may have been split up across different boards. “We’ve built a multi-layer, multi-teams, multi-site visual management system,” exclaimed Julien.
+		</p>
+		<p>
+			“During the whole lockdown period, Draft was essential to continue business as usual. As it is visual and very easy-to-use, it was an ideal environment for business and IT teams to keep on collaborating efficiently,” says Julien.
+		</p>
+
+		<img class="illustration right-sided" src="./imgs/MUT_Customers/customer_tui/4_Tui_Atelier_Refinement.jpg" alt="Refinement workshop screenshot">
+		<h2>Beyond visual management</h2>
+		<p>
+			Now TUI’s product owner uses Draft as a flexible story mapping tool to document project needs and create appropriate user stories while also allowing them to define and prioritize their backlog wisely (all linked to Confluence). Julien describes the process like this: “To begin, stakeholders estimate epics’ business value and development teams macro-estimate the effort needed. And then, we place those epics in a quadrant to identify the ones with the better value-to-effort ratio. This Business Value / Effort matrix has become a central tool in our backlog prioritization process.”
+		</p>
+		<p>
+			Julien also uses Draft for customized remote retrospectives and ceremonies of product backlog refinement. For instance, Julian plays a <a href="https://blog.myagilepartner.fr/index.php/2020/02/20/split-poker/" class="text-link advanced-underline-over"><span>Split</span> <span>Poker</span></a> card game to slice out user stories and runs <a href="https://draft.io/example/example-mapping" class="text-link advanced-underline-over"><span>Example</span> <span>Mapping</span></a> sessions: “It’s an efficient way to list out pending questions about a given user story and share that information with concerned business owners.”
+		</p>
+		<p>
+			As France-based operations are now being defined, Julien is mapping out roles and the working relationships between those roles to identify potential issues and design a more coherent and cohesive organization—otherwise known as TUI France’s post-COVID-19 development team.
+		</p>
+		<p>
+			Despite the COVID-19 pandemic’s massive impact on the tourism industry, as a whole, and on TUI’s business, in particular, having already pivoted the company’s operations towards a more digital future many months before the confinement period began has allowed the group to overcome the many challenges faced by other companies as they were forced to make remote work the new normal.
+		</p>
+		---
+		<img class="illustration left-sided intro" src="imgs/MUT_Customers/customer_tui/1_Tui_Forecast_board.png" alt="Forecast board screenshot">
+		<h2>Comment TUI a digitalisé son système de management visuel pour coordonner plus efficacement ses équipes européennes distribuées géographiquement</h2>
+		<p>
+			Avec plus de 70 000 employés répartis dans une centaine de pays, 400 hôtels, et une flotte de 150 avions et 18 navires de croisière, TUI est l’un des plus grands groupes de loisir, voyage et tourisme dans le monde. En 2019, l’entreprise germano-anglaise a servi 21 millions de clients pour un chiffre d’affaires de 19 milliards d’euros.
+		</p>
+		<p>
+			Au cours de ces 3 dernières années, le groupe a entrepris plusieurs chantiers d’homogénéisation et d’unification de son infrastructure informatique dans le but d’optimiser sa chaîne de valeur de bout en bout. En effet, après une longue période marquée par d’importantes opérations de fusions et acquisitions, l’infrastructure informatique du groupe était devenue un assortiment hétérogène et quasi non-interopérable de sous systèmes d’information. Cette entreprise fut initiée quand il fallut automatiser et assurer la parfaite intégrité de l’échange d’information avec les aéroports et les autres compagnies aériennes.
+		</p>
+		<p>
+			L’équipe projet en charge de la supervision de ces chantiers était composée de 80 personnes, réparties dans 23 équipes de développement (basées en Belgique, en France, aux Pays-Bas et au Royaume-Uni), chacune menée par un Proxy Product Owner et assistée par un Scrum Master à mi ou tiers temps.
+		</p>
+		<p>
+			En avril 2018, Julien Lange s’est vu confier l’accompagnement de deux équipes de développement dans le rôle de Scrum Master.
+		</p>
+
+		<img class="illustration right-sided" src="./imgs/MUT_Customers/customer_tui/2_Tui_Board_physique.jpg" alt="Whiteboard physique">
+		<h2>“C’était juste impossible à gérer”</h2>
+		<p>
+			Chaque trimestre, un peu moins d’une centaine de personnes, parmi lesquelles l’équipe projet et certaines autres parties prenantes (business owners, experts, etc.), se réunissaient en Belgique pour un atelier géant s’étalant sur 2 journées entières. L’objectif était de discuter de l’avancement des chantiers en cours, lever les éventuels obstacles, et définir la roadmap des 3 prochains mois. Un mur de 15 mètres de long était alors utilisé pour la construction d’un immense tableau des dépendances qui permettait de coordonner et suivre le travail des différentes équipes.
+		</p>
+		<p>
+			Au cours des premières itérations du projet, les responsables du programme prenaient des photos du mur de management visuel à la fin de chaque session pour s’assurer de n’oublier aucune information clé. Puis, entre chaque atelier physique, le tableau de post-it était mis à jour sur la base des différents échanges téléphoniques ou email, et puis des photos actualisées du mur étaient renvoyées à toutes les équipes à chaque modification. “C’était juste impossible à gérer”, reconnaît Julien.
+		</p>
+
+		<img class="illustration left-sided" src="./imgs/MUT_Customers/customer_tui/3_Tui_Priority_Meeting.png" alt="Capture réunion des priorités">
+		<h2>“Nous avons construit un système de management visuel multi-niveau, multi-équipe et multisite”</h2>
+		<p>
+			Après avoir répété ce processus fastidieux plusieurs fois, Julien proposa d’utiliser Draft pour répliquer l’immense mur de post-it dans le mode digital et faciliter la synchronisation des équipes entre 2 ateliers trimestriels. Ainsi, ils ont réussi à construire un vaste système d'artefacts de management visuel virtuels qui pouvait évoluer aisément au fur et à mesure de l’avancement des différents chantiers.
+		</p>
+		<p>
+			Ce système à plusieurs niveaux d’abstraction fut imaginé car chaque partie prenante au projet n'avait besoin que de certaines informations bien précises pour suivre le projet efficacement. Par exemple, le responsable du programme n’avait besoin de suivre que la “big picture” de l’avancement, sans se perdre dans les détails. De la même manière, les business owners souhaitaient suivre les projets au niveau des epics. De leurs côtés, les Product Owners devaient, bien sûr, définir et suivre le fonctionnement de l’équipe au niveau de la user story.
+		</p>
+		<p>
+			Le grand mur de post-it physique fut donc fragmenté en artefacts de management visuel virtuels, plus petits et interconnectés, formant ainsi un système de management visuel à 3 niveaux, au sein duquel chacun disposait du niveau de détail qui lui correspondait.
+		</p>
+		<p>
+			Par exemple, une epic d’un board peut être détaillée sur un autre board et associée à celui-ci, sans que des informations critiques soient perdues en chemin. En d’autres termes, toutes les user stories et epics qui composent un projet peuvent être associées et diffusées à travers différents boards. “Nous avons construit un système de management visuel multi-niveau, multi-équipe et multisite”, se réjouit Julien.
+		</p>
+		<p>
+			“Durant toute cette période de confinement, Draft a été d’un énorme secours. Avec son visuel simple et efficace, l'outil a permis au Business et à l’IT de poursuivre sereinement leurs activités collaboratives”, confie Julien.
+		</p>
+
+		<img class="illustration right-sided" src="./imgs/MUT_Customers/customer_tui/4_Tui_Atelier_Refinement.jpg" alt="Capture atelier d'optimisation">
+		<h2>Au-delà du management visuel</h2>
+		<p>
+			Désormais, les Product Owners utilisent Draft comme outil de story mapping, en association avec Confluence, pour documenter les besoins et définir les user stories tout en hiérarchisant leur backlog de façon optimale. Julien décrit ainsi le processus : “après que les parties prenantes aient estimé la business value des epics et que les équipes aient macro-estimé l’effort correspondant pour les implémenter, nous les plaçons dans un quadrant visuel pour identifier spontanément celles qui offrent le ratio Valeur/Effort le plus intéressant. Cette matrice Business Value / Effort est devenue le cœur de notre processus de priorisation du backlog.”
+		</p>
+		<p>
+			Julien utilise également Draft pour faciliter des rétrospectives customisées ou des cérémonies de product backlog refinement. Par exemple, il organise des Split Pokers, pour découper les user stories, couplés à des sessions d’<a href="https://draft.io/example/example-mapping" class="text-link advanced-underline-over"><span>Example</span> <span>Mapping</span></a> : “C’est une façon très efficace d’identifier toutes les questions non élucidées autour d’une user story donnée, puis de partager ces informations avec les business owners concernés”.
+		</p>
+		<p>
+			Les activités françaises de TUI sont actuellement en cours de réorganisation. Dans le but de mettre en place une organisation plus cohérente et capable de faire face à la situation pandémique, Julien a pour mission de cartographier les rôles et de redéfinir les relations entre chacune des fonctions.
+		</p>
+		<p>
+			Malgré le terrible impact du COVID-19 sur l’industrie du tourisme dans son ensemble, le fait d’avoir accéléré sa transformation digitale depuis quelques années et anticipé le travail à distance a permis au groupe TUI d’assurer sereinement la continuité des opérations pendant la période de confinement.
+		</p>
+		------

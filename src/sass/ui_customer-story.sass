@@ -38,13 +38,20 @@
 				background-position : 100% 190px
 				filter : grayscale(1)
 				opacity : .13
+	.ui-header.tui
+		&::before
+			background-image : url("../imgs/MUT_Customers/customer_tui/draft-business-case-tui.svg")
+			background-position : 100% 100%
+			@media only screen and (max-width : 1660px)
+				background-position : 100% 190px
+				filter : grayscale(1)
+				opacity : .13
 
 		.main-info
 			.wrapper
 				.logo
-					height : auto
-					width : 250px
-					max-width : 80%
+					width : auto
+					height : 100px
 	.ui-header
 		display : flex
 		position : relative
@@ -203,9 +210,18 @@
 				padding-left : 0
 				.portrait
 					border-radius : 70px
-					height : 90px
+					height : 70px
+				.medium-picture
+					margin-left : 25px
+					img
+						height : 50px
+						opacity : .7
+
+						transition : opacity .2s
+					&:hover img
+						opacity : 1
 				.author-details
-					margin-left : 35px
+					margin-left : 15px
 					.name
 						font-weight : bold
 						font-size : 1.1rem
@@ -251,6 +267,10 @@
 		.ui-header.transilien
 			&::before
 				background-position : 120% 500px
+		.ui-header.tui
+			&::before
+				background-position : 120% 500px
+
 		.ui-header
 			display : block
 			padding-top : 40px

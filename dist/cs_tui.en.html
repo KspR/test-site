@@ -1,0 +1,260 @@
+<html>
+
+<head>
+	<title>TUI - Multi-site Visual Management System - Draft</title>
+	<meta name="description" content="How TUI digitalized its visual management system to better synchronize the work of several European distributed teams." />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- BEGINCSS -->
+<link href="css/common.css" rel="stylesheet">
+<link href="css/colors.css" rel="stylesheet">
+<link href="css/portal-desktop.css" rel="stylesheet">
+<link href="css/portal-mobile.css" rel="stylesheet">
+<link href="css/DDS_draft-design-system.css" rel="stylesheet">
+<link href="css/ui_enterprise.css" rel="stylesheet">
+<link href="css/ui_pricing.css" rel="stylesheet">
+<link href="css/ui_example.css" rel="stylesheet">
+<link href="css/ui_customer-story.css" rel="stylesheet">
+<link href="css/ui_customer-stories.css" rel="stylesheet">
+
+<link href="css/TEST_ONLY_ui_sommaire.css" rel="stylesheet">
+
+<!-- ENDCSS -->
+
+</head>
+
+<body class="ui_customer-story has-header header-customer-stories">
+
+	<div id="top-of-site-pixel-anchor"></div>
+
+<header class="main-header">
+	<input type="checkbox" id="btnBurgerMenu" name="burger-menu-visibility">
+	<label for="btnBurgerMenu" class="burger-btn">
+		<span class="wrapper">
+			<span class="deco-btn-burger"></span>
+			<span class="deco-btn-burger"></span>
+			<span class="deco-btn-burger"></span>
+		</span>
+	</label>
+	<nav class="nav">
+		<a class="logo text-link" href="/"><img src="./imgs/logo-diag-orange-plus-text.png" alt="Logo Draft"></a>
+		<ul>
+			<li>
+				<div class="toggle-wrapper text-link">
+					<div class="toggle">
+						<!-- Workflows <i class="fas fa-chevron-down"></i> -->
+						<span class="selected">Workflows <i class="fas fa-chevron-down"></i></span>
+						<span class="neutral">Workflows <i class="fas fa-chevron-down"></i></span>
+					</div>
+					<ul class="menu">
+						<li><a class="text-link" href="/agile-project-management">Agile Project Management</a></li>
+						<li><a class="text-link" href="/product-management">Product Management</a></li>
+						<li><a class="text-link" href="/everyday-creative-work">Everyday Creative Work</a></li>
+					</ul>
+				</div>
+			</li>
+			<li class="page-enterprise-li"><a class="text-link" href="/enterprise">
+				<!-- Enterprise -->
+				<span class="selected">Enterprise</span>
+				<span class="neutral">Enterprise</span>
+			</a></li>
+			<li class="page-customer-stories-li"><a class="text-link" href="/customer-stories">
+				<!-- Customer stories -->
+				<span class="selected">Customer stories</span>
+				<span class="neutral">Customer stories</span>
+			</a></li>
+			<li class="page-examples-li"><a class="text-link" href="/examples">
+				<!-- Examples -->
+				<span class="selected">Examples</span>
+				<span class="neutral">Examples</span>
+			</a></li>
+			<li class="page-pricing-li"><a class="text-link" href="/pricing">
+				<!-- Pricing -->
+				<span class="selected">Pricing</span>
+				<span class="neutral">Pricing</span>
+			</a></li>
+			<li class="login"><a class="text-link" href="/login">
+				<!-- Sign in -->
+				<span class="selected">Sign in</span>
+				<span class="neutral">Sign in</span>
+
+			</a></li>
+			<li class="signup"><a class="cta" href="/get-started">
+				<!-- Sign up -->
+				<span class="selected">Sign up</span>
+				<span class="neutral">Sign up</span>
+			</a></li>
+		</ul>
+
+		<!-- <a class="fav" href="/">d</a> -->
+		<!-- <a class="fav-sheet" href="/">d</a> -->
+	</ul>
+</header>
+
+<script>
+	document.ontouchstart = function (e) {
+		e.stopPropagation();
+	}
+</script>
+
+	<section class="ui-header tui">
+		<div class="main-info">
+			<div class="wrapper">
+				<img class="logo" src="imgs/MUT_Customers/customer_tui/logo_tui.png" alt="Logo TUI Group">
+				<h1>Managing a multi-site Paneuropean<br>development program visually</h1>
+			</div>
+			<ul class="customers">
+				<li class="customer">
+					<img class="portrait" src="imgs/MUT_Customers/customer_tui/portrait_Julien_LANGE.jpg" alt="Photo portrait de Julien LANGE">
+					<p class="customer-details">
+						<a class="name text-link underline-over" href="https://linkedin.com/in/pierrewatier/" target="_blank">Julien LANGE</a>
+						<span class="status">Problem Solver, President<br>at WiScale France</span>
+					</p>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="customer-story">
+
+		<div class="wrapper">
+
+			<span class="corner-deco"></span>
+			
+			<img class="illustration left-sided intro" src="imgs/MUT_Customers/customer_tui/1_Tui_Forecast_board.png" alt="Forecast board screenshot"><h2>How TUI digitalized its visual management system to better synchronize the work of several European distributed teams</h2><p>With over 70,000 employees spread across 100 countries and a vast portfolio of 150 aircraft, over 400 hotels, and 18 cruise ships, TUI is one of the largest leisure, travel, and tourism companies in the world. In 2019, the Anglo-German multinational served 21 million customers to generate a massive $19B in revenue.</p><p>Over the last three years, the group has taken some big steps to unify its IT infrastructure and streamline end-to-end operations. After many years of M&A activity, the group’s IT infrastructure had become an inefficient hodgepodge of heterogeneous and barely interoperable sub-systems. This comes at a time when TUI has worked extensively at automating and maintaining the integrity of information exchange with airports and other airlines.</p><p>The project team responsible for overseeing this effort is made up of 80 people divided into 23 smaller development teams (in Belgium, France, Germany, the Netherlands, and the UK), led by one proxy product owner in each Team and supported by a scrum master shared across the teams.</p><p>In April 2018, TUI France appointed Julien as a Scrum Master consultant for two development teams based in France.</p><img class="illustration right-sided" src="./imgs/MUT_Customers/customer_tui/2_Tui_Board_physique.jpg" alt="Physical whiteboard"><h2>“It was just impossible to handle”</h2><p>Every three months, around 100 people, which included the project team and other key stakeholders (business owners, business experts, etc.), would meet in Belgium for two-day workshops to discuss ongoing sub-projects, remove obstacles or barriers to success, and set the roadmap for the next three months. During these workshops, they regularly used a fifteen-meter wall to build what looks like a huge program board with sticky-notes to coordinate and track the advancement across all teams.</p><p>In the project’s early days, they would take pictures of the Kanban board at the end of each workshop to ensure nothing was forgotten. Then in the time between the end of one session and the beginning of another, they would exchange new information by phone or email, at which point someone would need to take new photos of the updated program board and send them off to all teams. “It was just impossible to handle,” admitted Julien.</p><img class="illustration left-sided" src="./imgs/MUT_Customers/customer_tui/3_Tui_Priority_Meeting.png" alt="Priority meeting screenshot"><h2>“We’ve built a multi-layer, multi-teams, multi-site visual management system”</h2><p>After going through this inefficient process a few times, Julien proposed using Draft’s infinite blackboard to replicate the massive, real-life program board wall digitally as a way of keeping teams in sync more effectively between two workshop sessions. This has, in essence, allowed them to build a vast project management artifact that can seamlessly evolve alongside the team’s progress against various project milestones.</p><p>This helped them become acutely aware of different expectations and needs across various stakeholders. For instance, the program manager only ever needed to follow up on project status at a high-level without getting lost in the minor details. Similarly, business owners were fine with having only an epic-level view of the project. Product owners, on the other hand, needed to get into more detail by setting and tracking team progress at the user story-level.</p><p>Because of these various needs and the different level of detail required by different stakeholders, they decided to split the big, overarching board into smaller and more specific project management artifacts to form an interconnected, three-layer visual management artifact that could give everyone involved access to the right level of detail they needed throughout the project’s lifecycle.</p><p>For example, an epic in one board can be associated with details available on another board without any critical information being “lost in translation.” In other words, all the underlying user stories that come together to make up a given project could now be connected seamlessly, even though different bits of information may have been split up across different boards. “We’ve built a multi-layer, multi-teams, multi-site visual management system,” exclaimed Julien.</p><p>“During the whole lockdown period, Draft was essential to continue business as usual. As it is visual and very easy-to-use, it was an ideal environment for business and IT teams to keep on collaborating efficiently,” says Julien.</p><img class="illustration right-sided" src="./imgs/MUT_Customers/customer_tui/4_Tui_Atelier_Refinement.jpg" alt="Refinement workshop screenshot"><h2>Beyond visual management</h2><p>Now TUI’s product owner uses Draft as a flexible story mapping tool to document project needs and create appropriate user stories while also allowing them to define and prioritize their backlog wisely (all linked to Confluence). Julien describes the process like this: “To begin, stakeholders estimate epics’ business value and development teams macro-estimate the effort needed. And then, we place those epics in a quadrant to identify the ones with the better value-to-effort ratio. This Business Value / Effort matrix has become a central tool in our backlog prioritization process.”</p><p>Julien also uses Draft for customized remote retrospectives and ceremonies of product backlog refinement. For instance, Julian plays a <a href="https://blog.myagilepartner.fr/index.php/2020/02/20/split-poker/" class="text-link advanced-underline-over"><span>Split</span> <span>Poker</span></a> card game to slice out user stories and runs <a href="https://draft.io/example/example-mapping" class="text-link advanced-underline-over"><span>Example</span> <span>Mapping</span></a> sessions: “It’s an efficient way to list out pending questions about a given user story and share that information with concerned business owners.”</p><p>As France-based operations are now being defined, Julien is mapping out roles and the working relationships between those roles to identify potential issues and design a more coherent and cohesive organization—otherwise known as TUI France’s post-COVID-19 development team.</p><p>Despite the COVID-19 pandemic’s massive impact on the tourism industry, as a whole, and on TUI’s business, in particular, having already pivoted the company’s operations towards a more digital future many months before the confinement period began has allowed the group to overcome the many challenges faced by other companies as they were forced to make remote work the new normal.</p>
+
+			<footer class="author-info">
+				<img class="portrait" src="imgs/UI_Customer-stories/portrait_alexandre_beauchet.jpg" alt="Photo portrait d'Alexandre BEAUCHET">
+				<a class="medium-picture" href="https://alexandre-beauchet.medium.com/">
+					<img src="imgs/UI_Customer-stories/390px-Medium_logo_Monogram.svg.png" alt="Logo Medium">
+				</a>
+				<p class="author-details">
+					<a class="name text-link underline-over" href="https://www.linkedin.com/in/alexandre-beauchet/" target="_blank">Alexandre BEAUCHET</a>
+					<span class="status">COO chez Draft</span>
+				</p>
+			</footer>
+		</div>
+
+	</section>
+
+	<div class="bloc-last">
+	<div class="left-visual">
+		<div class="rotated-square"></div>
+	</div>
+	<div class="title">Start your first draft today!</div>
+	<form class="signup-bloc" action="/get-started">
+	<div class="form-wrapper">
+		<input placeHolder="Enter your email" name="pre_email"></input>
+		<div class="submit-wrapper">
+			<div class="triangle"></div>
+			<input type="submit" class="register cta" value="Get started" />
+		</div>
+	</div>
+	<div class="if-1080">
+		<div class="detail">Start your first draft today. Sign up for a <a href="/pricing">Free plan</a>.</div>
+	</div>
+	<div class="if-not-1080">
+		<div class="detail">Start your first draft today.<br />Sign up for a <a href="/pricing">Free plan</a>.</div>
+	</div>
+</form>
+	<!-- <a class="cta-border cta-border-darkblue" style="margin-left:40px;" href="/agile_project_management">Discover how Scrum Masters use Draft</a> -->
+</div>
+	<div class="footer">
+	<div class="footer-wrapper">
+		<div class="bloc bloc-plan">
+			<div class="title">Product</div>
+			<a href="/">Home</a>
+			<a href="/agile-project-management">Draft for Agile Project Management</a>
+			<a href="/product-management">Draft for Product Management</a>
+			<a href="/everyday-creative-work">Draft for Everyday Creative Work</a>
+			<a href="/examples">Examples</a>
+			<a href="/login">Sign in</a>
+			<a href="/get-started">Sign up</a>
+		</div>
+
+		<div class="bloc bloc-resources">
+			<div class="title">Customer</div>
+			<a href="/enterprise">Enterprise</a>
+			<a href="/customer-stories">Customer stories</a>
+			<a href="/pricing">Pricing</a>
+		</div>
+
+		<div class="bloc bloc-resources">
+			<div class="title">Resources</div>
+			<a href="https://www.notion.so/Draft-s-Help-Center-cc9934be1af04688954d1d077ad004aa"
+				target="_blank">Help center</a>
+			<a href="https://draft.io/assets/2020 10 27 Terms and conditions - Draft SAS.pdf"
+				target="_blank">Terms</a>
+			<a href="https://draft.io/assets/2020 10 27 Privacy Policy - Draft SAS.pdf" target="_blank">Privacy</a>
+			<a href="mailto:hi@draft.io">Contact Us</a>
+
+			<div class="language-bloc">
+				<div class="bloc-title">Language</div>
+				<div class="menu-wrapper">
+					<div class="toggle-wrapper">
+						<div class="toggle">English</div>
+						<div class="dropdown-invite"></div>
+					</div>
+					<div class="menu">
+						<a
+							href="<%= @fr_url %>">Français</a>
+						<a
+							href="<%= @en_url %>">English</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="socials">
+			<a href="/" class="logo"></a>
+			<a href="https://linkedin.com/company/draft-io" class="linkedin" target="_blank"></a>
+		</div>
+
+		<div class="copyright">
+			© 2019 - 2021 • Draft SAS
+		</div>
+	</div>
+
+
+	<div class="oblique">
+		<div class="rotated-square"></div>
+	</div>
+</div>
+
+<script src="https://kit.fontawesome.com/6b4515f4ac.js" crossorigin="anonymous"></script>
+
+	<script src="https://kit.fontawesome.com/6b4515f4ac.js" crossorigin="anonymous"></script>
+
+	<script>
+			(function (i, s, o, g, r, a, m) {
+				i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+					(i[r].q = i[r].q || []).push(arguments)
+				}, i[r].l = 1 * new Date(); a = s.createElement(o),
+					m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+			})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', "UA-144558715-1", 'auto');
+		ga('send', 'pageview');
+
+	</script>
+
+	<script>
+		if (
+			"IntersectionObserver" in window &&
+			"IntersectionObserverEntry" in window &&
+			"intersectionRatio" in window.IntersectionObserverEntry.prototype
+		) {
+			let observer = new IntersectionObserver(entries => {
+				if (entries[0].boundingClientRect.y < 0) {
+					document.body.classList.add("header-not-at-top");
+				} else {
+					document.body.classList.remove("header-not-at-top");
+				}
+			});
+			observer.observe(document.querySelector("#top-of-site-pixel-anchor"));
+		}
+	</script>
+</body>
+
+</html>
