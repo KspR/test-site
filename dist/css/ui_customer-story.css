@@ -42,11 +42,12 @@
 }
 .ui_customer-story .ui-header.tui::before {
   background-image: url("../imgs/MUT_Customers/customer_tui/draft-business-case-tui.svg");
-  background-position: 100% 100%;
+  background-position: 100% 60%;
+  background-size: auto 80%;
 }
-@media only screen and (max-width: 1660px) {
+@media only screen and (max-width: 1470px) {
   .ui_customer-story .ui-header.tui::before {
-    background-position: 100% 190px;
+    background-position: 100% 180px;
     filter: grayscale(1);
     opacity: 0.13;
   }
@@ -54,6 +55,12 @@
 .ui_customer-story .ui-header.tui .main-info .wrapper .logo {
   width: auto;
   height: 100px;
+}
+.ui_customer-story .ui-header.tui .main-info .customers .customer-details .text-link {
+  color: inherit;
+}
+.ui_customer-story .ui-header.tui .main-info .customers .customer-details .text-link:hover {
+  color: #1f5aa3;
 }
 .ui_customer-story .ui-header {
   display: flex;
@@ -217,11 +224,15 @@
   height: 70px;
 }
 .ui_customer-story .customer-story .wrapper .author-info .medium-picture {
-  margin-left: 25px;
+  margin-left: -16px;
+  margin-top: 26px;
+  border: 3px solid white;
+  background: white;
+  border-radius: 3px;
 }
 .ui_customer-story .customer-story .wrapper .author-info .medium-picture img {
-  height: 50px;
-  opacity: 0.7;
+  height: 32px;
+  opacity: 0.5;
   transition: opacity 0.2s;
 }
 .ui_customer-story .customer-story .wrapper .author-info .medium-picture:hover img {

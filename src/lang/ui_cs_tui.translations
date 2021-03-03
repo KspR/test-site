@@ -14,8 +14,8 @@ ui-cr-tui
 				Julien LANGE
 				Julien LANGE
 			status
-				Problem Solver, President<br>at WiScale France
-				Problem Solver, Président<br>chez WiScale France
+				Problem Solver, President<br>at <a class="text-link underline-over" href="http://www.wiscale.fr">WiScale France</a>
+				Problem Solver, Président<br>chez <a class="text-link underline-over" href="http://www.wiscale.fr">WiScale France</a>
 	body-content
 		------
 		<img class="illustration left-sided intro" src="imgs/MUT_Customers/customer_tui/1_Tui_Forecast_board.png" alt="Forecast board screenshot">
@@ -42,7 +42,7 @@ ui-cr-tui
 			In the project’s early days, they would take pictures of the Kanban board at the end of each workshop to ensure nothing was forgotten. Then in the time between the end of one session and the beginning of another, they would exchange new information by phone or email, at which point someone would need to take new photos of the updated program board and send them off to all teams. “It was just impossible to handle,” admitted Julien.
 		</p>
 
-		<img class="illustration left-sided" src="./imgs/MUT_Customers/customer_tui/3_Tui_Priority_Meeting.png" alt="Priority meeting screenshot">
+		<img class="illustration left-sided" src="./imgs/MUT_Customers/customer_tui/4_Tui_Project_Board.png" alt="Project board screenshot">
 		<h2>“We’ve built a multi-layer, multi-teams, multi-site visual management system”</h2>
 		<p>
 			After going through this inefficient process a few times, Julien proposed using Draft’s infinite blackboard to replicate the massive, real-life program board wall digitally as a way of keeping teams in sync more effectively between two workshop sessions. This has, in essence, allowed them to build a vast project management artifact that can seamlessly evolve alongside the team’s progress against various project milestones.
@@ -60,7 +60,7 @@ ui-cr-tui
 			“During the whole lockdown period, Draft was essential to continue business as usual. As it is visual and very easy-to-use, it was an ideal environment for business and IT teams to keep on collaborating efficiently,” says Julien.
 		</p>
 
-		<img class="illustration right-sided" src="./imgs/MUT_Customers/customer_tui/4_Tui_Atelier_Refinement.jpg" alt="Refinement workshop screenshot">
+		<img class="illustration right-sided" src="./imgs/MUT_Customers/customer_tui/3_Tui_Priority_Meeting.png" alt="Priority meeting screenshot">
 		<h2>Beyond visual management</h2>
 		<p>
 			Now TUI’s product owner uses Draft as a flexible story mapping tool to document project needs and create appropriate user stories while also allowing them to define and prioritize their backlog wisely (all linked to Confluence). Julien describes the process like this: “To begin, stakeholders estimate epics’ business value and development teams macro-estimate the effort needed. And then, we place those epics in a quadrant to identify the ones with the better value-to-effort ratio. This Business Value / Effort matrix has become a central tool in our backlog prioritization process.”
@@ -99,7 +99,7 @@ ui-cr-tui
 			Au cours des premières itérations du projet, les responsables du programme prenaient des photos du mur de management visuel à la fin de chaque session pour s’assurer de n’oublier aucune information clé. Puis, entre chaque atelier physique, le tableau de post-it était mis à jour sur la base des différents échanges téléphoniques ou email, et puis des photos actualisées du mur étaient renvoyées à toutes les équipes à chaque modification. “C’était juste impossible à gérer”, reconnaît Julien.
 		</p>
 
-		<img class="illustration left-sided" src="./imgs/MUT_Customers/customer_tui/3_Tui_Priority_Meeting.png" alt="Capture réunion des priorités">
+		<img class="illustration left-sided" src="./imgs/MUT_Customers/customer_tui/4_Tui_Project_Board.png" alt="Capture project board">
 		<h2>“Nous avons construit un système de management visuel multi-niveau, multi-équipe et multisite”</h2>
 		<p>
 			Après avoir répété ce processus fastidieux plusieurs fois, Julien proposa d’utiliser Draft pour répliquer l’immense mur de post-it dans le mode digital et faciliter la synchronisation des équipes entre 2 ateliers trimestriels. Ainsi, ils ont réussi à construire un vaste système d'artefacts de management visuel virtuels qui pouvait évoluer aisément au fur et à mesure de l’avancement des différents chantiers.
@@ -117,7 +117,7 @@ ui-cr-tui
 			“Durant toute cette période de confinement, Draft a été d’un énorme secours. Avec son visuel simple et efficace, l'outil a permis au Business et à l’IT de poursuivre sereinement leurs activités collaboratives”, confie Julien.
 		</p>
 
-		<img class="illustration right-sided" src="./imgs/MUT_Customers/customer_tui/4_Tui_Atelier_Refinement.jpg" alt="Capture atelier d'optimisation">
+		<img class="illustration right-sided" src="./imgs/MUT_Customers/customer_tui/3_Tui_Priority_Meeting.png" alt="Capture réunion des priorités">
 		<h2>Au-delà du management visuel</h2>
 		<p>
 			Désormais, les Product Owners utilisent Draft comme outil de story mapping, en association avec Confluence, pour documenter les besoins et définir les user stories tout en hiérarchisant leur backlog de façon optimale. Julien décrit ainsi le processus : “après que les parties prenantes aient estimé la business value des epics et que les équipes aient macro-estimé l’effort correspondant pour les implémenter, nous les plaçons dans un quadrant visuel pour identifier spontanément celles qui offrent le ratio Valeur/Effort le plus intéressant. Cette matrice Business Value / Effort est devenue le cœur de notre processus de priorisation du backlog.”

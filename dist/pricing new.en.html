@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head profile="http://www.w3.org/2005/10/profile">
+  	<!-- PRODONLY
+    <% if JSON_CONFIG["google-tag-manager"] %>
+      <%= render "partials/google_tag_manager_head" %>
+    <% end %>
+    END -->
+
+    <!-- BEGINCSS -->
+<link href="css/common.css" rel="stylesheet">
+<link href="css/colors.css" rel="stylesheet">
+<link href="css/portal-desktop.css" rel="stylesheet">
+<link href="css/portal-mobile.css" rel="stylesheet">
+<link href="css/DDS_draft-design-system.css" rel="stylesheet">
+<link href="css/ui_enterprise.css" rel="stylesheet">
+<link href="css/ui_pricing.css" rel="stylesheet">
+<link href="css/ui_example.css" rel="stylesheet">
+<link href="css/ui_customer-story.css" rel="stylesheet">
+<link href="css/ui_customer-stories.css" rel="stylesheet">
+
+<link href="css/TEST_ONLY_ui_sommaire.css" rel="stylesheet">
+
+<!-- ENDCSS -->
+
+    <link rel="icon" href="/favicon.png?v=5" />
+
+    <title>Pricing - Draft</title>
+    <meta name="description" content="Either you&#x27;re solo or in a team, start right away for free." />
+    <meta name="viewport" content="width=device-width;user-scalable=no,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+
+    <!-- PRODONLY
+    <link rel="alternate" href="<%= JSON_CONFIG['host'] %>/fr/pricing" 
+      hreflang="x-default" />
+    <link rel="alternate" href="<%= JSON_CONFIG['host'] %>/pricing" 
+      hreflang="en-GB" />
+    <link rel="alternate" href="<%= JSON_CONFIG['host'] %>/pricing" 
+      hreflang="en-US" />
+    <link rel="alternate" href="<%= JSON_CONFIG['host'] %>/fr/pricing" 
+      hreflang="fr-FR" />
+    <% if @lang.code == 'en' %>
+      <link rel="canonical" href="<%= JSON_CONFIG['host'] %>/pricing">
+    <% else %>
+      <link rel="canonical" href="<%= JSON_CONFIG['host'] %>/fr/pricing">
+    <% end %>
+    END -->
+  </head>
+
+  <body class="page-pricing has-header yearly dark lang-en header-pricing">
+  	<!-- PRODONLY
+    <% if JSON_CONFIG["google-tag-manager"] %>
+      <%= render "partials/google_tag_manager_body" %>
+    <% end %>
+    END -->
+
+    <div id="top-of-site-pixel-anchor"></div>
+
+<header class="main-header">
+	<input type="checkbox" id="btnBurgerMenu" name="burger-menu-visibility">
+	<label for="btnBurgerMenu" class="burger-btn">
+		<span class="wrapper">
+			<span class="deco-btn-burger"></span>
+			<span class="deco-btn-burger"></span>
+			<span class="deco-btn-burger"></span>
+		</span>
+	</label>
+	<nav class="nav">
+		<a class="logo text-link" href="/"><img src="./imgs/logo-diag-orange-plus-text.png" alt="Logo Draft"></a>
+		<ul>
+			<li>
+				<div class="toggle-wrapper text-link">
+					<div class="toggle">
+						<!-- Workflows <i class="fas fa-chevron-down"></i> -->
+						<span class="selected">Workflows <i class="fas fa-chevron-down"></i></span>
+						<span class="neutral">Workflows <i class="fas fa-chevron-down"></i></span>
+					</div>
+					<ul class="menu">
+						<li><a class="text-link" href="/agile-project-management">Agile Project Management</a></li>
+						<li><a class="text-link" href="/product-management">Product Management</a></li>
+						<li><a class="text-link" href="/everyday-creative-work">Everyday Creative Work</a></li>
+					</ul>
+				</div>
+			</li>
+			<li class="page-enterprise-li"><a class="text-link" href="/enterprise">
+				<!-- Enterprise -->
+				<span class="selected">Enterprise</span>
+				<span class="neutral">Enterprise</span>
+			</a></li>
+			<li class="page-customer-stories-li"><a class="text-link" href="/customer-stories">
+				<!-- Customer stories -->
+				<span class="selected">Customer stories</span>
+				<span class="neutral">Customer stories</span>
+			</a></li>
+			<li class="page-examples-li"><a class="text-link" href="/examples">
+				<!-- Examples -->
+				<span class="selected">Examples</span>
+				<span class="neutral">Examples</span>
+			</a></li>
+			<li class="page-pricing-li"><a class="text-link" href="/pricing">
+				<!-- Pricing -->
+				<span class="selected">Pricing</span>
+				<span class="neutral">Pricing</span>
+			</a></li>
+			<li class="login"><a class="text-link" href="/login">
+				<!-- Sign in -->
+				<span class="selected">Sign in</span>
+				<span class="neutral">Sign in</span>
+
+			</a></li>
+			<li class="signup"><a class="cta" href="/get-started">
+				<!-- Sign up -->
+				<span class="selected">Sign up</span>
+				<span class="neutral">Sign up</span>
+			</a></li>
+		</ul>
+
+		<!-- <a class="fav" href="/">d</a> -->
+		<!-- <a class="fav-sheet" href="/">d</a> -->
+	</ul>
+</header>
+
+<script>
+	document.ontouchstart = function (e) {
+		e.stopPropagation();
+	}
+</script>
+
+    <div class="plans-wrapper bloc row">
+      <div class="title">Flexible pricing.<span class="if-not-1080"><br /></span><span class="if-1080"> </span>Scalable plans.</div>
+      <div class="baseline">Get started with a Free plan today</div>
+
+      <div class="period-alt">
+        <div class="wrapper wrapper-yearly">
+          <div class="period-yearly"><span class="if-1080">Pay yearly (save 17%)</span><span class="if-not-1080">Pay yearly (-17%)</span></div>
+          <div class="separator-yearly"></div>
+        </div>
+        <div class="wrapper wrapper-monthly">
+          <div class="separator-monthly"></div>
+          <div class="period-monthly"><span>Pay monthly</span></div>
+        </div>
+      </div>
+
+    <div class="cell">
+      <div class="plans-bloc">
+        <div class="plan free">
+          <div class="top-bloc">
+            <div class="top-row">
+              <div class="plan-title">Free</div>
+              <div class="price-wrapper">
+                <div class="price"></div>
+                <div class="price-detail">Forever</div>
+              </div>
+            </div>
+            <div class="punch">Start turning ideas into actions</div>
+          </div>
+
+          <ul class="features">
+              	<li class="feature">Up to 500 objects across drafts</li>
+              	<li class="feature">Unlimited drafts</li>
+              	<li class="feature">Unlimited URL sharing</li>
+              	<li class="feature">Unlimited guest contributors</li>
+              	<li class="feature">One shared folder</li>
+          </ul>
+
+          <a href="/get-started" class="cta">Sign up</a>
+        </div>
+
+        <div class="plan pro">
+          <div class="top-bloc">
+            <div class="top-row">
+              <div class="plan-title">Pro</div>
+              <div class="price-wrapper">
+                <div class="price if-yearly">8.33€</div><div class="price if-monthly">10€</div>
+                <div class="price-detail">/mo</div>
+              </div>
+            </div>
+            <div class="punch">Get unlimited access to Draft tools</div>
+          </div>
+
+
+          <ul class="features">
+              	<li class="feature">Unlimited objects</li>
+              	<li class="feature">Unlimited shared folders</li>
+              	<li class="feature">Password protection per draft</li>
+              	<li class="feature">Manual local backup</li>
+              	<li class="feature">Customer support (email only)</li>
+          </ul>
+
+          <a href="/get-started" class="cta">Sign up</a>
+        </div>
+
+        <div class="plan team">
+          <div class="top-bloc">
+            <div class="top-row">
+              <div class="plan-title">Team</div>
+              <div class="price-wrapper">
+                <div class="from">From</div>
+                <div class="price if-yearly">8.33€</div><div class="price if-monthly">10€</div>
+                <div class="price-detail">/user/mo</div>
+                <div class="triangle">▼</div>
+              </div>
+            </div>
+            <table class="price-grid">
+              <tr>
+                <td>Users</td>
+                <td>Price/user/mo</td>
+              </div>
+              	<tr>
+                  <td>1 - 50</td>
+                  <td class="if-yearly"><span>8.33</span> <span class="euro">€</span></td>
+                  <td class="if-monthly"><span>10</span> <span class="euro">€</span></td>
+                </tr>
+              	<tr>
+                  <td>51 - 200</td>
+                  <td class="if-yearly"><span>6.67</span> <span class="euro">€</span></td>
+                  <td class="if-monthly"><span>8</span> <span class="euro">€</span></td>
+                </tr>
+              	<tr>
+                  <td>200+</td>
+                  <td class="if-yearly"><span>5</span> <span class="euro">€</span></td>
+                  <td class="if-monthly"><span>6</span> <span class="euro">€</span></td>
+                </tr>
+            </table>
+
+            <div class="punch">Built for companies and teams</div>
+            <!--< div class="price-detail">
+              <div style="cursor:default">
+                <div class="per">per user/month</div>
+                <div class="expand" style="cursor:default;text-decoration:none">(depending on your team's size)</div>
+              </div>
+            </div>-->
+            
+          </div>
+
+          <ul class="features">
+              	<li class="feature">Team shared sync file system</li>
+              	<li class="feature">Fine-grained access management</li>
+              	<li class="feature">SSO (SAML, etc)</li>
+              	<li class="feature">Jira integration</li>
+              	<li class="feature">24/7 customer support</li>
+          </ul>
+
+          <a href="mailto:hi@draft.io?subject=I'm%20interested%20in%20your%20Team%20plan" class="cta-border">Contact us</a>
+        </div>
+
+        <div class="plan enterprise">
+          <div class="title">
+            Enterprise
+            <span class="label">Ready-to-deploy</span>
+          </div>
+          <ul>
+            <li>Tailor-made pricing depending on the options you take</li>
+            <li>Customized contract on top of our general terms and conditions</li>
+            <li>SSO with multiple identity providers via SAML 2.0</li>
+            <li>Visitor role to moderate link sharing</li>
+          </ul>
+          <ul>
+            <li>Log management to help you monitor activity</li>
+            <li>IP filtering and domain control to prevent data leakage</li>
+            <li>Dedicated instance on a separate server</li>
+            <li>Custom-made Jira integration</li>
+          </ul>
+          <div class="actions">
+            <a class="text-link light">
+              More about features for Enterprises
+            </a>
+            <a href="mailto:hi@draft.io?subject=I'm%20interested%20in%20your%20Team%20plan" class="cta-border">Contact us</a>
+          </div>
+        </div>
+
+
+<!-- 
+        <div class="plan meeting-room">
+          <div class="title-bloc">
+            <div class="plan-title">Small Teams<br />250€ / year<sup>(1)</sup></div>
+          </div>
+
+          <div class="features">
+            <div class="feature">1 TouchScreen license + 3 Pro licenses (25% discount)</div>
+          </div>
+        </div> -->
+      </div>
+
+      <div class="precisions">
+        <!-- (1) Excluding VAT. Billed annually.<br /> -->
+      </div>
+    </div>
+    </div>
+
+    <div class="faq">
+      <div class="faq-title">
+        FAQ
+      </div>
+      <div class="table">
+        <div class="tr">
+          <div class="td">
+	              <div class="qa">
+	                <div class="question">What are drafts?</div>
+	                <div class="answer">Drafts are what we call our visual and collaborative digital documents that support creative and knowledge-based work, including Agile project management and product development.</div>
+	              </div>
+	              <div class="qa">
+	                <div class="question">Can I use Draft for free?</div>
+	                <div class="answer">Yes, you can start using Draft now for free by signing up for a Free plan. It gives you access to 500 free items (across unlimited drafts), unlimited sharing, and more.</div>
+	              </div>
+	              <div class="qa">
+	                <div class="question">What do you mean by an ‘unlimited number’ of guests?</div>
+	                <div class="answer">Each draft you create comes equipped with its own URL. Regardless of the plan you’re on, you can grant access to your drafts to as many people as you want—whether they are Draft users or not—just by sharing the URL. There are no apps to download. There is no registration required. Just share a link and start collaborating with whomever you choose, instantly.</div>
+	              </div>
+	              <div class="qa">
+	                <div class="question">What's the difference between the Free and Pro plans?</div>
+	                <div class="answer">The biggest difference between these two plans is based on how much content you can add to your drafts. In the Free plan, you can create up to 500 items across all of your drafts. In the Pro plan, there are no limits whatsoever.</div>
+	              </div>
+          </div>
+          <div class="td">
+	              <div class="qa">
+	                <div class="question">I want to use Draft for my team. What does the Team plan include?</div>
+	                <div class="answer">The Team plan was designed to streamline collaboration and knowledge management across teams and organizations. Key features include:<ul style="margin-left:20px;margin-top:5px;margin-bottom:5px;list-style:initial;"><li>Shared Sync Folder System: Anyone in a team can create folders to share easily with each other or with outside stakeholders (i.e. freelancers, agencies, customers, etc.).</li><li>Rich User Roles: Assign the right roles to each user within your Draft team, including manager, content manager, contributor, and viewer.</li></ul>The Draft sync folder sharing system for teams is just as convenient and easy-to-use as other common file sharing tools like Dropbox or Google Drive.</div>
+	              </div>
+	              <div class="qa">
+	                <div class="question">What is an ‘admin’ in a Team plan?</div>
+	                <div class="answer">You can assign one (or several) admins to manage your Team plan. Only admins can add or remove users as your team changes.</div>
+	              </div>
+	              <div class="qa">
+	                <div class="question">What is a ‘team member’ in a Team plan?</div>
+	                <div class="answer">A team member is anyone on a team having access to the shared sync folder system and other core Draft features. Unlike admins, they cannot add or remove users from your plan.</div>
+	              </div>
+	              <div class="qa">
+	                <div class="question">Do you offer discounts for education and non-profit organizations?</div>
+	                <div class="answer">Yes, we do! Please contact us at <a href="mailto:hi@draft.io">hi@draft.io</a> to learn more.</div>
+	              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bloc-last">
+	<div class="left-visual">
+		<div class="rotated-square"></div>
+	</div>
+	<div class="title">Start your first draft today!</div>
+	<form class="signup-bloc" action="/get-started">
+	<div class="form-wrapper">
+		<input placeHolder="Enter your email" name="pre_email"></input>
+		<div class="submit-wrapper">
+			<div class="triangle"></div>
+			<input type="submit" class="register cta" value="Get started" />
+		</div>
+	</div>
+	<div class="if-1080">
+		<div class="detail">Start your first draft today. Sign up for a <a href="/pricing">Free plan</a>.</div>
+	</div>
+	<div class="if-not-1080">
+		<div class="detail">Start your first draft today.<br />Sign up for a <a href="/pricing">Free plan</a>.</div>
+	</div>
+</form>
+	<!-- <a class="cta-border cta-border-darkblue" style="margin-left:40px;" href="/agile_project_management">Discover how Scrum Masters use Draft</a> -->
+</div>
+    <div class="footer">
+	<div class="footer-wrapper">
+		<div class="bloc bloc-plan">
+			<div class="title">Product</div>
+			<a href="/">Home</a>
+			<a href="/agile-project-management">Draft for Agile Project Management</a>
+			<a href="/product-management">Draft for Product Management</a>
+			<a href="/everyday-creative-work">Draft for Everyday Creative Work</a>
+			<a href="/examples">Examples</a>
+			<a href="/login">Sign in</a>
+			<a href="/get-started">Sign up</a>
+		</div>
+
+		<div class="bloc bloc-resources">
+			<div class="title">Customer</div>
+			<a href="/enterprise">Enterprise</a>
+			<a href="/customer-stories">Customer stories</a>
+			<a href="/pricing">Pricing</a>
+		</div>
+
+		<div class="bloc bloc-resources">
+			<div class="title">Resources</div>
+			<a href="https://www.notion.so/Draft-s-Help-Center-cc9934be1af04688954d1d077ad004aa"
+				target="_blank">Help center</a>
+			<a href="https://draft.io/assets/2020 10 27 Terms and conditions - Draft SAS.pdf"
+				target="_blank">Terms</a>
+			<a href="https://draft.io/assets/2020 10 27 Privacy Policy - Draft SAS.pdf" target="_blank">Privacy</a>
+			<a href="mailto:hi@draft.io">Contact Us</a>
+
+			<div class="language-bloc">
+				<div class="bloc-title">Language</div>
+				<div class="menu-wrapper">
+					<div class="toggle-wrapper">
+						<div class="toggle">English</div>
+						<div class="dropdown-invite"></div>
+					</div>
+					<div class="menu">
+						<a
+							href="<%= @fr_url %>">Français</a>
+						<a
+							href="<%= @en_url %>">English</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="socials">
+			<a href="/" class="logo"></a>
+			<a href="https://linkedin.com/company/draft-io" class="linkedin" target="_blank"></a>
+		</div>
+
+		<div class="copyright">
+			© 2019 - 2021 • Draft SAS
+		</div>
+	</div>
+
+
+	<div class="oblique">
+		<div class="rotated-square"></div>
+	</div>
+</div>
+
+<script src="https://kit.fontawesome.com/6b4515f4ac.js" crossorigin="anonymous"></script>
+
+    <script>
+      var current = 'yearly';
+      var togglePayment = function(e) {
+        e.stopPropagation();
+        e.preventDefault();
+        if (current === 'monthly') {
+          document.body.classList.remove('monthly');
+          document.body.classList.add('yearly');
+          current = 'yearly';
+        }
+        else {
+          document.body.classList.add('monthly');
+          document.body.classList.remove('yearly');
+          current = 'monthly';
+        }
+      };
+      // document.querySelector('.period-alt .container').addEventListener('mousedown', togglePayment);
+      // document.querySelector('.period-alt .container').addEventListener('touchstart', togglePayment);
+
+      var toggleGrid = function(e) {
+        e.stopPropagation();
+        e.preventDefault();
+        var el = document.querySelector('.plan.team');
+        if (el.classList.contains('down')) {
+          el.classList.remove('down');
+        }
+        else {
+          el.classList.add('down');
+        }
+      };
+
+      document.querySelector('.plan.team .price-wrapper').addEventListener('mousedown', toggleGrid);
+      document.querySelector('.plan.team .price-wrapper').addEventListener('touchstart', toggleGrid);
+
+      var f1 = function(e) {
+        e.stopPropagation();
+        e.preventDefault();
+        if (current === 'yearly') {
+          togglePayment(e);
+        }
+      };
+      document.querySelector('.period-alt .period-monthly').addEventListener('mousedown', f1);
+      document.querySelector('.period-alt .period-monthly').addEventListener('touchstart', f1);
+      
+      var f2 = function(e) {
+        e.stopPropagation();
+        e.preventDefault();
+        if (current === 'monthly') {
+          togglePayment(e);
+        }
+      }
+      document.querySelector('.period-alt .period-yearly').addEventListener('mousedown', f2);
+      document.querySelector('.period-alt .period-yearly').addEventListener('touchstart', f2);
+      
+      document.querySelector('.period-alt .save').addEventListener('mousedown', f2);
+      document.querySelector('.period-alt .save').addEventListener('touchstart', f2);
+      // document.querySelector('.plan.team .price-detail .expand').addEventListener('mousedown', function() {
+      //   document.querySelector('.plan.team').setAttribute('class', 'plan team down');
+      // });
+    </script>
+  </body>
+</html>
