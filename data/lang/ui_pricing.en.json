@@ -1,0 +1,111 @@
+{
+  "pricing": {
+    "forever": "Forever",
+    "faq": {
+      "q1": {
+        "q": "What are drafts?",
+        "a": "Drafts are what we call our visual and collaborative digital documents that support creative and knowledge-based work, including Agile project management and product development."
+      },
+      "q2": {
+        "q": "Can I use Draft for free?",
+        "a": "Yes, you can start using Draft now for free by signing up for a Free plan. It gives you access to 500 free items (across unlimited drafts), unlimited sharing, and more."
+      },
+      "q3": {
+        "q": "What do you mean by an ‘unlimited number’ of guests?",
+        "a": "Each draft you create comes equipped with its own URL. Regardless of the plan you’re on, you can grant access to your drafts to as many people as you want—whether they are Draft users or not—just by sharing the URL. There are no apps to download. There is no registration required. Just share a link and start collaborating with whomever you choose, instantly."
+      },
+      "q4": {
+        "q": "What's the difference between the Free and Pro plans?",
+        "a": "The biggest difference between these two plans is based on how much content you can add to your drafts. In the Free plan, you can create up to 500 items across all of your drafts. In the Pro plan, there are no limits whatsoever."
+      },
+      "q5": {
+        "q": "Does Draft keep my data secure?",
+        "a": "Yes, our number one priority is to ensure your data is secure at all times. We use HTTPS protocol with TLSv1.2 or higher in transit and AES 256 at rest to give you peace of mind."
+      },
+      "q6": {
+        "q": "I want to use Draft for my team. What does the Team plan include?",
+        "a": "The Team plan was designed to streamline collaboration and knowledge management across teams and organizations. Key features include:<ul style=\"margin-left:20px;margin-top:5px;margin-bottom:5px;list-style:initial;\"><li>Shared Sync Folder System: Anyone in a team can create folders to share easily with each other or with outside stakeholders (i.e. freelancers, agencies, customers, etc.).</li><li>Rich User Roles: Assign the right roles to each user within your Draft team, including manager, content manager, contributor, and viewer.</li></ul>The Draft sync folder sharing system for teams is just as convenient and easy-to-use as other common file sharing tools like Dropbox or Google Drive."
+      },
+      "q7": {
+        "q": "What is an ‘admin’ in a Team plan?",
+        "a": "You can assign one (or several) admins to manage your Team plan. Only admins can add or remove users as your team changes."
+      },
+      "q8": {
+        "q": "What is a ‘team member’ in a Team plan?",
+        "a": "A team member is anyone on a team having access to the shared sync folder system and other core Draft features. Unlike admins, they cannot add or remove users from your plan."
+      },
+      "q9": {
+        "q": "Do you offer discounts for education and non-profit organizations?",
+        "a": "Yes, we do! Please contact us at <a href=\"mailto:hi@draft.io\">hi@draft.io</a> to learn more."
+      }
+    },
+    "register": "Sign up",
+    "contact-us": "Contact us",
+    "pageTitle": "Pricing - Draft",
+    "pageDescription": "Either you're solo or in a team, start right away for free.",
+    "title": "Flexible pricing.<span class=\"if-not-1080\"><br /></span><span class=\"if-1080\"> </span>Scalable plans.",
+    "baseline": "Get started with a Free plan today",
+    "periodYearly": "<span class=\"if-1080\">Pay yearly (save 17%)</span><span class=\"if-not-1080\">Pay yearly (-17%)</span>",
+    "periodMonthly": "<span>Pay monthly</span>",
+    "enterprise": {
+      "contactSubject": "I'm%20interested%20in%20your%20Enterprise%20plan",
+      "title": "Enterprise",
+      "punchline": "Ready-to-deploy",
+      "features1": {
+        "tailor-made-pricing": "Tailor-made pricing depending on the options you take",
+        "custom-contract": "Customized contract on top of our general terms and conditions",
+        "sso": "SSO with multiple identity providers via SAML 2.0",
+        "visitor-role": "Visitor role to moderate link sharing"
+      },
+      "features2": {
+        "log-management": "Log management to help you monitor activity",
+        "ip-filtering": "IP filtering and domain control to prevent data leakage",
+        "dedicated-instance": "Dedicated instance on a separate server",
+        "custom-jira": "Custom-made Jira integration"
+      },
+      "more-about-link": "More about features for Enterprises"
+    },
+    "team": {
+      "contactSubject": "I'm%20interested%20in%20your%20Team%20plan",
+      "title": "Team",
+      "punchline": "Built for both small and large teams",
+      "from": "From",
+      "users": "Users",
+      "um": "/user/mo",
+      "uy": "/user/ye",
+      "pum": "Price/user/mo",
+      "puy": "Price/user/ye",
+      "features": {
+        "client-success-management": "Client success management",
+        "admin-interface": "Team administration interface",
+        "group-management": "Group management",
+        "password-protection": "Password protection per folder",
+        "phone-support": "24/7 customer support"
+      }
+    },
+    "pro": {
+      "title": "Pro",
+      "punchline": "Get unlimited access to Draft tools",
+      "um": "/mo",
+      "uy": "/ye",
+      "features": {
+        "all": "All Free plan features",
+        "unlimited-objects": "Unlimited items",
+        "manual-local-backup": "Manual local backup of folders",
+        "email-support": "Customer support (email only)"
+      }
+    },
+    "free": {
+      "title": "Free",
+      "punchline": "Start turning ideas into actions",
+      "features": {
+        "up-to-500-objects": "Up to 500 objects across drafts",
+        "unlimited-drafts": "Unlimited drafts and link sharing",
+        "unlimited-url-sharing": "Unlimited guest editors",
+        "unlimited-guests": "Password protection per draft",
+        "one-shared-folder": "Manual local backup",
+        "jira-integration": "Jira integration"
+      }
+    }
+  }
+}

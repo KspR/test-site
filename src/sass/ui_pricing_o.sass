@@ -1,5 +1,5 @@
 @import colors
-@import DDS_breakpoints.sass
+
 
 body.yearly
   .period-alt
@@ -68,6 +68,7 @@ body
     color : #777
     margin-bottom : 60px
     font-size : 16px
+    float : left
     -webkit-font-smoothing : antialiased
     line-height : 22px
 
@@ -148,16 +149,107 @@ body
 
         transition : transform 200ms ease
 
+@media only screen and (min-width: 1080px)
+  .page-pricing
+    .faq
+      .faq-title
+        font-size : 2em
+        text-align : center
+        margin-bottom : 90px
+
+      .table
+        display : table
+        width : calc(920px + 80px)
+        margin-left : calc(50% - (920px + 80px) / 2)
+
+        .tr
+          display : table-row
+
+          .td
+            display : table-cell
+
+          .td:first-child
+            padding-right : 40px
+
+          .td:last-child
+            padding-left : 40px
+
+        .qa
+          width : 460px
+
+          .question
+            font-family : bold
+            font-size : 1.25em
+            color : #eee
+
+        .qa:not(:first-child)
+          margin-top : 40px
+
+        .answer
+          margin-top : 20px
+          color : #bbb
+
+
+@media only screen and (max-width: 1080px)
+  .page-pricing
+    .faq
+      padding : 3em 2em !important
+
+      .faq-title
+        font-size : 24px
+        text-align : center
+        margin-bottom : 1em
+
+      .table
+        .qa
+          text-align : center
+
+          .question
+            font-weight : 600
+            font-size : 18px
+
+        .td:first-child
+          .qa:not(:first-child)
+            margin-top : 3em
+
+        .td:not(:first-child)
+          .qa
+            margin-top : 3em
+
+        .answer
+          margin-top : 10px
+          font-size : 16px
+
 .page-pricing
   -webkit-font-smoothing : antialiased
 
+  .faq
+    padding : 120px 0
+    background-color : #323232
+
+  // overflow-y : auto
+  // display : -webkit-flex
+  // display : -ms-flex
+  // display : -moz-flex
+  // display : flex
+  // -moz-flex-direction : column
+  // -ms-flex-direction : column
+  // -webkit-flex-direction : column
+  // flex-direction : column
+
   .plans-wrapper
     width : 1080px
-    max-width : 100%
-    margin : 0 auto 120px
+    margin-left : calc(50% - 1080px/2)
+    margin-bottom : 120px
     box-sizing : border-box
-    // overflow : hidden
-    padding-top : 20px
+    overflow : hidden
+
+    // flex : 1
+    @media only screen and (max-width: 1180px)
+      margin-top : 50px
+
+    @media only screen and (min-width: 1180px)
+      margin-top : 50px
 
     .cell
       position : relative
@@ -169,21 +261,13 @@ body
       font-size : 13px
 
     .plans-bloc
+      float : left
       width : 100%
-      padding : 0 20px
 
-      .sub-wrapper
-        display : flex
+      .plan:nth-child(2), .plan:nth-child(3), .plan:nth-child(4)
+        margin-left : 30px
 
       .plan
-        width : 100%
-        box-sizing : border-box
-        background-color : #373737
-        display : flex
-        flex-direction : column
-        & + .plan
-            margin-left : 30px
-
         .cta, .cta-border
           width : calc(100% - 40px)
           margin-left : 20px
@@ -192,7 +276,12 @@ body
           margin-bottom : 30px
           text-align : center
           padding : 10px 24px
-          margin-top : auto
+
+      .plan
+        float : left
+        width : 340px
+        box-sizing : border-box
+        background-color : #373737
 
         .cta-border
           color : white
@@ -202,28 +291,29 @@ body
           color : white
 
           .punch
+            float : left
             margin-left : 20px
             margin-top : 30px
-            margin-bottom : 25px
+            margin-bottom : 15px
 
           .top-row
+            float : left
             width : 100%
-            padding : 10px 20px
+            padding : 20px
             background-color : #3c3c3c
             box-sizing : border-box
-            display : flex
-            align-items : center
 
             .plan-title
+              float : left
 
             .price-wrapper
-              margin-left : auto
+              float : right
 
               > div
                 float : left
 
               .price-detail
-                margin-top : 12px
+                margin-top : 14px
                 font-size : 14px
 
             .price
@@ -245,9 +335,9 @@ body
 
           .price-grid
             width : calc(100% - 40px)
+            float : left
             margin-left : 20px
             margin-top : 20px
-            margin-bottom : 20px
             border-collapse : collapse
 
             tr
@@ -279,24 +369,20 @@ body
                   color : #aaa
 
         .features
+          float : left
           list-style-position : inside
           list-style : none
           opacity : .8
-          margin : 0 20px 50px
+          margin : 0 20px
 
-          .feature::before
+          li::before
             content : "\2022"
             color : $orange
             display : inline-block
             margin-right : 10px
-            position : absolute
-            left : 0
-            top : 0px
 
           .feature
             font-family : regular
-            position : relative
-            padding-left : 20px
 
             &:not(:last-child)
               margin-bottom : 10px
@@ -307,44 +393,6 @@ body
         .button-0
           margin-top : 20px
           margin-bottom : 20px
-
-      .plan.pro
-        .features
-          .feature.all
-            margin-bottom : 20px
-            font-family : semibold
-
-            &::before
-              display : none
-
-            .picto-all-features
-              position : absolute
-              font-family : regular
-              top : -8px
-              left : -2px
-              span
-                color : $orange
-                display : block
-                margin-right : 10px
-                position : absolute
-                left : 0
-                top : 0px
-                & + span
-                  top : 3px
-                  left : 5px
-                & + span + span
-                  top : 6px
-                  left : 0
-                & + span + span + span
-                  top : 9px
-                  left : 5px
-                & + span + span + span + span
-                  top : 12px
-                  left : 0
-                & + span + span + span + span + span
-                  top : 15px
-                  left : 5px
-
 
       .plan.team
         .price-wrapper
@@ -391,146 +439,99 @@ body
           .top-bloc
             .price-grid
               display : none
-              
-      .plan.enterprise
-        width : 100%
-        margin : 30px 0 0
-        padding-bottom : 30px
-        box-shadow : 0 35px 20px 0 rgba(0,0,0,0.1)
-        overflow : auto
 
-        .top-bloc
-          .top-row
-            padding-left : 30px
-            .plan-title
-          .punch
-            margin-left : 30px
-        .wrapper
-          display : flex
-          padding-left : 20px
-          padding-right : 20px
-          .features
-            width : 50%
-            .feature
-            
-        .actions
-          padding : 0 20px
-          display : flex
-          align-items : center
-          .text-link
-            margin-left : 10px
-            opacity : .8
+  .faq.bloc
+    position : relative
+    margin-top : 50px
+    margin-bottom : 80px
+    float : left
+    width : 100%
 
-            transition : opacity .2s
-            &:hover
-              opacity : 1
-          .cta-border
-            margin : 0
-            margin-left : auto
-            width : calc((100% - 30px * 2 - 20px * 2) / 3)
-
-  .faq
-    padding : 50px
-    background : #323232
     .faq-title
+      width : 100%
       text-align : center
-      margin-top : 20px
+      position : relative
+      float : left
+      top : 0
+      left : 0
       margin-bottom : 30px
-    .questions
-      background : #363636
-      width : 700px
-      padding : 50px
-      border-radius : 10px
-      max-width : 100%
-      margin : 0 auto 60px
-      .qa
-        .question
+      font-family : bold
+      font-size : 22px
+      color : #aaa
+
+    //340
+    .faq-wrapper
+      width : 810px
+      float : left
+      clear : left
+      margin-left : calc(50% - 405px)
+
+      .bloc-title
+        margin-bottom : 60px
+
+      .faq-col:nth-child(3n+2)
+        margin : 0 30px
+
+      .faq-col
+        width : 250px
+        float : left
+
+        .faq-bloc:first-child
+          margin-bottom : 40px
+
+      .faq-col:nth-child(3n+2)
+        .faq-bloc-title
+          color : #6cc4c3
+
+      .faq-col:nth-child(3n+1)
+        .faq-bloc-title
+          color : #93ca84
+
+      .faq-col:nth-child(3n)
+        .faq-bloc-title
+          color : #ebc23b
+
+      .faq-bloc
+        width : 250px
+        float : left
+
+        .faq-bloc-title
+          text-align : center
           font-family : bold
-          font-size : 1.1rem
-          opacity : .8
-          position : relative
-          padding-left : 26px
-          
-          transition : opacity .2s
-          .far
-            margin-right : 10px
-            font-size : .8em
-            opacity : .65
-            position : absolute
-            left : 0
-            top : 5px
+          font-size : 17px
+          text-transform : uppercase
+          margin-bottom : 10px
+          color : #283036 !important
 
-            transition : opacity .2s, transform .2s
-          &:hover
-            cursor : pointer
-            opacity : .85
-            .far
-              opacity : 1
-        .answer
-          margin-top : 10px
-          padding-left : 28px
-          opacity : .7
-          display : none
-          padding-bottom : 10px
-      
-      .qa + .qa
+        .faq-bloc-text
+          text-align : justify
+          font-family : regular
+          font-size : 14px
+          color : #5a5a5a
+
+@media only screen and (max-width: 1180px)
+  .page-pricing
+    display : block
+
+    .plans-wrapper
+      margin-left : 0 !important
+      width : 100% !important
+
+      .cell
+        top : 0
+
+      .plans-bloc
+        width : 300px
+        margin-left : calc(50% - 150px)
+
+        .plan
+          width : 300px
+          margin-left : 0 !important
+
+        .plan:not(:first-child)
+          margin-top : 30px
+
+      .precisions
+        margin-left : calc(50% - 135px)
         margin-top : 20px
-
-      .qa.opened
-        .question
-          .far
-            transform : rotate(180deg)
-        .answer
-          display : block
-
-  @media only screen and (max-width: $tabletBreakpoint)
-    .plans-wrapper
-      .plans-bloc
-        .sub-wrapper
-          display : block
-
-          .plan
-            width : 350px
-            max-width : 95%
-            display : block
-            margin : 0 auto
-
-          .plan + .plan
-            margin-left : auto
-            margin-top : 30px
-
-        .plan.enterprise
-          width : 350px
-          margin : 30px auto 0
-          .wrapper
-            display : block
-            .features
-              margin-left : 0
-              width : 100%
-              margin-bottom : 10px
-
-          .actions
-            margin-top : 20px
-            display : block
-
-            .text-link
-              text-align : center
-
-            .cta-border
-              width : 100%
-              margin-top : 30px
-
-  @media only screen and (max-width: $phoneBreakpoint)
-    .plans-wrapper
-      margin : 0 auto 80px
-      .plans-bloc
-        .sub-wrapper
-
-          .plan
-            max-width : 100%
-            display : block
-            margin : 0 auto
-
-          .plan + .plan
-            margin-left : auto
-            margin-top : 30px
+        margin-bottom : 20px
