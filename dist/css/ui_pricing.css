@@ -140,6 +140,20 @@ body .period-alt .container .inner {
 .page-pricing {
   -webkit-font-smoothing: antialiased;
 }
+.page-pricing.lang-en .plan.pro .price-wrapper .price::before, .page-pricing.lang-en .plan.pro .price-grid .price::before, .page-pricing.lang-en .plan.team .price-wrapper .price::before, .page-pricing.lang-en .plan.team .price-grid .price::before, .page-pricing.lang-fr .plan.pro .price-wrapper .price::after, .page-pricing.lang-fr .plan.pro .price-grid .price::after, .page-pricing.lang-fr .plan.team .price-wrapper .price::after, .page-pricing.lang-fr .plan.team .price-grid .price::after {
+  content: "€";
+  font-size: 0.8em;
+  font-weight: normal;
+  margin-right: 3px;
+}
+.page-pricing.lang-en .plan.pro .price-grid .price::before, .page-pricing.lang-en .plan.team .price-grid .price::before, .page-pricing.lang-fr .plan.pro .price-grid .price::after, .page-pricing.lang-fr .plan.team .price-grid .price::after {
+  font-size: 0.8em;
+  opacity: 0.85;
+}
+.page-pricing.lang-fr .plan.pro .price-wrapper .price::after, .page-pricing.lang-fr .plan.pro .price-grid .price::after, .page-pricing.lang-fr .plan.team .price-wrapper .price::after, .page-pricing.lang-fr .plan.team .price-grid .price::after {
+  margin-right: 0;
+  margin-left: 3px;
+}
 .page-pricing .plans-wrapper {
   width: 1080px;
   max-width: 100%;
@@ -255,11 +269,8 @@ body .period-alt .container .inner {
 .page-pricing .plans-wrapper .plans-bloc .plan .top-bloc .price-grid tr:nth-child(2n) {
   background-color: #474747;
 }
-.page-pricing .plans-wrapper .plans-bloc .plan .top-bloc .price-grid tr:not(:first-child) td:not(:first-child) span:not(.euro) {
+.page-pricing .plans-wrapper .plans-bloc .plan .top-bloc .price-grid tr:not(:first-child) td:not(:first-child) span {
   font-weight: 600;
-}
-.page-pricing .plans-wrapper .plans-bloc .plan .top-bloc .price-grid tr:not(:first-child) td:not(:first-child) .euro {
-  color: #aaa;
 }
 .page-pricing .plans-wrapper .plans-bloc .plan .features {
   list-style-position: inside;
@@ -292,7 +303,7 @@ body .period-alt .container .inner {
   margin-bottom: 20px;
 }
 .page-pricing .plans-wrapper .plans-bloc .plan.pro .features .feature.all {
-  margin-bottom: 20px;
+  margin-bottom: 26px;
   font-family: semibold;
 }
 .page-pricing .plans-wrapper .plans-bloc .plan.pro .features .feature.all::before {
@@ -301,36 +312,50 @@ body .period-alt .container .inner {
 .page-pricing .plans-wrapper .plans-bloc .plan.pro .features .feature.all .picto-all-features {
   position: absolute;
   font-family: regular;
-  top: -8px;
-  left: -2px;
+  top: 0;
+  left: 3px;
 }
 .page-pricing .plans-wrapper .plans-bloc .plan.pro .features .feature.all .picto-all-features span {
   color: #f1852b;
   display: block;
   margin-right: 10px;
   position: absolute;
-  left: 0;
+  left: -8px;
   top: 0px;
+  opacity: 0.3;
+  text-shadow: 0 0 0 #000000;
 }
 .page-pricing .plans-wrapper .plans-bloc .plan.pro .features .feature.all .picto-all-features span + span {
-  top: 3px;
-  left: 5px;
+  left: -4px;
+  opacity: 0.6;
 }
 .page-pricing .plans-wrapper .plans-bloc .plan.pro .features .feature.all .picto-all-features span + span + span {
-  top: 6px;
   left: 0;
+  opacity: 1;
 }
-.page-pricing .plans-wrapper .plans-bloc .plan.pro .features .feature.all .picto-all-features span + span + span + span {
-  top: 9px;
-  left: 5px;
+.page-pricing .plans-wrapper .plans-bloc .plan.pro .features .feature.separator {
+  border-top: 1px dashed white;
+  position: relative;
+  text-align: center;
+  padding: 0;
+  opacity: 0.3;
+  margin-bottom: 0;
 }
-.page-pricing .plans-wrapper .plans-bloc .plan.pro .features .feature.all .picto-all-features span + span + span + span + span {
-  top: 12px;
-  left: 0;
+.page-pricing .plans-wrapper .plans-bloc .plan.pro .features .feature.separator::before {
+  display: none;
 }
-.page-pricing .plans-wrapper .plans-bloc .plan.pro .features .feature.all .picto-all-features span + span + span + span + span + span {
-  top: 15px;
-  left: 5px;
+.page-pricing .plans-wrapper .plans-bloc .plan.pro .features .feature.separator .fas, .page-pricing .plans-wrapper .plans-bloc .plan.pro .features .feature.separator .far {
+  position: relative;
+  background: #373737;
+  top: -13px;
+  color: #CCC;
+  border: 8px solid #373737;
+  border-top: none;
+  border-bottom: none;
+  font-size: 0.9rem;
+}
+.page-pricing .plans-wrapper .plans-bloc .plan.pro .features .feature.separator + li {
+  margin-top: 4px;
 }
 .page-pricing .plans-wrapper .plans-bloc .plan.team .price-wrapper {
   border: 1px solid #555;
@@ -410,7 +435,7 @@ body .period-alt .container .inner {
 .page-pricing .plans-wrapper .plans-bloc .plan.enterprise .actions .cta-border {
   margin: 0;
   margin-left: auto;
-  width: calc((100% - 30px * 2 - 20px * 2) / 3);
+  width: calc((100% - 30px * 3 - 20px * 2) / 3 - 4px);
 }
 .page-pricing .faq {
   padding: 50px;

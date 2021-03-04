@@ -4,39 +4,43 @@
     "faq": {
       "q1": {
         "q": "Qu’est-ce qu’un draft ?",
-        "a": "Un draft est un document collaboratif, visuel et extrêmement malléable. Ce format de document a été conçu pour servir de support de réflexion, de prise de décision et de management visuel."
+        "a": "Un draft est un document collaboratif, visuel et extrêmement malléable. Ce format de document a été imaginé comme support idéal de recherche, de réflexion, de prise de décision, et de management visuel."
       },
       "q2": {
         "q": "Puis-je utiliser Draft gratuitement ?",
-        "a": "Bien sûr, notre plan gratuit est illimité dans le temps et vous permet d’utiliser jusqu’à 500 objets, seul ou bien à plusieurs avec d’autres utilisateurs ou invités, sans aucune limitation en matière de collaboration."
+        "a": "Bien sûr, notre plan gratuit est illimité dans le temps et vous permet d’utiliser jusqu’à 500 objets cumulés à travers tous vos drafts, seul ou bien à plusieurs, avec d’autres utilisateurs ou invités, sans aucune limitation en matière de partage et de collaboration."
       },
       "q3": {
-        "q": "Qu’entendez-vous par aucune limitation en matière de collaboration ?",
-        "a": "La collaboration et le partage font partie de l’ADN de Draft. En effet, chaque draft possède sa propre URL et peut-être partagé à qui vous le souhaitez, que ce soit d’autres utilisateurs Draft ou des invités ponctuels. Ces derniers n’ont pas besoin de se créer un compte pour collaborer et peuvent commencer à contribuer en quelques secondes."
+        "q": "Qu’entendez-vous par aucune limitation en matière de partage et de collaboration ?",
+        "a": "La collaboration et le partage occupent une place centrale dans notre vision produit. En effet, chaque draft possède sa propre URL et peut-être partagé à qui vous le souhaitez, que ce soit d’autres utilisateurs ayant également un compte Draft ou des invités ponctuels. Ces derniers n’ont pas besoin de se créer de compte pour collaborer : ils peuvent commencer à contribuer en quelques secondes."
       },
       "q4": {
         "q": "Quelle est la différence entre le plan Gratuit et le plan Pro ?",
-        "a": "La principale différence réside dans le fait que le plan Pro vous permet d’utiliser Draft au-delà de la limite de 500 objets, sans aucune restriction. Le plan Pro vous offre également la possibilité de partager plusieurs dossiers, et non un seul, avec d’autres utilisateurs Draft."
+        "a": "La principale différence réside dans le fait que le plan Pro vous permet d’utiliser Draft au-delà de la limite des 500 objets, sans aucune autre limitation par la suite. Alors qu’avec le plan Gratuit, une fois cette limitation atteinte, vous ne pouvez plus éditer vos drafts tant que vous n’avez pas supprimé de contenu ou de draft (ou upgradé votre plan)."
       },
       "q5": {
-        "q": "Draft n'est-il disponible que dans le cloud ?",
-        "a": "Pour vous permettre de satisfaire vos exigences de sécurité internes, Draft peut également être installé on-premise. L’application serait alors hébergée par vos soins sur votre propre réseau. Le prix serait adapté au cas par cas en fonction de vos spécifications."
+        "q": "Avec le plan Pro, puis-je collaborer sans limitation avec des utilisateurs gratuits ?",
+        "a": "Oui, lorsque vous partagez le lien de votre draft à des utilisateurs gratuits, ils peuvent collaborer avec vous sans limitation. Cependant, s’ils veulent conserver un accès permanent au draft en l’ajoutant à leur explorateur de fichiers, cela incrémentera leur compteur d’objets."
       },
       "q6": {
-        "q": "Mes données sont-elles en sécurité ?",
-        "a": "Draft utilise le protocole TLSv1.2 pour sécuriser les échanges de données entre vos terminaux et ses serveurs. Cela en garantit la confidentialité.<br /><br />Draft héberge ses données en France sur des serveurs OVH. Vos données sont protégées sur nos serveurs avec le standard de chiffrement AES 256 et sauvegardées une fois par jour sur un serveur de backup situé dans un autre lieu géographique, lui aussi sécurisé."
+        "q": "Est-ce que Draft conserve mes données en toute sécurité ?",
+        "a": "Oui, la sécurité de vos données est l’une de nos priorités principales. Nous utilisons le protocole HTTPS au standard TLSv1.2 (ou supérieur) pour protéger vos données en transit et le protocole de chiffrement AES 256 pour protéger vos données au repos."
       },
       "q7": {
-        "q": "Je veux collaborer en équipe au sein de mon organisation, qu’en est-il du plan Team ?",
-        "a": "Le plan Team a été conçu pour faciliter la collaboration et la gestion de la connaissance au sein d’une organisation.<br /><br />Tout d’abord, tous les membres de la Team partage un système de fichiers commun. Il s’agit du lien privilégié du partage de l’information.<br /><br />Ensuite, pour chaque projet, chaque membre de la Team peut créer des dossiers et les partager avec n’importe quel autre membre de la Team ainsi qu’avec des collaborateurs externes à la Team (freelance, agences, clients, fournisseurs, etc.). C’est aussi flexible et pratique que Google Drive !"
+        "q": "Je souhaite utiliser Draft avec mon équipe. Que contient le plan Team?",
+        "a": "Le plan Team a été conçu pour vous permettre de collaborer et gérer l’accès à l’information de façon très flexible et efficace. Parmi les principales fonctionnalités :<ul style=\"margin-left:20px;margin-top:5px;margin-bottom:5px;list-style:initial;\"><li><b>Système de dossiers partagés</b> : tous les membres de la Team peuvent créer des dossiers et les partager avec qui ils veulent, à l’intérieur ou à l’extérieur de la Team.</li><li><b>Gestion fine des droits d’accès et de partage</b> : différents rôles vous permettent d’accorder les bons droits aux bonnes personnes : responsable de dossier, gestionnaire de contenu, contributeur de contenu et lecture-seule.</li><li><b>Gestion par groupe d’utilisateurs</b> : vous pouvez rassembler dans des groupes les membres de la Team qui partagent des caractéristiques communes. De cette façon, au lieu d’effectuer le partage utilisateur par utilisateur, vous pouvez gérer aisément plusieurs membres de la Team à fois.</li></ul>Ce système de dossiers partagés ressemble à celui de Dropbox ou Google Drive, et est aussi facile et pratique à utiliser."
       },
       "q8": {
-        "q": "Qui administre la Team ?",
-        "a": "La license Team est administrée par un ou plusieurs administrateurs qui ont la capacité d’ajouter et retirer les accès à Team au fur et à mesure de l’évolution du périmètre de l’équipe."
+        "q": "Qu’est-ce qu’un “admin” dans le plan Team ?",
+        "a": "Vous pouvez désigner un ou plusieurs admins pour gérer votre Team. Les admins peuvent ajouter ou retirer librement des membres de la Team au fur et à mesure des départs et des arrivées dans votre organisation."
       },
       "q9": {
-        "q": "Proposez-vous une offre spéciale pour l’éducation et les ONG ?",
-        "a": "Oui, faciliter l’accès à l’éducation et à la connaissance à tout un chacun est l’une de nos missions les plus importantes. Nous vous invitons à nous contacter pour en discuter à l’adresse suivante : <a href=\"mailto:hi@draft.io\">hi@draft.io</a>."
+        "q": "Qu’est-ce qu’un “membre” dans le plan Team ?",
+        "a": "Un membre d’une Team est un utilisateur payant qui peut utiliser toutes les fonctionnalités de Draft, sans aucune limitation. Néanmoins, il n’a pas le pouvoir d’ajouter ou retirer d’autres membres de la Team."
+      },
+      "q10": {
+        "q": "Avez-vous un plan spécifique pour les ONG et l’éducation ?",
+        "a": "Oui, contactez-nous à l’adresse <a href=\"mailto:hi@draft.io\">hi@draft.io</a> pour en parler ensemble."
       }
     },
     "register": "S'inscrire",

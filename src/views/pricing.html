@@ -95,7 +95,7 @@
               <div class="top-row">
                 <div class="plan-title">{{{lang.pricing.pro.title}}}</div>
                 <div class="price-wrapper">
-                  <div class="price if-yearly">100€</div><div class="price if-monthly">10€</div>
+                  <div class="price if-yearly">100</div><div class="price if-monthly">10</div>
                   <div class="price-detail if-yearly">{{{lang.pricing.pro.uy}}}</div>
                   <div class="price-detail if-monthly">{{{lang.pricing.pro.um}}}</div>
                 </div>
@@ -109,11 +109,11 @@
                   <span>•</span>
                   <span>•</span>
                   <span>•</span>
-                  <span>•</span>
-                  <span>•</span>
-                  <span>•</span>
                 </div>
                 {{{lang.pricing.pro.features.all}}}
+              </li>
+              <li class="feature separator">
+                <i class="fas fa-plus-circle"></i>
               </li>
               {{#each pricing.pro.features}}
                 {{#with (lookup ../lang.pricing.pro.features this)}}
@@ -134,7 +134,7 @@
                 <div class="plan-title">{{{lang.pricing.team.title}}}</div>
                 <div class="price-wrapper">
                   <div class="from">{{{lang.pricing.team.from}}}</div>
-                  <div class="price if-yearly">100€</div><div class="price if-monthly">10€</div>
+                  <div class="price if-yearly">100</div><div class="price if-monthly">10</div>
                   <div class="price-detail if-yearly">{{{lang.pricing.team.uy}}}</div>
                   <div class="price-detail if-monthly">{{{lang.pricing.team.um}}}</div>
                   <div class="triangle">▼</div>
@@ -149,8 +149,8 @@
                 {{#each pricing.team.price}}
                   <tr>
                     <td>{{this.[0]}}</td>
-                    <td class="if-yearly"><span>{{this.[1]}}</span> <span class="euro">€</span></td>
-                    <td class="if-monthly"><span>{{this.[2]}}</span> <span class="euro">€</span></td>
+                    <td class="if-yearly price"><span>{{this.[1]}}</span></td>
+                    <td class="if-monthly price"><span>{{this.[2]}}</span></td>
                   </tr>
                 {{/each}}
               </table>

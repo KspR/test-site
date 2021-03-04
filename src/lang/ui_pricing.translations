@@ -5,84 +5,92 @@ pricing
 	faq
 		q1
 			q
-				What are drafts?
+				What is a draft?
 				Qu’est-ce qu’un draft ?
 			a
-				Drafts are what we call our visual and collaborative digital documents that support creative and knowledge-based work, including Agile project management and product development.
-				Un draft est un document collaboratif, visuel et extrêmement malléable. Ce format de document a été conçu pour servir de support de réflexion, de prise de décision et de management visuel.
+				A draft is what we call our visual and collaborative digital document that supports creative and knowledge-based work, including Agile project management and product development.
+				Un draft est un document collaboratif, visuel et extrêmement malléable. Ce format de document a été imaginé comme support idéal de recherche, de réflexion, de prise de décision, et de management visuel.
 		q2
 			q
 				Can I use Draft for free?
 				Puis-je utiliser Draft gratuitement ?
 			a
 				Yes, you can start using Draft now for free by signing up for a Free plan. It gives you access to 500 free items (across unlimited drafts), unlimited sharing, and more.
-				Bien sûr, notre plan gratuit est illimité dans le temps et vous permet d’utiliser jusqu’à 500 objets, seul ou bien à plusieurs avec d’autres utilisateurs ou invités, sans aucune limitation en matière de collaboration.
+				Bien sûr, notre plan gratuit est illimité dans le temps et vous permet d’utiliser jusqu’à 500 objets cumulés à travers tous vos drafts, seul ou bien à plusieurs, avec d’autres utilisateurs ou invités, sans aucune limitation en matière de partage et de collaboration.
 		q3
 			q
 				What do you mean by an ‘unlimited number’ of guests?
-				Qu’entendez-vous par aucune limitation en matière de collaboration ?
+				Qu’entendez-vous par aucune limitation en matière de partage et de collaboration ?
 			a
 				Each draft you create comes equipped with its own URL. Regardless of the plan you’re on, you can grant access to your drafts to as many people as you want—whether they are Draft users or not—just by sharing the URL. There are no apps to download. There is no registration required. Just share a link and start collaborating with whomever you choose, instantly.
-				La collaboration et le partage font partie de l’ADN de Draft. En effet, chaque draft possède sa propre URL et peut-être partagé à qui vous le souhaitez, que ce soit d’autres utilisateurs Draft ou des invités ponctuels. Ces derniers n’ont pas besoin de se créer un compte pour collaborer et peuvent commencer à contribuer en quelques secondes.
+				La collaboration et le partage occupent une place centrale dans notre vision produit. En effet, chaque draft possède sa propre URL et peut-être partagé à qui vous le souhaitez, que ce soit d’autres utilisateurs ayant également un compte Draft ou des invités ponctuels. Ces derniers n’ont pas besoin de se créer de compte pour collaborer : ils peuvent commencer à contribuer en quelques secondes.
 		q4
 			q
 				What's the difference between the Free and Pro plans?
 				Quelle est la différence entre le plan Gratuit et le plan Pro ?
 			a
 				The biggest difference between these two plans is based on how much content you can add to your drafts. In the Free plan, you can create up to 500 items across all of your drafts. In the Pro plan, there are no limits whatsoever.
-				La principale différence réside dans le fait que le plan Pro vous permet d’utiliser Draft au-delà de la limite de 500 objets, sans aucune restriction. Le plan Pro vous offre également la possibilité de partager plusieurs dossiers, et non un seul, avec d’autres utilisateurs Draft.
+				La principale différence réside dans le fait que le plan Pro vous permet d’utiliser Draft au-delà de la limite des 500 objets, sans aucune autre limitation par la suite. Alors qu’avec le plan Gratuit, une fois cette limitation atteinte, vous ne pouvez plus éditer vos drafts tant que vous n’avez pas supprimé de contenu ou de draft (ou upgradé votre plan).
 		q5
 			q
-				Does Draft keep my data secure?
-				Draft n'est-il disponible que dans le cloud ?
+				With a Pro plan, can I collaborate without limitation with Free plan users?
+				Avec le plan Pro, puis-je collaborer sans limitation avec des utilisateurs gratuits ?
 			a
-				Yes, our number one priority is to ensure your data is secure at all times. We use HTTPS protocol with TLSv1.2 or higher in transit and AES 256 at rest to give you peace of mind.
-				Pour vous permettre de satisfaire vos exigences de sécurité internes, Draft peut également être installé on-premise. L’application serait alors hébergée par vos soins sur votre propre réseau. Le prix serait adapté au cas par cas en fonction de vos spécifications.
+				Yes, if you just share the link of your draft as Free plan users were guests, they can collaborate with you without any limitation. However, if they want to get permanent access to the draft and add it to their file explorer, it will increment their item counter.
+				Oui, lorsque vous partagez le lien de votre draft à des utilisateurs gratuits, ils peuvent collaborer avec vous sans limitation. Cependant, s’ils veulent conserver un accès permanent au draft en l’ajoutant à leur explorateur de fichiers, cela incrémentera leur compteur d’objets.
 		q6
 			q
+				Does Draft keep my data secure?
+				Est-ce que Draft conserve mes données en toute sécurité ?
+			a
+				Yes, our number one priority is to ensure your data is secure at all times. We use HTTPS protocol with TLSv1.2 or higher in transit and AES 256 at rest to give you peace of mind.
+				Oui, la sécurité de vos données est l’une de nos priorités principales. Nous utilisons le protocole HTTPS au standard TLSv1.2 (ou supérieur) pour protéger vos données en transit et le protocole de chiffrement AES 256 pour protéger vos données au repos.
+		q7
+			q
 				I want to use Draft for my team. What does the Team plan include?
-				Mes données sont-elles en sécurité ?
+				Je souhaite utiliser Draft avec mon équipe. Que contient le plan Team?
 			a
 				------
 				The Team plan was designed to streamline collaboration and knowledge management across teams and organizations. Key features include:
 				<ul style="margin-left:20px;margin-top:5px;margin-bottom:5px;list-style:initial;">
-					<li>Shared Sync Folder System: Anyone in a team can create folders to share easily with each other or with outside stakeholders (i.e. freelancers, agencies, customers, etc.).</li>
-					<li>Rich User Roles: Assign the right roles to each user within your Draft team, including manager, content manager, contributor, and viewer.</li>
+					<li><b>Shared Sync Folder System</b>: Anyone in a team can create folders to share easily with each other or with outside stakeholders (i.e. freelancers, agencies, customers, etc.).</li>
+					<li><b>Rich User Roles</b>: Assign the right roles to each user within your Draft team, including manager, content manager, contributor, and viewer.</li>
+					<li><b>Group Management</b>: Assign the right roles to each user within your Draft team, including manager, content manager, contributor, and viewer.</li>
 				</ul>
-				The Draft sync folder sharing system for teams is just as convenient and easy-to-use as other common file sharing tools like Dropbox or Google Drive.
+				The Draft sync folder sharing system for teams is just as convenient and easy-to-use as other common file-sharing tools like Dropbox or Google Drive.
 				---
-				Draft utilise le protocole TLSv1.2 pour sécuriser les échanges de données entre vos terminaux et ses serveurs. Cela en garantit la confidentialité.
-				<br /><br />
-				Draft héberge ses données en France sur des serveurs OVH. Vos données sont protégées sur nos serveurs avec le standard de chiffrement AES 256 et sauvegardées une fois par jour sur un serveur de backup situé dans un autre lieu géographique, lui aussi sécurisé.
-				------
-		q7
-			q
-				What is an ‘admin’ in a Team plan?
-				Je veux collaborer en équipe au sein de mon organisation, qu’en est-il du plan Team ?
-			a
-				------
-				You can assign one (or several) admins to manage your Team plan. Only admins can add or remove users as your team changes.
-				---
-				Le plan Team a été conçu pour faciliter la collaboration et la gestion de la connaissance au sein d’une organisation.
-				<br /><br />
-				Tout d’abord, tous les membres de la Team partage un système de fichiers commun. Il s’agit du lien privilégié du partage de l’information.
-				<br /><br />
-				Ensuite, pour chaque projet, chaque membre de la Team peut créer des dossiers et les partager avec n’importe quel autre membre de la Team ainsi qu’avec des collaborateurs externes à la Team (freelance, agences, clients, fournisseurs, etc.). C’est aussi flexible et pratique que Google Drive !
+				Le plan Team a été conçu pour vous permettre de collaborer et gérer l’accès à l’information de façon très flexible et efficace. Parmi les principales fonctionnalités :
+				<ul style="margin-left:20px;margin-top:5px;margin-bottom:5px;list-style:initial;">
+					<li><b>Système de dossiers partagés</b> : tous les membres de la Team peuvent créer des dossiers et les partager avec qui ils veulent, à l’intérieur ou à l’extérieur de la Team.</li>
+					<li><b>Gestion fine des droits d’accès et de partage</b> : différents rôles vous permettent d’accorder les bons droits aux bonnes personnes : responsable de dossier, gestionnaire de contenu, contributeur de contenu et lecture-seule.</li>
+					<li><b>Gestion par groupe d’utilisateurs</b> : vous pouvez rassembler dans des groupes les membres de la Team qui partagent des caractéristiques communes. De cette façon, au lieu d’effectuer le partage utilisateur par utilisateur, vous pouvez gérer aisément plusieurs membres de la Team à fois.</li>
+				</ul>
+				Ce système de dossiers partagés ressemble à celui de Dropbox ou Google Drive, et est aussi facile et pratique à utiliser.
 				------
 		q8
 			q
-				What is a ‘team member’ in a Team plan?
-				Qui administre la Team ?
+				What is an ‘admin’ in a Team plan?
+				Qu’est-ce qu’un “admin” dans le plan Team ?
 			a
-				A team member is anyone on a team having access to the shared sync folder system and other core Draft features. Unlike admins, they cannot add or remove users from your plan.
-				La license Team est administrée par un ou plusieurs administrateurs qui ont la capacité d’ajouter et retirer les accès à Team au fur et à mesure de l’évolution du périmètre de l’équipe.
+				------
+				You can assign one or several admins to manage your Team plan. Only admins can add or remove users as your team changes.
+				---
+				Vous pouvez désigner un ou plusieurs admins pour gérer votre Team. Les admins peuvent ajouter ou retirer librement des membres de la Team au fur et à mesure des départs et des arrivées dans votre organisation.
+				------
 		q9
 			q
+				What is a ‘team member’ in a Team plan?
+				Qu’est-ce qu’un “membre” dans le plan Team ?
+			a
+				A team member is anyone on a team having access to the shared sync folder system and other core Draft features. Unlike admins, they cannot add or remove users from your plan.
+				Un membre d’une Team est un utilisateur payant qui peut utiliser toutes les fonctionnalités de Draft, sans aucune limitation. Néanmoins, il n’a pas le pouvoir d’ajouter ou retirer d’autres membres de la Team.
+		q10
+			q
 				Do you offer discounts for education and non-profit organizations?
-				Proposez-vous une offre spéciale pour l’éducation et les ONG ?
+				Avez-vous un plan spécifique pour les ONG et l’éducation ?
 			a
 				Yes, we do! Please contact us at <a href="mailto:hi@draft.io">hi@draft.io</a> to learn more.
-				Oui, faciliter l’accès à l’éducation et à la connaissance à tout un chacun est l’une de nos missions les plus importantes. Nous vous invitons à nous contacter pour en discuter à l’adresse suivante : <a href="mailto:hi@draft.io">hi@draft.io</a>.
+				Oui, contactez-nous à l’adresse <a href="mailto:hi@draft.io">hi@draft.io</a> pour en parler ensemble.
 	register
 		Sign up
 		S'inscrire
@@ -166,13 +174,13 @@ pricing
 			/user/mo
 			/util/mo
 		uy
-			/user/ye
+			/user/yr
 			/util/an
 		pum
 			Price/user/mo
 			Prix/util/mo
 		puy
-			Price/user/ye
+			Price/user/yr
 			Prix/util/an
 		features
 			client-success-management
@@ -201,7 +209,7 @@ pricing
 			/mo
 			/mo
 		uy
-			/ye
+			/yr
 			/an
 		features
 			all

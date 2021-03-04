@@ -3,8 +3,8 @@
     "forever": "Forever",
     "faq": {
       "q1": {
-        "q": "What are drafts?",
-        "a": "Drafts are what we call our visual and collaborative digital documents that support creative and knowledge-based work, including Agile project management and product development."
+        "q": "What is a draft?",
+        "a": "A draft is what we call our visual and collaborative digital document that supports creative and knowledge-based work, including Agile project management and product development."
       },
       "q2": {
         "q": "Can I use Draft for free?",
@@ -19,22 +19,26 @@
         "a": "The biggest difference between these two plans is based on how much content you can add to your drafts. In the Free plan, you can create up to 500 items across all of your drafts. In the Pro plan, there are no limits whatsoever."
       },
       "q5": {
+        "q": "With a Pro plan, can I collaborate without limitation with Free plan users?",
+        "a": "Yes, if you just share the link of your draft as Free plan users were guests, they can collaborate with you without any limitation. However, if they want to get permanent access to the draft and add it to their file explorer, it will increment their item counter."
+      },
+      "q6": {
         "q": "Does Draft keep my data secure?",
         "a": "Yes, our number one priority is to ensure your data is secure at all times. We use HTTPS protocol with TLSv1.2 or higher in transit and AES 256 at rest to give you peace of mind."
       },
-      "q6": {
-        "q": "I want to use Draft for my team. What does the Team plan include?",
-        "a": "The Team plan was designed to streamline collaboration and knowledge management across teams and organizations. Key features include:<ul style=\"margin-left:20px;margin-top:5px;margin-bottom:5px;list-style:initial;\"><li>Shared Sync Folder System: Anyone in a team can create folders to share easily with each other or with outside stakeholders (i.e. freelancers, agencies, customers, etc.).</li><li>Rich User Roles: Assign the right roles to each user within your Draft team, including manager, content manager, contributor, and viewer.</li></ul>The Draft sync folder sharing system for teams is just as convenient and easy-to-use as other common file sharing tools like Dropbox or Google Drive."
-      },
       "q7": {
-        "q": "What is an ‘admin’ in a Team plan?",
-        "a": "You can assign one (or several) admins to manage your Team plan. Only admins can add or remove users as your team changes."
+        "q": "I want to use Draft for my team. What does the Team plan include?",
+        "a": "The Team plan was designed to streamline collaboration and knowledge management across teams and organizations. Key features include:<ul style=\"margin-left:20px;margin-top:5px;margin-bottom:5px;list-style:initial;\"><li><b>Shared Sync Folder System</b>: Anyone in a team can create folders to share easily with each other or with outside stakeholders (i.e. freelancers, agencies, customers, etc.).</li><li><b>Rich User Roles</b>: Assign the right roles to each user within your Draft team, including manager, content manager, contributor, and viewer.</li><li><b>Group Management</b>: Assign the right roles to each user within your Draft team, including manager, content manager, contributor, and viewer.</li></ul>The Draft sync folder sharing system for teams is just as convenient and easy-to-use as other common file-sharing tools like Dropbox or Google Drive."
       },
       "q8": {
+        "q": "What is an ‘admin’ in a Team plan?",
+        "a": "You can assign one or several admins to manage your Team plan. Only admins can add or remove users as your team changes."
+      },
+      "q9": {
         "q": "What is a ‘team member’ in a Team plan?",
         "a": "A team member is anyone on a team having access to the shared sync folder system and other core Draft features. Unlike admins, they cannot add or remove users from your plan."
       },
-      "q9": {
+      "q10": {
         "q": "Do you offer discounts for education and non-profit organizations?",
         "a": "Yes, we do! Please contact us at <a href=\"mailto:hi@draft.io\">hi@draft.io</a> to learn more."
       }
@@ -72,9 +76,9 @@
       "from": "From",
       "users": "Users",
       "um": "/user/mo",
-      "uy": "/user/ye",
+      "uy": "/user/yr",
       "pum": "Price/user/mo",
-      "puy": "Price/user/ye",
+      "puy": "Price/user/yr",
       "features": {
         "client-success-management": "Client success management",
         "admin-interface": "Team administration interface",
@@ -87,7 +91,7 @@
       "title": "Pro",
       "punchline": "Get unlimited access to Draft tools",
       "um": "/mo",
-      "uy": "/ye",
+      "uy": "/yr",
       "features": {
         "all": "All Free plan features",
         "unlimited-objects": "Unlimited items",
