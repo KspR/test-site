@@ -130,8 +130,8 @@ pricing
 				Tailor-made pricing depending on the options you take
 				Prix sur-mesure en fonction des options que vous choisissez
 			custom-contract
-				Customized contract on top of our general terms and conditions
-				Contrat personnalisé en complément de nos termes et conditions
+				Customized contract to complete our terms and conditions
+				Contrat personnalisé en complément des termes et conditions
 			sso
 				SSO with multiple identity providers via SAML 2.0
 				SSO avec plusieurs identity providers via SAML 2.0
@@ -185,7 +185,7 @@ pricing
 		features
 			client-success-management
 				Client success management
-				Accompagnement dédié à votre réussite
+				Accompagnement dédié
 			admin-interface
 				Team administration interface
 				Interface d’administration de la Team
@@ -194,7 +194,7 @@ pricing
 				Gestion par groupe d’utilisateurs
 			password-protection
 				Password protection per folder
-				Protection par mot de passe des dossiers
+				Protection par mdp des dossiers
 			phone-support
 				24/7 customer support
 				Support téléphonique et email 7j/7
@@ -234,16 +234,16 @@ pricing
 		features
 			up-to-500-objects
 				Up to 500 objects across drafts
-				Jusqu’à 500 objets à travers tous vos drafts
+				Jusqu’à 500 objets à travers vos drafts
 			unlimited-drafts
 				Unlimited drafts and link sharing
 				Création et partage de drafts illimités
 			unlimited-url-sharing
 				Unlimited guest editors
-				Nombre d’invités sur vos drafts illimité
+				Nombre d’invités illimité
 			unlimited-guests
 				Password protection per draft
-				Protection par mot de passe des drafts
+				Protection par mdp des drafts
 			one-shared-folder
 				Manual local backup
 				Backup local

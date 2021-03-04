@@ -57,7 +57,7 @@
       "punchline": "Prêt à être déployé dans votre organisation",
       "features1": {
         "tailor-made-pricing": "Prix sur-mesure en fonction des options que vous choisissez",
-        "custom-contract": "Contrat personnalisé en complément de nos termes et conditions",
+        "custom-contract": "Contrat personnalisé en complément des termes et conditions",
         "sso": "SSO avec plusieurs identity providers via SAML 2.0",
         "visitor-role": "Rôle visiteur pour contrôler le partage par lien"
       },
@@ -80,10 +80,10 @@
       "pum": "Prix/util/mo",
       "puy": "Prix/util/an",
       "features": {
-        "client-success-management": "Accompagnement dédié à votre réussite",
+        "client-success-management": "Accompagnement dédié",
         "admin-interface": "Interface d’administration de la Team",
         "group-management": "Gestion par groupe d’utilisateurs",
-        "password-protection": "Protection par mot de passe des dossiers",
+        "password-protection": "Protection par mdp des dossiers",
         "phone-support": "Support téléphonique et email 7j/7"
       }
     },
@@ -103,10 +103,10 @@
       "title": "Gratuit",
       "punchline": "Créez votre premier draft maintenant",
       "features": {
-        "up-to-500-objects": "Jusqu’à 500 objets à travers tous vos drafts",
+        "up-to-500-objects": "Jusqu’à 500 objets à travers vos drafts",
         "unlimited-drafts": "Création et partage de drafts illimités",
-        "unlimited-url-sharing": "Nombre d’invités sur vos drafts illimité",
-        "unlimited-guests": "Protection par mot de passe des drafts",
+        "unlimited-url-sharing": "Nombre d’invités illimité",
+        "unlimited-guests": "Protection par mdp des drafts",
         "one-shared-folder": "Backup local",
         "jira-integration": "Intégration Jira"
       }
