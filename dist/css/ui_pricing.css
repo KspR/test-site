@@ -485,6 +485,13 @@ body .period-alt .container .inner {
   display: none;
   padding-bottom: 10px;
 }
+.page-pricing .faq .questions .qa .answer ul {
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  list-style: initial;
+  margin-bottom: 20px;
+}
 .page-pricing .faq .questions .qa + .qa {
   margin-top: 20px;
 }
