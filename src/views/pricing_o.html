@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="{{lang.code}}">
+  <head profile="http://www.w3.org/2005/10/profile">
+  	<!-- PRODONLY
+    <% if JSON_CONFIG["google-tag-manager"] %>
+      <%= render "partials/google_tag_manager_head" %>
+    <% end %>
+    END -->
+
+    {{{includes.css}}}
+
+    <link rel="icon" href="/favicon.png?v=5" />
+
+    <title>{{lang.pricing.pageTitle}}</title>
+    <meta name="description" content="{{lang.pricing.pageDescription}}" />
+    <meta name="viewport" content="width=device-width;user-scalable=no,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+
+    <!-- PRODONLY
+    <link rel="alternate" href="<%= JSON_CONFIG['host'] %>/fr/pricing" 
+      hreflang="x-default" />
+    <link rel="alternate" href="<%= JSON_CONFIG['host'] %>/pricing" 
+      hreflang="en-GB" />
+    <link rel="alternate" href="<%= JSON_CONFIG['host'] %>/pricing" 
+      hreflang="en-US" />
+    <link rel="alternate" href="<%= JSON_CONFIG['host'] %>/fr/pricing" 
+      hreflang="fr-FR" />
+    <% if @lang.code == 'en' %>
+      <link rel="canonical" href="<%= JSON_CONFIG['host'] %>/pricing">
+    <% else %>
+      <link rel="canonical" href="<%= JSON_CONFIG['host'] %>/fr/pricing">
+    <% end %>
+    END -->
+  </head>
+
+  <body class="page-pricing has-header yearly dark lang-{{lang.code}} header-pricing">
+  	<!-- PRODONLY
+    <% if JSON_CONFIG["google-tag-manager"] %>
+      <%= render "partials/google_tag_manager_body" %>
+    <% end %>
+    END -->
+
+    {{{includes.header}}}
+
+    <div class="plans-wrapper bloc row">
+      <div class="title">{{{lang.pricing.title}}}</div>
+      <div class="baseline">{{{lang.pricing.baseline}}}</div>
+
+      <div class="period-alt">
+        <div class="wrapper wrapper-yearly">
+          <div class="period-yearly">{{{lang.pricing.periodYearly}}}</div>
+          <div class="separator-yearly"></div>
+        </div>
+        <div class="wrapper wrapper-monthly">
+          <div class="separator-monthly"></div>
+          <div class="period-monthly">{{{lang.pricing.periodMonthly}}}</div>
+        </div>
+      </div>
+
+    <div class="cell">
+      <div class="plans-bloc">
+        <div class="plan free">
+          <div class="top-bloc">
+            <div class="top-row">
+              <div class="plan-title">{{{lang.pricing.free.title}}}</div>
+              <div class="price-wrapper">
+                <div class="price"></div>
+                <div class="price-detail">{{{lang.pricing.forever}}}</div>
+              </div>
+            </div>
+            <div class="punch">{{{lang.pricing.free.punchline}}}</div>
+          </div>
+
+          <ul class="features">
+            {{#each pricing.free.features}}
+            	{{#with (lookup ../lang.pricing.free.features this)}}
+              	<li class="feature">{{{this}}}</li>
+            	{{/with}}
+            {{/each}}
+          </ul>
+
+          <a href="{{{lang.hrefRoot}}}get-started" class="cta">{{{lang.pricing.register}}}</a>
+        </div>
+
+        <div class="plan pro">
+          <div class="top-bloc">
+            <div class="top-row">
+              <div class="plan-title">{{{lang.pricing.pro.title}}}</div>
+              <div class="price-wrapper">
+                <div class="price if-yearly">8.33€</div><div class="price if-monthly">10€</div>
+                <div class="price-detail">/mo</div>
+              </div>
+            </div>
+            <div class="punch">{{{lang.pricing.pro.punchline}}}</div>
+          </div>
+
+
+          <ul class="features">
+            {{#each pricing.pro.features}}
+            	{{#with (lookup ../lang.pricing.pro.features this)}}
+              	<li class="feature">{{{this}}}</li>
+            	{{/with}}
+            {{/each}}
+          </ul>
+
+          <a href="{{{lang.hrefRoot}}}get-started" class="cta">{{{lang.pricing.register}}}</a>
+        </div>
+
+        <div class="plan team">
+          <div class="top-bloc">
+            <div class="top-row">
+              <div class="plan-title">{{{lang.pricing.team.title}}}</div>
+              <div class="price-wrapper">
+                <div class="from">{{{lang.pricing.team.from}}}</div>
+                <div class="price if-yearly">8.33€</div><div class="price if-monthly">10€</div>
+                <div class="price-detail">{{{lang.pricing.team.um}}}</div>
+                <div class="triangle">▼</div>
+              </div>
+            </div>
+            <table class="price-grid">
+              <tr>
+                <td>{{{lang.pricing.team.users}}}</td>
+                <td>{{{lang.pricing.team.pum}}}</td>
+              </div>
+              {{#each pricing.team.price}}
+              	<tr>
+                  <td>{{this.[0]}}</td>
+                  <td class="if-yearly"><span>{{this.[1]}}</span> <span class="euro">€</span></td>
+                  <td class="if-monthly"><span>{{this.[2]}}</span> <span class="euro">€</span></td>
+                </tr>
+	            {{/each}}
+            </table>
+
+            <div class="punch">{{{lang.pricing.team.punchline}}}</div>
+            <!--< div class="price-detail">
+              <div style="cursor:default">
+                <div class="per">per user/month</div>
+                <div class="expand" style="cursor:default;text-decoration:none">(depending on your team's size)</div>
+              </div>
+            </div>-->
+            
+          </div>
+
+          <ul class="features">
+            {{#each pricing.team.features}}
+            	{{#with (lookup ../lang.pricing.team.features this)}}
+              	<li class="feature">{{{this}}}</li>
+            	{{/with}}
+            {{/each}}
+          </ul>
+
+          <a href="mailto:hi@draft.io?subject={{{lang.pricing.team.contactSubject}}}" class="cta-border">Contact us</a>
+        </div>
+
+
+<!-- 
+        <div class="plan meeting-room">
+          <div class="title-bloc">
+            <div class="plan-title">Small Teams<br />250€ / year<sup>(1)</sup></div>
+          </div>
+
+          <div class="features">
+            <div class="feature">1 TouchScreen license + 3 Pro licenses (25% discount)</div>
+          </div>
+        </div> -->
+      </div>
+
+      <div class="precisions">
+        <!-- (1) Excluding VAT. Billed annually.<br /> -->
+      </div>
+    </div>
+    </div>
+
+    <div class="faq">
+      <div class="faq-title">
+        FAQ
+      </div>
+      <div class="table">
+        <div class="tr">
+          <div class="td">
+          	{{#each pricing.faq.left-qs}}
+          		{{#with (lookup ../lang.pricing.faq this)}}
+	              <div class="qa">
+	                <div class="question">{{{this.q}}}</div>
+	                <div class="answer">{{{this.a}}}</div>
+	              </div>
+	            {{/with}}
+	          {{/each}}
+          </div>
+          <div class="td">
+          	{{#each pricing.faq.right-qs}}
+          		{{#with (lookup ../lang.pricing.faq this)}}
+	              <div class="qa">
+	                <div class="question">{{{this.q}}}</div>
+	                <div class="answer">{{{this.a}}}</div>
+	              </div>
+	            {{/with}}
+	          {{/each}}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {{{includes.get_started_last_bloc}}}
+    {{{includes.footer}}}
+
+    <script>
+      var current = 'yearly';
+      var togglePayment = function(e) {
+        e.stopPropagation();
+        e.preventDefault();
+        if (current === 'monthly') {
+          document.body.classList.remove('monthly');
+          document.body.classList.add('yearly');
+          current = 'yearly';
+        }
+        else {
+          document.body.classList.add('monthly');
+          document.body.classList.remove('yearly');
+          current = 'monthly';
+        }
+      };
+      // document.querySelector('.period-alt .container').addEventListener('mousedown', togglePayment);
+      // document.querySelector('.period-alt .container').addEventListener('touchstart', togglePayment);
+
+      var toggleGrid = function(e) {
+        e.stopPropagation();
+        e.preventDefault();
+        var el = document.querySelector('.plan.team');
+        if (el.classList.contains('down')) {
+          el.classList.remove('down');
+        }
+        else {
+          el.classList.add('down');
+        }
+      };
+
+      document.querySelector('.plan.team .price-wrapper').addEventListener('mousedown', toggleGrid);
+      document.querySelector('.plan.team .price-wrapper').addEventListener('touchstart', toggleGrid);
+
+      var f1 = function(e) {
+        e.stopPropagation();
+        e.preventDefault();
+        if (current === 'yearly') {
+          togglePayment(e);
+        }
+      };
+      document.querySelector('.period-alt .period-monthly').addEventListener('mousedown', f1);
+      document.querySelector('.period-alt .period-monthly').addEventListener('touchstart', f1);
+      
+      var f2 = function(e) {
+        e.stopPropagation();
+        e.preventDefault();
+        if (current === 'monthly') {
+          togglePayment(e);
+        }
+      }
+      document.querySelector('.period-alt .period-yearly').addEventListener('mousedown', f2);
+      document.querySelector('.period-alt .period-yearly').addEventListener('touchstart', f2);
+      
+      document.querySelector('.period-alt .save').addEventListener('mousedown', f2);
+      document.querySelector('.period-alt .save').addEventListener('touchstart', f2);
+      // document.querySelector('.plan.team .price-detail .expand').addEventListener('mousedown', function() {
+      //   document.querySelector('.plan.team').setAttribute('class', 'plan team down');
+      // });
+    </script>
+  </body>
+</html>

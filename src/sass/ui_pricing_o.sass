@@ -1,0 +1,537 @@
+@import colors
+
+
+body.yearly
+  .period-alt
+    .separator-monthly
+      display : block
+      
+    .period-yearly
+      background-color : $orange
+      color : white
+
+    .period-monthly
+      color : white
+      background-color : #3c3c3c
+
+    .wrapper-monthly
+      cursor : pointer
+
+      &:hover
+        .period-monthly
+          background-color : $orangeDark
+          transition : background-color 150ms ease-out
+
+        .separator-monthly
+          border-color : transparent $orangeDark $orange transparent
+          transition : border-color 150ms ease-out
+
+body.monthly
+  .period-alt
+    .separator-yearly
+      display : block
+
+    .period-monthly
+      background-color : $orange
+      color : white
+
+    .period-yearly
+      color : white
+      background-color : #3c3c3c
+
+      &:hover
+        background-color : $orangeDark
+
+    .wrapper-yearly
+      cursor : pointer
+      
+      &:hover
+        .period-yearly
+          background-color : $orangeDark
+          transition : background-color 150ms ease-out
+
+        .separator-yearly
+          border-color : transparent $orange $orangeDark transparent
+          transition : border-color 150ms ease-out
+
+body.monthly
+  .if-yearly
+    display : none
+
+body.yearly
+  .if-monthly
+    display : none
+
+body
+  .period-alt
+    overflow : hidden
+    color : #777
+    margin-bottom : 60px
+    font-size : 16px
+    float : left
+    -webkit-font-smoothing : antialiased
+    line-height : 22px
+
+    .separator-monthly
+      display : none
+      width : 0
+      height : 0
+      border-style : solid
+      border-width : 0 20px 42px 0
+      border-color : transparent #3c3c3c $orange transparent
+      transform : scale(1.0001)
+
+    .separator-yearly
+      display : none
+      width : 0
+      height : 0
+      border-style : solid
+      border-width : 0 20px 42px 0
+      border-color : transparent $orange #3c3c3c transparent
+      transform : scale(1.0001)
+
+    .wrapper
+      > div
+        float : left
+
+    .period-yearly
+      span
+        position : relative
+        left : 5px
+
+    .period-monthly
+      span
+        position : relative
+        left : -5px
+
+    .period-yearly, .period-monthly
+      cursor : pointer
+      text-align : center
+
+    .period-monthly
+      border-top-right-radius : 40px
+      border-bottom-right-radius : 40px
+
+    .period-yearly
+      border-top-left-radius : 40px
+      border-bottom-left-radius : 40px
+
+    > div
+      float : left
+      cursor : default
+
+    .save
+      margin-left : 5px
+      color : #999
+
+    .container
+      border-radius : 12px
+      background-color : #eee
+      height : 18px
+      width : 30px
+      margin : 1px 5px 0 5px
+      color : #777
+      border : 1px solid #aaa
+      box-sizing : border-box
+      cursor : pointer
+
+      &:hover
+        background-color : #dfdfdf
+
+      transition : background-color 150ms ease
+
+      .inner
+        border-radius : 50%
+        background-color : $orange
+        width : 12px
+        height : 12px
+        margin : 2px
+
+        transition : transform 200ms ease
+
+@media only screen and (min-width: 1080px)
+  .page-pricing
+    .faq
+      .faq-title
+        font-size : 2em
+        text-align : center
+        margin-bottom : 90px
+
+      .table
+        display : table
+        width : calc(920px + 80px)
+        margin-left : calc(50% - (920px + 80px) / 2)
+
+        .tr
+          display : table-row
+
+          .td
+            display : table-cell
+
+          .td:first-child
+            padding-right : 40px
+
+          .td:last-child
+            padding-left : 40px
+
+        .qa
+          width : 460px
+
+          .question
+            font-family : bold
+            font-size : 1.25em
+            color : #eee
+
+        .qa:not(:first-child)
+          margin-top : 40px
+
+        .answer
+          margin-top : 20px
+          color : #bbb
+
+
+@media only screen and (max-width: 1080px)
+  .page-pricing
+    .faq
+      padding : 3em 2em !important
+
+      .faq-title
+        font-size : 24px
+        text-align : center
+        margin-bottom : 1em
+
+      .table
+        .qa
+          text-align : center
+
+          .question
+            font-weight : 600
+            font-size : 18px
+
+        .td:first-child
+          .qa:not(:first-child)
+            margin-top : 3em
+
+        .td:not(:first-child)
+          .qa
+            margin-top : 3em
+
+        .answer
+          margin-top : 10px
+          font-size : 16px
+
+.page-pricing
+  -webkit-font-smoothing : antialiased
+
+  .faq
+    padding : 120px 0
+    background-color : #323232
+
+  // overflow-y : auto
+  // display : -webkit-flex
+  // display : -ms-flex
+  // display : -moz-flex
+  // display : flex
+  // -moz-flex-direction : column
+  // -ms-flex-direction : column
+  // -webkit-flex-direction : column
+  // flex-direction : column
+
+  .plans-wrapper
+    width : 1080px
+    margin-left : calc(50% - 1080px/2)
+    margin-bottom : 120px
+    box-sizing : border-box
+    overflow : hidden
+
+    // flex : 1
+    @media only screen and (max-width: 1180px)
+      margin-top : 50px
+
+    @media only screen and (min-width: 1180px)
+      margin-top : 50px
+
+    .cell
+      position : relative
+      top : calc(50% - 173px)
+
+    .precisions
+      float : left
+      color : #a5a5a5
+      font-size : 13px
+
+    .plans-bloc
+      float : left
+      width : 100%
+
+      .plan:nth-child(2), .plan:nth-child(3), .plan:nth-child(4)
+        margin-left : 30px
+
+      .plan
+        .cta, .cta-border
+          width : calc(100% - 40px)
+          margin-left : 20px
+          box-sizing : border-box
+          margin-top : 60px
+          margin-bottom : 30px
+          text-align : center
+          padding : 10px 24px
+
+      .plan
+        float : left
+        width : 340px
+        box-sizing : border-box
+        background-color : #373737
+
+        .cta-border
+          color : white
+
+        .top-bloc
+          overflow : hidden
+          color : white
+
+          .punch
+            float : left
+            margin-left : 20px
+            margin-top : 30px
+            margin-bottom : 15px
+
+          .top-row
+            float : left
+            width : 100%
+            padding : 20px
+            background-color : #3c3c3c
+            box-sizing : border-box
+
+            .plan-title
+              float : left
+
+            .price-wrapper
+              float : right
+
+              > div
+                float : left
+
+              .price-detail
+                margin-top : 14px
+                font-size : 14px
+
+            .price
+              font-size : 20px
+              position : relative
+              top : 5px
+
+            .price-detail
+              font-size : 16px
+              color : $orange
+              margin-left : 7px
+              position : relative
+              top : -2px
+
+          .click-to-start
+            text-align : center
+            font-size : 16px
+            font-family : regular
+
+          .price-grid
+            width : calc(100% - 40px)
+            float : left
+            margin-left : 20px
+            margin-top : 20px
+            border-collapse : collapse
+
+            tr
+              td
+                padding : 10px 20px
+
+              td:first-child
+                text-align : left
+
+              td:not(:first-child)
+                text-align  : right
+
+            tr:first-child
+              td
+                color : $orange
+
+            tr:nth-child(2n+1)
+              background-color : #414141
+
+            tr:nth-child(2n)
+              background-color : #474747
+
+            tr:not(:first-child)
+              td:not(:first-child)
+                span:not(.euro)
+                  font-weight : 600
+
+                .euro
+                  color : #aaa
+
+        .features
+          float : left
+          list-style-position : inside
+          list-style : none
+          opacity : .8
+          margin : 0 20px
+
+          li::before
+            content : "\2022"
+            color : $orange
+            display : inline-block
+            margin-right : 10px
+
+          .feature
+            font-family : regular
+
+            &:not(:last-child)
+              margin-bottom : 10px
+
+          .feature:not(:first-child)
+            margin-top : 5px
+
+        .button-0
+          margin-top : 20px
+          margin-bottom : 20px
+
+      .plan.team
+        .price-wrapper
+          border : 1px solid #555
+          border-radius : 30px
+          padding : 2px 10px
+          position : relative
+          top : 3px
+          cursor : pointer
+          transition : border 150ms ease-out
+
+          &:hover
+            border : 1px solid #aaa
+
+            .triangle
+              color : #aaa
+
+          .from
+            font-size : 14px
+            margin-right : 5px
+            position : relative
+            top : 5px
+
+          .price
+            position : relative
+            top : 0
+
+          .price-detail
+            margin-top : 7px !important
+
+          .triangle
+            font-size : 11px
+            margin-top : 7px
+            margin-left : 7px
+            color : #777
+
+            transition : color 150ms ease-out
+
+        &.down
+          .triangle
+            transform : rotate(180deg)
+
+        &:not(.down)
+          .top-bloc
+            .price-grid
+              display : none
+
+  .faq.bloc
+    position : relative
+    margin-top : 50px
+    margin-bottom : 80px
+    float : left
+    width : 100%
+
+    .faq-title
+      width : 100%
+      text-align : center
+      position : relative
+      float : left
+      top : 0
+      left : 0
+      margin-bottom : 30px
+      font-family : bold
+      font-size : 22px
+      color : #aaa
+
+    //340
+    .faq-wrapper
+      width : 810px
+      float : left
+      clear : left
+      margin-left : calc(50% - 405px)
+
+      .bloc-title
+        margin-bottom : 60px
+
+      .faq-col:nth-child(3n+2)
+        margin : 0 30px
+
+      .faq-col
+        width : 250px
+        float : left
+
+        .faq-bloc:first-child
+          margin-bottom : 40px
+
+      .faq-col:nth-child(3n+2)
+        .faq-bloc-title
+          color : #6cc4c3
+
+      .faq-col:nth-child(3n+1)
+        .faq-bloc-title
+          color : #93ca84
+
+      .faq-col:nth-child(3n)
+        .faq-bloc-title
+          color : #ebc23b
+
+      .faq-bloc
+        width : 250px
+        float : left
+
+        .faq-bloc-title
+          text-align : center
+          font-family : bold
+          font-size : 17px
+          text-transform : uppercase
+          margin-bottom : 10px
+          color : #283036 !important
+
+        .faq-bloc-text
+          text-align : justify
+          font-family : regular
+          font-size : 14px
+          color : #5a5a5a
+
+@media only screen and (max-width: 1180px)
+  .page-pricing
+    display : block
+
+    .plans-wrapper
+      margin-left : 0 !important
+      width : 100% !important
+
+      .cell
+        top : 0
+
+      .plans-bloc
+        width : 300px
+        margin-left : calc(50% - 150px)
+
+        .plan
+          width : 300px
+          margin-left : 0 !important
+
+        .plan:not(:first-child)
+          margin-top : 30px
+
+      .precisions
+        margin-left : calc(50% - 135px)
+        margin-top : 20px
+        margin-bottom : 20px

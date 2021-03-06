@@ -609,25 +609,8 @@ body
 				cursor : pointer
 
 				.toggle-wrapper
-					.toggle, .dropdown-invite
+					.toggle
 						display : inline-block
-
-					.dropdown-invite
-						margin-left : 5px
-						width : 10px
-						height : 7px
-						background-size : contain
-						background-repeat : no-repeat
-						background-position : center
-						background-image : url("tmp/2020-03/site/header-dropdown.png")
-
-						opacity : .8
-						transition : opacity 150ms ease-out
-
-					&:hover
-						.dropdown-invite
-							opacity : 1
-
 
 				&:hover
 					border-bottom : 1px solid transparent !important
@@ -869,24 +852,8 @@ body
 
 					line-height : 40px
 
-					.toggle, .dropdown-invite
+					.toggle
 						display : inline-block
-
-					.dropdown-invite
-						margin-left : 5px
-						width : 10px
-						height : 7px
-						background-size : contain
-						background-repeat : no-repeat
-						background-position : center
-						background-image : url("tmp/2020-03/site/header-dropdown.png")
-
-						opacity : .8
-						transition : opacity 150ms ease-out
-
-					&:hover
-						.dropdown-invite
-							opacity : 1
 
 				.menu-wrapper
 					position : relative
@@ -897,6 +864,12 @@ body
 						.menu
 							opacity : 1
 							pointer-events : initial
+
+					.fas
+						font-size : .6em
+						margin-left : 5px
+						position : relative
+						top : -1px
 
 				.menu
 					z-index : 1

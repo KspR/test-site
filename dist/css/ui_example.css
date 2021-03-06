@@ -351,6 +351,7 @@
 }
 .ui_example .examples-nav .wrapper .text-link:hover {
   opacity: 0.8;
+  color: white;
 }
 .ui_example .examples-nav .wrapper .current-example {
   max-width: calc((100% - 41px * 2 - 2px) / 3);

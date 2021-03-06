@@ -1,0 +1,252 @@
+pricing
+	forever
+		Forever
+		Pour toujours
+	faq
+		q1
+			q
+				What is a draft?
+				Qu’est-ce qu’un draft ?
+			a
+				A draft is what we call our visual and collaborative digital document that supports creative and knowledge-based work, including Agile project management and product development.
+				Un draft est un document collaboratif, visuel et extrêmement malléable. Ce format de document a été imaginé comme support idéal de recherche, de réflexion, de prise de décision, et de management visuel.
+		q2
+			q
+				Can I use Draft for free?
+				Puis-je utiliser Draft gratuitement ?
+			a
+				Yes, you can start using Draft now for free by signing up for a Free plan. It gives you access to 500 free items (across unlimited drafts), unlimited sharing, and more.
+				Bien sûr, notre plan gratuit est illimité dans le temps et vous permet d’utiliser jusqu’à 500 objets cumulés à travers tous vos drafts, seul ou bien à plusieurs, avec d’autres utilisateurs ou invités, sans aucune limitation en matière de partage et de collaboration.
+		q3
+			q
+				What do you mean by an ‘unlimited number’ of guests?
+				Qu’entendez-vous par aucune limitation en matière de partage et de collaboration ?
+			a
+				Each draft you create comes equipped with its own URL. Regardless of the plan you’re on, you can grant access to your drafts to as many people as you want—whether they are Draft users or not—just by sharing the URL. There are no apps to download. There is no registration required. Just share a link and start collaborating with whomever you choose, instantly.
+				La collaboration et le partage occupent une place centrale dans notre vision produit. En effet, chaque draft possède sa propre URL et peut-être partagé à qui vous le souhaitez, que ce soit d’autres utilisateurs ayant également un compte Draft ou des invités ponctuels. Ces derniers n’ont pas besoin de se créer de compte pour collaborer : ils peuvent commencer à contribuer en quelques secondes.
+		q4
+			q
+				What's the difference between the Free and Pro plans?
+				Quelle est la différence entre le plan Gratuit et le plan Pro ?
+			a
+				The biggest difference between these two plans is based on how much content you can add to your drafts. In the Free plan, you can create up to 500 items across all of your drafts. In the Pro plan, there are no limits whatsoever.
+				La principale différence réside dans le fait que le plan Pro vous permet d’utiliser Draft au-delà de la limite des 500 objets, sans aucune autre limitation par la suite. Alors qu’avec le plan Gratuit, une fois cette limitation atteinte, vous ne pouvez plus éditer vos drafts tant que vous n’avez pas supprimé de contenu ou de draft (ou upgradé votre plan).
+		q5
+			q
+				With a Pro plan, can I collaborate without limitation with Free plan users?
+				Avec le plan Pro, puis-je collaborer sans limitation avec des utilisateurs gratuits ?
+			a
+				Yes, if you just share the link of your draft as Free plan users were guests, they can collaborate with you without any limitation. However, if they want to get permanent access to the draft and add it to their file explorer, it will increment their item counter.
+				Oui, lorsque vous partagez le lien de votre draft à des utilisateurs gratuits, ils peuvent collaborer avec vous sans limitation. Cependant, s’ils veulent conserver un accès permanent au draft en l’ajoutant à leur explorateur de fichiers, cela incrémentera leur compteur d’objets.
+		q6
+			q
+				Does Draft keep my data secure?
+				Est-ce que Draft conserve mes données en toute sécurité ?
+			a
+				Yes, our number one priority is to ensure your data is secure at all times. We use HTTPS protocol with TLSv1.2 or higher in transit and AES 256 at rest to give you peace of mind.
+				Oui, la sécurité de vos données est l’une de nos priorités principales. Nous utilisons le protocole HTTPS au standard TLSv1.2 (ou supérieur) pour protéger vos données en transit et le protocole de chiffrement AES 256 pour protéger vos données au repos.
+		q7
+			q
+				I want to use Draft for my team. What does the Team plan include?
+				Je souhaite utiliser Draft avec mon équipe. Que contient le plan Team?
+			a
+				------
+				The Team plan was designed to streamline collaboration and knowledge management across teams and organizations. Key features include:
+				<ul>
+					<li><b>Shared Sync Folder System</b>: Anyone in a team can create folders to share easily with each other or with outside stakeholders (i.e. freelancers, agencies, customers, etc.).</li>
+					<li><b>Rich User Roles</b>: Assign the right roles to each user within your Draft team, including manager, content manager, contributor, and viewer.</li>
+					<li><b>Group Management</b>: Assign the right roles to each user within your Draft team, including manager, content manager, contributor, and viewer.</li>
+				</ul>
+				The Draft sync folder sharing system for teams is just as convenient and easy-to-use as other common file-sharing tools like Dropbox or Google Drive.
+				---
+				Le plan Team a été conçu pour vous permettre de collaborer et gérer l’accès à l’information de façon très flexible et efficace. Parmi les principales fonctionnalités :
+				<ul>
+					<li><b>Système de dossiers partagés</b> : tous les membres de la Team peuvent créer des dossiers et les partager avec qui ils veulent, à l’intérieur ou à l’extérieur de la Team.</li>
+					<li><b>Gestion fine des droits d’accès et de partage</b> : différents rôles vous permettent d’accorder les bons droits aux bonnes personnes : responsable de dossier, gestionnaire de contenu, contributeur de contenu et lecture-seule.</li>
+					<li><b>Gestion par groupe d’utilisateurs</b> : vous pouvez rassembler dans des groupes les membres de la Team qui partagent des caractéristiques communes. De cette façon, au lieu d’effectuer le partage utilisateur par utilisateur, vous pouvez gérer aisément plusieurs membres de la Team à fois.</li>
+				</ul>
+				Ce système de dossiers partagés ressemble à celui de Dropbox ou Google Drive, et est aussi facile et pratique à utiliser.
+				------
+		q8
+			q
+				What is an ‘admin’ in a Team plan?
+				Qu’est-ce qu’un “admin” dans le plan Team ?
+			a
+				------
+				You can assign one or several admins to manage your Team plan. Only admins can add or remove users as your team changes.
+				---
+				Vous pouvez désigner un ou plusieurs admins pour gérer votre Team. Les admins peuvent ajouter ou retirer librement des membres de la Team au fur et à mesure des départs et des arrivées dans votre organisation.
+				------
+		q9
+			q
+				What is a ‘team member’ in a Team plan?
+				Qu’est-ce qu’un “membre” dans le plan Team ?
+			a
+				A team member is anyone on a team having access to the shared sync folder system and other core Draft features. Unlike admins, they cannot add or remove users from your plan.
+				Un membre d’une Team est un utilisateur payant qui peut utiliser toutes les fonctionnalités de Draft, sans aucune limitation. Néanmoins, il n’a pas le pouvoir d’ajouter ou retirer d’autres membres de la Team.
+		q10
+			q
+				Do you offer discounts for education and non-profit organizations?
+				Avez-vous un plan spécifique pour les ONG et l’éducation ?
+			a
+				Yes, we do! Please contact us at <a class="text-link light underline" href="mailto:hi@draft.io">hi@draft.io</a> to learn more.
+				Oui, contactez-nous à l’adresse <a href="mailto:hi@draft.io">hi@draft.io</a> pour en parler ensemble.
+	register
+		Sign up
+		S'inscrire
+	contact-us
+		Contact us
+		Nous contacter
+	pageTitle
+		Pricing - Draft
+		Offres - Draft
+	pageDescription
+		Either you're solo or in a team, start right away for free.
+		Que vous soyez seul ou en équipe, commencez dès aujourd’hui avec notre plan gratuit.
+	title
+		Flexible pricing.<span class="if-not-1080"><br /></span><span class="if-1080"> </span>Scalable plans.
+		Des offres qui s’adaptent à l’évolution de vos besoins
+	baseline
+		Get started with a Free plan today
+		Démarrez dès aujourd’hui avec notre plan gratuit
+	periodYearly
+		<span class="if-1080">Pay yearly (save 17%)</span><span class="if-not-1080">Pay yearly (-17%)</span>
+		<span class="if-1080">Paiement annuel (-17%)</span><span class="if-not-1080">Paiement annuel (-17%)</span>
+	periodMonthly
+		<span>Pay monthly</span>
+		<span>Paiement mensuel</span>
+	enterprise
+		contactSubject
+			I'm%20interested%20in%20your%20Enterprise%20plan
+			Je%20suis%20intéressé%20par%20votre%20plan%20Entreprise
+		title
+			Enterprise
+			Entreprise
+		punchline
+			Ready-to-deploy
+			Prêt à être déployé dans votre organisation
+		features1
+			tailor-made-pricing
+				Tailor-made pricing depending on the options you take
+				Prix sur-mesure en fonction des options que vous choisissez
+			custom-contract
+				Customized contract to complete our terms and conditions
+				Contrat personnalisé en complément des termes et conditions
+			sso
+				SSO with multiple identity providers via SAML 2.0
+				SSO avec plusieurs identity providers via SAML 2.0
+			visitor-role
+				Visitor role to moderate link sharing
+				Rôle visiteur pour contrôler le partage par lien
+		features2
+			log-management
+				Log management to help you monitor activity
+				Fourniture des logs de connexion
+			ip-filtering
+				IP filtering and domain control to prevent data leakage
+				Contrôle des accès par domaine ou filtre IP
+			dedicated-instance
+				Dedicated instance on a separate server
+				Instance dédiée sur un serveur spécifique
+			custom-jira
+				Custom-made Jira integration
+				Intégration Jira customisée
+		more-about-link
+			More about features for Enterprises
+			En savoir plus sur les fonctionnalités Entreprise
+	team
+		contactSubject
+			I'm%20interested%20in%20your%20Team%20plan
+			Je%20suis%20intéressé%20par%20votre%20plan%20Team
+		title
+			Team
+			Team
+		punchline
+			Built for both small and large teams
+			Pour les petites et grandes équipes
+		from
+			From
+			A partir de
+		users
+			Users
+			Utilisateurs
+		um
+			/user/mo
+			/util/mo
+		uy
+			/user/yr
+			/util/an
+		pum
+			Price/user/mo
+			Prix/util/mo
+		puy
+			Price/user/yr
+			Prix/util/an
+		features
+			client-success-management
+				Client success management
+				Accompagnement dédié
+			admin-interface
+				Team administration interface
+				Interface d’administration de la Team
+			group-management
+				Group management
+				Gestion par groupe d’utilisateurs
+			password-protection
+				Password protection per folder
+				Protection par mdp des dossiers
+			phone-support
+				24/7 customer support
+				Support téléphonique et email 7j/7
+	pro
+		title
+			Pro
+			Pro
+		punchline
+			Get unlimited access to Draft tools
+			Utilisez Draft sans aucune limitation
+		um
+			/mo
+			/mo
+		uy
+			/yr
+			/an
+		features
+			all
+				All Free plan features
+				Toutes les fonctionnalités gratuites
+			unlimited-objects
+				Unlimited items
+				Nombre d’objets illimité
+			manual-local-backup
+				Manual local backup of folders
+				Backup par dossier
+			email-support
+				Customer support (email only)
+				Support privilégié par email
+	free
+		title
+			Free
+			Gratuit
+		punchline
+			Start turning ideas into actions
+			Créez votre premier draft maintenant
+		features
+			up-to-500-objects
+				Up to 500 objects across drafts
+				Jusqu’à 500 objets à travers vos drafts
+			unlimited-drafts
+				Unlimited drafts and link sharing
+				Création et partage de drafts illimités
+			unlimited-url-sharing
+				Unlimited guest editors
+				Nombre d’invités illimité
+			unlimited-guests
+				Password protection per draft
+				Protection par mdp des drafts
+			one-shared-folder
+				Manual local backup
+				Backup local
+			jira-integration
+				Jira integration
+				Intégration Jira

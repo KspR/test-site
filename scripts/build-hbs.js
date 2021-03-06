@@ -32,35 +32,35 @@ exports.buildHtml = function(cb) {
 	        'unlimited-drafts',
 	        'unlimited-url-sharing',
 	        'unlimited-guests',
-	        'one-shared-folder'
+	        'one-shared-folder',
+			'jira-integration'
 	      ]
 			},
 			pro : {
 				features : [
 	        'unlimited-objects',
-	        'unlimited-shared-folders',
-	        'password-protection',
 	        'manual-local-backup',
 	        'email-support'
 	      ]
 			},
 			team : {
 				features : [
-	        'team-shared-folder',
-	        'fine-grained-access-management',
-	        'sso',
-	        'jira',
+	        'client-success-management',
+	        'admin-interface',
+	        'group-management',
+	        'password-protection',
 	        'phone-support'
 	      ],
 				price : [
-	        ['1 - 50', '8.33', '10'],
-	        ['51 - 200', '6.67', '8'],
-	        ['200+', '5', '6']
+	        ['1 - 50', '100', '10'],
+	        ['51 - 200', '80', '8'],
+	        ['200+', '60', '6']
 	      ]
 			},
 			faq : {
 				'left-qs' : ['q1', 'q2', 'q3', 'q4'],
-				'right-qs' : ['q6', 'q7', 'q8', 'q9']
+				'right-qs' : ['q6', 'q7', 'q8', 'q9'],
+				'all-qs' : ['q1', 'q2', 'q3', 'q4', 'q5', 'q6', 'q7', 'q8', 'q9', 'q10']
 			}
 		}
 	}
