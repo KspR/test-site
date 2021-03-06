@@ -86,26 +86,7 @@
 						<%= @example["label"] %>
 						END -->
 					</h1>
-					<div class="actions">
-						<a href="#" class="cta round outline">
-							<!-- TESTONLY -->
-							{{{lang.ui_example.actionsBar.cta.label}}}
-							<!-- ENDTESTONLY -->
-							<!-- PRODONLY
-							{{{lang.ui_example.actionsBar.cta.label}}}
-							END -->
-							<span class="mention">
-								<!-- TESTONLY -->
-								{{{lang.ui_example.actionsBar.cta.mention}}}
-								<!-- ENDTESTONLY -->
-								<!-- PRODONLY
-								{{lang.example.asterisk}}
-								END -->
-							</span>
-						</a>
-						<span class="separator"></span>
-						<a href="#" class="text-link light underline">{{{lang.ui_example.actionsBar.textLink}}}</a>
-					</div>
+					{{{includes.example_actions}}}
 				</div>
 
 				<figure class="main-screenshot">

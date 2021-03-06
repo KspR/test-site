@@ -1,0 +1,31 @@
+<!-- TESTONLY -->
+<div class="actions has-template">
+<!-- ENDTESTONLY -->
+<!-- PRODONLY
+<div class="actions <%= @has_template ? "has-template" : "" %>">
+END -->
+		<!-- TESTONLY -->
+		<a href="#" class="cta round outline">
+		Essayer l'exemple
+		<!-- ENDTESTONLY -->
+		<!-- PRODONLY
+		<a href="https://draft.io/example/create/<%= @example["id"] %>" class="cta round outline">
+		{{{lang.ui_example.actionsBar.cta.label}}}
+		END -->
+		<span class="mention">
+			<!-- TESTONLY -->
+			Pas de compte requis
+			<!-- ENDTESTONLY -->
+			<!-- PRODONLY
+			<%= @lang.example.asterisk %>
+			END -->
+		</span>
+	</a>
+	<span class="separator"></span>
+	<!-- TESTONLY -->
+	<a href="#" class="text-link light underline">{{{lang.ui_example.actionsBar.textLink}}}</a>
+	<!-- ENDTESTONLY -->
+	<!-- PRODONLY
+	<a href="https://draft.io/template/create/<%= @example["id"] %>" class="text-link light underline">{{{lang.ui_example.actionsBar.textLink}}}</a>
+	END -->
+</div>
