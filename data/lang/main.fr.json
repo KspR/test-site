@@ -128,7 +128,7 @@
       "landing": {
         "punchline": "Draft pour<br /><span>la gestion de projet Agile</span>",
         "baseline": {
-          "one": "Planifier et formaliser juste ce qu’il faut pour développer des produits innovants dans un contexte incertain et changeant.",
+          "one": "Planifiez et formalisez juste ce qu’il faut pour développer des produits innovants dans un contexte incertain et changeant.",
           "two": "En tant que support collaboratif et polyvalent, Draft peut accueillir l’intégralité de votre système de gestion de projet Agile."
         }
       },
@@ -143,7 +143,7 @@
           "text": "Gérez les tâches de votre équipe dans un outil flexible qui favorise aussi bien la transparence que la réflexion et la prise de décision collectives."
         },
         "program-board": {
-          "title": "Tableau des dépendances",
+          "title": "Program Board",
           "text": "Construisez des artefacts de management visuel complexes et totalement personnalisés pour coordonner le travail de vos équipes, identifier les dépendances entre les tâches et lever les éventuels obstacles."
         },
         "retrospective": {
