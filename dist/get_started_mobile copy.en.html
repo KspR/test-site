@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html >
   <head profile="http://www.w3.org/2005/10/profile">
-  
-  <!-- BEGINCSS -->
+
+    <!-- BEGINCSS -->
 <link href="css/common.css" rel="stylesheet">
 <link href="css/colors.css" rel="stylesheet">
 <link href="css/portal-desktop.css" rel="stylesheet">
@@ -13,22 +13,21 @@
 <link href="css/ui_example.css" rel="stylesheet">
 <link href="css/ui_customer-story.css" rel="stylesheet">
 <link href="css/ui_customer-stories.css" rel="stylesheet">
-<link href="css/ui_onboarding.css" rel="stylesheet">
 
 <link href="css/TEST_ONLY_ui_sommaire.css" rel="stylesheet">
 
 <!-- ENDCSS -->
 
-  <link rel="icon" 
-    type="image/png" 
-    href="/assets/favicon.png" />
+    <link rel="icon" href="/favicon.png?v=3" />
 
-    <title>Forgot password - Draft</title>
+
+    <title>Draft – Sign up</title>
+    <meta name="description" content="Sign up & start crafting your ideas as of now." />
     <meta name="viewport" content="width=device-width;user-scalable=no,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
     <meta name="robots" content="noindex,nofollow" />
   </head>
 
-  <body class="page-forgot has-header<% if @desktop %> is-desktop<% end %>">
+  <body class="page-get-started page-get-started-mobile">
 
     <div id="top-of-site-pixel-anchor"></div>
 
@@ -101,42 +100,80 @@
 		e.stopPropagation();
 	}
 </script>
+    <script>
+    document.ontouchstart = null;
+    </script>
 
-    <div class="bloc-form">
-      <div class="title">Reset password</div>
-
-      <form action="forgot" method="POST">
-        <!-- PRODONLY
-        <% if @user_not_found %><div class="error">There is no account associated with this address.</div><% end %>
-        <input name="email" class="field field-email" placeHolder="Email"<% if @email %> value=""<% end %> />
-        END -->
-
-        <!-- TESTONLY -->
-        <input name="email" class="field field-email" placeHolder="Email" />
-        <!-- ENDTESTONLY -->
-
-        <input class="send-button" type="submit" value="Send reset link" />
-      </form>
+    <div class="main-bloc">
+      <div class="title">You need to come back with a computer to sign up.</div>
+      <div class="detail">
+        Draft relies on its performance and powerful features to help you work and collaborate efficiently.<br /><br />Unfortunately, using Draft on a mobile device can't provide you with a satisfying experience.<br /><br />As we seek to give you the best experience possible, we would be grateful if you could come back with a computer to sign up for Draft.<br /><br />In the meantime, you can keep browsing the website with your current device.
+      </div>
     </div>
 
-    <!-- PRODONLY
-    <% if @desktop %>
-      <a class="back-to-login" href="/login">> back to login</a>
-    <% end %>
+    <div class="footer">
+	<div class="footer-wrapper">
+		<div class="bloc bloc-plan">
+			<div class="title">Product</div>
+			<a href="/">Home</a>
+			<a href="/agile-project-management">Draft for Agile Project Management</a>
+			<a href="/product-management">Draft for Product Management</a>
+			<a href="/everyday-creative-work">Draft for Everyday Creative Work</a>
+			<a href="/examples">Examples</a>
+			<a href="/login">Sign in</a>
+			<a href="/get-started">Sign up</a>
+		</div>
 
-    <script>
-      window.serverData = {};
+		<div class="bloc bloc-resources">
+			<div class="title">Customer</div>
+			<a href="/enterprise">Enterprise</a>
+			<a href="/customer-stories">Customer stories</a>
+			<a href="/pricing">Pricing</a>
+		</div>
 
-      <% if @errors %>
-        window.serverData.errors = <%= raw @errors.to_json %>
-      <% end %>
+		<div class="bloc bloc-resources">
+			<div class="title">Resources</div>
+			<a href="https://www.notion.so/Draft-s-Help-Center-cc9934be1af04688954d1d077ad004aa"
+				target="_blank">Help center</a>
+			<a href="https://draft.io/assets/2020 10 27 Terms and conditions - Draft SAS.pdf"
+				target="_blank">Terms</a>
+			<a href="https://draft.io/assets/2020 10 27 Privacy Policy - Draft SAS.pdf" target="_blank">Privacy</a>
+			<a href="mailto:hi@draft.io">Contact Us</a>
 
-      window.onload = function() {
-        setTimeout(function() {
-          document.getElementsByClassName('field-email')[0].focus();
-        }, 0);
-      };
-    </script>
-    END -->
+			<div class="language-bloc">
+				<div class="bloc-title">Language</div>
+				<div class="menu-wrapper">
+					<div class="toggle-wrapper">
+						<div class="toggle">English</div>
+						<i class="fas fa-chevron-down"></i>
+					</div>
+					<div class="menu">
+						<a
+							href="<%= @fr_url %>">Français</a>
+						<a
+							href="<%= @en_url %>">English</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="socials">
+			<a href="/" class="logo"></a>
+			<a href="https://linkedin.com/company/draft-io" class="linkedin" target="_blank"></a>
+		</div>
+
+		<div class="copyright">
+			© 2019 - 2021 • Draft SAS
+		</div>
+	</div>
+
+
+	<div class="oblique">
+		<div class="rotated-square"></div>
+	</div>
+</div>
+
+<script src="https://kit.fontawesome.com/6b4515f4ac.js" crossorigin="anonymous"></script>
+
   </body>
 </html>

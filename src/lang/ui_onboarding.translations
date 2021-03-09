@@ -1,0 +1,22 @@
+onboarding
+	meta-title
+		Draft Onboarding - Workflow choice
+		Draft Onboarding - Choix du workflow
+	meta-description
+		Tell us which workflow suits you best. It will help us drive you to the optimal onboarding.
+		Dites-nous quel workflow vous est le plus adapté. Cela nous aidera à vous orienter vers l'onboarding idéal.
+	title
+		Tell us which workflow suits you best
+		Dites-nous quel workflow vous est le plus adapté
+	sub-title
+		It will help us drive you to the optimal onboarding
+		Cela nous aidera à vous orienter vers l'onboarding idéal
+	wkw-apm
+		Agile Project Management
+		Gestion de projet agile
+	wkw-pm
+		Product Management
+		Gestion de projet
+	wkw-ecw
+		Everyday Creative Work
+		Travail créatif quotidien

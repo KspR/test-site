@@ -1,0 +1,11 @@
+{
+  "onboarding": {
+    "meta-title": "Draft Onboarding - Choix du workflow",
+    "meta-description": "Dites-nous quel workflow vous est le plus adapté. Cela nous aidera à vous orienter vers l'onboarding idéal.",
+    "title": "Dites-nous quel workflow vous est le plus adapté",
+    "sub-title": "Cela nous aidera à vous orienter vers l'onboarding idéal",
+    "wkw-apm": "Gestion de projet agile",
+    "wkw-pm": "Gestion de projet",
+    "wkw-ecw": "Travail créatif quotidien"
+  }
+}
