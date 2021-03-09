@@ -9,14 +9,14 @@
       "mainContent": "<p>In April 2020, I had the chance to interview Jeff Patton himself. He kindly gave me some clarifications about his conception of User Story Mapping. Here are the main takeaways:</p><ul><li>It’s like the outline of a screenplay of a movie. You write the story of your users through your product’s adventure.</li><li>It’s a living thinking tool. Don’t hesitate to throw it away and build a new one from scratch.</li><li>It’s imprecise and incomplete by nature. Don’t try to be exhaustive.</li><li>It’s both a common visual representation and a portal towards other parts of the product development system. It is what makes User Story Mapping so powerful.</li><li>It is an artifact that grows organically as you can’t predict the structure a priori. You should naturally find the right structure a posteriori.</li></ul>",
       "authorPortrait": "./imgs/UI_Examples/UserStoryMapping/portrait_Jeff_Patton.jpg",
       "authorName": "Jeff Patton",
-      "authorStatus": "Author of \"User Story Mapping: Discover the Whole Story,<br>Build the Right Product\""
+      "authorStatus": "Author of \"User Story Mapping: Discover the Whole Story, Build the Right Product\""
     },
     "tipsBlock2": {
       "title": "Some other tips from Product Management professionals",
-      "mainContent": "<p>Fatima-Zahra Hamil, seasoned Product Coach at Publicis Sapient, underscores two critical steps to go through to run a successful User Story Mapping session:</p><ul><li>Refine your vision to reflect your understanding of the market, your users, and their problems.</li><li>Describe your <a class=\"text-link underline-over\" href=\"https://draft.io/example/persona\">Persona</a> precisely. It is crucial to identify what features will really bring business value to your users.</li></ul><p>After a fruitful User Story Mapping session, you should have all the elements to build your <a class=\"text-link advanced-underline-over\" href=\"https://draft.io/example/product-roadmap\"><span>Product</span> <span>Roadmap</span></a>.</p>",
+      "mainContent": "<p>Fatima-Zahra Hamil, seasoned Product Coach at Publicis Sapient, underscores two critical steps to go through to run a successful User Story Mapping session:</p><ul><li>Refine your vision to reflect your understanding of the market, your users, and their problems.</li><li>Write down explicitly the project goals (monetization, audience, etc.). They will have a significant influence on the MVP’s feature scope.</li><li>Describe your <a class=\"text-link underline-over\" href=\"https://draft.io/example/persona\">Persona</a> precisely. It is crucial to identify what features will really bring business value to your users.</li></ul><p>After a fruitful User Story Mapping session, you should have all the ingredients to build your <a class=\"text-link advanced-underline-over\" href=\"https://draft.io/example/product-roadmap\"><span>Product</span> <span>Roadmap</span></a>.</p>",
       "authorPortrait": "./imgs/UI_Examples/UserStoryMapping/portrait_Fatima-Zahra_Hamil.jpg",
       "authorName": "Fatima-Zahra Hamil",
-      "authorStatus": "Seasoned Product Coach at Publicis Sapient"
+      "authorStatus": "Product Coach at Publicis Sapient"
     },
     "resourcesBlock": {
       "title": "Suggested resources to master User Story Mapping further",
