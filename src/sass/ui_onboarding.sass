@@ -51,7 +51,7 @@
         box-shadow : 0px 10px 25px 0px rgba(0, 0, 0, 0.1)
         border : 2px solid transparent
 
-        transition : background .2s, transform .2s, border .2s
+        transition : background .2s, transform .2s, border .2s, box-shadow .2s
         
         & > a
           width : 100%
@@ -98,7 +98,7 @@
       .tile.ecw
         .illustration
           svg
-            margin-left : 6px
+            margin-left : 4px
       
       .tile.anim-over-1:hover
         background : $orange
@@ -115,6 +115,8 @@
             color : $orange
 
       .tile.anim-over-3:hover
+        // background : rgba(255,255,255,0.02)
+        // box-shadow : none
         & > a
           .illustration
             img
@@ -130,6 +132,14 @@
           .illustration
             img
               opacity : 1
+
+      .tile.anim-over-5:hover
+        & > a
+          .illustration
+            img
+              opacity : 1
+            & path
+              fill : $orange
       
 
       @media only screen and (max-width : $phoneBreakpoint)
