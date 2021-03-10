@@ -1,12 +1,35 @@
 @import colors
 @import DDS_breakpoints.sass
 
-.ui-onboarding:not(.v3)
+.ui-onboarding.v3
   background : #373737
-  background-image : url("../imgs/UI_Onboarding/grid_part.png")
   width : 100%
   height : 100vh
   font-family : regular
+  position : relative
+
+  &::before
+    content : ""
+    position : absolute
+    left : 0
+    top : 0
+    width : 100%
+    height : 100%
+    display : block
+    background-image : url("../imgs/UI_Onboarding/grid_part.png")
+  &.A::before
+    opacity : .2
+  &.B::before
+    opacity : .3
+  &.C::before
+    opacity : .4
+
+  
+  &.C
+    .wrapper
+      .workflows-tiles
+        .tile
+          background : #3c3c3c !important
 
   .wrapper
     width : 100%
@@ -15,6 +38,8 @@
     align-items : center
     flex-direction : column
     color : white
+    position : relative
+
     .logo
       margin-top : 10vh
       img
@@ -46,7 +71,7 @@
       .tile
         border-radius : 10px
         overflow : hidden
-        background : rgba(255,255,255,0.05)
+        background : #414141
         width : 270px
         max-width : 30%
         box-shadow : 0px 10px 25px 0px rgba(0, 0, 0, 0.1)
