@@ -35,13 +35,19 @@
   flex-direction: column;
   color: white;
   position: relative;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20vh;
 }
 .ui-onboarding.v3 .wrapper .logo {
-  margin-top: 10vh;
-  margin-bottom: 50px;
+  margin-top: 0;
+  position: fixed;
+  right: 60px;
+  bottom: 40px;
+  margin-bottom: 0px;
 }
 .ui-onboarding.v3 .wrapper .logo img {
-  height: 60px;
+  height: 40px;
   opacity: 0.1;
   transition: opacity 0.2s, filter 0.2s;
 }
@@ -108,7 +114,7 @@
   font-family: regular;
   font-weight: normal;
   font-size: 1.1rem;
-  height: 70px;
+  height: 50px;
   padding: 5px 20px;
   width: 100%;
   display: flex;
@@ -174,15 +180,4 @@
     margin: 0;
     margin-top: 20px;
   }
-}
-.ui-onboarding.v3.v2 .wrapper {
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 20vh;
-}
-.ui-onboarding.v3.v2 .wrapper .logo {
-  position: fixed;
-  right: 60px;
-  bottom: 60px;
-  margin-bottom: 0px;
 }
