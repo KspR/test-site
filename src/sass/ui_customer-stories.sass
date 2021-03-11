@@ -240,7 +240,12 @@
 			justify-content : space-between
 			width : 80vw
 			max-width : 1100px
-			margin : 0 auto 140px
+			margin : 0 auto 50px
+			& + .wrapper
+				margin : 0 auto 140px
+				justify-content : center
+				.story-bloc + .story-bloc
+					margin-left : 22px
 			.story-bloc
 				width : 32%
 				box-shadow : 0 20px 40px 0 rgba(0,0,0,0.1)
@@ -286,6 +291,13 @@
 							display : block
 							font-size : .85em
 							opacity : .75
+
+							.text-link
+								color : inherit
+								padding : 0
+								margin-top : auto
+								&:hover
+									color : $darkBlue
 
 				.text-link
 					margin-left : 0

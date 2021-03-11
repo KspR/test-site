@@ -518,6 +518,15 @@
       "author": "Maxime BONNET",
       "status": "Agile Coach at CGI"
     },
+    "customer-story-tui": {
+      "illustration-path": "./imgs/MUT_Customers/customer_tui/2_Tui_Board_physique.jpg",
+      "logo-path": "imgs/MUT_Customers/customer_tui/logo_tui.png",
+      "logo-alt-text": "TUI Group logo",
+      "portrait-path": "imgs/MUT_Customers/customer_tui/portrait_Julien_LANGE.jpg",
+      "quote": "“We’ve built a multi-layer, multi-teams, multi-site visual management system.”",
+      "author": "Julien LANGE",
+      "status": "Problem Solver, President<br>at <a class=\"text-link underline-over\" href=\"http://www.wiscale.fr\">WiScale France</a>"
+    },
     "sharing-cta": {
       "label": "Share my Story",
       "mail-object": "I want to share my story"
