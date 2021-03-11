@@ -1,9 +1,9 @@
 {
   "onboarding": {
     "meta-title": "Draft Onboarding - Choix du workflow",
-    "meta-description": "Dites-nous quel workflow vous est le plus adapté. Cela nous aidera à vous orienter vers l'onboarding idéal.",
-    "title": "Dites-nous quel workflow vous est le plus adapté",
-    "sub-title": "Cela nous aidera à vous orienter vers l'onboarding idéal",
+    "meta-description": "Dîtes-nous ce pour quoi vous envisagez d’utiliser Draft. Cette information nous permet de vous orienter vers l'onboarding le plus adapté à votre profil.",
+    "title": "Dîtes-nous ce pour quoi vous envisagez d’utiliser Draft",
+    "sub-title": "Cette information nous permet de vous orienter vers l'onboarding le plus adapté à votre profil",
     "wkw-apm": "Gestion de projet agile",
     "wkw-pm": "Product Management",
     "wkw-ecw": "Travail créatif quotidien"
