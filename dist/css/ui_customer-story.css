@@ -10,7 +10,8 @@
   padding: 0 5%;
 }
 .ui_customer-story .ui-header.evoyageurs::before {
-  background-image: url("../imgs/MUT_Customers/customer_evoyageurs/illustration_evoyageurs.png");
+  background-image: url("../imgs/MUT_Customers/customer_evoyageurs/illustration_evoyageurs.svg");
+  background-position: 95% 100%;
 }
 @media only screen and (max-width: 1390px) {
   .ui_customer-story .ui-header.evoyageurs::before {
@@ -20,29 +21,35 @@
   }
 }
 .ui_customer-story .ui-header.sympany::before {
-  background-image: url("../imgs/MUT_Customers/customer_sympany/draft-business-case-sympany.png");
+  background-image: url("../imgs/MUT_Customers/customer_sympany/draft-business-case-sympany.svg");
+  background-position: 95% 100%;
+  background-size: auto 90%;
 }
 @media only screen and (max-width: 1390px) {
   .ui_customer-story .ui-header.sympany::before {
-    background-position: 100% 228px;
+    background-position: 100% 250px;
     filter: grayscale(1);
     opacity: 0.13;
   }
 }
 .ui_customer-story .ui-header.transilien::before {
-  background-image: url("../imgs/MUT_Customers/customer_transilien/Transilien-illustration-v3.png");
-  background-position: 100% 100%;
+  background-image: url("../imgs/MUT_Customers/customer_transilien/Transilien-illustration-v3.svg");
+  background-position: 95% 100%;
 }
-@media only screen and (max-width: 1660px) {
+@media only screen and (max-width: 1770px) {
   .ui_customer-story .ui-header.transilien::before {
     background-position: 100% 190px;
     filter: grayscale(1);
     opacity: 0.13;
   }
 }
+.ui_customer-story .ui-header.transilien .main-info .wrapper .logo {
+  width: auto;
+  height: 70px;
+}
 .ui_customer-story .ui-header.tui::before {
   background-image: url("../imgs/MUT_Customers/customer_tui/draft-business-case-tui.svg");
-  background-position: 100% 60%;
+  background-position: 95% 60%;
   background-size: auto 80%;
 }
 @media only screen and (max-width: 1470px) {
