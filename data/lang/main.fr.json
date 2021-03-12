@@ -128,7 +128,7 @@
       "landing": {
         "punchline": "Draft pour<br /><span>la gestion de projet Agile</span>",
         "baseline": {
-          "one": "Planifier et formaliser juste ce qu’il faut pour développer des produits innovants dans un contexte incertain et changeant.",
+          "one": "Planifiez et formalisez juste ce qu’il faut pour développer des produits innovants dans un contexte incertain et changeant.",
           "two": "En tant que support collaboratif et polyvalent, Draft peut accueillir l’intégralité de votre système de gestion de projet Agile."
         }
       },
@@ -143,7 +143,7 @@
           "text": "Gérez les tâches de votre équipe dans un outil flexible qui favorise aussi bien la transparence que la réflexion et la prise de décision collectives."
         },
         "program-board": {
-          "title": "Tableau des dépendances",
+          "title": "Program Board",
           "text": "Construisez des artefacts de management visuel complexes et totalement personnalisés pour coordonner le travail de vos équipes, identifier les dépendances entre les tâches et lever les éventuels obstacles."
         },
         "retrospective": {
@@ -517,6 +517,15 @@
       "quote": "“Pour prévenir le phénomène de fatigue communicationnelle, nous devions trouver une façon d’exploiter plus efficacement le temps et l’espace.”",
       "author": "Maxime BONNET",
       "status": "Coach Agile chez CGI"
+    },
+    "customer-story-tui": {
+      "illustration-path": "./imgs/MUT_Customers/customer_tui/2_Tui_Board_physique.jpg",
+      "logo-path": "imgs/MUT_Customers/customer_tui/logo_tui.png",
+      "logo-alt-text": "Logo TUI Group",
+      "portrait-path": "imgs/MUT_Customers/customer_tui/portrait_Julien_LANGE.jpg",
+      "quote": "“Nous avons construit un système de management visuel multi-niveau, multi-équipe et multisite.”",
+      "author": "Julien LANGE",
+      "status": "Problem Solver, Président<br>chez <a class=\"text-link underline-over\" href=\"http://www.wiscale.fr\">WiScale France</a>"
     },
     "sharing-cta": {
       "label": "Partager mon expérience",

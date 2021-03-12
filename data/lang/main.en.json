@@ -126,7 +126,7 @@
       "pageDescription": "For Scrum Masters and Product Owners responsible for maintaining streamlined processes and running virtual ceremonies, Draft embraces all Agile workflows with flexibility and simplicity.",
       "title": "Draft for Agile Project Management",
       "landing": {
-        "punchline": "Draft for<br /><span>Agile Project</span>",
+        "punchline": "Draft for<br /><span>Agile Project Management</span>",
         "baseline": {
           "one": "Plan and create unique products in fast-moving environments. Draft embraces all Agile workflows with flexibility, simplicity, and ease.",
           "two": "As a flexible yet structured visual support, Draft can embrace your whole Agile workflow."
@@ -517,6 +517,15 @@
       "quote": "“To prevent ‘video conference fatigue,’ we had to find ways of using time and space differently.”",
       "author": "Maxime BONNET",
       "status": "Agile Coach at CGI"
+    },
+    "customer-story-tui": {
+      "illustration-path": "./imgs/MUT_Customers/customer_tui/2_Tui_Board_physique.jpg",
+      "logo-path": "imgs/MUT_Customers/customer_tui/logo_tui.png",
+      "logo-alt-text": "TUI Group logo",
+      "portrait-path": "imgs/MUT_Customers/customer_tui/portrait_Julien_LANGE.jpg",
+      "quote": "“We’ve built a multi-layer, multi-teams, multi-site visual management system.”",
+      "author": "Julien LANGE",
+      "status": "Problem Solver, President<br>at <a class=\"text-link underline-over\" href=\"http://www.wiscale.fr\">WiScale France</a>"
     },
     "sharing-cta": {
       "label": "Share my Story",
