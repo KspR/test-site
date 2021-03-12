@@ -248,7 +248,7 @@
 }
 .ui_customer-stories .customer-stories .wrapper + .wrapper {
   margin: 0 auto 140px;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .ui_customer-stories .customer-stories .wrapper + .wrapper .story-bloc + .story-bloc {
   margin-left: 22px;
