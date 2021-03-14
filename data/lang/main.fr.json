@@ -316,6 +316,7 @@
   "footer": {
     "enterprise": "Entreprise",
     "customer_stories": "Customer stories",
+    "help-center-href": "https://www.notion.so/Draft-Centre-d-aide-9d71340d5914419387182628569d83e9",
     "help_center": "Centre d'aide",
     "customer": "Client",
     "customer-stories": "Customer stories",
@@ -525,7 +526,7 @@
       "portrait-path": "imgs/MUT_Customers/customer_tui/portrait_Julien_LANGE.jpg",
       "quote": "“Nous avons construit un système de management visuel multi-niveau, multi-équipe et multisite.”",
       "author": "Julien LANGE",
-      "status": "Problem Solver, Président<br>chez <a class=\"text-link underline-over\" href=\"http://www.wiscale.fr\">WiScale France</a>"
+      "status": "Problem Solver, Président chez WiScale France"
     },
     "sharing-cta": {
       "label": "Partager mon expérience",

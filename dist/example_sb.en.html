@@ -171,26 +171,37 @@
 						<%= @example["label"] %>
 						END -->
 					</h1>
-					<div class="actions has-template">
-						<a href="#" class="cta round outline">
-							<!-- TESTONLY -->
-							Try example
-							<!-- ENDTESTONLY -->
-							<!-- PRODONLY
-							Try example
-							END -->
-							<span class="mention">
-								<!-- TESTONLY -->
-								No account required
-								<!-- ENDTESTONLY -->
-								<!-- PRODONLY
-								<%= @lang.example.asterisk %>
-								END -->
-							</span>
-						</a>
-						<span class="separator"></span>
-						<a href="#" class="text-link light underline">Use this template</a>
-					</div>
+					<!-- TESTONLY -->
+<div class="actions has-template">
+<!-- ENDTESTONLY -->
+<!-- PRODONLY
+<div class="actions <%= @has_template ? "has-template" : "" %>">
+END -->
+		<!-- TESTONLY -->
+		<a href="#" class="cta round outline">
+		Essayer l'exemple
+		<!-- ENDTESTONLY -->
+		<!-- PRODONLY
+		<a href="https://draft.io/example/create/<%= @example["id"] %>" class="cta round outline">
+		Try example
+		END -->
+		<span class="mention">
+			<!-- TESTONLY -->
+			Pas de compte requis
+			<!-- ENDTESTONLY -->
+			<!-- PRODONLY
+			<%= @lang.example.asterisk %>
+			END -->
+		</span>
+	</a>
+	<span class="separator"></span>
+	<!-- TESTONLY -->
+	<a href="#" class="text-link light underline">Use this template</a>
+	<!-- ENDTESTONLY -->
+	<!-- PRODONLY
+	<a href="https://draft.io/template/create/<%= @example["id"] %>" class="text-link light underline">Use this template</a>
+	END -->
+</div>
 				</div>
 
 				<figure class="main-screenshot">
@@ -208,7 +219,7 @@
 
 		<section class="main-content">
 			<div class="wrapper">
-				<h2>What is a Scrum Board?</h2><p>A Scrum Board (or Scrum Task Board) is the visual management artifact used by Scrum teams to track tasks’ advancement within a sprint. It centralizes all necessary operational information to develop the product according to the Scrum Agile framework.</p><p>As the board is updated as soon as a task is completed, it is the perfect support to hold the Daily Scrum Meetings. Within the team, it brings total transparency regarding any issues a member of the team might face. Finally, it naturally conveys information to stakeholders who would like to get a quick overview of what is going in on in the team, without having to disturb any member of the team.</p><p>As proof of its efficiency, the Scrum Board has since been adapted to become a personal and family organizational tool. It is also more and more used at school, from elementary school to university, to track the ‘Scrum workflow’ of the class.</p><h2>How to build a Scrum Board?</h2><p>In general, Scrum Boards are organized in 4 columns: a column “Stories”, plus three columns “Todo”, “In Progress”, and “Done”, like in an ordinary <a class="text-link advanced-underline-over" href="https://draft.io/example/kanban-board"><span>Kanban</span> <span>Board</span></a>. The User Stories that are planned to be implemented during the sprint are listed in the Stories column, also called the sprint backlog. In the other columns, User Stories are split into subtasks whose advancement is tracked by moving them from one column to another one. </p><p>Each User Story and its related group of tasks is separated by swimlanes from other User Stories and related tasks. You can also bring a color code if you want to categorize tasks visually. Above the table, you should mention the sprint goal explicitly. It’s like the product vision at the sprint level and will guide all coming discussions.</p><p>To bring additional essential information to your Agile team, you can add other complementary components to your core Scrum Board: product backlog, Daily Scrum Meeting’s agenda, test column, Definition of Done checklist, burndown chart, a specific line to track bug fixing, tracking of impediments, tracking of team members’ vacations, etc.</p>
+				<h2>What is a Scrum Board?</h2><p>A Scrum Board (or Scrum Task Board) is the visual management artifact used by Scrum teams to track tasks’ advancement within a sprint. It centralizes all necessary operational information to develop the product according to the Scrum Agile framework.</p><p>As the board is updated as soon as a task is completed, it is the perfect support to hold the Daily Scrum Meetings. Within the team, it brings total transparency regarding any issues a member of the team might face. Finally, it naturally conveys information to stakeholders who would like to get a quick overview of what is going in on in the team, without having to disturb any member of the team.</p><p>As proof of its efficiency, the Scrum Board has since been adapted to become a personal and family organizational tool. It is also more and more used at school, from elementary school to university, to track the ‘Scrum workflow’ of the class.</p><h2>How to build a Scrum Board?</h2><p>In general, Scrum Boards are organized in 4 columns: a column “Stories”, plus three columns “Todo”, “In Progress”, and “Done”, like in an ordinary <a class="text-link advanced-underline-over" href="https://draft.io/example/kanban-board"><span>Kanban</span> <span>Board</span></a>. The User Stories that are planned to be implemented during the sprint are listed in the Stories column, also called the sprint backlog. In the other columns, User Stories are split into subtasks whose advancement is tracked by moving them from one column to another one.</p><p>Each User Story and its related group of tasks is separated by swimlanes from other User Stories and related tasks. You can also bring a color code if you want to categorize tasks visually. Above the table, you should mention the sprint goal explicitly. It’s like the product vision at the sprint level and will guide all coming discussions.</p><p>To bring additional essential information to your Agile team, you can add other complementary components to your core Scrum Board: product backlog, Daily Scrum Meeting’s agenda, test column, Definition of Done checklist, burndown chart, a specific line to track bug fixing, tracking of impediments, tracking of team members’ vacations, etc.</p>
 			</div>
 
 			<div class="resources-block">
