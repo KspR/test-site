@@ -144,6 +144,9 @@
 .ui_example .main-content {
   padding-top: 80px;
 }
+.ui_example .main-content .emphasized {
+  font-family: semibold;
+}
 .ui_example .main-content .wrapper {
   width: 800px;
   max-width: 100%;
