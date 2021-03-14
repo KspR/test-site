@@ -1,0 +1,204 @@
+<html lang="<%= @lang.code %>">
+	<head>
+		<!-- PRODONLY
+		<% if JSON_CONFIG["google-tag-manager"] %>
+			<%= render "partials/google_tag_manager_head" %>
+		<% end %>
+		END -->
+		<title>
+		<!-- TESTONLY -->
+		{{{lang.ex_pvb.meta-title}}}
+		<!-- ENDTESTONLY -->
+		<!-- PRODONLY
+		<%= @example["label"] %> - <%= @lang.example.examples %> - Draft
+		END -->
+		</title>
+		<!-- PRODONLY
+		<meta name="description" content="<%= @lang.example.pageDescription.gsub('&&example&&', @example["label"]) %>" />
+		END -->
+
+		<meta name="description" content="{{{lang.ex_pvb.meta-description}}}">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="icon" href="/favicon.png?v=5" />
+		<!-- PRODONLY
+		<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/fr/example/<%= @example["id"].gsub(/_/, '-') %>" 
+			hreflang="x-default" />
+		<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/example//<%= @example["id"].gsub(/_/, '-') %>" 
+		  hreflang="en-GB" />
+		<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/example/<%= @example["id"].gsub(/_/, '-') %>" 
+		  hreflang="en-US" />
+		<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/fr/example/<%= @example["id"].gsub(/_/, '-') %>" 
+			hreflang="fr-FR" />
+		<% if @lang.code == 'en' %>
+			<link rel="canonical" href="<%= JSON_CONFIG['host'] %>/example/<%= @example["id"].gsub(/_/, '-') %>">
+		<% else %>
+			<link rel="canonical" href="<%= JSON_CONFIG['host'] %>/fr/example/<%= @example["id"].gsub(/_/, '-') %>">
+		<% end %>
+		END -->
+
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			
+			{{{includes.css}}}
+	</head>
+	<body class="ui_example has-header example lang-fr header-examples"><!-- lang-code -->
+		<!-- PRODONLY
+		<% if JSON_CONFIG["google-tag-manager"] %>
+			<%= render "partials/google_tag_manager_body" %>
+		<% end %>
+		END -->
+		
+		{{{includes.header}}}
+
+		<section class="landing">
+
+			<div class="wrapper">
+
+				<nav class="breadcrumb small">
+					<!-- PRODONLY
+					<% if @lang.code != 'en' %>
+						<a class="text-link light" href="/<%= @lang.code %>/examples"><%= @lang.example.examples %></a>
+					<% else %>
+						<a class="text-link light" href="/examples">Examples</a>
+					<% end %>
+					END -->
+					<!-- TESTONLY -->
+					<a class="text-link light" href="/examples">{{{lang.ui_examples.pageName}}}</a>
+					<!-- ENDTESTONLY -->
+					<i class="fas fa-chevron-right separator"></i>
+					<span class="current">
+						<!-- TESTONLY -->
+						{{{lang.ex_pvb.title}}}
+						<!-- ENDTESTONLY -->
+						<!-- PRODONLY
+						<%= @example["label"] %>
+						END -->
+					</span>
+				</nav>
+
+				<div class="title-bar">
+					<h1>
+						<!-- TESTONLY -->
+						{{{lang.ex_pvb.title}}}
+						<!-- ENDTESTONLY -->
+						<!-- PRODONLY
+						<%= @example["label"] %>
+						END -->
+					</h1>
+					{{{includes.example_actions}}}
+				</div>
+
+				<figure class="main-screenshot">
+					<!-- TESTONLY -->
+					<img class="screenshot" src="./imgs/examples/{{{lang.code}}}/full/example-product-vision-board.png" alt="" />
+					<!-- ENDTESTONLY -->
+					<!-- PRODONLY
+					<img class="screenshot" src="<%= image_path("site/examples/{{{lang.code}}}/full/example-" + @example["id"] + ".png") %>" alt="<%= @example["label"] %> example" />
+					END -->
+				</figure>
+
+			</div>
+
+		</section>
+
+		<section class="main-content">
+			<div class="wrapper">
+				{{{lang.ex_pvb.mainContent}}}
+			</div>
+
+			<div class="resources-block">
+				<i class="fas fa-bookmark deco"></i>
+				<h2>{{{lang.ex_pvb.resourcesBlock.title}}}</h2>
+				<ul class="resources-list">
+					{{{lang.ex_pvb.resourcesBlock.linksList}}}
+				</ul>
+			</div>
+
+		</section>
+
+		<footer class="examples-nav dark">
+			<nav class="wrapper">
+				<a class="text-link light previous" href="<%= @previous_href %>">
+					<!-- TESTONLY -->
+					<span class="link-label">
+						Previous example lorem
+						<i class="fas fa-long-arrow-alt-left"></i>
+					</span>
+					<!-- ENDTESTONLY -->
+					<!-- PRODONLY
+					<span class="link-label">
+						<%= @previous["label"] %>
+						<i class="fas fa-long-arrow-alt-left"></i>
+					</span>
+					END -->
+				</a>
+				<span class="separator"></span>
+				<span class="current-example">
+					<!-- TESTONLY -->
+					Current example ipsum
+					<!-- ENDTESTONLY -->
+					<!-- PRODONLY
+					<%= @example["label"] %>
+					END -->
+				</span>
+				<span class="separator"></span>
+				<a class="text-link light next" href="<%= @next_href %>">
+					<!-- TESTONLY -->
+					<span class="link-label">
+						Next example consectim
+						<i class="fas fa-long-arrow-alt-right"></i>
+					</span>
+					<!-- ENDTESTONLY -->
+					<!-- PRODONLY
+					<span class="link-label">
+						<%= @next["label"] %>
+						<i class="fas fa-long-arrow-alt-right"></i>
+					</span>
+					END -->
+				</a>
+			</nav>
+		</footer>
+
+	<script src="https://kit.fontawesome.com/6b4515f4ac.js" crossorigin="anonymous"></script>
+
+	<script>
+	if (
+	  "IntersectionObserver" in window &&
+	  "IntersectionObserverEntry" in window &&
+	  "intersectionRatio" in window.IntersectionObserverEntry.prototype
+	) {
+	let observer = new IntersectionObserver(entries => {
+	  if (entries[0].boundingClientRect.y < 0) {
+	    document.body.classList.add("header-not-at-top");
+	  } else {
+	    document.body.classList.remove("header-not-at-top");
+	  }
+	});
+	observer.observe(document.querySelector("#top-of-site-pixel-anchor"));
+	}
+	</script>
+	
+	<!-- PRODONLY
+	<script>
+	document.querySelector('.bloc-cta .cta-border').addEventListener('pointerdown', function() {
+		window.location.href = "/example/create/<%= @example["id"] %>";
+	});
+	</script>
+	END -->
+
+	<!-- PRODONLY 
+  <% if Rails.env == "production" && JSON_CONFIG['ga'] %>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      
+      ga('create', "<%= JSON_CONFIG['ga'] %>", 'auto');
+      ga('send', 'pageview');
+    </script>
+  <% end %>
+  END -->
+	</body>
+</html>

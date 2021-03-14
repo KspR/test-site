@@ -1,0 +1,319 @@
+<html lang="<%= @lang.code %>">
+	<head>
+		<!-- PRODONLY
+		<% if JSON_CONFIG["google-tag-manager"] %>
+			<%= render "partials/google_tag_manager_head" %>
+		<% end %>
+		END -->
+		<title>
+		<!-- TESTONLY -->
+		Lean Startup Canvas - Exemple - Draft
+		<!-- ENDTESTONLY -->
+		<!-- PRODONLY
+		<%= @example["label"] %> - <%= @lang.example.examples %> - Draft
+		END -->
+		</title>
+		<!-- PRODONLY
+		<meta name="description" content="<%= @lang.example.pageDescription.gsub('&&example&&', @example["label"]) %>" />
+		END -->
+
+		<meta name="description" content="Combinant la méthode Lean Startup à l’approche du Business Model Canvas, le Lean Startup Canvas (ou Lean Canvas) est un modèle qui offre aux porteurs de projet une approche itérative et apprenante pour formaliser une nouvelle idée business.">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="icon" href="/favicon.png?v=5" />
+		<!-- PRODONLY
+		<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/fr/example/<%= @example["id"].gsub(/_/, '-') %>" 
+			hreflang="x-default" />
+		<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/example//<%= @example["id"].gsub(/_/, '-') %>" 
+		  hreflang="en-GB" />
+		<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/example/<%= @example["id"].gsub(/_/, '-') %>" 
+		  hreflang="en-US" />
+		<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/fr/example/<%= @example["id"].gsub(/_/, '-') %>" 
+			hreflang="fr-FR" />
+		<% if @lang.code == 'en' %>
+			<link rel="canonical" href="<%= JSON_CONFIG['host'] %>/example/<%= @example["id"].gsub(/_/, '-') %>">
+		<% else %>
+			<link rel="canonical" href="<%= JSON_CONFIG['host'] %>/fr/example/<%= @example["id"].gsub(/_/, '-') %>">
+		<% end %>
+		END -->
+
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			
+			<!-- BEGINCSS -->
+<link href="css/common.css" rel="stylesheet">
+<link href="css/colors.css" rel="stylesheet">
+<link href="css/portal-desktop.css" rel="stylesheet">
+<link href="css/portal-mobile.css" rel="stylesheet">
+<link href="css/DDS_draft-design-system.css" rel="stylesheet">
+<link href="css/ui_enterprise.css" rel="stylesheet">
+<link href="css/ui_pricing.css" rel="stylesheet">
+<link href="css/ui_example.css" rel="stylesheet">
+<link href="css/ui_customer-story.css" rel="stylesheet">
+<link href="css/ui_customer-stories.css" rel="stylesheet">
+<link href="css/ui_onboarding.css" rel="stylesheet">
+
+<link href="css/TEST_ONLY_ui_sommaire.css" rel="stylesheet">
+
+<!-- ENDCSS -->
+	</head>
+	<body class="ui_example has-header example lang-fr header-examples"><!-- lang-code -->
+		<!-- PRODONLY
+		<% if JSON_CONFIG["google-tag-manager"] %>
+			<%= render "partials/google_tag_manager_body" %>
+		<% end %>
+		END -->
+		
+		<div id="top-of-site-pixel-anchor"></div>
+
+<header class="main-header">
+	<input type="checkbox" id="btnBurgerMenu" name="burger-menu-visibility">
+	<label for="btnBurgerMenu" class="burger-btn">
+		<span class="wrapper">
+			<span class="deco-btn-burger"></span>
+			<span class="deco-btn-burger"></span>
+			<span class="deco-btn-burger"></span>
+		</span>
+	</label>
+	<nav class="nav">
+		<a class="logo text-link" href="/fr/"><img src="./imgs/logo-diag-orange-plus-text.png" alt="Logo Draft"></a>
+		<ul>
+			<li>
+				<div class="toggle-wrapper text-link">
+					<div class="toggle">
+						<!-- Workflows <i class="fas fa-chevron-down"></i> -->
+						<span class="selected">Workflows <i class="fas fa-chevron-down"></i></span>
+						<span class="neutral">Workflows <i class="fas fa-chevron-down"></i></span>
+					</div>
+					<ul class="menu">
+						<li><a class="text-link" href="/fr/agile-project-management">Gestion de projet Agile</a></li>
+						<li><a class="text-link" href="/fr/product-management">Product Management</a></li>
+						<li><a class="text-link" href="/fr/everyday-creative-work">Travail créatif quotidien</a></li>
+					</ul>
+				</div>
+			</li>
+			<li class="page-enterprise-li"><a class="text-link" href="/fr/enterprise">
+				<!-- Entreprise -->
+				<span class="selected">Entreprise</span>
+				<span class="neutral">Entreprise</span>
+			</a></li>
+			<li class="page-customer-stories-li"><a class="text-link" href="/fr/customer-stories">
+				<!-- Customer stories -->
+				<span class="selected">Customer stories</span>
+				<span class="neutral">Customer stories</span>
+			</a></li>
+			<li class="page-examples-li"><a class="text-link" href="/fr/examples">
+				<!-- Exemples -->
+				<span class="selected">Exemples</span>
+				<span class="neutral">Exemples</span>
+			</a></li>
+			<li class="page-pricing-li"><a class="text-link" href="/fr/pricing">
+				<!-- Offres -->
+				<span class="selected">Offres</span>
+				<span class="neutral">Offres</span>
+			</a></li>
+			<li class="login"><a class="text-link" href="/fr/login">
+				<!-- Se connecter -->
+				<span class="selected">Se connecter</span>
+				<span class="neutral">Se connecter</span>
+
+			</a></li>
+			<li class="signup"><a class="cta" href="/fr/get-started">
+				<!-- S'inscrire -->
+				<span class="selected">S'inscrire</span>
+				<span class="neutral">S'inscrire</span>
+			</a></li>
+		</ul>
+
+		<!-- <a class="fav" href="/">d</a> -->
+		<!-- <a class="fav-sheet" href="/">d</a> -->
+	</ul>
+</header>
+
+<script>
+	document.ontouchstart = function (e) {
+		e.stopPropagation();
+	}
+</script>
+
+		<section class="landing">
+
+			<div class="wrapper">
+
+				<nav class="breadcrumb small">
+					<!-- PRODONLY
+					<% if @lang.code != 'en' %>
+						<a class="text-link light" href="/<%= @lang.code %>/examples"><%= @lang.example.examples %></a>
+					<% else %>
+						<a class="text-link light" href="/examples">Examples</a>
+					<% end %>
+					END -->
+					<!-- TESTONLY -->
+					<a class="text-link light" href="/examples">Exemples</a>
+					<!-- ENDTESTONLY -->
+					<i class="fas fa-chevron-right separator"></i>
+					<span class="current">
+						<!-- TESTONLY -->
+						Lean Startup Canvas
+						<!-- ENDTESTONLY -->
+						<!-- PRODONLY
+						<%= @example["label"] %>
+						END -->
+					</span>
+				</nav>
+
+				<div class="title-bar">
+					<h1>
+						<!-- TESTONLY -->
+						Lean Startup Canvas
+						<!-- ENDTESTONLY -->
+						<!-- PRODONLY
+						<%= @example["label"] %>
+						END -->
+					</h1>
+					<!-- TESTONLY -->
+<div class="actions has-template">
+<!-- ENDTESTONLY -->
+<!-- PRODONLY
+<div class="actions <%= @has_template ? "has-template" : "" %>">
+END -->
+		<!-- TESTONLY -->
+		<a href="#" class="cta round outline">
+		Essayer l'exemple
+		<!-- ENDTESTONLY -->
+		<!-- PRODONLY
+		<a href="https://draft.io/example/create/<%= @example["id"] %>" class="cta round outline">
+		Essayer l'exemple
+		END -->
+		<span class="mention">
+			<!-- TESTONLY -->
+			Pas de compte requis
+			<!-- ENDTESTONLY -->
+			<!-- PRODONLY
+			<%= @lang.example.asterisk %>
+			END -->
+		</span>
+	</a>
+	<span class="separator"></span>
+	<!-- TESTONLY -->
+	<a href="#" class="text-link light underline">Utiliser ce template</a>
+	<!-- ENDTESTONLY -->
+	<!-- PRODONLY
+	<a href="https://draft.io/template/create/<%= @example["id"] %>" class="text-link light underline">Utiliser ce template</a>
+	END -->
+</div>
+				</div>
+
+				<figure class="main-screenshot">
+					<!-- TESTONLY -->
+					<img class="screenshot" src="./imgs/examples/fr/full/example-lean-startup-canvas.png" alt="Lean startup canvas illustration" />
+					<!-- ENDTESTONLY -->
+					<!-- PRODONLY
+					<img class="screenshot" src="<%= image_path("site/examples/fr/full/example-" + @example["id"] + ".png") %>" alt="<%= @example["label"] %> example" />
+					END -->
+				</figure>
+
+			</div>
+
+		</section>
+
+		<section class="main-content">
+			<div class="wrapper">
+				<h2>Qu’est-ce que Lean Startup Canvas ?</h2><p>Combinant la méthode Lean Startup à l’approche du <a class="text-link advanced-underline-over" href="https://draft.io/fr/example/business-model-canvas"><span>Business</span> <span>Model</span> <span>Canvas</span></a>, le Lean Startup Canvas (ou Lean Canvas) est un modèle qui offre aux porteurs de projet une approche itérative et apprenante pour formaliser une nouvelle idée business. Le canevas s’articule autour de 9 sections à remplir dans l’ordre qui suit :</p><ol><li>Les segment clients visés ; </li><li>Les problèmes que votre produit est censée résoudre pour vos clients ;</li><li>La proposition de valeur, i.e. les bénéfices que vos clients peuvent espérer de votre produit ;</li><li>Les solutions que votre produit apporte (principales grandes fonctionnalités) ;</li><li>Les canaux de communication et de distribution ;</li><li>Les différentes sources de revenu </li><li>La structure de coût anticipée ;</li><li>Les indicateurs clés de performance qui vont permettront de mesurer votre succès ;</li><li>L’avantage concurrentiel qui vous permet de vous distinguer et n’être que difficilement copié.</li></ol><img src="./imgs/UI_Examples/LeanStartupCanvas/illustration_Lean_startup_canvas_1.png" alt="Lean Startup Canvas Illustration" /><p>La méthodologie du Lean Startup Canvas est particulièrement utile pour les entrepreneurs qui démarrent un projet. Elle les aide à définir les hypothèses sur lesquelles s’appuie leur vision et à identifier les indicateurs censés refléter l’atteinte des objectifs. </p><p>Comme évoqué au début de l’article, cette approche est itérative. En effet, pour que les atouts du Lean Startup Canvas soient pleinement exploités, il doit être mis à jour régulièrement, au minimum, à chaque changement stratégique. C’est le caractère itératif de la méthode qui lui donne son caractère apprenant. En capitalisant sur les découvertes réalisées entre chaque itération, les porteurs de projet peuvent ajuster leurs hypothèses ou raffermir leurs convictions.</p><h2>En quoi consiste la méthode Lean Startup ?</h2><p>Popularisée par Eric Ries dans l’ouvrage incontournable <a class="text-link advanced-underline-over" href="http://theleanstartup.com/"><span>The</span> <span>Lean</span> <span>Startup</span></a>, cette méthode se donne pour objectif d’aider les startups à ne pas perdre leur temps à développer des produits que personne ne veut, ou, à l’inverse, les aider à trouver le bon produit à fabriquer, que des clients voudront et pour lequel ils seront prêts à payer.</p><p>Cette approche s’inscrit dans un cycle appelé le “Build-Measure-Learn Feedback Loop”, composé de 3 phases :</p><ul><li>Une phase de développement du MVP ou d’une nouvelle version du produit (voir l’exemple du <a class="text-link advanced-underline-over" href="https://draft.io/fr/example/user-story-mapping"><span>User</span> <span>Story</span> <span>Mapping</span></a> pour plus d’information sur le concept de Minimum Viable Product) ;</li><li>Une phase de mesure des indicateurs qui avait été définis en amont ;</li><li>Une phase d’apprentissage dédiée à l’analyse des données mesurées et à la définition des principaux enseignements du cycle.</li></ul><img class="small" src="./imgs/UI_Examples/LeanStartupCanvas/illustration_Lean_startup_canvas_2_fr.png" alt="Le circuit Lean Startup Canvas" /><p>Par ailleurs, l’auteur introduit deux concepts complémentaires:</p><ul><li>Le premier est celui d’apprentissage validé. Il met l’accent sur le caractère scientifique de l’approche : on définit un protocole expérimental, on développe un produit, on mesure, puis on valide ou invalide les hypothèses initiales ;</li><li>Le second est celui de comptabilité d’innovation. Il s’agit de rationaliser le processus d’apprentissage : premièrement, on mesure sur la base d’un vrai produit et de vraies données où se trouve le projet à un instant t, ensuite, on améliore le produit de façon incrémentale pour améliorer les paramètres mesurés, enfin, sur la base de ce qui a été mesuré, il s’agit pour l’entrepreneur de prendre une décision critique, pivoter, i.e. changer de stratégie, ou préserver dans la même direction.</li></ul><img class="medium" src="./imgs/UI_Examples/LeanStartupCanvas/illustration_Lean_startup_canvas_3_fr.png" alt="Schema pyramidal Lean Startup Canvas" /><p>Pour finir, Eric Ries partage un précieux conseil au sujet du sens dans lequel il vaut mieux aborder ce cycle : “Même si nous définissons ce cycle comme étant Développer-Mesurer-Apprendre, parce que les différentes activités interviennent dans cet ordre, l’approche se déroule en réalité dans l’autre sens : nous déterminons ce que nous souhaitons apprendre, nous utilisons la comptabilité d’innovation pour identifier ce que nous devons mesurer pour savoir si nous avons validé un apprentissage, et, enfin, nous imaginons le produit que nous devons développer pour conduire cette expérimentation et mesurer ce que l’on souhaite.”</p>
+			</div>
+
+			<div class="resources-block">
+				<i class="fas fa-bookmark deco"></i>
+				<h2>Quelques suggestions de ressources pour maîtriser la construction de roadmap Agile</h2>
+				<ul class="resources-list">
+					<li><i class="far fa-bookmark"></i>Un très bon article de Bpifrance qui détaille chacune des étapes : <a class="text-link light underline" href="https://bpifrance-creation.fr/moment-de-vie/lean-canvas-lapplication-methode-du-lean-startup#:~:text=Le%20Lean%20Canvas%20est%20un,largement%20utilis%C3%A9e%20par%20les%20startups.">Le Lean Canvas : l’application de la méthode du Lean Startup</a></li><li><i class="fas fa-play-circle"></i>Une vidéo de Jean-Pierre Lambert sur la chaîne YouTube Scrum Life qui présente un cas pratique concret : <a class="text-link light underline" href="https://www.youtube.com/watch?v=0WYwK4beHPA">Lean Canvans : Business Plan pour tous les responsables produit</a></li><li><i class="fas fa-play-circle"></i>Une vidéo complémentaire, toujours de Jean-Pierre Lambert, mais cette fois-ci accompagnée de Constantin Guay : <a class="text-link light underline" href="https://www.youtube.com/watch?v=VEWiJniocDg">Lean Startup (Eric Ries)</a></li>
+				</ul>
+			</div>
+
+		</section>
+
+		<footer class="examples-nav dark">
+			<nav class="wrapper">
+				<a class="text-link light previous" href="<%= @previous_href %>">
+					<!-- TESTONLY -->
+					<span class="link-label">
+						Previous example lorem
+						<i class="fas fa-long-arrow-alt-left"></i>
+					</span>
+					<!-- ENDTESTONLY -->
+					<!-- PRODONLY
+					<span class="link-label">
+						<%= @previous["label"] %>
+						<i class="fas fa-long-arrow-alt-left"></i>
+					</span>
+					END -->
+				</a>
+				<span class="separator"></span>
+				<span class="current-example">
+					<!-- TESTONLY -->
+					Current example ipsum
+					<!-- ENDTESTONLY -->
+					<!-- PRODONLY
+					<%= @example["label"] %>
+					END -->
+				</span>
+				<span class="separator"></span>
+				<a class="text-link light next" href="<%= @next_href %>">
+					<!-- TESTONLY -->
+					<span class="link-label">
+						Next example consectim
+						<i class="fas fa-long-arrow-alt-right"></i>
+					</span>
+					<!-- ENDTESTONLY -->
+					<!-- PRODONLY
+					<span class="link-label">
+						<%= @next["label"] %>
+						<i class="fas fa-long-arrow-alt-right"></i>
+					</span>
+					END -->
+				</a>
+			</nav>
+		</footer>
+
+	<script src="https://kit.fontawesome.com/6b4515f4ac.js" crossorigin="anonymous"></script>
+
+	<script>
+	if (
+	  "IntersectionObserver" in window &&
+	  "IntersectionObserverEntry" in window &&
+	  "intersectionRatio" in window.IntersectionObserverEntry.prototype
+	) {
+	let observer = new IntersectionObserver(entries => {
+	  if (entries[0].boundingClientRect.y < 0) {
+	    document.body.classList.add("header-not-at-top");
+	  } else {
+	    document.body.classList.remove("header-not-at-top");
+	  }
+	});
+	observer.observe(document.querySelector("#top-of-site-pixel-anchor"));
+	}
+	</script>
+	
+	<!-- PRODONLY
+	<script>
+	document.querySelector('.bloc-cta .cta-border').addEventListener('pointerdown', function() {
+		window.location.href = "/example/create/<%= @example["id"] %>";
+	});
+	</script>
+	END -->
+
+	<!-- PRODONLY 
+  <% if Rails.env == "production" && JSON_CONFIG['ga'] %>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      
+      ga('create', "<%= JSON_CONFIG['ga'] %>", 'auto');
+      ga('send', 'pageview');
+    </script>
+  <% end %>
+  END -->
+	</body>
+</html>

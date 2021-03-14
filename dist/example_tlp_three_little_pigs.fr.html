@@ -1,0 +1,319 @@
+<html lang="<%= @lang.code %>">
+	<head>
+		<!-- PRODONLY
+		<% if JSON_CONFIG["google-tag-manager"] %>
+			<%= render "partials/google_tag_manager_head" %>
+		<% end %>
+		END -->
+		<title>
+		<!-- TESTONLY -->
+		Rétrospective des Trois Petits Cochons - Exemple - Draft
+		<!-- ENDTESTONLY -->
+		<!-- PRODONLY
+		<%= @example["label"] %> - <%= @lang.example.examples %> - Draft
+		END -->
+		</title>
+		<!-- PRODONLY
+		<meta name="description" content="<%= @lang.example.pageDescription.gsub('&&example&&', @example["label"]) %>" />
+		END -->
+
+		<meta name="description" content="Inspirée par le conte des Trois Petits Cochons, la rétrospective éponyme est un atelier ludique mais efficace, idéal pour établir un état des lieux et faire émerger des pistes d’amélioration. Chacune des maisons est associée à une question pour laquelle les participants doivent noter des éléments de réponse.">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="icon" href="/favicon.png?v=5" />
+		<!-- PRODONLY
+		<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/fr/example/<%= @example["id"].gsub(/_/, '-') %>" 
+			hreflang="x-default" />
+		<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/example//<%= @example["id"].gsub(/_/, '-') %>" 
+		  hreflang="en-GB" />
+		<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/example/<%= @example["id"].gsub(/_/, '-') %>" 
+		  hreflang="en-US" />
+		<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/fr/example/<%= @example["id"].gsub(/_/, '-') %>" 
+			hreflang="fr-FR" />
+		<% if @lang.code == 'en' %>
+			<link rel="canonical" href="<%= JSON_CONFIG['host'] %>/example/<%= @example["id"].gsub(/_/, '-') %>">
+		<% else %>
+			<link rel="canonical" href="<%= JSON_CONFIG['host'] %>/fr/example/<%= @example["id"].gsub(/_/, '-') %>">
+		<% end %>
+		END -->
+
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			
+			<!-- BEGINCSS -->
+<link href="css/common.css" rel="stylesheet">
+<link href="css/colors.css" rel="stylesheet">
+<link href="css/portal-desktop.css" rel="stylesheet">
+<link href="css/portal-mobile.css" rel="stylesheet">
+<link href="css/DDS_draft-design-system.css" rel="stylesheet">
+<link href="css/ui_enterprise.css" rel="stylesheet">
+<link href="css/ui_pricing.css" rel="stylesheet">
+<link href="css/ui_example.css" rel="stylesheet">
+<link href="css/ui_customer-story.css" rel="stylesheet">
+<link href="css/ui_customer-stories.css" rel="stylesheet">
+<link href="css/ui_onboarding.css" rel="stylesheet">
+
+<link href="css/TEST_ONLY_ui_sommaire.css" rel="stylesheet">
+
+<!-- ENDCSS -->
+	</head>
+	<body class="ui_example has-header example lang-fr header-examples"><!-- lang-code -->
+		<!-- PRODONLY
+		<% if JSON_CONFIG["google-tag-manager"] %>
+			<%= render "partials/google_tag_manager_body" %>
+		<% end %>
+		END -->
+		
+		<div id="top-of-site-pixel-anchor"></div>
+
+<header class="main-header">
+	<input type="checkbox" id="btnBurgerMenu" name="burger-menu-visibility">
+	<label for="btnBurgerMenu" class="burger-btn">
+		<span class="wrapper">
+			<span class="deco-btn-burger"></span>
+			<span class="deco-btn-burger"></span>
+			<span class="deco-btn-burger"></span>
+		</span>
+	</label>
+	<nav class="nav">
+		<a class="logo text-link" href="/fr/"><img src="./imgs/logo-diag-orange-plus-text.png" alt="Logo Draft"></a>
+		<ul>
+			<li>
+				<div class="toggle-wrapper text-link">
+					<div class="toggle">
+						<!-- Workflows <i class="fas fa-chevron-down"></i> -->
+						<span class="selected">Workflows <i class="fas fa-chevron-down"></i></span>
+						<span class="neutral">Workflows <i class="fas fa-chevron-down"></i></span>
+					</div>
+					<ul class="menu">
+						<li><a class="text-link" href="/fr/agile-project-management">Gestion de projet Agile</a></li>
+						<li><a class="text-link" href="/fr/product-management">Product Management</a></li>
+						<li><a class="text-link" href="/fr/everyday-creative-work">Travail créatif quotidien</a></li>
+					</ul>
+				</div>
+			</li>
+			<li class="page-enterprise-li"><a class="text-link" href="/fr/enterprise">
+				<!-- Entreprise -->
+				<span class="selected">Entreprise</span>
+				<span class="neutral">Entreprise</span>
+			</a></li>
+			<li class="page-customer-stories-li"><a class="text-link" href="/fr/customer-stories">
+				<!-- Customer stories -->
+				<span class="selected">Customer stories</span>
+				<span class="neutral">Customer stories</span>
+			</a></li>
+			<li class="page-examples-li"><a class="text-link" href="/fr/examples">
+				<!-- Exemples -->
+				<span class="selected">Exemples</span>
+				<span class="neutral">Exemples</span>
+			</a></li>
+			<li class="page-pricing-li"><a class="text-link" href="/fr/pricing">
+				<!-- Offres -->
+				<span class="selected">Offres</span>
+				<span class="neutral">Offres</span>
+			</a></li>
+			<li class="login"><a class="text-link" href="/fr/login">
+				<!-- Se connecter -->
+				<span class="selected">Se connecter</span>
+				<span class="neutral">Se connecter</span>
+
+			</a></li>
+			<li class="signup"><a class="cta" href="/fr/get-started">
+				<!-- S'inscrire -->
+				<span class="selected">S'inscrire</span>
+				<span class="neutral">S'inscrire</span>
+			</a></li>
+		</ul>
+
+		<!-- <a class="fav" href="/">d</a> -->
+		<!-- <a class="fav-sheet" href="/">d</a> -->
+	</ul>
+</header>
+
+<script>
+	document.ontouchstart = function (e) {
+		e.stopPropagation();
+	}
+</script>
+
+		<section class="landing">
+
+			<div class="wrapper">
+
+				<nav class="breadcrumb small">
+					<!-- PRODONLY
+					<% if @lang.code != 'en' %>
+						<a class="text-link light" href="/<%= @lang.code %>/examples"><%= @lang.example.examples %></a>
+					<% else %>
+						<a class="text-link light" href="/examples">Examples</a>
+					<% end %>
+					END -->
+					<!-- TESTONLY -->
+					<a class="text-link light" href="/examples">Exemples</a>
+					<!-- ENDTESTONLY -->
+					<i class="fas fa-chevron-right separator"></i>
+					<span class="current">
+						<!-- TESTONLY -->
+						Rétrospective des Trois Petits Cochons
+						<!-- ENDTESTONLY -->
+						<!-- PRODONLY
+						<%= @example["label"] %>
+						END -->
+					</span>
+				</nav>
+
+				<div class="title-bar">
+					<h1>
+						<!-- TESTONLY -->
+						Rétrospective des Trois Petits Cochons
+						<!-- ENDTESTONLY -->
+						<!-- PRODONLY
+						<%= @example["label"] %>
+						END -->
+					</h1>
+					<!-- TESTONLY -->
+<div class="actions has-template">
+<!-- ENDTESTONLY -->
+<!-- PRODONLY
+<div class="actions <%= @has_template ? "has-template" : "" %>">
+END -->
+		<!-- TESTONLY -->
+		<a href="#" class="cta round outline">
+		Essayer l'exemple
+		<!-- ENDTESTONLY -->
+		<!-- PRODONLY
+		<a href="https://draft.io/example/create/<%= @example["id"] %>" class="cta round outline">
+		Essayer l'exemple
+		END -->
+		<span class="mention">
+			<!-- TESTONLY -->
+			Pas de compte requis
+			<!-- ENDTESTONLY -->
+			<!-- PRODONLY
+			<%= @lang.example.asterisk %>
+			END -->
+		</span>
+	</a>
+	<span class="separator"></span>
+	<!-- TESTONLY -->
+	<a href="#" class="text-link light underline">Utiliser ce template</a>
+	<!-- ENDTESTONLY -->
+	<!-- PRODONLY
+	<a href="https://draft.io/template/create/<%= @example["id"] %>" class="text-link light underline">Utiliser ce template</a>
+	END -->
+</div>
+				</div>
+
+				<figure class="main-screenshot">
+					<!-- TESTONLY -->
+					<img class="screenshot" src="./imgs/examples/fr/full/example-three-little-pigs-retrospective.png" alt="" />
+					<!-- ENDTESTONLY -->
+					<!-- PRODONLY
+					<img class="screenshot" src="<%= image_path("site/examples/fr/full/example-" + @example["id"] + ".png") %>" alt="<%= @example["label"] %> example" />
+					END -->
+				</figure>
+
+			</div>
+
+		</section>
+
+		<section class="main-content">
+			<div class="wrapper">
+				<h2>Qu’est-ce que la Rétrospective des Trois Petits Cochons ?</h2><p>Inspirée par le conte des Trois Petits Cochons, la rétrospective éponyme est un atelier ludique mais efficace, idéal pour établir un état des lieux et faire émerger des pistes d’amélioration. Chacune des maisons est associée à une question pour laquelle les participants doivent noter des éléments de réponse :</p><ul><li><span class="emphasized">Maison de paille</span> : Que faisons-nous aujourd’hui qui pourrait s’écrouler en un coup de vent ?</li><li><span class="emphasized">Maison de bois</span> : Que faisons-nous aujourd’hui qui tient la route mais qui mériterait consolidation ?</li><li><span class="emphasized">Maison de brique</span> : Que faisons-nous aujourd’hui qui est solide, fiable et dont nous sommes satisfaits ?</li></ul><img src="./imgs/UI_Examples/ThreeLittlePigs/draft-cochons.png" alt="Trois petits cochons illustration" /><h2>Comment la rétrospective se déroule-t-elle ?</h2><p>L’atelier se déroule en 4 ou 5 étapes, selon l’expérience que l’équipe possède avec la Rétrospective des Trois Petits Cochons.</p><p><span class="emphasized">Étape 0</span> : si les participants ne connaissent pas l’atelier, le facilitateur prend le temps de présenter son fonctionnement et son déroulé. Parmi les règles que doivent avoir à l’esprit, les suivantes sont toujours utiles à rappeler :</p><ul><li>Seulement une idée par post-it ;</li><li>Totale liberté dans le choix des colonnes et le nombre de post-it par colonne (de 0 à n).</li></ul><p><span class="emphasized">Étape 1</span> : pendant 5 minutes, les participants notent leurs réponses sur des post-it, chacun de leur côté, puis les placent dans chacune des colonnes correspondantes.</p><p><span class="emphasized">Étape 2</span> : le facilitateur lit les post-it un à un et, en cas d’ambiguïté, demande au participant concerné d’expliquer sa réponse. Afin de rendre le tout plus intelligible, le facilitateur peut profiter de cette étape pour reformuler certaines réponses ou rassembler des réponses de même nature.</p><p><span class="emphasized">Étape 3</span> : au cours d’un autre intervalle de 5 minutes, les participants réfléchissent à des axes d’amélioration et les notent sur des post-it. Cette étape peut s’effectuer en groupe ou seul, chacun de son côté.</p><p><span class="emphasized">Étape 4</span> : afin de retenir les 3 axes d’amélioration les plus pertinents, les participants hiérarchisent les propositions grâce à un dot voting. Si vous souhaitez prendre en compte à la fois la complexité et la valeur des axes d’amélioration proposés, vous pouvez utiliser une matrice de priorisation à la place du dot voting. Pour chaque initiative retenue, un membre de l’équipe se voit attribuer la responsabilité de sa bonne mise en œuvre.</p>
+			</div>
+
+			<div class="resources-block">
+				<i class="fas fa-bookmark deco"></i>
+				<h2>Quelques suggestions de ressources pour maîtriser la facilitation de cette rétrospective</h2>
+				<ul class="resources-list">
+					<li><i class="far fa-bookmark"></i>Le très bon billet de blog de Martial Segura : <a class="text-link light underline" href="https://www.oeildecoach.com/3-cochons-peuvent-aider-vos-retros/">Comment 3 cochons peuvent-ils vous aider pour vos rétros ?</a></li><li><i class="far fa-bookmark"></i>Un article d’Olivier My qui présente un exemple concret : <a class="text-link light underline" href="https://oyomy.fr/2019/08/3-petits-cochons-pour-une-retrospective/">3 petits cochons pour une rétrospective</a></li><li><i class="fas fa-play-circle"></i>Une vidéo Judicaël Paquet qui présente l’atelier dans une courte vidéo : <a class="text-link light underline" href="https://www.youtube.com/watch?v=V1H4-kRDKRA">Les 3 Petits Cochons</a></li>
+				</ul>
+			</div>
+
+		</section>
+
+		<footer class="examples-nav dark">
+			<nav class="wrapper">
+				<a class="text-link light previous" href="<%= @previous_href %>">
+					<!-- TESTONLY -->
+					<span class="link-label">
+						Previous example lorem
+						<i class="fas fa-long-arrow-alt-left"></i>
+					</span>
+					<!-- ENDTESTONLY -->
+					<!-- PRODONLY
+					<span class="link-label">
+						<%= @previous["label"] %>
+						<i class="fas fa-long-arrow-alt-left"></i>
+					</span>
+					END -->
+				</a>
+				<span class="separator"></span>
+				<span class="current-example">
+					<!-- TESTONLY -->
+					Current example ipsum
+					<!-- ENDTESTONLY -->
+					<!-- PRODONLY
+					<%= @example["label"] %>
+					END -->
+				</span>
+				<span class="separator"></span>
+				<a class="text-link light next" href="<%= @next_href %>">
+					<!-- TESTONLY -->
+					<span class="link-label">
+						Next example consectim
+						<i class="fas fa-long-arrow-alt-right"></i>
+					</span>
+					<!-- ENDTESTONLY -->
+					<!-- PRODONLY
+					<span class="link-label">
+						<%= @next["label"] %>
+						<i class="fas fa-long-arrow-alt-right"></i>
+					</span>
+					END -->
+				</a>
+			</nav>
+		</footer>
+
+	<script src="https://kit.fontawesome.com/6b4515f4ac.js" crossorigin="anonymous"></script>
+
+	<script>
+	if (
+	  "IntersectionObserver" in window &&
+	  "IntersectionObserverEntry" in window &&
+	  "intersectionRatio" in window.IntersectionObserverEntry.prototype
+	) {
+	let observer = new IntersectionObserver(entries => {
+	  if (entries[0].boundingClientRect.y < 0) {
+	    document.body.classList.add("header-not-at-top");
+	  } else {
+	    document.body.classList.remove("header-not-at-top");
+	  }
+	});
+	observer.observe(document.querySelector("#top-of-site-pixel-anchor"));
+	}
+	</script>
+	
+	<!-- PRODONLY
+	<script>
+	document.querySelector('.bloc-cta .cta-border').addEventListener('pointerdown', function() {
+		window.location.href = "/example/create/<%= @example["id"] %>";
+	});
+	</script>
+	END -->
+
+	<!-- PRODONLY 
+  <% if Rails.env == "production" && JSON_CONFIG['ga'] %>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      
+      ga('create', "<%= JSON_CONFIG['ga'] %>", 'auto');
+      ga('send', 'pageview');
+    </script>
+  <% end %>
+  END -->
+	</body>
+</html>

@@ -160,38 +160,44 @@
 .ui_example .main-content .wrapper p + h2 {
   margin-top: 30px;
 }
-.ui_example .main-content .wrapper p, .ui_example .main-content .wrapper ul {
+.ui_example .main-content .wrapper p, .ui_example .main-content .wrapper ul, .ui_example .main-content .wrapper ol {
   margin-bottom: 15px;
   line-height: 1.7rem;
   font-size: 1.2rem;
 }
-.ui_example .main-content .wrapper p.clearfix, .ui_example .main-content .wrapper ul.clearfix {
+.ui_example .main-content .wrapper p.clearfix, .ui_example .main-content .wrapper ul.clearfix, .ui_example .main-content .wrapper ol.clearfix {
   margin-top: 30px;
 }
-.ui_example .main-content .wrapper p.clearfix img.float, .ui_example .main-content .wrapper ul.clearfix img.float {
+.ui_example .main-content .wrapper p.clearfix img.float, .ui_example .main-content .wrapper ul.clearfix img.float, .ui_example .main-content .wrapper ol.clearfix img.float {
   border-radius: 5px;
   margin: 30px;
   margin-top: 0;
   max-height: 500px;
   max-width: calc(50% - 30px);
 }
-.ui_example .main-content .wrapper p.clearfix img.float.left, .ui_example .main-content .wrapper ul.clearfix img.float.left {
+.ui_example .main-content .wrapper p.clearfix img.float.left, .ui_example .main-content .wrapper ul.clearfix img.float.left, .ui_example .main-content .wrapper ol.clearfix img.float.left {
   float: left;
   margin-left: -30px;
 }
-.ui_example .main-content .wrapper p.clearfix img.float.right, .ui_example .main-content .wrapper ul.clearfix img.float.right {
+.ui_example .main-content .wrapper p.clearfix img.float.right, .ui_example .main-content .wrapper ul.clearfix img.float.right, .ui_example .main-content .wrapper ol.clearfix img.float.right {
   float: right;
   margin-right: -30px;
 }
-.ui_example .main-content .wrapper ul {
+.ui_example .main-content .wrapper ul, .ui_example .main-content .wrapper ol {
   margin-top: 10px;
   margin-bottom: 30px;
+}
+.ui_example .main-content .wrapper ul li, .ui_example .main-content .wrapper ol li {
+  position: relative;
+}
+.ui_example .main-content .wrapper ul li + li, .ui_example .main-content .wrapper ol li + li {
+  margin-top: 10px;
+}
+.ui_example .main-content .wrapper ul {
   padding-left: 20px;
 }
 .ui_example .main-content .wrapper ul li {
-  position: relative;
   padding-left: 20px;
-  position: relative;
 }
 .ui_example .main-content .wrapper ul li::before {
   content: "•";
@@ -199,13 +205,28 @@
   top: 0;
   left: 0;
 }
-.ui_example .main-content .wrapper ul li + li {
-  margin-top: 10px;
+.ui_example .main-content .wrapper ol {
+  padding-left: 40px;
 }
-.ui_example .main-content .wrapper p + img {
+.ui_example .main-content .wrapper ol li {
+  padding-left: 10px;
+}
+.ui_example .main-content .wrapper p + img, .ui_example .main-content .wrapper ul + img, .ui_example .main-content .wrapper ol + img {
   width: 100%;
   margin: 20px 0 40px;
   border-radius: 5px;
+}
+.ui_example .main-content .wrapper img.medium, .ui_example .main-content .wrapper img.small {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.ui_example .main-content .wrapper img.medium {
+  width: 500px;
+}
+.ui_example .main-content .wrapper img.small {
+  width: 400px;
 }
 .ui_example .main-content .tips-block,
 .ui_example .main-content .resources-block {
@@ -228,26 +249,26 @@
   line-height: 1.7rem;
   font-size: 1.2rem;
 }
-.ui_example .main-content .tips-block ul {
+.ui_example .main-content .tips-block ul, .ui_example .main-content .tips-block ol {
   margin-top: 20px;
   margin-left: 20px;
 }
-.ui_example .main-content .tips-block ul li {
+.ui_example .main-content .tips-block ul li, .ui_example .main-content .tips-block ol li {
   position: relative;
   padding-left: 20px;
   line-height: 1.7rem;
   font-size: 1.2rem;
 }
-.ui_example .main-content .tips-block ul li::before {
+.ui_example .main-content .tips-block ul li::before, .ui_example .main-content .tips-block ol li::before {
   content: "•";
   display: block;
   position: absolute;
   left: 0;
 }
-.ui_example .main-content .tips-block ul li + li {
+.ui_example .main-content .tips-block ul li + li, .ui_example .main-content .tips-block ol li + li {
   margin-top: 10px;
 }
-.ui_example .main-content .tips-block ul + p {
+.ui_example .main-content .tips-block ul + p, .ui_example .main-content .tips-block ol + p {
   margin-top: 20px;
 }
 .ui_example .main-content .tips-block footer {
@@ -461,10 +482,10 @@
   .ui_example .main-content .tips-block h2 {
     margin-bottom: 20px;
   }
-  .ui_example .main-content .tips-block ul {
+  .ui_example .main-content .tips-block ul, .ui_example .main-content .tips-block ol {
     margin-left: 0px;
   }
-  .ui_example .main-content .tips-block ul + p {
+  .ui_example .main-content .tips-block ul + p, .ui_example .main-content .tips-block ol + p {
     margin-top: 20px;
   }
   .ui_example .main-content .tips-block footer {

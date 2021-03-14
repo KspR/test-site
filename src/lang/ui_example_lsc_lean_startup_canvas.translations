@@ -1,0 +1,196 @@
+ex_lsc
+	meta-title
+		Lean Startup Canvas - Example - Draft
+		Lean Startup Canvas - Exemple - Draft
+	meta-description
+		The Lean Startup Canvas (or Lean Canvas) combined The Lean Startup method with the Business Model Canvas. Ideal for entrepreneurs or intrapreneurs, the technique is an iterative and learning way of formalizing a new business idea.
+		Combinant la méthode Lean Startup à l’approche du Business Model Canvas, le Lean Startup Canvas (ou Lean Canvas) est un modèle qui offre aux porteurs de projet une approche itérative et apprenante pour formaliser une nouvelle idée business.
+	title
+		Lean Startup Canvas
+		Lean Startup Canvas
+	mainContent
+		------
+		<h2>What is a Lean Startup Canvas?</h2>
+		<p>
+			The Lean Startup Canvas (or Lean Canvas) combined The Lean Startup method with the <a class="text-link advanced-underline-over" href="https://draft.io/example/business-model-canvas"><span>Business</span> <span>Model</span> <span>Canvas</span></a>. Ideal for entrepreneurs or intrapreneurs, the technique is an iterative and learning way of formalizing a new business idea. This canvas includes nine sections that should be filled in the following order:
+		</p>
+		<ol>
+			<li>
+				Targeted customer segments;
+			</li>
+			<li>
+				Problems that your product should resolve for your customers;
+			</li>
+			<li>
+				The unique value proposition your offer to your customers;
+			</li>
+			<li>
+				The solution you provide to the world (high-level features);
+			</li>
+			<li>
+				Communication and distribution channels;
+			</li>
+			<li>
+				Revenue streams;
+			</li>
+			<li>
+				Cost structure;
+			</li>
+			<li>
+				Key metrics to measure success;
+			</li>
+			<li>
+				The unfair advantage you have against your competitors.
+			</li>
+		</ol>
+		<img src="./imgs/UI_Examples/LeanStartupCanvas/illustration_Lean_startup_canvas_1.png" alt="Lean Startup Canvas Illustration" />
+		<p>
+			The Lean Startup Canvas methodology is well suited for entrepreneurs who consider launching an innovative product. It will help them state the hypotheses that underpin their vision and force them to select the key performance indicators that will mean the project has reached success.
+		</p>
+		<p>
+			As stated at the beginning of the article, this technique is iterative, meaning that The Lean Startup Canvas must be regularly updated to take full advantage of it. As you iterate, you will capitalize on what you have learned between two iterations and get the right information to adjust your hypotheses wisely.
+		</p>
+
+		<h2>What is the Lean Startup method about?</h2>
+		<p>
+			Introduced by Eric Ries in the best-seller <a class="text-link advanced-underline-over" href="http://theleanstartup.com/"><span>The</span> <span>Lean</span> <span>Startup</span></a>, this methodology aims to help entrepreneurs not waste their time building products nobody wants. The author aspires to give them a framework “to figure out the right thing to build—the thing customers want and will pay for—as quickly as possible.”
+		</p>
+		<p>
+			The Lean Startup states that product development should get into a feedback loop with three stages: Build, Measure, and Learn.
+		</p>
+		<ul>
+			<li>
+				The first stage lies in building a sufficient product that will enable you to test your fundamental business hypotheses. This product is called the MVP (minimum viable product, more about this concept on the <a class="text-link advanced-underline-over" href="https://draft.io/example/user-story-mapping"><span>User</span> <span>Story</span> <span>Mapping</span></a> example).
+			</li>
+			<li>
+				The second stage is about measuring real data based on the use of your product by real customers.
+			</li>
+			<li>
+				The third stage focuses on revealing learnings from the data.
+			</li>
+		</ul>
+		<img class="small" src="./imgs/UI_Examples/LeanStartupCanvas/illustration_Lean_startup_canvas_2_en.png" alt="Lean Startup Canvas loop Illustration" />
+		<p>
+			In addition to this three-stage feedback loop, Eric Ries introduces two new complementary concepts:
+		</p>
+		<ul>
+			<li>
+				A validated learning is a hypothesis that has been validated by the data collected and analyzed between two iterations.
+			</li>
+			<li>
+				Innovation accounting is a way to measure how a startup progresses rationally. First, a startup builds an MVP to measure relevant metrics. Then, the product is incrementally upgraded to improve indicators. Up to a few iterations, the startup should reach a critical decision point: pivot, meaning changing strategy, or persevere in the same direction.
+			</li>
+		</ul>
+		<img class="medium" src="./imgs/UI_Examples/LeanStartupCanvas/illustration_Lean_startup_canvas_3_en.png" alt="Lean Startup Canvas diagram Illustration" />
+		<p>
+			To conclude about how to leverage the Build-Measure-Learn feedback look, Eric Ries shares a wise piece of advice: “Although we write the feedback loop as Build-Measure-Learn because the activities happen in that order, our planning really works in the reverse order: we figure out what we need to learn, use innovation accounting to figure out what we need to measure to know if we are gaining validated learning, and then figure out what product we need to build to run that experiment and get that measurement.”
+		</p>
+		---
+		<h2>Qu’est-ce que Lean Startup Canvas ?</h2>
+		<p>
+			Combinant la méthode Lean Startup à l’approche du <a class="text-link advanced-underline-over" href="https://draft.io/fr/example/business-model-canvas"><span>Business</span> <span>Model</span> <span>Canvas</span></a>, le Lean Startup Canvas (ou Lean Canvas) est un modèle qui offre aux porteurs de projet une approche itérative et apprenante pour formaliser une nouvelle idée business. Le canevas s’articule autour de 9 sections à remplir dans l’ordre qui suit :
+		</p>
+		<ol>
+			<li>
+				Les segment clients visés ; 
+			</li>
+			<li>
+				Les problèmes que votre produit est censée résoudre pour vos clients ;
+			</li>
+			<li>
+				La proposition de valeur, i.e. les bénéfices que vos clients peuvent espérer de votre produit ;
+			</li>
+			<li>
+				Les solutions que votre produit apporte (principales grandes fonctionnalités) ;
+			</li>
+			<li>
+				Les canaux de communication et de distribution ;
+			</li>
+			<li>
+				Les différentes sources de revenu 
+			</li>
+			<li>
+				La structure de coût anticipée ;
+			</li>
+			<li>
+				Les indicateurs clés de performance qui vont permettront de mesurer votre succès ;
+			</li>
+			<li>
+				L’avantage concurrentiel qui vous permet de vous distinguer et n’être que difficilement copié.
+			</li>
+		</ol>
+		<img src="./imgs/UI_Examples/LeanStartupCanvas/illustration_Lean_startup_canvas_1.png" alt="Lean Startup Canvas Illustration" />
+		<p>
+			La méthodologie du Lean Startup Canvas est particulièrement utile pour les entrepreneurs qui démarrent un projet. Elle les aide à définir les hypothèses sur lesquelles s’appuie leur vision et à identifier les indicateurs censés refléter l’atteinte des objectifs. 
+		</p>
+		<p>
+			Comme évoqué au début de l’article, cette approche est itérative. En effet, pour que les atouts du Lean Startup Canvas soient pleinement exploités, il doit être mis à jour régulièrement, au minimum, à chaque changement stratégique. C’est le caractère itératif de la méthode qui lui donne son caractère apprenant. En capitalisant sur les découvertes réalisées entre chaque itération, les porteurs de projet peuvent ajuster leurs hypothèses ou raffermir leurs convictions.
+		</p>
+
+		<h2>En quoi consiste la méthode Lean Startup ?</h2>
+		<p>
+			Popularisée par Eric Ries dans l’ouvrage incontournable <a class="text-link advanced-underline-over" href="http://theleanstartup.com/"><span>The</span> <span>Lean</span> <span>Startup</span></a>, cette méthode se donne pour objectif d’aider les startups à ne pas perdre leur temps à développer des produits que personne ne veut, ou, à l’inverse, les aider à trouver le bon produit à fabriquer, que des clients voudront et pour lequel ils seront prêts à payer.
+		</p>
+		<p>
+			Cette approche s’inscrit dans un cycle appelé le “Build-Measure-Learn Feedback Loop”, composé de 3 phases :
+		</p>
+		<ul>
+			<li>
+				Une phase de développement du MVP ou d’une nouvelle version du produit (voir l’exemple du <a class="text-link advanced-underline-over" href="https://draft.io/fr/example/user-story-mapping"><span>User</span> <span>Story</span> <span>Mapping</span></a> pour plus d’information sur le concept de Minimum Viable Product) ;
+			</li>
+			<li>
+				Une phase de mesure des indicateurs qui avait été définis en amont ;
+			</li>
+			<li>
+				Une phase d’apprentissage dédiée à l’analyse des données mesurées et à la définition des principaux enseignements du cycle.
+			</li>
+		</ul>
+		<img class="small" src="./imgs/UI_Examples/LeanStartupCanvas/illustration_Lean_startup_canvas_2_fr.png" alt="Le circuit Lean Startup Canvas" />
+		<p>
+			Par ailleurs, l’auteur introduit deux concepts complémentaires:
+		</p>
+		<ul>
+			<li>
+				Le premier est celui d’apprentissage validé. Il met l’accent sur le caractère scientifique de l’approche : on définit un protocole expérimental, on développe un produit, on mesure, puis on valide ou invalide les hypothèses initiales ;
+			</li>
+			<li>
+				Le second est celui de comptabilité d’innovation. Il s’agit de rationaliser le processus d’apprentissage : premièrement, on mesure sur la base d’un vrai produit et de vraies données où se trouve le projet à un instant t, ensuite, on améliore le produit de façon incrémentale pour améliorer les paramètres mesurés, enfin, sur la base de ce qui a été mesuré, il s’agit pour l’entrepreneur de prendre une décision critique, pivoter, i.e. changer de stratégie, ou préserver dans la même direction.
+			</li>
+		</ul>
+		<img class="medium" src="./imgs/UI_Examples/LeanStartupCanvas/illustration_Lean_startup_canvas_3_fr.png" alt="Schema pyramidal Lean Startup Canvas" />
+		<p>
+			Pour finir, Eric Ries partage un précieux conseil au sujet du sens dans lequel il vaut mieux aborder ce cycle : “Même si nous définissons ce cycle comme étant Développer-Mesurer-Apprendre, parce que les différentes activités interviennent dans cet ordre, l’approche se déroule en réalité dans l’autre sens : nous déterminons ce que nous souhaitons apprendre, nous utilisons la comptabilité d’innovation pour identifier ce que nous devons mesurer pour savoir si nous avons validé un apprentissage, et, enfin, nous imaginons le produit que nous devons développer pour conduire cette expérimentation et mesurer ce que l’on souhaite.”
+		</p>
+		------
+	resourcesBlock
+		title
+			Suggested resources to go further
+			Quelques suggestions de ressources pour maîtriser la construction de roadmap Agile
+		linksList
+			------
+			<li>
+				<i class="fas fa-external-link-alt"></i>
+				A great <a class="text-link light underline" href="https://medium.com/@steve_mullen/an-introduction-to-lean-canvas-5c17c469d3e0">Introduction to Lean Canvas</a> by Steven Mullen, Sales & Marketing specialist
+			</li>
+			<li>
+				<i class="fas fa-external-link-alt"></i>
+				<a class="text-link light underline" href="https://railsware.com/blog/5-lean-canvas-examples/">5 Lean Canvas Examples of Multi-Billion Startups</a> by Shymansky Stanislav, seasoned Product Manager at Railsware
+			</li>
+			<li>
+				<i class="fas fa-play-circle"></i>
+				A video from ChannelX YouTube Channel presenting a <a class="text-link light underline" href="https://www.youtube.com/watch?v=2nW9lg-fenY">Practical example of filling in the Lean Canvas for a new business idea</a>
+			</li>
+			---
+			<li>
+				<i class="far fa-bookmark"></i>
+				Un très bon article de Bpifrance qui détaille chacune des étapes : <a class="text-link light underline" href="https://bpifrance-creation.fr/moment-de-vie/lean-canvas-lapplication-methode-du-lean-startup#:~:text=Le%20Lean%20Canvas%20est%20un,largement%20utilis%C3%A9e%20par%20les%20startups.">Le Lean Canvas : l’application de la méthode du Lean Startup</a>
+			</li>
+			<li>
+				<i class="fas fa-play-circle"></i>
+				Une vidéo de Jean-Pierre Lambert sur la chaîne YouTube Scrum Life qui présente un cas pratique concret : <a class="text-link light underline" href="https://www.youtube.com/watch?v=0WYwK4beHPA">Lean Canvans : Business Plan pour tous les responsables produit</a>
+			</li>
+			<li>
+				<i class="fas fa-play-circle"></i>
+				Une vidéo complémentaire, toujours de Jean-Pierre Lambert, mais cette fois-ci accompagnée de Constantin Guay : <a class="text-link light underline" href="https://www.youtube.com/watch?v=VEWiJniocDg">Lean Startup (Eric Ries)</a>
+			</li>
+			------

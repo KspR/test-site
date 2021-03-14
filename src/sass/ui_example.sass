@@ -165,7 +165,7 @@
 				margin-bottom : 30px
 			p + h2
 				margin-top : 30px
-			p, ul
+			p, ul, ol
 				margin-bottom : 15px
 				line-height : 1.7rem
 				font-size : 1.2rem
@@ -185,26 +185,40 @@
 						float : right
 						margin-right : -30px
 			
-			ul
+			ul, ol
 				margin-top : 10px
 				margin-bottom : 30px
-				padding-left : 20px
 				li
 					position : relative
+				li + li
+					margin-top : 10px
+			ul
+				padding-left : 20px
+				li
 					padding-left : 20px
-					position : relative
 					&::before
 						content : "•"
 						position : absolute
 						top : 0
 						left : 0
-				li + li
-					margin-top : 10px
+			ol
+				padding-left : 40px
+				li
+					padding-left : 10px
 			
-			p + img
+			p + img, ul + img, ol + img
 				width : 100%
 				margin : 20px 0 40px
 				border-radius : 5px
+			img.medium, img.small
+				max-width : 100%
+				margin-left : auto
+				margin-right : auto
+				display : block
+			img.medium
+				width : 500px
+			img.small
+				width : 400px
 
 		.tips-block,
 		.resources-block
@@ -224,7 +238,7 @@
 				margin-bottom : 15px
 				line-height : 1.7rem
 				font-size : 1.2rem
-			ul
+			ul, ol
 				margin-top : 20px
 				margin-left : 20px
 				li
@@ -239,7 +253,7 @@
 						left : 0
 				li + li
 					margin-top : 10px
-			ul + p
+			ul + p, ol + p
 				margin-top : 20px
 			footer
 				display : flex
@@ -457,9 +471,9 @@
 				h2
 					margin-bottom : 20px
 				p
-				ul
+				ul, ol
 					margin-left : 0px
-				ul + p
+				ul + p, ol + p
 					margin-top : 20px
 				footer
 					flex-direction : column
