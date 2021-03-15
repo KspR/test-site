@@ -17,10 +17,19 @@
   font-family : "boldest"
   src : url("../fonts/Assistant/Assistant-ExtraBold.ttf")
 
+body
+  margin : 0
+  padding : 0
+  width : 100%
+  height : 100%
+
+body *
+  box-sizing : border-box
+
 .ui-onboarding
   background : #373737
   width : 100%
-  height : 100vh
+  min-height : 100vh
   font-family : regular
   position : relative
 
@@ -37,7 +46,7 @@
 
   .wrapper
     width : 100%
-    height : 100vh
+    min-height : 100vh
     display : flex
     align-items : center
     flex-direction : column
@@ -46,6 +55,8 @@
     align-items : center
     justify-content : center
     padding-bottom : 20vh
+    padding-bottom : 100px
+    padding-top : 50px
 
     .logo
       margin-top : 0
@@ -60,6 +71,14 @@
       &:hover
         img
           opacity : .8
+      @media only screen and (max-width : $phoneBreakpoint)
+        position : relative
+        bottom : unset
+        left : unset
+        right : unset
+        margin : 0 auto
+        display : block
+
 
     h2
       font-size : 1.3rem

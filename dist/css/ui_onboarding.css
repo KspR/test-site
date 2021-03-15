@@ -1,150 +1,211 @@
 @font-face {
   font-family: regular;
-  src: url("../fonts/Assistant/Assistant-Regular.ttf"); }
+  src: url("../fonts/Assistant/Assistant-Regular.ttf");
+}
 @font-face {
   font-family: semibold;
-  src: url("../fonts/Assistant/Assistant-SemiBold.ttf"); }
+  src: url("../fonts/Assistant/Assistant-SemiBold.ttf");
+}
 @font-face {
   font-family: bold;
-  src: url("../fonts/Assistant/Assistant-Bold.ttf"); }
+  src: url("../fonts/Assistant/Assistant-Bold.ttf");
+}
 @font-face {
   font-family: "boldest";
-  src: url("../fonts/Assistant/Assistant-ExtraBold.ttf"); }
+  src: url("../fonts/Assistant/Assistant-ExtraBold.ttf");
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
 .ui-onboarding {
   background: #373737;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   font-family: regular;
-  position: relative; }
-  .ui-onboarding::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    display: block;
-    background-image: url("../imgs/UI_Onboarding/grid_part.png");
-    opacity: 0.3; }
-  .ui-onboarding .wrapper {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    color: white;
+  position: relative;
+}
+.ui-onboarding::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-image: url("../imgs/UI_Onboarding/grid_part.png");
+  opacity: 0.3;
+}
+.ui-onboarding .wrapper {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20vh;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+.ui-onboarding .wrapper .logo {
+  margin-top: 0;
+  position: fixed;
+  right: 60px;
+  bottom: 40px;
+  margin-bottom: 0px;
+}
+.ui-onboarding .wrapper .logo img {
+  height: 40px;
+  opacity: 0.1;
+  transition: opacity 0.2s, filter 0.2s;
+}
+.ui-onboarding .wrapper .logo:hover img {
+  opacity: 0.8;
+}
+@media only screen and (max-width: 768px) {
+  .ui-onboarding .wrapper .logo {
     position: relative;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 20vh; }
-    .ui-onboarding .wrapper .logo {
-      margin-top: 0;
-      position: fixed;
-      right: 60px;
-      bottom: 40px;
-      margin-bottom: 0px; }
-      .ui-onboarding .wrapper .logo img {
-        height: 40px;
-        opacity: 0.1;
-        transition: opacity 0.2s, filter 0.2s; }
-      .ui-onboarding .wrapper .logo:hover img {
-        opacity: 0.8; }
-    .ui-onboarding .wrapper h2 {
-      font-size: 1.3rem;
-      font-family: semibold;
-      opacity: 0.9; }
-    .ui-onboarding .wrapper .sub-title {
-      font-size: 1.1rem;
-      opacity: 0.75;
-      margin-top: 2px;
-      margin-bottom: 70px; }
-    .ui-onboarding .wrapper .workflows-tiles {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      max-width: 100%;
-      padding: 0 40px; }
-      .ui-onboarding .wrapper .workflows-tiles .tile {
-        border-radius: 10px;
-        overflow: hidden;
-        background: #414141;
-        width: 270px;
-        max-width: 30%;
-        box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.1);
-        border: 2px solid transparent;
-        transition: background 0.2s, transform 0.2s, border 0.2s, box-shadow 0.2s; }
-        .ui-onboarding .wrapper .workflows-tiles .tile > a {
-          width: 100%;
-          display: block;
-          color: white;
-          text-decoration: none;
-          padding-bottom: 10px; }
-          .ui-onboarding .wrapper .workflows-tiles .tile > a .illustration {
-            display: block;
-            text-align: center;
-            width: 100%;
-            padding: 40px 20px 10px; }
-            .ui-onboarding .wrapper .workflows-tiles .tile > a .illustration img {
-              height: 130px;
-              opacity: 0.9;
-              transition: transform 0.2s, opacity 0.2s; }
-            .ui-onboarding .wrapper .workflows-tiles .tile > a .illustration svg {
-              height: 130px;
-              opacity: 0.9; }
-              .ui-onboarding .wrapper .workflows-tiles .tile > a .illustration svg path {
-                fill: white;
-                transition: fill 0.2s; }
-          .ui-onboarding .wrapper .workflows-tiles .tile > a .title {
-            display: block;
-            text-align: center;
-            font-family: regular;
-            font-weight: normal;
-            font-size: 1.1rem;
-            height: 50px;
-            padding: 5px 20px;
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            opacity: 0.85;
-            transition: opacity 0.2s, background 0.2s, color 0.2s; }
-      .ui-onboarding .wrapper .workflows-tiles .tile + .tile {
-        margin-left: 30px; }
-      .ui-onboarding .wrapper .workflows-tiles .tile.ecw .illustration svg {
-        margin-left: 4px; }
-      .ui-onboarding .wrapper .workflows-tiles .tile.anim-over-1:hover {
-        background: #f1852b; }
-      .ui-onboarding .wrapper .workflows-tiles .tile.anim-over-2:hover {
-        border-color: #f1852b; }
-        .ui-onboarding .wrapper .workflows-tiles .tile.anim-over-2:hover > a .illustration img {
-          opacity: 1; }
-        .ui-onboarding .wrapper .workflows-tiles .tile.anim-over-2:hover > a .illustration path {
-          fill: #f1852b; }
-        .ui-onboarding .wrapper .workflows-tiles .tile.anim-over-2:hover > a .title {
-          color: #f1852b; }
-      .ui-onboarding .wrapper .workflows-tiles .tile.anim-over-3:hover > a .illustration img {
-        opacity: 1; }
-      .ui-onboarding .wrapper .workflows-tiles .tile.anim-over-3:hover > a .illustration path {
-        fill: #f1852b; }
-      .ui-onboarding .wrapper .workflows-tiles .tile.anim-over-3:hover > a .title {
-        color: #f1852b; }
-      .ui-onboarding .wrapper .workflows-tiles .tile.anim-over-4:hover {
-        border-color: #f1852b; }
-        .ui-onboarding .wrapper .workflows-tiles .tile.anim-over-4:hover > a .illustration img {
-          opacity: 1; }
-      .ui-onboarding .wrapper .workflows-tiles .tile.anim-over-5:hover > a .illustration img {
-        opacity: 1; }
-      .ui-onboarding .wrapper .workflows-tiles .tile.anim-over-5:hover > a .illustration path {
-        fill: #f1852b; }
-      @media only screen and (max-width: 768px) {
-        .ui-onboarding .wrapper .workflows-tiles {
-          display: block;
-          width: 95%;
-          margin-left: auto;
-          margin-right: auto; }
-          .ui-onboarding .wrapper .workflows-tiles .tile {
-            width: 100%;
-            max-width: 100%; }
-          .ui-onboarding .wrapper .workflows-tiles .tile + .tile {
-            margin: 0;
-            margin-top: 20px; } }
+    bottom: unset;
+    left: unset;
+    right: unset;
+    margin: 0 auto;
+    display: block;
+  }
+}
+.ui-onboarding .wrapper h2 {
+  font-size: 1.3rem;
+  font-family: semibold;
+  opacity: 0.9;
+}
+.ui-onboarding .wrapper .sub-title {
+  font-size: 1.1rem;
+  opacity: 0.75;
+  margin-top: 2px;
+  margin-bottom: 70px;
+}
+.ui-onboarding .wrapper .workflows-tiles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  padding: 0 40px;
+}
+.ui-onboarding .wrapper .workflows-tiles .tile {
+  border-radius: 10px;
+  overflow: hidden;
+  background: #414141;
+  width: 270px;
+  max-width: 30%;
+  box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.1);
+  border: 2px solid transparent;
+  transition: background 0.2s, transform 0.2s, border 0.2s, box-shadow 0.2s;
+}
+.ui-onboarding .wrapper .workflows-tiles .tile > a {
+  width: 100%;
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding-bottom: 10px;
+}
+.ui-onboarding .wrapper .workflows-tiles .tile > a .illustration {
+  display: block;
+  text-align: center;
+  width: 100%;
+  padding: 40px 20px 10px;
+}
+.ui-onboarding .wrapper .workflows-tiles .tile > a .illustration img {
+  height: 130px;
+  opacity: 0.9;
+  transition: transform 0.2s, opacity 0.2s;
+}
+.ui-onboarding .wrapper .workflows-tiles .tile > a .illustration svg {
+  height: 130px;
+  opacity: 0.9;
+}
+.ui-onboarding .wrapper .workflows-tiles .tile > a .illustration svg path {
+  fill: white;
+  transition: fill 0.2s;
+}
+.ui-onboarding .wrapper .workflows-tiles .tile > a .title {
+  display: block;
+  text-align: center;
+  font-family: regular;
+  font-weight: normal;
+  font-size: 1.1rem;
+  height: 50px;
+  padding: 5px 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.85;
+  transition: opacity 0.2s, background 0.2s, color 0.2s;
+}
+.ui-onboarding .wrapper .workflows-tiles .tile + .tile {
+  margin-left: 30px;
+}
+.ui-onboarding .wrapper .workflows-tiles .tile.ecw .illustration svg {
+  margin-left: 4px;
+}
+.ui-onboarding .wrapper .workflows-tiles .tile.anim-over-1:hover {
+  background: #f1852b;
+}
+.ui-onboarding .wrapper .workflows-tiles .tile.anim-over-2:hover {
+  border-color: #f1852b;
+}
+.ui-onboarding .wrapper .workflows-tiles .tile.anim-over-2:hover > a .illustration img {
+  opacity: 1;
+}
+.ui-onboarding .wrapper .workflows-tiles .tile.anim-over-2:hover > a .illustration path {
+  fill: #f1852b;
+}
+.ui-onboarding .wrapper .workflows-tiles .tile.anim-over-2:hover > a .title {
+  color: #f1852b;
+}
+.ui-onboarding .wrapper .workflows-tiles .tile.anim-over-3:hover > a .illustration img {
+  opacity: 1;
+}
+.ui-onboarding .wrapper .workflows-tiles .tile.anim-over-3:hover > a .illustration path {
+  fill: #f1852b;
+}
+.ui-onboarding .wrapper .workflows-tiles .tile.anim-over-3:hover > a .title {
+  color: #f1852b;
+}
+.ui-onboarding .wrapper .workflows-tiles .tile.anim-over-4:hover {
+  border-color: #f1852b;
+}
+.ui-onboarding .wrapper .workflows-tiles .tile.anim-over-4:hover > a .illustration img {
+  opacity: 1;
+}
+.ui-onboarding .wrapper .workflows-tiles .tile.anim-over-5:hover > a .illustration img {
+  opacity: 1;
+}
+.ui-onboarding .wrapper .workflows-tiles .tile.anim-over-5:hover > a .illustration path {
+  fill: #f1852b;
+}
+@media only screen and (max-width: 768px) {
+  .ui-onboarding .wrapper .workflows-tiles {
+    display: block;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .ui-onboarding .wrapper .workflows-tiles .tile {
+    width: 100%;
+    max-width: 100%;
+  }
+  .ui-onboarding .wrapper .workflows-tiles .tile + .tile {
+    margin: 0;
+    margin-top: 20px;
+  }
+}
