@@ -66,11 +66,6 @@ body.page-not-found
 
 $blue2 : #3892C7
 
-.home .bloc-landing .signup-bloc .form-wrapper input:not([type=submit])
-	width : 300px
-.bloc-last .signup-bloc .form-wrapper input:not([type=submit])
-	width : 430px
-
 .business-case
 	font-family : regular
 	color : #444
@@ -375,41 +370,6 @@ $blue2 : #3892C7
 				.punchline
 					margin-top : 5px
 
-body.home
-	.bloc-landing
-		.signup-bloc
-			.form-wrapper
-				.submit-wrapper
-					position : relative
-					float : left
-					cursor : pointer
-
-					&:hover
-						.triangle
-							border-color : transparent $orangeDark transparent transparent
-
-						.cta
-							background-color : $orangeDark
-							border-color : $orangeDark
-
-					.triangle
-						transition : border-color 150ms ease-out
-						position : absolute
-						width : 0
-						height : 0
-						border-style : solid
-						border-width : 48px 30px 0 0
-						border-color : transparent $orange transparent transparent
-						transform : scale(1.0001)
-						left : -30px
-
-				input[type=submit]
-					padding : 10px 24px 10px 0
-					width : 125px
-
-				input
-					height : 46px
-
 .header-not-at-top
 	.header
 		border-bottom : 1px solid rgba(255, 255, 255, .1)
@@ -426,49 +386,6 @@ body
 
 	input[type=submit]
 		cursor : pointer
-
-	.signup-bloc
-		.form-wrapper
-			overflow : hidden
-			display : inline-block
-			max-width : 85%
-
-		.detail
-			font-size : 17px !important
-			margin-top : 20px
-
-			color : #aaa
-
-			a
-				text-decoration : none
-				border-bottom : 1px solid white !important
-				color : white !important
-				opacity : .8
-
-				transition : opacity 150ms ease-out, color 150ms ease-out, border 150ms ease-out
-
-				&:hover
-					opacity : 1
-					color : $blue !important
-					border-bottom : 1px solid $blue !important
-
-				&:visited:not(:hover)
-					color : white !important
-
-		input[type=submit]
-			padding : 10px 24px
-
-		input:not([type=submit])
-			width : 500px
-			max-width : 100%
-			background-color : white
-			border : none
-			outline : none
-			font-family : regular
-			font-size : 17px
-			-webkit-font-smoothing : antialiased
-			color : $darkblue
-			padding : 12px 28px
 
 	font-size : 17px
 
@@ -716,24 +633,6 @@ body
 		color : white
 		position : relative
 		overflow : hidden
-
-		.form-wrapper
-			position : relative
-
-			input:not([type=submit])
-				width : 100%
-				border-radius : 40px
-				height : 50px
-				padding-right : 130px
-				box-sizing : border-box
-
-			input[type=submit]
-				position : absolute
-				right : 3px
-				top : 3px
-				padding : 8px 16px
-				height : 44px
-				box-sizing : border-box
 
 		.left-visual
 			position : absolute
@@ -1257,7 +1156,6 @@ body.home
 	color : white
 
 	.section-problem
-		background : linear-gradient(0deg, #252525 0%, #2A2A2A 100%)
 
 		.wrapper
 			overflow : hidden
@@ -1289,6 +1187,7 @@ body.home
 					.illu
 						background-size : 40px
 						background-image : url("tmp/2020-03/site/grid-white.png")
+						background-image : url("../imgs/UI_Landing/fresque_2.png")
 						background-repeat : repeat
 						background-position : 0 0 !important
 
@@ -1309,9 +1208,17 @@ body.home
 					background-image : url("tmp/2020-03/site/landing/problem-2.jpg")
 
 	.section-solution
+		background : linear-gradient(0deg, #252525 0%, #2A2A2A 100%)
+		background : rgba(0,0,0,0.05)
+		width : 100%
 		.wrapper
+			display : flex
+			justify-content : center
+			overflow : hidden
+			padding-bottom : calc(90px + 180px)
+			padding-left : 40px
+			padding-right : 40px
 			.bloc
-				float : left
 				position : relative
 
 				.msg
@@ -1356,6 +1263,7 @@ body.home
 	.section.bloc-discover
 		perspective : 100px
 		padding-bottom : 0 !important
+		overflow : visible
 
 		.leaning-blocs-container
 			perspective : 400px
@@ -1383,49 +1291,39 @@ body.home
 
 				> .bloc:nth-child(3)
 					background-color : #383838
+		.workflows
+			z-index : 5
+			position : relative
+			float : none
+			margin : 70px auto 0
+			transform : none
+			display : flex
+			justify-content : center
+			overflow : hidden
+			.workflow
+				float : none
+			@media only screen and (max-width: 1080px)
+				display : block
+			.text-link:hover
+				text-decoration : none
+				color : #8cd0fb !important
 
 		.grids
-			float : left
 			width : 100%
-			height : 180px
 			position : relative
-			z-index : -2
-
-			> *
-				width : 100%
+			z-index : 1
+			height : auto
+			overflow : hidden
+			margin-top : -250px
+			opacity : .6
+			img
 				position : relative
-				overflow : hidden
-				top : -202px
-
-				.bg
-					width : 100%
-					background-image : url("../imgs/UI_Landing/angular-grid.png")
-					background-size : 1920px
-					position : absolute
-					background-position : calc(50% - 35px) -46px
-					width : 1920px
-					height : 811px
-					margin-left : calc(50% - 960px)
-
-			> div:nth-child(1)
-				height : 260px
-
-			> div:nth-child(2)
-				opacity : .5
-				height : 60px
-
-				.bg
-					top : -331px
-					background-position : calc(50% - 35px) -36px
-
-			> div:nth-child(3)
-				opacity : .25
-				height : 60px
-
-				.bg
-					top : -331px
-					background-position : calc(50% - 35px) -36px
-
+				width : 100%
+				@media only screen and (max-width: 1800px)
+					width : 1800px
+					left : calc(50% - 900px)
+			@media only screen and (max-width: 1080px)
+				margin-bottom : 50px
 
 	.workflows
 		.workflow
@@ -1463,29 +1361,6 @@ body.home
 			.baseline
 				text-align : center
 				margin-top : 20px
-
-		.signup-bloc
-			input:not([type=submit])
-				&::placeHolder
-					color : #aaa
-
-			input
-				display : block
-				float : left
-
-			input[type=submit]
-				border-top-right-radius : 40px
-				border-bottom-right-radius : 40px
-				border-top-left-radius : 0
-				border-bottom-left-radius : 0
-				width : 140px
-
-			input:not([type=submit])
-				border-top-left-radius : 40px
-				border-bottom-left-radius : 40px
-
-			.detail
-				color : rgba(255, 255, 255, .5)
 
 body.lang-fr.home
 	.workflows

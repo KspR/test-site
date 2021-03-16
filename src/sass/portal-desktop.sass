@@ -372,31 +372,23 @@ $blue2 : #3892C7
 
 	.home
 		.bloc-landing
-			padding : 110px 0 180px 0 !important
+			padding : 110px 0 0 0 !important
 			position : relative
 			margin : 0 !important
-			padding-bottom : 320px !important
 
-			.angular-grid, .landing-fresque
+			.angular-grid
 				pointer-events : none
 
 			.angular-grid
-				position : absolute
-				bottom : -400px
-				width : 100%
-				height : 800px
-				background-image : url("../imgs/UI_Landing/angular-grid.png")
-				background-size : 1920px
-
-			.landing-fresque
-				position : absolute
-				bottom : 0
-				width : 100%
-				height : 371px
-				background-image : url("../imgs/UI_Landing/fresque.png")
-				background-size : 1885px
-				background-repeat : no-repeat
-				background-position : center
+				overflow : hidden
+				img
+					display : block
+					position : relative
+					width : 100%
+					top : -50px
+					@media only screen and (max-width: 1800px)
+						width : 1800px
+						left : calc(50% - 900px)
 
 			.wrapper
 				.punchline
@@ -409,6 +401,11 @@ $blue2 : #3892C7
 
 				.signup-bloc
 					margin-top : 40px
+
+		.section-problem
+			padding-top : 0 !important
+			margin-top : -200px
+			position : relative
 
 		.bloc-features
 			padding-bottom : 0 !important
@@ -427,9 +424,6 @@ $blue2 : #3892C7
 
 	.section:not(.bloc-features)
 		padding : 90px 0
-
-	.section-problem
-		padding-top : 300px !important
 
 	.bloc-discover, .bloc-features
 		.features, .workflows
@@ -562,6 +556,7 @@ $blue2 : #3892C7
 				margin-left : 50%
 				transform : translate(-50%, 0)
 				width : $w * 3 + $margin * 2
+				width : 1080px
 
 				.workflow
 					float : left
@@ -577,9 +572,7 @@ $blue2 : #3892C7
 					margin-right : $margin
 
 		.section-solution
-			width : 1100px
-			margin-left : calc(50% - 1100px/2 - 32px) !important
-			padding-bottom : calc(90px + 180px)
+			padding-bottom : 0
 
 			.wrapper
 				margin-top : 90px
@@ -606,7 +599,7 @@ $blue2 : #3892C7
 
 		.section-problem
 			.title, .wrapper
-				width : 1100px
+				width : 1080px
 				margin-left : calc(50% - 550px)
 
 			.wrapper

@@ -131,10 +131,11 @@
 				<form class="signup-bloc" action="/fr/get-started">
 	<div class="form-wrapper">
 		<input placeHolder="Entrez votre email" name="pre_email"></input>
-		<div class="submit-wrapper">
+		<button class="submit-wrapper" type="submit" class="register cta" value="S'inscrire">
 			<div class="triangle"></div>
-			<input type="submit" class="register cta" value="S'inscrire" />
-		</div>
+			<span class="picto anim-1"><img src="imgs/UI_Landing/hot-air-balloon2.svg" alt="picto hot air balloon"></span>
+			S'inscrire
+		</button>
 	</div>
 	<div class="if-1080">
 		<div class="detail">Notre plan gratuit est illimité dans le temps et vous donne accès à toutes les fonctionnalités du <a href="/fr/pricing">plan Pro</a>.</div>
@@ -145,8 +146,7 @@
 </form>
 			</div>
 
-			<div class="angular-grid"></div>
-			<div class="landing-fresque"></div>
+			<div class="angular-grid"><img src="./imgs/UI_Landing/fresque.png"></div>
 		</div>
 
 		<div class="section section-problem">
@@ -208,26 +208,24 @@
 							<div class="illu"></div>
 							<div class="label">Gestion de projet Agile</div>
 							<div class="detail">Pour les Scrum Masters et Product Owners qui construisent des artefacts de management visuel et animent des cérémonies et ateliers à distance.</div>
-							<a href="agile-project-management">En savoir plus →</a>
+							<a class="text-link" href="agile-project-management">En savoir plus <i class="fas fa-long-arrow-alt-right"></i></a>
 					</div>
 					<div class="workflow product-manager">
 							<div class="illu"></div>
 							<div class="label">Conception de produit</div>
 							<div class="detail">Pour les Product Managers, Designers et Développeurs qui imaginent et développent les produits technologiques de demain.</div>
-							<a href="product-management">En savoir plus →</a>
+							<a class="text-link" href="product-management">En savoir plus <i class="fas fa-long-arrow-alt-right"></i></a>
 					</div>
 					<div class="workflow knowledge-worker">
 							<div class="illu"></div>
 							<div class="label">Travail créatif quotidien</div>
 							<div class="detail">Pour les professionnels du digital qui souhaitent tirer profit d’un mode de travail à la fois plus visuel et plus créatif.</div>
-							<a href="everyday-knowledge-work">En savoir plus →</a>
+							<a class="text-link" href="everyday-knowledge-work">En savoir plus <i class="fas fa-long-arrow-alt-right"></i></a>
 					</div>
 			</div>
 
 			<div class="grids">
-				<div class="grid-1"><div class="bg"></div></div>
-				<div class="grid-2"><div class="bg"></div></div>
-				<div class="grid-3"><div class="bg"></div></div>
+				<img src="./imgs/UI_Landing/triple-grid.png">
 			</div>
 		</div>
 
@@ -276,10 +274,11 @@
 	<form class="signup-bloc" action="/fr/get-started">
 	<div class="form-wrapper">
 		<input placeHolder="Entrez votre email" name="pre_email"></input>
-		<div class="submit-wrapper">
+		<button class="submit-wrapper" type="submit" class="register cta" value="S'inscrire">
 			<div class="triangle"></div>
-			<input type="submit" class="register cta" value="S'inscrire" />
-		</div>
+			<span class="picto anim-1"><img src="imgs/UI_Landing/hot-air-balloon2.svg" alt="picto hot air balloon"></span>
+			S'inscrire
+		</button>
 	</div>
 	<div class="if-1080">
 		<div class="detail">Notre plan gratuit est illimité dans le temps et vous donne accès à toutes les fonctionnalités du <a href="/fr/pricing">plan Pro</a>.</div>
@@ -352,6 +351,23 @@
 </div>
 
 <script src="https://kit.fontawesome.com/6b4515f4ac.js" crossorigin="anonymous"></script>
+
+		<script>
+			if (
+				"IntersectionObserver" in window &&
+				"IntersectionObserverEntry" in window &&
+				"intersectionRatio" in window.IntersectionObserverEntry.prototype
+			) {
+				let observer = new IntersectionObserver(entries => {
+					if (entries[0].boundingClientRect.y < 0) {
+						document.body.classList.add("header-not-at-top");
+					} else {
+						document.body.classList.remove("header-not-at-top");
+					}
+				});
+				observer.observe(document.querySelector("#top-of-site-pixel-anchor"));
+			}
+		</script>
 
 		<script>
 			document.querySelectorAll('.submit-wrapper .triangle').forEach(function(elt) {

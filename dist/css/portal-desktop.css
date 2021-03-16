@@ -362,32 +362,30 @@
   }
 
   .home .bloc-landing {
-    padding: 110px 0 180px 0 !important;
+    padding: 110px 0 0 0 !important;
     position: relative;
     margin: 0 !important;
-    padding-bottom: 320px !important;
   }
-  .home .bloc-landing .angular-grid, .home .bloc-landing .landing-fresque {
+  .home .bloc-landing .angular-grid {
     pointer-events: none;
   }
   .home .bloc-landing .angular-grid {
-    position: absolute;
-    bottom: -400px;
-    width: 100%;
-    height: 800px;
-    background-image: url("../imgs/UI_Landing/angular-grid.png");
-    background-size: 1920px;
+    overflow: hidden;
   }
-  .home .bloc-landing .landing-fresque {
-    position: absolute;
-    bottom: 0;
+  .home .bloc-landing .angular-grid img {
+    display: block;
+    position: relative;
     width: 100%;
-    height: 371px;
-    background-image: url("../imgs/UI_Landing/fresque.png");
-    background-size: 1885px;
-    background-repeat: no-repeat;
-    background-position: center;
+    top: -50px;
   }
+}
+@media only screen and (min-width: 1080px) and (max-width: 1800px) {
+  .home .bloc-landing .angular-grid img {
+    width: 1800px;
+    left: calc(50% - 900px);
+  }
+}
+@media only screen and (min-width: 1080px) {
   .home .bloc-landing .wrapper .punchline {
     font-size: 48px;
     line-height: 70px;
@@ -399,10 +397,20 @@
   .home .bloc-landing .wrapper .signup-bloc {
     margin-top: 40px;
   }
+}
+@media only screen and (min-width: 1080px) {
+  .home .section-problem {
+    padding-top: 0 !important;
+    margin-top: -200px;
+    position: relative;
+  }
+}
+@media only screen and (min-width: 1080px) {
   .home .bloc-features {
     padding-bottom: 0 !important;
   }
-
+}
+@media only screen and (min-width: 1080px) {
   .workflow .uc {
     background-color: #f2f2f2;
   }
@@ -413,19 +421,18 @@
     font-size: 16px;
     margin-top: 10px;
   }
-
+}
+@media only screen and (min-width: 1080px) {
   .section:not(.bloc-features) {
     padding: 90px 0;
   }
-
-  .section-problem {
-    padding-top: 300px !important;
-  }
-
+}
+@media only screen and (min-width: 1080px) {
   .bloc-discover .features, .bloc-discover .workflows, .bloc-features .features, .bloc-features .workflows {
     margin-top: 90px;
   }
-
+}
+@media only screen and (min-width: 1080px) {
   .footer {
     padding: 60px 0;
   }
@@ -438,19 +445,23 @@
   .footer .bloc .title {
     margin-bottom: 15px;
   }
-
+}
+@media only screen and (min-width: 1080px) {
   .header .nav {
     margin: 0 50px;
   }
-
+}
+@media only screen and (min-width: 1080px) {
   .bloc-landing .signup-bloc {
     margin-top: 30px;
   }
-
+}
+@media only screen and (min-width: 1080px) {
   .bloc-last .signup-bloc {
     margin-top: 30px;
   }
-
+}
+@media only screen and (min-width: 1080px) {
   .workflow .bloc-discover, .workflow .bloc-features, .workflow .section, .home .bloc-discover, .home .bloc-features, .home .section {
     padding: 90px 0;
   }
@@ -523,7 +534,8 @@
   .workflow .uc:nth-child(2n) .wrapper .screenshot-wrapper, .home .uc:nth-child(2n) .wrapper .screenshot-wrapper {
     margin-left: 420px;
   }
-
+}
+@media only screen and (min-width: 1080px) {
   .home .bloc-discover .leaning-blocs .gradient-overlay {
     position: absolute;
     top: 0;
@@ -538,6 +550,7 @@
     margin-left: 50%;
     transform: translate(-50%, 0);
     width: 1100px;
+    width: 1080px;
   }
   .home .bloc-discover .workflows .workflow {
     float: left;
@@ -553,9 +566,7 @@
     margin-right: 40px;
   }
   .home .section-solution {
-    width: 1100px;
-    margin-left: calc(50% - 1100px/2 - 32px) !important;
-    padding-bottom: calc(90px + 180px);
+    padding-bottom: 0;
   }
   .home .section-solution .wrapper {
     margin-top: 90px;
@@ -581,7 +592,7 @@
     margin-right: 80px;
   }
   .home .section-problem .title, .home .section-problem .wrapper {
-    width: 1100px;
+    width: 1080px;
     margin-left: calc(50% - 550px);
   }
   .home .section-problem .wrapper {
@@ -713,7 +724,5 @@
   }
   .home .home .bloc-av:nth-child(2n) .wrapper .bloc-text {
     padding: 0 1em 0 1em;
-  }
-}g: 0 1em 0 1em;
   }
 }
