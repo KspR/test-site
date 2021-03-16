@@ -1,6 +1,9 @@
 body.has-header {
   padding-top: 70px;
 }
+body.has-header.header-not-at-top > header.main-header .nav {
+  background: #323232;
+}
 
 body > header.main-header {
   position: fixed;
@@ -9,6 +12,7 @@ body > header.main-header {
   z-index: 100;
   width: 100%;
   color: white;
+  transition: box-shadow 0.3s;
 }
 body > header.main-header .nav {
   height: 70px;
@@ -16,6 +20,7 @@ body > header.main-header .nav {
   align-items: center;
   justify-content: flex-end;
   background: #2A2A2A;
+  transition: background 0.2s;
 }
 body > header.main-header .nav .logo {
   margin-right: auto;
@@ -35,7 +40,6 @@ body > header.main-header .nav ul {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  background: #2A2A2A;
   height: 100%;
 }
 @media only screen and (max-width: 1060px) {
@@ -46,7 +50,7 @@ body > header.main-header .nav ul {
 body > header.main-header .nav ul li {
   white-space: nowrap;
   position: relative;
-  margin: 0 15px;
+  margin: 0 12px;
 }
 body > header.main-header .nav ul li .neutral {
   position: absolute;
@@ -60,7 +64,7 @@ body > header.main-header .nav ul li.login .neutral {
 }
 body > header.main-header .nav ul li .selected {
   visibility: hidden;
-  font-weight: bold;
+  font-family: bold;
 }
 body > header.main-header .nav ul li .text-link {
   padding: 6px 0;
@@ -80,6 +84,8 @@ body > header.main-header .nav ul li .toggle-wrapper:hover .toggle .fas {
   transform: rotate(90deg);
 }
 body > header.main-header .nav ul li .toggle-wrapper .toggle .fas {
+  min-width: 14px;
+  display: inline-block;
   font-size: 0.7em;
   position: relative;
   top: 0;
@@ -310,6 +316,7 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
   }
   .header-pricing .page-pricing-li .neutral {
     display: block;
+    visibility: visible !important;
     position: relative;
     left: unset !important;
   }
@@ -327,6 +334,7 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
   }
   .header-enterprise .page-enterprise-li .neutral {
     display: block;
+    visibility: visible !important;
     position: relative;
     left: unset !important;
   }
@@ -344,6 +352,7 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
   }
   .header-customer-stories .page-customer-stories-li .neutral {
     display: block;
+    visibility: visible !important;
     position: relative;
     left: unset !important;
   }
@@ -361,6 +370,7 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
   }
   .header-examples .page-examples-li .neutral {
     display: block;
+    visibility: visible !important;
     position: relative;
     left: unset !important;
   }
