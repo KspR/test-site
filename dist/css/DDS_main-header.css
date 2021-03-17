@@ -1,8 +1,12 @@
 body.has-header {
   padding-top: 70px;
 }
+body.has-header > header.main-header .nav {
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
+  transition: border 0.2s;
+}
 body.has-header.header-not-at-top > header.main-header .nav {
-  background: #323232;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 body > header.main-header {
