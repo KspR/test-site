@@ -6,7 +6,7 @@ body.has-header > header.main-header .nav {
   transition: border 0.2s;
 }
 body.has-header.header-not-at-top > header.main-header .nav {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 body > header.main-header {

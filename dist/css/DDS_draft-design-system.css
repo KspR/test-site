@@ -67,7 +67,7 @@ body.has-header > header.main-header .nav {
   transition: border 0.2s;
 }
 body.has-header.header-not-at-top > header.main-header .nav {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 body > header.main-header {
@@ -496,7 +496,7 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
   position: relative;
   padding-right: 15px;
   font-size: 1.05rem;
-  transition: padding 0.5s;
+  transition: padding 0.5s, background 0.2s;
 }
 .signup-bloc .form-wrapper .submit-wrapper .triangle {
   height: 100%;
@@ -517,69 +517,14 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
   position: relative;
   left: 15px;
   transform: rotate(25deg);
-}
-@-webkit-keyframes dancing-balloon {
-  from {
-    transform: rotate(-5deg);
-  }
-  to {
-    transform: rotate(5deg);
-  }
-}
-@keyframes dancing-balloon {
-  from {
-    transform: rotate(-5deg);
-  }
-  to {
-    transform: rotate(5deg);
-  }
-}
-.signup-bloc .form-wrapper .submit-wrapper .picto.anim-1 {
-  width: 30px;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  display: flex;
-  top: 0;
-  left: 0px;
-  margin-top: 0px;
-  transform: translateY(-50px);
-  transition: margin-top 0.5s ease-in-out, left 0.5s ease-in-out;
-}
-.signup-bloc .form-wrapper .submit-wrapper .picto.anim-1 img {
-  height: 22px;
-  transition: transform 0.5s;
-  -webkit-animation-name: dancing-balloon;
-          animation-name: dancing-balloon;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
+  transition: background 0.2s;
 }
 .signup-bloc .form-wrapper .submit-wrapper:hover {
   background: #d6681e;
-  padding-left: 15px;
-  padding-right: 0;
   cursor: pointer;
 }
 .signup-bloc .form-wrapper .submit-wrapper:hover .triangle::before {
   background: #d6681e;
-}
-.signup-bloc .form-wrapper .submit-wrapper:hover .picto.anim-1 {
-  top: -50px;
-  margin-top: 50px;
-  transform: translateY(0px);
-  transition: top 0.5s ease-in-out, left 0.5s ease-in-out;
-}
-.signup-bloc .form-wrapper .submit-wrapper:hover .picto.anim-1 img {
-  height: 22px;
-  transform: rotate(10deg);
 }
 .signup-bloc .detail {
   font-size: 17px !important;
@@ -632,6 +577,6 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
   left: 15px;
 }
 .bloc-last .signup-bloc .form-wrapper .submit-wrapper:hover {
-  padding-left: 45px;
-  padding-right: 15px;
+  background: #d6681e;
+  cursor: pointer;
 }

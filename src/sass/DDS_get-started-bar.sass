@@ -49,7 +49,7 @@
 			padding-right : 15px
 			font-size : 1.05rem
 
-			transition : padding .5s
+			transition : padding .5s, background .2s
 			.triangle
 				height : 100%
 				width : 30px
@@ -69,52 +69,55 @@
 					left : 15px
 					transform : rotate(25deg)
 
-			@keyframes dancing-balloon
-				from
-					transform : rotate(-5deg)
-				to
-					transform : rotate(5deg)
-			.picto.anim-1
-				width : 30px
-				height : 100%
-				display : flex
-				align-items : center
-				justify-content : center
-				position : absolute
-				display : flex
-				top : 0
-				left : 0px
-				margin-top : -0px
-				transform : translateY(-50px)
+					transition : background .2s
 
-				transition : margin-top .5s ease-in-out, left .5s ease-in-out
-				img
-					height : 22px
+			// @keyframes dancing-balloon
+			// 	from
+			// 		transform : rotate(-5deg)
+			// 	to
+			// 		transform : rotate(5deg)
+			// .picto.anim-1
+			// 	width : 30px
+			// 	height : 100%
+			// 	display : flex
+			// 	align-items : center
+			// 	justify-content : center
+			// 	position : absolute
+			// 	display : flex
+			// 	top : 0
+			// 	left : 0px
+			// 	margin-top : -0px
+			// 	transform : translateY(-50px)
 
-					transition : transform .5s	
+			// 	transition : margin-top .5s ease-in-out, left .5s ease-in-out
+			// 	img
+			// 		height : 22px
 
-					animation-name : dancing-balloon
-					animation-duration : 1s
-					animation-iteration-count : infinite
-					animation-direction : alternate
-					animation-timing-function : ease-in-out
+			// 		transition : transform .5s	
+
+			// 		animation-name : dancing-balloon
+			// 		animation-duration : 1s
+			// 		animation-iteration-count : infinite
+			// 		animation-direction : alternate
+			// 		animation-timing-function : ease-in-out
 			&:hover
 				background : $orangeDark
-				padding-left : 15px
-				padding-right : 0
+				// lié à anim-1 :
+				// padding-left : 15px
+				// padding-right : 0
 				cursor : pointer
 				.triangle
 					&::before
 						background : $orangeDark
-				.picto.anim-1
-					top : -50px
-					margin-top : 50px
-					transform : translateY(-0px)
+				// .picto.anim-1
+				// 	top : -50px
+				// 	margin-top : 50px
+				// 	transform : translateY(-0px)
 
-					transition : top .5s ease-in-out, left .5s ease-in-out
-					img
-						height : 22px
-						transform : rotate(10deg)
+				// 	transition : top .5s ease-in-out, left .5s ease-in-out
+				// 	img
+				// 		height : 22px
+				// 		transform : rotate(10deg)
 	
 
 	.detail
@@ -165,9 +168,11 @@
 			.triangle
 				display : none
 				
-			.picto.anim-1
-				left : 15px
+			// .picto.anim-1
+			// 	left : 15px
 			
 			&:hover
-				padding-left : 45px
-				padding-right : 15px
+				// padding-left : 45px
+				// padding-right : 15px
+				background : $orangeDark
+				cursor : pointer
