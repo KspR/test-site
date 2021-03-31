@@ -43,7 +43,6 @@ button:focus {
 
 .cta.light.dark-over:hover {
   background: #111;
-  transform: scale(1.05);
 }
 
 .cta.light.outline-over:hover {
@@ -572,9 +571,6 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
 }
 .bloc-last .signup-bloc .form-wrapper .submit-wrapper .triangle {
   display: none;
-}
-.bloc-last .signup-bloc .form-wrapper .submit-wrapper .picto.anim-1 {
-  left: 15px;
 }
 .bloc-last .signup-bloc .form-wrapper .submit-wrapper:hover {
   background: #d6681e;

@@ -469,11 +469,11 @@ body .period-alt .container .inner {
   position: absolute;
   left: 0;
   top: 5px;
-  transition: opacity 0.2s, transform 0.2s;
+  transition: opacity 0.2s;
 }
 .page-pricing .faq .questions .qa .question:hover {
   cursor: pointer;
-  opacity: 0.85;
+  opacity: 1;
 }
 .page-pricing .faq .questions .qa .question:hover .far {
   opacity: 1;
@@ -494,6 +494,9 @@ body .period-alt .container .inner {
 }
 .page-pricing .faq .questions .qa + .qa {
   margin-top: 20px;
+}
+.page-pricing .faq .questions .qa.opened .question {
+  opacity: 1;
 }
 .page-pricing .faq .questions .qa.opened .question .far {
   transform: rotate(180deg);
