@@ -105,6 +105,12 @@ login
 	title
 		Sign in - Draft
 		Se connecter - Draft
+	continue-with-sso
+		Continue with SSO
+		Continuer avec le SSO
+	or-with-standard-account
+		Or with a standard account:
+		Ou avec un compte standard :
 	form
 		title
 			Log in

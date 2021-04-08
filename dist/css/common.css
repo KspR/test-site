@@ -3232,6 +3232,12 @@ body.landing .bloc-av {
     transform: translateZ(0);
     -webkit-animation: load8 1.1s infinite linear;
     animation: load8 1.1s infinite linear; }
+  .page-login .bloc-form .cta.blue, .page-get-started .bloc-form .cta.blue, .page-validate-email .bloc-form .cta.blue {
+    background-color: #2f80e3;
+    border-color: #2f80e3; }
+    .page-login .bloc-form .cta.blue:hover, .page-get-started .bloc-form .cta.blue:hover, .page-validate-email .bloc-form .cta.blue:hover {
+      background-color: #205aa3;
+      border-color: #205aa3; }
   .page-login .splash, .page-get-started .splash, .page-validate-email .splash {
     width: 100%;
     height: 100%;
@@ -3254,7 +3260,7 @@ body.landing .bloc-av {
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
-        background-image: url("tmp/2020-08/logo-white.png");
+        background-image: image-url("tmp/2020-08/logo-white.png");
         margin-bottom: 20px; }
       .page-login .splash .centered .punchline, .page-login .splash .centered .punchline-fill, .page-get-started .splash .centered .punchline, .page-get-started .splash .centered .punchline-fill, .page-validate-email .splash .centered .punchline, .page-validate-email .splash .centered .punchline-fill {
         font-size: 22px;
@@ -3278,7 +3284,7 @@ body.landing .bloc-av {
     .page-login .splash .version.acknowledged, .page-get-started .splash .version.acknowledged, .page-validate-email .splash .version.acknowledged {
       opacity: 0.3; }
     .page-login .splash .bg, .page-get-started .splash .bg, .page-validate-email .splash .bg {
-      background-image: url("tmp/2020-08/splash-bg.png");
+      background-image: image-url("tmp/2020-08/splash-bg.png");
       position: absolute;
       width: 1280px;
       height: 600px;
@@ -3300,7 +3306,7 @@ body.landing .bloc-av {
         height: 600px;
         overflow: hidden; }
         .page-login .splash .bg-fill-container .bg-fill .bg-color, .page-get-started .splash .bg-fill-container .bg-fill .bg-color, .page-validate-email .splash .bg-fill-container .bg-fill .bg-color {
-          background-image: url("tmp/2020-08/splash-bg-colored-rew.png");
+          background-image: image-url("tmp/2020-08/splash-bg-colored-rew.png");
           width: 1280px;
           height: 600px;
           background-size: contain; }
@@ -3325,7 +3331,7 @@ body.landing .bloc-av {
       background-size: contain;
       background-position: center;
       background-repeat: no-repeat;
-      background-image: url("tmp/2020-10/logo-white-login.png");
+      background-image: image-url("tmp/2020-10/logo-white-login.png");
       margin-left: calc(50% - 205px); }
 
 .page-login, .page-get-started, .page-forgot, .page-validate-email {
