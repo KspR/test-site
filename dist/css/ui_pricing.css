@@ -60,10 +60,12 @@ body.monthly .period-alt .wrapper-yearly:hover .separator-yearly {
 }
 
 body.monthly .if-yearly {
-  display: none; }
+  display: none;
+}
 
 body.yearly .if-monthly {
-  display: none; }
+  display: none;
+}
 
 body .period-alt {
   overflow: hidden;
@@ -654,7 +656,9 @@ body .period-alt .container .inner {
 
 @media only screen and (max-width: 768px) {
   .page-pricing .plans-wrapper {
-    width: 1080px;
+    margin: 0 auto 80px;
+  }
+  .page-pricing .plans-wrapper .plans-bloc .sub-wrapper .plan {
     max-width: 100%;
     display: block;
     margin: 0 auto;

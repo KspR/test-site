@@ -47,7 +47,8 @@ body.examples a {
 
 .home.panel .wrapper {
   margin-top: 40px;
-  height: calc(100% - 40px); }
+  height: calc(100% - 40px);
+}
 
 .home.panel .discover, body.examples .discover {
   height: 100%;
@@ -252,7 +253,8 @@ body.examples a {
 }
 
 body.example.lang-en .screenshot.user-story-mapping {
-  background-image: url("../imgs/examples/en/full/example-user-story-mapping.png"); }
+  background-image: url("../imgs/examples/en/full/example-user-story-mapping.png");
+}
 
 body.lang-en .home.panel .entry.user-story-mapping .preview, body.examples.lang-en .entry.user-story-mapping .preview {
   background-image: url("../imgs/examples/en/mini/example-user-story-mapping.png");
@@ -265,13 +267,16 @@ body.lang-en .home.panel .full.user-story-mapping, body.examples.lang-en .full.u
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-user-story-mapping .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-user-story-mapping.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-user-story-mapping.png");
+}
 
 body.example.lang-en .screenshot.scrum-board {
-  background-image: url("../imgs/examples/en/full/example-scrum-board.png"); }
+  background-image: url("../imgs/examples/en/full/example-scrum-board.png");
+}
 
 body.lang-en .home.panel .entry.scrum-board .preview, body.examples.lang-en .entry.scrum-board .preview {
   background-image: url("../imgs/examples/en/mini/example-scrum-board.png");
@@ -284,13 +289,16 @@ body.lang-en .home.panel .full.scrum-board, body.examples.lang-en .full.scrum-bo
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-scrum-board .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-scrum-board.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-scrum-board.png");
+}
 
 body.example.lang-en .screenshot.kanban-board {
-  background-image: url("../imgs/examples/en/full/example-kanban-board.png"); }
+  background-image: url("../imgs/examples/en/full/example-kanban-board.png");
+}
 
 body.lang-en .home.panel .entry.kanban-board .preview, body.examples.lang-en .entry.kanban-board .preview {
   background-image: url("../imgs/examples/en/mini/example-kanban-board.png");
@@ -303,13 +311,16 @@ body.lang-en .home.panel .full.kanban-board, body.examples.lang-en .full.kanban-
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-kanban-board .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-kanban-board.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-kanban-board.png");
+}
 
 body.example.lang-en .screenshot.scrumban {
-  background-image: url("../imgs/examples/en/full/example-scrumban.png"); }
+  background-image: url("../imgs/examples/en/full/example-scrumban.png");
+}
 
 body.lang-en .home.panel .entry.scrumban .preview, body.examples.lang-en .entry.scrumban .preview {
   background-image: url("../imgs/examples/en/mini/example-scrumban.png");
@@ -322,13 +333,16 @@ body.lang-en .home.panel .full.scrumban, body.examples.lang-en .full.scrumban {
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-scrumban .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-scrumban.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-scrumban.png");
+}
 
 body.example.lang-en .screenshot.program-board {
-  background-image: url("../imgs/examples/en/full/example-program-board.png"); }
+  background-image: url("../imgs/examples/en/full/example-program-board.png");
+}
 
 body.lang-en .home.panel .entry.program-board .preview, body.examples.lang-en .entry.program-board .preview {
   background-image: url("../imgs/examples/en/mini/example-program-board.png");
@@ -341,13 +355,16 @@ body.lang-en .home.panel .full.program-board, body.examples.lang-en .full.progra
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-program-board .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-program-board.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-program-board.png");
+}
 
 body.example.lang-en .screenshot.pi-planning-board {
-  background-image: url("../imgs/examples/en/full/example-pi-planning-board.png"); }
+  background-image: url("../imgs/examples/en/full/example-pi-planning-board.png");
+}
 
 body.lang-en .home.panel .entry.pi-planning-board .preview, body.examples.lang-en .entry.pi-planning-board .preview {
   background-image: url("../imgs/examples/en/mini/example-pi-planning-board.png");
@@ -360,13 +377,16 @@ body.lang-en .home.panel .full.pi-planning-board, body.examples.lang-en .full.pi
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-pi-planning-board .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-pi-planning-board.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-pi-planning-board.png");
+}
 
 body.example.lang-en .screenshot.portfolio-kanban {
-  background-image: url("../imgs/examples/en/full/example-portfolio-kanban.png"); }
+  background-image: url("../imgs/examples/en/full/example-portfolio-kanban.png");
+}
 
 body.lang-en .home.panel .entry.portfolio-kanban .preview, body.examples.lang-en .entry.portfolio-kanban .preview {
   background-image: url("../imgs/examples/en/mini/example-portfolio-kanban.png");
@@ -379,13 +399,16 @@ body.lang-en .home.panel .full.portfolio-kanban, body.examples.lang-en .full.por
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-portfolio-kanban .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-portfolio-kanban.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-portfolio-kanban.png");
+}
 
 body.example.lang-en .screenshot.product-roadmap {
-  background-image: url("../imgs/examples/en/full/example-product-roadmap.png"); }
+  background-image: url("../imgs/examples/en/full/example-product-roadmap.png");
+}
 
 body.lang-en .home.panel .entry.product-roadmap .preview, body.examples.lang-en .entry.product-roadmap .preview {
   background-image: url("../imgs/examples/en/mini/example-product-roadmap.png");
@@ -398,13 +421,16 @@ body.lang-en .home.panel .full.product-roadmap, body.examples.lang-en .full.prod
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-product-roadmap .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-product-roadmap.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-product-roadmap.png");
+}
 
 body.example.lang-en .screenshot.twelve-month-roadmap {
-  background-image: url("../imgs/examples/en/full/example-twelve-month-roadmap.png"); }
+  background-image: url("../imgs/examples/en/full/example-twelve-month-roadmap.png");
+}
 
 body.lang-en .home.panel .entry.twelve-month-roadmap .preview, body.examples.lang-en .entry.twelve-month-roadmap .preview {
   background-image: url("../imgs/examples/en/mini/example-twelve-month-roadmap.png");
@@ -417,13 +443,16 @@ body.lang-en .home.panel .full.twelve-month-roadmap, body.examples.lang-en .full
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-twelve-month-roadmap .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-twelve-month-roadmap.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-twelve-month-roadmap.png");
+}
 
 body.example.lang-en .screenshot.gantt-chart {
-  background-image: url("../imgs/examples/en/full/example-gantt-chart.png"); }
+  background-image: url("../imgs/examples/en/full/example-gantt-chart.png");
+}
 
 body.lang-en .home.panel .entry.gantt-chart .preview, body.examples.lang-en .entry.gantt-chart .preview {
   background-image: url("../imgs/examples/en/mini/example-gantt-chart.png");
@@ -436,13 +465,16 @@ body.lang-en .home.panel .full.gantt-chart, body.examples.lang-en .full.gantt-ch
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-gantt-chart .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-gantt-chart.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-gantt-chart.png");
+}
 
 body.example.lang-en .screenshot.okr-process {
-  background-image: url("../imgs/examples/en/full/example-okr-process.png"); }
+  background-image: url("../imgs/examples/en/full/example-okr-process.png");
+}
 
 body.lang-en .home.panel .entry.okr-process .preview, body.examples.lang-en .entry.okr-process .preview {
   background-image: url("../imgs/examples/en/mini/example-okr-process.png");
@@ -455,13 +487,16 @@ body.lang-en .home.panel .full.okr-process, body.examples.lang-en .full.okr-proc
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-okr-process .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-okr-process.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-okr-process.png");
+}
 
 body.example.lang-en .screenshot.impact-mapping {
-  background-image: url("../imgs/examples/en/full/example-impact-mapping.png"); }
+  background-image: url("../imgs/examples/en/full/example-impact-mapping.png");
+}
 
 body.lang-en .home.panel .entry.impact-mapping .preview, body.examples.lang-en .entry.impact-mapping .preview {
   background-image: url("../imgs/examples/en/mini/example-impact-mapping.png");
@@ -474,13 +509,16 @@ body.lang-en .home.panel .full.impact-mapping, body.examples.lang-en .full.impac
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-impact-mapping .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-impact-mapping.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-impact-mapping.png");
+}
 
 body.example.lang-en .screenshot.gist-planning-framework {
-  background-image: url("../imgs/examples/en/full/example-gist-planning-framework.png"); }
+  background-image: url("../imgs/examples/en/full/example-gist-planning-framework.png");
+}
 
 body.lang-en .home.panel .entry.gist-planning-framework .preview, body.examples.lang-en .entry.gist-planning-framework .preview {
   background-image: url("../imgs/examples/en/mini/example-gist-planning-framework.png");
@@ -493,13 +531,16 @@ body.lang-en .home.panel .full.gist-planning-framework, body.examples.lang-en .f
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-gist-planning-framework .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-gist-planning-framework.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-gist-planning-framework.png");
+}
 
 body.example.lang-en .screenshot.scheduling {
-  background-image: url("../imgs/examples/en/full/example-scheduling.png"); }
+  background-image: url("../imgs/examples/en/full/example-scheduling.png");
+}
 
 body.lang-en .home.panel .entry.scheduling .preview, body.examples.lang-en .entry.scheduling .preview {
   background-image: url("../imgs/examples/en/mini/example-scheduling.png");
@@ -512,13 +553,16 @@ body.lang-en .home.panel .full.scheduling, body.examples.lang-en .full.schedulin
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-scheduling .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-scheduling.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-scheduling.png");
+}
 
 body.example.lang-en .screenshot.business-model-canvas {
-  background-image: url("../imgs/examples/en/full/example-business-model-canvas.png"); }
+  background-image: url("../imgs/examples/en/full/example-business-model-canvas.png");
+}
 
 body.lang-en .home.panel .entry.business-model-canvas .preview, body.examples.lang-en .entry.business-model-canvas .preview {
   background-image: url("../imgs/examples/en/mini/example-business-model-canvas.png");
@@ -531,13 +575,16 @@ body.lang-en .home.panel .full.business-model-canvas, body.examples.lang-en .ful
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-business-model-canvas .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-business-model-canvas.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-business-model-canvas.png");
+}
 
 body.example.lang-en .screenshot.lean-startup-canvas {
-  background-image: url("../imgs/examples/en/full/example-lean-startup-canvas.png"); }
+  background-image: url("../imgs/examples/en/full/example-lean-startup-canvas.png");
+}
 
 body.lang-en .home.panel .entry.lean-startup-canvas .preview, body.examples.lang-en .entry.lean-startup-canvas .preview {
   background-image: url("../imgs/examples/en/mini/example-lean-startup-canvas.png");
@@ -550,13 +597,16 @@ body.lang-en .home.panel .full.lean-startup-canvas, body.examples.lang-en .full.
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-lean-startup-canvas .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-lean-startup-canvas.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-lean-startup-canvas.png");
+}
 
 body.example.lang-en .screenshot.product-vision-board {
-  background-image: url("../imgs/examples/en/full/example-product-vision-board.png"); }
+  background-image: url("../imgs/examples/en/full/example-product-vision-board.png");
+}
 
 body.lang-en .home.panel .entry.product-vision-board .preview, body.examples.lang-en .entry.product-vision-board .preview {
   background-image: url("../imgs/examples/en/mini/example-product-vision-board.png");
@@ -569,13 +619,16 @@ body.lang-en .home.panel .full.product-vision-board, body.examples.lang-en .full
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-product-vision-board .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-product-vision-board.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-product-vision-board.png");
+}
 
 body.example.lang-en .screenshot.the-go-product-roadmap {
-  background-image: url("../imgs/examples/en/full/example-the-go-product-roadmap.png"); }
+  background-image: url("../imgs/examples/en/full/example-the-go-product-roadmap.png");
+}
 
 body.lang-en .home.panel .entry.the-go-product-roadmap .preview, body.examples.lang-en .entry.the-go-product-roadmap .preview {
   background-image: url("../imgs/examples/en/mini/example-the-go-product-roadmap.png");
@@ -588,13 +641,16 @@ body.lang-en .home.panel .full.the-go-product-roadmap, body.examples.lang-en .fu
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-the-go-product-roadmap .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-the-go-product-roadmap.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-the-go-product-roadmap.png");
+}
 
 body.example.lang-en .screenshot.product-discovery {
-  background-image: url("../imgs/examples/en/full/example-product-discovery.png"); }
+  background-image: url("../imgs/examples/en/full/example-product-discovery.png");
+}
 
 body.lang-en .home.panel .entry.product-discovery .preview, body.examples.lang-en .entry.product-discovery .preview {
   background-image: url("../imgs/examples/en/mini/example-product-discovery.png");
@@ -607,13 +663,16 @@ body.lang-en .home.panel .full.product-discovery, body.examples.lang-en .full.pr
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-product-discovery .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-product-discovery.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-product-discovery.png");
+}
 
 body.example.lang-en .screenshot.persona {
-  background-image: url("../imgs/examples/en/full/example-persona.png"); }
+  background-image: url("../imgs/examples/en/full/example-persona.png");
+}
 
 body.lang-en .home.panel .entry.persona .preview, body.examples.lang-en .entry.persona .preview {
   background-image: url("../imgs/examples/en/mini/example-persona.png");
@@ -626,13 +685,16 @@ body.lang-en .home.panel .full.persona, body.examples.lang-en .full.persona {
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-persona .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-persona.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-persona.png");
+}
 
 body.example.lang-en .screenshot.customer-journey-mapping {
-  background-image: url("../imgs/examples/en/full/example-customer-journey-mapping.png"); }
+  background-image: url("../imgs/examples/en/full/example-customer-journey-mapping.png");
+}
 
 body.lang-en .home.panel .entry.customer-journey-mapping .preview, body.examples.lang-en .entry.customer-journey-mapping .preview {
   background-image: url("../imgs/examples/en/mini/example-customer-journey-mapping.png");
@@ -645,13 +707,16 @@ body.lang-en .home.panel .full.customer-journey-mapping, body.examples.lang-en .
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-customer-journey-mapping .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-customer-journey-mapping.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-customer-journey-mapping.png");
+}
 
 body.example.lang-en .screenshot.defining-and-prioritizing-hypothesis-statements {
-  background-image: url("../imgs/examples/en/full/example-defining-and-prioritizing-hypothesis-statements.png"); }
+  background-image: url("../imgs/examples/en/full/example-defining-and-prioritizing-hypothesis-statements.png");
+}
 
 body.lang-en .home.panel .entry.defining-and-prioritizing-hypothesis-statements .preview, body.examples.lang-en .entry.defining-and-prioritizing-hypothesis-statements .preview {
   background-image: url("../imgs/examples/en/mini/example-defining-and-prioritizing-hypothesis-statements.png");
@@ -664,13 +729,16 @@ body.lang-en .home.panel .full.defining-and-prioritizing-hypothesis-statements, 
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-defining-and-prioritizing-hypothesis-statements .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-defining-and-prioritizing-hypothesis-statements.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-defining-and-prioritizing-hypothesis-statements.png");
+}
 
 body.example.lang-en .screenshot.example-mapping {
-  background-image: url("../imgs/examples/en/full/example-example-mapping.png"); }
+  background-image: url("../imgs/examples/en/full/example-example-mapping.png");
+}
 
 body.lang-en .home.panel .entry.example-mapping .preview, body.examples.lang-en .entry.example-mapping .preview {
   background-image: url("../imgs/examples/en/mini/example-example-mapping.png");
@@ -683,13 +751,16 @@ body.lang-en .home.panel .full.example-mapping, body.examples.lang-en .full.exam
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-example-mapping .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-example-mapping.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-example-mapping.png");
+}
 
 body.example.lang-en .screenshot.user-flow {
-  background-image: url("../imgs/examples/en/full/example-user-flow.png"); }
+  background-image: url("../imgs/examples/en/full/example-user-flow.png");
+}
 
 body.lang-en .home.panel .entry.user-flow .preview, body.examples.lang-en .entry.user-flow .preview {
   background-image: url("../imgs/examples/en/mini/example-user-flow.png");
@@ -702,13 +773,16 @@ body.lang-en .home.panel .full.user-flow, body.examples.lang-en .full.user-flow 
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-user-flow .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-user-flow.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-user-flow.png");
+}
 
 body.example.lang-en .screenshot.site-mapping {
-  background-image: url("../imgs/examples/en/full/example-site-mapping.png"); }
+  background-image: url("../imgs/examples/en/full/example-site-mapping.png");
+}
 
 body.lang-en .home.panel .entry.site-mapping .preview, body.examples.lang-en .entry.site-mapping .preview {
   background-image: url("../imgs/examples/en/mini/example-site-mapping.png");
@@ -721,13 +795,16 @@ body.lang-en .home.panel .full.site-mapping, body.examples.lang-en .full.site-ma
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-site-mapping .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-site-mapping.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-site-mapping.png");
+}
 
 body.example.lang-en .screenshot.empathy-map {
-  background-image: url("../imgs/examples/en/full/example-empathy-map.png"); }
+  background-image: url("../imgs/examples/en/full/example-empathy-map.png");
+}
 
 body.lang-en .home.panel .entry.empathy-map .preview, body.examples.lang-en .entry.empathy-map .preview {
   background-image: url("../imgs/examples/en/mini/example-empathy-map.png");
@@ -740,13 +817,16 @@ body.lang-en .home.panel .full.empathy-map, body.examples.lang-en .full.empathy-
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-empathy-map .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-empathy-map.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-empathy-map.png");
+}
 
 body.example.lang-en .screenshot.moscow-method {
-  background-image: url("../imgs/examples/en/full/example-moscow-method.png"); }
+  background-image: url("../imgs/examples/en/full/example-moscow-method.png");
+}
 
 body.lang-en .home.panel .entry.moscow-method .preview, body.examples.lang-en .entry.moscow-method .preview {
   background-image: url("../imgs/examples/en/mini/example-moscow-method.png");
@@ -759,13 +839,16 @@ body.lang-en .home.panel .full.moscow-method, body.examples.lang-en .full.moscow
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-moscow-method .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-moscow-method.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-moscow-method.png");
+}
 
 body.example.lang-en .screenshot.starfish-retrospective {
-  background-image: url("../imgs/examples/en/full/example-starfish-retrospective.png"); }
+  background-image: url("../imgs/examples/en/full/example-starfish-retrospective.png");
+}
 
 body.lang-en .home.panel .entry.starfish-retrospective .preview, body.examples.lang-en .entry.starfish-retrospective .preview {
   background-image: url("../imgs/examples/en/mini/example-starfish-retrospective.png");
@@ -778,13 +861,16 @@ body.lang-en .home.panel .full.starfish-retrospective, body.examples.lang-en .fu
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-starfish-retrospective .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-starfish-retrospective.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-starfish-retrospective.png");
+}
 
 body.example.lang-en .screenshot.speedboat-retrospective {
-  background-image: url("../imgs/examples/en/full/example-speedboat-retrospective.png"); }
+  background-image: url("../imgs/examples/en/full/example-speedboat-retrospective.png");
+}
 
 body.lang-en .home.panel .entry.speedboat-retrospective .preview, body.examples.lang-en .entry.speedboat-retrospective .preview {
   background-image: url("../imgs/examples/en/mini/example-speedboat-retrospective.png");
@@ -797,13 +883,16 @@ body.lang-en .home.panel .full.speedboat-retrospective, body.examples.lang-en .f
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-speedboat-retrospective .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-speedboat-retrospective.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-speedboat-retrospective.png");
+}
 
 body.example.lang-en .screenshot.start-stop-continue-retrospective {
-  background-image: url("../imgs/examples/en/full/example-start-stop-continue-retrospective.png"); }
+  background-image: url("../imgs/examples/en/full/example-start-stop-continue-retrospective.png");
+}
 
 body.lang-en .home.panel .entry.start-stop-continue-retrospective .preview, body.examples.lang-en .entry.start-stop-continue-retrospective .preview {
   background-image: url("../imgs/examples/en/mini/example-start-stop-continue-retrospective.png");
@@ -816,13 +905,16 @@ body.lang-en .home.panel .full.start-stop-continue-retrospective, body.examples.
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-start-stop-continue-retrospective .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-start-stop-continue-retrospective.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-start-stop-continue-retrospective.png");
+}
 
 body.example.lang-en .screenshot.timeline-retrospective {
-  background-image: url("../imgs/examples/en/full/example-timeline-retrospective.png"); }
+  background-image: url("../imgs/examples/en/full/example-timeline-retrospective.png");
+}
 
 body.lang-en .home.panel .entry.timeline-retrospective .preview, body.examples.lang-en .entry.timeline-retrospective .preview {
   background-image: url("../imgs/examples/en/mini/example-timeline-retrospective.png");
@@ -835,13 +927,16 @@ body.lang-en .home.panel .full.timeline-retrospective, body.examples.lang-en .fu
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-timeline-retrospective .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-timeline-retrospective.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-timeline-retrospective.png");
+}
 
 body.example.lang-en .screenshot.fourls-retrospective {
-  background-image: url("../imgs/examples/en/full/example-fourls-retrospective.png"); }
+  background-image: url("../imgs/examples/en/full/example-fourls-retrospective.png");
+}
 
 body.lang-en .home.panel .entry.fourls-retrospective .preview, body.examples.lang-en .entry.fourls-retrospective .preview {
   background-image: url("../imgs/examples/en/mini/example-fourls-retrospective.png");
@@ -854,13 +949,16 @@ body.lang-en .home.panel .full.fourls-retrospective, body.examples.lang-en .full
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-fourls-retrospective .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-fourls-retrospective.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-fourls-retrospective.png");
+}
 
 body.example.lang-en .screenshot.three-little-pigs-retrospective {
-  background-image: url("../imgs/examples/en/full/example-three-little-pigs-retrospective.png"); }
+  background-image: url("../imgs/examples/en/full/example-three-little-pigs-retrospective.png");
+}
 
 body.lang-en .home.panel .entry.three-little-pigs-retrospective .preview, body.examples.lang-en .entry.three-little-pigs-retrospective .preview {
   background-image: url("../imgs/examples/en/mini/example-three-little-pigs-retrospective.png");
@@ -873,13 +971,16 @@ body.lang-en .home.panel .full.three-little-pigs-retrospective, body.examples.la
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-three-little-pigs-retrospective .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-three-little-pigs-retrospective.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-three-little-pigs-retrospective.png");
+}
 
 body.example.lang-en .screenshot.esvp-retrospective {
-  background-image: url("../imgs/examples/en/full/example-esvp-retrospective.png"); }
+  background-image: url("../imgs/examples/en/full/example-esvp-retrospective.png");
+}
 
 body.lang-en .home.panel .entry.esvp-retrospective .preview, body.examples.lang-en .entry.esvp-retrospective .preview {
   background-image: url("../imgs/examples/en/mini/example-esvp-retrospective.png");
@@ -892,13 +993,16 @@ body.lang-en .home.panel .full.esvp-retrospective, body.examples.lang-en .full.e
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-esvp-retrospective .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-esvp-retrospective.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-esvp-retrospective.png");
+}
 
 body.example.lang-en .screenshot.planning-poker {
-  background-image: url("../imgs/examples/en/full/example-planning-poker.png"); }
+  background-image: url("../imgs/examples/en/full/example-planning-poker.png");
+}
 
 body.lang-en .home.panel .entry.planning-poker .preview, body.examples.lang-en .entry.planning-poker .preview {
   background-image: url("../imgs/examples/en/mini/example-planning-poker.png");
@@ -911,13 +1015,16 @@ body.lang-en .home.panel .full.planning-poker, body.examples.lang-en .full.plann
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-planning-poker .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-planning-poker.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-planning-poker.png");
+}
 
 body.example.lang-en .screenshot.extreme-quotation {
-  background-image: url("../imgs/examples/en/full/example-extreme-quotation.png"); }
+  background-image: url("../imgs/examples/en/full/example-extreme-quotation.png");
+}
 
 body.lang-en .home.panel .entry.extreme-quotation .preview, body.examples.lang-en .entry.extreme-quotation .preview {
   background-image: url("../imgs/examples/en/mini/example-extreme-quotation.png");
@@ -930,13 +1037,16 @@ body.lang-en .home.panel .full.extreme-quotation, body.examples.lang-en .full.ex
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-extreme-quotation .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-extreme-quotation.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-extreme-quotation.png");
+}
 
 body.example.lang-en .screenshot.niko-niko-calendar {
-  background-image: url("../imgs/examples/en/full/example-niko-niko-calendar.png"); }
+  background-image: url("../imgs/examples/en/full/example-niko-niko-calendar.png");
+}
 
 body.lang-en .home.panel .entry.niko-niko-calendar .preview, body.examples.lang-en .entry.niko-niko-calendar .preview {
   background-image: url("../imgs/examples/en/mini/example-niko-niko-calendar.png");
@@ -949,13 +1059,16 @@ body.lang-en .home.panel .full.niko-niko-calendar, body.examples.lang-en .full.n
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-niko-niko-calendar .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-niko-niko-calendar.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-niko-niko-calendar.png");
+}
 
 body.example.lang-en .screenshot.roam-board {
-  background-image: url("../imgs/examples/en/full/example-roam-board.png"); }
+  background-image: url("../imgs/examples/en/full/example-roam-board.png");
+}
 
 body.lang-en .home.panel .entry.roam-board .preview, body.examples.lang-en .entry.roam-board .preview {
   background-image: url("../imgs/examples/en/mini/example-roam-board.png");
@@ -968,13 +1081,16 @@ body.lang-en .home.panel .full.roam-board, body.examples.lang-en .full.roam-boar
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-roam-board .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-roam-board.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-roam-board.png");
+}
 
 body.example.lang-en .screenshot.collaborative-brainstorming {
-  background-image: url("../imgs/examples/en/full/example-collaborative-brainstorming.png"); }
+  background-image: url("../imgs/examples/en/full/example-collaborative-brainstorming.png");
+}
 
 body.lang-en .home.panel .entry.collaborative-brainstorming .preview, body.examples.lang-en .entry.collaborative-brainstorming .preview {
   background-image: url("../imgs/examples/en/mini/example-collaborative-brainstorming.png");
@@ -987,13 +1103,16 @@ body.lang-en .home.panel .full.collaborative-brainstorming, body.examples.lang-e
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-collaborative-brainstorming .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-collaborative-brainstorming.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-collaborative-brainstorming.png");
+}
 
 body.example.lang-en .screenshot.moodboard {
-  background-image: url("../imgs/examples/en/full/example-moodboard.png"); }
+  background-image: url("../imgs/examples/en/full/example-moodboard.png");
+}
 
 body.lang-en .home.panel .entry.moodboard .preview, body.examples.lang-en .entry.moodboard .preview {
   background-image: url("../imgs/examples/en/mini/example-moodboard.png");
@@ -1006,13 +1125,16 @@ body.lang-en .home.panel .full.moodboard, body.examples.lang-en .full.moodboard 
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-moodboard .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-moodboard.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-moodboard.png");
+}
 
 body.example.lang-en .screenshot.design-thinking {
-  background-image: url("../imgs/examples/en/full/example-design-thinking.png"); }
+  background-image: url("../imgs/examples/en/full/example-design-thinking.png");
+}
 
 body.lang-en .home.panel .entry.design-thinking .preview, body.examples.lang-en .entry.design-thinking .preview {
   background-image: url("../imgs/examples/en/mini/example-design-thinking.png");
@@ -1025,13 +1147,16 @@ body.lang-en .home.panel .full.design-thinking, body.examples.lang-en .full.desi
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-design-thinking .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-design-thinking.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-design-thinking.png");
+}
 
 body.example.lang-en .screenshot.affinity-diagram {
-  background-image: url("../imgs/examples/en/full/example-affinity-diagram.png"); }
+  background-image: url("../imgs/examples/en/full/example-affinity-diagram.png");
+}
 
 body.lang-en .home.panel .entry.affinity-diagram .preview, body.examples.lang-en .entry.affinity-diagram .preview {
   background-image: url("../imgs/examples/en/mini/example-affinity-diagram.png");
@@ -1044,13 +1169,16 @@ body.lang-en .home.panel .full.affinity-diagram, body.examples.lang-en .full.aff
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-affinity-diagram .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-affinity-diagram.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-affinity-diagram.png");
+}
 
 body.example.lang-en .screenshot.lotus-blossom-technique {
-  background-image: url("../imgs/examples/en/full/example-lotus-blossom-technique.png"); }
+  background-image: url("../imgs/examples/en/full/example-lotus-blossom-technique.png");
+}
 
 body.lang-en .home.panel .entry.lotus-blossom-technique .preview, body.examples.lang-en .entry.lotus-blossom-technique .preview {
   background-image: url("../imgs/examples/en/mini/example-lotus-blossom-technique.png");
@@ -1063,13 +1191,16 @@ body.lang-en .home.panel .full.lotus-blossom-technique, body.examples.lang-en .f
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-lotus-blossom-technique .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-lotus-blossom-technique.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-lotus-blossom-technique.png");
+}
 
 body.example.lang-en .screenshot.research-and-discussion {
-  background-image: url("../imgs/examples/en/full/example-research-and-discussion.png"); }
+  background-image: url("../imgs/examples/en/full/example-research-and-discussion.png");
+}
 
 body.lang-en .home.panel .entry.research-and-discussion .preview, body.examples.lang-en .entry.research-and-discussion .preview {
   background-image: url("../imgs/examples/en/mini/example-research-and-discussion.png");
@@ -1082,13 +1213,16 @@ body.lang-en .home.panel .full.research-and-discussion, body.examples.lang-en .f
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-research-and-discussion .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-research-and-discussion.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-research-and-discussion.png");
+}
 
 body.example.lang-en .screenshot.mind-mapping {
-  background-image: url("../imgs/examples/en/full/example-mind-mapping.png"); }
+  background-image: url("../imgs/examples/en/full/example-mind-mapping.png");
+}
 
 body.lang-en .home.panel .entry.mind-mapping .preview, body.examples.lang-en .entry.mind-mapping .preview {
   background-image: url("../imgs/examples/en/mini/example-mind-mapping.png");
@@ -1101,13 +1235,16 @@ body.lang-en .home.panel .full.mind-mapping, body.examples.lang-en .full.mind-ma
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-mind-mapping .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-mind-mapping.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-mind-mapping.png");
+}
 
 body.example.lang-en .screenshot.organization-chart {
-  background-image: url("../imgs/examples/en/full/example-organization-chart.png"); }
+  background-image: url("../imgs/examples/en/full/example-organization-chart.png");
+}
 
 body.lang-en .home.panel .entry.organization-chart .preview, body.examples.lang-en .entry.organization-chart .preview {
   background-image: url("../imgs/examples/en/mini/example-organization-chart.png");
@@ -1120,13 +1257,16 @@ body.lang-en .home.panel .full.organization-chart, body.examples.lang-en .full.o
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-organization-chart .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-organization-chart.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-organization-chart.png");
+}
 
 body.example.lang-en .screenshot.flow-diagram {
-  background-image: url("../imgs/examples/en/full/example-flow-diagram.png"); }
+  background-image: url("../imgs/examples/en/full/example-flow-diagram.png");
+}
 
 body.lang-en .home.panel .entry.flow-diagram .preview, body.examples.lang-en .entry.flow-diagram .preview {
   background-image: url("../imgs/examples/en/mini/example-flow-diagram.png");
@@ -1139,13 +1279,16 @@ body.lang-en .home.panel .full.flow-diagram, body.examples.lang-en .full.flow-di
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-flow-diagram .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-flow-diagram.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-flow-diagram.png");
+}
 
 body.example.lang-en .screenshot.architecture-diagram {
-  background-image: url("../imgs/examples/en/full/example-architecture-diagram.png"); }
+  background-image: url("../imgs/examples/en/full/example-architecture-diagram.png");
+}
 
 body.lang-en .home.panel .entry.architecture-diagram .preview, body.examples.lang-en .entry.architecture-diagram .preview {
   background-image: url("../imgs/examples/en/mini/example-architecture-diagram.png");
@@ -1158,13 +1301,16 @@ body.lang-en .home.panel .full.architecture-diagram, body.examples.lang-en .full
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-architecture-diagram .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-architecture-diagram.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-architecture-diagram.png");
+}
 
 body.example.lang-en .screenshot.to-do-list {
-  background-image: url("../imgs/examples/en/full/example-to-do-list.png"); }
+  background-image: url("../imgs/examples/en/full/example-to-do-list.png");
+}
 
 body.lang-en .home.panel .entry.to-do-list .preview, body.examples.lang-en .entry.to-do-list .preview {
   background-image: url("../imgs/examples/en/mini/example-to-do-list.png");
@@ -1177,13 +1323,16 @@ body.lang-en .home.panel .full.to-do-list, body.examples.lang-en .full.to-do-lis
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-to-do-list .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-to-do-list.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-to-do-list.png");
+}
 
 body.example.lang-en .screenshot.collecting-feedback {
-  background-image: url("../imgs/examples/en/full/example-collecting-feedback.png"); }
+  background-image: url("../imgs/examples/en/full/example-collecting-feedback.png");
+}
 
 body.lang-en .home.panel .entry.collecting-feedback .preview, body.examples.lang-en .entry.collecting-feedback .preview {
   background-image: url("../imgs/examples/en/mini/example-collecting-feedback.png");
@@ -1196,13 +1345,16 @@ body.lang-en .home.panel .full.collecting-feedback, body.examples.lang-en .full.
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-en .vertice-create-example.example-collecting-feedback .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/en/example-collecting-feedback.png"); }
+  background-image: image-url("tmp/2019-01/mini/en/example-collecting-feedback.png");
+}
 
 body.example.lang-fr .screenshot.user-story-mapping {
-  background-image: url("../imgs/examples/fr/full/example-user-story-mapping.png"); }
+  background-image: url("../imgs/examples/fr/full/example-user-story-mapping.png");
+}
 
 body.lang-fr .home.panel .entry.user-story-mapping .preview, body.examples.lang-fr .entry.user-story-mapping .preview {
   background-image: url("../imgs/examples/fr/mini/example-user-story-mapping.png");
@@ -1215,13 +1367,16 @@ body.lang-fr .home.panel .full.user-story-mapping, body.examples.lang-fr .full.u
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-user-story-mapping .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-user-story-mapping.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-user-story-mapping.png");
+}
 
 body.example.lang-fr .screenshot.scrum-board {
-  background-image: url("../imgs/examples/fr/full/example-scrum-board.png"); }
+  background-image: url("../imgs/examples/fr/full/example-scrum-board.png");
+}
 
 body.lang-fr .home.panel .entry.scrum-board .preview, body.examples.lang-fr .entry.scrum-board .preview {
   background-image: url("../imgs/examples/fr/mini/example-scrum-board.png");
@@ -1234,13 +1389,16 @@ body.lang-fr .home.panel .full.scrum-board, body.examples.lang-fr .full.scrum-bo
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-scrum-board .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-scrum-board.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-scrum-board.png");
+}
 
 body.example.lang-fr .screenshot.kanban-board {
-  background-image: url("../imgs/examples/fr/full/example-kanban-board.png"); }
+  background-image: url("../imgs/examples/fr/full/example-kanban-board.png");
+}
 
 body.lang-fr .home.panel .entry.kanban-board .preview, body.examples.lang-fr .entry.kanban-board .preview {
   background-image: url("../imgs/examples/fr/mini/example-kanban-board.png");
@@ -1253,13 +1411,16 @@ body.lang-fr .home.panel .full.kanban-board, body.examples.lang-fr .full.kanban-
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-kanban-board .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-kanban-board.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-kanban-board.png");
+}
 
 body.example.lang-fr .screenshot.scrumban {
-  background-image: url("../imgs/examples/fr/full/example-scrumban.png"); }
+  background-image: url("../imgs/examples/fr/full/example-scrumban.png");
+}
 
 body.lang-fr .home.panel .entry.scrumban .preview, body.examples.lang-fr .entry.scrumban .preview {
   background-image: url("../imgs/examples/fr/mini/example-scrumban.png");
@@ -1272,13 +1433,16 @@ body.lang-fr .home.panel .full.scrumban, body.examples.lang-fr .full.scrumban {
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-scrumban .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-scrumban.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-scrumban.png");
+}
 
 body.example.lang-fr .screenshot.program-board {
-  background-image: url("../imgs/examples/fr/full/example-program-board.png"); }
+  background-image: url("../imgs/examples/fr/full/example-program-board.png");
+}
 
 body.lang-fr .home.panel .entry.program-board .preview, body.examples.lang-fr .entry.program-board .preview {
   background-image: url("../imgs/examples/fr/mini/example-program-board.png");
@@ -1291,13 +1455,16 @@ body.lang-fr .home.panel .full.program-board, body.examples.lang-fr .full.progra
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-program-board .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-program-board.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-program-board.png");
+}
 
 body.example.lang-fr .screenshot.pi-planning-board {
-  background-image: url("../imgs/examples/fr/full/example-pi-planning-board.png"); }
+  background-image: url("../imgs/examples/fr/full/example-pi-planning-board.png");
+}
 
 body.lang-fr .home.panel .entry.pi-planning-board .preview, body.examples.lang-fr .entry.pi-planning-board .preview {
   background-image: url("../imgs/examples/fr/mini/example-pi-planning-board.png");
@@ -1310,13 +1477,16 @@ body.lang-fr .home.panel .full.pi-planning-board, body.examples.lang-fr .full.pi
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-pi-planning-board .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-pi-planning-board.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-pi-planning-board.png");
+}
 
 body.example.lang-fr .screenshot.portfolio-kanban {
-  background-image: url("../imgs/examples/fr/full/example-portfolio-kanban.png"); }
+  background-image: url("../imgs/examples/fr/full/example-portfolio-kanban.png");
+}
 
 body.lang-fr .home.panel .entry.portfolio-kanban .preview, body.examples.lang-fr .entry.portfolio-kanban .preview {
   background-image: url("../imgs/examples/fr/mini/example-portfolio-kanban.png");
@@ -1329,13 +1499,16 @@ body.lang-fr .home.panel .full.portfolio-kanban, body.examples.lang-fr .full.por
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-portfolio-kanban .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-portfolio-kanban.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-portfolio-kanban.png");
+}
 
 body.example.lang-fr .screenshot.product-roadmap {
-  background-image: url("../imgs/examples/fr/full/example-product-roadmap.png"); }
+  background-image: url("../imgs/examples/fr/full/example-product-roadmap.png");
+}
 
 body.lang-fr .home.panel .entry.product-roadmap .preview, body.examples.lang-fr .entry.product-roadmap .preview {
   background-image: url("../imgs/examples/fr/mini/example-product-roadmap.png");
@@ -1348,13 +1521,16 @@ body.lang-fr .home.panel .full.product-roadmap, body.examples.lang-fr .full.prod
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-product-roadmap .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-product-roadmap.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-product-roadmap.png");
+}
 
 body.example.lang-fr .screenshot.twelve-month-roadmap {
-  background-image: url("../imgs/examples/fr/full/example-twelve-month-roadmap.png"); }
+  background-image: url("../imgs/examples/fr/full/example-twelve-month-roadmap.png");
+}
 
 body.lang-fr .home.panel .entry.twelve-month-roadmap .preview, body.examples.lang-fr .entry.twelve-month-roadmap .preview {
   background-image: url("../imgs/examples/fr/mini/example-twelve-month-roadmap.png");
@@ -1367,13 +1543,16 @@ body.lang-fr .home.panel .full.twelve-month-roadmap, body.examples.lang-fr .full
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-twelve-month-roadmap .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-twelve-month-roadmap.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-twelve-month-roadmap.png");
+}
 
 body.example.lang-fr .screenshot.gantt-chart {
-  background-image: url("../imgs/examples/fr/full/example-gantt-chart.png"); }
+  background-image: url("../imgs/examples/fr/full/example-gantt-chart.png");
+}
 
 body.lang-fr .home.panel .entry.gantt-chart .preview, body.examples.lang-fr .entry.gantt-chart .preview {
   background-image: url("../imgs/examples/fr/mini/example-gantt-chart.png");
@@ -1386,13 +1565,16 @@ body.lang-fr .home.panel .full.gantt-chart, body.examples.lang-fr .full.gantt-ch
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-gantt-chart .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-gantt-chart.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-gantt-chart.png");
+}
 
 body.example.lang-fr .screenshot.okr-process {
-  background-image: url("../imgs/examples/fr/full/example-okr-process.png"); }
+  background-image: url("../imgs/examples/fr/full/example-okr-process.png");
+}
 
 body.lang-fr .home.panel .entry.okr-process .preview, body.examples.lang-fr .entry.okr-process .preview {
   background-image: url("../imgs/examples/fr/mini/example-okr-process.png");
@@ -1405,13 +1587,16 @@ body.lang-fr .home.panel .full.okr-process, body.examples.lang-fr .full.okr-proc
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-okr-process .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-okr-process.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-okr-process.png");
+}
 
 body.example.lang-fr .screenshot.impact-mapping {
-  background-image: url("../imgs/examples/fr/full/example-impact-mapping.png"); }
+  background-image: url("../imgs/examples/fr/full/example-impact-mapping.png");
+}
 
 body.lang-fr .home.panel .entry.impact-mapping .preview, body.examples.lang-fr .entry.impact-mapping .preview {
   background-image: url("../imgs/examples/fr/mini/example-impact-mapping.png");
@@ -1424,13 +1609,16 @@ body.lang-fr .home.panel .full.impact-mapping, body.examples.lang-fr .full.impac
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-impact-mapping .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-impact-mapping.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-impact-mapping.png");
+}
 
 body.example.lang-fr .screenshot.gist-planning-framework {
-  background-image: url("../imgs/examples/fr/full/example-gist-planning-framework.png"); }
+  background-image: url("../imgs/examples/fr/full/example-gist-planning-framework.png");
+}
 
 body.lang-fr .home.panel .entry.gist-planning-framework .preview, body.examples.lang-fr .entry.gist-planning-framework .preview {
   background-image: url("../imgs/examples/fr/mini/example-gist-planning-framework.png");
@@ -1443,13 +1631,16 @@ body.lang-fr .home.panel .full.gist-planning-framework, body.examples.lang-fr .f
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-gist-planning-framework .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-gist-planning-framework.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-gist-planning-framework.png");
+}
 
 body.example.lang-fr .screenshot.scheduling {
-  background-image: url("../imgs/examples/fr/full/example-scheduling.png"); }
+  background-image: url("../imgs/examples/fr/full/example-scheduling.png");
+}
 
 body.lang-fr .home.panel .entry.scheduling .preview, body.examples.lang-fr .entry.scheduling .preview {
   background-image: url("../imgs/examples/fr/mini/example-scheduling.png");
@@ -1462,13 +1653,16 @@ body.lang-fr .home.panel .full.scheduling, body.examples.lang-fr .full.schedulin
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-scheduling .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-scheduling.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-scheduling.png");
+}
 
 body.example.lang-fr .screenshot.business-model-canvas {
-  background-image: url("../imgs/examples/fr/full/example-business-model-canvas.png"); }
+  background-image: url("../imgs/examples/fr/full/example-business-model-canvas.png");
+}
 
 body.lang-fr .home.panel .entry.business-model-canvas .preview, body.examples.lang-fr .entry.business-model-canvas .preview {
   background-image: url("../imgs/examples/fr/mini/example-business-model-canvas.png");
@@ -1481,13 +1675,16 @@ body.lang-fr .home.panel .full.business-model-canvas, body.examples.lang-fr .ful
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-business-model-canvas .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-business-model-canvas.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-business-model-canvas.png");
+}
 
 body.example.lang-fr .screenshot.lean-startup-canvas {
-  background-image: url("../imgs/examples/fr/full/example-lean-startup-canvas.png"); }
+  background-image: url("../imgs/examples/fr/full/example-lean-startup-canvas.png");
+}
 
 body.lang-fr .home.panel .entry.lean-startup-canvas .preview, body.examples.lang-fr .entry.lean-startup-canvas .preview {
   background-image: url("../imgs/examples/fr/mini/example-lean-startup-canvas.png");
@@ -1500,13 +1697,16 @@ body.lang-fr .home.panel .full.lean-startup-canvas, body.examples.lang-fr .full.
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-lean-startup-canvas .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-lean-startup-canvas.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-lean-startup-canvas.png");
+}
 
 body.example.lang-fr .screenshot.product-vision-board {
-  background-image: url("../imgs/examples/fr/full/example-product-vision-board.png"); }
+  background-image: url("../imgs/examples/fr/full/example-product-vision-board.png");
+}
 
 body.lang-fr .home.panel .entry.product-vision-board .preview, body.examples.lang-fr .entry.product-vision-board .preview {
   background-image: url("../imgs/examples/fr/mini/example-product-vision-board.png");
@@ -1519,13 +1719,16 @@ body.lang-fr .home.panel .full.product-vision-board, body.examples.lang-fr .full
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-product-vision-board .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-product-vision-board.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-product-vision-board.png");
+}
 
 body.example.lang-fr .screenshot.the-go-product-roadmap {
-  background-image: url("../imgs/examples/fr/full/example-the-go-product-roadmap.png"); }
+  background-image: url("../imgs/examples/fr/full/example-the-go-product-roadmap.png");
+}
 
 body.lang-fr .home.panel .entry.the-go-product-roadmap .preview, body.examples.lang-fr .entry.the-go-product-roadmap .preview {
   background-image: url("../imgs/examples/fr/mini/example-the-go-product-roadmap.png");
@@ -1538,13 +1741,16 @@ body.lang-fr .home.panel .full.the-go-product-roadmap, body.examples.lang-fr .fu
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-the-go-product-roadmap .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-the-go-product-roadmap.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-the-go-product-roadmap.png");
+}
 
 body.example.lang-fr .screenshot.product-discovery {
-  background-image: url("../imgs/examples/fr/full/example-product-discovery.png"); }
+  background-image: url("../imgs/examples/fr/full/example-product-discovery.png");
+}
 
 body.lang-fr .home.panel .entry.product-discovery .preview, body.examples.lang-fr .entry.product-discovery .preview {
   background-image: url("../imgs/examples/fr/mini/example-product-discovery.png");
@@ -1557,13 +1763,16 @@ body.lang-fr .home.panel .full.product-discovery, body.examples.lang-fr .full.pr
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-product-discovery .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-product-discovery.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-product-discovery.png");
+}
 
 body.example.lang-fr .screenshot.persona {
-  background-image: url("../imgs/examples/fr/full/example-persona.png"); }
+  background-image: url("../imgs/examples/fr/full/example-persona.png");
+}
 
 body.lang-fr .home.panel .entry.persona .preview, body.examples.lang-fr .entry.persona .preview {
   background-image: url("../imgs/examples/fr/mini/example-persona.png");
@@ -1576,13 +1785,16 @@ body.lang-fr .home.panel .full.persona, body.examples.lang-fr .full.persona {
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-persona .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-persona.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-persona.png");
+}
 
 body.example.lang-fr .screenshot.customer-journey-mapping {
-  background-image: url("../imgs/examples/fr/full/example-customer-journey-mapping.png"); }
+  background-image: url("../imgs/examples/fr/full/example-customer-journey-mapping.png");
+}
 
 body.lang-fr .home.panel .entry.customer-journey-mapping .preview, body.examples.lang-fr .entry.customer-journey-mapping .preview {
   background-image: url("../imgs/examples/fr/mini/example-customer-journey-mapping.png");
@@ -1595,13 +1807,16 @@ body.lang-fr .home.panel .full.customer-journey-mapping, body.examples.lang-fr .
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-customer-journey-mapping .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-customer-journey-mapping.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-customer-journey-mapping.png");
+}
 
 body.example.lang-fr .screenshot.defining-and-prioritizing-hypothesis-statements {
-  background-image: url("../imgs/examples/fr/full/example-defining-and-prioritizing-hypothesis-statements.png"); }
+  background-image: url("../imgs/examples/fr/full/example-defining-and-prioritizing-hypothesis-statements.png");
+}
 
 body.lang-fr .home.panel .entry.defining-and-prioritizing-hypothesis-statements .preview, body.examples.lang-fr .entry.defining-and-prioritizing-hypothesis-statements .preview {
   background-image: url("../imgs/examples/fr/mini/example-defining-and-prioritizing-hypothesis-statements.png");
@@ -1614,13 +1829,16 @@ body.lang-fr .home.panel .full.defining-and-prioritizing-hypothesis-statements, 
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-defining-and-prioritizing-hypothesis-statements .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-defining-and-prioritizing-hypothesis-statements.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-defining-and-prioritizing-hypothesis-statements.png");
+}
 
 body.example.lang-fr .screenshot.example-mapping {
-  background-image: url("../imgs/examples/fr/full/example-example-mapping.png"); }
+  background-image: url("../imgs/examples/fr/full/example-example-mapping.png");
+}
 
 body.lang-fr .home.panel .entry.example-mapping .preview, body.examples.lang-fr .entry.example-mapping .preview {
   background-image: url("../imgs/examples/fr/mini/example-example-mapping.png");
@@ -1633,13 +1851,16 @@ body.lang-fr .home.panel .full.example-mapping, body.examples.lang-fr .full.exam
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-example-mapping .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-example-mapping.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-example-mapping.png");
+}
 
 body.example.lang-fr .screenshot.user-flow {
-  background-image: url("../imgs/examples/fr/full/example-user-flow.png"); }
+  background-image: url("../imgs/examples/fr/full/example-user-flow.png");
+}
 
 body.lang-fr .home.panel .entry.user-flow .preview, body.examples.lang-fr .entry.user-flow .preview {
   background-image: url("../imgs/examples/fr/mini/example-user-flow.png");
@@ -1652,13 +1873,16 @@ body.lang-fr .home.panel .full.user-flow, body.examples.lang-fr .full.user-flow 
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-user-flow .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-user-flow.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-user-flow.png");
+}
 
 body.example.lang-fr .screenshot.site-mapping {
-  background-image: url("../imgs/examples/fr/full/example-site-mapping.png"); }
+  background-image: url("../imgs/examples/fr/full/example-site-mapping.png");
+}
 
 body.lang-fr .home.panel .entry.site-mapping .preview, body.examples.lang-fr .entry.site-mapping .preview {
   background-image: url("../imgs/examples/fr/mini/example-site-mapping.png");
@@ -1671,13 +1895,16 @@ body.lang-fr .home.panel .full.site-mapping, body.examples.lang-fr .full.site-ma
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-site-mapping .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-site-mapping.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-site-mapping.png");
+}
 
 body.example.lang-fr .screenshot.empathy-map {
-  background-image: url("../imgs/examples/fr/full/example-empathy-map.png"); }
+  background-image: url("../imgs/examples/fr/full/example-empathy-map.png");
+}
 
 body.lang-fr .home.panel .entry.empathy-map .preview, body.examples.lang-fr .entry.empathy-map .preview {
   background-image: url("../imgs/examples/fr/mini/example-empathy-map.png");
@@ -1690,13 +1917,16 @@ body.lang-fr .home.panel .full.empathy-map, body.examples.lang-fr .full.empathy-
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-empathy-map .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-empathy-map.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-empathy-map.png");
+}
 
 body.example.lang-fr .screenshot.moscow-method {
-  background-image: url("../imgs/examples/fr/full/example-moscow-method.png"); }
+  background-image: url("../imgs/examples/fr/full/example-moscow-method.png");
+}
 
 body.lang-fr .home.panel .entry.moscow-method .preview, body.examples.lang-fr .entry.moscow-method .preview {
   background-image: url("../imgs/examples/fr/mini/example-moscow-method.png");
@@ -1709,13 +1939,16 @@ body.lang-fr .home.panel .full.moscow-method, body.examples.lang-fr .full.moscow
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-moscow-method .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-moscow-method.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-moscow-method.png");
+}
 
 body.example.lang-fr .screenshot.starfish-retrospective {
-  background-image: url("../imgs/examples/fr/full/example-starfish-retrospective.png"); }
+  background-image: url("../imgs/examples/fr/full/example-starfish-retrospective.png");
+}
 
 body.lang-fr .home.panel .entry.starfish-retrospective .preview, body.examples.lang-fr .entry.starfish-retrospective .preview {
   background-image: url("../imgs/examples/fr/mini/example-starfish-retrospective.png");
@@ -1728,13 +1961,16 @@ body.lang-fr .home.panel .full.starfish-retrospective, body.examples.lang-fr .fu
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-starfish-retrospective .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-starfish-retrospective.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-starfish-retrospective.png");
+}
 
 body.example.lang-fr .screenshot.speedboat-retrospective {
-  background-image: url("../imgs/examples/fr/full/example-speedboat-retrospective.png"); }
+  background-image: url("../imgs/examples/fr/full/example-speedboat-retrospective.png");
+}
 
 body.lang-fr .home.panel .entry.speedboat-retrospective .preview, body.examples.lang-fr .entry.speedboat-retrospective .preview {
   background-image: url("../imgs/examples/fr/mini/example-speedboat-retrospective.png");
@@ -1747,13 +1983,16 @@ body.lang-fr .home.panel .full.speedboat-retrospective, body.examples.lang-fr .f
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-speedboat-retrospective .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-speedboat-retrospective.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-speedboat-retrospective.png");
+}
 
 body.example.lang-fr .screenshot.start-stop-continue-retrospective {
-  background-image: url("../imgs/examples/fr/full/example-start-stop-continue-retrospective.png"); }
+  background-image: url("../imgs/examples/fr/full/example-start-stop-continue-retrospective.png");
+}
 
 body.lang-fr .home.panel .entry.start-stop-continue-retrospective .preview, body.examples.lang-fr .entry.start-stop-continue-retrospective .preview {
   background-image: url("../imgs/examples/fr/mini/example-start-stop-continue-retrospective.png");
@@ -1766,13 +2005,16 @@ body.lang-fr .home.panel .full.start-stop-continue-retrospective, body.examples.
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-start-stop-continue-retrospective .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-start-stop-continue-retrospective.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-start-stop-continue-retrospective.png");
+}
 
 body.example.lang-fr .screenshot.timeline-retrospective {
-  background-image: url("../imgs/examples/fr/full/example-timeline-retrospective.png"); }
+  background-image: url("../imgs/examples/fr/full/example-timeline-retrospective.png");
+}
 
 body.lang-fr .home.panel .entry.timeline-retrospective .preview, body.examples.lang-fr .entry.timeline-retrospective .preview {
   background-image: url("../imgs/examples/fr/mini/example-timeline-retrospective.png");
@@ -1785,13 +2027,16 @@ body.lang-fr .home.panel .full.timeline-retrospective, body.examples.lang-fr .fu
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-timeline-retrospective .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-timeline-retrospective.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-timeline-retrospective.png");
+}
 
 body.example.lang-fr .screenshot.fourls-retrospective {
-  background-image: url("../imgs/examples/fr/full/example-fourls-retrospective.png"); }
+  background-image: url("../imgs/examples/fr/full/example-fourls-retrospective.png");
+}
 
 body.lang-fr .home.panel .entry.fourls-retrospective .preview, body.examples.lang-fr .entry.fourls-retrospective .preview {
   background-image: url("../imgs/examples/fr/mini/example-fourls-retrospective.png");
@@ -1804,13 +2049,16 @@ body.lang-fr .home.panel .full.fourls-retrospective, body.examples.lang-fr .full
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-fourls-retrospective .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-fourls-retrospective.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-fourls-retrospective.png");
+}
 
 body.example.lang-fr .screenshot.three-little-pigs-retrospective {
-  background-image: url("../imgs/examples/fr/full/example-three-little-pigs-retrospective.png"); }
+  background-image: url("../imgs/examples/fr/full/example-three-little-pigs-retrospective.png");
+}
 
 body.lang-fr .home.panel .entry.three-little-pigs-retrospective .preview, body.examples.lang-fr .entry.three-little-pigs-retrospective .preview {
   background-image: url("../imgs/examples/fr/mini/example-three-little-pigs-retrospective.png");
@@ -1823,13 +2071,16 @@ body.lang-fr .home.panel .full.three-little-pigs-retrospective, body.examples.la
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-three-little-pigs-retrospective .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-three-little-pigs-retrospective.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-three-little-pigs-retrospective.png");
+}
 
 body.example.lang-fr .screenshot.esvp-retrospective {
-  background-image: url("../imgs/examples/fr/full/example-esvp-retrospective.png"); }
+  background-image: url("../imgs/examples/fr/full/example-esvp-retrospective.png");
+}
 
 body.lang-fr .home.panel .entry.esvp-retrospective .preview, body.examples.lang-fr .entry.esvp-retrospective .preview {
   background-image: url("../imgs/examples/fr/mini/example-esvp-retrospective.png");
@@ -1842,13 +2093,16 @@ body.lang-fr .home.panel .full.esvp-retrospective, body.examples.lang-fr .full.e
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-esvp-retrospective .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-esvp-retrospective.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-esvp-retrospective.png");
+}
 
 body.example.lang-fr .screenshot.planning-poker {
-  background-image: url("../imgs/examples/fr/full/example-planning-poker.png"); }
+  background-image: url("../imgs/examples/fr/full/example-planning-poker.png");
+}
 
 body.lang-fr .home.panel .entry.planning-poker .preview, body.examples.lang-fr .entry.planning-poker .preview {
   background-image: url("../imgs/examples/fr/mini/example-planning-poker.png");
@@ -1861,13 +2115,16 @@ body.lang-fr .home.panel .full.planning-poker, body.examples.lang-fr .full.plann
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-planning-poker .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-planning-poker.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-planning-poker.png");
+}
 
 body.example.lang-fr .screenshot.extreme-quotation {
-  background-image: url("../imgs/examples/fr/full/example-extreme-quotation.png"); }
+  background-image: url("../imgs/examples/fr/full/example-extreme-quotation.png");
+}
 
 body.lang-fr .home.panel .entry.extreme-quotation .preview, body.examples.lang-fr .entry.extreme-quotation .preview {
   background-image: url("../imgs/examples/fr/mini/example-extreme-quotation.png");
@@ -1880,13 +2137,16 @@ body.lang-fr .home.panel .full.extreme-quotation, body.examples.lang-fr .full.ex
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-extreme-quotation .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-extreme-quotation.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-extreme-quotation.png");
+}
 
 body.example.lang-fr .screenshot.niko-niko-calendar {
-  background-image: url("../imgs/examples/fr/full/example-niko-niko-calendar.png"); }
+  background-image: url("../imgs/examples/fr/full/example-niko-niko-calendar.png");
+}
 
 body.lang-fr .home.panel .entry.niko-niko-calendar .preview, body.examples.lang-fr .entry.niko-niko-calendar .preview {
   background-image: url("../imgs/examples/fr/mini/example-niko-niko-calendar.png");
@@ -1899,13 +2159,16 @@ body.lang-fr .home.panel .full.niko-niko-calendar, body.examples.lang-fr .full.n
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-niko-niko-calendar .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-niko-niko-calendar.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-niko-niko-calendar.png");
+}
 
 body.example.lang-fr .screenshot.roam-board {
-  background-image: url("../imgs/examples/fr/full/example-roam-board.png"); }
+  background-image: url("../imgs/examples/fr/full/example-roam-board.png");
+}
 
 body.lang-fr .home.panel .entry.roam-board .preview, body.examples.lang-fr .entry.roam-board .preview {
   background-image: url("../imgs/examples/fr/mini/example-roam-board.png");
@@ -1918,13 +2181,16 @@ body.lang-fr .home.panel .full.roam-board, body.examples.lang-fr .full.roam-boar
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-roam-board .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-roam-board.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-roam-board.png");
+}
 
 body.example.lang-fr .screenshot.collaborative-brainstorming {
-  background-image: url("../imgs/examples/fr/full/example-collaborative-brainstorming.png"); }
+  background-image: url("../imgs/examples/fr/full/example-collaborative-brainstorming.png");
+}
 
 body.lang-fr .home.panel .entry.collaborative-brainstorming .preview, body.examples.lang-fr .entry.collaborative-brainstorming .preview {
   background-image: url("../imgs/examples/fr/mini/example-collaborative-brainstorming.png");
@@ -1937,13 +2203,16 @@ body.lang-fr .home.panel .full.collaborative-brainstorming, body.examples.lang-f
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-collaborative-brainstorming .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-collaborative-brainstorming.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-collaborative-brainstorming.png");
+}
 
 body.example.lang-fr .screenshot.moodboard {
-  background-image: url("../imgs/examples/fr/full/example-moodboard.png"); }
+  background-image: url("../imgs/examples/fr/full/example-moodboard.png");
+}
 
 body.lang-fr .home.panel .entry.moodboard .preview, body.examples.lang-fr .entry.moodboard .preview {
   background-image: url("../imgs/examples/fr/mini/example-moodboard.png");
@@ -1956,13 +2225,16 @@ body.lang-fr .home.panel .full.moodboard, body.examples.lang-fr .full.moodboard 
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-moodboard .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-moodboard.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-moodboard.png");
+}
 
 body.example.lang-fr .screenshot.design-thinking {
-  background-image: url("../imgs/examples/fr/full/example-design-thinking.png"); }
+  background-image: url("../imgs/examples/fr/full/example-design-thinking.png");
+}
 
 body.lang-fr .home.panel .entry.design-thinking .preview, body.examples.lang-fr .entry.design-thinking .preview {
   background-image: url("../imgs/examples/fr/mini/example-design-thinking.png");
@@ -1975,13 +2247,16 @@ body.lang-fr .home.panel .full.design-thinking, body.examples.lang-fr .full.desi
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-design-thinking .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-design-thinking.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-design-thinking.png");
+}
 
 body.example.lang-fr .screenshot.affinity-diagram {
-  background-image: url("../imgs/examples/fr/full/example-affinity-diagram.png"); }
+  background-image: url("../imgs/examples/fr/full/example-affinity-diagram.png");
+}
 
 body.lang-fr .home.panel .entry.affinity-diagram .preview, body.examples.lang-fr .entry.affinity-diagram .preview {
   background-image: url("../imgs/examples/fr/mini/example-affinity-diagram.png");
@@ -1994,13 +2269,16 @@ body.lang-fr .home.panel .full.affinity-diagram, body.examples.lang-fr .full.aff
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-affinity-diagram .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-affinity-diagram.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-affinity-diagram.png");
+}
 
 body.example.lang-fr .screenshot.lotus-blossom-technique {
-  background-image: url("../imgs/examples/fr/full/example-lotus-blossom-technique.png"); }
+  background-image: url("../imgs/examples/fr/full/example-lotus-blossom-technique.png");
+}
 
 body.lang-fr .home.panel .entry.lotus-blossom-technique .preview, body.examples.lang-fr .entry.lotus-blossom-technique .preview {
   background-image: url("../imgs/examples/fr/mini/example-lotus-blossom-technique.png");
@@ -2013,13 +2291,16 @@ body.lang-fr .home.panel .full.lotus-blossom-technique, body.examples.lang-fr .f
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-lotus-blossom-technique .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-lotus-blossom-technique.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-lotus-blossom-technique.png");
+}
 
 body.example.lang-fr .screenshot.research-and-discussion {
-  background-image: url("../imgs/examples/fr/full/example-research-and-discussion.png"); }
+  background-image: url("../imgs/examples/fr/full/example-research-and-discussion.png");
+}
 
 body.lang-fr .home.panel .entry.research-and-discussion .preview, body.examples.lang-fr .entry.research-and-discussion .preview {
   background-image: url("../imgs/examples/fr/mini/example-research-and-discussion.png");
@@ -2032,13 +2313,16 @@ body.lang-fr .home.panel .full.research-and-discussion, body.examples.lang-fr .f
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-research-and-discussion .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-research-and-discussion.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-research-and-discussion.png");
+}
 
 body.example.lang-fr .screenshot.mind-mapping {
-  background-image: url("../imgs/examples/fr/full/example-mind-mapping.png"); }
+  background-image: url("../imgs/examples/fr/full/example-mind-mapping.png");
+}
 
 body.lang-fr .home.panel .entry.mind-mapping .preview, body.examples.lang-fr .entry.mind-mapping .preview {
   background-image: url("../imgs/examples/fr/mini/example-mind-mapping.png");
@@ -2051,13 +2335,16 @@ body.lang-fr .home.panel .full.mind-mapping, body.examples.lang-fr .full.mind-ma
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-mind-mapping .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-mind-mapping.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-mind-mapping.png");
+}
 
 body.example.lang-fr .screenshot.organization-chart {
-  background-image: url("../imgs/examples/fr/full/example-organization-chart.png"); }
+  background-image: url("../imgs/examples/fr/full/example-organization-chart.png");
+}
 
 body.lang-fr .home.panel .entry.organization-chart .preview, body.examples.lang-fr .entry.organization-chart .preview {
   background-image: url("../imgs/examples/fr/mini/example-organization-chart.png");
@@ -2070,13 +2357,16 @@ body.lang-fr .home.panel .full.organization-chart, body.examples.lang-fr .full.o
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-organization-chart .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-organization-chart.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-organization-chart.png");
+}
 
 body.example.lang-fr .screenshot.flow-diagram {
-  background-image: url("../imgs/examples/fr/full/example-flow-diagram.png"); }
+  background-image: url("../imgs/examples/fr/full/example-flow-diagram.png");
+}
 
 body.lang-fr .home.panel .entry.flow-diagram .preview, body.examples.lang-fr .entry.flow-diagram .preview {
   background-image: url("../imgs/examples/fr/mini/example-flow-diagram.png");
@@ -2089,13 +2379,16 @@ body.lang-fr .home.panel .full.flow-diagram, body.examples.lang-fr .full.flow-di
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-flow-diagram .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-flow-diagram.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-flow-diagram.png");
+}
 
 body.example.lang-fr .screenshot.architecture-diagram {
-  background-image: url("../imgs/examples/fr/full/example-architecture-diagram.png"); }
+  background-image: url("../imgs/examples/fr/full/example-architecture-diagram.png");
+}
 
 body.lang-fr .home.panel .entry.architecture-diagram .preview, body.examples.lang-fr .entry.architecture-diagram .preview {
   background-image: url("../imgs/examples/fr/mini/example-architecture-diagram.png");
@@ -2108,13 +2401,16 @@ body.lang-fr .home.panel .full.architecture-diagram, body.examples.lang-fr .full
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-architecture-diagram .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-architecture-diagram.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-architecture-diagram.png");
+}
 
 body.example.lang-fr .screenshot.to-do-list {
-  background-image: url("../imgs/examples/fr/full/example-to-do-list.png"); }
+  background-image: url("../imgs/examples/fr/full/example-to-do-list.png");
+}
 
 body.lang-fr .home.panel .entry.to-do-list .preview, body.examples.lang-fr .entry.to-do-list .preview {
   background-image: url("../imgs/examples/fr/mini/example-to-do-list.png");
@@ -2127,13 +2423,16 @@ body.lang-fr .home.panel .full.to-do-list, body.examples.lang-fr .full.to-do-lis
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-to-do-list .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-to-do-list.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-to-do-list.png");
+}
 
 body.example.lang-fr .screenshot.collecting-feedback {
-  background-image: url("../imgs/examples/fr/full/example-collecting-feedback.png"); }
+  background-image: url("../imgs/examples/fr/full/example-collecting-feedback.png");
+}
 
 body.lang-fr .home.panel .entry.collecting-feedback .preview, body.examples.lang-fr .entry.collecting-feedback .preview {
   background-image: url("../imgs/examples/fr/mini/example-collecting-feedback.png");
@@ -2146,22 +2445,27 @@ body.lang-fr .home.panel .full.collecting-feedback, body.examples.lang-fr .full.
   background-position: center;
   width: calc(100% - 200px);
   margin-left: 100px;
-  height: 100%; }
+  height: 100%;
+}
 
 body.lang-fr .vertice-create-example.example-collecting-feedback .viewport-container {
-  background-image: image-url("tmp/2019-01/mini/fr/example-collecting-feedback.png"); }
+  background-image: image-url("tmp/2019-01/mini/fr/example-collecting-feedback.png");
+}
 
 .page-login, .page-get-started {
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 html, body {
   width: 100%;
   height: 100%;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+}
 
 form {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+}
 
 body {
   -webkit-font-smoothing: antialiased;
@@ -2179,7 +2483,8 @@ body .header {
 button, input {
   -webkit-appearance: none;
   border-radius: 0;
-  margin: 0; }
+  margin: 0;
+}
 
 body.page-not-found {
   font-family: regular;
@@ -2632,10 +2937,12 @@ body.page-not-found .wrapper .error {
 }
 
 .header-not-at-top .header {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
 
 body.dark a:visited:not(.cta-border) {
-  color: white; }
+  color: white;
+}
 
 body {
   font-size: 17px;
@@ -3356,7 +3663,8 @@ body .uc-collecting-feedback .screenshot {
 }
 
 .page-pricing .header .pricing, .page-examples .header .examples, .business-case .header .customer-stories {
-  font-family: bold; }
+  font-family: bold;
+}
 
 @media only screen and (min-width: 1080px) {
   .workflow .bloc-features .features .feature.polling-booth-mode {
@@ -3512,7 +3820,8 @@ body .uc-collecting-feedback .screenshot {
 }
 
 body .footer {
-  color: white; }
+  color: white;
+}
 
 body.dark a:not(.cta):not(.cta-border) {
   color: white;
@@ -3797,7 +4106,8 @@ body.home .bloc-landing .wrapper .baseline {
 }
 
 body.lang-fr.home .workflows .workflow:last-child .detail {
-  margin-bottom: 42px; }
+  margin-bottom: 42px;
+}
 
 .use-cases .section-title {
   font-size: 2.6em;
@@ -3909,7 +4219,8 @@ body.lang-fr.home .workflows .workflow:last-child .detail {
 }
 
 .home .bloc-misc .entry.tabs .illu {
-  background-image: url(https://cdn3.iconfinder.com/data/icons/business-office-2/512/folders_root-512.png); }
+  background-image: url(https://cdn3.iconfinder.com/data/icons/business-office-2/512/folders_root-512.png);
+}
 
 .home .bloc-av .bloc-text .title, .use-cases .bloc-use-case .bloc-text .title {
   font-size: 2em;
@@ -3917,7 +4228,8 @@ body.lang-fr.home .workflows .workflow:last-child .detail {
 }
 
 .home .bloc-av .bloc-text .detail, .use-cases .bloc-use-case .bloc-text .detail {
-  font-size: 1.2em; }
+  font-size: 1.2em;
+}
 
 body.landing .bloc-av {
   position: relative;
@@ -3976,7 +4288,8 @@ body.landing .bloc-av:nth-child(6):before {
 }
 
 body.landing .bloc-av {
-  color: black; }
+  color: black;
+}
 
 .use-cases .section-title {
   font-size: 2.6em;
@@ -4082,8 +4395,8 @@ body.landing .bloc-av {
 
 @keyframes load8 {
   0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg); }
+    transform: rotate(0deg);
+  }
   100% {
     transform: rotate(360deg);
   }
@@ -4372,7 +4685,8 @@ body.landing .bloc-av {
 }
 
 .page-forgot .bloc-form, .page-reset .bloc-form {
-  width: 300px !important; }
+  width: 300px !important;
+}
 
 .page-validate-email .bloc-form {
   width: 720px;
@@ -4451,28 +4765,33 @@ body.landing .bloc-av {
 .page-pricing {
   background-color: #2A2A2A;
   color: white;
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+}
 
 @media only screen and (min-width: 1080px) {
   .if-not-1080 {
     display: none !important;
   }
   .page-pricing .plans-wrapper .title, .page-pricing .plans-wrapper .baseline {
-    text-align: center; }
+    text-align: center;
+  }
   .page-pricing .plans-wrapper .title {
     font-size: 32px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+  }
   .page-pricing .plans-wrapper .baseline {
     font-size: 19px;
     margin-bottom: 60px;
     color: #aaa;
   }
   .use-cases .who-entries {
-    text-align: center; }
-    .use-cases .who-entries .bloc-category {
-      display: inline-block;
-      vertical-align: top;
-      margin-right: 4em; }
+    text-align: center;
+  }
+  .use-cases .who-entries .bloc-category {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 4em;
+  }
   .use-cases .bloc-use-case {
     height: 70%;
     height: calc(260px + 6em);
@@ -4766,22 +5085,27 @@ body.example .content .wrapper .screenshot {
 }
 
 .text-link.light.underline-over::after {
-  border-color: white; }
+  border-color: white;
+}
 
 .text-link.underline-over:hover::after {
   width: 100%;
-  left: 0; }
+  left: 0;
+}
 
 .text-link.advanced-underline-over {
-  display: inline; }
+  display: inline;
+}
 
 .text-link.advanced-underline-over span {
   display: inline-block;
-  position: relative; }
+  position: relative;
+}
 
 .text-link.advanced-underline-over:hover span::after {
   width: calc(100% + 6px);
-  left: -3px; }
+  left: -3px;
+}
 
 .text-link.advanced-underline-over span::after {
   content: "";
@@ -4792,11 +5116,13 @@ body.example .content .wrapper .screenshot {
   width: 0;
   height: 1px;
   border-bottom: 1px solid #1f5aa3;
-  transition: width 0.2s, left 0.2s; }
+  transition: width 0.2s, left 0.2s;
+}
 
 .text-link.underline {
   text-decoration: underline;
-  display: inline; }
+  display: inline;
+}
 
 .text-link.underline:hover {
   opacity: .7;
@@ -4811,10 +5137,12 @@ body.example .content .wrapper .screenshot {
 }
 
 .italic {
-  font-style: italic; }
+  font-style: italic;
+}
 
 .unsecable {
-  white-space: nowrap; }
+  white-space: nowrap;
+}
 
 .clearfix::after {
   content: "";

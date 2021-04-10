@@ -313,15 +313,20 @@
     font-size: 1.4rem;
     font-family: bold;
     color: #444;
-    padding: 0 5%; }
+    padding: 0 5%;
+  }
   .ui_customer-story .ui-header.evoyageurs::before {
-    background-position: 100% 490px; }
+    background-position: 100% 490px;
+  }
   .ui_customer-story .ui-header.sympany::before {
-    background-position: 100% 430px; }
+    background-position: 100% 430px;
+  }
   .ui_customer-story .ui-header.transilien::before {
-    background-position: 120% 500px; }
+    background-position: 120% 500px;
+  }
   .ui_customer-story .ui-header.tui::before {
-    background-position: 120% 500px; }
+    background-position: 120% 500px;
+  }
   .ui_customer-story .ui-header {
     display: block;
     padding-top: 40px;

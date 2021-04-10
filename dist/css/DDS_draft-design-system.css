@@ -1,10 +1,12 @@
 body * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 ul {
-  list-style: none; }
+  list-style: none;
+}
 
 button {
   font-family: inherit;
@@ -16,10 +18,12 @@ button:focus {
 }
 
 .cta:hover {
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 .cta.round {
-  border-radius: 200px; }
+  border-radius: 200px;
+}
 
 .cta.light {
   color: #333;
@@ -40,18 +44,21 @@ button:focus {
 }
 
 .cta.light.dark-over:hover {
-  background: #111; }
+  background: #111;
+}
 
 .cta.light.outline-over:hover {
   background: #f1852b;
   color: white;
   outline: none;
   border: none;
-  box-shadow: 0 0 0 3px white; }
+  box-shadow: 0 0 0 3px white;
+}
 
 .cta.outline {
   border: 2px solid #f1852b;
-  background: transparent; }
+  background: transparent;
+}
 
 body.has-header {
   padding-top: 70px;
@@ -272,11 +279,14 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
 
 @media only screen and (max-width: 992px) {
   body > header.main-header #btnBurgerMenu {
-    display: none; }
+    display: none;
+  }
   body > header.main-header .burger-btn {
-    display: flex; }
+    display: flex;
+  }
   body > header.main-header .nav .logo {
-    z-index: 55; }
+    z-index: 55;
+  }
   body > header.main-header .nav ul {
     position: fixed;
     top: 100vh;
@@ -404,12 +414,15 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
 
 @media only screen and (max-width: 992px) {
   .header-pricing .page-pricing-li .selected {
-    display: none; }
+    display: none;
+  }
   .header-pricing .page-pricing-li .neutral {
     display: block;
     visibility: visible !important;
     position: relative;
-    left: unset !important; } }
+    left: unset !important;
+  }
+}
 
 .header-enterprise .page-enterprise-li .neutral {
   visibility: hidden !important;
@@ -421,12 +434,15 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
 
 @media only screen and (max-width: 992px) {
   .header-enterprise .page-enterprise-li .selected {
-    display: none; }
+    display: none;
+  }
   .header-enterprise .page-enterprise-li .neutral {
     display: block;
     visibility: visible !important;
     position: relative;
-    left: unset !important; } }
+    left: unset !important;
+  }
+}
 
 .header-customer-stories .page-customer-stories-li .neutral {
   visibility: hidden !important;
@@ -438,12 +454,15 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
 
 @media only screen and (max-width: 992px) {
   .header-customer-stories .page-customer-stories-li .selected {
-    display: none; }
+    display: none;
+  }
   .header-customer-stories .page-customer-stories-li .neutral {
     display: block;
     visibility: visible !important;
     position: relative;
-    left: unset !important; } }
+    left: unset !important;
+  }
+}
 
 .header-examples .page-examples-li .neutral {
   visibility: hidden !important;
@@ -455,18 +474,23 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
 
 @media only screen and (max-width: 992px) {
   .header-examples .page-examples-li .selected {
-    display: none; }
+    display: none;
+  }
   .header-examples .page-examples-li .neutral {
     display: block;
     visibility: visible !important;
     position: relative;
-    left: unset !important; } }
+    left: unset !important;
+  }
+}
 
 .home .bloc-landing .signup-bloc {
-  max-width: 450px; }
+  max-width: 450px;
+}
 
 .bloc-last .signup-bloc {
-  max-width: 450px; }
+  max-width: 450px;
+}
 
 .signup-bloc {
   width: 80%;

@@ -56,15 +56,11 @@
 
 @media only screen and (max-width: 768px) {
   .ui_sommaire.has-header {
-    padding-top: 100px; }
-  .ui_sommaire .main-header nav > *:not(.logo) {
-    display: none; }
-  .ui_sommaire .burger-btn {
-    display: none !important; }
+    padding-top: 70px;
+  }
   .ui_sommaire .wrapper {
-    display: flex;
-    width: 800px;
-    max-width: 90%;
+    max-width: 95%;
+    width: 95%;
     border-radius: 5px;
     padding: 20px;
     position: relative;
