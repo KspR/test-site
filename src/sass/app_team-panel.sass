@@ -1,0 +1,420 @@
+@import colors
+
+@font-face
+  font-family : regular
+  src : url("../fonts/Assistant/Assistant-Regular.ttf")
+
+// @font-face
+//   font-family : semibold
+//   src : url("../fonts/Assistant/Assistant-SemiBold.ttf")
+
+// @font-face
+//   font-family : bold
+//   src : url("../fonts/Assistant/Assistant-Bold.ttf")
+
+// @font-face
+//   font-family : "boldest"
+//   src : url("../fonts/Assistant/Assistant-ExtraBold.ttf")
+
+/* ----------------- */
+/* To remove when integrated in true app system code */
+/* ----------------- */
+
+body
+  margin : 0
+  padding : 0
+  width : 100%
+  height : 100%
+  font-family : regular
+
+body *
+  box-sizing : border-box
+
+.false-header-bar
+  background : #262626
+  height : 140px
+  border-bottom : 1px solid #333
+
+$appHeaderPlusSubHeaderBars : 140px // To calculate in the true app system
+
+/* ----------------- */
+/* end of To remove when integrated in true app system */
+/* ----------------- */
+
+/* ----------------- */
+// Generic components and helpers (to move into future App CSS Design System)
+/* ----------------- */
+
+@mixin flexCenteringBox
+  display : flex
+  align-items : center
+  justify-content : center
+
+.text-link
+  color : rgba(255,255,255,.8)
+  &:hover
+    color : rgba(255,255,255,1)
+
+.dark-input
+  border-radius : 3px
+  border : 1px solid rgba(255,255,255,.15)
+  background : rgba(255,255,255,.05)
+  font-size : 1rem
+  color : rgba(255,255,255,.85)
+  padding : 8px 14px
+  
+.custom-chkbx-wrapper
+  cursor : pointer
+  position : relative
+
+  transition : color .2s
+  input
+    visibility : hidden
+    position : absolute
+    width : 0
+    height : 0
+    bacground : blue
+  .custom-chkbx
+    width : 14px
+    height : 14px
+    display : inline-block
+    border : 1px solid rgba(255,255,255,.5)
+    border-radius : 4px
+
+    transition : border .2s
+
+    &::before
+      display : block
+      content : ""
+      position : relative
+      top : 1px
+      left : 1px
+      width : 10px
+      height : 10px
+      background : $orange
+      border-radius : 3px
+      opacity : 1
+      transform : scale(0)
+
+      transition : opacity .1s, transform .1s
+
+  input:checked + .custom-chkbx
+    border : 1px solid $orange
+
+    &::before
+      opacity : 1
+      transform : scale(.8)
+
+  &:hover
+    color : #fff
+    .custom-chkbx
+      border : 1px solid $orange
+
+.discreet
+
+/* ----------------- */
+// end of Generic components and helpers (to move into future App CSS Design System)
+/* ----------------- */
+
+
+
+
+
+
+
+
+
+
+// ============================================================================================
+// ============================================================================================
+// --------------------------------------------------------------------------------------------
+// =============  TEAM DASHBOARD UI special autonomous and specific styles 
+// --------------------------------------------------------------------------------------------
+// ============================================================================================
+// ============================================================================================
+
+
+.app-cmpnt_team-dashboard
+
+  // "atd_" for "App Team Dashboard _"
+  $atd_generalPadding : 30px
+  $atd_interPanelsPadding : 20px
+  $atd_bkgdColor : #2c2c2c
+  $atd_panelsBkgdColor : #343434
+  $atd_rowsListingBkgdColor : #343434
+
+  $tableRowHeight : 32px
+
+  .container
+    height : calc(100vh - #{$appHeaderPlusSubHeaderBars})
+    background : $atd_bkgdColor
+    padding : $atd_generalPadding
+    width : 100%
+    overflow : auto
+    display : flex
+
+    // ---------------------------------------------
+    // Panels positions and sizes
+    // ---------------------------------------------
+
+    .left-panels-wrapper
+      width : 24%
+      min-width : 350px
+    .members-panel
+      width : 100%
+      flex-shrink : 10
+      min-width : 450px
+    .visitors-panel
+      width : 28%
+      min-width : 400px
+    .left-panels-wrapper, .members-panel, .visitors-panel
+      height : 100%
+      min-height : 400px
+    .left-panels-wrapper
+      .team-panel, .groups-panel
+        width : 100%
+      .team-panel
+        height : 270px
+        flex-shrink : 0
+      .groups-panel
+        height : 100%
+        flex-shrink : 1
+        margin-top : $atd_interPanelsPadding
+    
+    .members-panel, .visitors-panel
+      margin-left : $atd_interPanelsPadding
+
+    .left-panels-wrapper
+      display : flex
+      flex-direction : column
+
+    // ---------------------------------------------
+    // end of Panels positions
+    // ---------------------------------------------
+
+
+  
+    // ---------------------------------------------
+    // Panels general structure
+    // ---------------------------------------------
+    
+    //$atd_panelHeaderHeight : 40px
+
+    .panel-wrapper
+      background : $atd_panelsBkgdColor
+      @include flexCenteringBox
+      flex-direction : column
+      justify-content : flex-start
+      color : #fff
+      overflow : hidden
+
+      &.members-panel header h2 .licences-counter
+        font-size : .9rem
+        font-weight : normal
+        margin-left : 10px
+        text-transform : none
+        opacity : .75
+        position : relative
+        font-family : regular
+        font-weight : normal
+
+      header
+        @include flexCenteringBox
+        justify-content : flex-start
+        width : 100%
+        height : 70px
+        padding : 0 20px
+        flex-shrink : 0
+        h2
+          color : #fff
+          text-transform : uppercase
+          font-size : 1rem
+          display : inline-block
+          text-align : left
+          font-family : bold
+          opacity : .9
+          letter-spacing : 1px
+
+        .btn
+          @include flexCenteringBox
+          margin-left : auto
+          font-size : .8rem
+          border-radius : 5px
+          cursor : pointer
+          padding : 0 12px
+          .fas
+            font-size : .7em
+            margin-right : 10px
+            color : rgba(255,255,255,.8)
+
+        .btn.dark.outlined
+          border : 1px solid rgba(255,255,255,.3)
+          height : 30px
+          background : transparent
+          color : rgba(255,255,255,.9)
+
+      .sub-wrapper
+        height : 100%
+        width : 100%
+        padding : 0 10px 10px
+        overflow : auto
+
+  
+    // ---------------------------------------------
+    // end of Panels general structure
+    // ---------------------------------------------
+
+
+
+    // ---------------------------------------------
+    // Panels components and content
+    // ---------------------------------------------
+
+
+    // ========== TEAM panel content
+
+    .panel-wrapper.team-panel
+      color : rgba(255,255,255,.85)
+      font-size : .9rem
+      .sub-wrapper
+        padding : 0 20px 20px
+        .team-name
+          color : rgba(255,255,255,.6)
+          input.dark-input
+            margin-left : 10px
+            font-size : .9rem
+        .team-licence
+          margin-top : 24px
+          .far, .fas
+            font-size : .8em
+            margin-right : 6px
+          strong
+            font-family : bold
+            letter-spacing : .5px
+          .discreet
+            font-size : .9em
+            opacity : .8
+        .link-share-chkbx
+          margin-top : 24px
+          .custom-chkbx
+            margin-right : 8px
+            position : relative
+            top : 2px
+
+      .team-info
+        background : rgba(255,255,255,.03)
+        height : 46px
+        flex-shrink : 0
+        width : 100%
+        @include flexCenteringBox
+        .text-link
+          color : rgba(255,255,255,.6)
+          &:hover
+            color : #fff
+
+    // ========== enf od TEAM panel content
+
+    // ========== CROSS panels table part
+
+    .panel-wrapper
+      .sub-wrapper
+
+        .filter-bar
+          background : rgba(255,255,255,.06)
+          @include flexCenteringBox
+          justify-content : flex-start
+          color : rgba(255,255,255,.4)
+          padding : 0 10px
+          font-size : .8rem
+          border-radius : 5px 5px 0 0
+          height : 40px
+
+        &.has-filter .table
+          border-radius : 0 0 5px 5px
+          height : calc(100% - 40px)
+
+        .table
+          background : rgba(255,255,255,.1)
+          border-radius : 5px
+          width : 100%
+          height : 100%
+          color : #fff
+          list-style : none
+          padding : 0
+          margin : 0
+          overflow : auto
+          position : relative
+
+          .theader, .row
+            display : flex
+            height : $tableRowHeight
+            line-height : $tableRowHeight
+
+            .col
+              flex-shrink : 0
+              text-overflow : ellipsis
+              display : inline-block
+              overflow : hidden
+              white-space : nowrap
+            .col + .col
+              margin-left : 5px
+
+          .theader
+            position : sticky
+            background : #494949
+            top : 0
+            left : 0
+            z-index : 5
+            .col
+              font-weight : normal
+              font-size : .9rem
+              opacity : .4
+          .row
+            background : rgba(0,0,0,0.1)
+            &:nth-child(even)
+              background : rgba(255,255,255,.03)
+            .col
+              font-size : .9rem
+              opacity : .9
+
+          .actions
+            .far, .fas
+              font-size : .9rem
+              & + .far, & + .fas
+                margin-left : 5px
+
+      &.members-panel
+        .sub-wrapper
+          .row, .theader
+            .chkbx
+              width : 30px
+            .mail
+              width : 100%
+              flex-shrink : 4
+            .role
+              width : 60px
+            .status
+              width : 60px
+            .activity
+              width : 80px
+            .actions
+              width : 100px
+
+    // ========== end of CROSS panels table part
+
+  
+    // ---------------------------------------------
+    // end of Panel general structure and components
+    // ---------------------------------------------
+
+// ============================================================================================
+// ============================================================================================
+// --------------------------------------------------------------------------------------------
+// =============  end of TEAM DASHBOARD UI special autonomous and specific styles 
+// --------------------------------------------------------------------------------------------
+// ============================================================================================
+// ============================================================================================
+    
+
+
+          

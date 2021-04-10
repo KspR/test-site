@@ -16,7 +16,6 @@
     height: 300px;
     border-radius: 300px;
   }
-
   .workflow .ucs .uc .wrapper .text-container .visual-artifact, .business-case .main > .content .visual-artifact {
     position: absolute;
     width: 150px;
@@ -27,11 +26,9 @@
     background-position: right;
     background-image: url("../imgs/UI_Workflow/angle.png");
   }
-
   .business-case .main > .content .visual-artifact {
     top: 216px;
   }
-
   .business-case {
     font-family: regular;
     color: #444;
@@ -223,7 +220,6 @@
   .business-case .article-sign .wrapper .text .punchline {
     margin-top: 5px;
   }
-
   .page-pricing .period-alt {
     margin-left: calc(50% - 152px);
   }
@@ -233,11 +229,9 @@
   .page-pricing .plan .top-row .plan-title {
     font-size: 27px;
   }
-
   .page-pricing.lang-fr .period-alt {
     margin-left: calc(50% - 180px);
   }
-
   .home .bloc-landing .wrapper .baseline, .workflow .bloc-landing .wrapper .baseline {
     line-height: 30px;
   }
@@ -250,7 +244,6 @@
     display: flex;
     padding: 0 30px;
   }
-
   .home .bloc-features .features {
     width: 1084px;
     margin-bottom: 90px;
@@ -258,7 +251,6 @@
   .home .bloc-features .features .feature:nth-child(3n+1) {
     clear: left;
   }
-
   .header .signin, .header .workflows {
     margin-right: 30px;
   }
@@ -271,11 +263,9 @@
     height: 40px;
     background-image: url("../imgs/logo-diag-orange-plus-text.png");
   }
-
   .bloc-last .left-visual {
     width: calc(50% - 600px);
   }
-
   .home .bloc-features .features, .workflow .bloc-features .features {
     float: left;
     margin-left: 50%;
@@ -289,19 +279,15 @@
   .home .bloc-features .features .feature .detail, .workflow .bloc-features .features .feature .detail {
     padding: 0 10px;
   }
-
   body.agile-project-management .bloc-landing .illu {
     background-image: url("../imgs/UI_Landing/agile-project-management.png");
   }
-
   body.product-management .bloc-landing .illu {
     background-image: url("../imgs/UI_Landing/product-management.png");
   }
-
   body.everyday-knowledge-work .bloc-landing .illu {
     background-image: url("../imgs/UI_Landing/everyday-knowledge-work.png");
   }
-
   .workflow .ucs .uc {
     position: relative;
   }
@@ -336,15 +322,12 @@
   .workflow .bloc-landing .wrapper .baseline:not(:last-child) {
     margin-bottom: 25px;
   }
-
   .section .title {
     font-size: 34px;
   }
-
   .bloc-last {
     padding: 60px 0 80px 0;
   }
-
   .footer {
     overflow: hidden;
   }
@@ -360,7 +343,6 @@
     width: calc(50% - 400px);
     right: 0;
   }
-
   .home .bloc-landing {
     padding: 110px 0 0 0 !important;
     position: relative;
@@ -379,12 +361,14 @@
     top: -50px;
   }
 }
+
 @media only screen and (min-width: 1080px) and (max-width: 1800px) {
   .home .bloc-landing .angular-grid img {
     width: 1800px;
     left: calc(50% - 900px);
   }
 }
+
 @media only screen and (min-width: 1080px) {
   .home .bloc-landing .wrapper .punchline {
     font-size: 48px;
@@ -397,20 +381,14 @@
   .home .bloc-landing .wrapper .signup-bloc {
     margin-top: 40px;
   }
-}
-@media only screen and (min-width: 1080px) {
   .home .section-problem {
     padding-top: 0 !important;
     margin-top: -200px;
     position: relative;
   }
-}
-@media only screen and (min-width: 1080px) {
   .home .bloc-features {
     padding-bottom: 0 !important;
   }
-}
-@media only screen and (min-width: 1080px) {
   .workflow .uc {
     background-color: #f2f2f2;
   }
@@ -421,18 +399,12 @@
     font-size: 16px;
     margin-top: 10px;
   }
-}
-@media only screen and (min-width: 1080px) {
   .section:not(.bloc-features) {
     padding: 90px 0;
   }
-}
-@media only screen and (min-width: 1080px) {
   .bloc-discover .features, .bloc-discover .workflows, .bloc-features .features, .bloc-features .workflows {
     margin-top: 90px;
   }
-}
-@media only screen and (min-width: 1080px) {
   .footer {
     padding: 60px 0;
   }
@@ -445,23 +417,15 @@
   .footer .bloc .title {
     margin-bottom: 15px;
   }
-}
-@media only screen and (min-width: 1080px) {
   .header .nav {
     margin: 0 50px;
   }
-}
-@media only screen and (min-width: 1080px) {
   .bloc-landing .signup-bloc {
     margin-top: 30px;
   }
-}
-@media only screen and (min-width: 1080px) {
   .bloc-last .signup-bloc {
     margin-top: 30px;
   }
-}
-@media only screen and (min-width: 1080px) {
   .workflow .bloc-discover, .workflow .bloc-features, .workflow .section, .home .bloc-discover, .home .bloc-features, .home .section {
     padding: 90px 0;
   }
@@ -534,8 +498,6 @@
   .workflow .uc:nth-child(2n) .wrapper .screenshot-wrapper, .home .uc:nth-child(2n) .wrapper .screenshot-wrapper {
     margin-left: 420px;
   }
-}
-@media only screen and (min-width: 1080px) {
   .home .bloc-discover .leaning-blocs .gradient-overlay {
     position: absolute;
     top: 0;
@@ -543,7 +505,7 @@
     width: 1020px;
     height: 200px;
     background: linear-gradient(45deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.32) 39%, rgba(0, 0, 0, 0) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#00000000", endColorstr="#00000000",GradientType=1 );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#00000000',GradientType=1 );
   }
   .home .bloc-discover .workflows {
     float: left;

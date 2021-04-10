@@ -11,6 +11,7 @@ ul {
 button {
   font-family: inherit;
 }
+
 button:focus {
   border: none;
   outline: none;
@@ -29,16 +30,17 @@ button:focus {
   background: white;
   padding: 10px 20px;
   text-transform: uppercase;
-  font-size: 0.8em;
+  font-size: .8em;
   letter-spacing: 1px;
   font-weight: bold;
   outline: none;
   border: none;
-  transition: box-shadow 0.1s, background 0.2s, color 0.2s, background 0.2s, transform 0.2s;
+  transition: box-shadow .1s, background .2s, color .2s, background .2s, transform .2s;
 }
+
 .cta.light .fas, .cta.light .fa {
-  font-size: 0.7em;
-  margin-right: 0.7em;
+  font-size: .7em;
+  margin-right: .7em;
 }
 
 .cta.light.dark-over:hover {
@@ -61,10 +63,12 @@ button:focus {
 body.has-header {
   padding-top: 70px;
 }
+
 body.has-header > header.main-header .nav {
   border-bottom: 1px solid rgba(255, 255, 255, 0);
-  transition: border 0.2s;
+  transition: border .2s;
 }
+
 body.has-header.header-not-at-top > header.main-header .nav {
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
@@ -76,85 +80,103 @@ body > header.main-header {
   z-index: 100;
   width: 100%;
   color: white;
-  transition: box-shadow 0.3s;
+  transition: box-shadow .3s;
 }
+
 body > header.main-header .nav {
   height: 70px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   background: #2A2A2A;
-  transition: background 0.2s;
+  transition: background .2s;
 }
+
 body > header.main-header .nav .logo {
   margin-right: auto;
   height: 100%;
   display: flex;
   align-items: center;
-  transition: opacity 0.2s;
+  transition: opacity .2s;
 }
+
 body > header.main-header .nav .logo:hover {
   opacity: 1;
 }
+
 body > header.main-header .nav .logo img {
   height: 52%;
   margin-left: 20px;
 }
+
 body > header.main-header .nav ul {
   display: flex;
   align-items: center;
   justify-content: flex-end;
   height: 100%;
 }
+
 @media only screen and (max-width: 1060px) {
   body > header.main-header .nav ul li a, body > header.main-header .nav ul li .toggle {
-    font-size: 0.9rem;
+    font-size: .9rem;
   }
 }
+
 body > header.main-header .nav ul li {
   white-space: nowrap;
   position: relative;
   margin: 0 12px;
 }
+
 body > header.main-header .nav ul li .neutral {
   position: absolute;
   left: 0;
 }
+
 body > header.main-header .nav ul li .cta .neutral {
   left: 26px;
 }
+
 body > header.main-header .nav ul li.login .neutral {
   left: 30px;
 }
+
 body > header.main-header .nav ul li .selected {
   visibility: hidden;
   font-family: bold;
 }
+
 body > header.main-header .nav ul li .text-link {
   padding: 6px 0;
   color: white;
 }
+
 body > header.main-header .nav ul li .text-link:hover {
   color: #f1852b;
 }
+
 body > header.main-header .nav ul li .toggle-wrapper {
   position: relative;
 }
+
 body > header.main-header .nav ul li .toggle-wrapper:hover {
   cursor: default;
 }
+
 body > header.main-header .nav ul li .toggle-wrapper:hover .toggle .fas {
   margin-left: 8px;
   transform: rotate(90deg);
 }
+
 body > header.main-header .nav ul li .toggle-wrapper .toggle .fas {
   min-width: 14px;
   display: inline-block;
-  font-size: 0.7em;
+  font-size: .7em;
   position: relative;
   top: 0;
-  transition: transform 0.3s, margin-left 0.3s;
+  transition: transform .3s, margin-left .3s;
 }
+
 body > header.main-header .nav ul li .toggle-wrapper .menu {
   display: block;
   box-sizing: content-box;
@@ -174,24 +196,30 @@ body > header.main-header .nav ul li .toggle-wrapper .menu {
   -webkit-font-smoothing: antialiased;
   transition: opacity 150ms ease-out;
 }
+
 body > header.main-header .nav ul li .toggle-wrapper .menu li {
   white-space: nowrap;
 }
+
 body > header.main-header .nav ul li .toggle-wrapper:hover .menu {
   z-index: 10;
   opacity: 1;
   pointer-events: initial;
 }
+
 body > header.main-header .nav ul li.logo + li {
   margin-left: auto;
 }
+
 body > header.main-header .nav ul li.login a {
   border-left: 1px solid #666666;
   padding-left: 30px;
 }
+
 body > header.main-header .nav ul li.signup a {
   margin-right: 20px;
 }
+
 body > header.main-header #btnBurgerMenu,
 body > header.main-header .burger-btn {
   position: absolute;
@@ -202,19 +230,23 @@ body > header.main-header .burger-btn {
   width: 65px;
   display: none;
 }
+
 body > header.main-header #btnBurgerMenu {
   z-index: 51;
   display: none;
 }
+
 body > header.main-header .burger-btn {
   z-index: 52;
   justify-content: center;
   align-items: center;
 }
+
 body > header.main-header .burger-btn .wrapper {
   width: 30px;
-  transition: transform 0.3s;
+  transition: transform .3s;
 }
+
 body > header.main-header .burger-btn .wrapper .deco-btn-burger {
   height: 2px;
   background: white;
@@ -223,19 +255,23 @@ body > header.main-header .burger-btn .wrapper .deco-btn-burger {
   border-radius: 2px;
   margin-left: auto;
   margin-right: auto;
-  transition: transform 0.3s, margin-top 0.3s, width 0.3s;
+  transition: transform .3s, margin-top .3s, width .3s;
 }
+
 body > header.main-header .burger-btn .wrapper .deco-btn-burger + .deco-btn-burger {
   margin-top: 8px;
 }
+
 body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-btn-burger {
   transform: rotate(135deg);
 }
+
 body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-btn-burger + .deco-btn-burger {
   width: 0;
   margin-top: -2px;
   transform: rotate(0deg) scale(0);
 }
+
 body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-btn-burger + .deco-btn-burger + .deco-btn-burger {
   transform: rotate(-135deg);
   width: 100%;
@@ -337,17 +373,16 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
   body > header.main-header .nav ul li.signup a.cta {
     font-size: 1.6rem;
   }
-
   #btnBurgerMenu:checked ~ .nav ul {
     display: block;
     top: 0;
   }
   #btnBurgerMenu:checked ~ .nav ul > li {
     opacity: 1;
-    transition: opacity 0.3s;
+    transition: opacity .3s;
   }
   #btnBurgerMenu:checked ~ .nav ul > li + li {
-    transition: opacity 0.8s;
+    transition: opacity .8s;
   }
   #btnBurgerMenu:checked ~ .nav ul > li + li + li {
     transition: opacity 1.3s;
@@ -359,21 +394,24 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
     transition: opacity 2.3s;
   }
 }
+
 @media only screen and (max-width: 768px) {
   body.has-header {
     padding-top: 50px;
   }
-
   body.has-header > header.main-header .nav {
     height: 50px;
   }
 }
+
 .header-pricing .page-pricing-li .neutral {
   visibility: hidden !important;
 }
+
 .header-pricing .page-pricing-li .selected {
   visibility: visible !important;
 }
+
 @media only screen and (max-width: 992px) {
   .header-pricing .page-pricing-li .selected {
     display: none;
@@ -389,9 +427,11 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
 .header-enterprise .page-enterprise-li .neutral {
   visibility: hidden !important;
 }
+
 .header-enterprise .page-enterprise-li .selected {
   visibility: visible !important;
 }
+
 @media only screen and (max-width: 992px) {
   .header-enterprise .page-enterprise-li .selected {
     display: none;
@@ -407,9 +447,11 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
 .header-customer-stories .page-customer-stories-li .neutral {
   visibility: hidden !important;
 }
+
 .header-customer-stories .page-customer-stories-li .selected {
   visibility: visible !important;
 }
+
 @media only screen and (max-width: 992px) {
   .header-customer-stories .page-customer-stories-li .selected {
     display: none;
@@ -425,9 +467,11 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
 .header-examples .page-examples-li .neutral {
   visibility: hidden !important;
 }
+
 .header-examples .page-examples-li .selected {
   visibility: visible !important;
 }
+
 @media only screen and (max-width: 992px) {
   .header-examples .page-examples-li .selected {
     display: none;
@@ -452,6 +496,7 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
   width: 80%;
   margin: 20px auto 0;
 }
+
 .signup-bloc .form-wrapper {
   height: 46px;
   background: white;
@@ -462,6 +507,7 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
   width: auto;
   position: relative;
 }
+
 .signup-bloc .form-wrapper::before {
   content: "";
   display: block;
@@ -472,7 +518,8 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
   width: 6px;
   height: 100%;
 }
-.signup-bloc .form-wrapper input[name=pre_email] {
+
+.signup-bloc .form-wrapper input[name="pre_email"] {
   width: 100%;
   border: none;
   padding-left: 30px;
@@ -482,9 +529,11 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
   padding-bottom: 2px;
   font-size: 1.05rem;
 }
-.signup-bloc .form-wrapper input[name=pre_email]::placeHolder {
+
+.signup-bloc .form-wrapper input[name="pre_email"]::placeHolder {
   color: #aaa;
 }
+
 .signup-bloc .form-wrapper .submit-wrapper {
   background: #f1852b;
   height: 100%;
@@ -495,8 +544,9 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
   position: relative;
   padding-right: 15px;
   font-size: 1.05rem;
-  transition: padding 0.5s, background 0.2s;
+  transition: padding .5s, background .2s;
 }
+
 .signup-bloc .form-wrapper .submit-wrapper .triangle {
   height: 100%;
   width: 30px;
@@ -507,6 +557,7 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
   left: -28px;
   overflow: hidden;
 }
+
 .signup-bloc .form-wrapper .submit-wrapper .triangle::before {
   content: "";
   background: #f1852b;
@@ -516,32 +567,38 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
   position: relative;
   left: 15px;
   transform: rotate(25deg);
-  transition: background 0.2s;
+  transition: background .2s;
 }
+
 .signup-bloc .form-wrapper .submit-wrapper:hover {
   background: #d6681e;
   cursor: pointer;
 }
+
 .signup-bloc .form-wrapper .submit-wrapper:hover .triangle::before {
   background: #d6681e;
 }
+
 .signup-bloc .detail {
   font-size: 17px !important;
   margin-top: 20px;
   color: #aaa;
 }
+
 .signup-bloc .detail a {
   text-decoration: none;
   border-bottom: 1px solid white !important;
   color: white !important;
-  opacity: 0.8;
+  opacity: .8;
   transition: opacity 150ms ease-out, color 150ms ease-out, border 150ms ease-out;
 }
+
 .signup-bloc .detail a:hover {
   opacity: 1;
   color: #4fb2f0 !important;
   border-bottom: 1px solid #4fb2f0 !important;
 }
+
 .signup-bloc .detail a:visited:not(:hover) {
   color: white !important;
 }
@@ -549,15 +606,19 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
 .bloc-last .signup-bloc .form-wrapper {
   height: 50px;
 }
+
 .bloc-last .signup-bloc .form-wrapper::before {
   display: none;
 }
-.bloc-last .signup-bloc .form-wrapper input[name=pre_email] {
+
+.bloc-last .signup-bloc .form-wrapper input[name="pre_email"] {
   margin-right: 15px;
 }
-.bloc-last .signup-bloc .form-wrapper input[name=pre_email]::placeHolder {
+
+.bloc-last .signup-bloc .form-wrapper input[name="pre_email"]::placeHolder {
   color: #888;
 }
+
 .bloc-last .signup-bloc .form-wrapper .submit-wrapper {
   background: #f1852b;
   height: calc(100% - 8px);
@@ -569,9 +630,11 @@ body > header.main-header #btnBurgerMenu:checked + .burger-btn .wrapper .deco-bt
   padding-left: 30px;
   padding-right: 30px;
 }
+
 .bloc-last .signup-bloc .form-wrapper .submit-wrapper .triangle {
   display: none;
 }
+
 .bloc-last .signup-bloc .form-wrapper .submit-wrapper:hover {
   background: #d6681e;
   cursor: pointer;

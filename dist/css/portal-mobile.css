@@ -2,7 +2,6 @@
   body.home.landing .angular-grid {
     display: none;
   }
-
   body.workflow .bloc-landing .illu {
     float: left;
     width: 100%;
@@ -12,28 +11,22 @@
     margin-top: 10px;
     margin-bottom: 10px;
   }
-
   body.agile-project-management .bloc-landing .illu {
     background-image: image-url("tmp/2020-06/site/landing/agile-project-management.png");
   }
-
   body.product-management .bloc-landing .illu {
     background-image: image-url("tmp/2020-06/site/landing/product-management.png");
   }
-
   body.everyday-knowledge-work .bloc-landing .illu {
     background-image: image-url("tmp/2020-06/site/landing/everyday-knowledge-work.png");
   }
-
   .page-pricing:not(.lang-fr) .period-alt {
     margin-left: calc(50% - 138px);
   }
-
   .page-pricing.lang-fr .period-alt {
     margin-left: calc(50% - 181px);
     width: 362px;
   }
-
   .page-pricing .period-alt .period-yearly, .page-pricing .period-alt .period-monthly {
     padding: 10px 15px;
     line-height: 22px;
@@ -57,16 +50,13 @@
     font-size: 15px;
     margin-bottom: 30px;
   }
-
   .home .bloc-landing .wrapper .baseline, .workflow .bloc-landing .wrapper .baseline {
     font-size: 18px;
     line-height: 24px;
   }
-
   .workflow .bloc-landing .wrapper .baseline:not(:last-child) {
     margin-bottom: 10px;
   }
-
   .header .workflows {
     margin-right: 20px;
   }
@@ -82,34 +72,27 @@
     height: 40px;
     background-image: image-url("tmp/2020-06/site/logo-no-degrade.png");
   }
-
   .section .title {
     font-size: 24px;
   }
-
   .bloc-last {
     padding: 30px 0;
   }
-
   .section-solution .wrapper {
     margin-top: 30px;
     display: block !important;
     padding-bottom: 90px !important;
   }
-
   .bloc-discover .features, .bloc-discover .workflows, .bloc-features .features, .bloc-features .workflows {
     margin-top: 30px;
   }
-
   .section.bloc-features {
     padding: 30px 10px 10px 10px !important;
   }
-
   .workflow .bloc-landing .punchline {
     font-size: 32px;
     line-height: 40px;
   }
-
   .home .bloc-landing .punchline {
     font-size: 50px;
     line-height: 60px;
@@ -117,18 +100,15 @@
   .home .signup-bloc {
     margin-top: 30px;
   }
-
   .section {
     padding: 40px 10px;
     width: 100%;
     box-sizing: border-box;
     overflow: hidden;
   }
-
   .header .signin, .header .cta-border, .header .separator {
     display: none;
   }
-
   .footer {
     width: 100%;
     box-sizing: border-box;
@@ -149,11 +129,9 @@
   .footer .bloc:not(:last-child) {
     margin-bottom: 30px;
   }
-
   .if-1080 {
     display: none !important;
   }
-
   .workflow .bloc-landing .wrapper {
     text-align: center;
     padding: 20px;
@@ -195,7 +173,6 @@
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
   }
-
   .home .bloc-discover .features .illu, .home .bloc-discover .workflows .illu, .home .bloc-features .features .illu, .home .bloc-features .workflows .illu, .workflow .bloc-discover .features .illu, .workflow .bloc-discover .workflows .illu, .workflow .bloc-features .features .illu, .workflow .bloc-features .workflows .illu {
     background-size: contain;
     background-repeat: no-repeat;
@@ -271,7 +248,6 @@
   .home .bloc-discover .workflow, .workflow .bloc-discover .workflow {
     margin-bottom: 40px;
   }
-
   .bloc-last .left-visual {
     width: 1px;
     left: -90px;
@@ -280,7 +256,6 @@
     position: relative;
     z-index: 1;
   }
-
   .use-cases .who-entries {
     text-align: center;
   }
@@ -306,4 +281,4 @@
     width: calc(100% - 8em);
     box-sizing: border-box;
   }
-}}
+}

@@ -2064,6 +2064,7 @@ body.business-case
 body.example
 	font-family : regular
 	-webkit-font-smoothing : antialiased
+	overflow : auto !important
 
 	.ariane
 		font-size : 16px
@@ -2291,11 +2292,6 @@ body.example
 		display : block
 		clear : both
 
-
-
-::selection
-	background : $orange
-	color : white
-::-moz-selection
+*::selection
 	background : $orange
 	color : white
