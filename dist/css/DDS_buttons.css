@@ -1,10 +1,8 @@
 .cta:hover {
-  cursor: pointer;
-}
+  cursor: pointer; }
 
 .cta.round {
-  border-radius: 200px;
-}
+  border-radius: 200px; }
 
 .cta.light {
   color: #333;
@@ -25,16 +23,14 @@
 }
 
 .cta.light.dark-over:hover {
-  background: #111;
-}
+  background: #111; }
 
 .cta.light.outline-over:hover {
   background: #f1852b;
   color: white;
   outline: none;
   border: none;
-  box-shadow: 0 0 0 3px white;
-}
+  box-shadow: 0 0 0 3px white; }
 
 .cta.outline {
   border: 2px solid #f1852b;

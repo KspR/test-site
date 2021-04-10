@@ -29,23 +29,18 @@
   }
   .page-pricing .period-alt .period-yearly, .page-pricing .period-alt .period-monthly {
     padding: 10px 15px;
-    line-height: 22px;
-  }
+    line-height: 22px; }
   .page-pricing .plans-wrapper .title, .page-pricing .plans-wrapper .baseline {
-    text-align: center;
-  }
+    text-align: center; }
   .page-pricing .plans-wrapper .title {
     font-size: 24px;
-    margin-bottom: 10px;
-  }
+    margin-bottom: 10px; }
   .page-pricing .plans-wrapper .baseline {
     font-size: 15px;
-    margin-bottom: 30px;
-  }
+    margin-bottom: 30px; }
   .page-pricing .plans-wrapper .plan-title {
     font-size: 20px;
-    line-height: 40px;
-  }
+    line-height: 40px; }
   .page-pricing .plans-wrapper .baseline {
     font-size: 15px;
     margin-bottom: 30px;
@@ -58,8 +53,7 @@
     margin-bottom: 10px;
   }
   .header .workflows {
-    margin-right: 20px;
-  }
+    margin-right: 20px; }
   .header .nav {
     margin: 0 10px;
   }
@@ -95,8 +89,7 @@
   }
   .home .bloc-landing .punchline {
     font-size: 50px;
-    line-height: 60px;
-  }
+    line-height: 60px; }
   .home .signup-bloc {
     margin-top: 30px;
   }
@@ -135,12 +128,10 @@
   .workflow .bloc-landing .wrapper {
     text-align: center;
     padding: 20px;
-    margin-top: 70px;
-  }
+    margin-top: 70px; }
   .workflow .ucs {
     background-color: #f2f2f2;
-    overflow: hidden;
-  }
+    overflow: hidden; }
   .workflow .uc {
     margin-bottom: 30px;
   }
@@ -176,95 +167,74 @@
   .home .bloc-discover .features .illu, .home .bloc-discover .workflows .illu, .home .bloc-features .features .illu, .home .bloc-features .workflows .illu, .workflow .bloc-discover .features .illu, .workflow .bloc-discover .workflows .illu, .workflow .bloc-features .features .illu, .workflow .bloc-features .workflows .illu {
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
-  }
+    background-position: center; }
   .home .bloc-discover .features .feature, .home .bloc-discover .workflows .feature, .home .bloc-features .features .feature, .home .bloc-features .workflows .feature, .workflow .bloc-discover .features .feature, .workflow .bloc-discover .workflows .feature, .workflow .bloc-features .features .feature, .workflow .bloc-features .workflows .feature {
-    width: 100%;
-  }
+    width: 100%; }
   .home .bloc-discover .features .feature, .home .bloc-discover .workflows .feature, .home .bloc-features .features .feature, .home .bloc-features .workflows .feature, .workflow .bloc-discover .features .feature, .workflow .bloc-discover .workflows .feature, .workflow .bloc-features .features .feature, .workflow .bloc-features .workflows .feature {
-    padding: 10px 10px 30px 10px;
-  }
+    padding: 10px 10px 30px 10px; }
   .home .bloc-discover .workflows .illu, .home .bloc-features .workflows .illu, .workflow .bloc-discover .workflows .illu, .workflow .bloc-features .workflows .illu {
     width: 100%;
-    padding-bottom: 66%;
-  }
+    padding-bottom: 66%; }
   .home .bloc-discover .features, .home .bloc-features .features, .workflow .bloc-discover .features, .workflow .bloc-features .features {
-    text-align: center;
-  }
-  .home .bloc-discover .features .illu, .home .bloc-features .features .illu, .workflow .bloc-discover .features .illu, .workflow .bloc-features .features .illu {
-    margin-bottom: 30px;
-  }
+    text-align: center; }
+    .home .bloc-discover .features .illu, .home .bloc-features .features .illu, .workflow .bloc-discover .features .illu, .workflow .bloc-features .features .illu {
+      margin-bottom: 30px; }
   .home .section-problem .wrapper, .workflow .section-problem .wrapper {
-    margin-top: 20px;
-  }
-  .home .section-problem .wrapper .illu, .workflow .section-problem .wrapper .illu {
-    width: 100%;
-    padding-bottom: 66%;
-  }
-  .home .section-problem .wrapper .bloc, .workflow .section-problem .wrapper .bloc {
-    width: calc(100% - 20px);
-    margin-left: 10px;
-    margin-top: 20px;
-  }
-  .home .section-problem .wrapper .bloc .msg span, .workflow .section-problem .wrapper .bloc .msg span {
-    color: #f1852b;
-  }
-  .home .section-problem .wrapper .bloc:nth-child(2) .illu-wrapper .inner, .workflow .section-problem .wrapper .bloc:nth-child(2) .illu-wrapper .inner {
-    width: 100%;
-    height: 100%;
-    background-size: 90%;
-    top: 0;
-  }
+    margin-top: 20px; }
+    .home .section-problem .wrapper .illu, .workflow .section-problem .wrapper .illu {
+      width: 100%;
+      padding-bottom: 66%; }
+    .home .section-problem .wrapper .bloc, .workflow .section-problem .wrapper .bloc {
+      width: calc(100% - 20px);
+      margin-left: 10px;
+      margin-top: 20px; }
+      .home .section-problem .wrapper .bloc .msg span, .workflow .section-problem .wrapper .bloc .msg span {
+        color: #f1852b; }
+    .home .section-problem .wrapper .bloc:nth-child(2) .illu-wrapper .inner, .workflow .section-problem .wrapper .bloc:nth-child(2) .illu-wrapper .inner {
+      width: 100%;
+      height: 100%;
+      background-size: 90%;
+      top: 0; }
   .home .section-solution, .workflow .section-solution {
-    padding-bottom: 100px;
-  }
-  .home .section-solution .bloc, .workflow .section-solution .bloc {
-    width: calc(100% - 20px);
-    margin-left: 10px;
-    padding-bottom: calc(100% - 20px);
-  }
-  .home .section-solution .bloc .msg, .workflow .section-solution .bloc .msg {
-    padding: 20px;
-    box-sizing: border-box;
-    width: 100%;
-    height: 100%;
-    position: absolute !important;
-    top: 0;
-    left: 0;
-  }
-  .home .section-solution .bloc .illu, .workflow .section-solution .bloc .illu {
-    left: 10px;
-    top: calc(130px - 12%);
-    width: 100%;
-    padding-bottom: 100%;
-    background-position: center;
-  }
-  .home .section-solution .bloc:not(:last-child), .workflow .section-solution .bloc:not(:last-child) {
-    margin-bottom: 90px;
-  }
+    padding-bottom: 100px; }
+    .home .section-solution .bloc, .workflow .section-solution .bloc {
+      width: calc(100% - 20px);
+      margin-left: 10px;
+      padding-bottom: calc(100% - 20px); }
+      .home .section-solution .bloc .msg, .workflow .section-solution .bloc .msg {
+        padding: 20px;
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        position: absolute !important;
+        top: 0;
+        left: 0; }
+      .home .section-solution .bloc .illu, .workflow .section-solution .bloc .illu {
+        left: 10px;
+        top: calc(130px - 12%);
+        width: 100%;
+        padding-bottom: 100%;
+        background-position: center; }
+    .home .section-solution .bloc:not(:last-child), .workflow .section-solution .bloc:not(:last-child) {
+      margin-bottom: 90px; }
   .home .bloc-discover .leaning-blocs-container, .workflow .bloc-discover .leaning-blocs-container {
-    display: none;
-  }
+    display: none; }
   .home .bloc-discover .workflow, .workflow .bloc-discover .workflow {
     margin-bottom: 40px;
   }
   .bloc-last .left-visual {
     width: 1px;
-    left: -90px;
-  }
+    left: -90px; }
   .bloc-last .signup-bloc {
     position: relative;
     z-index: 1;
   }
   .use-cases .who-entries {
-    text-align: center;
-  }
-  .use-cases .who-entries .bloc-category {
-    text-align: center;
-  }
-  .use-cases .who-entries .bloc-category:not(:last-child) {
-    margin-bottom: 2em;
-  }
+    text-align: center; }
+    .use-cases .who-entries .bloc-category {
+      text-align: center; }
+    .use-cases .who-entries .bloc-category:not(:last-child) {
+      margin-bottom: 2em; }
   .use-cases .bloc-use-case {
     width: 100%;
     margin-left: 0;

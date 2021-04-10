@@ -1,0 +1,131 @@
+ex_pi
+	meta-title
+		PI Planning Board - Example - Draft
+		PI Planning Board - Exemple - Draft
+	meta-description
+		In the Scaled Agile Framework (SAFe), Program Increment (PI) Planning is an important event that takes place at the whole project level (named Agile Release Train in SAFe). Generally, every ten weeks (corresponding to five 2-week sprints), all team members and stakeholders gather in a unique place for a large 2-day workshop to align all Agile teams on the vision and feature priorities.
+		Le PI (Program Increment) Planning constitue un événement central du framework d’agilité à l’échelle SAFe (Scaled Agile Framework). Généralement, toutes les dix semaines (ce qui correspond à 5 sprints), tous les membres et parties prenantes du programme (appelé Agile Release Train dans SAFe) se réunissent pour une série d’ateliers s’étalant sur 2 jours.
+	title
+		PI Planning Board
+		PI Planning Board
+	mainContent
+		------
+		<h2>What is the PI Planning Board about?</h2>
+		<p>
+			In the Scaled Agile Framework (SAFe), Program Increment (PI) Planning is an important event that takes place at the whole project level (named Agile Release Train in SAFe). Generally, every ten weeks (corresponding to five 2-week sprints), all team members and stakeholders gather in a unique place for a large 2-day workshop to align all Agile teams on the vision and feature priorities. The PI Planning Board is the underlying artifact that helps program managers run the event and build the roadmap.
+		</p>
+		<p>
+			With this event and all other features of the framework, SAFe has been designed to overcome two challenges that Scrum and Extreme Programming frameworks could not on their own:</p>
+		<ul>
+			<li>
+				The first challenge is to extend Agility beyond development. It means finding a way of building the strategy, determining and implementing architecture, allocate financial resources, and enabling end-to-end testing, all in an Agile manner;
+			</li>
+			<li>
+				The second challenge is to coordinate several Agile teams who participate in the development of the same product.
+			</li>
+		</ul>
+		
+		<p>
+			The PI Planning event allows teams to agree on crucial milestones that should be respected by the Program while identifying feature dependencies across all teams’ plans and managing program risks. One other expected outcome is that team members and stakeholders can experience the business benefits of establishing regular communication.
+		</p>
+		<img src="./imgs/UI_Examples/PiPlanningBoard/illustration_planning_process.png" alt="The PI Planning process according to the Scaled Agile organization." />
+		<p style="text-align: center;font-style: italic;font-size: 1em;">The PI Planning process according to the Scaled Agile organization.</p><br>
+		<p>Standard inputs of the PI Planning are:</p>
+		<ul>
+			<li>The business context, provided by a business owner and that describes the current business challenges and goals;</li>
+			<li>The high-level roadmap and the up-to-date vision of the Program;</li>
+			<li>The top 10 features of the Program Backlog.</li>
+		</ul>
+		<p>And common outputs are:</p>
+		<ul>
+			<li>Committed PI Objectives: Features determined by each team with the corresponding business value;</li>
+			<li>The <a href="https://draft.io/example/program-board">Program Board</a>: This visual management artifact allows program managers to map each team’s plan, draw dependencies, and settle relevant milestones.</li>
+		</ul>
+		<h2>How to build a comprehensive PI Planning Board?</h2>
+		<p>
+			The traditional PI Planning Board includes all components of the agenda of the PI Planning event:
+		</p>
+		<ul>
+			<li>The agenda itself;</li>
+			<li>The Program Board;</li>
+			<li>The <a href="https://draft.io/example/roam-board">Risk Roaming Matrice</a>: It is an exercise whose aim is to address and assess program risks and impediments and find out mitigants when possible;</li>
+			<li>The Confidence Vote: All team members have the opportunity to express themselves about the achievability of the Program Increment;</li>
+			<li>The PI Planning Retrospective: A traditional continuous improvement ceremony to make the next event better.</li>
+		</ul>
+		<p>The PI Planning Board can be linked to teams’ boards in which each team can draft its particular plan, assess its objectives’ business value, and identify its own risks and impediments.</p>
+		---
+		<h2>Qu’est-ce qu’un PI Planning Board ?</h2>
+		<p>
+			Le PI (Program Increment) Planning constitue un événement central du framework d’agilité à l’échelle SAFe (Scaled Agile Framework). Généralement, toutes les dix semaines (ce qui correspond à 5 sprints), tous les membres et parties prenantes du programme (appelé Agile Release Train dans SAFe) se réunissent pour une série d’ateliers s’étalant sur 2 jours.
+		</p>
+		<p>
+			Pour les équipes Agiles qui composent le “train”, l’objectif est de s’aligner sur la vision et les grandes fonctionnalités à développer au cours des prochains mois. Le PI Planning Board est le support qui permet aux managers du programme de faciliter l’événement et de construire la roadmap inter-équipe (appelée <a href="https://draft.io/fr/example/program-board">Program Board</a>).
+		</p>
+		<p>
+			A travers cet événement et tous les autres aspects du framework, SAFe a été conçu pour répondre à deux enjeux que les frameworks Agiles Scrum et Extreme Programming ne pouvaient pas traiter à eux seuls :</p>
+		<ul>
+			<li>
+				Le premier challenge est d’étendre la méthode Agile au-delà du seul développement produit. Il s’agit ainsi de faire entrer dans un cadre Agile la définition de la stratégie, la réflexion sur les aspects d’architecture, l’allocation des ressources, et la capacité à tester le produit de bout en bout;
+			</li>
+			<li>
+				Le second enjeu réside dans la coordination de plusieurs équipes Agiles qui participent au développement du même produit.
+			</li>
+		</ul>
+		
+		<p>
+			Dans ce cadre, le PI Planning permet aux équipes de s’accorder sur les jalons cruciaux à respecter et d’identifier les éventuelles dépendances de fonctionnement entre les différentes équipes, ce qui permet, ainsi, d’évaluer et de prévenir les risques opérationnels. Par ailleurs, cet événement offre aux acteurs du programme une opportunité de socialiser et d’échanger de façon informelle, ce qui peut faire émerger des opportunités business.
+		</p>
+		<img src="./imgs/UI_Examples/PiPlanningBoard/illustration_planning_process.png" alt="Le processus de PI Planning d’après le framework SAFe." />
+		<p style="text-align: center;font-style: italic;font-size: 1em;">Le processus de PI Planning d’après le framework SAFe.</p><br>
+		<p>En entrée d’un PI Planning, différents éléments sont apportés pour alimenter l’événement :</p>
+		<ul>
+			<li>Le context business, généralement présenté par un business owner, qui décrit les enjeux et les objectifs actuels de l’organisation et du programme ;</li>
+			<li>Une roadmap high-level et la vision de l’organisation pour le programme ;</li>
+			<li>Les 10 grandes fonctionnalités prioritaires dans les mois à venir.</li>
+		</ul>
+		<p>A l’issue d’un PI Planning, vous devriez normalement repartir avec :</p>
+		<ul>
+			<li>Pour chacune des équipes, des engagements sur une roadmap à 10 semaines pour laquelle la valeur business de chacune des initiatives a été évaluée ;</li>
+			<li>Le Program Board, qui est l’artefact de management visuel qui permet aux managers du programme de projeter la roadmap de chacune des équipes, d’identifier les dépendances, et d’arrêter les jalons importants.</li>
+		</ul>
+		<h2>Comment construire un PI Planning Board complet ?</h2>
+		<p>
+			Le PI Planning Board traditionnel comporte les éléments suivants :
+		</p>
+		<ul>
+			<li>L’agenda du PI Planning ;</li>
+			<li>Le Program Board ;</li>
+			<li>La <a href="https://draft.io/example/roam-board">matrice des risques ROAM </a>: Il s’agit d’un modèle qui vise à identifier et à évaluer les risques et les obstacles du programme, avec pour objectif de réfléchir à des initiatives pour les atténuer ou les maîtriser ;</li>
+			<li>Le vote de confiance, qui permet à tous les participants d’exprimer leur opinion concernant la faisabilité de la roadmap décidée pour le prochain incrément du programme ;</li>
+			<li>La rétrospective du PI Planning, dont l’objet est de recueillir le feedback des participants et d’améliorer les prochains événements.</li>
+		</ul>
+		<p>Le PI Planning Board peut être relié aux boards d’équipe, au sein desquels chaque équipe établit son plan, évalue la valeur business de ses objectifs, et identifie ses propres risques et obstacles.</p>
+		------
+	resourcesBlock
+		title
+			Suggested resources to know more about PI Planning
+			Quelques ressources pour en savoir plus sur le PI Planning
+		linksList
+			------
+			<li>
+				<i class="far fa-bookmark"></i>
+				The Scaled Agile organisation introduction to <a class="text-link light underline" href="https://www.scaledagileframework.com/pi-planning/">PI Planning</a>.
+			</li>
+			<li>
+				<i class="fas fa-play-circle"></i>
+				Insightful Ahmed Syed's <a class="text-link light underline" href="https://www.youtube.com/watch?v=ulUMlr7Ydjs">5 Top Tips for an effective SAFe PI Planning</a> on the YouTube channel ‘SAFe in the Real World’.
+			</li>
+			---
+			<li>
+				<i class="far fa-bookmark"></i>
+				L’introduction au <a class="text-link light underline" href="https://www.scaledagileframework.com/pi-planning/">PI Planning</a> de l’organisation Scaled Agile.
+			</li>
+			<li>
+				<i class="far fa-bookmark"></i>
+				Le billet de blog de Judicaël Paquet, Coach Agile, <a class="text-link light underline" href="https://blog.myagilepartner.fr/index.php/2018/06/14/le-pi-planning-en-safe/">Le PI Planning en SAFe.</a>
+			</li>
+			<li>
+				<i class="far fa-bookmark"></i>
+				L’article de Jean-Claude Grosjean, Coach Agile et auteur, sur son site <a class="text-link light underline" href="https://www.qualitystreet.fr/2020/12/18/quest-ce-que-le-pi-planning-safe/">Qu’est ce que le PI Planning SAFe ?</a>
+			</li>
+			------
