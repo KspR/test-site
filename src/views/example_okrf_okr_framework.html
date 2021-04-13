@@ -7,7 +7,7 @@
 		END -->
 		<title>
 		<!-- TESTONLY -->
-		{{{lang.ex_pi.meta-title}}}
+		{{{lang.ex_okrf.meta-title}}}
 		<!-- ENDTESTONLY -->
 		<!-- PRODONLY
 		<%= @example["label"] %> - <%= @lang.example.examples %> - Draft
@@ -17,7 +17,7 @@
 		<meta name="description" content="<%= @lang.example.pageDescription.gsub('&&example&&', @example["label"]) %>" />
 		END -->
 
-		<meta name="description" content="{{{lang.ex_pi.meta-description}}}">
+		<meta name="description" content="{{{lang.ex_okrf.meta-description}}}">
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -69,7 +69,7 @@
 					<i class="fas fa-chevron-right separator"></i>
 					<span class="current">
 						<!-- TESTONLY -->
-						{{{lang.ex_pi.title}}}
+						{{{lang.ex_okrf.title}}}
 						<!-- ENDTESTONLY -->
 						<!-- PRODONLY
 						<%= @example["label"] %>
@@ -80,7 +80,7 @@
 				<div class="title-bar">
 					<h1>
 						<!-- TESTONLY -->
-						{{{lang.ex_pi.title}}}
+						{{{lang.ex_okrf.title}}}
 						<!-- ENDTESTONLY -->
 						<!-- PRODONLY
 						<%= @example["label"] %>
@@ -91,7 +91,7 @@
 
 				<figure class="main-screenshot">
 					<!-- TESTONLY -->
-					<img class="screenshot" src="./imgs/examples/{{{lang.code}}}/full/example-pi-planning-board.png" alt="" />
+					<img class="screenshot" src="./imgs/examples/{{{lang.code}}}/full/example-okr-process.png" alt="" />
 					<!-- ENDTESTONLY -->
 					<!-- PRODONLY
 					<img class="screenshot" src="<%= image_path("site/examples/{{{lang.code}}}/full/example-" + @example["id"] + ".png") %>" alt="<%= @example["label"] %> example" />
@@ -104,14 +104,30 @@
 
 		<section class="main-content">
 			<div class="wrapper">
-				{{{lang.ex_pi.mainContent}}}
+				{{{lang.ex_okrf.mainContent}}}
+			</div>
+
+			<div class="tips-block">
+				<h2>{{{lang.ex_okrf.tipsBlock1.title}}}</h2>
+
+				{{{lang.ex_okrf.tipsBlock1.mainContent}}}
+
+				<footer>
+					<img src="{{{lang.ex_okrf.tipsBlock1.authorPortrait}}}" class="portrait" alt="{{{lang.ex_okrf.tipsBlock1.authorName}}} portrait">
+					<div class="author">
+						<span class="name">{{{lang.ex_okrf.tipsBlock1.authorName}}}</span>
+						<span class="status">
+							{{{lang.ex_okrf.tipsBlock1.authorStatus}}}
+						</span>
+					</div>
+				</footer>
 			</div>
 
 			<div class="resources-block">
 				<i class="fas fa-bookmark deco"></i>
-				<h2>{{{lang.ex_pi.resourcesBlock.title}}}</h2>
+				<h2>{{{lang.ex_okrf.resourcesBlock.title}}}</h2>
 				<ul class="resources-list">
-					{{{lang.ex_pi.resourcesBlock.linksList}}}
+					{{{lang.ex_okrf.resourcesBlock.linksList}}}
 				</ul>
 			</div>
 

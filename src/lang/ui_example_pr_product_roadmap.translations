@@ -3,8 +3,8 @@ ex_pr
 		Product Roadmap - Example - Draft
 		Product Roadmap - Exemple - Draft
 	meta-description
-		A Product Roadmap is your plan to achieve your product vision. It focuses on the value you aim to deliver to your customers and helps you rally support and coordinate effort among stakeholders.
-		Une Product Roadmap décrit l’itinéraire que vous envisagez de suivre pour accomplir votre vision produit, avec un focus particulier porté sur la valeur que vous souhaitez apporter à vos clients.
+		A Product Roadmap is your plan to achieve your product vision by focusing on the value you aim to deliver to your clients and rallying stakeholders.
+		Une Product Roadmap décrit l’itinéraire à suivre pour accomplir votre vision produit à travers le prisme des bénéfices attendus pour vos clients.
 	title
 		Product Roadmap
 		Product Roadmap
@@ -15,7 +15,7 @@ ex_pr
 			To answer this complex question, we propose a definition extracted from the essential book <a class="text-link advanced-underline-over" href="https://www.oreilly.com/library/view/product-roadmaps-relaunched/9781491971710/"><span>Product</span> <span>Roadmaps</span> <span>Relaunched</span></a> (and with which we are totally aligned at Draft): “a Product Roadmap describes how you intend to achieve your product vision. It focuses on the value you propose to deliver to your customer and your organization in order to rally support and coordinate effort among stakeholders.”
 		</p>
 		<p>
-			As you may have noticed, this definition spotlights the value delivered to customers, i.e., the outcomes in terms of satisfaction of customer needs or answer to customer problems. Whereas solutions could be detailed and estimated in a ‘tactical artifact’ release plan or project plan (like a <a class="text-link advanced-underline-over" href="https://draft.io/example/gantt-chart"><span>Gantt</span> <span>Chart</span></a> can be), a roadmap must remain a ‘strategic artifact’. 
+			As you may have noticed, this definition spotlights the value delivered to customers, i.e., the outcomes in terms of satisfaction of customer needs or answer to customer problems. Whereas solutions could be detailed and estimated in a ‘tactical artifact’ release plan or project plan (like a <a class="text-link advanced-underline-over" href="https://draft.io/example/gantt-chart"><span>Gantt</span> <span>Chart</span></a> can be), a roadmap must remain a ‘strategic artifact’.
 		</p>
 		<p>
 			The other key element of this definition is product vision. Roadmapping is an ideal moment to take a step back from the day-to-day business and rethink the big picture: Why are we developing this product in the first place? What will it mean to the customer, to the organization, to the planet?
@@ -188,4 +188,3 @@ ex_pr
 				Scrum Life, la chaîne YouTube de Jean-Pierre Lambert, Coach Agile, à travers la vidéo <a class="text-link light underline" href="https://www.youtube.com/watch?v=0_1j_Jml9Ko">Roadmap Agile - Comment réussir l'exercice</a>
 			</li>
 			------
-			

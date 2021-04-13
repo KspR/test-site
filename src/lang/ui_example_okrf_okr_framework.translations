@@ -1,0 +1,298 @@
+ex_okrf
+	meta-title
+		OKR Framework - Example - Draft
+		Framework OKR - Exemple - Draft
+	meta-description
+		The OKR framework is a way of making goals visible and measurable to ensure team members work together and improve accountability.
+		Les OKRs sont un système managérial qui rend les objectifs visibles et mesurables pour aider les équipes à travailler efficacement ensemble.
+	title
+		OKR Framework
+		OKR Framework
+	mainContent
+		------
+		<h2>What is the OKR Framework about?</h2>
+		<p>
+			Popularized in 2013 by Rick Klau, Partner at Google Ventures Startup Lab, in renowned video <a class="text-link advanced-underline-over" href="https://www.youtube.com/watch?v=mJB83EZtAjc"><span>Startup</span> <span>Lab</span> <span>workshop:</span> <span>How</span> <span>Google</span> <span>sets</span> <span>goals:</span> <span>OKRs</span></a>, the OKR Framework (OKR stands for Objectives and Key Results) was initially designed by Silicon Valley legend Andy Grove, successful CEO of Intel Corporation from 1987 to 1998. Then, it was passed to Google’s founders through a former Intel’s employee who then became venture capitalist, John Doerr.
+		</p>
+		<p>
+			Widely inspired by the Management By Objectives system introduced by Peter Drucker, Andy Grove brought some modifications in order to answer two fundamental questions:
+		</p>
+		<ol>
+			<li>Where do you want to go? (the objective)</li>
+			<li>How will you pace ourselves to measure if you are getting there? (the key result)</li>
+		</ol>
+		<p>
+			As defined by Paul R. Niven and Ben Lamorte in the insightful book “<a class="text-link advanced-underline-over" href="https://www.wiley.com/en-us/Objectives+and+Key+Results%3A+Driving+Focus%2C+Alignment%2C+and+Engagement+with+OKRs-p-9781119252399"><span>Objectives</span> <span>and</span> <span>Key</span> <span>Results:</span> <span>Driving</span> <span>Focus,</span> <span>Alignment,</span> <span>and</span> <span>Engagement</span> <span>with</span> <span>OKRs</span></a>,” “OKRs is a critical thinking framework and ongoing discipline that seeks to ensure employees work together, focusing their efforts to make measurable contributions that drive the company forward.” To put it shorter: OKRs is a way of making goals visible and measurable.
+		</p>
+		<p>
+			An objective is a statement that describes a broad qualitative goal. Always related to an objective, a key result is a statement that enables the measurement of the completion of a given objective. In general, 2 to 5 measurable key results are associated with an objective. The framework is usually cadenced in a 3-month cycle. At the end of every quarter, the achievement of past objectives is discussed, and new objectives and key results are decided.
+		</p>
+
+		<img src="./imgs/UI_Examples/OkrFramework/context_of_okr_en.png" alt="Context of OKR Framework." />
+		<p style="text-align: center;font-style: italic;font-size: 1em;margin-top:-2em;">Context for OKRs</p><br>
+
+		<p>
+			Behind the OKR Framework, there is a radical new way of managing people called “Management by intent”. Instead of telling people <i>how</i> to achieve, you just tell them <i>what</i> to achieve and let them find the right way on their own.
+		</p>
+		<h2>How to roll out the OKR Framework in your organization successfully?</h2>
+		<p>
+			To construct an effective objective, you should meet a certain number of criteria. A powerful objective should be:
+		</p>
+		<ul>
+			<li>
+				<u class="emphasized">Inspirational</u>: To engage the team in something bigger than just running the business as usual;
+			</li>
+			<li>
+				<u class="emphasized">Attainable</u>: Even though it is recommended to stretch the goals you set slightly, there is a risk of causing counterproductive effects with over-demanding objectives;
+			</li>
+			<li>
+				<u class="emphasized">Doable in a quarter</u>: That is the typical cadence of OKRs. If you set a goal that obviously can’t be reached within the next 3 months, it might lose its driving power.
+			</li>
+			<li>
+				<u class="emphasized">Controllable by the team</u>: Whoever sets the objective, the team must be fully able to control the outcome, meaning that it should possess all means to achieve it.
+			</li>
+			<li>
+				<u class="emphasized">Provide business value</u>: That is an obvious criterion; however, it is essential to remind that objectives should create tangible value for the organization if attained.
+			</li>
+			<li>
+				<u class="emphasized">Qualitative</u>: You should never introduce any numbers in an objective.
+			</li>
+		</ul>
+
+		<img src="./imgs/UI_Examples/OkrFramework/exemple_okr_framework_en.png" alt="Example of OKR Framework." />
+
+		<p>
+			Like objectives, key results should meet some criteria to be effective. They should be:
+		</p>
+		<ul>
+			<li>
+				<u class="emphasized">Quantitative</u>: Key results are always quantitative so that you can use numbers to determine whether or not the goal was met;
+			</li>
+			<li>
+				<u class="emphasized">Aspirational</u>: Ambitious yet attainable targets will foster the right level of motivation and energy in the team;
+			</li>
+			<li>
+				<u class="emphasized">Specific</u>: Avoiding ambiguity will ensure shared understanding within and outside the team;
+			</li>
+			<li>
+				<u class="emphasized">Owned</u>: Even if top management may inspire the strategy, OKRs should mostly originate from the team itself;
+			</li>
+			<li>
+				<u class="emphasized">Progress-Based</u>: Following indicators that can be measured frequently, let’s say every two weeks, contributes to the team’s motivation;
+			</li>
+			<li>
+				<u class="emphasized">Vertically and horizontally aligned</u>: The OKRs should be reviewed by both leaders and other teams you might depend on to ensure alignment at the organization level;
+			</li>
+			<li>
+				<u class="emphasized">Driving the right behavior</u>: Before setting your objective, you should think twice about how it could trigger an unethical behavior among members of the team.
+			</li>
+		</ul>
+
+		<p>
+			For scoring objectives, the OKR Framework suggests using a 0-1 scale:
+		</p>
+
+		<ul>
+			<li>
+				<u class="emphasized">1</u>: This level corresponds to your stretch and ambitious goal with the objective to foster breakthrough thinking;
+			</li>
+			<li>
+				<u class="emphasized">0.7</u>: It represents a target difficult to reach while remaining achievable regarding your past performances;
+			</li>
+			<li>
+				<u class="emphasized">0.3</u>: It characterizes a “business as usual” target level that can be attained with no additional efforts or out-of-the-box ideas;
+			</li>
+			<li>
+				<u class="emphasized">0</u>: No progress.
+			</li>
+		</ul>
+		---
+		<h2>En quoi le Framework OKR consiste-t-il ?</h2>
+		<p>
+			Le Framework OKR (OKR signifiant Objectives and Key Results) fut popularisé en 2013 par Rick Klau, GV Partner au sein du Google Ventures Startup Lab, dans une vidéo devenue virale nommée <a class="text-link advanced-underline-over" href="https://www.youtube.com/watch?v=mJB83EZtAjc"><span>Startup</span> <span>Lab</span> <span>workshop:</span> <span>How</span> <span>Google</span> <span>sets</span> <span>goals:</span> <span>OKRs</span></a>. Cet outil de management fut initialement conçu par une légende de la Silicon Valley, Andy Grove, PDG d’Intel Corporation entre 1987 et 1998, puis transmis à Google par l’intermédiaire de John Doerr, un ancien employé d’Intel devenu investisseur en capital risque.
+		</p>
+		<p>
+			Fortement inspiré de la théorie du Management By Objectives de Peter Drucker, Andy Grove y apporta quelques modifications clés dans le but de mieux répondre à deux questions fondamentales :
+		</p>
+		<ol>
+			<li>Où voulons-nous aller ? (l’objectif)</li>
+			<li>Comment allons-nous mesurer le rythme auquel nous y allons ? (le résultat clé)</li>
+		</ol>
+		<p>
+			Pour expliquer en quoi consiste le Framework OKR, nous allons nous appuyer sur l’ouvrage de Paul R. Niven et Ben Lamorte, “<a class="text-link advanced-underline-over" href="https://www.wiley.com/en-us/Objectives+and+Key+Results%3A+Driving+Focus%2C+Alignment%2C+and+Engagement+with+OKRs-p-9781119252399"><span>Objectives</span> <span>and</span> <span>Key</span> <span>Results:</span> <span>Driving</span> <span>Focus,</span> <span>Alignment,</span> <span>and</span> <span>Engagement</span> <span>with</span> <span>OKRs</span></a>,” Les auteurs en donnent la définition suivante : “Les OKRs constituent un système managérial qui a pour but d’aider les équipes à travailler ensemble et à participer au succès de l’organisation à travers des contributions explicites et mesurables.” Pour le synthétiser plus simplement : les OKRs sont une façon de rendre les objectifs visibles de tous et mesurables.
+		</p>
+		<p>
+			Dans ce framework, un objectif est un énoncé qui décrit un état futur à atteindre. Toujours associé à un objectif; un <i>key result</i> est un indicateur dont la mesure renseigne sur l’évaluation effective de l’atteinte de cet objectif. En règle générale, un objectif se décline en 2 à 5 <i>key results</i>.
+		</p>
+
+		<img src="./imgs/UI_Examples/OkrFramework/context_of_okr_fr.png" alt="Context of OKR Framework." />
+		<p style="text-align: center;font-style: italic;font-size: 1em;margin-top:-2em;">Eléments de context des OKRs</p><br>
+		
+		<p>
+			Le Framework OKR s'inscrit généralement dans un cycle trimestriel. Au terme de chaque trimestre, les résultats sont revus et discutés dans l’optique de capitaliser sur les décisions et les actions qui ont été entreprises, et de nouveaux OKRs sont définis.  “Management par intention”. Cette méthode repose sur les principes suivants : ne pas indiquer aux collaborateurs ce qu’ils doivent faire, mais leur indiquer les objectifs qu’ils doivent atteindre et leur laisser l’initiative de trouver le chemin optimal.
+		</p>
+		<h2>Comment déployer de façon adéquate le Framework OKR dans votre organisation ?</h2>
+		<p>
+			Pour définir un objectif pertinent, vous devez veiller à respecter un certain nombre de critères. Ainsi, un objectif adéquat doit être :
+		</p>
+		<ul>
+			<li>
+				<u class="emphasized">Inspirant </u>: Le but est de faire adhérer l’équipe à une ambition qui dépasse la simple gestion des affaires courantes ;
+			</li>
+			<li>
+				<u class="emphasized">Réalisable </u>: Même si la philosophie des OKRs suggère de fixer des objectifs relativement ambitieux, pour autant, ceux-ci ne doivent pas être perçus comme insensés, au risque d’avoir un effet contre-productif et démotiver votre équipe ;
+			</li>
+			<li>
+				<u class="emphasized">Atteignable en un trimestre </u>: Les OKRs s’inscrivant généralement dans un cycle de 3 mois, si vous définissez un objectif qui n’a objectivement aucune chance d’être atteint au terme de cette période, vous prenez le risque d’atténuer la pertinence du challenge et, par conséquent, d'affecter la dynamique des équipes ;
+			</li>
+			<li>
+				<u class="emphasized">Contrôlable par l’équipe </u>: Quel que soit l’objectif défini, l’équipe doit être pleinement capable de parvenir à la cible de façon autonome, ce qui signifie qu’elle doit posséder tous les moyens d’y parvenir ;
+			</li>
+			<li>
+				<u class="emphasized">Créant de la valeur </u>: C’est un critère qui peut paraître évident, mais il est parfois opportun de prendre du recul et remettre les objectifs de l’équipe en perspective de ceux de l’organisation ;
+			</li>
+			<li>
+				<u class="emphasized">Qualitatif </u>: Les objectifs ne doivent pas contenir d’éléments chiffrés, ils doivent rester courts et textuels.
+			</li>
+		</ul>
+
+		<img src="./imgs/UI_Examples/OkrFramework/exemple_okr_framework_fr.png" alt="Example of OKR Framework." />
+
+		<p>
+			Au même titre que les objectifs, pour être pertinents, les <i>key results</i> doivent aussi respecter plusieurs critères. Ils doivent être :
+		</p>
+		<ul>
+			<li>
+				<u class="emphasized">Quantitatifs </u>: Les <i>key results</i> sont toujours quantitatifs, de façon à pouvoir utiliser des indicateurs objectifs pour déterminer si oui ou non, et dans quelle mesure, une cible a été atteinte ;
+			</li>
+			<li>
+				<u class="emphasized">Ambitieux </u>: Définir des objectifs ambitieux mais atteignables participe à entretenir un niveau de motivation optimal au sein de l’équipe ;
+			</li>
+			<li>
+				<u class="emphasized">Spécifiques </u>: Éviter les énoncés ambiguës, combinant plusieurs sujets. Un bon key result doit être précis et facilement interprété par toutes les parties prenantes ;
+			</li>
+			<li>
+				<u class="emphasized">Responsabilisant </u>: Même si le management inspire généralement la stratégie, les OKRs doivent principalement émerger de l’équipe elle-même ; 
+			</li>
+			<li>
+				<u class="emphasized">Mesurables fréquemment </u>: Pouvoir régulièrement mesurer les indicateurs, par exemple, toutes les deux semaines, permet à l’équipe de rester pleinement concentrée sur l’atteinte de ses objectifs ;
+			</li>
+			<li>
+				<u class="emphasized">Cohérents avec le reste de l’organisation </u>: Afin de déceler les éventuelles dépendances ou incohérences dans les objectifs, les OKRs doivent toujours être revus par le management et par les autres équipes ;
+			</li>
+			<li>
+				<u class="emphasized">Insufflant le bon comportement </u>: Avant de définir un objectif à atteindre, il faut penser aux éventuels impacts négatifs sur le comportement et l’éthique des membres de l’équipe.
+			</li>
+		</ul>
+
+		<p>
+			Pour évaluer l’atteinte des objectifs, le Framework OKR suggère d’utiliser une échelle allant de 0 à 1 :
+		</p>
+
+		<ul>
+			<li>
+				<u class="emphasized">1</u>: Cette note correspond à l’atteinte totale de l’objectif ambitieux qui a été fixé ;
+			</li>
+			<li>
+				<u class="emphasized">0.7</u>: Ce score reflète l’atteinte d’une cible ambitieuse mais relativement atteignable compte tenu des performances passées de l’équipe ;
+			</li>
+			<li>
+				<u class="emphasized">0.3</u>: Ce chiffre caractérise un niveau de performance pouvant être considéré comme étant “business as usual” ;
+			</li>
+			<li>
+				<u class="emphasized">0</u>: Aucun progrès.
+			</li>
+		</ul>
+		------
+	tipsBlock1
+		title
+			Some tips from <b>Itamar Gilad</b>, ex-Google PM & Author
+			Quelques conseils de la part de <b>Itamar Gilad</b>, ex-Google PM et auteur
+		mainContent
+			------
+			<p>
+				In an ebook recently published, <a class="text-link advanced-underline-over" href="https://itamargilad.com/ebook-okr/"><span>OKRs</span> <span>Done</span> <span>Right</span></a>, Itamar lists five OKR antipatterns that, of course, you should try to avoid:
+			</p>
+
+			<ol>
+				<li>
+					<u class="emphasized">Using OKRs to express a plan (Output OKRs)</u>: As stated above, OKRs’ purpose is to favor management by intent. Goals are benefits you expect, not specific actions or features. Remember that you should let the team define the most relevant initiatives to attain those goals.
+				</li>
+				<li>
+					<u class="emphasized">Non-SMART Key Results</u>: As a reminder, SMART stands for Specific, Measurable, Ambitious, Realistic, and Time-Bound. Here, the risk is to state too vague or unrealistic goals.
+				</li>
+				<li>
+					<u class="emphasized">Too Many OKRs</u>: When it comes to OKRs, less is more. Running after too many goals inexorably reduces the team’s ability to focus on what matters the most. For a specific quarter, the recommended limits are three objectives and no more than five key results by objective.
+				</li>
+				<li>
+					<u class="emphasized">Top-Down OKRs With No Bottom-Up</u>: Of course, top-down goals are less likely to get buy-in from the team. In addition to that, managers often lack the perspective, knowledge, and insight of the team members doing the work.
+				</li>
+				<li>
+					<u class="emphasized">Using OKR for performance evaluation</u>: Although it may a priori appear to be a good idea, doing so can often trigger unexpected and unethical behaviors in a team, which can be highly damageable in the long run.
+				</li>
+			</ol>
+			---
+			<p>
+				Dans un ebook publié récemment, <a class="text-link advanced-underline-over" href="https://itamargilad.com/ebook-okr/"><span>OKRs</span> <span>Done</span> <span>Right</span></a>, Itamar liste 5 antipatterns que, bien sûr, il vous recommande d’éviter :
+			</p>
+
+			<ol>
+				<li>
+					<u class="emphasized">Utiliser les OKRs pour exprimer un plan </u>: Comme évoqué précédemment, le but des OKRs est de participer au management par intention. Les objectifs sont l’expression de bénéfices attendus, non pas de tâches ou de fonctionnalités à développer. C’est à l’équipe de décider de façon autonome les initiatives qu’elle doit prendre pour atteindre ses objectifs ;
+				</li>
+				<li>
+					<u class="emphasized">Définir des Key Results non SMART </u>: Pour rappel, l’acronyme SMART signifie Spécifique, Mesurable, Ambitieux, Réaliste, et temporellement défini (“Time-Bound”) ;
+				</li>
+				<li>
+					<u class="emphasized">Definir trop d’OKRs </u>: En matière d’OKRs, moins est véritablement mieux. Courir après trop d’objectifs différents réduit inexorablement la capacité de l’équipe à se concentrer sur les enjeux les plus importants. Au cours d’une période donnée, il est généralement recommandé de se limiter au maximum de 3 objectifs et 5 key results par objectif ;
+
+				</li>
+				<li>
+					<u class="emphasized">Imposer les OKRs à l’équipe </u>: Bien sûr, les grandes axes de la stratégie sont insufflés par le management, néanmoins, il est essentiel que l’équipe s’approprie ses objectifs et participe à leur définition ;
+				</li>
+				<li>
+					<u class="emphasized">Utiliser les OKRs comme instrument d’évaluation RH </u>: Bien que cela puisse paraître une bonne idée a priori, dans les faits, utiliser les OKRs comme instrument d’évaluation RH peut conduire l’équipe à adopter des comportements non éthiques, particulièrement dommageables sur le long terme.
+				</li>
+			</ol>
+			------
+		authorPortrait
+			./imgs/UI_Examples/OkrFramework/portrait_Itamar_Gilad.jfif
+			./imgs/UI_Examples/OkrFramework/portrait_Itamar_Gilad.jfif
+		authorName
+			Itamar Gilad
+			Itamar Gilad
+		authorStatus
+			Product management coach, speaker and author, Ex-Google & Microsoft PM (<a class="text-link advanced-underline-over" href="https://itamargilad.com/">itamargilad.com</a>)
+			Coach en Product Management, Conférencier et Auteur, Ancien PM chez Google et Microsoft (<a class="text-link advanced-underline-over" href="https://itamargilad.com/">itamargilad.com</a>)
+	resourcesBlock
+		title
+			Suggested resources to become a master of the OKR Framework
+			Suggestions de ressources pour devenir un expert du Framework OKR
+		linksList
+			------
+			<li>
+				<i class="far fa-bookmark"></i>
+				A short but insightful introduction to OKRs by Ryan Panchadsaram and Sam Prince, John Doerr’s collaborators: <a class="text-link light underline" href="https://www.whatmatters.com/faqs/okr-meaning-definition-example/#:~:text=Link,encourage%20engagement%20around%20measurable%20goals.">What is OKR? Definition and examples</a>.
+			</li>
+			<li>
+				<i class="far fa-bookmark"></i>
+				A practical business case from Itamar Gilad, former Lead Product Manager and Head of Growth at Gmail: <a class="text-link light underline" href="https://felipecastro.com/en/blog/okr-gmail-itamar-gilad/">How OKR Helped Gmail Reach 1 Billion Users: an Interview with Itamar Gilad</a>.
+			</li>
+			<li>
+				<i class="far fa-play-circle"></i>
+				The Rick Klau’s speech that makes OKRs famous across the world: <a class="text-link light underline" href="https://www.youtube.com/watch?v=mJB83EZtAjc">Startup Lab workshop: How Google sets goals: OKRs</a>.
+			</li>
+			---
+			<li>
+				<i class="far fa-play-circle"></i>
+				La vidéo de Rick Klau qui a popularisé les OKRs dans le monde entier : <a class="text-link light underline" href="https://www.youtube.com/watch?v=mJB83EZtAjc">Startup Lab workshop: How Google sets goals: OKRs</a>.
+			</li>
+			<li>
+				<i class="far fa-bookmark"></i>
+				Un billet de blog très complet publié sur La Fabrique du Net : <a class="text-link light underline" href="https://www.lafabriquedunet.fr/blog/objectifs-methodologie-okr/">Définissez vos objectifs avec la méthodologie OKR</a>.
+			</li>
+			<li>
+				<i class="fas fa-external-link-alt"></i>
+				Un bon complément de lecture pour déployer les OKRs à l’échelle de l’organisation : <a class="text-link light underline" href="https://wikiagile.cesi.fr/index.php?title=Framework_OKR">Framework OKR</a>.
+			</li>
+			------
