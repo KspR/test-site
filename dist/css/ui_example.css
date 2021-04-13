@@ -325,6 +325,23 @@
   margin-top: 10px;
 }
 
+.ui_example .main-content .tips-block ol {
+  margin-left: 40px;
+}
+
+.ui_example .main-content .tips-block ol li {
+  padding-left: 10px;
+}
+
+.ui_example .main-content .tips-block ol li::before {
+  display: none;
+}
+
+.ui_example .main-content .tips-block ol li::marker {
+  font-family: semibold;
+  font-size: .9em;
+}
+
 .ui_example .main-content .tips-block ul + p, .ui_example .main-content .tips-block ol + p {
   margin-top: 20px;
 }
