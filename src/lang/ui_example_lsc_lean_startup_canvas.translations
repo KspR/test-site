@@ -3,8 +3,8 @@ ex_lsc
 		Lean Startup Canvas - Example - Draft
 		Lean Startup Canvas - Exemple - Draft
 	meta-description
-		The Lean Startup Canvas (or Lean Canvas) combined The Lean Startup method with the Business Model Canvas. Ideal for entrepreneurs or intrapreneurs, the technique is an iterative and learning way of formalizing a new business idea.
-		Combinant la méthode Lean Startup à l’approche du Business Model Canvas, le Lean Startup Canvas (ou Lean Canvas) est un modèle qui offre aux porteurs de projet une approche itérative et apprenante pour formaliser une nouvelle idée business.
+		Ideal for entrepreneurs, the Lean Startup Canvas (or Lean Canvas) combined The Lean Startup method with the Business Model Canvas.
+		Idéal pour les entrepreneurs, le Lean Startup Canvas est une adaptation du Business Model Canvas à la méthode du Lean Startup.
 	title
 		Lean Startup Canvas
 		Lean Startup Canvas
@@ -12,7 +12,7 @@ ex_lsc
 		------
 		<h2>What is a Lean Startup Canvas?</h2>
 		<p>
-			The Lean Startup Canvas (or Lean Canvas) combined The Lean Startup method with the <a class="text-link advanced-underline-over" href="https://draft.io/example/business-model-canvas"><span>Business</span> <span>Model</span> <span>Canvas</span></a>. Ideal for entrepreneurs or intrapreneurs, the technique is an iterative and learning way of formalizing a new business idea. This canvas includes nine sections that should be filled in the following order:
+			The Lean Startup Canvas (or Lean Canvas) adapts the <a class="text-link advanced-underline-over" href="https://draft.io/example/business-model-canvas"><span>Business</span> <span>Model</span> <span>Canvas</span></a> to the Lean Startup method. Ideal for entrepreneurs or intrapreneurs, the technique is an iterative and learning way of formalizing a new business idea. This canvas includes nine sections that should be filled in the following order:
 		</p>
 		<ol>
 			<li>
@@ -88,11 +88,11 @@ ex_lsc
 		---
 		<h2>Qu’est-ce que Lean Startup Canvas ?</h2>
 		<p>
-			Combinant la méthode Lean Startup à l’approche du <a class="text-link advanced-underline-over" href="https://draft.io/fr/example/business-model-canvas"><span>Business</span> <span>Model</span> <span>Canvas</span></a>, le Lean Startup Canvas (ou Lean Canvas) est un modèle qui offre aux porteurs de projet une approche itérative et apprenante pour formaliser une nouvelle idée business. Le canevas s’articule autour de 9 sections à remplir dans l’ordre qui suit :
+			Adaptant le <a class="text-link advanced-underline-over" href="https://draft.io/fr/example/business-model-canvas"><span>Business</span> <span>Model</span> <span>Canvas</span></a> à la méthode du Lean Startup, le Lean Startup Canvas (ou Lean Canvas) est un modèle qui offre aux porteurs de projet une approche itérative et apprenante pour formaliser une nouvelle idée business. Le canevas s’articule autour de 9 sections à remplir dans l’ordre qui suit :
 		</p>
 		<ol>
 			<li>
-				Les segment clients visés ; 
+				Les segment clients visés ;
 			</li>
 			<li>
 				Les problèmes que votre produit est censée résoudre pour vos clients ;
@@ -107,7 +107,7 @@ ex_lsc
 				Les canaux de communication et de distribution ;
 			</li>
 			<li>
-				Les différentes sources de revenu 
+				Les différentes sources de revenu
 			</li>
 			<li>
 				La structure de coût anticipée ;
@@ -121,7 +121,7 @@ ex_lsc
 		</ol>
 		<img src="./imgs/UI_Examples/LeanStartupCanvas/illustration_Lean_startup_canvas_1.png" alt="Lean Startup Canvas Illustration" />
 		<p>
-			La méthodologie du Lean Startup Canvas est particulièrement utile pour les entrepreneurs qui démarrent un projet. Elle les aide à définir les hypothèses sur lesquelles s’appuie leur vision et à identifier les indicateurs censés refléter l’atteinte des objectifs. 
+			La méthodologie du Lean Startup Canvas est particulièrement utile pour les entrepreneurs qui démarrent un projet. Elle les aide à définir les hypothèses sur lesquelles s’appuie leur vision et à identifier les indicateurs censés refléter l’atteinte des objectifs.
 		</p>
 		<p>
 			Comme évoqué au début de l’article, cette approche est itérative. En effet, pour que les atouts du Lean Startup Canvas soient pleinement exploités, il doit être mis à jour régulièrement, au minimum, à chaque changement stratégique. C’est le caractère itératif de la méthode qui lui donne son caractère apprenant. En capitalisant sur les découvertes réalisées entre chaque itération, les porteurs de projet peuvent ajuster leurs hypothèses ou raffermir leurs convictions.
