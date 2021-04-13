@@ -2254,6 +2254,12 @@ body.example
 .text-link.advanced-underline-over:hover span::after 
 	width : calc(100% + 6px)
 	left : -3px
+.text-link.advanced-underline-over:hover span:first-child::after 
+	width : calc(100% + 3px)
+	left : 0
+.text-link.advanced-underline-over:hover span:last-child::after 
+	width : calc(100% + 3px)
+	left : -3px
 
 .text-link.advanced-underline-over:hover span + span::after 
 

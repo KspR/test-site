@@ -5107,6 +5107,16 @@ body.example .content .wrapper .screenshot {
   left: -3px;
 }
 
+.text-link.advanced-underline-over:hover span:first-child::after {
+  width: calc(100% + 3px);
+  left: 0;
+}
+
+.text-link.advanced-underline-over:hover span:last-child::after {
+  width: calc(100% + 3px);
+  left: -3px;
+}
+
 .text-link.advanced-underline-over span::after {
   content: "";
   display: block;
