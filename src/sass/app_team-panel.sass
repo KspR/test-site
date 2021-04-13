@@ -62,6 +62,11 @@ $appHeaderPlusSubHeaderBars : 140px // To calculate in the true app system
   font-size : 1rem
   color : rgba(255,255,255,.85)
   padding : 8px 14px
+
+  transition : background .1s
+
+  &:hover
+    background : rgba(255,255,255,.1)
   
 .custom-chkbx-wrapper
   cursor : pointer
@@ -97,6 +102,15 @@ $appHeaderPlusSubHeaderBars : 140px // To calculate in the true app system
       transform : scale(0)
 
       transition : opacity .1s, transform .1s
+  
+  .custom-chkbx.small
+    width : 12px
+    height : 12px
+    border-radius : 3px
+    &::before
+      width : 8px
+      height : 8px
+      border-radius : 1px
 
   input:checked + .custom-chkbx
     border : 1px solid $orange
@@ -109,8 +123,41 @@ $appHeaderPlusSubHeaderBars : 140px // To calculate in the true app system
     color : #fff
     .custom-chkbx
       border : 1px solid $orange
+      
+.custom-select-box
+  border-radius : 5px
+  border : 1px solid rgba(255,255,255,.15)
+  background : rgba(255,255,255,.05)
+  font-size : 1rem
+  color : rgba(255,255,255,.85)
+  padding : 4px 8px
 
-.discreet
+  transition : background .1s
+  &:hover
+    background : rgba(255,255,255,.15)
+  select
+    cursor : pointer
+    margin : 0
+    padding : 0
+    height : 100%
+    width : 100%
+    display : block
+    background : none
+    color : white
+    border : none
+    &:focus
+      border : none
+      outline : none
+    option
+      background : #444
+      border : 1px solid #555
+      padding : 4px 6px
+
+.custom-select-box.small
+  padding : 0 2px
+  height : 26px
+  select
+    option
 
 /* ----------------- */
 // end of Generic components and helpers (to move into future App CSS Design System)
@@ -136,6 +183,10 @@ $appHeaderPlusSubHeaderBars : 140px // To calculate in the true app system
 
 .app-cmpnt_team-dashboard
 
+  .text-link
+    color : inherit
+    text-decoration : underline
+
   // "atd_" for "App Team Dashboard _"
   $atd_generalPadding : 30px
   $atd_interPanelsPadding : 20px
@@ -143,8 +194,14 @@ $appHeaderPlusSubHeaderBars : 140px // To calculate in the true app system
   $atd_panelsBkgdColor : #343434
   $atd_rowsListingBkgdColor : #343434
 
+  $tableFilterBarHeight : 50px
+  $tableHeaderHeight : 40px
   $tableRowHeight : 32px
+  $tableFooterHeight : 50px
 
+  @media only screen and (min-width: 1400px)
+    .container
+      justify-content : center
   .container
     height : calc(100vh - #{$appHeaderPlusSubHeaderBars})
     background : $atd_bkgdColor
@@ -152,24 +209,29 @@ $appHeaderPlusSubHeaderBars : 140px // To calculate in the true app system
     width : 100%
     overflow : auto
     display : flex
-
+      
     // ---------------------------------------------
     // Panels positions and sizes
     // ---------------------------------------------
 
     .left-panels-wrapper
       width : 24%
-      min-width : 350px
+      min-width : 340px
+      max-width : 500px
     .members-panel
       width : 100%
       flex-shrink : 10
-      min-width : 450px
+      min-width : 500px
+      max-width : 800px
     .visitors-panel
       width : 28%
-      min-width : 400px
+      min-width : 450px
+      max-width : 700px
+
     .left-panels-wrapper, .members-panel, .visitors-panel
       height : 100%
-      min-height : 400px
+      min-height : 460px
+
     .left-panels-wrapper
       .team-panel, .groups-panel
         width : 100%
@@ -248,10 +310,15 @@ $appHeaderPlusSubHeaderBars : 140px // To calculate in the true app system
             color : rgba(255,255,255,.8)
 
         .btn.dark.outlined
-          border : 1px solid rgba(255,255,255,.3)
-          height : 30px
+          border : 1px solid rgba(255,255,255,.2)
+          height : 34px
           background : transparent
           color : rgba(255,255,255,.9)
+
+          transition : background .1s
+          
+          &:hover
+            background : rgba(255,255,255,.1)
 
       .sub-wrapper
         height : 100%
@@ -283,6 +350,7 @@ $appHeaderPlusSubHeaderBars : 140px // To calculate in the true app system
           input.dark-input
             margin-left : 10px
             font-size : .9rem
+
         .team-licence
           margin-top : 24px
           .far, .fas
@@ -306,9 +374,12 @@ $appHeaderPlusSubHeaderBars : 140px // To calculate in the true app system
         height : 46px
         flex-shrink : 0
         width : 100%
-        @include flexCenteringBox
+        display : flex
+        align-items : center
+        padding-left : 20px
         .text-link
-          color : rgba(255,255,255,.6)
+          color : rgba(255,255,255,.75)
+          text-decoration : none
           &:hover
             color : #fff
 
@@ -324,14 +395,33 @@ $appHeaderPlusSubHeaderBars : 140px // To calculate in the true app system
           @include flexCenteringBox
           justify-content : flex-start
           color : rgba(255,255,255,.4)
-          padding : 0 10px
-          font-size : .8rem
+          font-size : .9rem
           border-radius : 5px 5px 0 0
-          height : 40px
+          height : $tableFilterBarHeight
+          padding-left : 15px
+
+          .dark-input
+            height : 30px
+            padding : 2px 10px
+            margin-left : 10px
+            font-size : .9rem
+            background : rgba(255,255,255,.03)
+            &:hover
+              background : rgba(255,255,255,.1)
+
+            &::placeholder
+              font-style : italic
+              color : rgba(255,255,255,.5)
+
 
         &.has-filter .table
           border-radius : 0 0 5px 5px
-          height : calc(100% - 40px)
+          height : calc(100% - #{$tableFilterBarHeight} - #{$tableHeaderHeight} - #{$tableFooterHeight})
+
+        .theader
+          display : flex
+          align-items : center
+          width : 100%
 
         .table
           background : rgba(255,255,255,.1)
@@ -345,56 +435,181 @@ $appHeaderPlusSubHeaderBars : 140px // To calculate in the true app system
           overflow : auto
           position : relative
 
-          .theader, .row
-            display : flex
-            height : $tableRowHeight
-            line-height : $tableRowHeight
+        .row, .theader
+          display : flex
+          .col
+            flex-shrink : 0
+            text-overflow : ellipsis
+            display : inline-block
+            overflow : hidden
+            white-space : nowrap
+          .col + .col
+            margin-left : 5px
 
-            .col
-              flex-shrink : 0
-              text-overflow : ellipsis
-              display : inline-block
-              overflow : hidden
-              white-space : nowrap
-            .col + .col
-              margin-left : 5px
+        .theader
+          // position : sticky
+          background : #494949
+          width : 100%
+          height : $tableHeaderHeight
+          line-heght : $tableHeaderHeight
+          // top : 0
+          // left : 0
+          z-index : 5
 
-          .theader
-            position : sticky
-            background : #494949
-            top : 0
-            left : 0
-            z-index : 5
-            .col
-              font-weight : normal
-              font-size : .9rem
+          .col
+            font-weight : normal
+            font-size : .9rem
+            opacity : .4
+            overflow : visible
+
+            transition : opacity .2s
+
+          .col.role, .col.mail
+            opacity : 1
+            cursor : default
+            .listing-btn
               opacity : .4
-          .row
-            background : rgba(0,0,0,0.1)
-            &:nth-child(even)
-              background : rgba(255,255,255,.03)
-            .col
-              font-size : .9rem
-              opacity : .9
+              position : relative
 
-          .actions
-            .far, .fas
+              transition : opacity .1s
+              .fas
+                position : absolute
+                left : -12px
+                top : 1px
+                font-size : .8em
+              &:hover
+                cursor : pointer
+                opacity : .8
+        .row
+          background : rgba(0,0,0,0.1)
+          height : $tableRowHeight
+          line-height : $tableRowHeight
+          &:nth-child(even)
+            background : rgba(255,255,255,.03)
+          .col
+            font-size : .9rem
+            opacity : .9
+
+            .custom-select-box
+              position : relative
+              top : 3px
+              width : calc(100% - 8px)
+
+          
+        .col.chkbx
+          .custom-chkbx-wrapper
+            display : flex
+            align-items : center
+            justify-content : center
+            height : 100%
+
+        .actions
+          cursor : default
+          .btn
+            background : none
+            border : none
+            outline : none
+            width : auto
+            padding : 2px 4px
+            color : white
+            opacity : .65
+            .fas, .far
               font-size : .9rem
-              & + .far, & + .fas
-                margin-left : 5px
+            .fa-users
+              font-size : .9rem
+              vertical-align : middle
+            .fa-arrow-alt-circle-right
+              font-size : .9rem
+              vertical-align : middle
+            .fa-user-minus
+              font-size : .8rem
+            .fa-pencil-alt
+              font-size : .8rem
+            .fa-trash-alt
+              font-size : .8rem
+            &:hover
+              cursor : pointer
+              opacity : 1
+            &:disabled, &:disabled:hover
+              opacity : .1
+            &:disabled
+              cursor : default
+          .btn + .btn
+            margin-left : 1px
+        
+        .tfooter
+          display : flex
+          align-items : center
+          height : $tableFooterHeight
+          font-size : .85rem
+          position : sticky
+          background : #494949
+          bottom : 0
+          left : 0
+          width : 100%
+          
+          .selectAll-action
+            width : 200px
+            color : rgba(255,255,255,.65)
+            .custom-chkbx-wrapper
+              margin-left : 10px
+              .custom-chkbx
+                position : relative
+                top : 1px
+                margin-right : 10px
+          .applyAll-actions
+            margin-left : auto
+            padding-right : 16px
+            display : flex
+            flex-shrink : 0
+            align-items : center
+            .discreet
+              font-style : italic
+              opacity : .5
+              margin-right : 20px
+            .col.actions
 
       &.members-panel
         .sub-wrapper
-          .row, .theader
+          .row, .theader, .tfooter
             .chkbx
               width : 30px
             .mail
               width : 100%
               flex-shrink : 4
             .role
-              width : 60px
+              width : 90px
             .status
-              width : 60px
+              width : 50px
+            .activity
+              width : 80px
+            .actions
+              width : 100px
+
+      &.groups-panel
+        .sub-wrapper
+          .row, .theader, .tfooter
+            .name
+              width : 100%
+              padding-left : 12px
+              flex-shrink : 4
+            .users-qty
+              width : 80px
+            .actions
+              width : 70px
+
+      &.visitors-panel
+        .sub-wrapper
+          .row, .theader, .tfooter
+            .chkbx
+              width : 30px
+            .mail
+              width : 100%
+              flex-shrink : 4
+            .role
+              width : 90px
+            .status
+              width : 50px
             .activity
               width : 80px
             .actions

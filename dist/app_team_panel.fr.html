@@ -57,6 +57,34 @@
                 Créer un groupe
               </button>
             </header>
+            
+          <div class="sub-wrapper tab">
+            <ul class="table">
+              <li class="theader">
+                <div class="col name">Nom</div>
+                <div class="col users-qty">Utilisateurs</div>
+                <div class="col actions">Actions</div>
+              </li>
+              
+              <li class="row">
+                <div class="col name" title="All members">All members</div>
+                <div class="col users-qty"><a class="text-link" href="#">2</a></div>
+                <div class="col actions">
+                  <button type="button" class="btn action" title="Modifier le groupe"><i class="fas fa-pencil-alt"></i></button>
+                  <button type="button" class="btn action" title="Supprimer le groupe"><i class="fas fa-trash-alt"></i></i></button>
+                </div>
+              </li>
+              <li class="row">
+                <div class="col name" title="All members">Group test</div>
+                <div class="col users-qty"><a class="text-link" href="#">1</a></div>
+                <div class="col actions">
+                  <button type="button" class="btn action" title="Modifier le groupe"><i class="fas fa-pencil-alt"></i></button>
+                  <button type="button" class="btn action" title="Supprimer le groupe"><i class="fas fa-trash-alt"></i></i></button>
+                </div>
+              </li>
+            </ul>
+          </div>
+              
 
           </div>
 
@@ -73,134 +101,187 @@
 
           <div class="sub-wrapper tab has-filter">
             <div class="filter-bar">
-              Filtre : 
+              Filtre : <input class="dark-input" type="text" placeholder="User email">
+            </div>
+            <div class="theader">
+              <div class="col chkbx"></div>
+              <div class="col mail"><span class="listing-btn"><i class="fas fa-sort-down"></i> Email</span></div>
+              <div class="col role"><span class="listing-btn"><i class="fas fa-sort-down"></i> Role</span></div>
+              <div class="col status">Status</div>
+              <div class="col activity">Last activity</div>
+              <div class="col actions">Actions</div>
             </div>
             <ul class="table">
-              <li class="theader">
-                <div class="col chkbx"></div>
-                <div class="col mail">Email</div>
-                <div class="col role">Role</div>
-                <div class="col status">Status</div>
-                <div class="col activity">Last activity</div>
-                <div class="col actions">Actions</div>
-              </li>
+              
               <li class="row">
-                <div class="col chkbx"><input type="checkbox"></div>
-                <div class="col mail">admqsdqsin@ar.com</div>
+                <div class="col chkbx">
+                  <label class="custom-chkbx-wrapper">
+                    <input type="checkbox">
+                    <span class="custom-chkbx small"></span>
+                  </label>
+                </div>
+                <div class="col mail" title="admqsdqsin@ar.com">admqsdqsin@ar.com</div>
                 <div class="col role">admin</div>
                 <div class="col status">actif</div>
                 <div class="col activity">hier</div>
                 <div class="col actions">
-                  <i class="fas fa-users"></i>
-                  <i class="far fa-arrow-alt-circle-right"></i>
-                  <i class="fas fa-user-minus"></i>
+                  <button disabled type="button" class="btn action"><i class="fas fa-users"></i></button>
+                  <button type="button" class="btn action"><i class="far fa-arrow-alt-circle-right"></i></button>
+                  <button type="button" class="btn action"><i class="fas fa-user-minus"></i></button>
                 </div>
               </li>
-              
+
               <li class="row">
-                <div class="col chkbx"></div>
+                <div class="col chkbx">
+                  <label class="custom-chkbx-wrapper">
+                    <input type="checkbox">
+                    <span class="custom-chkbx small"></span>
+                  </label>
+                </div>
                 <div class="col mail">admqsdqsidfqsfdqdfqdfdfn@ar.com</div>
-                <div class="col role">membre invité</div><div class="col status">en attente</div>
+                <div class="col role">
+                  <div class="custom-select-box small">
+                    <select name="role-type">
+                      <option value="admin">admin</option>
+                      <option selected value="guest">membre</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col status">invité</div>
                 <div class="col activity">aujourd'hui</div>
-                <div class="col actions">- b t n s -</div>
+                <div class="col actions">
+                  <button disabled type="button" class="btn action"><i class="fas fa-users"></i></button>
+                  <button type="button" class="btn action"><i class="far fa-arrow-alt-circle-right"></i></button>
+                  <button type="button" class="btn action"><i class="fas fa-user-minus"></i></button>
+                </div>
               </li>
+
+
+
+
               <li class="row">
-                <div class="col chkbx"></div>
-                <div class="col mail">hello@ar.com</div>
-                <div class="col role">membre</div><div class="col status">actif</div>
+                <div class="col chkbx">
+                  <label class="custom-chkbx-wrapper">
+                    <input type="checkbox">
+                    <span class="custom-chkbx small"></span>
+                  </label>
+                </div>
+                <div class="col mail">user@ar.com</div>
+                <div class="col role">
+                  <div class="custom-select-box small">
+                    <select name="role-type">
+                      <option value="admin">admin</option>
+                      <option selected value="guest">membre</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col status">actif</div>
                 <div class="col activity">hier</div>
-                <div class="col actions">- b t n s -</div>
+                <div class="col actions">
+                  <button disabled type="button" class="btn action"><i class="fas fa-users"></i></button>
+                  <button type="button" class="btn action"><i class="far fa-arrow-alt-circle-right"></i></button>
+                  <button type="button" class="btn action"><i class="fas fa-user-minus"></i></button>
+                </div>
               </li>
-              <li class="row">
-                <div class="col chkbx"></div>
-                <div class="col mail">hello@ar.com</div>
-                <div class="col role">membre</div><div class="col status">actif</div>
-                <div class="col activity">hier</div>
-                <div class="col actions">- b t n s -</div>
-              </li>
-              <li class="row">
-                <div class="col chkbx"></div>
-                <div class="col mail">hello@ar.com</div>
-                <div class="col role">membre</div><div class="col status">actif</div>
-                <div class="col activity">hier</div>
-                <div class="col actions">- b t n s -</div>
-              </li>
-              <li class="row">
-                <div class="col chkbx"></div>
-                <div class="col mail">hello@ar.com</div>
-                <div class="col role">membre</div><div class="col status">actif</div>
-                <div class="col activity">hier</div>
-                <div class="col actions">- b t n s -</div>
-              </li>
-              <li class="row">
-                <div class="col chkbx"></div>
-                <div class="col mail">hello@ar.com</div>
-                <div class="col role">membre</div><div class="col status">actif</div>
-                <div class="col activity">hier</div>
-                <div class="col actions">- b t n s -</div>
-              </li>
-              <li class="row">
-                <div class="col chkbx"></div>
-                <div class="col mail">hello@ar.com</div>
-                <div class="col role">membre</div><div class="col status">actif</div>
-                <div class="col activity">hier</div>
-                <div class="col actions">- b t n s -</div>
-              </li>
-              <li class="row">
-                <div class="col chkbx"></div>
-                <div class="col mail">hello@ar.com</div>
-                <div class="col role">membre</div><div class="col status">actif</div>
-                <div class="col activity">hier</div>
-                <div class="col actions">- b t n s -</div>
-              </li>
-              <li class="row">
-                <div class="col chkbx"></div>
-                <div class="col mail">hello@ar.com</div>
-                <div class="col role">membre</div><div class="col status">actif</div>
-                <div class="col activity">hier</div>
-                <div class="col actions">- b t n s -</div>
-              </li>
-              <li class="row">
-                <div class="col chkbx"></div>
-                <div class="col mail">hello@ar.com</div>
-                <div class="col role">membre</div><div class="col status">actif</div>
-                <div class="col activity">hier</div>
-                <div class="col actions">- b t n s -</div>
-              </li>
-              <li class="row">
-                <div class="col chkbx"></div>
-                <div class="col mail">hello@ar.com</div>
-                <div class="col role">membre</div><div class="col status">actif</div>
-                <div class="col activity">hier</div>
-                <div class="col actions">- b t n s -</div>
-              </li>
-              <li class="row">
-                <div class="col chkbx"></div>
-                <div class="col mail">hello@ar.com</div>
-                <div class="col role">membre</div><div class="col status">actif</div>
-                <div class="col activity">hier</div>
-                <div class="col actions">- b t n s -</div>
-              </li>
-              <li class="row">
-                <div class="col chkbx"></div>
-                <div class="col mail">hello@ar.com</div>
-                <div class="col role">membre</div><div class="col status">actif</div>
-                <div class="col activity">hier</div>
-                <div class="col actions">- b t n s -</div>
-              </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              
             </ul>
+            <div class="tfooter">
+              <div class="selectAll-action">
+                <label class="custom-chkbx-wrapper">
+                  <input type="checkbox">
+                  <span class="custom-chkbx small"></span>
+                  Tout sélectionner
+                </label>
+              </div>
+              <div class="applyAll-actions">
+                <span class="discreet">
+                  Appliquer à la sélection :
+                </span>
+                <div class="col actions">
+                  <span class="btn action"><i class="fas fa-users"></i></span>
+                  <span class="btn action"><i class="far fa-arrow-alt-circle-right"></i></span>
+                  <span class="btn action"><i class="fas fa-user-minus"></i></span>
+                </div>
+              </div>
+            </div>
           </div>
           
         </div>
 
         <div class="visitors-panel panel-wrapper">
           <header>
-            <h2>Lorem</h2>
+            <h2>Visitors</h2>
             <button class="btn dark outlined">
               <i class="fas fa-plus"></i>
               Inviter des visiteurs
             </button>
           </header>
+
+          <div class="sub-wrapper tab has-filter">
+            <div class="filter-bar">
+              Filtre : <input class="dark-input" type="text" placeholder="User email">
+            </div>
+            <div class="theader">
+              <div class="col chkbx"></div>
+              <div class="col mail"><span class="listing-btn"><i class="fas fa-sort-down"></i> Email</span></div>
+              <div class="col status">Status</div>
+              <div class="col activity">Last activity</div>
+              <div class="col actions">Actions</div>
+            </div>
+            <ul class="table">
+              <li class="row">
+                <div class="col chkbx">
+                  <label class="custom-chkbx-wrapper">
+                    <input type="checkbox">
+                    <span class="custom-chkbx small"></span>
+                  </label>
+                </div>
+                <div class="col mail" title="admqsdqsin@ar.com">admqsdqsin@ar.com</div>
+                <div class="col status">actif</div>
+                <div class="col activity">hier</div>
+                <div class="col actions">
+                  <button disabled type="button" class="btn action"><i class="fas fa-users"></i></button>
+                  <button type="button" class="btn action"><i class="far fa-arrow-alt-circle-right"></i></button>
+                  <button type="button" class="btn action"><i class="fas fa-user-minus"></i></button>
+                </div>
+              </li>
+              
+            </ul>
+              
+            <div class="tfooter">
+              <div class="selectAll-action">
+                <label class="custom-chkbx-wrapper">
+                  <input type="checkbox">
+                  <span class="custom-chkbx small"></span>
+                  Tout sélectionner
+                </label>
+              </div>
+              <div class="applyAll-actions">
+                <span class="discreet">
+                  Appliquer à la sélection :
+                </span>
+                <div class="col actions">
+                  <span class="btn action"><i class="fas fa-users"></i></span>
+                  <span class="btn action"><i class="far fa-arrow-alt-circle-right"></i></span>
+                  <span class="btn action"><i class="fas fa-user-minus"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
           
         </div>
 

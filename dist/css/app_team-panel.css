@@ -44,6 +44,11 @@ body * {
   font-size: 1rem;
   color: rgba(255, 255, 255, 0.85);
   padding: 8px 14px;
+  transition: background .1s;
+}
+
+.dark-input:hover {
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .custom-chkbx-wrapper {
@@ -84,6 +89,18 @@ body * {
   transition: opacity .1s, transform .1s;
 }
 
+.custom-chkbx-wrapper .custom-chkbx.small {
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+}
+
+.custom-chkbx-wrapper .custom-chkbx.small::before {
+  width: 8px;
+  height: 8px;
+  border-radius: 1px;
+}
+
 .custom-chkbx-wrapper input:checked + .custom-chkbx {
   border: 1px solid #f1852b;
 }
@@ -101,8 +118,61 @@ body * {
   border: 1px solid #f1852b;
 }
 
+.custom-select-box {
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.05);
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.85);
+  padding: 4px 8px;
+  transition: background .1s;
+}
+
+.custom-select-box:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.custom-select-box select {
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: block;
+  background: none;
+  color: white;
+  border: none;
+}
+
+.custom-select-box select:focus {
+  border: none;
+  outline: none;
+}
+
+.custom-select-box select option {
+  background: #444;
+  border: 1px solid #555;
+  padding: 4px 6px;
+}
+
+.custom-select-box.small {
+  padding: 0 2px;
+  height: 26px;
+}
+
 /* ----------------- */
 /* ----------------- */
+.app-cmpnt_team-dashboard .text-link {
+  color: inherit;
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 1400px) {
+  .app-cmpnt_team-dashboard .container {
+    justify-content: center;
+  }
+}
+
 .app-cmpnt_team-dashboard .container {
   height: calc(100vh - 140px);
   background: #2c2c2c;
@@ -114,23 +184,26 @@ body * {
 
 .app-cmpnt_team-dashboard .container .left-panels-wrapper {
   width: 24%;
-  min-width: 350px;
+  min-width: 340px;
+  max-width: 500px;
 }
 
 .app-cmpnt_team-dashboard .container .members-panel {
   width: 100%;
   flex-shrink: 10;
-  min-width: 450px;
+  min-width: 500px;
+  max-width: 800px;
 }
 
 .app-cmpnt_team-dashboard .container .visitors-panel {
   width: 28%;
-  min-width: 400px;
+  min-width: 450px;
+  max-width: 700px;
 }
 
 .app-cmpnt_team-dashboard .container .left-panels-wrapper, .app-cmpnt_team-dashboard .container .members-panel, .app-cmpnt_team-dashboard .container .visitors-panel {
   height: 100%;
-  min-height: 400px;
+  min-height: 460px;
 }
 
 .app-cmpnt_team-dashboard .container .left-panels-wrapper .team-panel, .app-cmpnt_team-dashboard .container .left-panels-wrapper .groups-panel {
@@ -219,10 +292,15 @@ body * {
 }
 
 .app-cmpnt_team-dashboard .container .panel-wrapper header .btn.dark.outlined {
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  height: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  height: 34px;
   background: transparent;
   color: rgba(255, 255, 255, 0.9);
+  transition: background .1s;
+}
+
+.app-cmpnt_team-dashboard .container .panel-wrapper header .btn.dark.outlined:hover {
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper {
@@ -286,11 +364,12 @@ body * {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  padding-left: 20px;
 }
 
 .app-cmpnt_team-dashboard .container .panel-wrapper.team-panel .team-info .text-link {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
 }
 
 .app-cmpnt_team-dashboard .container .panel-wrapper.team-panel .team-info .text-link:hover {
@@ -304,15 +383,38 @@ body * {
   justify-content: center;
   justify-content: flex-start;
   color: rgba(255, 255, 255, 0.4);
-  padding: 0 10px;
-  font-size: .8rem;
+  font-size: .9rem;
   border-radius: 5px 5px 0 0;
-  height: 40px;
+  height: 50px;
+  padding-left: 15px;
+}
+
+.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .filter-bar .dark-input {
+  height: 30px;
+  padding: 2px 10px;
+  margin-left: 10px;
+  font-size: .9rem;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .filter-bar .dark-input:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .filter-bar .dark-input::placeholder {
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper.has-filter .table {
   border-radius: 0 0 5px 5px;
-  height: calc(100% - 40px);
+  height: calc(100% - 50px - 40px - 50px);
+}
+
+.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .theader {
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
 
 .app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .table {
@@ -328,13 +430,11 @@ body * {
   position: relative;
 }
 
-.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .table .theader, .app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .table .row {
+.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .row, .app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .theader {
   display: flex;
-  height: 32px;
-  line-height: 32px;
 }
 
-.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .table .theader .col, .app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .table .row .col {
+.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .row .col, .app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .theader .col {
   flex-shrink: 0;
   text-overflow: ellipsis;
   display: inline-block;
@@ -342,66 +442,235 @@ body * {
   white-space: nowrap;
 }
 
-.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .table .theader .col + .col, .app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .table .row .col + .col {
+.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .row .col + .col, .app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .theader .col + .col {
   margin-left: 5px;
 }
 
-.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .table .theader {
-  position: sticky;
+.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .theader {
   background: #494949;
-  top: 0;
-  left: 0;
+  width: 100%;
+  height: 40px;
+  line-heght: 40px;
   z-index: 5;
 }
 
-.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .table .theader .col {
+.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .theader .col {
   font-weight: normal;
   font-size: .9rem;
   opacity: .4;
+  overflow: visible;
+  transition: opacity .2s;
 }
 
-.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .table .row {
+.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .theader .col.role, .app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .theader .col.mail {
+  opacity: 1;
+  cursor: default;
+}
+
+.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .theader .col.role .listing-btn, .app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .theader .col.mail .listing-btn {
+  opacity: .4;
+  position: relative;
+  transition: opacity .1s;
+}
+
+.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .theader .col.role .listing-btn .fas, .app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .theader .col.mail .listing-btn .fas {
+  position: absolute;
+  left: -12px;
+  top: 1px;
+  font-size: .8em;
+}
+
+.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .theader .col.role .listing-btn:hover, .app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .theader .col.mail .listing-btn:hover {
+  cursor: pointer;
+  opacity: .8;
+}
+
+.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .row {
   background: rgba(0, 0, 0, 0.1);
+  height: 32px;
+  line-height: 32px;
 }
 
-.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .table .row:nth-child(even) {
+.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .row:nth-child(even) {
   background: rgba(255, 255, 255, 0.03);
 }
 
-.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .table .row .col {
+.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .row .col {
   font-size: .9rem;
   opacity: .9;
 }
 
-.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .table .actions .far, .app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .table .actions .fas {
+.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .row .col .custom-select-box {
+  position: relative;
+  top: 3px;
+  width: calc(100% - 8px);
+}
+
+.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .col.chkbx .custom-chkbx-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .actions {
+  cursor: default;
+}
+
+.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .actions .btn {
+  background: none;
+  border: none;
+  outline: none;
+  width: auto;
+  padding: 2px 4px;
+  color: white;
+  opacity: .65;
+}
+
+.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .actions .btn .fas, .app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .actions .btn .far {
   font-size: .9rem;
 }
 
-.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .table .actions .far + .far, .app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .table .actions .far + .fas, .app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .table .actions .fas + .far, .app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .table .actions .fas + .fas {
-  margin-left: 5px;
+.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .actions .btn .fa-users {
+  font-size: .9rem;
+  vertical-align: middle;
 }
 
-.app-cmpnt_team-dashboard .container .panel-wrapper.members-panel .sub-wrapper .row .chkbx, .app-cmpnt_team-dashboard .container .panel-wrapper.members-panel .sub-wrapper .theader .chkbx {
+.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .actions .btn .fa-arrow-alt-circle-right {
+  font-size: .9rem;
+  vertical-align: middle;
+}
+
+.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .actions .btn .fa-user-minus {
+  font-size: .8rem;
+}
+
+.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .actions .btn .fa-pencil-alt {
+  font-size: .8rem;
+}
+
+.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .actions .btn .fa-trash-alt {
+  font-size: .8rem;
+}
+
+.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .actions .btn:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .actions .btn:disabled, .app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .actions .btn:disabled:hover {
+  opacity: .1;
+}
+
+.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .actions .btn:disabled {
+  cursor: default;
+}
+
+.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .actions .btn + .btn {
+  margin-left: 1px;
+}
+
+.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .tfooter {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  font-size: .85rem;
+  position: sticky;
+  background: #494949;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .tfooter .selectAll-action {
+  width: 200px;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .tfooter .selectAll-action .custom-chkbx-wrapper {
+  margin-left: 10px;
+}
+
+.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .tfooter .selectAll-action .custom-chkbx-wrapper .custom-chkbx {
+  position: relative;
+  top: 1px;
+  margin-right: 10px;
+}
+
+.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .tfooter .applyAll-actions {
+  margin-left: auto;
+  padding-right: 16px;
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+}
+
+.app-cmpnt_team-dashboard .container .panel-wrapper .sub-wrapper .tfooter .applyAll-actions .discreet {
+  font-style: italic;
+  opacity: .5;
+  margin-right: 20px;
+}
+
+.app-cmpnt_team-dashboard .container .panel-wrapper.members-panel .sub-wrapper .row .chkbx, .app-cmpnt_team-dashboard .container .panel-wrapper.members-panel .sub-wrapper .theader .chkbx, .app-cmpnt_team-dashboard .container .panel-wrapper.members-panel .sub-wrapper .tfooter .chkbx {
   width: 30px;
 }
 
-.app-cmpnt_team-dashboard .container .panel-wrapper.members-panel .sub-wrapper .row .mail, .app-cmpnt_team-dashboard .container .panel-wrapper.members-panel .sub-wrapper .theader .mail {
+.app-cmpnt_team-dashboard .container .panel-wrapper.members-panel .sub-wrapper .row .mail, .app-cmpnt_team-dashboard .container .panel-wrapper.members-panel .sub-wrapper .theader .mail, .app-cmpnt_team-dashboard .container .panel-wrapper.members-panel .sub-wrapper .tfooter .mail {
   width: 100%;
   flex-shrink: 4;
 }
 
-.app-cmpnt_team-dashboard .container .panel-wrapper.members-panel .sub-wrapper .row .role, .app-cmpnt_team-dashboard .container .panel-wrapper.members-panel .sub-wrapper .theader .role {
-  width: 60px;
+.app-cmpnt_team-dashboard .container .panel-wrapper.members-panel .sub-wrapper .row .role, .app-cmpnt_team-dashboard .container .panel-wrapper.members-panel .sub-wrapper .theader .role, .app-cmpnt_team-dashboard .container .panel-wrapper.members-panel .sub-wrapper .tfooter .role {
+  width: 90px;
 }
 
-.app-cmpnt_team-dashboard .container .panel-wrapper.members-panel .sub-wrapper .row .status, .app-cmpnt_team-dashboard .container .panel-wrapper.members-panel .sub-wrapper .theader .status {
-  width: 60px;
+.app-cmpnt_team-dashboard .container .panel-wrapper.members-panel .sub-wrapper .row .status, .app-cmpnt_team-dashboard .container .panel-wrapper.members-panel .sub-wrapper .theader .status, .app-cmpnt_team-dashboard .container .panel-wrapper.members-panel .sub-wrapper .tfooter .status {
+  width: 50px;
 }
 
-.app-cmpnt_team-dashboard .container .panel-wrapper.members-panel .sub-wrapper .row .activity, .app-cmpnt_team-dashboard .container .panel-wrapper.members-panel .sub-wrapper .theader .activity {
+.app-cmpnt_team-dashboard .container .panel-wrapper.members-panel .sub-wrapper .row .activity, .app-cmpnt_team-dashboard .container .panel-wrapper.members-panel .sub-wrapper .theader .activity, .app-cmpnt_team-dashboard .container .panel-wrapper.members-panel .sub-wrapper .tfooter .activity {
   width: 80px;
 }
 
-.app-cmpnt_team-dashboard .container .panel-wrapper.members-panel .sub-wrapper .row .actions, .app-cmpnt_team-dashboard .container .panel-wrapper.members-panel .sub-wrapper .theader .actions {
+.app-cmpnt_team-dashboard .container .panel-wrapper.members-panel .sub-wrapper .row .actions, .app-cmpnt_team-dashboard .container .panel-wrapper.members-panel .sub-wrapper .theader .actions, .app-cmpnt_team-dashboard .container .panel-wrapper.members-panel .sub-wrapper .tfooter .actions {
+  width: 100px;
+}
+
+.app-cmpnt_team-dashboard .container .panel-wrapper.groups-panel .sub-wrapper .row .name, .app-cmpnt_team-dashboard .container .panel-wrapper.groups-panel .sub-wrapper .theader .name, .app-cmpnt_team-dashboard .container .panel-wrapper.groups-panel .sub-wrapper .tfooter .name {
+  width: 100%;
+  padding-left: 12px;
+  flex-shrink: 4;
+}
+
+.app-cmpnt_team-dashboard .container .panel-wrapper.groups-panel .sub-wrapper .row .users-qty, .app-cmpnt_team-dashboard .container .panel-wrapper.groups-panel .sub-wrapper .theader .users-qty, .app-cmpnt_team-dashboard .container .panel-wrapper.groups-panel .sub-wrapper .tfooter .users-qty {
+  width: 80px;
+}
+
+.app-cmpnt_team-dashboard .container .panel-wrapper.groups-panel .sub-wrapper .row .actions, .app-cmpnt_team-dashboard .container .panel-wrapper.groups-panel .sub-wrapper .theader .actions, .app-cmpnt_team-dashboard .container .panel-wrapper.groups-panel .sub-wrapper .tfooter .actions {
+  width: 70px;
+}
+
+.app-cmpnt_team-dashboard .container .panel-wrapper.visitors-panel .sub-wrapper .row .chkbx, .app-cmpnt_team-dashboard .container .panel-wrapper.visitors-panel .sub-wrapper .theader .chkbx, .app-cmpnt_team-dashboard .container .panel-wrapper.visitors-panel .sub-wrapper .tfooter .chkbx {
+  width: 30px;
+}
+
+.app-cmpnt_team-dashboard .container .panel-wrapper.visitors-panel .sub-wrapper .row .mail, .app-cmpnt_team-dashboard .container .panel-wrapper.visitors-panel .sub-wrapper .theader .mail, .app-cmpnt_team-dashboard .container .panel-wrapper.visitors-panel .sub-wrapper .tfooter .mail {
+  width: 100%;
+  flex-shrink: 4;
+}
+
+.app-cmpnt_team-dashboard .container .panel-wrapper.visitors-panel .sub-wrapper .row .role, .app-cmpnt_team-dashboard .container .panel-wrapper.visitors-panel .sub-wrapper .theader .role, .app-cmpnt_team-dashboard .container .panel-wrapper.visitors-panel .sub-wrapper .tfooter .role {
+  width: 90px;
+}
+
+.app-cmpnt_team-dashboard .container .panel-wrapper.visitors-panel .sub-wrapper .row .status, .app-cmpnt_team-dashboard .container .panel-wrapper.visitors-panel .sub-wrapper .theader .status, .app-cmpnt_team-dashboard .container .panel-wrapper.visitors-panel .sub-wrapper .tfooter .status {
+  width: 50px;
+}
+
+.app-cmpnt_team-dashboard .container .panel-wrapper.visitors-panel .sub-wrapper .row .activity, .app-cmpnt_team-dashboard .container .panel-wrapper.visitors-panel .sub-wrapper .theader .activity, .app-cmpnt_team-dashboard .container .panel-wrapper.visitors-panel .sub-wrapper .tfooter .activity {
+  width: 80px;
+}
+
+.app-cmpnt_team-dashboard .container .panel-wrapper.visitors-panel .sub-wrapper .row .actions, .app-cmpnt_team-dashboard .container .panel-wrapper.visitors-panel .sub-wrapper .theader .actions, .app-cmpnt_team-dashboard .container .panel-wrapper.visitors-panel .sub-wrapper .tfooter .actions {
   width: 100px;
 }
