@@ -40,22 +40,22 @@ ex_okrf
 		</p>
 		<ul>
 			<li>
-				<u class="emphasized">Inspirational</u>: To engage the team in something bigger than just running the business as usual;
+				<span class="emphasized">Inspirational</span>: To engage the team in something bigger than just running the business as usual;
 			</li>
 			<li>
-				<u class="emphasized">Attainable</u>: Even though it is recommended to stretch the goals you set slightly, there is a risk of causing counterproductive effects with over-demanding objectives;
+				<span class="emphasized">Attainable</span>: Even though it is recommended to stretch the goals you set slightly, there is a risk of causing counterproductive effects with over-demanding objectives;
 			</li>
 			<li>
-				<u class="emphasized">Doable in a quarter</u>: That is the typical cadence of OKRs. If you set a goal that obviously can’t be reached within the next 3 months, it might lose its driving power.
+				<span class="emphasized">Doable in a quarter</span>: That is the typical cadence of OKRs. If you set a goal that obviously can’t be reached within the next 3 months, it might lose its driving power.
 			</li>
 			<li>
-				<u class="emphasized">Controllable by the team</u>: Whoever sets the objective, the team must be fully able to control the outcome, meaning that it should possess all means to achieve it.
+				<span class="emphasized">Controllable by the team</span>: Whoever sets the objective, the team must be fully able to control the outcome, meaning that it should possess all means to achieve it.
 			</li>
 			<li>
-				<u class="emphasized">Provide business value</u>: That is an obvious criterion; however, it is essential to remind that objectives should create tangible value for the organization if attained.
+				<span class="emphasized">Provide business value</span>: That is an obvious criterion; however, it is essential to remind that objectives should create tangible value for the organization if attained.
 			</li>
 			<li>
-				<u class="emphasized">Qualitative</u>: You should never introduce any numbers in an objective.
+				<span class="emphasized">Qualitative</span>: You should never introduce any numbers in an objective.
 			</li>
 		</ul>
 
@@ -66,44 +66,43 @@ ex_okrf
 		</p>
 		<ul>
 			<li>
-				<u class="emphasized">Quantitative</u>: Key results are always quantitative so that you can use numbers to determine whether or not the goal was met;
+				<span class="emphasized">Quantitative</span>: Key results are always quantitative so that you can use numbers to determine whether or not the goal was met;
 			</li>
 			<li>
-				<u class="emphasized">Aspirational</u>: Ambitious yet attainable targets will foster the right level of motivation and energy in the team;
+				<span class="emphasized">Aspirational</span>: Ambitious yet attainable targets will foster the right level of motivation and energy in the team;
 			</li>
 			<li>
-				<u class="emphasized">Specific</u>: Avoiding ambiguity will ensure shared understanding within and outside the team;
+				<span class="emphasized">Specific</span>: Avoiding ambiguity will ensure shared understanding within and outside the team;
 			</li>
 			<li>
-				<u class="emphasized">Owned</u>: Even if top management may inspire the strategy, OKRs should mostly originate from the team itself;
+				<span class="emphasized">Owned</span>: Even if top management may inspire the strategy, OKRs should mostly originate from the team itself;
 			</li>
 			<li>
-				<u class="emphasized">Progress-Based</u>: Following indicators that can be measured frequently, let’s say every two weeks, contributes to the team’s motivation;
+				<span class="emphasized">Progress-Based</span>: Following indicators that can be measured frequently, let’s say every two weeks, contributes to the team’s motivation;
 			</li>
 			<li>
-				<u class="emphasized">Vertically and horizontally aligned</u>: The OKRs should be reviewed by both leaders and other teams you might depend on to ensure alignment at the organization level;
+				<span class="emphasized">Vertically and horizontally aligned</span>: The OKRs should be reviewed by both leaders and other teams you might depend on to ensure alignment at the organization level;
 			</li>
 			<li>
-				<u class="emphasized">Driving the right behavior</u>: Before setting your objective, you should think twice about how it could trigger an unethical behavior among members of the team.
+				<span class="emphasized">Driving the right behavior</span>: Before setting your objective, you should think twice about how it could trigger an unethical behavior among members of the team.
 			</li>
 		</ul>
-
 		<p>
 			For scoring objectives, the OKR Framework suggests using a 0-1 scale:
 		</p>
 
 		<ul>
 			<li>
-				<u class="emphasized">1</u>: This level corresponds to your stretch and ambitious goal with the objective to foster breakthrough thinking;
+				<span class="emphasized">1</span> : This level corresponds to your stretch and ambitious goal with the objective to foster breakthrough thinking;
 			</li>
 			<li>
-				<u class="emphasized">0.7</u>: It represents a target difficult to reach while remaining achievable regarding your past performances;
+				<span class="emphasized">0,7</span> : It represents a target difficult to reach while remaining achievable regarding your past performances;
 			</li>
 			<li>
-				<u class="emphasized">0.3</u>: It characterizes a “business as usual” target level that can be attained with no additional efforts or out-of-the-box ideas;
+				<span class="emphasized">0,3</span> : It characterizes a “business as usual” target level that can be attained with no additional efforts or out-of-the-box ideas;
 			</li>
 			<li>
-				<u class="emphasized">0</u>: No progress.
+				<span class="emphasized">0</span> : No progress.
 			</li>
 		</ul>
 		---
@@ -137,22 +136,22 @@ ex_okrf
 		</p>
 		<ul>
 			<li>
-				<u class="emphasized">Inspirant </u>: Le but est de faire adhérer l’équipe à une ambition qui dépasse la simple gestion des affaires courantes ;
+				<span class="emphasized">Inspirant </span>: Le but est de faire adhérer l’équipe à une ambition qui dépasse la simple gestion des affaires courantes ;
 			</li>
 			<li>
-				<u class="emphasized">Réalisable </u>: Même si la philosophie des OKRs suggère de fixer des objectifs relativement ambitieux, pour autant, ceux-ci ne doivent pas être perçus comme insensés, au risque d’avoir un effet contre-productif et démotiver votre équipe ;
+				<span class="emphasized">Réalisable </span>: Même si la philosophie des OKRs suggère de fixer des objectifs relativement ambitieux, pour autant, ceux-ci ne doivent pas être perçus comme insensés, au risque d’avoir un effet contre-productif et démotiver votre équipe ;
 			</li>
 			<li>
-				<u class="emphasized">Atteignable en un trimestre </u>: Les OKRs s’inscrivant généralement dans un cycle de 3 mois, si vous définissez un objectif qui n’a objectivement aucune chance d’être atteint au terme de cette période, vous prenez le risque d’atténuer la pertinence du challenge et, par conséquent, d'affecter la dynamique des équipes ;
+				<span class="emphasized">Atteignable en un trimestre </span>: Les OKRs s’inscrivant généralement dans un cycle de 3 mois, si vous définissez un objectif qui n’a objectivement aucune chance d’être atteint au terme de cette période, vous prenez le risque d’atténuer la pertinence du challenge et, par conséquent, d'affecter la dynamique des équipes ;
 			</li>
 			<li>
-				<u class="emphasized">Contrôlable par l’équipe </u>: Quel que soit l’objectif défini, l’équipe doit être pleinement capable de parvenir à la cible de façon autonome, ce qui signifie qu’elle doit posséder tous les moyens d’y parvenir ;
+				<span class="emphasized">Contrôlable par l’équipe </span>: Quel que soit l’objectif défini, l’équipe doit être pleinement capable de parvenir à la cible de façon autonome, ce qui signifie qu’elle doit posséder tous les moyens d’y parvenir ;
 			</li>
 			<li>
-				<u class="emphasized">Créant de la valeur </u>: C’est un critère qui peut paraître évident, mais il est parfois opportun de prendre du recul et remettre les objectifs de l’équipe en perspective de ceux de l’organisation ;
+				<span class="emphasized">Créant de la valeur </span>: C’est un critère qui peut paraître évident, mais il est parfois opportun de prendre du recul et remettre les objectifs de l’équipe en perspective de ceux de l’organisation ;
 			</li>
 			<li>
-				<u class="emphasized">Qualitatif </u>: Les objectifs ne doivent pas contenir d’éléments chiffrés, ils doivent rester courts et textuels.
+				<span class="emphasized">Qualitatif </span>: Les objectifs ne doivent pas contenir d’éléments chiffrés, ils doivent rester courts et textuels.
 			</li>
 		</ul>
 
@@ -163,25 +162,25 @@ ex_okrf
 		</p>
 		<ul>
 			<li>
-				<u class="emphasized">Quantitatifs </u>: Les <i>key results</i> sont toujours quantitatifs, de façon à pouvoir utiliser des indicateurs objectifs pour déterminer si oui ou non, et dans quelle mesure, une cible a été atteinte ;
+				<span class="emphasized">Quantitatifs </span>: Les <i>key results</i> sont toujours quantitatifs, de façon à pouvoir utiliser des indicateurs objectifs pour déterminer si oui ou non, et dans quelle mesure, une cible a été atteinte ;
 			</li>
 			<li>
-				<u class="emphasized">Ambitieux </u>: Définir des objectifs ambitieux mais atteignables participe à entretenir un niveau de motivation optimal au sein de l’équipe ;
+				<span class="emphasized">Ambitieux </span>: Définir des objectifs ambitieux mais atteignables participe à entretenir un niveau de motivation optimal au sein de l’équipe ;
 			</li>
 			<li>
-				<u class="emphasized">Spécifiques </u>: Éviter les énoncés ambiguës, combinant plusieurs sujets. Un bon key result doit être précis et facilement interprété par toutes les parties prenantes ;
+				<span class="emphasized">Spécifiques </span>: Éviter les énoncés ambiguës, combinant plusieurs sujets. Un bon key result doit être précis et facilement interprété par toutes les parties prenantes ;
 			</li>
 			<li>
-				<u class="emphasized">Responsabilisant </u>: Même si le management inspire généralement la stratégie, les OKRs doivent principalement émerger de l’équipe elle-même ; 
+				<span class="emphasized">Responsabilisant </span>: Même si le management inspire généralement la stratégie, les OKRs doivent principalement émerger de l’équipe elle-même ; 
 			</li>
 			<li>
-				<u class="emphasized">Mesurables fréquemment </u>: Pouvoir régulièrement mesurer les indicateurs, par exemple, toutes les deux semaines, permet à l’équipe de rester pleinement concentrée sur l’atteinte de ses objectifs ;
+				<span class="emphasized">Mesurables fréquemment </span>: Pouvoir régulièrement mesurer les indicateurs, par exemple, toutes les deux semaines, permet à l’équipe de rester pleinement concentrée sur l’atteinte de ses objectifs ;
 			</li>
 			<li>
-				<u class="emphasized">Cohérents avec le reste de l’organisation </u>: Afin de déceler les éventuelles dépendances ou incohérences dans les objectifs, les OKRs doivent toujours être revus par le management et par les autres équipes ;
+				<span class="emphasized">Cohérents avec le reste de l’organisation </span>: Afin de déceler les éventuelles dépendances ou incohérences dans les objectifs, les OKRs doivent toujours être revus par le management et par les autres équipes ;
 			</li>
 			<li>
-				<u class="emphasized">Insufflant le bon comportement </u>: Avant de définir un objectif à atteindre, il faut penser aux éventuels impacts négatifs sur le comportement et l’éthique des membres de l’équipe.
+				<span class="emphasized">Insufflant le bon comportement </span>: Avant de définir un objectif à atteindre, il faut penser aux éventuels impacts négatifs sur le comportement et l’éthique des membres de l’équipe.
 			</li>
 		</ul>
 
@@ -191,16 +190,16 @@ ex_okrf
 
 		<ul>
 			<li>
-				<u class="emphasized">1</u>: Cette note correspond à l’atteinte totale de l’objectif ambitieux qui a été fixé ;
+				<span class="emphasized">1</span>: Cette note correspond à l’atteinte totale de l’objectif ambitieux qui a été fixé ;
 			</li>
 			<li>
-				<u class="emphasized">0.7</u>: Ce score reflète l’atteinte d’une cible ambitieuse mais relativement atteignable compte tenu des performances passées de l’équipe ;
+				<span class="emphasized">0.7</span>: Ce score reflète l’atteinte d’une cible ambitieuse mais relativement atteignable compte tenu des performances passées de l’équipe ;
 			</li>
 			<li>
-				<u class="emphasized">0.3</u>: Ce chiffre caractérise un niveau de performance pouvant être considéré comme étant “business as usual” ;
+				<span class="emphasized">0.3</span>: Ce chiffre caractérise un niveau de performance pouvant être considéré comme étant “business as usual” ;
 			</li>
 			<li>
-				<u class="emphasized">0</u>: Aucun progrès.
+				<span class="emphasized">0</span>: Aucun progrès.
 			</li>
 		</ul>
 		------
@@ -216,19 +215,19 @@ ex_okrf
 
 			<ol>
 				<li>
-					<u class="emphasized">Using OKRs to express a plan (Output OKRs)</u>: As stated above, OKRs’ purpose is to favor management by intent. Goals are benefits you expect, not specific actions or features. Remember that you should let the team define the most relevant initiatives to attain those goals.
+					<span class="emphasized">Using OKRs to express a plan (Output OKRs)</span>: As stated above, OKRs’ purpose is to favor management by intent. Goals are benefits you expect, not specific actions or features. Remember that you should let the team define the most relevant initiatives to attain those goals.
 				</li>
 				<li>
-					<u class="emphasized">Non-SMART Key Results</u>: As a reminder, SMART stands for Specific, Measurable, Ambitious, Realistic, and Time-Bound. Here, the risk is to state too vague or unrealistic goals.
+					<span class="emphasized">Non-SMART Key Results</span>: As a reminder, SMART stands for Specific, Measurable, Ambitious, Realistic, and Time-Bound. Here, the risk is to state too vague or unrealistic goals.
 				</li>
 				<li>
-					<u class="emphasized">Too Many OKRs</u>: When it comes to OKRs, less is more. Running after too many goals inexorably reduces the team’s ability to focus on what matters the most. For a specific quarter, the recommended limits are three objectives and no more than five key results by objective.
+					<span class="emphasized">Too Many OKRs</span>: When it comes to OKRs, less is more. Running after too many goals inexorably reduces the team’s ability to focus on what matters the most. For a specific quarter, the recommended limits are three objectives and no more than five key results by objective.
 				</li>
 				<li>
-					<u class="emphasized">Top-Down OKRs With No Bottom-Up</u>: Of course, top-down goals are less likely to get buy-in from the team. In addition to that, managers often lack the perspective, knowledge, and insight of the team members doing the work.
+					<span class="emphasized">Top-Down OKRs With No Bottom-Up</span>: Of course, top-down goals are less likely to get buy-in from the team. In addition to that, managers often lack the perspective, knowledge, and insight of the team members doing the work.
 				</li>
 				<li>
-					<u class="emphasized">Using OKR for performance evaluation</u>: Although it may a priori appear to be a good idea, doing so can often trigger unexpected and unethical behaviors in a team, which can be highly damageable in the long run.
+					<span class="emphasized">Using OKR for performance evaluation</span>: Although it may a priori appear to be a good idea, doing so can often trigger unexpected and unethical behaviors in a team, which can be highly damageable in the long run.
 				</li>
 			</ol>
 			---
@@ -238,20 +237,20 @@ ex_okrf
 
 			<ol>
 				<li>
-					<u class="emphasized">Utiliser les OKRs pour exprimer un plan </u>: Comme évoqué précédemment, le but des OKRs est de participer au management par intention. Les objectifs sont l’expression de bénéfices attendus, non pas de tâches ou de fonctionnalités à développer. C’est à l’équipe de décider de façon autonome les initiatives qu’elle doit prendre pour atteindre ses objectifs ;
+					<span class="emphasized">Utiliser les OKRs pour exprimer un plan </span>: Comme évoqué précédemment, le but des OKRs est de participer au management par intention. Les objectifs sont l’expression de bénéfices attendus, non pas de tâches ou de fonctionnalités à développer. C’est à l’équipe de décider de façon autonome les initiatives qu’elle doit prendre pour atteindre ses objectifs ;
 				</li>
 				<li>
-					<u class="emphasized">Définir des Key Results non SMART </u>: Pour rappel, l’acronyme SMART signifie Spécifique, Mesurable, Ambitieux, Réaliste, et temporellement défini (“Time-Bound”) ;
+					<span class="emphasized">Définir des Key Results non SMART </span>: Pour rappel, l’acronyme SMART signifie Spécifique, Mesurable, Ambitieux, Réaliste, et temporellement défini (“Time-Bound”) ;
 				</li>
 				<li>
-					<u class="emphasized">Definir trop d’OKRs </u>: En matière d’OKRs, moins est véritablement mieux. Courir après trop d’objectifs différents réduit inexorablement la capacité de l’équipe à se concentrer sur les enjeux les plus importants. Au cours d’une période donnée, il est généralement recommandé de se limiter au maximum de 3 objectifs et 5 key results par objectif ;
+					<span class="emphasized">Definir trop d’OKRs </span>: En matière d’OKRs, moins est véritablement mieux. Courir après trop d’objectifs différents réduit inexorablement la capacité de l’équipe à se concentrer sur les enjeux les plus importants. Au cours d’une période donnée, il est généralement recommandé de se limiter au maximum de 3 objectifs et 5 key results par objectif ;
 
 				</li>
 				<li>
-					<u class="emphasized">Imposer les OKRs à l’équipe </u>: Bien sûr, les grandes axes de la stratégie sont insufflés par le management, néanmoins, il est essentiel que l’équipe s’approprie ses objectifs et participe à leur définition ;
+					<span class="emphasized">Imposer les OKRs à l’équipe </span>: Bien sûr, les grandes axes de la stratégie sont insufflés par le management, néanmoins, il est essentiel que l’équipe s’approprie ses objectifs et participe à leur définition ;
 				</li>
 				<li>
-					<u class="emphasized">Utiliser les OKRs comme instrument d’évaluation RH </u>: Bien que cela puisse paraître une bonne idée a priori, dans les faits, utiliser les OKRs comme instrument d’évaluation RH peut conduire l’équipe à adopter des comportements non éthiques, particulièrement dommageables sur le long terme.
+					<span class="emphasized">Utiliser les OKRs comme instrument d’évaluation RH </span>: Bien que cela puisse paraître une bonne idée a priori, dans les faits, utiliser les OKRs comme instrument d’évaluation RH peut conduire l’équipe à adopter des comportements non éthiques, particulièrement dommageables sur le long terme.
 				</li>
 			</ol>
 			------
