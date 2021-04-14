@@ -1,0 +1,138 @@
+ui-cs-leboncoin
+	meta-title
+		Leboncoin - Remote visual collaboration - Draft
+		Leboncoin - Collaboration visuelle à distance - Draft
+	meta-description
+		How Leboncoin reimagined its innovation and problem-solving workshops to extensively leverage virtual visual collaboration’s features.
+		Comment Leboncoin a réimaginé ses ateliers d’innovation et de résolution de problèmes pour exploiter les atouts de la collaboration à distance.
+	header
+		title
+			Turning risks into opportunities<br>through remote visual collaboration
+			Transformer les aléas en opportunités<br>grâce à la collaboration visuelle à distance
+		contributor1
+			name
+				Wilfrid Lancelle
+				Wilfrid Lancelle
+			status
+				Coach in Organizational Learning<br>at <a class="text-link underline-over" href="https://www.leboncoin.fr/">Leboncoin</a>
+				Coach en Organisation Apprenante<br>chez <a class="text-link underline-over" href="https://www.leboncoin.fr/">Leboncoin</a>
+		contributor2
+			name
+				Guillaume Grillat
+				Guillaume Grillat
+			status
+				Tech Community Ambassador<br>at <a class="text-link underline-over" href="https://www.leboncoin.fr/">Leboncoin</a>
+				Tech Community Ambassador<br>chez <a class="text-link underline-over" href="https://www.leboncoin.fr/">Leboncoin</a>
+	body-content
+		------
+		<img class="illustration left-sided intro" src="imgs/MUT_Customers/customer_leboncoin/mission_qa_analyst.png" alt="Mission QA Analyst">
+		<h2>How Leboncoin reimagined its innovation and problem-solving workshops to extensively leverage virtual visual collaboration’s features</h2>
+		<p>
+			Garnering more than 250 million page views every day, Leboncoin.fr is one of the largest web platforms in France. If you don’t already know the brand, think of it as a huge online yard sale, filled with over 25 million classified ads promoting furniture, clothes, and cars for sale, apartments for rent, and a whole lot more. The website is owned by Leboncoin Group, which includes other popular websites—like Videdressing.com (luxury fashion) and Largus.fr (second-hand car sales)—in its portfolio of brands.
+		</p>
+		<p>
+			Leboncoin employs 1,500 people, including more than 250 engineers. The company’s Paris-based tech and product teams are organized into 35 feature teams and grouped into four tribes. The teams’ managers are fueled by a relentless vision to promote an Agile- and learning-based organization, one where teams and tribes have the freedom to collaborate with each other in unique and oftentimes self-directed ways. 
+		</p>
+		<h2 style="text-align: center;">>> Read more about Leboncoin’s approach to “<a href="https://medium.com/leboncoin-engineering-blog/the-spotify-model-leboncoins-experience-feedback-9f43bf734d05" target="_blank" class="name text-link underline-over">Open Organizational Work</a>” in this article written by CTO, Julien Jouhault. <<</h2>
+		<p>
+			Wilfrid Lancelle has worked at Leboncoin Group since 2011. He started his career there as a Developer, then became a Manager, and finally, over the last five years, has been helping internal teams as an Organizational Learning Coach. His mission is to help people and teams adopt a learning trial-and-error process to solve problems incrementally through innovative collaboration methods.
+		</p>
+		<p>
+			Guillaume Grillat, on the other hand, has led the company’s tech community for a little less than a year now. His number one priority is to connect the company’s tech teams with those at other businesses and organizations, so they can all share their experiences about technology, architecture, frameworks, and organizational excellence together. Throughout the year, he organizes workshops, Q&A sessions, meetups, conferences, and events in partnership with the country’s leading tech and engineering schools.
+		</p>
+		<img class="illustration right-sided" src="imgs/MUT_Customers/customer_leboncoin/environnement_de_travail.jpg" alt="Working Environment">
+		<h2>“I was afraid that participants would not have enough room to think and express themselves freely.”</h2>
+		<p>
+			Before the COVID-19 pandemic happened—forcing us all to work remotely for the foreseeable future—Wilfrid wasn’t too keen about facilitating team workshops via a digital collaboration tool. He simply thought it wasn’t possible. For him, facilitating his favorite kinds of workshops, typically inspired by the Systemic Consensing, Six Thinking Hats, and Solution Focus methods, required participants to be able to walk around, talk to each other, place sticky-notes on the wall, and collaborate in more traditionally interactive ways. 
+		</p>
+		<p>
+			“When we are all in the same room, I know what it takes to facilitate a workshop efficiently. But in a remote working environment, all of those in-person best practices suddenly went out the window.” Wilfrid was convinced that he wouldn’t be able to host a successful workshop anymore. In fact, he was afraid that “participants would not have enough room to think and express themselves freely, keep track of the agenda, stay focused on the workshop’s objectives, and encourage teams to take initiative on their own.”
+		</p>
+		<p>
+			With the help of Draft, he has now not only discovered a way to replicate real-world interactions successfully in the digital space but has also created new opportunities for collaboration and engagement that weren’t necessarily possible before. “Now, I can start a workshop at any time by inviting anyone to join a board—without ever needing them to sign in. Plus, polling booth mode gives participants an opportunity to jot down their own ideas independently without influencing one another. And last but not least, participants don’t hesitate anymore before placing sticky notes on the wall.”
+		</p>
+		<img class="illustration left-sided" src="imgs/MUT_Customers/customer_leboncoin/frise_chronologique.png" alt="Working Environment">
+		<h2>Taking full advantage of the capabilities of a digital collaborative wall</h2>
+		<p>
+			In a workshop exercise where participants were asked to place sticky-notes along a timeline, Wilfrid found that doing so remotely saved a tremendous amount of time. Participants directly put their sticky-notes at the right place while writing it, preventing pointless discussions about where sticky-notes should be exactly placed like: “It should be before. No, after!” Rather than that, participants can focus on sharing their understanding of the described situations and take more time to talk about their story and perception.
+		</p>
+		<p>
+			The goal of any workshop is to create alignment and shared understanding across teams. Taking this one step further, Wilfrid now encourages participants to present the ideas that others have posted to the digital wall, creating an environment where everyone respects and takes ownership of each other’s ideas.
+		</p>
+		<p>And because everyone loves playing with new tools, learning the basics of Draft has, almost by default, become a sort of “ice breaker” at the beginning of these workshops: “People naturally poke around a bit, add jokes as sticky-notes, and have a little fun when they discover the tool for the first time. It’s a great way to get to everyone involved!”</p>
+
+		<p>
+			Even more, leveraging digital collaborative boards also makes it possible to work on the same topic consistently across several workshops. This is incredibly convenient for tackling larger projects with extended timelines.
+		</p>
+		<p>
+			A great example of this is the work Wilfrid workshopped to help QA (Quality Assurance) Engineers and QA Analysts design a new QA organization. Documenting this process via a collaborative board has allowed them to extend the thinking process and work towards solutions to unanswered questions together—even once the workshop has ended. “We don’t have to leave a workshop with final deliverables or final decisions anymore. We just have to make the most out of our time together and then, in a future workshop, address the specific problems for which we haven’t yet found solutions.”
+		</p>
+		<p>
+			Therefore, Draft has helped create a workshop experience for Leboncoin where participants feel more empowered to bring their ideas, thoughts, and perspectives to the table without letting any perceived roadblocks limit their ability to participate freely.
+		</p>
+		<h2>From a simple collaborative wall to a genuine visual document</h2>
+		<p>
+			Guillaume has also started using Draft to organize Leboncoin’s first tech conference, lbc2. After collecting insights and expectations from various tech teams, he mapped out a series of topics and identified three potential conference themes: “Draft helped me select the hottest topics to talk about during the conference. For example, I remember seeing our CTO manipulate notes around the draft to prioritize topics by category. We determined the whole strategy in less than 15 minutes!”
+		</p>
+		<p>
+			To identify the specific problems faced by his internal tech teams and create an easy way to put them in contact with the right external teams who can help them work through and overcome those problems, Guillaume needs a tool that will allow him to: gather information, jot down ideas, map out problems and manipulate ideas, share the document with stakeholders, and facilitate decision-making and consensus-building, all while documenting the entire thinking process in one unique place and keeping track of the decisions being made. “Draft could definitely be the right fit,” says Guillaume.
+		</p>
+		---
+		<img class="illustration left-sided intro" src="imgs/MUT_Customers/customer_leboncoin/mission_qa_analyst.png" alt="Mission QA Analyst">
+		<h2>Comment Leboncoin a réimaginé ses ateliers d’innovation et de résolution de problèmes pour pleinement exploiter les atouts de la collaboration visuelle à distance</h2>
+		<p>
+			Avec plus 250 millions de pages visitées chaque jour, Leboncoin.fr est l’une des plateformes web ayant le plus d’audience en France. Si vous ne connaissez pas ce service, imaginez un immense vide-grenier qui regroupe 25 millions de petites annonces en ligne. Celles-ci vont des meubles aux vêtements, en passant par la vente de voitures d’occasion et la location immobilière, et bien plus encore ! Le site est détenu par le groupe Leboncoin, qui gère également, parmi tant d’autres, les plateformes web Videdressing.com (mode et luxe) et Largus.fr (vente de voitures d’occassion).
+		</p>
+		<p>
+			Leboncoin emploie 1 500 personnes, parmi lesquelles 250 ingénieurs. Basées à Paris, les équipes tech et produit sont organisées en 35 feature teams, elles-mêmes regroupées dans 4 tribus. Le management est animé d’une vision novatrice et promeut une organisation Agile, ouverte et apprenante, au sein de laquelle les équipes et les tribus disposent d’une grande liberté de décision et d’action.
+		</p>
+		<h2 style="text-align: center;">>> Vous pouvez découvrir plus en détail l’“<a href="https://medium.com/leboncoin-engineering-blog/the-spotify-model-leboncoins-experience-feedback-9f43bf734d05" target="_blank" class="name text-link underline-over" >Open Organizational Work</a>” du groupe Leboncoin dans cet article écrit par Julien Jouhault, le CTO du groupe. <<</h2>
+		<p>
+			Wilfrid Lancelle a rejoint le groupe Leboncoin, en 2011, pour un poste de développeur. Il est ensuite devenu Manager et, depuis 5 ans, occupe un rôle de Coach en Organisation Apprenante. Sa mission consiste à aider les personnes et les équipes à adopter une démarche expérimentale, d’apprentissage, et de partage des apprentissages (clarifier les intentions, imaginer des solutions, mettre en œuvre, observer le résultat, puis recommencer).
+		</p>
+		<p>
+			Guillaume Grillat, de son côté, anime la communauté tech du groupe depuis un peu moins d’un an. Son principal objectif est de créer des espaces d’échange au sein desquels les équipes tech internes et celles d’autres organisations peuvent partager leurs expériences respectives en matière de choix technologique, d’architecture, de framework, et d’organisation. Il organise des événements collaboratifs (workshops, sessions Q&A avec des experts du marché, meetups, conférences) avec des communautés tech externes, qui peuvent être d'autres grosses plateformes qui connaissent les mêmes enjeux que leboncoin, des réseaux de professionnels, ou encore des écoles d'informatique.
+		</p>
+		<img class="illustration right-sided" src="imgs/MUT_Customers/customer_leboncoin/environnement_de_travail.jpg" alt="Working Environment">
+		<h2>“Je craignais que les participants n’aient pas suffisamment d’espace pour réfléchir et s’exprimer librement”.</h2>
+		<p>
+			Avant que l’épidémie de covid-19 ne nous contraigne tous à travailler à distance, Wilfrid avait une certitude : “faire mon travail à distance, c’est impossible !”. Fortement inspiré de méthodes d’animation telles que le Consensus Systémique, les Six Thinking Hats et l’approche Solution Focus, Wilfrid tenait à ce que les participants puissent se déplacer, échanger les uns avec les autres, placer des post-it sur les murs, et collaborer de façon spontanée et interactive.
+		</p>
+
+		<p>
+			“Quand nous sommes tous présents dans la même pièce, je sais ce qu’il faut faire pour animer efficacement un atelier. Alors que, à distance, les techniques d’animation que j’aime utiliser ne sont plus valables.” Wilfrid doutait de sa capacité à animer un atelier de façon satisfaisante dans ces conditions. Plus précisément, il craignait que “les participants n’aient pas suffisamment d’espace pour réfléchir et s’exprimer librement, ne suivent plus correctement l’agenda, ne restent plus concentrés sur les objectifs, et n’interviennent plus de leur propre initiative.”
+		</p>
+
+		<p>
+			Avec l’aide de Draft, Wilfrid a découvert une façon efficace de répliquer les interactions du monde réel dans le monde virtuel. Plus encore, il a imaginé de nouvelles opportunités de collaboration et d’interaction qui n’étaient pas forcément possibles avant. “Désormais, je peux démarrer un atelier à tout moment, en invitant n’importe qui à rejoindre un board. Par ailleurs, le mode isoloir offre aux participants un espace leur permettant de partager leurs idées sans s’influencer les uns les autres. Enfin, j’ai remarqué que les participants sont moins hésitants avant de placer un post-it sur le mur.”
+		</p>
+
+		<img class="illustration left-sided" src="imgs/MUT_Customers/customer_leboncoin/frise_chronologique.png" alt="Working Environment">
+		<h2>Exploiter toutes les caractéristiques d’un mur virtuel collaboratif</h2>
+		<p>
+			Par exemple, au cours d’un atelier dans lequel les participants devaient placer des post-it le long d’une frise chronologique, Wilfrid constata que le fait de directement poser son post-it —grisé—, au bon endroit sur la frise et de façon concomitante à sa rédaction, rendait la restitution beaucoup plus fluide. En effet, cela évite que, à chaque dépôt de post-it sur le board, les participants se demandent où il faudrait le poser et initient des discussions peu constructives du type : “mais c’était avant. Non, c’était après !”. Les participants ont plutôt l’opportunité de se focaliser sur leur compréhension respective des situations décrites en prenant davantage de temps pour raconter leur vécu et leur ressenti.
+		</p>
+		<p>
+			Et parce que tout le monde adore jouer avec un nouvel outil, la découverte de Draft par les participants qui ne connaissent pas l’outil est devenue une sorte d’ice breaker naturel. “Les gens jouent instinctivement avec les objets, font des blagues sur les post-it, et s’amusent en découvrant l'outil pour la première fois. C’est une façon idéale d’impliquer tous les participants dès les premières minutes !
+		</p>
+		<p>
+			And because everyone loves playing with new tools, learning the basics of Draft has, almost by default, become a sort of “ice breaker” at the beginning of these workshops: “People naturally poke around a bit, add jokes as sticky-notes, and have a little fun when they discover the tool for the first time. It’s a great way to get to everyone involved!”
+		</p>
+
+		<p>
+			En outre, collaborer sur un board virtuel permet de facilement étendre un même atelier sur plusieurs sessions distinctes. Décomposer des problématiques complexes en plusieurs sujets, au périmètre circonscrit et traités les uns après les autres, rend la résolution de ces problèmes plus simple et efficace.
+		</p>
+		<p>
+			Un bon exemple de l’exploitation de cette caractéristique de la collaboration à distance est le projet de redéfinition par les équipes des missions des QA Engineers et des QA Analysts sur lequel Wilfrid a facilité un atelier. En effet, documenter la réflexion sur un board virtuel leur a permis de prolonger les possibilités de collaboration et de résolution de problème au-delà de la fin de l'atelier. “Nous n’avons plus à quitter un atelier en ayant produit un livrable définitif ou arrêté des décisions hâtives. Nous pouvons sereinement tirer le maximum du temps que nous passons ensemble, et repousser à de futurs ateliers les questions auxquelles nous n’avons pas encore trouvé de réponses.”
+		</p>
+		<p>
+			Finalement, en repensant ses ateliers, Wilfrid a pu recréer sur Draft un environnement dans lequel les participants sont davantage mis en confiance. De cette façon, ils peuvent partager librement leurs idées et leurs opinions, sans que la distance ne soit un quelconque obstacle.
+		</p>
+		<h2>D’un simple mur collaboratif à un véritable document visuel</h2>
+		<p>
+			Guillaume a commencé à utiliser Draft dans le cadre de l’organisation de la première conférence tech <a href="https://www.lbc2.fr/" target="_blank" class="name text-link underline-over">lbc²</a> qui s’est déroulée en mars 2021. Après avoir recueilli les idées et les attentes des équipes tech, il a regroupé un ensemble de sujets et identifié trois thèmes de conférence potentiels : “Draft m'a aidé à arbitrer les choix de sujets à aborder lors de ma conférence. Je me rappelle d'un atelier avec mon CTO où il manipulait lui-même les tickets de sujets à prioriser par catégorie. En 15 minutes, nous avions notre stratégie au clair !”.
+		</p>
+		<p>
+			Pour identifier les problèmes rencontrés par les équipes tech internes et trouver la bonne façon de les mettre en relation avec des équipes externes à même de les aider, Guillaume a besoin d’un outil polyvalent et flexible, qui permet à la fois de rassembler des informations, poser et manipuler ses idées, cartographier les problèmes, partager le document avec les parties prenantes, et faciliter le processus de prise de décision, tout en documentant la réflexion et gardant trace des décisions prises. “Draft pourrait être l’outil idéal”, confie Guillaume.
+		</p>
+		------
