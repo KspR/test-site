@@ -61,10 +61,7 @@
 				.logo
 					width : auto
 					height : 100px
-			.customers .customer-details .text-link
-				color : inherit
-				&:hover
-					color : $darkestBlue
+
 	.ui-header
 		display : flex
 		position : relative
@@ -108,7 +105,7 @@
 				margin-top : 60px
 				max-width : 90%
 				.customer
-					width : 350px
+					min-width : 350px
 					padding : 25px
 					border : 2px solid rgba(0,0,0,.08)
 					border-radius : 5px
@@ -129,6 +126,11 @@
 							font-size : 0.95rem
 							opacity : .7
 							display : block
+							.text-link
+								color : inherit
+								color : #111
+								&:hover
+									color : $darkestBlue
 				.customer + .customer
 					margin-left : 7px
 				
