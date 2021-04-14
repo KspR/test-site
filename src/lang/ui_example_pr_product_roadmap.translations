@@ -12,7 +12,7 @@ ex_pr
 		------
 		<h2>What is a Product Roadmap?</h2>
 		<p>
-			To answer this complex question, we propose a definition extracted from the essential book <a class="text-link advanced-underline-over" href="https://www.oreilly.com/library/view/product-roadmaps-relaunched/9781491971710/"><span>Product</span> <span>Roadmaps</span> <span>Relaunched</span></a> (and with which we are totally aligned at Draft): “a Product Roadmap describes how you intend to achieve your product vision. It focuses on the value you propose to deliver to your customer and your organization in order to rally support and coordinate effort among stakeholders.”
+			To answer this complex question, we propose a definition extracted from the essential book <a target="blank_" class="text-link advanced-underline-over" href="https://www.oreilly.com/library/view/product-roadmaps-relaunched/9781491971710/"><span>Product</span> <span>Roadmaps</span> <span>Relaunched</span></a> (and with which we are totally aligned at Draft): “a Product Roadmap describes how you intend to achieve your product vision. It focuses on the value you propose to deliver to your customer and your organization in order to rally support and coordinate effort among stakeholders.”
 		</p>
 		<p>
 			As you may have noticed, this definition spotlights the value delivered to customers, i.e., the outcomes in terms of satisfaction of customer needs or answer to customer problems. Whereas solutions could be detailed and estimated in a ‘tactical artifact’ release plan or project plan (like a <a class="text-link advanced-underline-over" href="https://draft.io/example/gantt-chart"><span>Gantt</span> <span>Chart</span></a> can be), a roadmap must remain a ‘strategic artifact’.
@@ -85,7 +85,7 @@ ex_pr
 		---
 		<h2>Qu’est-ce qu’une Product Roadmap ?</h2>
 		<p>
-			Pour répondre à cette question complexe, nous proposons une définition inspirée de l’ouvrage incontournable en la matière, <a class="text-link advanced-underline-over" href="https://www.oreilly.com/library/view/product-roadmaps-relaunched/9781491971710/"><span>Product</span> <span>Roadmaps</span> <span>Relaunched</span></a>, et avec laquelle nous sommes totalement alignés chez Draft: une Product Roadmap décrit l’itinéraire que vous envisagez de suivre pour réaliser votre vision produit. Elle se concentre sur la valeur que vous souhaitez apporter à vos clients et doit vous permettre d’obtenir le soutien coordonné des parties prenantes à votre projet.”
+			Pour répondre à cette question complexe, nous proposons une définition inspirée de l’ouvrage incontournable en la matière, <a target="blank_" class="text-link advanced-underline-over" href="https://www.oreilly.com/library/view/product-roadmaps-relaunched/9781491971710/"><span>Product</span> <span>Roadmaps</span> <span>Relaunched</span></a>, et avec laquelle nous sommes totalement alignés chez Draft: une Product Roadmap décrit l’itinéraire que vous envisagez de suivre pour réaliser votre vision produit. Elle se concentre sur la valeur que vous souhaitez apporter à vos clients et doit vous permettre d’obtenir le soutien coordonné des parties prenantes à votre projet.”
 		</p>
 		<p>
 			Comme vous avez pu le remarquer, cette définition met en exergue la valeur apportée aux clients, c'est-à-dire le résultat en matière de satisfaction de leurs besoins ou réponses à leurs problèmes. Là où les solutions peuvent être détaillées et dimensionnées dans un “artefact tactique” telle qu’un backlog ou une roadmap projet (sous forme d’un <a class="text-link advanced-underline-over" href="https://draft.io/fr/example/gantt-chart"><span>diagramme</span> <span>de</span> <span>Gantt</span></a>, par exemple), une Product Roadmap se doit de rester à un niveau d’abstraction stratégique.
@@ -164,27 +164,27 @@ ex_pr
 			------
 			<li>
 				<i class="fas fa-external-link-alt"></i>
-				Roman Pichler’s <a class="text-link light underline" href="https://www.romanpichler.com/blog/10-tips-creating-agile-product-roadmap/">10 tips for creating an agile product roadmap</a>
+				Roman Pichler’s <a target="blank_" class="text-link light underline" href="https://www.romanpichler.com/blog/10-tips-creating-agile-product-roadmap/">10 tips for creating an agile product roadmap</a>
 			</li>
 			<li>
 				<i class="far fa-bookmark"></i>
-				John Cutler’s blog article <a class="text-link light underline" href="https://medium.com/hackernoon/beyond-outcomes-over-outputs-6b2677044214">Beyond “Outcomes over Outputs”</a>
+				John Cutler’s blog article <a target="blank_" class="text-link light underline" href="https://medium.com/hackernoon/beyond-outcomes-over-outputs-6b2677044214">Beyond “Outcomes over Outputs”</a>
 			</li>
 			<li>
 				<i class="fas fa-play-circle"></i>
-				A presentation from Jason Tanner, CEO at Applied Frameworks, at Scrum Gathering called <a class="text-link light underline" href="https://www.youtube.com/watch?v=KOAkLXDZjKM&feature=emb_logo">Product Roadmaps that work</a>
+				A presentation from Jason Tanner, CEO at Applied Frameworks, at Scrum Gathering called <a target="blank_" class="text-link light underline" href="https://www.youtube.com/watch?v=KOAkLXDZjKM&feature=emb_logo">Product Roadmaps that work</a>
 			</li>
 			---
 			<li>
 				<i class="fas fa-play-circle"></i>
-				Une présentation didactique de Fatima-Zahra Hamil, Coach Produit chez Publicis Sapient, donnée dans le cadre TechAway : <a class="text-link light underline" href="https://www.youtube.com/watch?v=aQb8JJtqmuE">Comment construire sa roadmap produit</a>
+				Une présentation didactique de Fatima-Zahra Hamil, Coach Produit chez Publicis Sapient, donnée dans le cadre TechAway : <a target="blank_" class="text-link light underline" href="https://www.youtube.com/watch?v=aQb8JJtqmuE">Comment construire sa roadmap produit</a>
 			</li>
 			<li>
 				<i class="far fa-bookmark"></i>
-				Le billet de blog de Judicaël Pacquet intitulé <a class="text-link light underline" href="https://blog.myagilepartner.fr/index.php/2020/06/07/roadmap-produit-definition-exemple/">Roadmap produit - définition, exemple”</a>
+				Le billet de blog de Judicaël Pacquet intitulé <a target="blank_" class="text-link light underline" href="https://blog.myagilepartner.fr/index.php/2020/06/07/roadmap-produit-definition-exemple/">Roadmap produit - définition, exemple”</a>
 			</li>
 			<li>
 				<i class="fas fa-play-circle"></i>
-				Scrum Life, la chaîne YouTube de Jean-Pierre Lambert, Coach Agile, à travers la vidéo <a class="text-link light underline" href="https://www.youtube.com/watch?v=0_1j_Jml9Ko">Roadmap Agile - Comment réussir l'exercice</a>
+				Scrum Life, la chaîne YouTube de Jean-Pierre Lambert, Coach Agile, à travers la vidéo <a target="blank_" class="text-link light underline" href="https://www.youtube.com/watch?v=0_1j_Jml9Ko">Roadmap Agile - Comment réussir l'exercice</a>
 			</li>
 			------

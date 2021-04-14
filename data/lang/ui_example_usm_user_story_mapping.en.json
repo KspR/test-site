@@ -20,7 +20,7 @@
     },
     "resourcesBlock": {
       "title": "Suggested resources to master User Story Mapping further",
-      "linksList": "<li><i class=\"fas fa-external-link-alt\"></i>Essential Jeff Pathon’s website: <a class=\"text-link light underline\" href=\"https://www.jpattonassociates.com/user-story-mapping/\">jpattonassociates.com/user-story-mapping/</a></li><li><i class=\"far fa-bookmark\"></i>Judicaël Paquet’s didactic blog article: <a class=\"text-link light underline\" href=\"https://www.myagilepartner.com/blog/index.php/2018/08/19/story-mapping/\">User Story Mapping - Example/</a></li><li><i class=\"far fa-play-circle\"></i>UXClub.com’s popular video: <a class=\"text-link light underline\" href=\"https://www.youtube.com/watch?v=k_4SchJgAI4\">How to do User Story Mapping/</a></li>"
+      "linksList": "<li><i class=\"fas fa-external-link-alt\"></i>Essential Jeff Pathon’s website: <a target=\"blank_\" class=\"text-link light underline\" href=\"https://www.jpattonassociates.com/user-story-mapping/\">jpattonassociates.com/user-story-mapping/</a></li><li><i class=\"far fa-bookmark\"></i>Judicaël Paquet’s didactic blog article: <a target=\"blank_\" class=\"text-link light underline\" href=\"https://www.myagilepartner.com/blog/index.php/2018/08/19/story-mapping/\">User Story Mapping - Example/</a></li><li><i class=\"far fa-play-circle\"></i>UXClub.com’s popular video: <a target=\"blank_\" class=\"text-link light underline\" href=\"https://www.youtube.com/watch?v=k_4SchJgAI4\">How to do User Story Mapping/</a></li>"
     }
   }
 }
