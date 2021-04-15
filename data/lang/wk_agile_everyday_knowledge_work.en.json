@@ -1,0 +1,55 @@
+{
+  "workflows": {
+    "everyday-knowledge-work": {
+      "pageDescription": "For anyone requiring a more collaborative and nonlinear way to tackle everyday creative challenges, Draft helps you organize your thoughts so that you can get the most value out of them.",
+      "title": "Draft for Everyday Creative Work",
+      "landing": {
+        "punchline": "Draft for<br /><span>Everyday Creative Work</span>",
+        "baseline": {
+          "one": "Add structure to new ideas, manage tasks, and collaborate seamlessly. Draft helps you organize your thoughts so that you can get the most value out of them.",
+          "two": "Clarify your thoughts, list your tasks, and share your ideas. Draft let you describe and manipulate your knowledge in ways that help you get the best out of it."
+        }
+      },
+      "ucs": {
+        "todo-lists": {
+          "title": "To-Do List",
+          "text": "Stay focused on what matters most by capturing all of your to-do’s in a single, convenient place.",
+          "template": "to-do-list"
+        },
+        "organizing-your-ideas": {
+          "title": "Idea Organization",
+          "text": "Fuel ideation by jotting down and refining ideas in a dynamic, flexible, and visual workspace.",
+          "template": "affinity-diagram"
+        },
+        "creative-work": {
+          "title": "Creative Work",
+          "text": "Build cohesion and spark innovation with creative work via mood boards and other tools that make it easy to see, compare, and evaluate all creative assets in one central place.",
+          "template": "moodboard"
+        },
+        "collecting-feedback": {
+          "title": "Feedback Sharing",
+          "text": "Share ideas with colleagues and invite them to contribute feedback in a truly interactive way."
+        }
+      },
+      "features": {
+        "title": "Release your creativity and improve your productivity with these features",
+        "lists": {
+          "title": "Lists",
+          "text": "Jot down ideas, capture whatever inspires you, and structure your thoughts via mixed-item lists and sublists."
+        },
+        "simple-navigation": {
+          "title": "Simple Navigation",
+          "text": "Access all of your drafts with a single click via a clean, simple, and intuitive tabbed file management system."
+        },
+        "visual-clusters": {
+          "title": "Visual Clusters",
+          "text": "Make the most of auto-adjusting convex hulls and fixed frames to gather information in a uniquely visual way."
+        },
+        "folder-sharing": {
+          "title": "Folder Sharing",
+          "text": "Spark collaboration and streamline knowledge management by sharing folders and assigning the right roles to each user."
+        }
+      }
+    }
+  }
+}

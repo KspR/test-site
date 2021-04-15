@@ -1,0 +1,89 @@
+workflows
+	agile-project-management
+		id
+			agile-project-management
+			agile-project-management
+		pageDescription
+			For Scrum Masters and Product Owners responsible for maintaining streamlined processes and running virtual ceremonies, Draft embraces all Agile workflows with flexibility and simplicity.
+			Pour les Scrum Masters et Product Owners, Draft peut accueillir tout votre processus Agile. Planifiez visuellement et formalisez juste ce qu’il faut pour développer les produits de demain.
+		title
+			Draft for Agile Project Management
+			Draft pour la Gestion de projet Agile
+		landing
+			punchline
+				Draft for<br /><span>Agile Project Management</span>
+				Draft pour<br /><span>la gestion de projet Agile</span>
+			baseline
+				one
+					Plan and create unique products in fast-moving environments. Draft embraces all Agile workflows with flexibility, simplicity, and ease.
+					Planifiez et formalisez juste ce qu’il faut pour développer des produits innovants dans un contexte incertain et changeant.
+				two
+					As a flexible yet structured visual support, Draft can embrace your whole Agile workflow.
+					En tant que support collaboratif et polyvalent, Draft peut accueillir l’intégralité de votre système de gestion de projet Agile.
+		ucs
+			story-mapping
+				title
+					Story Mapping
+					Story Mapping
+				text
+					Create a big picture of the user experience by mapping product requirements visually along a clean and cohesive narrative flow.
+					Prenez le recul nécessaire et construisez une compréhension commune des attentes de vos utilisateurs en cartographiant la structure narrative de leur parcours à travers votre produit.
+				template
+					user-story-mapping
+					user-story-mapping
+			scrum-board
+				title
+					Scrum Board
+					Scrum Board
+				text
+					Add greater transparency, clarity, and flexibility to team task management.
+					Gérez les tâches de votre équipe dans un outil flexible qui favorise aussi bien la transparence que la réflexion et la prise de décision collectives.
+			program-board
+				title
+					Program Board
+					Program Board
+				text
+					Coordinate cross-functional teams in real-time and get a bird’s eye view of dependencies to prevent bottlenecks.
+					Construisez des artefacts de management visuel complexes et totalement personnalisés pour coordonner le travail de vos équipes, identifier les dépendances entre les tâches et lever les éventuels obstacles.
+			retrospective
+				title
+					Retrospective
+					Rétrospective
+				text
+					Design your own retrospective exercises or use one of our templates to get started.
+					Élaborez vos propres ateliers de rétrospective ou démarrez immédiatement à partir de l’un des nombreux modèles proposés (Timeline, 4Ls, Speedboat, Etoile de mer, Start/Stop/Continue)
+				template
+					timeline-retrospective
+					timeline-retrospective
+		features-bloc-title
+			Encourage communication and maximize transparency with these features
+			Des fonctionnalités spécialement imaginées pour encourager<br />la transparence et la communication dans vos projets Agiles
+		features
+			story-card
+				title
+					Story Cards
+					Cartes de <span>user stories</span>
+				text
+					Manage projects visually by gathering critical information about user stories on useful digital cards.
+					Mentionnez-y toutes les informations utiles au sujet de vos user stories (id, statut, taille, etc.).
+			jira-integration
+				title
+					Jira Integration
+					Intégration Jira symétrique
+				text
+					Streamline your team’s workflow in real-time with bi-directional syncing between Draft and Jira.
+					Synchronisez vos cartes Draft avec vos tickets Jira et fluidifiez l’ensemble de votre processus de gestion de projet Agile.
+			vote
+				title
+					Voting
+					Vote
+				text
+					Improve team decision-making by making sticky-notes or story card voteable.
+					Conduisez des sessions de vote pour rationaliser votre processus de prise de décision.
+			polling-booth-mode
+				title
+					Polling booth mode
+					Mode isoloir
+				text
+					Allow team members to add ideas without them being visible to others.
+					Ajoutez vos idées sans que celles-ci n’influencent la réflexion des autres participants.

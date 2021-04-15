@@ -1,0 +1,53 @@
+{
+  "workflows": {
+    "product-management": {
+      "pageDescription": "For Product Managers, Designers, and Development Engineers in charge of building innovative products, Draft offers the perfect workspace for the entire product development process.",
+      "title": "Draft for Product Management",
+      "landing": {
+        "punchline": "Draft for<br /><span>Product Management</span>",
+        "baseline": {
+          "one": "Pinpoint user needs, assess opportunities, and build solutions in a collaborative and visual environment. Draft offers the perfect workspace for the entire product development process.",
+          "two": "Draft is the perfect workspace to carry out your product discovery work, build intelligence, and share your product roadmaps."
+        }
+      },
+      "ucs": {
+        "product-discovery": {
+          "title": "Product Discovery",
+          "text": "Collect market and competitive intelligence and then turn it into actionable knowledge that can guide decisions around if, why, and how you should develop your next product."
+        },
+        "prioritizing": {
+          "title": "Prioritization Frameworks",
+          "text": "Address risks early-on and make smarter long-term product development decisions with Draft’s customizable prioritization frameworks.",
+          "template": "defining-and-prioritizing-hypothesis-statements"
+        },
+        "user-flow": {
+          "title": "User Flow",
+          "text": "Build user-centric product experiences from the very start with flexible and visual user flows that enable real-time communication and collaboration across product teams."
+        },
+        "product-roadmap": {
+          "title": "Product Roadmap",
+          "text": "Establish a central place where a product’s vision, strategic goals, and other relevant information can be stored and easily shared with all key stakeholders."
+        }
+      },
+      "features-bloc-title": "Take advantage of these features to build great products, faster",
+      "features": {
+        "lists": {
+          "title": "Lists",
+          "text": "Jot down ideas and combine list items together easily to keep important information all in one place."
+        },
+        "unified-living-environment": {
+          "title": "Ever-Evolving Environment",
+          "text": "Drive better outcomes via Draft’s seamless, flexible, and intuitive visual document universe."
+        },
+        "right-level-of-focus": {
+          "title": "Stay Focused",
+          "text": "Easily arrange large amounts of diverse information into many smaller, more focused fragments to improve decision-making."
+        },
+        "folder-sharing": {
+          "title": "Folder Sharing",
+          "text": "Spark collaboration and streamline knowledge management by sharing folders and assigning the right roles to each user."
+        }
+      }
+    }
+  }
+}

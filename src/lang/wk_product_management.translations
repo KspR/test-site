@@ -1,0 +1,83 @@
+workflows
+	product-management
+		pageDescription
+			For Product Managers, Designers, and Development Engineers in charge of building innovative products, Draft offers the perfect workspace for the entire product development process.
+			Pour les Product Managers, Designers et Développeurs, Draft est un environnement parfait pour réaliser le product discovery, affiner votre réflexion stratégique et partager vos roadmaps.
+		title
+			Draft for Product Management
+			Draft pour le Product Management
+		landing
+			punchline
+				Draft for<br /><span>Product Management</span>
+				Draft pour<br /><span>le Product Management</span>
+			baseline
+				one
+					Pinpoint user needs, assess opportunities, and build solutions in a collaborative and visual environment. Draft offers the perfect workspace for the entire product development process.
+					Exposez les problèmes rencontrés par vos utilisateurs, explorez les opportunités et visualisez les solutions possibles tout en impliquant votre équipe à chaque étape.
+				two
+					Draft is the perfect workspace to carry out your product discovery work, build intelligence, and share your product roadmaps.
+					Draft est un environnement idéal pour réaliser des recherches produit et marché, investiguer le comportement de ses utilisateurs et partager sa roadmap produit.
+		ucs
+			product-discovery
+				title
+					Product Discovery
+					Product Discovery
+				text
+					Collect market and competitive intelligence and then turn it into actionable knowledge that can guide decisions around if, why, and how you should develop your next product.
+					Collectez de l’information au sujet de votre marché, vos utilisateurs et vos concurrents. Transformez ces informations hétérogènes en connaissance décisive pour déterminer si oui, pourquoi et comment votre produit doit être développé.
+			prioritizing
+				title
+					Prioritization Frameworks
+					Table des Hypothèses
+				text
+					Address risks early-on and make smarter long-term product development decisions with Draft’s customizable prioritization frameworks.
+					Utilisez Draft pour travailler sur divers cadres de priorisation, traiter les risques identifiés en amont et, in fine, prendre de meilleures décisions.
+				template
+					defining-and-prioritizing-hypothesis-statements
+					defining-and-prioritizing-hypothesis-statements
+			user-flow
+				title
+					User Flow
+					Parcours Utilisateur
+				text
+					Build user-centric product experiences from the very start with flexible and visual user flows that enable real-time communication and collaboration across product teams.
+					Cartographiez les trajets de vos utilisateurs et projetez-vous dans leur expérience tout en favorisant la communication au sein de votre équipe.
+			product-roadmap
+				title
+					Product Roadmap
+					Roadmap Produit
+				text
+					Establish a central place where a product’s vision, strategic goals, and other relevant information can be stored and easily shared with all key stakeholders.
+					Établissez votre stratégie produit et ancrez vos objectifs stratégiques sur un support qui s’adapte à votre vision, puis partagez votre roadmap produit avec toutes les parties prenantes concernées.
+		features-bloc-title
+			Take advantage of these features to build great products, faster
+			Des fonctionnalités conçues pour développer de meilleurs produits, plus rapidement
+		features
+			lists
+				title
+					Lists
+					Listes
+				text
+					Jot down ideas and combine list items together easily to keep important information all in one place.
+					Notez vos idées à la chaîne et organisez vos documents intuitivement avec des listes protéiformes.
+			unified-living-environment
+				title
+					Ever-Evolving Environment
+					Un environnement unifié et évolutif
+				text
+					Drive better outcomes via Draft’s seamless, flexible, and intuitive visual document universe.
+					Draft forme un univers unifié et évolutif au sein duquel vos projets peuvent prendre forme au fur et à mesure.
+			right-level-of-focus
+				title
+					Stay Focused
+					Toujours le bon niveau de détail
+				text
+					Easily arrange large amounts of diverse information into many smaller, more focused fragments to improve decision-making.
+					Fragmentez et associez différentes types et niveaux d’information afin d’éclaircir votre réflexion et aider vos prises de décision.
+			folder-sharing
+				title
+					Folder Sharing
+					Partage de dossiers
+				text
+					Spark collaboration and streamline knowledge management by sharing folders and assigning the right roles to each user.
+					Créez des dossiers et partagez-les avec d’autres utilisateurs pour impliquer toute votre équipe sur un même projet.
