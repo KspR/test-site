@@ -1,0 +1,79 @@
+@import colors
+@import aDDS_helpers
+
+$modalScreenEdgeMargin : 50px
+$modalHeaderHeight : 60px
+$modalFooterHeight : 50px
+$inModalPadding : 30px
+
+.app-modal-wrapper
+    position : fixed
+    z-index : 1000
+    top : 0
+    left : 0
+    height : 100vh
+    width : 100%
+    display : block
+    background : rgba(0,0,0,.5)
+    @include flexCenteringBox
+        
+    .app-modal
+        background : #3a3a3a
+        width : 600px
+        max-width : calc(100% - #{$modalScreenEdgeMargin} * 2)
+        max-height : calc(100% - #{$modalScreenEdgeMargin} * 2)
+        top : -10px
+        border-radius : 10px
+        color : #fff
+        position : relative
+
+        &.medium
+            width : 800px
+        & > header
+            background : rgba(255,255,255,.1)
+            height : $modalHeaderHeight
+            flex-shrink : 0
+            display : flex
+            align-items : center
+            padding : $inModalPadding
+            border-radius : 10px 10px 0 0
+            h2
+                font-size : 1.2rem
+                font-family : semibold
+                font-weiht : normal
+            .btn
+                margin-left : auto
+                padding : 6px 10px
+                background : none
+                .fas
+                    font-size : .9rem
+                &:hover .fas
+                    opacity : .5
+        & > .body
+            overflow : auto
+            max-height : calc(100vh - #{$modalScreenEdgeMargin} * 2 - #{$modalHeaderHeight} - #{$modalFooterHeight})
+            .wrapper
+                padding : $inModalPadding $inModalPadding calc(#{$inModalPadding} / 2)
+        & > footer
+            height : $modalFooterHeight
+            flex-shrink : 0
+            padding : 0
+            display : flex
+            align-items : center
+            justify-content : flex-end
+            position : relative
+            padding : 0 $inModalPadding
+            border-radius : 0 0 10px 10px
+            border : 1px solid green
+
+            .btn
+                height : 30px
+                position : relative
+                top : 20px
+                min-width : 80px
+                text-align : center
+            .btn.cancel
+                color : rgba(255,255,255,.8)
+            .btn.submit
+                background : $orange
+                margin-left : 10px

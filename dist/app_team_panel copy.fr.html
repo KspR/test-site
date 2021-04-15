@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html >
   <head profile="http://www.w3.org/2005/10/profile">
-    
+
     <link href="css/common.css" rel="stylesheet">
-    <link href="css/aDDS_common.css" rel="stylesheet">
     <link href="css/app_team-panel.css" rel="stylesheet">
 
     <link rel="icon" href="/favicon.png?v=3" />
 
 
-    <title>Team panel app component <!--{{{lang.onboarding.meta-title}}}--></title>
-    <meta name="description" content="{{{lang.onboarding.meta-description}}}" />
+    <title>Team panel app component <!--Draft Onboarding - Choix du workflow--></title>
+    <meta name="description" content="Dans quel contexte envisagez-vous d’utiliser Draft ? Cette information nous permettra de vous orienter vers l’onboarding le plus adapté à votre profil." />
     <meta name="viewport" content="width=device-width;user-scalable=no,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
     <meta name="robots" content="noindex,nofollow" />
 
@@ -60,14 +59,12 @@
             </header>
             
           <div class="sub-wrapper tab">
-
+            <div class="theader">
+              <div class="col name">Nom</div>
+              <div class="col users-qty">Utilisateurs</div>
+              <div class="col actions">Actions</div>
+            </div>
             <ul class="table">
-              
-              <li class="theader">
-                <div class="col name">Nom</div>
-                <div class="col users-qty">Utilisateurs</div>
-                <div class="col actions">Actions</div>
-              </li>
               
               <li class="row">
                 <div class="col name" title="All members">All members</div>
@@ -106,15 +103,16 @@
             <div class="filter-bar">
               Filtre : <input class="dark-input" type="text" placeholder="User email">
             </div>
+            <div class="theader">
+              <div class="col chkbx"></div>
+              <div class="col mail"><span class="listing-btn"><i class="fas fa-sort-down"></i> Email</span></div>
+              <div class="col role"><span class="listing-btn"><i class="fas fa-sort-down"></i> Role</span></div>
+              <div class="col status">Status</div>
+              <div class="col activity">Last activity</div>
+              <div class="col actions">Actions</div>
+            </div>
             <ul class="table">
-              <li class="theader">
-                <div class="col chkbx"></div>
-                <div class="col mail"><span class="listing-btn"><i class="fas fa-sort-down"></i> Email</span></div>
-                <div class="col role"><span class="listing-btn"><i class="fas fa-sort-down"></i> Role</span></div>
-                <div class="col status">Status</div>
-                <div class="col activity">Last activity</div>
-                <div class="col actions">Actions</div>
-              </li>
+              
               <li class="row">
                 <div class="col chkbx">
                   <label class="custom-chkbx-wrapper">
@@ -477,14 +475,14 @@
             <div class="filter-bar">
               Filtre : <input class="dark-input" type="text" placeholder="User email">
             </div>
+            <div class="theader">
+              <div class="col chkbx"></div>
+              <div class="col mail"><span class="listing-btn"><i class="fas fa-sort-down"></i> Email</span></div>
+              <div class="col status">Status</div>
+              <div class="col activity">Last activity</div>
+              <div class="col actions">Actions</div>
+            </div>
             <ul class="table">
-              <li class="theader">
-                <div class="col chkbx"></div>
-                <div class="col mail"><span class="listing-btn"><i class="fas fa-sort-down"></i> Email</span></div>
-                <div class="col status">Status</div>
-                <div class="col activity">Last activity</div>
-                <div class="col actions">Actions</div>
-              </li>
               <li class="row">
                 <div class="col chkbx">
                   <label class="custom-chkbx-wrapper">

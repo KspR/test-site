@@ -1,0 +1,97 @@
+.app-modal-wrapper {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  display: block;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-modal-wrapper .app-modal {
+  background: #3a3a3a;
+  width: 600px;
+  max-width: calc(100% - 50px * 2);
+  max-height: calc(100% - 50px * 2);
+  top: -10px;
+  border-radius: 10px;
+  color: #fff;
+  position: relative;
+}
+
+.app-modal-wrapper .app-modal.medium {
+  width: 800px;
+}
+
+.app-modal-wrapper .app-modal > header {
+  background: rgba(255, 255, 255, 0.1);
+  height: 60px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  border-radius: 10px 10px 0 0;
+}
+
+.app-modal-wrapper .app-modal > header h2 {
+  font-size: 1.2rem;
+  font-family: semibold;
+  font-weiht: normal;
+}
+
+.app-modal-wrapper .app-modal > header .btn {
+  margin-left: auto;
+  padding: 6px 10px;
+  background: none;
+}
+
+.app-modal-wrapper .app-modal > header .btn .fas {
+  font-size: .9rem;
+}
+
+.app-modal-wrapper .app-modal > header .btn:hover .fas {
+  opacity: .5;
+}
+
+.app-modal-wrapper .app-modal > .body {
+  overflow: auto;
+  max-height: calc(100vh - 50px * 2 - 60px - 50px);
+}
+
+.app-modal-wrapper .app-modal > .body .wrapper {
+  padding: 30px 30px calc(30px / 2);
+}
+
+.app-modal-wrapper .app-modal > footer {
+  height: 50px;
+  flex-shrink: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  padding: 0 30px;
+  border-radius: 0 0 10px 10px;
+  border: 1px solid green;
+}
+
+.app-modal-wrapper .app-modal > footer .btn {
+  height: 30px;
+  position: relative;
+  top: 20px;
+  min-width: 80px;
+  text-align: center;
+}
+
+.app-modal-wrapper .app-modal > footer .btn.cancel {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.app-modal-wrapper .app-modal > footer .btn.submit {
+  background: #f1852b;
+  margin-left: 10px;
+}

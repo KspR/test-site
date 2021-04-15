@@ -1,0 +1,33 @@
+@import colors
+@import aDDS_helpers
+
+
+.app-modal-wrapper.invite-members
+  .app-modal
+    height : calc(100% - 50px * 2)
+    max-height : calc(700px)
+    & > .body
+      height : 100%
+      height : calc(100% - 60px - 50px) // From $modalHeaderHeight : 60px and $modalFooterHeight : 50px, from aDDS_modals.sass
+
+      .wrapper
+        display : flex
+        height : 100%
+        flex-direction : column
+                    
+        .top-wrapper
+          height : auto
+          flex-shrink : 0
+          background : pink
+
+          p
+          p.textarea-info
+          
+          textarea
+
+        .bottom-wrapper
+          &.panels-wrapper
+            height : 100%
+            min-height : 300px
+
+            .panel-wrapper
