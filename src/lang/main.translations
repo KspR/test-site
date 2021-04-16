@@ -1131,6 +1131,28 @@ ui-customer-stories
 		status
 			Problem Solver, President at WiScale France
 			Problem Solver, Président chez WiScale France
+	customer-story-leboncoin
+		illustration-path
+			./imgs/MUT_Customers/customer_leboncoin/environnement_de_travail.jpg
+			./imgs/MUT_Customers/customer_leboncoin/environnement_de_travail.jpg
+		logo-path
+			imgs/MUT_Customers/customer_leboncoin/logo_lbc.svg
+			imgs/MUT_Customers/customer_leboncoin/logo_lbc.svg
+		logo-alt-text
+			Leboncoin logo
+			Logo Leboncoin
+		portrait-path
+			imgs/MUT_Customers/customer_leboncoin/wilfrid_lancelle.jpg
+			imgs/MUT_Customers/customer_leboncoin/wilfrid_lancelle.jpg
+		quote
+			“I was afraid that participants would not have enough room to think and express themselves freely.”
+			“Je craignais que les participants n’aient pas suffisamment d’espace pour réfléchir et s’exprimer librement.”
+		author
+			Wilfrid LANCELLE
+			Wilfrid LANCELLE
+		status
+			Coach in Organizational Learning at Leboncoin
+			Coach en Organisation Apprenante chez Leboncoin
 	sharing-cta
 		label
 			Share my Story

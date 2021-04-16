@@ -14,15 +14,15 @@ ui-cs-leboncoin
 				Wilfrid Lancelle
 				Wilfrid Lancelle
 			status
-				Coach in Organizational Learning<br>at <a class="text-link underline-over" href="https://www.leboncoin.fr/">Leboncoin</a>
-				Coach en Organisation Apprenante<br>chez <a class="text-link underline-over" href="https://www.leboncoin.fr/">Leboncoin</a>
+				Coach in Organizational Learning<br>at Leboncoin
+				Coach en Organisation Apprenante<br>chez Leboncoin
 		contributor2
 			name
 				Guillaume Grillat
 				Guillaume Grillat
 			status
-				Tech Community Ambassador<br>at <a class="text-link underline-over" href="https://www.leboncoin.fr/">Leboncoin</a>
-				Tech Community Ambassador<br>chez <a class="text-link underline-over" href="https://www.leboncoin.fr/">Leboncoin</a>
+				Tech Community Ambassador<br>at Leboncoin
+				Tech Community Ambassador<br>chez Leboncoin
 	body-content
 		------
 		<img class="illustration left-sided intro" src="imgs/MUT_Customers/customer_leboncoin/mission_qa_analyst.png" alt="Mission QA Analyst">
@@ -33,7 +33,7 @@ ui-cs-leboncoin
 		<p>
 			Leboncoin employs 1,500 people, including more than 250 engineers. The company’s Paris-based tech and product teams are organized into 35 feature teams and grouped into four tribes. The teams’ managers are fueled by a relentless vision to promote an Agile- and learning-based organization, one where teams and tribes have the freedom to collaborate with each other in unique and oftentimes self-directed ways. 
 		</p>
-		<h2 style="text-align: center;">>> Read more about Leboncoin’s approach to “<a href="https://medium.com/leboncoin-engineering-blog/the-spotify-model-leboncoins-experience-feedback-9f43bf734d05" target="_blank" class="name text-link underline-over">Open Organizational Work</a>” in this article written by CTO, Julien Jouhault. <<</h2>
+		<h2 style="text-align: center;font-family: semibold;padding:0 20%;">Read more about Leboncoin’s approach to “<a href="https://medium.com/leboncoin-engineering-blog/the-spotify-model-leboncoins-experience-feedback-9f43bf734d05" target="_blank" class="name text-link underline-over">Open Organizational Work</a>” in this article written by CTO, Julien Jouhault.</h2>
 		<p>
 			Wilfrid Lancelle has worked at Leboncoin Group since 2011. He started his career there as a Developer, then became a Manager, and finally, over the last five years, has been helping internal teams as an Organizational Learning Coach. His mission is to help people and teams adopt a learning trial-and-error process to solve problems incrementally through innovative collaboration methods.
 		</p>
@@ -86,7 +86,7 @@ ui-cs-leboncoin
 		<p>
 			Leboncoin emploie 1 500 personnes, parmi lesquelles 250 ingénieurs. Basées à Paris, les équipes tech et produit sont organisées en 35 feature teams, elles-mêmes regroupées dans 4 tribus. Le management est animé d’une vision novatrice et promeut une organisation Agile, ouverte et apprenante, au sein de laquelle les équipes et les tribus disposent d’une grande liberté de décision et d’action.
 		</p>
-		<h2 style="text-align: center;">>> Vous pouvez découvrir plus en détail l’“<a href="https://medium.com/leboncoin-engineering-blog/the-spotify-model-leboncoins-experience-feedback-9f43bf734d05" target="_blank" class="name text-link underline-over" >Open Organizational Work</a>” du groupe Leboncoin dans cet article écrit par Julien Jouhault, le CTO du groupe. <<</h2>
+		<h2 style="text-align: center;font-family: semibold;padding:0 20%;">Vous pouvez découvrir plus en détail l’“<a href="https://medium.com/leboncoin-engineering-blog/the-spotify-model-leboncoins-experience-feedback-9f43bf734d05" target="_blank" class="name text-link underline-over" >Open Organizational Work</a>” du groupe Leboncoin dans cet article écrit par Julien Jouhault, le CTO du groupe.</h2>
 		<p>
 			Wilfrid Lancelle a rejoint le groupe Leboncoin, en 2011, pour un poste de développeur. Il est ensuite devenu Manager et, depuis 5 ans, occupe un rôle de Coach en Organisation Apprenante. Sa mission consiste à aider les personnes et les équipes à adopter une démarche expérimentale, d’apprentissage, et de partage des apprentissages (clarifier les intentions, imaginer des solutions, mettre en œuvre, observer le résultat, puis recommencer).
 		</p>

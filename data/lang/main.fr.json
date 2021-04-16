@@ -375,6 +375,15 @@
       "author": "Julien LANGE",
       "status": "Problem Solver, Président chez WiScale France"
     },
+    "customer-story-leboncoin": {
+      "illustration-path": "./imgs/MUT_Customers/customer_leboncoin/environnement_de_travail.jpg",
+      "logo-path": "imgs/MUT_Customers/customer_leboncoin/logo_lbc.svg",
+      "logo-alt-text": "Logo Leboncoin",
+      "portrait-path": "imgs/MUT_Customers/customer_leboncoin/wilfrid_lancelle.jpg",
+      "quote": "“Je craignais que les participants n’aient pas suffisamment d’espace pour réfléchir et s’exprimer librement.”",
+      "author": "Wilfrid LANCELLE",
+      "status": "Coach en Organisation Apprenante chez Leboncoin"
+    },
     "sharing-cta": {
       "label": "Partager mon expérience",
       "mail-object": "Je souhaite partager mon histoire"

@@ -375,6 +375,15 @@
       "author": "Julien LANGE",
       "status": "Problem Solver, President at WiScale France"
     },
+    "customer-story-leboncoin": {
+      "illustration-path": "./imgs/MUT_Customers/customer_leboncoin/environnement_de_travail.jpg",
+      "logo-path": "imgs/MUT_Customers/customer_leboncoin/logo_lbc.svg",
+      "logo-alt-text": "Leboncoin logo",
+      "portrait-path": "imgs/MUT_Customers/customer_leboncoin/wilfrid_lancelle.jpg",
+      "quote": "“I was afraid that participants would not have enough room to think and express themselves freely.”",
+      "author": "Wilfrid LANCELLE",
+      "status": "Coach in Organizational Learning at Leboncoin"
+    },
     "sharing-cta": {
       "label": "Share my Story",
       "mail-object": "I want to share my story"
