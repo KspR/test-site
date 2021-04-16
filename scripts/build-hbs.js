@@ -8,8 +8,8 @@ exports.buildHtml = function(cb) {
 	var data = {
 		includes : {},
 		home : {
-			workflows : ['scrum-master', 'product-manager', 'knowledge-worker'],
-			features : ['scalable-document', 'right-level-of-focus', 'collaboration', 'jira-integration', 'large-collection-template', 'unlimited-sharing']
+			workflows : ['scrum-master', 'product-manager', 'knowledge-worker', 'agility-at-work'],
+			features : ['scalable-document', 'right-level-of-focus', 'collaboration', 'jira-integration', 'large-collection-template', 'unlimited-sharing', 'ever-evolving', 'stay-focused']
 		},
 		pricing : {
 			free : {

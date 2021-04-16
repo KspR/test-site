@@ -1,0 +1,57 @@
+{
+  "workflows": {
+    "agility-at-scale": {
+      "id": "agility-at-scale",
+      "pageDescription": "Unfold Agility organically at all layers of your organization to increase accountability and deliver innovative business solutions, faster.",
+      "title": "Draft for Agility-at-scale",
+      "landing": {
+        "punchline": "Draft for<br /><span>Agility at scale</span>",
+        "baseline": {
+          "one": "Unfold Agility at all layers of your organization and define clear goals collectively to increase accountability to deliver innovative business solutions, faster.",
+          "two": "As a flexible yet structured visual support, Draft can embrace your whole Agile workflow."
+        }
+      },
+      "ucs": {
+        "pi-planning-board": {
+          "title": "PI Planning Board",
+          "text": "Run large PI Planning events in a single high-performance platform, flexible and collaborative, and rally all stakeholders efficiently in the decision-making process.",
+          "template": "pi-planning-board"
+        },
+        "roam-board": {
+          "title": "ROAM Board",
+          "text": "To reach your goals smoothly, identify and weigh your program risks to better prevent them or bypass them.",
+          "template": "roam-board"
+        },
+        "program-board": {
+          "title": "Program Board",
+          "text": "Coordinate cross-functional teams in real-time and get a bird’s eye view of dependencies to prevent bottlenecks.",
+          "template": "program-board"
+        },
+        "portfolio-kanban": {
+          "title": "Portfolio Kanban",
+          "text": "To help stakeholders align strategy and execution, take a more high-level view to visualize and manage Epics’s flow from ideation through analysis, implementation, and completion",
+          "template": "portfolio-kanban"
+        }
+      },
+      "features-bloc-title": "Encourage communication and maximize transparency with these features",
+      "features": {
+        "story-card": {
+          "title": "Story Cards",
+          "text": "Manage projects visually by gathering critical information about user stories on useful digital cards."
+        },
+        "jira-integration": {
+          "title": "Jira Integration",
+          "text": "Streamline your team’s workflow in real-time with bi-directional syncing between Draft and Jira."
+        },
+        "unified-living-environment": {
+          "title": "Ever-Evolving Environment",
+          "text": "Drive better outcomes via Draft’s seamless, flexible, and intuitive visual document universe."
+        },
+        "right-level-of-focus": {
+          "title": "Stay Focused",
+          "text": "Easily arrange large amounts of diverse information into many smaller, more focused fragments to improve decision-making."
+        }
+      }
+    }
+  }
+}

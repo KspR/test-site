@@ -1,0 +1,95 @@
+workflows
+	agility-at-scale
+		id
+			agility-at-scale
+			agility-at-scale
+		pageDescription
+			Unfold Agility organically at all layers of your organization to increase accountability and deliver innovative business solutions, faster.
+			Déployez naturellement l’Agilité à tous les niveaux de votre organisation pour développer des produits innovants et impactants, plus rapidement.
+		title
+			Draft for Agility-at-scale
+			Draft pour l’Agilité à l’échelle
+		landing
+			punchline
+				Draft for<br /><span>Agility at scale</span>
+				Draft pour<br /><span>l’Agilité à l’échelle</span>
+			baseline
+				one
+					Unfold Agility at all layers of your organization and define clear goals collectively to increase accountability to deliver innovative business solutions, faster.
+					Déployez l’Agilité à tous les niveaux de votre organisation, affichez explicitement vos objectifs et mobilisez toutes vos équipes, pour développer des produits innovants et impactants, plus rapidement.
+				two
+					As a flexible yet structured visual support, Draft can embrace your whole Agile workflow.
+					En tant que support collaboratif et polyvalent, Draft peut accueillir l’intégralité de votre système de gestion de projet Agile.
+		ucs
+			pi-planning-board
+				title
+					PI Planning Board
+					PI Planning Board
+				text
+					Run large PI Planning events in a single high-performance platform, flexible and collaborative, and rally all stakeholders efficiently in the decision-making process.
+					Animez vos évènements d’Agilité à l’échelle dans un espace unique, performant et polyvalent, et impliquez efficacement l’ensemble de vos collaborateurs dans le processus de prise de décision.
+				template
+					pi-planning-board
+					pi-planning-board
+			roam-board
+				title
+					ROAM Board
+					ROAM Board
+				text
+					To reach your goals smoothly, identify and weigh your program risks to better prevent them or bypass them.
+					Pour atteindre vos objectifs sans encombre, identifiez et pondérez les risques du programme pour mieux les prévenir ou les contourner.
+				template
+					roam-board
+					roam-board
+			program-board
+				title
+					Program Board
+					Program Board
+				text
+					Coordinate cross-functional teams in real-time and get a bird’s eye view of dependencies to prevent bottlenecks.
+					Construisez des artefacts de management visuel complexes et totalement personnalisés pour coordonner le travail de vos équipes, identifier les dépendances entre les tâches et lever les éventuels obstacles.
+				template
+					program-board	
+					program-board
+			portfolio-kanban
+				title
+					Portfolio Kanban
+					Portfolio Kanban
+				text
+					To help stakeholders align strategy and execution, take a more high-level view to visualize and manage Epics’s flow from ideation through analysis, implementation, and completion
+					De l’idéation à la complétude de vos epics, en passant par leur analyse et leur implémentation, prenez le recul nécessaire au bon alignement de la stratégie et de l’exécution entre les parties prenantes au programme.
+				template
+					portfolio-kanban
+					portfolio-kanban
+		features-bloc-title
+			Encourage communication and maximize transparency with these features
+			Des fonctionnalités spécialement imaginées pour encourager<br />la transparence et la communication dans vos projets Agiles
+		features
+			story-card
+				title
+					Story Cards
+					Cartes de <span>user stories</span>
+				text
+					Manage projects visually by gathering critical information about user stories on useful digital cards.
+					Mentionnez-y toutes les informations utiles au sujet de vos user stories (id, statut, taille, etc.).
+			jira-integration
+				title
+					Jira Integration
+					Intégration Jira symétrique
+				text
+					Streamline your team’s workflow in real-time with bi-directional syncing between Draft and Jira.
+					Synchronisez vos cartes Draft avec vos tickets Jira et fluidifiez l’ensemble de votre processus de gestion de projet Agile.
+			unified-living-environment
+				title
+					Ever-Evolving Environment
+					Un environnement unifié et évolutif
+				text
+					Drive better outcomes via Draft’s seamless, flexible, and intuitive visual document universe.
+					Draft forme un univers unifié et évolutif au sein duquel vos projets peuvent prendre forme au fur et à mesure.
+			right-level-of-focus
+				title
+					Stay Focused
+					Toujours le bon niveau de détail
+				text
+					Easily arrange large amounts of diverse information into many smaller, more focused fragments to improve decision-making.
+					Fragmentez et associez différents types et niveaux d’information afin d’éclaircir votre réflexion et aider vos prises de décision.
