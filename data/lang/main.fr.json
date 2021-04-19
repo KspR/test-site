@@ -9,6 +9,7 @@
   "example": {
     "pageDescription": "Exemple de &&example&& sur Draft. Vous pouvez l’utiliser sans créer de compte.",
     "examples": "Exemples",
+    "example": "Exemple",
     "cta": "Essayez l'exemple*",
     "asterisk": "*Pas de compte requis"
   },
@@ -53,6 +54,8 @@
   },
   "login": {
     "title": "Se connecter - Draft",
+    "continue-with-sso": "Continuer avec le SSO",
+    "or-with-standard-account": "Ou avec un compte standard :",
     "form": {
       "title": "Se connecter",
       "email": "Email",
