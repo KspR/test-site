@@ -12,13 +12,16 @@
     margin-bottom: 10px; }
 
   body.agile-project-management .bloc-landing .illu {
-    background-image: image-url("tmp/2020-06/site/landing/agile-project-management.png"); }
+    background-image: url("../imgs/UI_Landing/agile-project-management.png"); }
 
   body.product-management .bloc-landing .illu {
-    background-image: image-url("tmp/2020-06/site/landing/product-management.png"); }
+    background-image: url("../imgs/UI_Landing/product-management.png"); }
 
   body.everyday-knowledge-work .bloc-landing .illu {
-    background-image: image-url("tmp/2020-06/site/landing/everyday-knowledge-work.png"); }
+    background-image: url("../imgs/UI_Landing/everyday-knowledge-work.png"); }
+
+  body.agility-at-scale .bloc-landing .illu {
+    background-image: url("../imgs/UI_Landing/agility-at-scale.png"); }
 
   .page-pricing:not(.lang-fr) .period-alt {
     margin-left: calc(50% - 138px); }

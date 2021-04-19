@@ -2540,9 +2540,9 @@ body {
     background-position: center; }
   body .uc-story-mapping .screenshot {
     background-image: url("../imgs/UI_Workflow/agile-project-management/agile-project-management-screenshot-1.png"); }
-  body .uc-program-board .screenshot {
-    background-image: url("../imgs/UI_Workflow/agile-project-management/agile-project-management-screenshot-2.png"); }
   body .uc-scrum-board .screenshot {
+    background-image: url("../imgs/UI_Workflow/agile-project-management/agile-project-management-screenshot-2.png"); }
+  body .uc-planning-poker .screenshot {
     background-image: url("../imgs/UI_Workflow/agile-project-management/agile-project-management-screenshot-3.png"); }
   body .uc-retrospective .screenshot {
     background-image: url("../imgs/UI_Workflow/agile-project-management/agile-project-management-screenshot-4.png"); }
@@ -2566,8 +2566,10 @@ body {
     background-image: url("../imgs/UI_Workflow/agility-at-scale/agility-at-scale-screenshot-1.png"); }
   body .uc-roam-board .screenshot {
     background-image: url("../imgs/UI_Workflow/agility-at-scale/agility-at-scale-screenshot-2.png"); }
-  body .uc-portfolio-kanban .screenshot {
+  body .uc-program-board .screenshot {
     background-image: url("../imgs/UI_Workflow/agility-at-scale/agility-at-scale-screenshot-3.png"); }
+  body .uc-portfolio-kanban .screenshot {
+    background-image: url("../imgs/UI_Workflow/agility-at-scale/agility-at-scale-screenshot-4.png"); }
 
 .home .bloc-landing {
   background-color: #2A2A2A; }

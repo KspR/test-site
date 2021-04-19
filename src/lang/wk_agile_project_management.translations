@@ -4,8 +4,8 @@ workflows
 			agile-project-management
 			agile-project-management
 		pageDescription
-			For Scrum Masters and Product Owners responsible for maintaining streamlined processes and running virtual ceremonies, Draft embraces all Agile workflows with flexibility and simplicity.
-			Pour les Scrum Masters et Product Owners, Draft peut accueillir tout votre processus Agile. Planifiez visuellement et formalisez juste ce qu’il faut pour développer les produits de demain.
+			Draft allows you to maintain streamlined processes and run virtual ceremonies, embracing all Agile workflows with flexibility and simplicity.
+			Draft peut accueillir tout votre processus Agile. Planifiez visuellement et formalisez juste ce qu’il faut pour développer les produits de demain.
 		title
 			Draft for Agile Project Management
 			Draft pour la Gestion de projet Agile
@@ -36,22 +36,22 @@ workflows
 					Scrum Board
 					Scrum Board
 				text
-					Add greater transparency, clarity, and flexibility to team task management.
-					Gérez les tâches de votre équipe dans un outil flexible qui favorise aussi bien la transparence que la réflexion et la prise de décision collectives.
-			program-board
+					Add greater transparency, clarity, and flexibility in your Scrum team’s task management system by centralizing all key operational information.
+					Gérez les tâches de votre équipe Scrum dans un outil flexible et visuel qui favorise la transparence et l’implication de vos collaborateurs dans la prise de décision.
+			planning-poker
 				title
-					Program Board
-					Program Board
+					Planning Poker
+					Planning Poker
 				text
-					Coordinate cross-functional teams in real-time and get a bird’s eye view of dependencies to prevent bottlenecks.
-					Construisez des artefacts de management visuel complexes et totalement personnalisés pour coordonner le travail de vos équipes, identifier les dépendances entre les tâches et lever les éventuels obstacles.
+					Have fun while estimating user stories collaboratively to better prioritize your backlog and measure your team’s velocity
+					Estimez vos user stories de façon collaborative et ludique pour mieux prioriser votre backlog et mesurer la vélocité de votre équipe.
 			retrospective
 				title
 					Retrospective
 					Rétrospective
 				text
-					Design your own retrospective exercises or use one of our templates to get started.
-					Élaborez vos propres ateliers de rétrospective ou démarrez immédiatement à partir de l’un des nombreux modèles proposés (Timeline, 4Ls, Speedboat, Etoile de mer, Start/Stop/Continue)
+					Design your own retrospective exercises or use one of our templates to get started (Timeline, 4Ls, Speedboat, Starfish, Start/Stop/Continue, 3-little Pigs, ESVP).
+					Élaborez vos propres ateliers de rétrospective ou démarrez immédiatement à partir de l’un des nombreux modèles proposés (Timeline, 4Ls, Speedboat, Etoile de mer, Start/Stop/Continue, les Trois Petits Cochons, ESVP).
 				template
 					timeline-retrospective
 					timeline-retrospective
