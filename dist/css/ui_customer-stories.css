@@ -266,7 +266,9 @@
           .ui_customer-stories .customer-stories .wrapper .story-bloc .top-side .logo {
             padding: 12px 14px; }
             .ui_customer-stories .customer-stories .wrapper .story-bloc .top-side .logo img {
-              height: 38px; } }
+              height: 38px; }
+      .ui_customer-stories .customer-stories .wrapper + .wrapper .story-bloc + .story-bloc {
+        margin-left: 0px; } }
   @media only screen and (max-width: 768px) {
     .ui_customer-stories .customer-stories .wrapper {
       width: 90%;

@@ -125,7 +125,7 @@
 						left : 8px
 						text-align : center
 						font-size : 8rem
-						.fas
+						
 				.right-side
 					width : 100%
 					padding : 30px 40px 30px 0
@@ -315,13 +315,21 @@
 
 					& + .story-bloc
 						margin-top : 50px
-
+						
 					.top-side
 						height : 250px
 						.logo
 							padding : 12px 14px
 							img
 								height : 38px
+
+				& + .wrapper 
+
+					.story-bloc
+
+						& + .story-bloc
+							margin-left: 0px
+
 		
 		@media only screen and (max-width : $phoneBreakpoint)
 			.wrapper
@@ -331,6 +339,8 @@
 
 					& + .story-bloc
 						margin-top : 40px
+						
+						
 
 					.top-side
 						height : 190px
