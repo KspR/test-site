@@ -1,11 +1,15 @@
 @import colors
-@import aDDS_helpers
+@import appDDS_helpers
 
 
-.app-modal-wrapper.invite-members
+.app-modal-wrapper.invite-members, .app-modal-wrapper.create-group, .app-modal-wrapper.invite-visitors
   .app-modal
     height : calc(100% - 50px * 2)
     max-height : calc(700px)
+
+    & > header
+      h2
+        font-size : 1.1rem
     & > .body
       height : 100%
       height : calc(100% - 60px - 50px) // From $modalHeaderHeight : 60px and $modalFooterHeight : 50px, from aDDS_modals.sass
@@ -18,16 +22,153 @@
         .top-wrapper
           height : auto
           flex-shrink : 0
-          background : pink
 
           p
+            color : rgba(255,255,255,.9)
           p.textarea-info
+            color : rgba(255,255,255,.6)
+            font-size : .9em
           
           textarea
+            width : 100%
+            height : 80px
+            resize : vertical
+            &::placeholder
+              font-family : regular
 
-        .bottom-wrapper
-          &.panels-wrapper
+        .bottom-wrapper.panels-wrapper
+          display : flex
+          height : 100%
+          flex-direction : row
+          min-height : 300px
+          padding : 0
+          margin-top : 30px
+          background : transparent
+
+          .panel-wrapper
+            display : flex
+            width : 100%
             height : 100%
-            min-height : 300px
+            flex-shrink : 3
+            background : #3d3d3d
+            & + .panel-wrapper
+              margin-left : 20px
+          
+            &.groups-in, &.group-members-panel
+              width : 100%
+              .sub-wrapper
+                .col.name
+                .col.actions
+            &.groups-not-in, &.users-panel
+              width : 330px
+              flex-shrink : 0
+              .sub-wrapper
+                .col.name
+                .col.actions
+                  text-align : left
+            
+            header
+              height : 60px
+              h2
+                text-transform : none
+                font-family : semibold
+                font-size : .9rem
+            
+            .sub-wrapper
+              .table
+                border-radius : 5px
+              .row
+                padding : 0 10px
+              .col.name, .col.email
+                width : 100%
+                padding-left : 0
+              .col.actions
+                width : 35px
+                text-align : right
+                .btn
+                  height : 24px
+                  width : 24px
+                  &.dark.outlined.action
+                    border : 1px solid rgba(255,255,255,.2)
+                    background : rgba(255,255,255,.1)
+                    color : rgba(255,255,255,1)
+                    opacity : .7
 
-            .panel-wrapper
+                    transition : background .1s
+
+                    span
+                      display : block
+                      position : relative
+                      top : -2px
+                    
+                    &:hover
+                      background : rgba(255,255,255,.2)
+                      border : 1px solid rgba(255,255,255,0.1)
+
+
+.app-modal-wrapper.create-group
+
+  .top-wrapper
+    font-size : 1rem
+    color : rgba(255,255,255,.6)
+    input.dark-input
+      color : rgba(255,255,255,.9)
+      margin-left : 10px
+      font-size : 1rem
+
+  .bottom-wrapper
+    .users-panel
+      width : 400px !important
+      flex-shrink : 0 !important
+
+      header
+        position : relative
+        .filter-bar
+          height : 50px
+          width : 190px
+          position : absolute
+          right : 10px
+          bottom : 0
+          background : rgba(255, 255, 255, 0.05)
+          @include flexCenteringBox
+          justify-content : flex-start
+          color : rgba(255,255,255,.4)
+          font-size : .9rem
+          border-radius : 5px 5px 0 0
+          padding-left : 15px
+
+          .dark-input
+            width : calc(100% - 60px)
+            height : 30px
+            font-size : .9rem
+            margin-left : 5px
+            color : rgba(255,255,255,.7)
+            padding-left : 10px
+
+      .sub-wrapper
+        .table
+          border-radius : 5px 0 5px 5px
+
+    .group-members-panel
+      .table
+        border-radius : 5px
+        .col.email
+          flex-shrink : 4
+    .users-panel
+      .col.email
+        flex-shrink : 4
+
+      
+
+.app-modal-wrapper.invite-visitors
+  .app-modal
+    max-height : unset
+    height : auto
+    width : 600px
+
+    & > header
+      h2
+        font-size : 1.1rem
+    & > .body
+      height : 100%
+      height : calc(100% - 60px - 50px) // From $modalHeaderHeight : 60px and $modalFooterHeight : 50px, from aDDS_modals.sass

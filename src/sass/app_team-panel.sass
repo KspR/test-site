@@ -1,35 +1,9 @@
 @import colors
-@import aDDS_helpers
-
-@font-face
-  font-family : regular
-  src : url("../fonts/Assistant/Assistant-Regular.ttf")
-
-@font-face
-  font-family : semibold
-  src : url("../fonts/Assistant/Assistant-SemiBold.ttf")
-
-// @font-face
-//   font-family : bold
-//   src : url("../fonts/Assistant/Assistant-Bold.ttf")
-
-// @font-face
-//   font-family : "boldest"
-//   src : url("../fonts/Assistant/Assistant-ExtraBold.ttf")
+@import appDDS_helpers
 
 /* ----------------- */
 /* To remove when integrated in true app system code */
 /* ----------------- */
-
-body
-  margin : 0
-  padding : 0
-  width : 100%
-  height : 100%
-  font-family : regular
-
-body *
-  box-sizing : border-box
 
 .false-header-bar
   background : #262626
@@ -42,145 +16,10 @@ $appHeaderPlusSubHeaderBars : 140px // To calculate in the true app system
 /* end of To remove when integrated in true app system */
 /* ----------------- */
 
-/* ----------------- */
-// Generic components and helpers (to move into future App CSS Design System)
-
-.text-link
-  color : rgba(255,255,255,.8)
-  &:hover
-    color : rgba(255,255,255,1)
-
-.dark-input
-  border-radius : 3px
-  border : 1px solid rgba(255,255,255,.15)
-  background : rgba(255,255,255,.05)
-  font-size : 1rem
-  color : rgba(255,255,255,.85)
-  padding : 8px 14px
-
-  transition : background .1s
-
-  &:hover
-    background : rgba(255,255,255,.1)
-  
-.custom-chkbx-wrapper
-  cursor : pointer
-  position : relative
-
-  transition : color .2s
-  input
-    visibility : hidden
-    position : absolute
-    width : 0
-    height : 0
-    bacground : blue
-  .custom-chkbx
-    width : 14px
-    height : 14px
-    display : inline-block
-    border : 1px solid rgba(255,255,255,.5)
-    border-radius : 4px
-
-    transition : border .2s
-
-    &::before
-      display : block
-      content : ""
-      position : relative
-      top : 1px
-      left : 1px
-      width : 10px
-      height : 10px
-      background : $orange
-      border-radius : 3px
-      opacity : 1
-      transform : scale(0)
-
-      transition : opacity .1s, transform .1s
-  
-  .custom-chkbx.small
-    width : 12px
-    height : 12px
-    border-radius : 3px
-    &::before
-      width : 8px
-      height : 8px
-      border-radius : 1px
-
-  input:checked + .custom-chkbx
-    border : 1px solid $orange
-
-    &::before
-      opacity : 1
-      transform : scale(.8)
-
-  &:hover
-    color : #fff
-    .custom-chkbx
-      border : 1px solid $orange
-    input:checked + .custom-chkbx
-      
-.custom-select-box
-  border-radius : 5px
-  border : 1px solid rgba(255,255,255,.15)
-  background : rgba(255,255,255,.05)
-  font-size : 1rem
-  color : rgba(255,255,255,.85)
-  padding : 4px 8px
-
-  transition : background .1s
-  &:hover
-    background : rgba(255,255,255,.15)
-  select
-    cursor : pointer
-    margin : 0
-    padding : 0
-    height : 100%
-    width : 100%
-    display : block
-    background : none
-    color : white
-    border : none
-    &:focus
-      border : none
-      outline : none
-    option
-      background : #444
-      border : 1px solid #555
-      padding : 4px 6px
-
-.custom-select-box.small
-  padding : 0 2px
-  height : 22px
-  select
-    option
-
-.btn
-  padding : 5px 10px
-  border : 0
-  outline : 0
-  background : #555
-  color : white
-  border-radius : 5px
-  cursor : pointer
-
-/* ----------------- */
-// end of Generic components and helpers (to move into future App CSS Design System)
-/* ----------------- */
-
-
-
-
-
-
-
-
-
-
 // ============================================================================================
 // ============================================================================================
 // --------------------------------------------------------------------------------------------
-// =============  TEAM DASHBOARD UI special autonomous and specific styles 
+// =============  TEAM DASHBOARD UI special standalone and specific styles 
 // --------------------------------------------------------------------------------------------
 // ============================================================================================
 // ============================================================================================
@@ -241,7 +80,7 @@ $appHeaderPlusSubHeaderBars : 140px // To calculate in the true app system
       .team-panel, .groups-panel
         width : 100%
       .team-panel
-        height : 270px
+        height : 260px
         flex-shrink : 0
       .groups-panel
         height : 100%
@@ -305,9 +144,7 @@ $appHeaderPlusSubHeaderBars : 140px // To calculate in the true app system
         .btn
           @include flexCenteringBox
           margin-left : auto
-          font-size : .8rem
-          border-radius : 5px
-          cursor : pointer
+          font-size : .9rem
           padding : 0 12px
           .fas
             font-size : .7em
@@ -315,16 +152,7 @@ $appHeaderPlusSubHeaderBars : 140px // To calculate in the true app system
             color : rgba(255,255,255,.8)
 
         .btn.dark.outlined
-          border : 1px solid rgba(255,255,255,.2)
           height : 34px
-          background : transparent
-          color : rgba(255,255,255,.9)
-
-          transition : background .1s
-          
-          &:hover
-            background : rgba(255,255,255,.1)
-            border : 1px solid rgba(255,255,255,0.1)
 
       .sub-wrapper
         height : 100%
@@ -369,7 +197,7 @@ $appHeaderPlusSubHeaderBars : 140px // To calculate in the true app system
             font-size : .9em
             opacity : .8
         .link-share-chkbx
-          margin-top : 24px
+          margin-top : 18px
           .custom-chkbx
             margin-right : 8px
             position : relative
@@ -384,8 +212,13 @@ $appHeaderPlusSubHeaderBars : 140px // To calculate in the true app system
         align-items : center
         padding-left : 20px
         .text-link
-          color : rgba(255,255,255,.75)
+          color : rgba(255,255,255,.45)
           text-decoration : none
+          .fas, .far
+            margin-left : 5px
+            position : relative
+            top : 1px
+            display : inline-block
           &:hover
             color : #fff
 
@@ -394,10 +227,11 @@ $appHeaderPlusSubHeaderBars : 140px // To calculate in the true app system
     // ========== CROSS panels table part
 
     .panel-wrapper
+      border-radius : 5px
       .sub-wrapper
 
         .filter-bar
-          background : rgba(255, 255, 255, 0.025)
+          background : rgba(255, 255, 255, 0.05)
           @include flexCenteringBox
           justify-content : flex-start
           color : rgba(255,255,255,.4)
@@ -415,12 +249,14 @@ $appHeaderPlusSubHeaderBars : 140px // To calculate in the true app system
             &:hover
               background : rgba(255,255,255,.1)
 
-            &::placeholder
-              font-style : italic
-              color : rgba(255,255,255,.5)
-
 
         &.has-filter
+          .table
+            border-radius : 0
+            height : calc(100% - #{$tableFilterBarHeight})
+          .theader
+            border-radius : 0 0 5px 5px
+        &.has-filter.has-footer
           .table
             border-radius : 0
             height : calc(100% - #{$tableFilterBarHeight} - #{$tableFooterHeight})
@@ -448,7 +284,6 @@ $appHeaderPlusSubHeaderBars : 140px // To calculate in the true app system
           padding : 0
           margin : 0
           overflow : auto
-          overflow : overlay
           position : relative
 
         .row, .theader
@@ -463,19 +298,16 @@ $appHeaderPlusSubHeaderBars : 140px // To calculate in the true app system
             margin-left : 5px
 
         .theader
-          // position : sticky
-          background : #494949
+          background : #525252
           width : 100%
           height : $tableHeaderHeight
           line-height : $tableHeaderHeight
-          // top : 0
-          // left : 0
           z-index : 5
 
           .col
             font-weight : normal
             font-size : .9rem
-            opacity : .4
+            opacity : .6
             overflow : visible
 
             transition : opacity .2s
@@ -484,7 +316,7 @@ $appHeaderPlusSubHeaderBars : 140px // To calculate in the true app system
             opacity : 1
             cursor : default
             .listing-btn
-              opacity : .4
+              opacity : .6
               position : relative
 
               transition : opacity .1s
@@ -497,10 +329,10 @@ $appHeaderPlusSubHeaderBars : 140px // To calculate in the true app system
                 cursor : pointer
                 opacity : .8
         .row
-          background : rgba(0, 0, 0, 0.0)
+          background : rgba(0, 0, 0, 0.05)
           height : $tableRowHeight
           line-height : $tableRowHeight
-          &:nth-child(even)
+          &:nth-child(odd)
             background : rgba(255, 255, 255, 0.05)
           .col
             font-size : .9rem
@@ -610,6 +442,11 @@ $appHeaderPlusSubHeaderBars : 140px // To calculate in the true app system
               flex-shrink : 4
             .users-qty
               width : 80px
+              .has-tooltip
+                display : inline-block
+                border-bottom : 1px dashed rgba(255,255,255, .85)
+                height : calc(100% - 7px)
+                cursor : help
             .actions
               width : 70px
 

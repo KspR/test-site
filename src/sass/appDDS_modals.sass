@@ -1,5 +1,5 @@
 @import colors
-@import aDDS_helpers
+@import appDDS_helpers
 
 $modalScreenEdgeMargin : 50px
 $modalHeaderHeight : 60px
@@ -13,12 +13,14 @@ $inModalPadding : 30px
     left : 0
     height : 100vh
     width : 100%
-    display : block
-    background : rgba(0,0,0,.5)
+    background : rgba(0,0,0,.6)
     @include flexCenteringBox
+    display : none
+    &.visible
+        display : flex
         
     .app-modal
-        background : #3a3a3a
+        background : #333
         width : 600px
         max-width : calc(100% - #{$modalScreenEdgeMargin} * 2)
         max-height : calc(100% - #{$modalScreenEdgeMargin} * 2)
@@ -28,9 +30,9 @@ $inModalPadding : 30px
         position : relative
 
         &.medium
-            width : 800px
+            width : 900px
         & > header
-            background : rgba(255,255,255,.1)
+            background : rgba(255,255,255,.06)
             height : $modalHeaderHeight
             flex-shrink : 0
             display : flex
@@ -41,13 +43,22 @@ $inModalPadding : 30px
                 font-size : 1.2rem
                 font-family : semibold
                 font-weiht : normal
+                color : rgba(255,255,255,.85)
+                letter-spacing : .4px
             .btn
                 margin-left : auto
-                padding : 6px 10px
+                padding : 6px 0px 6px 10px
                 background : none
                 .fas
                     font-size : .9rem
-                &:hover .fas
+                .picto-text
+                    font-family : regular
+                    font-size : 1.9rem
+                    display : inline-block
+                    opacity : .8
+                    transform : rotate(45deg)
+                    font-family : thin
+                &:hover .fas, &:hover .picto-text
                     opacity : .5
         & > .body
             overflow : auto
@@ -64,7 +75,6 @@ $inModalPadding : 30px
             position : relative
             padding : 0 $inModalPadding
             border-radius : 0 0 10px 10px
-            border : 1px solid green
 
             .btn
                 height : 30px
@@ -72,8 +82,18 @@ $inModalPadding : 30px
                 top : 20px
                 min-width : 80px
                 text-align : center
+
+                transition : background .2s
             .btn.cancel
+                background : #666666
                 color : rgba(255,255,255,.8)
+                &:hover
+                    background : #575757
+
             .btn.submit
                 background : $orange
                 margin-left : 10px
+                &:hover
+                    background : #e69052
+                    background : #ef7926
+                    background : #ce6921
