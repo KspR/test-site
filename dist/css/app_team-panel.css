@@ -4,14 +4,17 @@
 .false-header-bar {
   background: #262626;
   height: 140px;
-  border-bottom: 1px solid #333; }
+  border-bottom: 1px solid #333;
+}
 
 /* ----------------- */
 /* end of To remove when integrated in true app system */
 /* ----------------- */
 .app-cmpnt_team-dashboard .text-link {
   color: inherit;
-  text-decoration: underline; }
+  text-decoration: underline;
+}
+
 @media only screen and (min-width: 1400px) {
   .app-cmpnt_team-dashboard .container {
     justify-content: center;
