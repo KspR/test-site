@@ -1,0 +1,55 @@
+{
+  "workflows": {
+    "everyday-knowledge-work": {
+      "pageDescription": "Pour tous ceux qui cherchent une manière plus visuelle et non-linéaire de réfléchir et s’organiser. Draft vous permet de décrire, manipuler et partager vos idées de façon à en tirer le maximum.",
+      "title": "Draft pour le Travail créatif quotidien",
+      "landing": {
+        "punchline": "Draft pour<br /><span>le travail créatif quotidien</span>",
+        "baseline": {
+          "one": "Favorisez la porosité entre chaque étape de votre travail, qu’il soit personnel ou professionnel, individuel ou collaboratif.",
+          "two": "Clarifiez vos pensées, listez les tâches à effectuer et partagez vos idées. Draft vous laisse représenter et manipuler vos idées d’une manière qui vous permet d’en tirer le maximum de valeur."
+        }
+      },
+      "ucs": {
+        "todo-lists": {
+          "title": "To-do List",
+          "text": "Laissez reposer votre pensée en regroupant au même endroit toutes les choses que vous envisagez de faire afin de rester concentré sur ce qui a le plus de valeur pour vous.",
+          "template": "to-do-list"
+        },
+        "organizing-your-ideas": {
+          "title": "Organiser ses idées",
+          "text": "Combinez, affinez et structurez vos idées dans un environnement visuel et infini. Draft accompagne naturellement la croissance de vos projets.",
+          "template": "affinity-diagram"
+        },
+        "creative-work": {
+          "title": "Travail créatif",
+          "text": "En rendant visible l’intégralité du contenu créatif tout en offrant la possibilité de changer aisément de perspective, Draft vous aide à créer de nouvelles synthèses et générer des idées novatrices.",
+          "template": "moodboard"
+        },
+        "collecting-feedback": {
+          "title": "Recueillir du feedback",
+          "text": "Draft vous offre une façon simple de partager vos idées et faire contribuer vos collaborateurs sur tout type de projet."
+        }
+      },
+      "features": {
+        "title": "Alliez créativité et efficacité avec les fonctionnalités suivantes",
+        "lists": {
+          "title": "Listes",
+          "text": "Notez vos idées à la chaîne et organisez vos documents intuitivement avec des listes protéiformes."
+        },
+        "simple-navigation": {
+          "title": "Un système de navigation ergonomique",
+          "text": "Le système de fichiers à la Google Drive couplé au système d’onglets vous facilitent l’accès à toute information utile, à tout moment."
+        },
+        "visual-clusters": {
+          "title": "Cluster visuels",
+          "text": "Dessiner des cadres ou des enveloppes pour rassembler visuellement et intuitivement des informations de même nature."
+        },
+        "folder-sharing": {
+          "title": "Partage de dossiers",
+          "text": "Créez des dossiers et partagez-les avec d’autres utilisateurs pour impliquer toute votre équipe sur un même projet."
+        }
+      }
+    }
+  }
+}

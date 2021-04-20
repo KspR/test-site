@@ -1,0 +1,55 @@
+{
+  "workflows": {
+    "agile-project-management": {
+      "id": "agile-project-management",
+      "pageDescription": "Draft peut accueillir tout votre processus Agile. Planifiez visuellement et formalisez juste ce qu’il faut pour développer les produits de demain.",
+      "title": "Draft pour la Gestion de projet Agile",
+      "landing": {
+        "punchline": "Draft pour<br /><span>la gestion de projet Agile</span>",
+        "baseline": {
+          "one": "Planifiez et formalisez juste ce qu’il faut pour développer des produits innovants dans un contexte incertain et changeant.",
+          "two": "En tant que support collaboratif et polyvalent, Draft peut accueillir l’intégralité de votre système de gestion de projet Agile."
+        }
+      },
+      "ucs": {
+        "story-mapping": {
+          "title": "Story Mapping",
+          "text": "Prenez le recul nécessaire et construisez une compréhension commune des attentes de vos utilisateurs en cartographiant la structure narrative de leur parcours à travers votre produit.",
+          "template": "user-story-mapping"
+        },
+        "scrum-board": {
+          "title": "Scrum Board",
+          "text": "Gérez les tâches de votre équipe Scrum dans un outil flexible et visuel qui favorise la transparence et l’implication de vos collaborateurs dans la prise de décision."
+        },
+        "planning-poker": {
+          "title": "Planning Poker",
+          "text": "Estimez vos user stories de façon collaborative et ludique pour mieux prioriser votre backlog et mesurer la vélocité de votre équipe."
+        },
+        "retrospective": {
+          "title": "Rétrospective",
+          "text": "Élaborez vos propres ateliers de rétrospective ou démarrez immédiatement à partir de l’un des nombreux modèles proposés (Timeline, 4Ls, Speedboat, Etoile de mer, Start/Stop/Continue, les Trois Petits Cochons, ESVP).",
+          "template": "timeline-retrospective"
+        }
+      },
+      "features-bloc-title": "Des fonctionnalités spécialement imaginées pour encourager<br />la transparence et la communication dans vos projets Agiles",
+      "features": {
+        "story-card": {
+          "title": "Cartes de <span>user stories</span>",
+          "text": "Mentionnez-y toutes les informations utiles au sujet de vos user stories (id, statut, taille, etc.)."
+        },
+        "jira-integration": {
+          "title": "Intégration Jira symétrique",
+          "text": "Synchronisez vos cartes Draft avec vos tickets Jira et fluidifiez l’ensemble de votre processus de gestion de projet Agile."
+        },
+        "vote": {
+          "title": "Vote",
+          "text": "Conduisez des sessions de vote pour rationaliser votre processus de prise de décision."
+        },
+        "polling-booth-mode": {
+          "title": "Mode isoloir",
+          "text": "Ajoutez vos idées sans que celles-ci n’influencent la réflexion des autres participants."
+        }
+      }
+    }
+  }
+}

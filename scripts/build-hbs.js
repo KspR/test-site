@@ -8,22 +8,8 @@ exports.buildHtml = function(cb) {
 	var data = {
 		includes : {},
 		home : {
-			workflows : ['scrum-master', 'product-manager', 'knowledge-worker'],
-			features : ['scalable-document', 'right-level-of-focus', 'collaboration', 'jira-integration', 'large-collection-template', 'unlimited-sharing']
-		},
-		workflows : {
-			'agile-project-management' : {
-				features : ['story-card', 'jira-integration', 'vote', 'polling-booth-mode'],
-				ucs : ['story-mapping', 'scrum-board', 'program-board', 'retrospective']
-			},
-			'product-management' : {
-				features : ['lists', 'unified-living-environment', 'right-level-of-focus', 'folder-sharing'],
-				ucs : ['product-discovery', 'prioritizing', 'user-flow', 'product-roadmap']
-			},
-			'everyday-knowledge-work' : {
-				ucs : ['todo-lists', 'organizing-your-ideas', 'creative-work', 'collecting-feedback'],
-				features : ['lists', 'simple-navigation', 'visual-clusters', 'folder-sharing']
-			}
+			workflows : ['scrum-master', 'product-manager', 'knowledge-worker', 'agility-at-work'],
+			features : ['scalable-document', 'right-level-of-focus', 'collaboration', 'jira-integration', 'large-collection-template', 'unlimited-sharing', 'ever-evolving', 'stay-focused']
 		},
 		pricing : {
 			free : {
@@ -83,50 +69,63 @@ exports.buildHtml = function(cb) {
 
 		let files = fs.readdirSync(dataDir + '/lang');
 		files.forEach(function(e) {
-			if ((new RegExp("\\." + lang + ".json")).exec(e)) {
-				let d = JSON.parse(fs.readFileSync(dataDir + '/lang/' + e).toString());
-				for (var key in d) {
-					data.lang[key] = d[key];
+			if (!/copy/.exec(e)) {
+				if ((new RegExp("\\." + lang + ".json")).exec(e)) {
+					let d = JSON.parse(fs.readFileSync(dataDir + '/lang/' + e).toString());
+					for (var key in d) {
+						if (data.lang[key]) {
+							for (let _k in d[key]) {
+								data.lang[key][_k] = d[key][_k];
+							}
+						}
+						else {
+							data.lang[key] = d[key];
+						}
+					}
 				}
 			}
 		});
 
 		subPartials = ['get_started.html']
 		subPartials.forEach(function(e) {
-			if (/\.html$/.exec(e)) {
-				var template = fs.readFileSync(partialsDir + '/' + e).toString();
-				var hbs = HandleBars.compile(template);
-				data.includes[e.split(/\.html$/)[0]] = hbs(data);
+			if (!/copy/.exec(e)) {
+				if (/\.html$/.exec(e)) {
+					var template = fs.readFileSync(partialsDir + '/' + e).toString();
+					var hbs = HandleBars.compile(template);
+					data.includes[e.split(/\.html$/)[0]] = hbs(data);
+				}
 			}
 		});
 
 		files = fs.readdirSync(partialsDir);
 		files.forEach(function(e) {
-			if (/\.html$/.exec(e)) {
-				if (subPartials.includes(e)) {
-					return;
+			if (!/copy/.exec(e)) {
+				if (/\.html$/.exec(e)) {
+					if (subPartials.includes(e)) {
+						return;
+					}
+					var template = fs.readFileSync(partialsDir + '/' + e).toString();
+					var hbs = HandleBars.compile(template);
+					data.includes[e.split(/\.html$/)[0]] = hbs(data);
 				}
-				var template = fs.readFileSync(partialsDir + '/' + e).toString();
-				var hbs = HandleBars.compile(template);
-				data.includes[e.split(/\.html$/)[0]] = hbs(data);
 			}
 		});
 
 		files = fs.readdirSync(viewsDir);
 		files.forEach(function(e) {
-			if (/\.html$/.exec(e)) {
-				var template = fs.readFileSync(viewsDir + '/' + e).toString();
-				var hbs = HandleBars.compile(template);
-				if (e === '_workflow.html') { // special file
-					for (var key in data.workflows) {
-						data.workflow_id = key;
-						data.features = data.workflows[key].features;
-						data.ucs = data.workflows[key].ucs;
-						fs.writeFileSync('./dist/' + key.replace(/-/g, '_') + '.' + lang + '.html', hbs(data));
+			if (!/copy/.exec(e)) {
+				if (/\.html$/.exec(e)) {
+					var template = fs.readFileSync(viewsDir + '/' + e).toString();
+					var hbs = HandleBars.compile(template);
+					if (e === '_workflow.html') { // special file
+						for (var key in data.lang.workflows) {
+							data.workflow_id = key;
+							fs.writeFileSync('./dist/wf_' + key.replace(/-/g, '_') + '.' + lang + '.html', hbs(data));
+						}
 					}
-				}
-				else {
-					fs.writeFileSync('./dist/' + e.split(/\.html$/)[0] + '.' + lang + '.html', hbs(data));
+					else {
+						fs.writeFileSync('./dist/' + e.split(/\.html$/)[0] + '.' + lang + '.html', hbs(data));
+					}
 				}
 			}
 		});

@@ -1,0 +1,55 @@
+{
+  "workflows": {
+    "agile-project-management": {
+      "id": "agile-project-management",
+      "pageDescription": "Draft allows you to maintain streamlined processes and run virtual ceremonies, embracing all Agile workflows with flexibility and simplicity.",
+      "title": "Draft for Agile Project Management",
+      "landing": {
+        "punchline": "Draft for<br /><span>Agile Project Management</span>",
+        "baseline": {
+          "one": "Plan and create unique products in fast-moving environments. Draft embraces all Agile workflows with flexibility, simplicity, and ease.",
+          "two": "As a flexible yet structured visual support, Draft can embrace your whole Agile workflow."
+        }
+      },
+      "ucs": {
+        "story-mapping": {
+          "title": "Story Mapping",
+          "text": "Create a big picture of the user experience by mapping product requirements visually along a clean and cohesive narrative flow.",
+          "template": "user-story-mapping"
+        },
+        "scrum-board": {
+          "title": "Scrum Board",
+          "text": "Add greater transparency, clarity, and flexibility in your Scrum team’s task management system by centralizing all key operational information."
+        },
+        "planning-poker": {
+          "title": "Planning Poker",
+          "text": "Have fun while estimating user stories collaboratively to better prioritize your backlog and measure your team’s velocity"
+        },
+        "retrospective": {
+          "title": "Retrospective",
+          "text": "Design your own retrospective exercises or use one of our templates to get started (Timeline, 4Ls, Speedboat, Starfish, Start/Stop/Continue, 3-little Pigs, ESVP).",
+          "template": "timeline-retrospective"
+        }
+      },
+      "features-bloc-title": "Encourage communication and maximize transparency with these features",
+      "features": {
+        "story-card": {
+          "title": "Story Cards",
+          "text": "Manage projects visually by gathering critical information about user stories on useful digital cards."
+        },
+        "jira-integration": {
+          "title": "Jira Integration",
+          "text": "Streamline your team’s workflow in real-time with bi-directional syncing between Draft and Jira."
+        },
+        "vote": {
+          "title": "Voting",
+          "text": "Improve team decision-making by making sticky-notes or story card voteable."
+        },
+        "polling-booth-mode": {
+          "title": "Polling booth mode",
+          "text": "Allow team members to add ideas without them being visible to others."
+        }
+      }
+    }
+  }
+}

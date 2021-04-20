@@ -1,0 +1,53 @@
+{
+  "workflows": {
+    "product-management": {
+      "pageDescription": "Pour les Product Managers, Designers et Développeurs, Draft est un environnement parfait pour réaliser le product discovery, affiner votre réflexion stratégique et partager vos roadmaps.",
+      "title": "Draft pour le Product Management",
+      "landing": {
+        "punchline": "Draft pour<br /><span>le Product Management</span>",
+        "baseline": {
+          "one": "Exposez les problèmes rencontrés par vos utilisateurs, explorez les opportunités et visualisez les solutions possibles tout en impliquant votre équipe à chaque étape.",
+          "two": "Draft est un environnement idéal pour réaliser des recherches produit et marché, investiguer le comportement de ses utilisateurs et partager sa roadmap produit."
+        }
+      },
+      "ucs": {
+        "product-discovery": {
+          "title": "Product Discovery",
+          "text": "Collectez de l’information au sujet de votre marché, vos utilisateurs et vos concurrents. Transformez ces informations hétérogènes en connaissance décisive pour déterminer si oui, pourquoi et comment votre produit doit être développé."
+        },
+        "prioritizing": {
+          "title": "Table des Hypothèses",
+          "text": "Utilisez Draft pour travailler sur divers cadres de priorisation, traiter les risques identifiés en amont et, in fine, prendre de meilleures décisions.",
+          "template": "defining-and-prioritizing-hypothesis-statements"
+        },
+        "user-flow": {
+          "title": "Parcours Utilisateur",
+          "text": "Cartographiez les trajets de vos utilisateurs et projetez-vous dans leur expérience tout en favorisant la communication au sein de votre équipe."
+        },
+        "product-roadmap": {
+          "title": "Roadmap Produit",
+          "text": "Établissez votre stratégie produit et ancrez vos objectifs stratégiques sur un support qui s’adapte à votre vision, puis partagez votre roadmap produit avec toutes les parties prenantes concernées."
+        }
+      },
+      "features-bloc-title": "Des fonctionnalités conçues pour développer de meilleurs produits, plus rapidement",
+      "features": {
+        "lists": {
+          "title": "Listes",
+          "text": "Notez vos idées à la chaîne et organisez vos documents intuitivement avec des listes protéiformes."
+        },
+        "unified-living-environment": {
+          "title": "Un environnement unifié et évolutif",
+          "text": "Draft forme un univers unifié et évolutif au sein duquel vos projets peuvent prendre forme au fur et à mesure."
+        },
+        "right-level-of-focus": {
+          "title": "Toujours le bon niveau de détail",
+          "text": "Fragmentez et associez différentes types et niveaux d’information afin d’éclaircir votre réflexion et aider vos prises de décision."
+        },
+        "folder-sharing": {
+          "title": "Partage de dossiers",
+          "text": "Créez des dossiers et partagez-les avec d’autres utilisateurs pour impliquer toute votre équipe sur un même projet."
+        }
+      }
+    }
+  }
+}

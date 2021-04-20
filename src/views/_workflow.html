@@ -56,71 +56,67 @@ END -->
 			</div>
 
 			<div class="ucs">
-				{{#each ../ucs}}
-					<div class="uc uc-{{this}}">
+				{{#each ucs as | uc |}}
+					<div class="uc uc-{{@key}}">
 						{{#ifEquals @index 0}}
 							<div class="top-left-corner"><div class="circle"></div></div>
 						{{/ifEquals}}
 
-						{{#with (lookup ../ucs this)}}
-							<div class="wrapper">
-								<div class="if-1080">
-									<div class="text-container">
-										<div class="visual-artifact"></div>
-										<div class="text-wrapper">
-											<div class="title">{{this.title}}</div>
-											<div class="text">{{this.text}}</div>
-											<div class="if-1080">
-												{{#if this.template}}
-													<a class="text-link" href="{{../../lang.hrefRoot}}example/{{this.template}}">
-												{{else}}
-													<a class="text-link" href="{{../../lang.hrefRoot}}example/{{../this}}">
-												{{/if}}
-													{{../../../lang.workflow.discover-example}} <i class="fas fa-long-arrow-alt-right"></i>
-												</a>
-											</div>
+						<div class="wrapper">
+							<div class="if-1080">
+								<div class="text-container">
+									<div class="visual-artifact"></div>
+									<div class="text-wrapper">
+										<div class="title">{{uc.title}}</div>
+										<div class="text">{{uc.text}}</div>
+										<div class="if-1080">
+											{{#if uc.template}}
+												<a class="text-link" href="{{../lang.hrefRoot}}example/{{uc.template}}">
+											{{else}}
+												<a class="text-link" href="{{../lang.hrefRoot}}example/{{@key}}">
+											{{/if}}
+												{{../../lang.workflow.discover-example}} <i class="fas fa-long-arrow-alt-right"></i>
+											</a>
 										</div>
 									</div>
-									<div class="screenshot-wrapper">
-										<div class="screenshot"></div>
-									</div>
 								</div>
-								<div class="if-not-1080">
+								<div class="screenshot-wrapper">
 									<div class="screenshot"></div>
-									<div class="text-container">
-										<div class="visual-artifact"></div>
-										<div class="text-wrapper">
-											<div class="title">{{this.title}}</div>
-											<div class="text">{{this.text}}</div>
-											<div class="if-1080">
-												{{#if this.template}}
-													<a href="{{../../lang.hrefRoot}}example/{{this.template}}">
-												{{else}}
-													<a href="{{../../lang.hrefRoot}}example/{{../this}}">
-												{{/if}}
-													{{../../../lang.workflow.discover-example}} →
-												</a>
-											</div>
+								</div>
+							</div>
+							<div class="if-not-1080">
+								<div class="screenshot"></div>
+								<div class="text-container">
+									<div class="visual-artifact"></div>
+									<div class="text-wrapper">
+										<div class="title">{{uc.title}}</div>
+										<div class="text">{{uc.text}}</div>
+										<div class="if-1080">
+											{{#if uc.template}}
+												<a href="{{../../lang.hrefRoot}}example/{{uc.template}}">
+											{{else}}
+												<a href="{{../../lang.hrefRoot}}example/{{@key}}">
+											{{/if}}
+												{{../../lang.workflow.discover-example}} →
+											</a>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-					{{/with}}
+					</div>
 				{{/each}}
 			</div>
 
 			<div class="section bloc-features">
-				<div class="title">{{{this.features.title}}}</div>
+				<div class="title">{{{features-bloc-title}}}</div>
 
 				<div class="features">
-					{{#each ../features}}
-						<div class="feature {{this}}">
-							{{#with (lookup ../features this)}}
-								<div class="illu"></div>
-								<div class="label">{{{this.title}}}</div>
-								<div class="detail">{{{this.text}}}</div>
-							{{/with}}
+					{{#each features as | feature |}}
+						<div class="feature {{@key}}">
+							<div class="illu"></div>
+							<div class="label">{{{feature.title}}}</div>
+							<div class="detail">{{{feature.text}}}</div>
 						</div>
 					{{/each}}
 				</div>

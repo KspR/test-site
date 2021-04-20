@@ -1,0 +1,57 @@
+{
+  "workflows": {
+    "agility-at-scale": {
+      "id": "agility-at-scale",
+      "pageDescription": "Déployez naturellement l’Agilité à tous les niveaux de votre organisation pour développer des produits innovants et impactants, plus rapidement.",
+      "title": "Draft pour l’Agilité à l’échelle",
+      "landing": {
+        "punchline": "Draft pour<br /><span>l’Agilité à l’échelle</span>",
+        "baseline": {
+          "one": "Déployez l’Agilité à tous les niveaux de votre organisation, affichez explicitement vos objectifs et mobilisez toutes vos équipes, pour développer des produits innovants et impactants, plus rapidement.",
+          "two": "En tant que support collaboratif et polyvalent, Draft peut accueillir l’intégralité de votre système de gestion de projet Agile."
+        }
+      },
+      "ucs": {
+        "pi-planning-board": {
+          "title": "PI Planning Board",
+          "text": "Animez vos évènements d’Agilité à l’échelle dans un espace unique, performant et polyvalent, et impliquez efficacement l’ensemble de vos collaborateurs dans le processus de prise de décision.",
+          "template": "pi-planning-board"
+        },
+        "roam-board": {
+          "title": "ROAM Board",
+          "text": "Pour atteindre vos objectifs sans encombre, identifiez et pondérez les risques du programme pour mieux les prévenir ou les contourner.",
+          "template": "roam-board"
+        },
+        "program-board": {
+          "title": "Program Board",
+          "text": "Construisez des artefacts de management visuel complexes et totalement personnalisés pour coordonner le travail de vos équipes, identifier les dépendances entre les tâches et lever les éventuels obstacles.",
+          "template": "program-board"
+        },
+        "portfolio-kanban": {
+          "title": "Portfolio Kanban",
+          "text": "De l’idéation à la complétude de vos epics, en passant par leur analyse et leur implémentation, prenez le recul nécessaire au bon alignement de la stratégie et de l’exécution entre les parties prenantes au programme.",
+          "template": "portfolio-kanban"
+        }
+      },
+      "features-bloc-title": "Des fonctionnalités spécialement imaginées pour encourager<br />la transparence et la communication dans vos projets Agiles",
+      "features": {
+        "story-card": {
+          "title": "Cartes de <span>user stories</span>",
+          "text": "Mentionnez-y toutes les informations utiles au sujet de vos user stories (id, statut, taille, etc.)."
+        },
+        "jira-integration": {
+          "title": "Intégration Jira symétrique",
+          "text": "Synchronisez vos cartes Draft avec vos tickets Jira et fluidifiez l’ensemble de votre processus de gestion de projet Agile."
+        },
+        "unified-living-environment": {
+          "title": "Un environnement unifié et évolutif",
+          "text": "Draft forme un univers unifié et évolutif au sein duquel vos projets peuvent prendre forme au fur et à mesure."
+        },
+        "right-level-of-focus": {
+          "title": "Toujours le bon niveau de détail",
+          "text": "Fragmentez et associez différents types et niveaux d’information afin d’éclaircir votre réflexion et aider vos prises de décision."
+        }
+      }
+    }
+  }
+}
