@@ -7,7 +7,22 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	{{{includes.css}}}
-
+	
+	<!-- PRODONLY
+	<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/fr/customer-stories/leboncoin-turning-risks-into-opportunities-through-remote-visual-collaboration" 
+		hreflang="x-default" />
+	<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/customer-stories/leboncoin-turning-risks-into-opportunities-through-remote-visual-collaboration" 
+	  hreflang="en-GB" />
+	<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/customer-stories/leboncoin-turning-risks-into-opportunities-through-remote-visual-collaboration" 
+	  hreflang="en-US" />
+	<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/fr/customer-stories/leboncoin-turning-risks-into-opportunities-through-remote-visual-collaboration" 
+		hreflang="fr-FR" />
+	<% if @lang.code == 'en' %>
+		<link rel="canonical" href="<%= JSON_CONFIG['host'] %>/customer-stories/leboncoin-turning-risks-into-opportunities-through-remote-visual-collaboration">
+	<% else %>
+		<link rel="canonical" href="<%= JSON_CONFIG['host'] %>/fr/customer-stories/leboncoin-turning-risks-into-opportunities-through-remote-visual-collaboration">
+	<% end %>
+	END -->
 </head>
 
 <body class="ui_customer-story has-header header-customer-stories">
