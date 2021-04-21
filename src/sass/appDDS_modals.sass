@@ -2,7 +2,7 @@
 @import appDDS_helpers
 
 $modalScreenEdgeMargin : 50px
-$modalHeaderHeight : 60px
+$modalHeaderHeight : 50px
 $modalFooterHeight : 50px
 $inModalPadding : 30px
 
@@ -23,7 +23,7 @@ $inModalPadding : 30px
         background : #333
         width : 600px
         max-width : calc(100% - #{$modalScreenEdgeMargin} * 2)
-        max-height : calc(100% - #{$modalScreenEdgeMargin} * 2)
+        max-height : calc(100% - #{$modalScreenEdgeMargin} * 1.5)
         top : -10px
         border-radius : 10px
         color : #fff
@@ -38,6 +38,8 @@ $inModalPadding : 30px
             display : flex
             align-items : center
             padding : $inModalPadding
+            padding-top : 20px
+            padding-bottom : 20px
             border-radius : 10px 10px 0 0
             h2
                 font-size : 1.2rem
@@ -62,9 +64,10 @@ $inModalPadding : 30px
                     opacity : .5
         & > .body
             overflow : auto
-            max-height : calc(100vh - #{$modalScreenEdgeMargin} * 2 - #{$modalHeaderHeight} - #{$modalFooterHeight})
+            max-height : calc(100vh - #{$modalScreenEdgeMargin} * 1.5 - #{$modalHeaderHeight} - #{$modalFooterHeight})
             .wrapper
                 padding : $inModalPadding $inModalPadding calc(#{$inModalPadding} / 2)
+                padding-bottom : 0
         & > footer
             height : $modalFooterHeight
             flex-shrink : 0
@@ -79,7 +82,7 @@ $inModalPadding : 30px
             .btn
                 height : 30px
                 position : relative
-                top : 20px
+                top : 24px
                 min-width : 80px
                 text-align : center
 

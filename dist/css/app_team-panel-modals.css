@@ -1,5 +1,5 @@
 .app-modal-wrapper.invite-members .app-modal, .app-modal-wrapper.create-group .app-modal, .app-modal-wrapper.invite-visitors .app-modal {
-  height: calc(100% - 50px * 2);
+  height: calc(100% - 50px * 1.5);
   max-height: calc(700px);
 }
 
@@ -9,7 +9,7 @@
 
 .app-modal-wrapper.invite-members .app-modal > .body, .app-modal-wrapper.create-group .app-modal > .body, .app-modal-wrapper.invite-visitors .app-modal > .body {
   height: 100%;
-  height: calc(100% - 60px - 50px);
+  height: calc(100% - 50px - 50px);
 }
 
 .app-modal-wrapper.invite-members .app-modal > .body .wrapper, .app-modal-wrapper.create-group .app-modal > .body .wrapper, .app-modal-wrapper.invite-visitors .app-modal > .body .wrapper {
@@ -25,6 +25,10 @@
 
 .app-modal-wrapper.invite-members .app-modal > .body .wrapper .top-wrapper p, .app-modal-wrapper.create-group .app-modal > .body .wrapper .top-wrapper p, .app-modal-wrapper.invite-visitors .app-modal > .body .wrapper .top-wrapper p {
   color: rgba(255, 255, 255, 0.9);
+}
+
+.app-modal-wrapper.invite-members .app-modal > .body .wrapper .top-wrapper p:first-child, .app-modal-wrapper.create-group .app-modal > .body .wrapper .top-wrapper p:first-child, .app-modal-wrapper.invite-visitors .app-modal > .body .wrapper .top-wrapper p:first-child {
+  margin-top: 0;
 }
 
 .app-modal-wrapper.invite-members .app-modal > .body .wrapper .top-wrapper p.textarea-info, .app-modal-wrapper.create-group .app-modal > .body .wrapper .top-wrapper p.textarea-info, .app-modal-wrapper.invite-visitors .app-modal > .body .wrapper .top-wrapper p.textarea-info {
@@ -46,7 +50,7 @@
   display: flex;
   height: 100%;
   flex-direction: row;
-  min-height: 300px;
+  min-height: 250px;
   padding: 0;
   margin-top: 30px;
   background: transparent;

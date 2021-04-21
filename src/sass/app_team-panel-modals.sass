@@ -4,7 +4,7 @@
 
 .app-modal-wrapper.invite-members, .app-modal-wrapper.create-group, .app-modal-wrapper.invite-visitors
   .app-modal
-    height : calc(100% - 50px * 2)
+    height : calc(100% - 50px * 1.5)
     max-height : calc(700px)
 
     & > header
@@ -12,7 +12,7 @@
         font-size : 1.1rem
     & > .body
       height : 100%
-      height : calc(100% - 60px - 50px) // From $modalHeaderHeight : 60px and $modalFooterHeight : 50px, from aDDS_modals.sass
+      height : calc(100% - 50px - 50px) // From $modalHeaderHeight : 50px and $modalFooterHeight : 50px, from aDDS_modals.sass
 
       .wrapper
         display : flex
@@ -25,6 +25,8 @@
 
           p
             color : rgba(255,255,255,.9)
+          p:first-child
+            margin-top : 0
           p.textarea-info
             color : rgba(255,255,255,.6)
             font-size : .9em
@@ -40,7 +42,7 @@
           display : flex
           height : 100%
           flex-direction : row
-          min-height : 300px
+          min-height : 250px
           padding : 0
           margin-top : 30px
           background : transparent

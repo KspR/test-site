@@ -20,7 +20,7 @@
   background: #333;
   width: 600px;
   max-width: calc(100% - 50px * 2);
-  max-height: calc(100% - 50px * 2);
+  max-height: calc(100% - 50px * 1.5);
   top: -10px;
   border-radius: 10px;
   color: #fff;
@@ -33,11 +33,13 @@
 
 .app-modal-wrapper .app-modal > header {
   background: rgba(255, 255, 255, 0.06);
-  height: 60px;
+  height: 50px;
   flex-shrink: 0;
   display: flex;
   align-items: center;
   padding: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   border-radius: 10px 10px 0 0;
 }
 
@@ -74,11 +76,12 @@
 
 .app-modal-wrapper .app-modal > .body {
   overflow: auto;
-  max-height: calc(100vh - 50px * 2 - 60px - 50px);
+  max-height: calc(100vh - 50px * 1.5 - 50px - 50px);
 }
 
 .app-modal-wrapper .app-modal > .body .wrapper {
   padding: 30px 30px calc(30px / 2);
+  padding-bottom: 0;
 }
 
 .app-modal-wrapper .app-modal > footer {
@@ -96,7 +99,7 @@
 .app-modal-wrapper .app-modal > footer .btn {
   height: 30px;
   position: relative;
-  top: 20px;
+  top: 24px;
   min-width: 80px;
   text-align: center;
   transition: background .2s;
