@@ -2,7 +2,7 @@
   "workflows": {
     "agile-project-management": {
       "id": "agile-project-management",
-      "pageDescription": "For Scrum Masters and Product Owners responsible for maintaining streamlined processes and running virtual ceremonies, Draft embraces all Agile workflows with flexibility and simplicity.",
+      "pageDescription": "Draft allows you to maintain streamlined processes and run virtual ceremonies, embracing all Agile workflows with flexibility and simplicity.",
       "title": "Draft for Agile Project Management",
       "landing": {
         "punchline": "Draft for<br /><span>Agile Project Management</span>",
@@ -19,15 +19,15 @@
         },
         "scrum-board": {
           "title": "Scrum Board",
-          "text": "Add greater transparency, clarity, and flexibility to team task management."
+          "text": "Add greater transparency, clarity, and flexibility in your Scrum team’s task management system by centralizing all key operational information."
         },
-        "program-board": {
-          "title": "Program Board",
-          "text": "Coordinate cross-functional teams in real-time and get a bird’s eye view of dependencies to prevent bottlenecks."
+        "planning-poker": {
+          "title": "Planning Poker",
+          "text": "Have fun while estimating user stories collaboratively to better prioritize your backlog and measure your team’s velocity"
         },
         "retrospective": {
           "title": "Retrospective",
-          "text": "Design your own retrospective exercises or use one of our templates to get started.",
+          "text": "Design your own retrospective exercises or use one of our templates to get started (Timeline, 4Ls, Speedboat, Starfish, Start/Stop/Continue, 3-little Pigs, ESVP).",
           "template": "timeline-retrospective"
         }
       },

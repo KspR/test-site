@@ -1,13 +1,18 @@
 body * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 ul {
-  list-style: none; }
+  list-style: none;
+}
 
 button {
-  font-family: inherit; }
-  button:focus {
-    border: none;
-    outline: none; }
+  font-family: inherit;
+}
+
+button:focus {
+  border: none;
+  outline: none;
+}

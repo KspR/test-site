@@ -1,292 +1,933 @@
 <!DOCTYPE html>
 <html >
   <head profile="http://www.w3.org/2005/10/profile">
-
-    <link href="css/common.css" rel="stylesheet">
+    
+    <link href="css/appDDS_common.css" rel="stylesheet">
     <link href="css/app_team-panel.css" rel="stylesheet">
+
+    <link href="css/appDDS_modals.css" rel="stylesheet">
+    <link href="css/app_team-panel-modals.css" rel="stylesheet">
 
     <link rel="icon" href="/favicon.png?v=3" />
 
-
-    <title>Team panel app component <!--Draft Onboarding - Choix du workflow--></title>
-    <meta name="description" content="Dans quel contexte envisagez-vous d’utiliser Draft ? Cette information nous permettra de vous orienter vers l’onboarding le plus adapté à votre profil." />
-    <meta name="viewport" content="width=device-width;user-scalable=no,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+    <title>Team panel app component</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
     <meta name="robots" content="noindex,nofollow" />
 
   </head>
 
   <body class="app-cmpnt_team-dashboard">
     
-      <nav class="false-header-bar"></nav><!-- To remove when integrated in true app system ! -->
+    <nav class="false-header-bar"></nav><!-- To remove when integrated in true app system ! -->
 
-      <div class="container">
+    <div class="container">
 
-        <div class="left-panels-wrapper">
+      <div class="left-panels-wrapper">
 
-          <div class="team-panel panel-wrapper">
-            <header>
-              <h2>Team</h2>
-            </header>
-            <div class="sub-wrapper">
-              <div class="team-name">Team name : <input class="dark-input" type="text" value="Team Aldric test"></div>
-              <div class="team-licence">
-                <i class="fas fa-user-friends"></i>
-                Team licence of <strong>15 users</strong>
-                <span class="discreet"> - until 09/23/2021</span>
-              </div>
-              <div class="link-share-chkbx">
-                <label class="custom-chkbx-wrapper">
-                  <input type="checkbox">
-                  <span class="custom-chkbx"></span>
-                  Share by link limited to the Team
-                </label>
-              </div>
+        <div class="team-panel panel-wrapper">
+          <header>
+            <h2>Team</h2>
+          </header>
+          <div class="sub-wrapper">
+            <div class="team-name">Team name : <input class="dark-input" type="text" value="Team Aldric test"></div>
+            <div class="team-licence">
+              <i class="fas fa-user-friends"></i>
+              Team licence of <strong>15 users</strong>
+              <span class="discreet"> - until 09/23/2021</span>
             </div>
-            <div class="team-info">
-              <a class="text-link" href="#">
-                En savoir plus sur le fonctionnement de Team  <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i>
-              </a>
+            <div class="link-share-chkbx">
+              <label class="custom-chkbx-wrapper">
+                <input type="checkbox">
+                <span class="custom-chkbx"></span>
+                Share by link limited to the Team
+              </label>
             </div>
           </div>
-
-          <div class="groups-panel panel-wrapper">
-            <header>
-              <h2>Groups</h2>
-              <button class="btn dark outlined">
-                <i class="fas fa-plus"></i>
-                Créer un groupe
-              </button>
-            </header>
-            
-          <div class="sub-wrapper tab">
-            <ul class="table">
-              <li class="theader">
-                <div class="col name">Nom</div>
-                <div class="col users-qty">Utilisateurs</div>
-                <div class="col actions">Actions</div>
-              </li>
-              
-              <li class="row">
-                <div class="col name" title="All members">All members</div>
-                <div class="col users-qty"><a class="text-link" href="#">2</a></div>
-                <div class="col actions">
-                  <button type="button" class="btn action" title="Modifier le groupe"><i class="fas fa-pencil-alt"></i></button>
-                  <button type="button" class="btn action" title="Supprimer le groupe"><i class="fas fa-trash-alt"></i></i></button>
-                </div>
-              </li>
-              <li class="row">
-                <div class="col name" title="All members">Group test</div>
-                <div class="col users-qty"><a class="text-link" href="#">1</a></div>
-                <div class="col actions">
-                  <button type="button" class="btn action" title="Modifier le groupe"><i class="fas fa-pencil-alt"></i></button>
-                  <button type="button" class="btn action" title="Supprimer le groupe"><i class="fas fa-trash-alt"></i></i></button>
-                </div>
-              </li>
-            </ul>
+          <div class="team-info">
+            <a class="text-link" href="#">
+              En savoir plus sur le fonctionnement de Team  <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i>
+            </a>
           </div>
-              
-
-          </div>
-
         </div>
 
-        <div class="members-panel panel-wrapper">
+        <div class="groups-panel panel-wrapper">
           <header>
-            <h2>Members <span class="licences-counter">13 utilisateurs / 15 maximum</span></h2>
+            <h2>Groups</h2>
             <button class="btn dark outlined">
               <i class="fas fa-plus"></i>
-              Inviter des membres
+              Créer un groupe
             </button>
           </header>
+          
+        <div class="sub-wrapper tab">
 
-          <div class="sub-wrapper tab has-filter">
-            <div class="filter-bar">
-              Filtre : <input class="dark-input" type="text" placeholder="User email">
-            </div>
-            <div class="theader">
+          <ul class="table">
+            
+            <li class="theader">
+              <div class="col name">Nom</div>
+              <div class="col users-qty">Utilisateurs</div>
+              <div class="col actions">Actions</div>
+            </li>
+            
+            <li class="row">
+              <div class="col name" title="All members">All members</div>
+              <div class="col users-qty"><span class="has-tooltip" title="admin@ar.com ; betatester@ar.com">2</span></div>
+              <div class="col actions">
+                <button type="button" class="btn action" title="Modifier le groupe"><i class="fas fa-pencil-alt"></i></button>
+                <button type="button" class="btn action" title="Supprimer le groupe"><i class="fas fa-trash-alt"></i></i></button>
+              </div>
+            </li>
+            <li class="row">
+              <div class="col name" title="Group test">Group test</div>
+              <div class="col users-qty"><span class="has-tooltip" title="betatester@ar.com">1</span></div>
+              <div class="col actions">
+                <button type="button" class="btn action" title="Modifier le groupe"><i class="fas fa-pencil-alt"></i></button>
+                <button type="button" class="btn action" title="Supprimer le groupe"><i class="fas fa-trash-alt"></i></i></button>
+              </div>
+            </li>
+          </ul>
+        </div>
+        </div>
+
+      </div>
+
+      <div class="members-panel panel-wrapper">
+        <header>
+          <h2>Members <span class="licences-counter">13 utilisateurs / 15 maximum</span></h2>
+          <button class="btn dark outlined">
+            <i class="fas fa-plus"></i>
+            Inviter des membres
+          </button>
+        </header>
+
+        <div class="sub-wrapper tab has-filter has-footer">
+          <div class="filter-bar">
+            Filtre : <input class="dark-input" type="text" placeholder="User email">
+          </div>
+          <ul class="table">
+            <li class="theader">
               <div class="col chkbx"></div>
               <div class="col mail"><span class="listing-btn"><i class="fas fa-sort-down"></i> Email</span></div>
               <div class="col role"><span class="listing-btn"><i class="fas fa-sort-down"></i> Role</span></div>
               <div class="col status">Status</div>
               <div class="col activity">Last activity</div>
               <div class="col actions">Actions</div>
-            </div>
-            <ul class="table">
-              
-              <li class="row">
-                <div class="col chkbx">
-                  <label class="custom-chkbx-wrapper">
-                    <input type="checkbox">
-                    <span class="custom-chkbx small"></span>
-                  </label>
-                </div>
-                <div class="col mail" title="admqsdqsin@ar.com">admqsdqsin@ar.com</div>
-                <div class="col role">admin</div>
-                <div class="col status">actif</div>
-                <div class="col activity">hier</div>
-                <div class="col actions">
-                  <button disabled type="button" class="btn action" title="Modifier les groupes d'appartenance"><i class="fas fa-users"></i></button>
-                  <button type="button" class="btn action" title="Retirer l'utilisateur des membres et l'ajouter aux visiteurs"><i class="far fa-arrow-alt-circle-right"></i></button>
-                  <button type="button" class="btn action" title="Supprimer"><i class="fas fa-user-minus"></i></button>
-                </div>
-              </li>
-
-              <li class="row">
-                <div class="col chkbx">
-                  <label class="custom-chkbx-wrapper">
-                    <input type="checkbox">
-                    <span class="custom-chkbx small"></span>
-                  </label>
-                </div>
-                <div class="col mail">admqsdqsidfqsfdqdfqdfdfn@ar.com</div>
-                <div class="col role">
-                  <div class="custom-select-box small">
-                    <select name="role-type">
-                      <option value="admin">admin</option>
-                      <option selected value="guest">membre</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="col status">invité</div>
-                <div class="col activity">aujourd'hui</div>
-                <div class="col actions">
-                  <button disabled type="button" class="btn action"><i class="fas fa-users"></i></button>
-                  <button type="button" class="btn action"><i class="far fa-arrow-alt-circle-right"></i></button>
-                  <button type="button" class="btn action"><i class="fas fa-user-minus"></i></button>
-                </div>
-              </li>
-
-
-
-
-              <li class="row">
-                <div class="col chkbx">
-                  <label class="custom-chkbx-wrapper">
-                    <input type="checkbox">
-                    <span class="custom-chkbx small"></span>
-                  </label>
-                </div>
-                <div class="col mail">user@ar.com</div>
-                <div class="col role">
-                  <div class="custom-select-box small">
-                    <select name="role-type">
-                      <option value="admin">admin</option>
-                      <option selected value="guest">membre</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="col status">actif</div>
-                <div class="col activity">hier</div>
-                <div class="col actions">
-                  <button disabled type="button" class="btn action"><i class="fas fa-users"></i></button>
-                  <button type="button" class="btn action"><i class="far fa-arrow-alt-circle-right"></i></button>
-                  <button type="button" class="btn action"><i class="fas fa-user-minus"></i></button>
-                </div>
-              </li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-              
-            </ul>
-            <div class="tfooter">
-              <div class="selectAll-action">
+            </li>
+            <li class="row">
+              <div class="col chkbx">
                 <label class="custom-chkbx-wrapper">
                   <input type="checkbox">
                   <span class="custom-chkbx small"></span>
-                  Tout sélectionner
                 </label>
               </div>
-              <div class="applyAll-actions">
-                <span class="discreet">
-                  Appliquer à la sélection :
-                </span>
-                <div class="col actions">
-                  <span class="btn action"><i class="fas fa-users"></i></span>
-                  <span class="btn action"><i class="far fa-arrow-alt-circle-right"></i></span>
-                  <span class="btn action"><i class="fas fa-user-minus"></i></span>
+              <div class="col mail" title="admqsdqsin@ar.com">admqsdqsin@ar.com</div>
+              <div class="col role">admin</div>
+              <div class="col status">actif</div>
+              <div class="col activity">hier</div>
+              <div class="col actions">
+                <button disabled type="button" class="btn action" title="Modifier les groupes d'appartenance"><i class="fas fa-users"></i></button>
+                <button type="button" class="btn action" title="Retirer l'utilisateur des membres et l'ajouter aux visiteurs"><i class="far fa-arrow-alt-circle-right"></i></button>
+                <button type="button" class="btn action" title="Supprimer"><i class="fas fa-user-minus"></i></button>
+              </div>
+            </li>
+            <li class="row">
+              <div class="col chkbx">
+                <label class="custom-chkbx-wrapper">
+                  <input type="checkbox">
+                  <span class="custom-chkbx small"></span>
+                </label>
+              </div>
+              <div class="col mail">loremipsum@ar.com</div>
+              <div class="col role">
+                <div class="custom-select-box small">
+                  <select name="role-type">
+                    <option value="admin">admin</option>
+                    <option selected value="guest">membre</option>
+                  </select>
                 </div>
+              </div>
+              <div class="col status">invité</div>
+              <div class="col activity">aujourd'hui</div>
+              <div class="col actions">
+                <button disabled type="button" class="btn action"><i class="fas fa-users"></i></button>
+                <button type="button" class="btn action"><i class="far fa-arrow-alt-circle-right"></i></button>
+                <button type="button" class="btn action"><i class="fas fa-user-minus"></i></button>
+              </div>
+            </li>
+            <li class="row">
+              <div class="col chkbx">
+                <label class="custom-chkbx-wrapper">
+                  <input type="checkbox">
+                  <span class="custom-chkbx small"></span>
+                </label>
+              </div>
+              <div class="col mail">dolor@ar.com</div>
+              <div class="col role">
+                <div class="custom-select-box small">
+                  <select name="role-type">
+                    <option value="admin">admin</option>
+                    <option selected value="guest">membre</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col status">invité</div>
+              <div class="col activity">aujourd'hui</div>
+              <div class="col actions">
+                <button disabled type="button" class="btn action"><i class="fas fa-users"></i></button>
+                <button type="button" class="btn action"><i class="far fa-arrow-alt-circle-right"></i></button>
+                <button type="button" class="btn action"><i class="fas fa-user-minus"></i></button>
+              </div>
+            </li>
+            <li class="row">
+              <div class="col chkbx">
+                <label class="custom-chkbx-wrapper">
+                  <input type="checkbox">
+                  <span class="custom-chkbx small"></span>
+                </label>
+              </div>
+              <div class="col mail">siteconscetum-elom@ar.com</div>
+              <div class="col role">
+                <div class="custom-select-box small">
+                  <select name="role-type">
+                    <option value="admin">admin</option>
+                    <option selected value="guest">membre</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col status">invité</div>
+              <div class="col activity">aujourd'hui</div>
+              <div class="col actions">
+                <button disabled type="button" class="btn action"><i class="fas fa-users"></i></button>
+                <button type="button" class="btn action"><i class="far fa-arrow-alt-circle-right"></i></button>
+                <button type="button" class="btn action"><i class="fas fa-user-minus"></i></button>
+              </div>
+            </li>
+            <li class="row">
+              <div class="col chkbx">
+                <label class="custom-chkbx-wrapper">
+                  <input type="checkbox">
+                  <span class="custom-chkbx small"></span>
+                </label>
+              </div>
+              <div class="col mail">dit-ap@ar.com</div>
+              <div class="col role">
+                <div class="custom-select-box small">
+                  <select name="role-type">
+                    <option value="admin">admin</option>
+                    <option selected value="guest">membre</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col status">invité</div>
+              <div class="col activity">aujourd'hui</div>
+              <div class="col actions">
+                <button disabled type="button" class="btn action"><i class="fas fa-users"></i></button>
+                <button type="button" class="btn action"><i class="far fa-arrow-alt-circle-right"></i></button>
+                <button type="button" class="btn action"><i class="fas fa-user-minus"></i></button>
+              </div>
+            </li>
+            <li class="row">
+              <div class="col chkbx">
+                <label class="custom-chkbx-wrapper">
+                  <input type="checkbox">
+                  <span class="custom-chkbx small"></span>
+                </label>
+              </div>
+              <div class="col mail">xactum.dit@ar.com</div>
+              <div class="col role">
+                <div class="custom-select-box small">
+                  <select name="role-type">
+                    <option value="admin">admin</option>
+                    <option selected value="guest">membre</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col status">invité</div>
+              <div class="col activity">aujourd'hui</div>
+              <div class="col actions">
+                <button disabled type="button" class="btn action"><i class="fas fa-users"></i></button>
+                <button type="button" class="btn action"><i class="far fa-arrow-alt-circle-right"></i></button>
+                <button type="button" class="btn action"><i class="fas fa-user-minus"></i></button>
+              </div>
+            </li>
+            <li class="row">
+              <div class="col chkbx">
+                <label class="custom-chkbx-wrapper">
+                  <input type="checkbox">
+                  <span class="custom-chkbx small"></span>
+                </label>
+              </div>
+              <div class="col mail">belom@ar.com</div>
+              <div class="col role">
+                <div class="custom-select-box small">
+                  <select name="role-type">
+                    <option value="admin">admin</option>
+                    <option selected value="guest">membre</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col status">invité</div>
+              <div class="col activity">aujourd'hui</div>
+              <div class="col actions">
+                <button disabled type="button" class="btn action"><i class="fas fa-users"></i></button>
+                <button type="button" class="btn action"><i class="far fa-arrow-alt-circle-right"></i></button>
+                <button type="button" class="btn action"><i class="fas fa-user-minus"></i></button>
+              </div>
+            </li>
+            <li class="row">
+              <div class="col chkbx">
+                <label class="custom-chkbx-wrapper">
+                  <input type="checkbox">
+                  <span class="custom-chkbx small"></span>
+                </label>
+              </div>
+              <div class="col mail">parabelum-exo@ar.com</div>
+              <div class="col role">
+                <div class="custom-select-box small">
+                  <select name="role-type">
+                    <option value="admin">admin</option>
+                    <option selected value="guest">membre</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col status">invité</div>
+              <div class="col activity">aujourd'hui</div>
+              <div class="col actions">
+                <button disabled type="button" class="btn action"><i class="fas fa-users"></i></button>
+                <button type="button" class="btn action"><i class="far fa-arrow-alt-circle-right"></i></button>
+                <button type="button" class="btn action"><i class="fas fa-user-minus"></i></button>
+              </div>
+            </li>
+            <li class="row">
+              <div class="col chkbx">
+                <label class="custom-chkbx-wrapper">
+                  <input type="checkbox">
+                  <span class="custom-chkbx small"></span>
+                </label>
+              </div>
+              <div class="col mail">monsegur@ar.com</div>
+              <div class="col role">
+                <div class="custom-select-box small">
+                  <select name="role-type">
+                    <option value="admin">admin</option>
+                    <option selected value="guest">membre</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col status">invité</div>
+              <div class="col activity">aujourd'hui</div>
+              <div class="col actions">
+                <button disabled type="button" class="btn action"><i class="fas fa-users"></i></button>
+                <button type="button" class="btn action"><i class="far fa-arrow-alt-circle-right"></i></button>
+                <button type="button" class="btn action"><i class="fas fa-user-minus"></i></button>
+              </div>
+            </li>
+            <li class="row">
+              <div class="col chkbx">
+                <label class="custom-chkbx-wrapper">
+                  <input type="checkbox">
+                  <span class="custom-chkbx small"></span>
+                </label>
+              </div>
+              <div class="col mail">victor-hugo@ar.com</div>
+              <div class="col role">
+                <div class="custom-select-box small">
+                  <select name="role-type">
+                    <option value="admin">admin</option>
+                    <option selected value="guest">membre</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col status">invité</div>
+              <div class="col activity">aujourd'hui</div>
+              <div class="col actions">
+                <button disabled type="button" class="btn action"><i class="fas fa-users"></i></button>
+                <button type="button" class="btn action"><i class="far fa-arrow-alt-circle-right"></i></button>
+                <button type="button" class="btn action"><i class="fas fa-user-minus"></i></button>
+              </div>
+            </li>
+            <li class="row">
+              <div class="col chkbx">
+                <label class="custom-chkbx-wrapper">
+                  <input type="checkbox">
+                  <span class="custom-chkbx small"></span>
+                </label>
+              </div>
+              <div class="col mail">jean.de.la.fontaine@ar.com</div>
+              <div class="col role">
+                <div class="custom-select-box small">
+                  <select name="role-type">
+                    <option value="admin">admin</option>
+                    <option selected value="guest">membre</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col status">invité</div>
+              <div class="col activity">aujourd'hui</div>
+              <div class="col actions">
+                <button disabled type="button" class="btn action"><i class="fas fa-users"></i></button>
+                <button type="button" class="btn action"><i class="far fa-arrow-alt-circle-right"></i></button>
+                <button type="button" class="btn action"><i class="fas fa-user-minus"></i></button>
+              </div>
+            </li>
+            <li class="row">
+              <div class="col chkbx">
+                <label class="custom-chkbx-wrapper">
+                  <input type="checkbox">
+                  <span class="custom-chkbx small"></span>
+                </label>
+              </div>
+              <div class="col mail">admqsdqsidfqsfdqdfqdfdfn@ar.com</div>
+              <div class="col role">
+                <div class="custom-select-box small">
+                  <select name="role-type">
+                    <option value="admin">admin</option>
+                    <option selected value="guest">membre</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col status">invité</div>
+              <div class="col activity">aujourd'hui</div>
+              <div class="col actions">
+                <button disabled type="button" class="btn action"><i class="fas fa-users"></i></button>
+                <button type="button" class="btn action"><i class="far fa-arrow-alt-circle-right"></i></button>
+                <button type="button" class="btn action"><i class="fas fa-user-minus"></i></button>
+              </div>
+            </li>
+            <li class="row">
+              <div class="col chkbx">
+                <label class="custom-chkbx-wrapper">
+                  <input type="checkbox">
+                  <span class="custom-chkbx small"></span>
+                </label>
+              </div>
+              <div class="col mail">user@ar.com</div>
+              <div class="col role">
+                <div class="custom-select-box small">
+                  <select name="role-type">
+                    <option value="admin">admin</option>
+                    <option selected value="guest">membre</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col status">actif</div>
+              <div class="col activity">hier</div>
+              <div class="col actions">
+                <button disabled type="button" class="btn action"><i class="fas fa-users"></i></button>
+                <button type="button" class="btn action"><i class="far fa-arrow-alt-circle-right"></i></button>
+                <button type="button" class="btn action"><i class="fas fa-user-minus"></i></button>
+              </div>
+            </li>
+          </ul>
+          <div class="tfooter">
+            <div class="selectAll-action">
+              <label class="custom-chkbx-wrapper">
+                <input type="checkbox">
+                <span class="custom-chkbx small"></span>
+                Tout sélectionner
+              </label>
+            </div>
+            <div class="applyAll-actions">
+              <span class="discreet">
+                Appliquer à la sélection :
+              </span>
+              <div class="col actions">
+                <span class="btn action"><i class="fas fa-users"></i></span>
+                <span class="btn action"><i class="far fa-arrow-alt-circle-right"></i></span>
+                <span class="btn action"><i class="fas fa-user-minus"></i></span>
               </div>
             </div>
           </div>
-          
         </div>
+      
+      </div>
 
-        <div class="visitors-panel panel-wrapper">
-          <header>
-            <h2>Visitors</h2>
-            <button class="btn dark outlined">
-              <i class="fas fa-plus"></i>
-              Inviter des visiteurs
-            </button>
-          </header>
+      <div class="visitors-panel panel-wrapper">
+        <header>
+          <h2>Visitors</h2>
+          <button class="btn dark outlined">
+            <i class="fas fa-plus"></i>
+            Inviter des visiteurs
+          </button>
+        </header>
 
-          <div class="sub-wrapper tab has-filter">
-            <div class="filter-bar">
-              Filtre : <input class="dark-input" type="text" placeholder="User email">
-            </div>
-            <div class="theader">
+        <div class="sub-wrapper tab has-filter has-footer">
+          <div class="filter-bar">
+            Filtre : <input class="dark-input" type="text" placeholder="User email">
+          </div>
+          <ul class="table">
+            <li class="theader">
               <div class="col chkbx"></div>
               <div class="col mail"><span class="listing-btn"><i class="fas fa-sort-down"></i> Email</span></div>
               <div class="col status">Status</div>
               <div class="col activity">Last activity</div>
               <div class="col actions">Actions</div>
-            </div>
-            <ul class="table">
-              <li class="row">
-                <div class="col chkbx">
-                  <label class="custom-chkbx-wrapper">
-                    <input type="checkbox">
-                    <span class="custom-chkbx small"></span>
-                  </label>
-                </div>
-                <div class="col mail" title="admqsdqsin@ar.com">admqsdqsin@ar.com</div>
-                <div class="col status">actif</div>
-                <div class="col activity">hier</div>
-                <div class="col actions">
-                  <button disabled type="button" class="btn action"><i class="fas fa-users"></i></button>
-                  <button type="button" class="btn action"><i class="far fa-arrow-alt-circle-right"></i></button>
-                  <button type="button" class="btn action"><i class="fas fa-user-minus"></i></button>
-                </div>
-              </li>
-              
-            </ul>
-              
-            <div class="tfooter">
-              <div class="selectAll-action">
+            </li>
+            <li class="row">
+              <div class="col chkbx">
                 <label class="custom-chkbx-wrapper">
                   <input type="checkbox">
                   <span class="custom-chkbx small"></span>
-                  Tout sélectionner
                 </label>
               </div>
-              <div class="applyAll-actions">
-                <span class="discreet">
-                  Appliquer à la sélection :
-                </span>
-                <div class="col actions">
-                  <span class="btn action"><i class="fas fa-users"></i></span>
-                  <span class="btn action"><i class="far fa-arrow-alt-circle-right"></i></span>
-                  <span class="btn action"><i class="fas fa-user-minus"></i></span>
-                </div>
+              <div class="col mail" title="admqsdqsin@ar.com">admqsdqsin@ar.com</div>
+              <div class="col status">actif</div>
+              <div class="col activity">hier</div>
+              <div class="col actions">
+                <button disabled type="button" class="btn action"><i class="fas fa-users"></i></button>
+                <button type="button" class="btn action"><i class="far fa-arrow-alt-circle-right"></i></button>
+                <button type="button" class="btn action"><i class="fas fa-user-minus"></i></button>
+              </div>
+            </li>
+            <li class="row">
+              <div class="col chkbx">
+                <label class="custom-chkbx-wrapper">
+                  <input type="checkbox">
+                  <span class="custom-chkbx small"></span>
+                </label>
+              </div>
+              <div class="col mail" title="admqsdqsin@ar.com">admqsdqsin@ar.com</div>
+              <div class="col status">actif</div>
+              <div class="col activity">hier</div>
+              <div class="col actions">
+                <button disabled type="button" class="btn action"><i class="fas fa-users"></i></button>
+                <button type="button" class="btn action"><i class="far fa-arrow-alt-circle-right"></i></button>
+                <button type="button" class="btn action"><i class="fas fa-user-minus"></i></button>
+              </div>
+            </li>
+            <li class="row">
+              <div class="col chkbx">
+                <label class="custom-chkbx-wrapper">
+                  <input type="checkbox">
+                  <span class="custom-chkbx small"></span>
+                </label>
+              </div>
+              <div class="col mail" title="admqsdqsin@ar.com">admqsdqsin@ar.com</div>
+              <div class="col status">actif</div>
+              <div class="col activity">hier</div>
+              <div class="col actions">
+                <button disabled type="button" class="btn action"><i class="fas fa-users"></i></button>
+                <button type="button" class="btn action"><i class="far fa-arrow-alt-circle-right"></i></button>
+                <button type="button" class="btn action"><i class="fas fa-user-minus"></i></button>
+              </div>
+            </li>
+            <li class="row">
+              <div class="col chkbx">
+                <label class="custom-chkbx-wrapper">
+                  <input type="checkbox">
+                  <span class="custom-chkbx small"></span>
+                </label>
+              </div>
+              <div class="col mail" title="admqsdqsin@ar.com">admqsdqsin@ar.com</div>
+              <div class="col status">actif</div>
+              <div class="col activity">hier</div>
+              <div class="col actions">
+                <button disabled type="button" class="btn action"><i class="fas fa-users"></i></button>
+                <button type="button" class="btn action"><i class="far fa-arrow-alt-circle-right"></i></button>
+                <button type="button" class="btn action"><i class="fas fa-user-minus"></i></button>
+              </div>
+            </li>
+            
+          </ul>
+            
+          <div class="tfooter">
+            <div class="selectAll-action">
+              <label class="custom-chkbx-wrapper">
+                <input type="checkbox">
+                <span class="custom-chkbx small"></span>
+                Tout sélectionner
+              </label>
+            </div>
+            <div class="applyAll-actions">
+              <span class="discreet">
+                Appliquer à la sélection :
+              </span>
+              <div class="col actions">
+                <span class="btn action"><i class="fas fa-users"></i></span>
+                <span class="btn action"><i class="far fa-arrow-alt-circle-right"></i></span>
+                <span class="btn action"><i class="fas fa-user-minus"></i></span>
               </div>
             </div>
           </div>
-          
         </div>
-
-
+        
       </div>
+
+    </div>
+
+	  
+    <div class="app-modal-wrapper create-group">
+      <div class="app-modal medium">
+        <header>
+          <h2>Create group</h2>
+          <button class="btn close"><span class="picto-text">+</span></button>
+        </header>
+        <div class="body">
+          <div class="wrapper">
+            
+            <div class="top-wrapper">
+              Group name : <input class="dark-input" type="text" placeholder="Group name">
+            </div>
+            <div class="bottom-wrapper panels-wrapper">
+
+                
+                <div class="panel-wrapper group-members-panel">
+                  <header>
+                    <h2>GROUP MEMBERS</h2>
+                  </header>
+
+                  <div class="sub-wrapper tab">
+                    <ul class="table">
+                      
+                      <li class="row">
+                        <div class="col email" title="admin@ar.com">admin@ar.com</div>
+                        <div class="col actions">
+                          <button class="btn dark outlined action" title="Retirer ce membre du groupe">
+                            <span>-</span>
+                          </button>
+                        </div>
+                      </li>
+                      <li class="row">
+                        <div class="col email" title="user143@ar.com">user143@ar.com</div>
+                        <div class="col actions">
+                          <button class="btn dark outlined action" title="Retirer ce membre du groupe">
+                            <span>-</span>
+                          </button>
+                        </div>
+                      </li>
+                      <li class="row">
+                        <div class="col email" title="user143@ar.com">user143@ar.com</div>
+                        <div class="col actions">
+                          <button class="btn dark outlined action" title="Retirer ce membre du groupe">
+                            <span>-</span>
+                          </button>
+                        </div>
+                      </li>
+                      <li class="row">
+                        <div class="col email" title="admin@ar.com">admin@ar.com</div>
+                        <div class="col actions">
+                          <button class="btn dark outlined action" title="Retirer ce membre du groupe">
+                            <span>-</span>
+                          </button>
+                        </div>
+                      </li>
+                      <li class="row">
+                        <div class="col email" title="user143@ar.com">user143@ar.com</div>
+                        <div class="col actions">
+                          <button class="btn dark outlined action" title="Retirer ce membre du groupe">
+                            <span>-</span>
+                          </button>
+                        </div>
+                      </li>
+                      <li class="row">
+                        <div class="col email" title="admin@ar.com">admin@ar.com</div>
+                        <div class="col actions">
+                          <button class="btn dark outlined action" title="Retirer ce membre du groupe">
+                            <span>-</span>
+                          </button>
+                        </div>
+                      </li>
+                      <li class="row">
+                        <div class="col email" title="user143@ar.com">user143@ar.com</div>
+                        <div class="col actions">
+                          <button class="btn dark outlined action" title="Retirer ce membre du groupe">
+                            <span>-</span>
+                          </button>
+                        </div>
+                      </li>
+                      <li class="row">
+                        <div class="col email" title="admin@ar.com">admin@ar.com</div>
+                        <div class="col actions">
+                          <button class="btn dark outlined action" title="Retirer ce membre du groupe">
+                            <span>-</span>
+                          </button>
+                        </div>
+                      </li>
+                      <li class="row">
+                        <div class="col email" title="user143@ar.com">user143@ar.com</div>
+                        <div class="col actions">
+                          <button class="btn dark outlined action" title="Retirer ce membre du groupe">
+                            <span>-</span>
+                          </button>
+                        </div>
+                      </li>
+
+                    </ul>
+                  </div>
+                </div>
+                <div class="panel-wrapper users-panel">
+                  <header>
+                    <h2>USERS - Not in group</h2>
+                    <div class="filter-bar">
+                      Filtre : <input class="dark-input" type="text" placeholder="User email">
+                    </div>
+                  </header>
+                  
+                  <div class="sub-wrapper tab">
+                    <ul class="table">
+                      
+                      <li class="row">
+                        <div class="col actions">
+                          <button class="btn dark outlined action" title="Ajouter ce membre au groupe"><span>+</span></button>
+                        </div>
+                        <div class="col email" title="admin-2@ar.com">admin-2@ar.com</div>
+                      </li>
+                      <li class="row">
+                        <div class="col actions">
+                          <button class="btn dark outlined action" title="Ajouter ce membre au groupe"><span>+</span></button>
+                        </div>
+                        <div class="col email" title="albert-jean2002@ar.com">albert-jean2002@ar.com</div>
+                      </li>
+                      <li class="row">
+                        <div class="col actions">
+                          <button class="btn dark outlined action" title="Ajouter ce membre au groupe"><span>+</span></button>
+                        </div>
+                        <div class="col email" title="admin-2@ar.com">admin-2@ar.com</div>
+                      </li>
+                      <li class="row">
+                        <div class="col actions">
+                          <button class="btn dark outlined action" title="Ajouter ce membre au groupe"><span>+</span></button>
+                        </div>
+                        <div class="col email" title="admin-2@ar.com">admin-2@ar.com</div>
+                      </li>
+                      <li class="row">
+                        <div class="col actions">
+                          <button class="btn dark outlined action" title="Ajouter ce membre au groupe"><span>+</span></button>
+                        </div>
+                        <div class="col email" title="admin-2@ar.com">admin-2@ar.com</div>
+                      </li>
+                      <li class="row">
+                        <div class="col actions">
+                          <button class="btn dark outlined action" title="Ajouter ce membre au groupe"><span>+</span></button>
+                        </div>
+                        <div class="col email" title="admin-2@ar.com">admin-2@ar.com</div>
+                      </li>
+                      <li class="row">
+                        <div class="col actions">
+                          <button class="btn dark outlined action" title="Ajouter ce membre au groupe"><span>+</span></button>
+                        </div>
+                        <div class="col email" title="admin-2@ar.com">admin-2@ar.com</div>
+                      </li>
+                      <li class="row">
+                        <div class="col actions">
+                          <button class="btn dark outlined action" title="Ajouter ce membre au groupe"><span>+</span></button>
+                        </div>
+                        <div class="col email" title="admin-2@ar.com">admin-2@ar.com</div>
+                      </li>
+
+                    </ul>
+                  </div>
+
+              </div>
+
+            </div>
+
+
+          </div>
+        </div>
+        <footer>
+          <button type="button" class="btn cancel">Cancel</button>
+          <button type="button" class="btn submit">Invite</button>
+        </footer>
+      </div>
+    </div>
+	  
+    <div class="app-modal-wrapper invite-members">
+      <div class="app-modal medium">
+        <header>
+          <h2>Invite members</h2>
+          <button class="btn close"><span class="picto-text">+</span></button>
+        </header>
+        <div class="body">
+          <div class="wrapper">
+            
+            <div class="top-wrapper">
+              <p>Fill addresses below to invite people to your team. Then select all the groups of whom the new members belong.</p>
+              <p class="textarea-info">
+                To invite multiple members at once, separe addresses with ; or linebreaks.
+              </p>
+              <textarea class="dark-textarea" placeholder="Email addresses"></textarea>
+            </div>
+            <div class="bottom-wrapper panels-wrapper">
+
+                
+                <div class="groups-panel panel-wrapper groups-in">
+                  <header>
+                    <h2>GROUPS - In</h2>
+                  </header>
+                  
+                  <div class="sub-wrapper tab">
+                    <ul class="table">
+                      
+                      <li class="row">
+                        <div class="col name" title="Global">Global</div>
+                        <div class="col actions">
+                          <button class="btn dark outlined action" title="Retirer ce groupe d'appartenance">
+                            <span>-</span>
+                          </button>
+                        </div>
+                      </li>
+                      <li class="row">
+                        <div class="col name" title="Groupe test 1">Groupe test 1</div>
+                        <div class="col actions">
+                          <button class="btn dark outlined action" title="Retirer ce groupe d'appartenance">
+                            <span>-</span>
+                          </button>
+                        </div>
+                      </li>
+                      <li class="row">
+                        <div class="col name" title="Workshop Omega">Workshop Omega</div>
+                        <div class="col actions">
+                          <button class="btn dark outlined action" title="Retirer ce groupe d'appartenance">
+                            <span>-</span>
+                          </button>
+                        </div>
+                      </li>
+                      <li class="row">
+                        <div class="col name" title="Global">Global</div>
+                        <div class="col actions">
+                          <button class="btn dark outlined action" title="Retirer ce groupe d'appartenance">
+                            <span>-</span>
+                          </button>
+                        </div>
+                      </li>
+                      <li class="row">
+                        <div class="col name" title="Groupe test 1">Groupe test 1</div>
+                        <div class="col actions">
+                          <button class="btn dark outlined action" title="Retirer ce groupe d'appartenance">
+                            <span>-</span>
+                          </button>
+                        </div>
+                      </li>
+                      <li class="row">
+                        <div class="col name" title="Workshop Omega">Workshop Omega</div>
+                        <div class="col actions">
+                          <button class="btn dark outlined action" title="Retirer ce groupe d'appartenance">
+                            <span>-</span>
+                          </button>
+                        </div>
+                      </li>
+                      <li class="row">
+                        <div class="col name" title="Global">Global</div>
+                        <div class="col actions">
+                          <button class="btn dark outlined action" title="Retirer ce groupe d'appartenance">
+                            <span>-</span>
+                          </button>
+                        </div>
+                      </li>
+                      <li class="row">
+                        <div class="col name" title="Groupe test 1">Groupe test 1</div>
+                        <div class="col actions">
+                          <button class="btn dark outlined action" title="Retirer ce groupe d'appartenance">
+                            <span>-</span>
+                          </button>
+                        </div>
+                      </li>
+                      <li class="row">
+                        <div class="col name" title="Workshop Omega">Workshop Omega</div>
+                        <div class="col actions">
+                          <button class="btn dark outlined action" title="Retirer ce groupe d'appartenance">
+                            <span>-</span>
+                          </button>
+                        </div>
+                      </li>
+                      <li class="row">
+                        <div class="col name" title="Global">Global</div>
+                        <div class="col actions">
+                          <button class="btn dark outlined action" title="Retirer ce groupe d'appartenance">
+                            <span>-</span>
+                          </button>
+                        </div>
+                      </li>
+                      <li class="row">
+                        <div class="col name" title="Groupe test 1">Groupe test 1</div>
+                        <div class="col actions">
+                          <button class="btn dark outlined action" title="Retirer ce groupe d'appartenance">
+                            <span>-</span>
+                          </button>
+                        </div>
+                      </li>
+                      <li class="row">
+                        <div class="col name" title="Workshop Omega">Workshop Omega</div>
+                        <div class="col actions">
+                          <button class="btn dark outlined action" title="Retirer ce groupe d'appartenance">
+                            <span>-</span>
+                          </button>
+                        </div>
+                      </li>
+
+                    </ul>
+                  </div>
+                </div>
+                <div class="groups-panel panel-wrapper groups-not-in">
+                  <header>
+                    <h2>GROUPS - Not in</h2>
+                  </header>
+                  
+                  <div class="sub-wrapper tab">
+                    <ul class="table">
+                      
+                      <li class="row">
+                        <div class="col actions">
+                          <button class="btn dark outlined action" title="Ajouter ce groupe d'appartenance"><span>+</span></button>
+                        </div>
+                        <div class="col name" title="Admin board">Admin board</div>
+                      </li>
+                      <li class="row">
+                        <div class="col actions">
+                          <button class="btn dark outlined action" title="Ajouter ce groupe d'appartenance"><span>+</span></button>
+                        </div>
+                        <div class="col name" title="Test group 34">Test group 34</div>
+                      </li>
+                      <li class="row">
+                        <div class="col actions">
+                          <button class="btn dark outlined action" title="Ajouter ce groupe d'appartenance"><span>+</span></button>
+                        </div>
+                        <div class="col name" title="Workshop Beta">Workshop Beta</div>
+                      </li>
+
+                    </ul>
+                  </div>
+
+              </div>
+
+            </div>
+
+
+          </div>
+        </div>
+        <footer>
+          <button type="button" class="btn cancel">Cancel</button>
+          <button type="button" class="btn submit">Invite</button>
+        </footer>
+      </div>
+    </div>
+	  
+    <div class="app-modal-wrapper invite-visitors">
+      <div class="app-modal medium">
+        <header>
+          <h2>Invite visitors</h2>
+          <button class="btn close"><span class="picto-text">+</span></button>
+        </header>
+        <div class="body">
+          <div class="wrapper">
+            
+            <div class="top-wrapper">
+              <p>Fill addresses in the input below to invite people to your team as visitors.</p>
+              <p class="textarea-info">
+                To invite multiple visitors at once, separe addresses with ; or linebreaks.
+              </p>
+              <textarea class="dark-textarea" placeholder="Email addresses"></textarea>
+            </div>
+          </div>
+        </div>
+        <footer>
+          <button type="button" class="btn cancel">Cancel</button>
+          <button type="button" class="btn submit">Invite</button>
+        </footer>
+      </div>
+    </div>
 
     <script src="https://kit.fontawesome.com/6b4515f4ac.js" crossorigin="anonymous"></script>
 

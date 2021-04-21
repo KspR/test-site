@@ -1,0 +1,126 @@
+.app-modal-wrapper {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.app-modal-wrapper.visible {
+  display: flex;
+}
+
+.app-modal-wrapper .app-modal {
+  background: #333;
+  width: 600px;
+  max-width: calc(100% - 50px * 2);
+  max-height: calc(100% - 50px * 1.5);
+  top: -10px;
+  border-radius: 10px;
+  color: #fff;
+  position: relative;
+}
+
+.app-modal-wrapper .app-modal.medium {
+  width: 900px;
+}
+
+.app-modal-wrapper .app-modal > header {
+  background: rgba(255, 255, 255, 0.06);
+  height: 50px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px 10px 0 0;
+}
+
+.app-modal-wrapper .app-modal > header h2 {
+  font-size: 1.2rem;
+  font-family: semibold;
+  font-weiht: normal;
+  color: rgba(255, 255, 255, 0.85);
+  letter-spacing: .4px;
+}
+
+.app-modal-wrapper .app-modal > header .btn {
+  margin-left: auto;
+  padding: 6px 0px 6px 10px;
+  background: none;
+}
+
+.app-modal-wrapper .app-modal > header .btn .fas {
+  font-size: .9rem;
+}
+
+.app-modal-wrapper .app-modal > header .btn .picto-text {
+  font-family: regular;
+  font-size: 1.9rem;
+  display: inline-block;
+  opacity: .8;
+  transform: rotate(45deg);
+  font-family: thin;
+}
+
+.app-modal-wrapper .app-modal > header .btn:hover .fas, .app-modal-wrapper .app-modal > header .btn:hover .picto-text {
+  opacity: .5;
+}
+
+.app-modal-wrapper .app-modal > .body {
+  overflow: auto;
+  max-height: calc(100vh - 50px * 1.5 - 50px - 50px);
+}
+
+.app-modal-wrapper .app-modal > .body .wrapper {
+  padding: 30px 30px calc(30px / 2);
+  padding-bottom: 0;
+}
+
+.app-modal-wrapper .app-modal > footer {
+  height: 50px;
+  flex-shrink: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  padding: 0 30px;
+  border-radius: 0 0 10px 10px;
+}
+
+.app-modal-wrapper .app-modal > footer .btn {
+  height: 30px;
+  position: relative;
+  top: 24px;
+  min-width: 80px;
+  text-align: center;
+  transition: background .2s;
+}
+
+.app-modal-wrapper .app-modal > footer .btn.cancel {
+  background: #666666;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.app-modal-wrapper .app-modal > footer .btn.cancel:hover {
+  background: #575757;
+}
+
+.app-modal-wrapper .app-modal > footer .btn.submit {
+  background: #f1852b;
+  margin-left: 10px;
+}
+
+.app-modal-wrapper .app-modal > footer .btn.submit:hover {
+  background: #e69052;
+  background: #ef7926;
+  background: #ce6921;
+}
