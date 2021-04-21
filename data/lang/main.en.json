@@ -188,7 +188,8 @@
   "header": {
     "agile": "Agile Project Management",
     "pm": "Product Management",
-    "everyday": "Everyday Creative Work"
+    "everyday": "Everyday Creative Work",
+    "agility": "Agility at scale"
   },
   "separateur-XXX-END": "================================================================================ XXX",
   "separateur-UI-USER-STORY": "================================================================================ UI-USER-STORY",

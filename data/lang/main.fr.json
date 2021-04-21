@@ -188,7 +188,8 @@
   "header": {
     "agile": "Gestion de projet Agile",
     "pm": "Product Management",
-    "everyday": "Travail créatif quotidien"
+    "everyday": "Travail créatif quotidien",
+    "agility": "Agilité à l'échelle"
   },
   "separateur-XXX-END": "================================================================================ XXX",
   "separateur-UI-USER-STORY": "================================================================================ UI-USER-STORY TRANSILIEN",
