@@ -1,17 +1,5 @@
 @import colors
 
-
-
-body
-  margin : 0
-  padding : 0
-  width : 100%
-  height : 100%
-
-body *
-  box-sizing : border-box
-  font-family : regular
-
 // @font-face
 // 	font-family : regular
 // 	src : url("../fonts/Assistant/Assistant-Regular.ttf")
@@ -34,9 +22,48 @@ body *
 @font-face
   font-family : bold
   src : url("../fonts/Futura/Futura_Std_Heavy.ttf")
+
 @font-face
-  font-family : thin
-  src : url("../fonts/Futura/Futura_Thin.ttf")
+  font-family : 'Futura'
+  font-weight : normal
+  src : url('../fonts/Futura/FuturaStd-Medium.eot') /* IE9 Compat Modes */
+  src : url('../fonts/Futura/FuturaStd-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */         url('../fonts/Futura/FuturaStd-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */         url('../fonts/Futura/FuturaStd-Medium.svg#FuturaStd-Medium') format('svg') /* Legacy iOS */
+
+@font-face
+  font-family : 'Futura'
+  font-weight : 300 /* light */
+  src : url('../fonts/Futura/FuturaStd-Light.eot') /* IE9 Compat Modes */
+  src : url('../fonts/Futura/FuturaStd-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */         url('../fonts/Futura/FuturaStd-Light.ttf')  format('truetype'), /* Safari, Android, iOS */        url('../fonts/Futura/FuturaStd-Light.svg#FuturaStd-Light') format('svg') /* Legacy iOS */
+
+@font-face
+  font-family : 'Futura'
+  font-weight : 600 /* semi-bold */
+  src : url('../fonts/Futura/FuturaStd-Medium.eot') /* IE9 Compat Modes */
+  src : url('../fonts/Futura/FuturaStd-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */        url('../fonts/Futura/FuturaStd-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */        url('../fonts/Futura/FuturaStd-Medium.svg#FuturaStd-Medium') format('svg') /* Legacy iOS */
+
+/* The 'bold' version of Futura is bolder than the Heavy version... strange and not enjoyable... So replaced by the heavy below
+// @font-face
+//   font-family : 'Futura'
+//   font-weight : 700 /* bold */
+//   src : url('../fonts/Futura/FuturaStd-Bold.eot') /* IE9 Compat Modes */
+//   src : url('../fonts/Futura/FuturaStd-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */        url('../fonts/Futura/FuturaStd-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */        url('../fonts/Futura/FuturaStd-Bold.svg#FuturaStd-Bold') format('svg') /* Legacy iOS */
+@font-face
+  font-family : 'Futura'
+  font-weight : 700 /* bold */
+  src : url('../fonts/Futura/Futura-Heavy.ttf')
+
+
+
+body
+  margin : 0
+  padding : 0
+  width : 100%
+  height : 100%
+
+body *
+  box-sizing : border-box
+  font-family : 'Futura'
+  font-weight : normal
 
 .text-link
   color : rgba(255,255,255,.8)
