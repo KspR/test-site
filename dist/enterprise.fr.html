@@ -23,6 +23,21 @@
 
 <!-- ENDCSS -->
 
+	<!-- PRODONLY
+	<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/fr/enterprise" 
+		hreflang="x-default" />
+	<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/enterprise" 
+	  hreflang="en-GB" />
+	<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/enterprise" 
+	  hreflang="en-US" />
+	<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/fr/enterprise" 
+		hreflang="fr-FR" />
+	<% if @lang.code == 'en' %>
+		<link rel="canonical" href="<%= JSON_CONFIG['host'] %>/enterprise">
+	<% else %>
+		<link rel="canonical" href="<%= JSON_CONFIG['host'] %>/fr/enterprise">
+	<% end %>
+	END -->
 </head>
 
 <body class="ui_enterprise has-header header-enterprise">

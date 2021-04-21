@@ -10,14 +10,21 @@
 @font-face {
   font-family: "boldest";
   src: url("../fonts/Assistant/Assistant-ExtraBold.ttf"); }
+<<<<<<< HEAD
 body {
+=======
+body.ui-onboarding {
+>>>>>>> production
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%; }
+<<<<<<< HEAD
 
 body * {
   box-sizing: border-box; }
+=======
+>>>>>>> production
 
 .ui-onboarding {
   background: #373737;
@@ -25,6 +32,11 @@ body * {
   min-height: 100vh;
   font-family: regular;
   position: relative; }
+<<<<<<< HEAD
+=======
+  .ui-onboarding * {
+    box-sizing: border-box; }
+>>>>>>> production
   .ui-onboarding::before {
     content: "";
     position: absolute;

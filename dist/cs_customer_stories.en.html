@@ -23,6 +23,21 @@
 
 <!-- ENDCSS -->
 
+	<!-- PRODONLY
+	<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/fr/customer-stories" 
+		hreflang="x-default" />
+	<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/customer-stories" 
+	  hreflang="en-GB" />
+	<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/customer-stories" 
+	  hreflang="en-US" />
+	<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/fr/customer-stories" 
+		hreflang="fr-FR" />
+	<% if @lang.code == 'en' %>
+		<link rel="canonical" href="<%= JSON_CONFIG['host'] %>/customer-stories">
+	<% else %>
+		<link rel="canonical" href="<%= JSON_CONFIG['host'] %>/fr/customer-stories">
+	<% end %>
+	END -->
 </head>
 
 <body class="ui_customer-stories has-header header-customer-stories">

@@ -9,6 +9,7 @@
   "example": {
     "pageDescription": "&&example&& example on Draft. You can use it for free. No account required.",
     "examples": "Examples",
+    "example": "Example",
     "cta": "Try example*",
     "asterisk": "*No account required"
   },
@@ -53,6 +54,8 @@
   },
   "login": {
     "title": "Sign in - Draft",
+    "continue-with-sso": "Continue with SSO",
+    "or-with-standard-account": "Or with a standard account:",
     "form": {
       "title": "Log in",
       "email": "Email",
