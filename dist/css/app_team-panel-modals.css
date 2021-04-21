@@ -42,10 +42,6 @@
   resize: vertical;
 }
 
-.app-modal-wrapper.invite-members .app-modal > .body .wrapper .top-wrapper textarea::placeholder, .app-modal-wrapper.create-group .app-modal > .body .wrapper .top-wrapper textarea::placeholder, .app-modal-wrapper.invite-visitors .app-modal > .body .wrapper .top-wrapper textarea::placeholder {
-  font-family: regular;
-}
-
 .app-modal-wrapper.invite-members .app-modal > .body .wrapper .bottom-wrapper.panels-wrapper, .app-modal-wrapper.create-group .app-modal > .body .wrapper .bottom-wrapper.panels-wrapper, .app-modal-wrapper.invite-visitors .app-modal > .body .wrapper .bottom-wrapper.panels-wrapper {
   display: flex;
   height: 100%;
@@ -87,7 +83,7 @@
 
 .app-modal-wrapper.invite-members .app-modal > .body .wrapper .bottom-wrapper.panels-wrapper .panel-wrapper header h2, .app-modal-wrapper.create-group .app-modal > .body .wrapper .bottom-wrapper.panels-wrapper .panel-wrapper header h2, .app-modal-wrapper.invite-visitors .app-modal > .body .wrapper .bottom-wrapper.panels-wrapper .panel-wrapper header h2 {
   text-transform: none;
-  font-family: semibold;
+  font-weight: 700;
   font-size: .9rem;
 }
 

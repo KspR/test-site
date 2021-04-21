@@ -96,7 +96,6 @@
   text-transform: none;
   opacity: .75;
   position: relative;
-  font-family: regular;
   font-weight: normal;
 }
 
@@ -117,7 +116,7 @@
   font-size: 1rem;
   display: inline-block;
   text-align: left;
-  font-family: bold;
+  font-weight: 700;
   opacity: .9;
   letter-spacing: 1px;
 }
@@ -176,7 +175,7 @@
 }
 
 .app-cmpnt_team-dashboard .container .panel-wrapper.team-panel .sub-wrapper .team-licence strong, .app-cmpnt_team-dashboard .panels-wrapper .panel-wrapper.team-panel .sub-wrapper .team-licence strong {
-  font-family: bold;
+  font-weight: 700;
   letter-spacing: .5px;
 }
 
