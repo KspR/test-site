@@ -15,25 +15,58 @@
 
 @font-face {
   font-family: "boldest";
+<<<<<<< HEAD
+  src: url("../fonts/Assistant/Assistant-ExtraBold.ttf"); }
+<<<<<<< HEAD
+=======
   src: url("../fonts/Assistant/Assistant-ExtraBold.ttf");
 }
 
+>>>>>>> b2571b7a91f3d34a275f6a18e6a29e2556ea3348
 body {
+=======
+body.ui-onboarding {
+>>>>>>> production
   margin: 0;
   padding: 0;
   width: 100%;
+<<<<<<< HEAD
+  height: 100%; }
+<<<<<<< HEAD
+
+body * {
+  box-sizing: border-box; }
+=======
+>>>>>>> production
+=======
   height: 100%;
 }
 
 body * {
   box-sizing: border-box;
 }
+>>>>>>> b2571b7a91f3d34a275f6a18e6a29e2556ea3348
 
 .ui-onboarding {
   background: #373737;
   width: 100%;
   min-height: 100vh;
   font-family: regular;
+<<<<<<< HEAD
+  position: relative; }
+<<<<<<< HEAD
+=======
+  .ui-onboarding * {
+    box-sizing: border-box; }
+>>>>>>> production
+  .ui-onboarding::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+=======
   position: relative;
 }
 
@@ -89,6 +122,7 @@ body * {
     left: unset;
     right: unset;
     margin: 0 auto;
+>>>>>>> b2571b7a91f3d34a275f6a18e6a29e2556ea3348
     display: block;
   }
 }
