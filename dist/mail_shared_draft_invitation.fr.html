@@ -48,7 +48,7 @@
           <table role="presentation" width="440px" style="width:440px;border:none;border-spacing:0;text-align:left;font-family:Arial,sans-serif;font-size:14px;line-height:18px;color:#363636;">
             <tr>
               <td style="padding:40px 30px 30px 30px;text-align:center;font-size:24px;font-weight:bold;">
-                <a href="https://www.draft.io/" style="text-decoration:none;"><img src="https://kspr.github.io/test-site/dist/imgs/logo-full-gray.png" width="130" alt="Logo" style="width:130px;height:auto;border:none;text-decoration:none;color:#ffffff; opacity : 0.6;"></a>
+                <a href="https://draft.io/" style="text-decoration:none;"><img src="https://draft.io/assets/logo-full-gray.png" width="130" alt="Logo" style="width:130px;height:auto;border:none;text-decoration:none;color:#ffffff; opacity : 0.6;"></a>
               </td>
             </tr>
             <tr>
@@ -67,7 +67,7 @@
                             <h1 style="margin-top : 0; font-size:18px;line-height:32px;font-weight:bold;letter-spacing:-0.02em; color : #444444;">Invitation to join a draft</h1>
 
                             <p style="margin:0; color : #777777">
-                              <a href="mailto:admin@ar.com" style="text-decoration:underline; color:inherit" target="_blank">admin@smart-company.com</a> has shared a new Draft with you:
+                              <a href="mailto:<!-- PRODONLY<%= @inviter %>END --><!-- TESTONLY -->admin@smart-company.com<!-- ENDTESTONLY -->" style="text-decoration:underline; color:inherit" target="_blank"><!-- PRODONLY<%= @inviter %>END --><!-- TESTONLY -->admin@smart-company.com<!-- ENDTESTONLY --></a> has shared a new Draft with you:
                               <br><br>
                             </p>
 
@@ -83,7 +83,7 @@
                               <tr>
                                 <td width="20"></td>
                                 <td style="vertical-align:center;">
-                                  <img width="20" style="width:20px; margin-right:8px;vertical-align:sub;" alt="Folder icon" src="https://kspr.github.io/test-site/dist/imgs/picto_explorer-draft-inline.png">&nbsp; June planning board
+                                  <img width="20" style="width:20px; margin-right:8px;vertical-align:sub;" alt="Folder icon" src="https://draft.io/assets/picto_explorer-draft-inline.png">&nbsp; <!-- PRODONLY<%= @draft_name %>END --><!-- TESTONLY -->June planning board<!-- ENDTESTONLY -->
                                 </td>
                                 <td width="50"></td> 
                               </tr> 
@@ -98,7 +98,7 @@
                             </table>
 
                             <p style="margin:20px auto 0 auto; text-align : center;">
-                              <a width="100%" bgcolor="#f1852b" href="https://example.com/" style="background: #f1852b; width:100%; text-decoration: none; padding: 10px 0; color: #ffffff; border-radius: 4px; display:inline-block; mso-padding-alt:0;"><!--[if mso]><i style="letter-spacing: 25px;mso-font-width:-100%;mso-text-raise:20pt">&nbsp;</i><![endif]-->
+                              <a width="100%" bgcolor="#f1852b" href="<!-- PRODONLY<%= @join_draft_url %>END --><!-- TESTONLY -->https://example.com/<!-- ENDTESTONLY -->" style="background: #f1852b; width:100%; text-decoration: none; padding: 10px 0; color: #ffffff; border-radius: 4px; display:inline-block; mso-padding-alt:0;"><!--[if mso]><i style="letter-spacing: 25px;mso-font-width:-100%;mso-text-raise:20pt">&nbsp;</i><![endif]-->
                                 <span style="mso-text-raise:10pt;font-weight:bold;">&nbsp;&nbsp;&nbsp;Join this Draft&nbsp;&nbsp;&nbsp;</span>
                                 <!--[if mso]><i style="letter-spacing: 25px;mso-font-width:-100%">&nbsp;</i><![endif]-->
                               </a>
@@ -132,9 +132,9 @@
                 </tr>
                 <tr>
                   <td align="center">
-                    <a href="https://twitter.com/draft_io?lang=en"><img temporary src="https://kspr.github.io/test-site/dist/imgs/logo_round_gray_Twitter.png" width="60" alt="Logo Twitter" title="Suivez-nous sur Twitter" style="height:auto;border:none;text-decoration:none;"></a>
-                    <a href="https://www.linkedin.com/company/draft-io"><img temporary src="https://kspr.github.io/test-site/dist/imgs/logo_round_gray_LinkedIn.png" width="60" alt="Logo LinkedIn" title="Connectons-nous sur LinkedIn" style="height:auto;border:none;text-decoration:none;"></a>
-                    <a href="https://join.slack.com/t/draftio/shared_invite/zt-p3ujpwtg-ju5JecE0G6TOQ0q2JR5DIw"><img temporary src="https://kspr.github.io/test-site/dist/imgs/logo_round_gray_Slack.png" width="60" alt="Logo Slack" title="Profitez de notre support dédié sur Slack" style="height:auto;border:none;text-decoration:none;"></a>
+                    <a href="https://twitter.com/draft_io?lang=en"><img temporary src="https://draft.io/assets/logo_round_gray_Twitter.png" width="60" alt="Logo Twitter" title="Suivez-nous sur Twitter" style="height:auto;border:none;text-decoration:none;"></a>
+                    <a href="https://www.linkedin.com/company/draft-io"><img temporary src="https://draft.io/assets/logo_round_gray_LinkedIn.png" width="60" alt="Logo LinkedIn" title="Connectons-nous sur LinkedIn" style="height:auto;border:none;text-decoration:none;"></a>
+                    <a href="https://join.slack.com/t/draftio/shared_invite/zt-p3ujpwtg-ju5JecE0G6TOQ0q2JR5DIw"><img temporary src="https://draft.io/assets/logo_round_gray_Slack.png" width="60" alt="Logo Slack" title="Profitez de notre support dédié sur Slack" style="height:auto;border:none;text-decoration:none;"></a>
                   </td>
                 </tr>
                 <tr> 
