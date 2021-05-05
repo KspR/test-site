@@ -3,8 +3,8 @@ ui-cs-leboncoin
 		Leboncoin - Remote visual collaboration - Draft
 		Leboncoin - Collaboration visuelle à distance - Draft
 	meta-description
-		How Leboncoin reimagined its innovation and problem-solving workshops to extensively leverage virtual visual collaboration’s features.
-		Comment Leboncoin a réimaginé ses ateliers d’innovation et de résolution de problèmes pour exploiter les atouts de la collaboration à distance.
+		How leboncoin reimagined its innovation and problem-solving workshops to extensively leverage virtual visual collaboration’s features.
+		Comment leboncoin a réimaginé ses ateliers d’innovation et de résolution de problèmes pour exploiter les atouts de la collaboration à distance.
 	header
 		title
 			Turning risks into opportunities<br>through remote visual collaboration
@@ -14,28 +14,28 @@ ui-cs-leboncoin
 				Wilfrid Lancelle
 				Wilfrid Lancelle
 			status
-				Coach in Organizational Learning<br>at Leboncoin
-				Coach en Organisation Apprenante<br>chez Leboncoin
+				Coach in Organizational Learning<br>at leboncoin
+				Coach en Organisation Apprenante<br>chez leboncoin
 		contributor2
 			name
 				Guillaume Grillat
 				Guillaume Grillat
 			status
-				Tech Community Ambassador<br>at Leboncoin
-				Tech Community Ambassador<br>chez Leboncoin
+				Tech Community Ambassador<br>at leboncoin
+				Tech Community Ambassador<br>chez leboncoin
 	body-content
 		------
 		<img class="illustration left-sided intro" src="imgs/MUT_Customers/customer_leboncoin/mission_qa_analyst.png" alt="Mission QA Analyst">
-		<h2>How Leboncoin reimagined its innovation and problem-solving workshops to extensively leverage virtual visual collaboration’s features</h2>
+		<h2>How leboncoin reimagined its innovation and problem-solving workshops to extensively leverage virtual visual collaboration’s features</h2>
 		<p>
-			Garnering more than 250 million page views every day, Leboncoin.fr is one of the largest web platforms in France. If you don’t already know the brand, think of it as a huge online yard sale, filled with over 25 million classified ads promoting furniture, clothes, and cars for sale, apartments for rent, and a whole lot more. The website is owned by Leboncoin Group, which includes other popular websites—like Videdressing.com (luxury fashion) and Largus.fr (second-hand car sales)—in its portfolio of brands.
+			Garnering more than 250 million page views every day, Leboncoin.fr is one of the largest web platforms in France. If you don’t already know the brand, think of it as a huge online yard sale, filled with over 25 million classified ads promoting furniture, clothes, and cars for sale, apartments for rent, and a whole lot more. The website is owned by leboncoin Group, which includes other popular websites—like Videdressing.com (luxury fashion) and Largus.fr (second-hand car sales)—in its portfolio of brands.
 		</p>
 		<p>
-			Leboncoin employs 1,500 people, including more than 250 engineers. The company’s Paris-based tech and product teams are organized into 35 feature teams and grouped into four tribes. The teams’ managers are fueled by a relentless vision to promote an Agile- and learning-based organization, one where teams and tribes have the freedom to collaborate with each other in unique and oftentimes self-directed ways. 
+			Leboncoin employs 1,500 people, including more than 250 engineers. The company’s Paris-based tech and product teams are organized into 35 feature teams and grouped into four tribes. The teams’ managers are fueled by a relentless vision to promote an Agile- and learning-based organization, one where teams and tribes have the freedom to collaborate with each other in unique and oftentimes self-directed ways.
 		</p>
-		<h2 style="text-align: center;font-family: semibold;padding:0 20%;">Read more about Leboncoin’s approach to “<a href="https://medium.com/leboncoin-engineering-blog/the-spotify-model-leboncoins-experience-feedback-9f43bf734d05" target="_blank" class="name text-link underline-over">Open Organizational Work</a>” in this article written by CTO, Julien Jouhault.</h2>
+		<h2 style="text-align: center;font-family: semibold;padding:0 20%;">Read more about leboncoin’s approach to “<a href="https://medium.com/leboncoin-engineering-blog/the-spotify-model-leboncoins-experience-feedback-9f43bf734d05" target="_blank" class="name text-link underline-over">Open Organizational Work</a>” in this article written by CTO, Julien Jouhault.</h2>
 		<p>
-			Wilfrid Lancelle has worked at Leboncoin Group since 2011. He started his career there as a Developer, then became a Manager, and finally, over the last five years, has been helping internal teams as an Organizational Learning Coach. His mission is to help people and teams adopt a learning trial-and-error process to solve problems incrementally through innovative collaboration methods.
+			Wilfrid Lancelle has worked at leboncoin Group since 2011. He started his career there as a Developer, then became a Manager, and finally, over the last five years, has been helping internal teams as an Organizational Learning Coach. His mission is to help people and teams adopt a learning trial-and-error process to solve problems incrementally through innovative collaboration methods.
 		</p>
 		<p>
 			Guillaume Grillat, on the other hand, has led the company’s tech community for a little less than a year now. His number one priority is to connect the company’s tech teams with those at other businesses and organizations, so they can all share their experiences about technology, architecture, frameworks, and organizational excellence together. Throughout the year, he organizes workshops, Q&A sessions, meetups, conferences, and events in partnership with the country’s leading tech and engineering schools.
@@ -43,7 +43,7 @@ ui-cs-leboncoin
 		<img class="illustration right-sided" src="imgs/MUT_Customers/customer_leboncoin/environnement_de_travail.jpg" alt="Working Environment">
 		<h2>“I was afraid that participants would not have enough room to think and express themselves freely.”</h2>
 		<p>
-			Before the COVID-19 pandemic happened—forcing us all to work remotely for the foreseeable future—Wilfrid wasn’t too keen about facilitating team workshops via a digital collaboration tool. He simply thought it wasn’t possible. For him, facilitating his favorite kinds of workshops, typically inspired by the Systemic Consensing, Six Thinking Hats, and Solution Focus methods, required participants to be able to walk around, talk to each other, place sticky-notes on the wall, and collaborate in more traditionally interactive ways. 
+			Before the COVID-19 pandemic happened—forcing us all to work remotely for the foreseeable future—Wilfrid wasn’t too keen about facilitating team workshops via a digital collaboration tool. He simply thought it wasn’t possible. For him, facilitating his favorite kinds of workshops, typically inspired by the Systemic Consensing, Six Thinking Hats, and Solution Focus methods, required participants to be able to walk around, talk to each other, place sticky-notes on the wall, and collaborate in more traditionally interactive ways.
 		</p>
 		<p>
 			“When we are all in the same room, I know what it takes to facilitate a workshop efficiently. But in a remote working environment, all of those in-person best practices suddenly went out the window.” Wilfrid was convinced that he wouldn’t be able to host a successful workshop anymore. In fact, he was afraid that “participants would not have enough room to think and express themselves freely, keep track of the agenda, stay focused on the workshop’s objectives, and encourage teams to take initiative on their own.”
@@ -68,27 +68,27 @@ ui-cs-leboncoin
 			A great example of this is the work Wilfrid workshopped to help QA (Quality Assurance) Engineers and QA Analysts design a new QA organization. Documenting this process via a collaborative board has allowed them to extend the thinking process and work towards solutions to unanswered questions together—even once the workshop has ended. “We don’t have to leave a workshop with final deliverables or final decisions anymore. We just have to make the most out of our time together and then, in a future workshop, address the specific problems for which we haven’t yet found solutions.”
 		</p>
 		<p>
-			Therefore, Draft has helped create a workshop experience for Leboncoin where participants feel more empowered to bring their ideas, thoughts, and perspectives to the table without letting any perceived roadblocks limit their ability to participate freely.
+			Therefore, Draft has helped create a workshop experience for leboncoin where participants feel more empowered to bring their ideas, thoughts, and perspectives to the table without letting any perceived roadblocks limit their ability to participate freely.
 		</p>
 		<h2>From a simple collaborative wall to a genuine visual document</h2>
 		<p>
-			Guillaume has also started using Draft to organize Leboncoin’s first tech conference, lbc2. After collecting insights and expectations from various tech teams, he mapped out a series of topics and identified three potential conference themes: “Draft helped me select the hottest topics to talk about during the conference. For example, I remember seeing our CTO manipulate notes around the draft to prioritize topics by category. We determined the whole strategy in less than 15 minutes!”
+			Guillaume has also started using Draft to organize leboncoin’s first tech conference, lbc2. After collecting insights and expectations from various tech teams, he mapped out a series of topics and identified three potential conference themes: “Draft helped me select the hottest topics to talk about during the conference. For example, I remember seeing our CTO manipulate notes around the draft to prioritize topics by category. We determined the whole strategy in less than 15 minutes!”
 		</p>
 		<p>
 			To identify the specific problems faced by his internal tech teams and create an easy way to put them in contact with the right external teams who can help them work through and overcome those problems, Guillaume needs a tool that will allow him to: gather information, jot down ideas, map out problems and manipulate ideas, share the document with stakeholders, and facilitate decision-making and consensus-building, all while documenting the entire thinking process in one unique place and keeping track of the decisions being made. “Draft could definitely be the right fit,” says Guillaume.
 		</p>
 		---
 		<img class="illustration left-sided intro" src="imgs/MUT_Customers/customer_leboncoin/mission_qa_analyst.png" alt="Mission QA Analyst">
-		<h2>Comment Leboncoin a réimaginé ses ateliers d’innovation et de résolution de problèmes pour pleinement exploiter les atouts de la collaboration visuelle à distance</h2>
+		<h2>Comment leboncoin a réimaginé ses ateliers d’innovation et de résolution de problèmes pour pleinement exploiter les atouts de la collaboration visuelle à distance</h2>
 		<p>
-			Avec plus 250 millions de pages visitées chaque jour, Leboncoin.fr est l’une des plateformes web ayant le plus d’audience en France. Si vous ne connaissez pas ce service, imaginez un immense vide-grenier qui regroupe 25 millions de petites annonces en ligne. Celles-ci vont des meubles aux vêtements, en passant par la vente de voitures d’occasion et la location immobilière, et bien plus encore ! Le site est détenu par le groupe Leboncoin, qui gère également, parmi tant d’autres, les plateformes web Videdressing.com (mode et luxe) et Largus.fr (vente de voitures d’occassion).
+			Avec plus 250 millions de pages visitées chaque jour, Leboncoin.fr est l’une des plateformes web ayant le plus d’audience en France. Si vous ne connaissez pas ce service, imaginez un immense vide-grenier qui regroupe 25 millions de petites annonces en ligne. Celles-ci vont des meubles aux vêtements, en passant par la vente de voitures d’occasion et la location immobilière, et bien plus encore ! Le site est détenu par le groupe leboncoin, qui gère également, parmi tant d’autres, les plateformes web Videdressing.com (mode et luxe) et Largus.fr (vente de voitures d’occassion).
 		</p>
 		<p>
 			Leboncoin emploie 1 500 personnes, parmi lesquelles 250 ingénieurs. Basées à Paris, les équipes tech et produit sont organisées en 35 feature teams, elles-mêmes regroupées dans 4 tribus. Le management est animé d’une vision novatrice et promeut une organisation Agile, ouverte et apprenante, au sein de laquelle les équipes et les tribus disposent d’une grande liberté de décision et d’action.
 		</p>
-		<h2 style="text-align: center;font-family: semibold;padding:0 20%;">Vous pouvez découvrir plus en détail l’“<a href="https://medium.com/leboncoin-engineering-blog/the-spotify-model-leboncoins-experience-feedback-9f43bf734d05" target="_blank" class="name text-link underline-over" >Open Organizational Work</a>” du groupe Leboncoin dans cet article écrit par Julien Jouhault, le CTO du groupe.</h2>
+		<h2 style="text-align: center;font-family: semibold;padding:0 20%;">Vous pouvez découvrir plus en détail l’“<a href="https://medium.com/leboncoin-engineering-blog/the-spotify-model-leboncoins-experience-feedback-9f43bf734d05" target="_blank" class="name text-link underline-over" >Open Organizational Work</a>” du groupe leboncoin dans cet article écrit par Julien Jouhault, le CTO du groupe.</h2>
 		<p>
-			Wilfrid Lancelle a rejoint le groupe Leboncoin, en 2011, pour un poste de développeur. Il est ensuite devenu Manager et, depuis 5 ans, occupe un rôle de Coach en Organisation Apprenante. Sa mission consiste à aider les personnes et les équipes à adopter une démarche expérimentale, d’apprentissage, et de partage des apprentissages (clarifier les intentions, imaginer des solutions, mettre en œuvre, observer le résultat, puis recommencer).
+			Wilfrid Lancelle a rejoint le groupe leboncoin, en 2011, pour un poste de développeur. Il est ensuite devenu Manager et, depuis 5 ans, occupe un rôle de Coach en Organisation Apprenante. Sa mission consiste à aider les personnes et les équipes à adopter une démarche expérimentale, d’apprentissage, et de partage des apprentissages (clarifier les intentions, imaginer des solutions, mettre en œuvre, observer le résultat, puis recommencer).
 		</p>
 		<p>
 			Guillaume Grillat, de son côté, anime la communauté tech du groupe depuis un peu moins d’un an. Son principal objectif est de créer des espaces d’échange au sein desquels les équipes tech internes et celles d’autres organisations peuvent partager leurs expériences respectives en matière de choix technologique, d’architecture, de framework, et d’organisation. Il organise des événements collaboratifs (workshops, sessions Q&A avec des experts du marché, meetups, conférences) avec des communautés tech externes, qui peuvent être d'autres grosses plateformes qui connaissent les mêmes enjeux que leboncoin, des réseaux de professionnels, ou encore des écoles d'informatique.
