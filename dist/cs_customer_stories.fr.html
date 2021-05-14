@@ -1,6 +1,11 @@
 <html>
 
 <head>
+	<!-- PRODONLY
+<% if JSON_CONFIG["google-tag-manager"] %>
+	<%= render "partials/google_tag_manager_head" %>
+<% end %>
+END -->
 	<title>Customer stories - Draft</title>
 	<meta name="description" content="Découvrez comment nos utilisateurs exploitent la collaboration et le management visuel pour fluidifier leur processus de développement et apporter un maximum de valeur à leurs clients." />
 
@@ -41,7 +46,11 @@
 </head>
 
 <body class="ui_customer-stories has-header header-customer-stories">
-
+	<!-- PRODONLY
+<% if JSON_CONFIG["google-tag-manager"] %>
+	<%= render "partials/google_tag_manager_body" %>
+<% end %>
+END -->
 	<div id="top-of-site-pixel-anchor"></div>
 
 <header class="main-header">

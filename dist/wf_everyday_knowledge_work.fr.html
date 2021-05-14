@@ -1,12 +1,16 @@
-<!DOCTYPE html>
-<html>
-  <head profile="http://www.w3.org/2005/10/profile">
-    <!-- PRODONLY
-<% if JSON_CONFIG["google-tag-manager"] %>
-	<%= render "partials/google_tag_manager_head" %>
-<% end %>
+<!-- PRODONLY
+<% @workflow = 'everyday-knowledge-work' %>
 END -->
-    <!-- BEGINCSS -->
+	<html lang="fr">
+		<head>
+			
+
+			<title>Draft pour le Travail créatif quotidien</title>
+			<meta name="description" content="Pour tous ceux qui cherchent une manière plus visuelle et non-linéaire de réfléchir et s’organiser. Draft vous permet de décrire, manipuler et partager vos idées de façon à en tirer le maximum." />
+			
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			
+			<!-- BEGINCSS -->
 <link href="css/common.css" rel="stylesheet">
 <link href="css/colors.css" rel="stylesheet">
 <link href="css/portal-desktop.css" rel="stylesheet">
@@ -23,22 +27,29 @@ END -->
 
 <!-- ENDCSS -->
 
-    <link rel="icon" href="/favicon.png?v=3" />
+			<link rel="icon" href="/favicon.png?v=5" />
 
+			<!-- PRODONLY
+			<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/fr/<%= @workflow %>" 
+				hreflang="x-default" />
+			<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/<%= @workflow %>" 
+			  hreflang="en-GB" />
+			<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/<%= @workflow %>" 
+			  hreflang="en-US" />
+			<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/fr/<%= @workflow %>" 
+				hreflang="fr-FR" />
+			<% if @lang.code == 'en' %>
+				<link rel="canonical" href="<%= JSON_CONFIG['host'] %>/<%= @workflow %>">
+			<% else %>
+				<link rel="canonical" href="<%= JSON_CONFIG['host'] %>/fr/<%= @workflow %>">
+			<% end %>
+			END -->
 
-    <title>Draft – Sign up</title>
-    <meta name="description" content="Sign up & start crafting your ideas as of now." />
-    <meta name="viewport" content="width=device-width;user-scalable=no,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
-    <meta name="robots" content="noindex,nofollow" />
-  </head>
+		</head>
+		<body class="has-header workflow everyday-knowledge-work">
+			
 
-  <body class="page-get-started page-get-started-mobile">
-    <!-- PRODONLY
-<% if JSON_CONFIG["google-tag-manager"] %>
-	<%= render "partials/google_tag_manager_body" %>
-<% end %>
-END -->
-    <div id="top-of-site-pixel-anchor"></div>
+			<div id="top-of-site-pixel-anchor"></div>
 
 <header class="main-header">
 	<input type="checkbox" id="btnBurgerMenu" name="burger-menu-visibility">
@@ -109,18 +120,50 @@ END -->
 		e.stopPropagation();
 	}
 </script>
-    <script>
-    document.ontouchstart = null;
-    </script>
 
-    <div class="main-bloc">
-      <div class="title">Vous devez revenir avec un ordinateur pour utiliser l&#x27;application.</div>
-      <div class="detail">
-        Veuillez nous excuser, Draft n'est pas optimisé pour une utilisation sur mobile. Nous vous invitons à vous connecter à Draft depuis votre PC.<br /><br />Pourquoi Draft n'est-il pas optimisé pour une utilisation sur mobile ?<br /><br />En tant qu'outil de bureautique, Draft vous offre un grand nombre de fonctionnalités et de possibilités d'utilisation qui, de notre point de vue, ne peuvent être utilisées de façon satisfaisante sur mobile. <br /><br />C'est la raison pour laquelle notre priorité est de vous permettre de travailler rapidement et efficacement sur Draft depuis votre PC.
-      </div>
-    </div>
+			<div class="bloc-landing">
+				<div class="wrapper">
+					<div class="punchline">Draft pour<br /><span>le travail créatif quotidien</span></div>
+					<div class="if-not-1080"><div class="illu"></div></div>
+					<div class="baseline">Favorisez la porosité entre chaque étape de votre travail, qu’il soit personnel ou professionnel, individuel ou collaboratif.</div>
+					<!-- <div class="baseline">Clarifiez vos pensées, listez les tâches à effectuer et partagez vos idées. Draft vous laisse représenter et manipuler vos idées d’une manière qui vous permet d’en tirer le maximum de valeur.</div> -->
+				</div>
+				<div class="if-1080"><div class="illu"></div></div>
+			</div>
 
-    <div class="footer">
+			<div class="ucs">
+			</div>
+
+			<div class="section bloc-features">
+				<div class="title">Alliez créativité et efficacité avec les fonctionnalités suivantes</div>
+
+				<div class="features">
+				</div>
+			</div>
+
+			<div class="bloc-last">
+	<div class="left-visual">
+		<div class="rotated-square"></div>
+	</div>
+	<div class="title">Démarrez dès aujourd’hui</div>
+	<form class="signup-bloc" action="/fr/get-started">
+	<div class="form-wrapper">
+		<input placeHolder="Entrez votre email" name="pre_email"></input>
+		<div class="submit-wrapper">
+			<div class="triangle"></div>
+			<input type="submit" class="register cta" value="S'inscrire" />
+		</div>
+	</div>
+	<div class="if-1080">
+		<div class="detail">Notre plan gratuit est illimité dans le temps et vous donne accès à toutes les fonctionnalités du <a href="/fr/pricing">plan Pro</a>.</div>
+	</div>
+	<div class="if-not-1080">
+		<div class="detail">Notre plan gratuit est illimité dans le temps<br />et vous donne accès à toutes les fonctionnalités du <a href="/fr/pricing">plan Pro</a>.</div>
+	</div>
+</form>
+	<!-- <a class="cta-border cta-border-darkblue" style="margin-left:40px;" href="/agile_project_management">Discover how Scrum Masters use Draft</a> -->
+</div>
+			<div class="footer">
 	<div class="footer-wrapper">
 		<div class="bloc bloc-plan">
 			<div class="title">Produit</div>
@@ -182,6 +225,5 @@ END -->
 </div>
 
 <script src="https://kit.fontawesome.com/6b4515f4ac.js" crossorigin="anonymous"></script>
-
-  </body>
-</html>
+		</body>
+	</html>

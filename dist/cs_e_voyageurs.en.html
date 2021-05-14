@@ -1,6 +1,11 @@
 <html>
 
 <head>
+	<!-- PRODONLY
+<% if JSON_CONFIG["google-tag-manager"] %>
+	<%= render "partials/google_tag_manager_head" %>
+<% end %>
+END -->
 	<title>e.Voyageurs SNCF - User Story Mapping - Draft</title>
 	<meta name="description" content="How SNCF's Digital Factory made User Story Mapping a central tool for conception and development workflows." />
 
@@ -41,7 +46,11 @@
 </head>
 
 <body class="ui_customer-story has-header header-customer-stories">
-
+	<!-- PRODONLY
+<% if JSON_CONFIG["google-tag-manager"] %>
+	<%= render "partials/google_tag_manager_body" %>
+<% end %>
+END -->
 	<div id="top-of-site-pixel-anchor"></div>
 
 <header class="main-header">

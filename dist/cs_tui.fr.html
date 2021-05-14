@@ -1,6 +1,11 @@
 <html>
 
 <head>
+	<!-- PRODONLY
+<% if JSON_CONFIG["google-tag-manager"] %>
+	<%= render "partials/google_tag_manager_head" %>
+<% end %>
+END -->
 	<title>TUI - Système de management visuel multi-site - Draft</title>
 	<meta name="description" content="Comment TUI a digitalisé son système de management visuel pour coordonner plus efficacement ses équipes européennes distribuées géographiquement." />
 
@@ -41,7 +46,11 @@
 </head>
 
 <body class="ui_customer-story has-header header-customer-stories">
-
+	<!-- PRODONLY
+<% if JSON_CONFIG["google-tag-manager"] %>
+	<%= render "partials/google_tag_manager_body" %>
+<% end %>
+END -->
 	<div id="top-of-site-pixel-anchor"></div>
 
 <header class="main-header">

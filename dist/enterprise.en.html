@@ -1,6 +1,11 @@
 <html>
 
 <head>
+	<!-- PRODONLY
+<% if JSON_CONFIG["google-tag-manager"] %>
+	<%= render "partials/google_tag_manager_head" %>
+<% end %>
+END -->
 	<title>Draft for Enterprise</title>
 	<meta name="description" content="An ideal digital collaboration layer for stimulating out-of-the-box thinking, rationalizing group decision-making, and envisioning the best path to achieve your goals." />
 
@@ -41,7 +46,11 @@
 </head>
 
 <body class="ui_enterprise has-header header-enterprise">
-
+	<!-- PRODONLY
+<% if JSON_CONFIG["google-tag-manager"] %>
+	<%= render "partials/google_tag_manager_body" %>
+<% end %>
+END -->
 	<div id="top-of-site-pixel-anchor"></div>
 
 <header class="main-header">

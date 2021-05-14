@@ -1,12 +1,16 @@
-<!DOCTYPE html>
-<html>
-  <head profile="http://www.w3.org/2005/10/profile">
-    <!-- PRODONLY
-<% if JSON_CONFIG["google-tag-manager"] %>
-	<%= render "partials/google_tag_manager_head" %>
-<% end %>
+<!-- PRODONLY
+<% @workflow = 'product-management' %>
 END -->
-    <!-- BEGINCSS -->
+	<html lang="en">
+		<head>
+			
+
+			<title>Draft for Product Management</title>
+			<meta name="description" content="For Product Managers, Designers, and Development Engineers in charge of building innovative products, Draft offers the perfect workspace for the entire product development process." />
+			
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			
+			<!-- BEGINCSS -->
 <link href="css/common.css" rel="stylesheet">
 <link href="css/colors.css" rel="stylesheet">
 <link href="css/portal-desktop.css" rel="stylesheet">
@@ -23,22 +27,29 @@ END -->
 
 <!-- ENDCSS -->
 
-    <link rel="icon" href="/favicon.png?v=3" />
+			<link rel="icon" href="/favicon.png?v=5" />
 
+			<!-- PRODONLY
+			<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/fr/<%= @workflow %>" 
+				hreflang="x-default" />
+			<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/<%= @workflow %>" 
+			  hreflang="en-GB" />
+			<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/<%= @workflow %>" 
+			  hreflang="en-US" />
+			<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/fr/<%= @workflow %>" 
+				hreflang="fr-FR" />
+			<% if @lang.code == 'en' %>
+				<link rel="canonical" href="<%= JSON_CONFIG['host'] %>/<%= @workflow %>">
+			<% else %>
+				<link rel="canonical" href="<%= JSON_CONFIG['host'] %>/fr/<%= @workflow %>">
+			<% end %>
+			END -->
 
-    <title>Draft – Sign up</title>
-    <meta name="description" content="Sign up & start crafting your ideas as of now." />
-    <meta name="viewport" content="width=device-width;user-scalable=no,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
-    <meta name="robots" content="noindex,nofollow" />
-  </head>
+		</head>
+		<body class="has-header workflow product-management">
+			
 
-  <body class="page-get-started page-get-started-mobile">
-    <!-- PRODONLY
-<% if JSON_CONFIG["google-tag-manager"] %>
-	<%= render "partials/google_tag_manager_body" %>
-<% end %>
-END -->
-    <div id="top-of-site-pixel-anchor"></div>
+			<div id="top-of-site-pixel-anchor"></div>
 
 <header class="main-header">
 	<input type="checkbox" id="btnBurgerMenu" name="burger-menu-visibility">
@@ -109,18 +120,50 @@ END -->
 		e.stopPropagation();
 	}
 </script>
-    <script>
-    document.ontouchstart = null;
-    </script>
 
-    <div class="main-bloc">
-      <div class="title">You need to come back with a computer to sign up.</div>
-      <div class="detail">
-        Draft relies on its performance and powerful features to help you work and collaborate efficiently.<br /><br />Unfortunately, using Draft on a mobile device can't provide you with a satisfying experience.<br /><br />As we seek to give you the best experience possible, we would be grateful if you could come back with a computer to sign up for Draft.<br /><br />In the meantime, you can keep browsing the website with your current device.
-      </div>
-    </div>
+			<div class="bloc-landing">
+				<div class="wrapper">
+					<div class="punchline">Draft for<br /><span>Product Management</span></div>
+					<div class="if-not-1080"><div class="illu"></div></div>
+					<div class="baseline">Pinpoint user needs, assess opportunities, and build solutions in a collaborative and visual environment. Draft offers the perfect workspace for the entire product development process.</div>
+					<!-- <div class="baseline">Draft is the perfect workspace to carry out your product discovery work, build intelligence, and share your product roadmaps.</div> -->
+				</div>
+				<div class="if-1080"><div class="illu"></div></div>
+			</div>
 
-    <div class="footer">
+			<div class="ucs">
+			</div>
+
+			<div class="section bloc-features">
+				<div class="title">Take advantage of these features to build great products, faster</div>
+
+				<div class="features">
+				</div>
+			</div>
+
+			<div class="bloc-last">
+	<div class="left-visual">
+		<div class="rotated-square"></div>
+	</div>
+	<div class="title">Start your first draft today!</div>
+	<form class="signup-bloc" action="/get-started">
+	<div class="form-wrapper">
+		<input placeHolder="Enter your email" name="pre_email"></input>
+		<div class="submit-wrapper">
+			<div class="triangle"></div>
+			<input type="submit" class="register cta" value="Get started" />
+		</div>
+	</div>
+	<div class="if-1080">
+		<div class="detail">Start your first draft today. Sign up for a <a href="/pricing">Free plan</a>.</div>
+	</div>
+	<div class="if-not-1080">
+		<div class="detail">Start your first draft today.<br />Sign up for a <a href="/pricing">Free plan</a>.</div>
+	</div>
+</form>
+	<!-- <a class="cta-border cta-border-darkblue" style="margin-left:40px;" href="/agile_project_management">Discover how Scrum Masters use Draft</a> -->
+</div>
+			<div class="footer">
 	<div class="footer-wrapper">
 		<div class="bloc bloc-plan">
 			<div class="title">Product</div>
@@ -182,6 +225,5 @@ END -->
 </div>
 
 <script src="https://kit.fontawesome.com/6b4515f4ac.js" crossorigin="anonymous"></script>
-
-  </body>
-</html>
+		</body>
+	</html>
