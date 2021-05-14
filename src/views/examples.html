@@ -1,11 +1,6 @@
 <html lang="{{{lang.code}}}">
 	<head>
-		<!-- PRODONLY
-    <% if JSON_CONFIG["google-tag-manager"] %>
-      <%= render "partials/google_tag_manager_head" %>
-    <% end %>
-    END -->
-    
+		{{{includes.gtag_head}}}
 		<title>{{{lang.examples.title}}}</title>
 		<meta name="description" content="{{{lang.examples.pageDescription}}}" />
 		
@@ -32,12 +27,7 @@
 		END -->
 	</head>
 	<body class="examples has-header page-examples lang-{{{lang.code}}} header-examples">
-		<!-- PRODONLY
-    <% if JSON_CONFIG["google-tag-manager"] %>
-      <%= render "partials/google_tag_manager_body" %>
-    <% end %>
-    END -->
-
+		{{{includes.gtag_body}}}
     {{{includes.header}}}
 
 {{#if lang.fr}}

@@ -1,11 +1,6 @@
 <html lang="{{{lang.code}}}">
 	<head>
-		<!-- PRODONLY
-		<% if JSON_CONFIG["google-tag-manager"] %>
-			<%= render "partials/google_tag_manager_head" %>
-		<% end %>
-		END -->
-		
+		{{{includes.gtag_head}}}
 		<meta name="google-site-verification" content="fFKHVWXCOaC3Q1GRNdqoBuEV5oQiTy6hCn252XEyNMM" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		{{{includes.css}}}
@@ -31,12 +26,7 @@
 		END -->
 	</head>
 	<body class="home has-header landing dark lang-{{{lang.code}}}">
-		<!-- PRODONLY
-		<% if JSON_CONFIG["google-tag-manager"] %>
-			<%= render "partials/google_tag_manager_body" %>
-		<% end %>
-		END -->
-
+		{{{includes.gtag_body}}}
 		{{{includes.header}}}
 
 		<div class="section bloc-landing">

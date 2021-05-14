@@ -1,12 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{lang.code}}">
   <head profile="http://www.w3.org/2005/10/profile">
-  	<!-- PRODONLY
-    <% if JSON_CONFIG["google-tag-manager"] %>
-      <%= render "partials/google_tag_manager_head" %>
-    <% end %>
-    END -->
-
+    {{{includes.gtag_head}}}
     {{{includes.css}}}
 
     <link rel="icon" href="/favicon.png?v=5" />
@@ -33,12 +28,7 @@
   </head>
 
   <body class="page-pricing has-header yearly dark lang-{{lang.code}} header-pricing">
-  	<!-- PRODONLY
-    <% if JSON_CONFIG["google-tag-manager"] %>
-      <%= render "partials/google_tag_manager_body" %>
-    <% end %>
-    END -->
-
+    {{{includes.gtag_body}}}
     {{{includes.header}}}
 
     <div class="plans-wrapper bloc row">

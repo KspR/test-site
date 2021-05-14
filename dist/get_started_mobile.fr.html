@@ -1,7 +1,11 @@
 <!DOCTYPE html>
-<html >
+<html>
   <head profile="http://www.w3.org/2005/10/profile">
-
+    <!-- PRODONLY
+<% if JSON_CONFIG["google-tag-manager"] %>
+	<%= render "partials/google_tag_manager_head" %>
+<% end %>
+END -->
     <!-- BEGINCSS -->
 <link href="css/common.css" rel="stylesheet">
 <link href="css/colors.css" rel="stylesheet">
@@ -29,7 +33,11 @@
   </head>
 
   <body class="page-get-started page-get-started-mobile">
-
+    <!-- PRODONLY
+<% if JSON_CONFIG["google-tag-manager"] %>
+	<%= render "partials/google_tag_manager_body" %>
+<% end %>
+END -->
     <div id="top-of-site-pixel-anchor"></div>
 
 <header class="main-header">
