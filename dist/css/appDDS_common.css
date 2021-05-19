@@ -41,28 +41,28 @@
   src: url("../fonts/Futura/Futura-Heavy.ttf");
 }
 
-body {
+body.app_DDS_styles {
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
 }
 
-body * {
+body.app_DDS_styles * {
   box-sizing: border-box;
   font-family: 'Futura';
   font-weight: normal;
 }
 
-.text-link {
+.app_DDS_styles .text-link {
   color: rgba(255, 255, 255, 0.8);
 }
 
-.text-link:hover {
+.app_DDS_styles .text-link:hover {
   color: white;
 }
 
-.dark-input, .dark-textarea {
+.app_DDS_styles .dark-input, .app_DDS_styles .dark-textarea {
   border-radius: 3px;
   border: 1px solid rgba(255, 255, 255, 0.15);
   background: rgba(255, 255, 255, 0.05);
@@ -72,26 +72,26 @@ body * {
   transition: background .1s;
 }
 
-.dark-input:hover, .dark-textarea:hover {
+.app_DDS_styles .dark-input:hover, .app_DDS_styles .dark-textarea:hover {
   background: rgba(255, 255, 255, 0.1);
 }
 
-.dark-input::placeholder, .dark-textarea::placeholder {
+.app_DDS_styles .dark-input::placeholder, .app_DDS_styles .dark-textarea::placeholder {
   font-style: italic;
   color: rgba(255, 255, 255, 0.35);
 }
 
-.dark-input:focus, .dark-textarea:focus {
+.app_DDS_styles .dark-input:focus, .app_DDS_styles .dark-textarea:focus {
   outline: none;
 }
 
-.custom-chkbx-wrapper {
+.app_DDS_styles .custom-chkbx-wrapper {
   cursor: pointer;
   position: relative;
   transition: color .2s;
 }
 
-.custom-chkbx-wrapper input {
+.app_DDS_styles .custom-chkbx-wrapper input {
   visibility: hidden;
   position: absolute;
   width: 0;
@@ -99,7 +99,7 @@ body * {
   bacground: blue;
 }
 
-.custom-chkbx-wrapper .custom-chkbx {
+.app_DDS_styles .custom-chkbx-wrapper .custom-chkbx {
   width: 14px;
   height: 14px;
   display: inline-block;
@@ -108,7 +108,7 @@ body * {
   transition: border .2s;
 }
 
-.custom-chkbx-wrapper .custom-chkbx::before {
+.app_DDS_styles .custom-chkbx-wrapper .custom-chkbx::before {
   display: block;
   content: "";
   position: relative;
@@ -123,36 +123,36 @@ body * {
   transition: opacity .1s, transform .1s;
 }
 
-.custom-chkbx-wrapper .custom-chkbx.small {
+.app_DDS_styles .custom-chkbx-wrapper .custom-chkbx.small {
   width: 12px;
   height: 12px;
   border-radius: 3px;
 }
 
-.custom-chkbx-wrapper .custom-chkbx.small::before {
+.app_DDS_styles .custom-chkbx-wrapper .custom-chkbx.small::before {
   width: 8px;
   height: 8px;
   border-radius: 1px;
 }
 
-.custom-chkbx-wrapper input:checked + .custom-chkbx {
+.app_DDS_styles .custom-chkbx-wrapper input:checked + .custom-chkbx {
   border: 1px solid #f1852b;
 }
 
-.custom-chkbx-wrapper input:checked + .custom-chkbx::before {
+.app_DDS_styles .custom-chkbx-wrapper input:checked + .custom-chkbx::before {
   opacity: 1;
   transform: scale(0.8);
 }
 
-.custom-chkbx-wrapper:hover {
+.app_DDS_styles .custom-chkbx-wrapper:hover {
   color: #fff;
 }
 
-.custom-chkbx-wrapper:hover .custom-chkbx {
+.app_DDS_styles .custom-chkbx-wrapper:hover .custom-chkbx {
   border: 1px solid #f1852b;
 }
 
-.custom-select-box {
+.app_DDS_styles .custom-select-box {
   border-radius: 5px;
   border: 1px solid rgba(255, 255, 255, 0.15);
   background: rgba(255, 255, 255, 0.05);
@@ -162,11 +162,11 @@ body * {
   transition: background .1s;
 }
 
-.custom-select-box:hover {
+.app_DDS_styles .custom-select-box:hover {
   background: rgba(255, 255, 255, 0.15);
 }
 
-.custom-select-box select {
+.app_DDS_styles .custom-select-box select {
   cursor: pointer;
   margin: 0;
   padding: 0;
@@ -178,23 +178,23 @@ body * {
   border: none;
 }
 
-.custom-select-box select:focus {
+.app_DDS_styles .custom-select-box select:focus {
   border: none;
   outline: none;
 }
 
-.custom-select-box select option {
+.app_DDS_styles .custom-select-box select option {
   background: #444;
   border: 1px solid #555;
   padding: 4px 6px;
 }
 
-.custom-select-box.small {
+.app_DDS_styles .custom-select-box.small {
   padding: 0 2px;
   height: 22px;
 }
 
-.btn {
+.app_DDS_styles .btn {
   padding: 5px 10px;
   border: 0;
   outline: 0;
@@ -205,14 +205,14 @@ body * {
   font-size: .9rem;
 }
 
-.btn.dark.outlined {
+.app_DDS_styles .btn.dark.outlined {
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: transparent;
   color: rgba(255, 255, 255, 0.9);
   transition: background .1s;
 }
 
-.btn.dark.outlined:hover {
+.app_DDS_styles .btn.dark.outlined:hover {
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
