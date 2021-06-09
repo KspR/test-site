@@ -213,70 +213,105 @@ sand.define('CreateDoc', [
 				if !['manager', 'content-manager', 'contributor'].include(@targetFolder.permission)
 					@targetFolder = null
 
-			tag : '.create-doc'
+			tag : '.app-modal-wrapper.create-doc.app-new-draft-modal'
+			style : 'display:flex;'
 			children : [
-				# '.triangle-top'
-				['.blocs', [
-					['.bloc.bloc-name', [
-						'.bloc-label ' + lang.popups['new-draft'].name
-						['.bloc-content', [
-							{
-								tag : 'input.field'
-								attr : value : lang.popups['new-draft'].untitled
-							}
-						]]
-					]]
-					{
-						tag : '.bloc.bloc-location'
-						children : [
-							'.bloc-label ' + lang.popups['new-draft'].folder
-							{
-								tag : '.bloc-content'
-								children : [
-									# '.picto'
-									'.name'
-								]
-							}
-							'.bloc-change ' + lang.popups['new-draft']['change-location']
-						]
-						events : mousedown : =>
-							@moveTo = @create(r.MoveTo, {
-								folder : @targetFolder || js.config.user.root_id
-								db : @db
-								ctaLabel : 'choose'
-							})
+				{
+					tag : '.app-modal.medium'
+					children : [
+						{
+							tag : 'header'
+							children : [
+								'h2 New draft'
+								'button.btn.close +'
+							]
+						}
+						{
+							tag : '.body'
+							children : [
+								['.wrapper', [
+									['.blocs', [
+										['.left-bloc', [
+											['.bloc.bloc-name', [
+												'.bloc-label ' + lang.popups['new-draft'].name
+												['.bloc-content', [
+													{
+														tag : 'input.field'
+														attr : value : lang.popups['new-draft'].untitled
+													}
+												]]
+											]]
+											{
+												tag : '.bloc.bloc-location'
+												children : [
+													'.bloc-label ' + lang.popups['new-draft'].folder
+													{
+														tag : '.bloc-content'
+														children : [
+															# '.picto'
+															'.name'
+														]
+													}
+													'.bloc-change ' + lang.popups['new-draft']['change-location']
+												]
+												events : mousedown : =>
+													@moveTo = @create(r.MoveTo, {
+														folder : @targetFolder || js.config.user.root_id
+														db : @db
+														ctaLabel : 'choose'
+													})
 
-							@moveTo.on('destroy', =>
-								@moveTo = null
-							, @)
+													@moveTo.on('destroy', =>
+														@moveTo = null
+													, @)
 
-							@moveTo.on('move', (folder) =>
-								@targetFolder = folder
-								@query('memory2').set('current_folder_id', folder.id)
+													@moveTo.on('move', (folder) =>
+														@targetFolder = folder
+														@query('memory2').set('current_folder_id', folder.id)
 
-								@moveTo.destroy()
+														@moveTo.destroy()
 
-								@refreshLocation()
-							, @)
+														@refreshLocation()
+													, @)
 
-							document.body.appendChild @moveTo.el
-					}
-					['.bloc.bloc-template', [
-						'.bloc-label ' + lang.popups['new-draft'].template
-						# @create(r.TemplatePicker, null, 'templatePicker').el
-						@create(r.Menu, null, 'templatePicker').el
-					]]
-				]]
+													document.body.appendChild @moveTo.el
+											}
+										]]
+										['.bloc.bloc-template', [
+											#'nav.bloc-label ' + lang.popups['new-draft'].template
+											'nav.bloc-label ' + 'Draft templates &nbsp;&nbsp;&nbsp; My templates &nbsp;&nbsp;&nbsp; Team templates'
+											# @create(r.TemplatePicker, null, 'templatePicker').el
+											['.wrapper', [
+												'nav.sub-wrapper ' + 'Basic<br>Stratégie et planification<br>Etc.'
+												@create(r.Menu, null, 'templatePicker').el
+											]]
+										]]
+									]]
+								]]
+							]
+						}
+						{
+							tag : 'footer'
+							children : [
+								{
+									tag : 'button.btn.cancel Cancel'
+									events : mousedown : @destroy.bind(@)
+								}
+								{
+									tag : 'button.btn.submit Create'
+									events : mousedown : @createDoc.bind(@)
+								}
+							]
+						}
+					]
+				}
+				
 				{
 					tag : '.cta ' + lang.general.create.toUpperCase()
 					events : mousedown : =>
 						# @query('createDoc', title : @field.value.trim(), folder_id : @targetFolder.id)
 
 						@createDoc()
-				}
-				{
-					tag : '.cancel ' + lang.general.cancel
-					events : mousedown : @destroy.bind(@)
 				}
 			]
 

@@ -50,10 +50,12 @@
 			<img class="s2" src="./imgs/MUT_Customers/customer_airfrance/screenshot_enterprise_Air_France.jpg"
 				alt="Capture Draft Air France">
 			<img class="s3" src="./imgs/MUT_Customers/customer_altran/screenshot_enterprise_Altran.jpg" alt="Capture Draft Altran">
+			<img class="s4" src="./imgs/MUT_Customers/customer_2ntelekomunikace/screenshot_enterprise_2NTelekomunikace.jpg" alt="Capture 2N Telekomunikace">
 
 			<nav>
 				<ul class="slider-btns">
 					<li><button class="btn bullet active"></button></li>
+					<li><button class="btn bullet"></button></li>
 					<li><button class="btn bullet"></button></li>
 					<li><button class="btn bullet"></button></li>
 				</ul>
@@ -63,6 +65,7 @@
 			<span class="s1">{{{lang.ui-enterprise.screenshots-slider.slide1}}}</span>
 			<span class="s2">{{{lang.ui-enterprise.screenshots-slider.slide2}}}</span>
 			<span class="s3">{{{lang.ui-enterprise.screenshots-slider.slide3}}}</span>
+			<span class="s4">{{{lang.ui-enterprise.screenshots-slider.slide4}}}</span>
 		</h3>
 	</section>
 
@@ -299,7 +302,7 @@
 				activeSlideIndex += 1;
 				if (activeSlideIndex > sliderBntsList.children.length) { activeSlideIndex = 1 }
 				document.querySelector('.screenshots-slider .btn.bullet.active').classList.remove('active');
-				document.querySelector('.screenshots-slider').classList.remove('s1', 's2', 's3');
+				document.querySelector('.screenshots-slider').classList.remove('s1', 's2', 's3', 's4');
 				document.querySelector('.screenshots-slider').classList.add('s' + activeSlideIndex);
 				sliderBntsList.children[activeSlideIndex - 1].children[0].classList.add('active');
 			}, 5000)
@@ -310,7 +313,7 @@
 		for (let i = 0, len = sliderBntsList.children.length; i < len; i++) {
 			sliderBntsList.children[i].onclick = function () {
 				document.querySelector('.screenshots-slider .btn.bullet.active').classList.remove('active');
-				document.querySelector('.screenshots-slider').classList.remove('s1', 's2', 's3');
+				document.querySelector('.screenshots-slider').classList.remove('s1', 's2', 's3', 's4');
 				document.querySelector('.screenshots-slider').classList.add('s' + (i + 1));
 				this.children[0].classList.add('active');
 				launchSlider();

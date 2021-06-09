@@ -214,7 +214,8 @@
 
 .ui_enterprise .screenshots-slider.s1 .wrapper .s1,
 .ui_enterprise .screenshots-slider.s2 .wrapper .s2,
-.ui_enterprise .screenshots-slider.s3 .wrapper .s3 {
+.ui_enterprise .screenshots-slider.s3 .wrapper .s3,
+.ui_enterprise .screenshots-slider.s4 .wrapper .s4 {
   position: relative;
   width: 80vw;
   max-width: 1100px;
@@ -224,7 +225,8 @@
 
 .ui_enterprise .screenshots-slider.s1 .legend .s1,
 .ui_enterprise .screenshots-slider.s2 .legend .s2,
-.ui_enterprise .screenshots-slider.s3 .legend .s3 {
+.ui_enterprise .screenshots-slider.s3 .legend .s3,
+.ui_enterprise .screenshots-slider.s4 .legend .s4 {
   position: relative;
   width: 80vw;
   max-width: 1100px;
