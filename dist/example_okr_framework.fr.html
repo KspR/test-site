@@ -1,0 +1,335 @@
+<html lang="<%= @lang.code %>">
+	<head>
+		<!-- PRODONLY
+<% if JSON_CONFIG["google-tag-manager"] %>
+	<%= render "partials/google_tag_manager_head" %>
+<% end %>
+END -->
+		<title>
+		<!-- TESTONLY -->
+		Framework OKR - Exemple - Draft
+		<!-- ENDTESTONLY -->
+		<!-- PRODONLY
+		<%= @example["label"] %> - <%= @lang.example.examples %> - Draft
+		END -->
+		</title>
+		<!-- PRODONLY
+		<meta name="description" content="<%= @lang.example.pageDescription.gsub('&&example&&', @example["label"]) %>" />
+		END -->
+
+		<meta name="description" content="Les OKRs sont un système managérial qui rend les objectifs visibles et mesurables pour aider les équipes à travailler efficacement ensemble.">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="icon" href="/favicon.png?v=5" />
+		<!-- PRODONLY
+		<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/fr/example/<%= @example["id"].gsub(/_/, '-') %>" 
+			hreflang="x-default" />
+		<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/example//<%= @example["id"].gsub(/_/, '-') %>" 
+		  hreflang="en-GB" />
+		<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/example/<%= @example["id"].gsub(/_/, '-') %>" 
+		  hreflang="en-US" />
+		<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/fr/example/<%= @example["id"].gsub(/_/, '-') %>" 
+			hreflang="fr-FR" />
+		<% if @lang.code == 'en' %>
+			<link rel="canonical" href="<%= JSON_CONFIG['host'] %>/example/<%= @example["id"].gsub(/_/, '-') %>">
+		<% else %>
+			<link rel="canonical" href="<%= JSON_CONFIG['host'] %>/fr/example/<%= @example["id"].gsub(/_/, '-') %>">
+		<% end %>
+		END -->
+
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			
+			<!-- BEGINCSS -->
+<link href="css/common.css" rel="stylesheet">
+<link href="css/colors.css" rel="stylesheet">
+<link href="css/portal-desktop.css" rel="stylesheet">
+<link href="css/portal-mobile.css" rel="stylesheet">
+<link href="css/DDS_draft-design-system.css" rel="stylesheet">
+<link href="css/ui_enterprise.css" rel="stylesheet">
+<link href="css/ui_pricing.css" rel="stylesheet">
+<link href="css/ui_example.css" rel="stylesheet">
+<link href="css/ui_customer-story.css" rel="stylesheet">
+<link href="css/ui_customer-stories.css" rel="stylesheet">
+<link href="css/ui_onboarding.css" rel="stylesheet">
+
+<link href="css/TEST_ONLY_ui_sommaire.css" rel="stylesheet">
+
+<!-- ENDCSS -->
+	</head>
+	<body class="ui_example has-header example lang-fr header-examples"><!-- lang-code -->
+		<!-- PRODONLY
+<% if JSON_CONFIG["google-tag-manager"] %>
+	<%= render "partials/google_tag_manager_body" %>
+<% end %>
+END -->
+		<div id="top-of-site-pixel-anchor"></div>
+
+<header class="main-header">
+	<input type="checkbox" id="btnBurgerMenu" name="burger-menu-visibility">
+	<label for="btnBurgerMenu" class="burger-btn">
+		<span class="wrapper">
+			<span class="deco-btn-burger"></span>
+			<span class="deco-btn-burger"></span>
+			<span class="deco-btn-burger"></span>
+		</span>
+	</label>
+	<nav class="nav">
+		<a class="logo text-link" href="/fr/"><img src="./imgs/logo-diag-orange-plus-text.png" alt="Logo Draft"></a>
+		<ul>
+			<li>
+				<div class="toggle-wrapper text-link">
+					<div class="toggle">
+						<!-- Workflows <i class="fas fa-chevron-down"></i> -->
+						<span class="selected">Workflows <i class="fas fa-chevron-down"></i></span>
+						<span class="neutral">Workflows <i class="fas fa-chevron-down"></i></span>
+					</div>
+					<ul class="menu">
+						<li><a class="text-link" href="/fr/agile-project-management">Gestion de projet Agile</a></li>
+						<li><a class="text-link" href="/fr/agility-at-scale">Agilité à l'échelle</a></li>
+						<li><a class="text-link" href="/fr/product-management">Product Management</a></li>
+						<li><a class="text-link" href="/fr/everyday-creative-work">Travail créatif quotidien</a></li>
+					</ul>
+				</div>
+			</li>
+			<li class="page-enterprise-li"><a class="text-link" href="/fr/enterprise">
+				<!-- Entreprise -->
+				<span class="selected">Entreprise</span>
+				<span class="neutral">Entreprise</span>
+			</a></li>
+			<li class="page-customer-stories-li"><a class="text-link" href="/fr/customer-stories">
+				<!-- Customer stories -->
+				<span class="selected">Customer stories</span>
+				<span class="neutral">Customer stories</span>
+			</a></li>
+			<li class="page-examples-li"><a class="text-link" href="/fr/examples">
+				<!-- Exemples -->
+				<span class="selected">Exemples</span>
+				<span class="neutral">Exemples</span>
+			</a></li>
+			<li class="page-pricing-li"><a class="text-link" href="/fr/pricing">
+				<!-- Offres -->
+				<span class="selected">Offres</span>
+				<span class="neutral">Offres</span>
+			</a></li>
+			<li class="login"><a class="text-link" href="/fr/login">
+				<!-- Se connecter -->
+				<span class="selected">Se connecter</span>
+				<span class="neutral">Se connecter</span>
+
+			</a></li>
+			<li class="signup"><a class="cta" href="/fr/get-started">
+				<!-- S'inscrire -->
+				<span class="selected">S'inscrire</span>
+				<span class="neutral">S'inscrire</span>
+			</a></li>
+		</ul>
+
+		<!-- <a class="fav" href="/">d</a> -->
+		<!-- <a class="fav-sheet" href="/">d</a> -->
+	</ul>
+</header>
+
+<script>
+	document.ontouchstart = function (e) {
+		e.stopPropagation();
+	}
+</script>
+
+		<section class="landing">
+
+			<div class="wrapper">
+
+				<nav class="breadcrumb small">
+					<!-- PRODONLY
+					<% if @lang.code != 'en' %>
+						<a class="text-link light" href="/<%= @lang.code %>/examples"><%= @lang.example.examples %></a>
+					<% else %>
+						<a class="text-link light" href="/examples">Examples</a>
+					<% end %>
+					END -->
+					<!-- TESTONLY -->
+					<a class="text-link light" href="/examples">Exemples</a>
+					<!-- ENDTESTONLY -->
+					<i class="fas fa-chevron-right separator"></i>
+					<span class="current">
+						<!-- TESTONLY -->
+						OKR Framework
+						<!-- ENDTESTONLY -->
+						<!-- PRODONLY
+						<%= @example["label"] %>
+						END -->
+					</span>
+				</nav>
+
+				<div class="title-bar">
+					<h1>
+						<!-- TESTONLY -->
+						OKR Framework
+						<!-- ENDTESTONLY -->
+						<!-- PRODONLY
+						<%= @example["label"] %>
+						END -->
+					</h1>
+					<!-- TESTONLY -->
+<div class="actions has-template">
+<!-- ENDTESTONLY -->
+<!-- PRODONLY
+<div class="actions <%= @has_template ? "has-template" : "" %>">
+END -->
+		<!-- TESTONLY -->
+		<a href="#" class="cta round outline">
+		Essayer l'exemple
+		<!-- ENDTESTONLY -->
+		<!-- PRODONLY
+		<a href="https://draft.io/example/create/<%= @example["id"] %>" class="cta round outline">
+		Essayer l'exemple
+		END -->
+		<span class="mention">
+			<!-- TESTONLY -->
+			Pas de compte requis
+			<!-- ENDTESTONLY -->
+			<!-- PRODONLY
+			<%= @lang.example.asterisk %>
+			END -->
+		</span>
+	</a>
+	<span class="separator"></span>
+	<!-- TESTONLY -->
+	<a href="#" class="text-link light underline">Utiliser ce template</a>
+	<!-- ENDTESTONLY -->
+	<!-- PRODONLY
+	<a href="https://draft.io/template/create/<%= @example["id"] %>" class="text-link light underline">Utiliser ce template</a>
+	END -->
+</div>
+				</div>
+
+				<figure class="main-screenshot">
+					<!-- TESTONLY -->
+					<img class="screenshot" src="./imgs/examples/fr/full/example-okr-process.png" alt="" />
+					<!-- ENDTESTONLY -->
+					<!-- PRODONLY
+					<img class="screenshot" src="<%= image_path("site/examples/fr/full/example-" + @example["id"] + ".png") %>" alt="<%= @example["label"] %> example" />
+					END -->
+				</figure>
+
+			</div>
+
+		</section>
+
+		<section class="main-content">
+			<div class="wrapper">
+				<h2>En quoi le Framework OKR consiste-t-il ?</h2><p>Le Framework OKR (OKR signifiant Objectives and Key Results) fut popularisé en 2013 par Rick Klau, GV Partner au sein du Google Ventures Startup Lab, dans une vidéo devenue virale nommée <a target="blank_" class="text-link advanced-underline-over" href="https://www.youtube.com/watch?v=mJB83EZtAjc"><span>Startup</span> <span>Lab</span> <span>workshop:</span> <span>How</span> <span>Google</span> <span>sets</span> <span>goals:</span> <span>OKRs</span></a>. Cet outil de management fut initialement conçu par une légende de la Silicon Valley, Andy Grove, PDG d’Intel Corporation entre 1987 et 1998, puis transmis à Google par l’intermédiaire de John Doerr, un ancien employé d’Intel devenu investisseur en capital risque.</p><p>Fortement inspiré de la théorie du Management By Objectives de Peter Drucker, Andy Grove y apporta quelques modifications clés dans le but de mieux répondre à deux questions fondamentales :</p><ol><li>Où voulons-nous aller ? (l’objectif)</li><li>Comment allons-nous mesurer le rythme auquel nous y allons ? (le résultat clé)</li></ol><p>Pour expliquer en quoi consiste le Framework OKR, nous allons nous appuyer sur l’ouvrage de Paul R. Niven et Ben Lamorte, “<a target="blank_" class="text-link advanced-underline-over" href="https://www.wiley.com/en-us/Objectives+and+Key+Results%3A+Driving+Focus%2C+Alignment%2C+and+Engagement+with+OKRs-p-9781119252399"><span>Objectives</span> <span>and</span> <span>Key</span> <span>Results:</span> <span>Driving</span> <span>Focus,</span> <span>Alignment,</span> <span>and</span> <span>Engagement</span> <span>with</span> <span>OKRs</span></a>,” Les auteurs en donnent la définition suivante : “Les OKRs constituent un système managérial qui a pour but d’aider les équipes à travailler ensemble et à participer au succès de l’organisation à travers des contributions explicites et mesurables.” Pour le synthétiser plus simplement : les OKRs sont une façon de rendre les objectifs visibles de tous et mesurables.</p><p>Dans ce framework, un objectif est un énoncé qui décrit un état futur à atteindre. Toujours associé à un objectif; un <i>key result</i> est un indicateur dont la mesure renseigne sur l’évaluation effective de l’atteinte de cet objectif. En règle générale, un objectif se décline en 2 à 5 <i>key results</i>.</p><img src="./imgs/UI_Examples/OkrFramework/context_of_okr_fr.png" alt="Context of OKR Framework." /><p style="text-align: center;font-style: italic;font-size: 1em;margin-top:-2em;">Eléments de context des OKRs</p><br><p>Le Framework OKR s'inscrit généralement dans un cycle trimestriel. Au terme de chaque trimestre, les résultats sont revus et discutés dans l’optique de capitaliser sur les décisions et les actions qui ont été entreprises, et de nouveaux OKRs sont définis.  “Management par intention”. Cette méthode repose sur les principes suivants : ne pas indiquer aux collaborateurs ce qu’ils doivent faire, mais leur indiquer les objectifs qu’ils doivent atteindre et leur laisser l’initiative de trouver le chemin optimal.</p><h2>Comment déployer de façon adéquate le Framework OKR dans votre organisation ?</h2><p>Pour définir un objectif pertinent, vous devez veiller à respecter un certain nombre de critères. Ainsi, un objectif adéquat doit être :</p><ul><li><span class="emphasized">Inspirant </span>: Le but est de faire adhérer l’équipe à une ambition qui dépasse la simple gestion des affaires courantes ;</li><li><span class="emphasized">Réalisable </span>: Même si la philosophie des OKRs suggère de fixer des objectifs relativement ambitieux, pour autant, ceux-ci ne doivent pas être perçus comme insensés, au risque d’avoir un effet contre-productif et démotiver votre équipe ;</li><li><span class="emphasized">Atteignable en un trimestre </span>: Les OKRs s’inscrivant généralement dans un cycle de 3 mois, si vous définissez un objectif qui n’a objectivement aucune chance d’être atteint au terme de cette période, vous prenez le risque d’atténuer la pertinence du challenge et, par conséquent, d'affecter la dynamique des équipes ;</li><li><span class="emphasized">Contrôlable par l’équipe </span>: Quel que soit l’objectif défini, l’équipe doit être pleinement capable de parvenir à la cible de façon autonome, ce qui signifie qu’elle doit posséder tous les moyens d’y parvenir ;</li><li><span class="emphasized">Créant de la valeur </span>: C’est un critère qui peut paraître évident, mais il est parfois opportun de prendre du recul et remettre les objectifs de l’équipe en perspective de ceux de l’organisation ;</li><li><span class="emphasized">Qualitatif </span>: Les objectifs ne doivent pas contenir d’éléments chiffrés, ils doivent rester courts et textuels.</li></ul><img src="./imgs/UI_Examples/OkrFramework/exemple_okr_framework_fr.png" alt="Example of OKR Framework." /><p>Au même titre que les objectifs, pour être pertinents, les <i>key results</i> doivent aussi respecter plusieurs critères. Ils doivent être :</p><ul><li><span class="emphasized">Quantitatifs </span>: Les <i>key results</i> sont toujours quantitatifs, de façon à pouvoir utiliser des indicateurs objectifs pour déterminer si oui ou non, et dans quelle mesure, une cible a été atteinte ;</li><li><span class="emphasized">Ambitieux </span>: Définir des objectifs ambitieux mais atteignables participe à entretenir un niveau de motivation optimal au sein de l’équipe ;</li><li><span class="emphasized">Spécifiques </span>: Éviter les énoncés ambiguës, combinant plusieurs sujets. Un bon key result doit être précis et facilement interprété par toutes les parties prenantes ;</li><li><span class="emphasized">Responsabilisant </span>: Même si le management inspire généralement la stratégie, les OKRs doivent principalement émerger de l’équipe elle-même ; </li><li><span class="emphasized">Mesurables fréquemment </span>: Pouvoir régulièrement mesurer les indicateurs, par exemple, toutes les deux semaines, permet à l’équipe de rester pleinement concentrée sur l’atteinte de ses objectifs ;</li><li><span class="emphasized">Cohérents avec le reste de l’organisation </span>: Afin de déceler les éventuelles dépendances ou incohérences dans les objectifs, les OKRs doivent toujours être revus par le management et par les autres équipes ;</li><li><span class="emphasized">Insufflant le bon comportement </span>: Avant de définir un objectif à atteindre, il faut penser aux éventuels impacts négatifs sur le comportement et l’éthique des membres de l’équipe.</li></ul><p>Pour évaluer l’atteinte des objectifs, le Framework OKR suggère d’utiliser une échelle allant de 0 à 1 :</p><ul><li><span class="emphasized">1</span>: Cette note correspond à l’atteinte totale de l’objectif ambitieux qui a été fixé ;</li><li><span class="emphasized">0.7</span>: Ce score reflète l’atteinte d’une cible ambitieuse mais relativement atteignable compte tenu des performances passées de l’équipe ;</li><li><span class="emphasized">0.3</span>: Ce chiffre caractérise un niveau de performance pouvant être considéré comme étant “business as usual” ;</li><li><span class="emphasized">0</span>: Aucun progrès.</li></ul>
+			</div>
+
+			<div class="tips-block">
+				<h2>Quelques conseils de la part de <b>Itamar Gilad</b>, ex-Google PM et auteur</h2>
+
+				<p>Dans un ebook publié récemment, <a target="blank_" class="text-link advanced-underline-over" href="https://itamargilad.com/ebook-okr/"><span>OKRs</span> <span>Done</span> <span>Right</span></a>, Itamar liste 5 antipatterns que, bien sûr, il vous recommande d’éviter :</p><ol><li><span class="emphasized">Utiliser les OKRs pour exprimer un plan </span>: Comme évoqué précédemment, le but des OKRs est de participer au management par intention. Les objectifs sont l’expression de bénéfices attendus, non pas de tâches ou de fonctionnalités à développer. C’est à l’équipe de décider de façon autonome les initiatives qu’elle doit prendre pour atteindre ses objectifs ;</li><li><span class="emphasized">Définir des Key Results non SMART </span>: Pour rappel, l’acronyme SMART signifie Spécifique, Mesurable, Ambitieux, Réaliste, et temporellement défini (“Time-Bound”) ;</li><li><span class="emphasized">Definir trop d’OKRs </span>: En matière d’OKRs, moins est véritablement mieux. Courir après trop d’objectifs différents réduit inexorablement la capacité de l’équipe à se concentrer sur les enjeux les plus importants. Au cours d’une période donnée, il est généralement recommandé de se limiter au maximum de 3 objectifs et 5 key results par objectif ;</li><li><span class="emphasized">Imposer les OKRs à l’équipe </span>: Bien sûr, les grandes axes de la stratégie sont insufflés par le management, néanmoins, il est essentiel que l’équipe s’approprie ses objectifs et participe à leur définition ;</li><li><span class="emphasized">Utiliser les OKRs comme instrument d’évaluation RH </span>: Bien que cela puisse paraître une bonne idée a priori, dans les faits, utiliser les OKRs comme instrument d’évaluation RH peut conduire l’équipe à adopter des comportements non éthiques, particulièrement dommageables sur le long terme.</li></ol>
+
+				<footer>
+					<img src="./imgs/UI_Examples/OkrFramework/portrait_Itamar_Gilad.jfif" class="portrait" alt="Itamar Gilad portrait">
+					<div class="author">
+						<span class="name">Itamar Gilad</span>
+						<span class="status">
+							Coach en Product Management, Conférencier et Auteur, Ancien PM chez Google et Microsoft (<a target="blank_" class="text-link underline-over" href="https://itamargilad.com/">itamargilad.com</a>)
+						</span>
+					</div>
+				</footer>
+			</div>
+
+			<div class="resources-block">
+				<i class="fas fa-bookmark deco"></i>
+				<h2>Suggestions de ressources pour devenir un expert du Framework OKR</h2>
+				<ul class="resources-list">
+					<li><i class="far fa-play-circle"></i>La vidéo de Rick Klau qui a popularisé les OKRs dans le monde entier : <a target="blank_" class="text-link light underline" href="https://www.youtube.com/watch?v=mJB83EZtAjc">Startup Lab workshop: How Google sets goals: OKRs</a>.</li><li><i class="far fa-bookmark"></i>Un billet de blog très complet publié sur La Fabrique du Net : <a target="blank_" class="text-link light underline" href="https://www.lafabriquedunet.fr/blog/objectifs-methodologie-okr/">Définissez vos objectifs avec la méthodologie OKR</a>.</li><li><i class="fas fa-external-link-alt"></i>Un bon complément de lecture pour déployer les OKRs à l’échelle de l’organisation : <a target="blank_" class="text-link light underline" href="https://wikiagile.cesi.fr/index.php?title=Framework_OKR">Framework OKR</a>.</li>
+				</ul>
+			</div>
+
+		</section>
+
+		<footer class="examples-nav dark">
+			<nav class="wrapper">
+				<a class="text-link light previous" href="<%= @previous_href %>">
+					<!-- TESTONLY -->
+					<span class="link-label">
+						Previous example lorem
+						<i class="fas fa-long-arrow-alt-left"></i>
+					</span>
+					<!-- ENDTESTONLY -->
+					<!-- PRODONLY
+					<span class="link-label">
+						<%= @previous["label"] %>
+						<i class="fas fa-long-arrow-alt-left"></i>
+					</span>
+					END -->
+				</a>
+				<span class="separator"></span>
+				<span class="current-example">
+					<!-- TESTONLY -->
+					Current example ipsum
+					<!-- ENDTESTONLY -->
+					<!-- PRODONLY
+					<%= @example["label"] %>
+					END -->
+				</span>
+				<span class="separator"></span>
+				<a class="text-link light next" href="<%= @next_href %>">
+					<!-- TESTONLY -->
+					<span class="link-label">
+						Next example consectim
+						<i class="fas fa-long-arrow-alt-right"></i>
+					</span>
+					<!-- ENDTESTONLY -->
+					<!-- PRODONLY
+					<span class="link-label">
+						<%= @next["label"] %>
+						<i class="fas fa-long-arrow-alt-right"></i>
+					</span>
+					END -->
+				</a>
+			</nav>
+		</footer>
+
+	<script src="https://kit.fontawesome.com/6b4515f4ac.js" crossorigin="anonymous"></script>
+
+	<script>
+	if (
+	  "IntersectionObserver" in window &&
+	  "IntersectionObserverEntry" in window &&
+	  "intersectionRatio" in window.IntersectionObserverEntry.prototype
+	) {
+	let observer = new IntersectionObserver(entries => {
+	  if (entries[0].boundingClientRect.y < 0) {
+	    document.body.classList.add("header-not-at-top");
+	  } else {
+	    document.body.classList.remove("header-not-at-top");
+	  }
+	});
+	observer.observe(document.querySelector("#top-of-site-pixel-anchor"));
+	}
+	</script>
+	
+	<!-- PRODONLY
+	<script>
+	document.querySelector('.bloc-cta .cta-border').addEventListener('pointerdown', function() {
+		window.location.href = "/example/create/<%= @example["id"] %>";
+	});
+	</script>
+	END -->
+
+	<!-- PRODONLY 
+  <% if Rails.env == "production" && JSON_CONFIG['ga'] %>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      
+      ga('create', "<%= JSON_CONFIG['ga'] %>", 'auto');
+      ga('send', 'pageview');
+    </script>
+  <% end %>
+  END -->
+	</body>
+</html>

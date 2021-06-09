@@ -3,14 +3,17 @@
 		{{{includes.gtag_head}}}
 		<title>
 		<!-- TESTONLY -->
-		{{{lang.ex_pvb.meta-title}}}
+		{{{lang.ex_pipb.meta-title}}}
 		<!-- ENDTESTONLY -->
 		<!-- PRODONLY
-		<%= @example["label"] %> - <%= @lang.example.example %> - Draft
+		<%= @example["label"] %> - <%= @lang.example.examples %> - Draft
 		END -->
 		</title>
+		<!-- PRODONLY
+		<meta name="description" content="<%= @lang.example.pageDescription.gsub('&&example&&', @example["label"]) %>" />
+		END -->
 
-		<meta name="description" content="{{{lang.ex_pvb.meta-description}}}">
+		<meta name="description" content="{{{lang.ex_pipb.meta-description}}}">
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -36,7 +39,7 @@
 			{{{includes.css}}}
 	</head>
 	<body class="ui_example has-header example lang-fr header-examples"><!-- lang-code -->
-		{{{includes.tag_body}}}
+		{{{includes.gtag_body}}}
 		{{{includes.header}}}
 
 		<section class="landing">
@@ -57,7 +60,7 @@
 					<i class="fas fa-chevron-right separator"></i>
 					<span class="current">
 						<!-- TESTONLY -->
-						{{{lang.ex_pvb.title}}}
+						{{{lang.ex_pipb.title}}}
 						<!-- ENDTESTONLY -->
 						<!-- PRODONLY
 						<%= @example["label"] %>
@@ -68,7 +71,7 @@
 				<div class="title-bar">
 					<h1>
 						<!-- TESTONLY -->
-						{{{lang.ex_pvb.title}}}
+						{{{lang.ex_pipb.title}}}
 						<!-- ENDTESTONLY -->
 						<!-- PRODONLY
 						<%= @example["label"] %>
@@ -79,7 +82,7 @@
 
 				<figure class="main-screenshot">
 					<!-- TESTONLY -->
-					<img class="screenshot" src="./imgs/examples/{{{lang.code}}}/full/example-product-vision-board.png" alt="" />
+					<img class="screenshot" src="./imgs/examples/{{{lang.code}}}/full/example-pi-planning-board.png" alt="" />
 					<!-- ENDTESTONLY -->
 					<!-- PRODONLY
 					<img class="screenshot" src="<%= image_path("site/examples/{{{lang.code}}}/full/example-" + @example["id"] + ".png") %>" alt="<%= @example["label"] %> example" />
@@ -92,14 +95,14 @@
 
 		<section class="main-content">
 			<div class="wrapper">
-				{{{lang.ex_pvb.mainContent}}}
+				{{{lang.ex_pipb.mainContent}}}
 			</div>
 
 			<div class="resources-block">
 				<i class="fas fa-bookmark deco"></i>
-				<h2>{{{lang.ex_pvb.resourcesBlock.title}}}</h2>
+				<h2>{{{lang.ex_pipb.resourcesBlock.title}}}</h2>
 				<ul class="resources-list">
-					{{{lang.ex_pvb.resourcesBlock.linksList}}}
+					{{{lang.ex_pipb.resourcesBlock.linksList}}}
 				</ul>
 			</div>
 

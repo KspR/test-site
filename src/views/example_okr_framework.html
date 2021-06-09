@@ -1,10 +1,6 @@
 <html lang="<%= @lang.code %>">
 	<head>
-		<!-- PRODONLY
-		<% if JSON_CONFIG["google-tag-manager"] %>
-			<%= render "partials/google_tag_manager_head" %>
-		<% end %>
-		END -->
+		{{{includes.gtag_head}}}
 		<title>
 		<!-- TESTONLY -->
 		{{{lang.ex_okrf.meta-title}}}
@@ -43,12 +39,7 @@
 			{{{includes.css}}}
 	</head>
 	<body class="ui_example has-header example lang-fr header-examples"><!-- lang-code -->
-		<!-- PRODONLY
-		<% if JSON_CONFIG["google-tag-manager"] %>
-			<%= render "partials/google_tag_manager_body" %>
-		<% end %>
-		END -->
-		
+		{{{includes.gtag_body}}}
 		{{{includes.header}}}
 
 		<section class="landing">

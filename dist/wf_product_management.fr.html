@@ -3,7 +3,11 @@
 END -->
 	<html lang="fr">
 		<head>
-			
+			<!-- PRODONLY
+<% if JSON_CONFIG["google-tag-manager"] %>
+	<%= render "partials/google_tag_manager_head" %>
+<% end %>
+END -->
 
 			<title>Draft pour le Product Management</title>
 			<meta name="description" content="Pour les Product Managers, Designers et Développeurs, Draft est un environnement parfait pour réaliser le product discovery, affiner votre réflexion stratégique et partager vos roadmaps." />
@@ -47,8 +51,11 @@ END -->
 
 		</head>
 		<body class="has-header workflow product-management">
-			
-
+			<!-- PRODONLY
+<% if JSON_CONFIG["google-tag-manager"] %>
+	<%= render "partials/google_tag_manager_body" %>
+<% end %>
+END -->
 			<div id="top-of-site-pixel-anchor"></div>
 
 <header class="main-header">
@@ -361,6 +368,7 @@ END -->
 			<a href="https://draft.io/assets/2020 10 27 Terms and conditions - Draft SAS.pdf"
 				target="_blank">Termes</a>
 			<a href="https://draft.io/assets/2020 10 27 Privacy Policy - Draft SAS.pdf" target="_blank">Sécurité et confidentialité</a>
+			<a href="javascript:openAxeptioCookies()">Cookies</a>
 			<a href="mailto:hi@draft.io">Contactez-nous</a>
 
 			<div class="language-bloc">

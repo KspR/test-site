@@ -58,10 +58,10 @@
     }
   });
 
-  fs.readdirSync('./dist-rails/sass').forEach(function(file) {
-    if (/sass/.exec(file)) {
-      return cp.exec('cp ./dist-rails/sass/' + file + ' /Users/KspR/Dev/whibo/app/assets/stylesheets/portal/' + file);
-    }
-  });
+  // fs.readdirSync('./dist-rails/sass').forEach(function(file) {
+  //   if (/sass/.exec(file)) {
+  //     return cp.exec('cp ./dist-rails/sass/' + file + ' /Users/KspR/Dev/whibo/app/assets/stylesheets/portal/' + file);
+  //   }
+  // });
 
 }).call(this);

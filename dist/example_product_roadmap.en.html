@@ -1,0 +1,316 @@
+<html lang="<%= @lang.code %>">
+	<head>
+		<!-- PRODONLY
+<% if JSON_CONFIG["google-tag-manager"] %>
+	<%= render "partials/google_tag_manager_head" %>
+<% end %>
+END -->
+		<title>
+		<!-- TESTONLY -->
+		Product Roadmap - Example - Draft
+		<!-- ENDTESTONLY -->
+		<!-- PRODONLY
+		<%= @example["label"] %> - <%= @lang.example.example %> - Draft
+		END -->
+		</title>
+
+		<meta name="description" content="A Product Roadmap is your plan to achieve your product vision by focusing on the value you aim to deliver to your clients and rallying stakeholders.">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="icon" href="/favicon.png?v=5" />
+		<!-- PRODONLY
+		<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/fr/example/<%= @example["id"].gsub(/_/, '-') %>" 
+			hreflang="x-default" />
+		<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/example//<%= @example["id"].gsub(/_/, '-') %>" 
+		  hreflang="en-GB" />
+		<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/example/<%= @example["id"].gsub(/_/, '-') %>" 
+		  hreflang="en-US" />
+		<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/fr/example/<%= @example["id"].gsub(/_/, '-') %>" 
+			hreflang="fr-FR" />
+		<% if @lang.code == 'en' %>
+			<link rel="canonical" href="<%= JSON_CONFIG['host'] %>/example/<%= @example["id"].gsub(/_/, '-') %>">
+		<% else %>
+			<link rel="canonical" href="<%= JSON_CONFIG['host'] %>/fr/example/<%= @example["id"].gsub(/_/, '-') %>">
+		<% end %>
+		END -->
+
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			
+			<!-- BEGINCSS -->
+<link href="css/common.css" rel="stylesheet">
+<link href="css/colors.css" rel="stylesheet">
+<link href="css/portal-desktop.css" rel="stylesheet">
+<link href="css/portal-mobile.css" rel="stylesheet">
+<link href="css/DDS_draft-design-system.css" rel="stylesheet">
+<link href="css/ui_enterprise.css" rel="stylesheet">
+<link href="css/ui_pricing.css" rel="stylesheet">
+<link href="css/ui_example.css" rel="stylesheet">
+<link href="css/ui_customer-story.css" rel="stylesheet">
+<link href="css/ui_customer-stories.css" rel="stylesheet">
+<link href="css/ui_onboarding.css" rel="stylesheet">
+
+<link href="css/TEST_ONLY_ui_sommaire.css" rel="stylesheet">
+
+<!-- ENDCSS -->
+	</head>
+	<body class="ui_example has-header example lang-fr header-examples"><!-- lang-code -->
+		<!-- PRODONLY
+<% if JSON_CONFIG["google-tag-manager"] %>
+	<%= render "partials/google_tag_manager_body" %>
+<% end %>
+END -->
+		<div id="top-of-site-pixel-anchor"></div>
+
+<header class="main-header">
+	<input type="checkbox" id="btnBurgerMenu" name="burger-menu-visibility">
+	<label for="btnBurgerMenu" class="burger-btn">
+		<span class="wrapper">
+			<span class="deco-btn-burger"></span>
+			<span class="deco-btn-burger"></span>
+			<span class="deco-btn-burger"></span>
+		</span>
+	</label>
+	<nav class="nav">
+		<a class="logo text-link" href="/"><img src="./imgs/logo-diag-orange-plus-text.png" alt="Logo Draft"></a>
+		<ul>
+			<li>
+				<div class="toggle-wrapper text-link">
+					<div class="toggle">
+						<!-- Workflows <i class="fas fa-chevron-down"></i> -->
+						<span class="selected">Workflows <i class="fas fa-chevron-down"></i></span>
+						<span class="neutral">Workflows <i class="fas fa-chevron-down"></i></span>
+					</div>
+					<ul class="menu">
+						<li><a class="text-link" href="/agile-project-management">Agile Project Management</a></li>
+						<li><a class="text-link" href="/agility-at-scale">Agility at scale</a></li>
+						<li><a class="text-link" href="/product-management">Product Management</a></li>
+						<li><a class="text-link" href="/everyday-creative-work">Everyday Creative Work</a></li>
+					</ul>
+				</div>
+			</li>
+			<li class="page-enterprise-li"><a class="text-link" href="/enterprise">
+				<!-- Enterprise -->
+				<span class="selected">Enterprise</span>
+				<span class="neutral">Enterprise</span>
+			</a></li>
+			<li class="page-customer-stories-li"><a class="text-link" href="/customer-stories">
+				<!-- Customer stories -->
+				<span class="selected">Customer stories</span>
+				<span class="neutral">Customer stories</span>
+			</a></li>
+			<li class="page-examples-li"><a class="text-link" href="/examples">
+				<!-- Examples -->
+				<span class="selected">Examples</span>
+				<span class="neutral">Examples</span>
+			</a></li>
+			<li class="page-pricing-li"><a class="text-link" href="/pricing">
+				<!-- Pricing -->
+				<span class="selected">Pricing</span>
+				<span class="neutral">Pricing</span>
+			</a></li>
+			<li class="login"><a class="text-link" href="/login">
+				<!-- Sign in -->
+				<span class="selected">Sign in</span>
+				<span class="neutral">Sign in</span>
+
+			</a></li>
+			<li class="signup"><a class="cta" href="/get-started">
+				<!-- Sign up -->
+				<span class="selected">Sign up</span>
+				<span class="neutral">Sign up</span>
+			</a></li>
+		</ul>
+
+		<!-- <a class="fav" href="/">d</a> -->
+		<!-- <a class="fav-sheet" href="/">d</a> -->
+	</ul>
+</header>
+
+<script>
+	document.ontouchstart = function (e) {
+		e.stopPropagation();
+	}
+</script>
+
+		<section class="landing">
+
+			<div class="wrapper">
+
+				<nav class="breadcrumb small">
+					<!-- PRODONLY
+					<% if @lang.code != 'en' %>
+						<a class="text-link light" href="/<%= @lang.code %>/examples"><%= @lang.example.examples %></a>
+					<% else %>
+						<a class="text-link light" href="/examples">Examples</a>
+					<% end %>
+					END -->
+					<!-- TESTONLY -->
+					<a class="text-link light" href="/examples">Examples</a>
+					<!-- ENDTESTONLY -->
+					<i class="fas fa-chevron-right separator"></i>
+					<span class="current">
+						<!-- TESTONLY -->
+						Product Roadmap
+						<!-- ENDTESTONLY -->
+						<!-- PRODONLY
+						<%= @example["label"] %>
+						END -->
+					</span>
+				</nav>
+
+				<div class="title-bar">
+					<h1>
+						<!-- TESTONLY -->
+						Product Roadmap
+						<!-- ENDTESTONLY -->
+						<!-- PRODONLY
+						<%= @example["label"] %>
+						END -->
+					</h1>
+					<!-- TESTONLY -->
+<div class="actions has-template">
+<!-- ENDTESTONLY -->
+<!-- PRODONLY
+<div class="actions <%= @has_template ? "has-template" : "" %>">
+END -->
+		<!-- TESTONLY -->
+		<a href="#" class="cta round outline">
+		Essayer l'exemple
+		<!-- ENDTESTONLY -->
+		<!-- PRODONLY
+		<a href="https://draft.io/example/create/<%= @example["id"] %>" class="cta round outline">
+		Try example
+		END -->
+		<span class="mention">
+			<!-- TESTONLY -->
+			Pas de compte requis
+			<!-- ENDTESTONLY -->
+			<!-- PRODONLY
+			<%= @lang.example.asterisk %>
+			END -->
+		</span>
+	</a>
+	<span class="separator"></span>
+	<!-- TESTONLY -->
+	<a href="#" class="text-link light underline">Use this template</a>
+	<!-- ENDTESTONLY -->
+	<!-- PRODONLY
+	<a href="https://draft.io/template/create/<%= @example["id"] %>" class="text-link light underline">Use this template</a>
+	END -->
+</div>
+				</div>
+
+				<figure class="main-screenshot">
+					<!-- TESTONLY -->
+					<img class="screenshot" src="./imgs/examples/en/full/example-product-roadmap.png" alt="" />
+					<!-- ENDTESTONLY -->
+					<!-- PRODONLY
+					<img class="screenshot" src="<%= image_path("site/examples/en/full/example-" + @example["id"] + ".png") %>" alt="<%= @example["label"] %> example" />
+					END -->
+				</figure>
+
+			</div>
+
+		</section>
+
+		<section class="main-content">
+			<div class="wrapper">
+				<h2>What is a Product Roadmap?</h2><p>To answer this complex question, we propose a definition extracted from the essential book <a target="blank_" class="text-link advanced-underline-over" href="https://www.oreilly.com/library/view/product-roadmaps-relaunched/9781491971710/"><span>Product</span> <span>Roadmaps</span> <span>Relaunched</span></a> (and with which we are totally aligned at Draft): “a Product Roadmap describes how you intend to achieve your product vision. It focuses on the value you propose to deliver to your customer and your organization in order to rally support and coordinate effort among stakeholders.”</p><p>As you may have noticed, this definition spotlights the value delivered to customers, i.e., the outcomes in terms of satisfaction of customer needs or answer to customer problems. Whereas solutions could be detailed and estimated in a ‘tactical artifact’ release plan or project plan (like a <a class="text-link advanced-underline-over" href="https://draft.io/example/gantt-chart"><span>Gantt</span> <span>Chart</span></a> can be), a roadmap must remain a ‘strategic artifact’.</p><p>The other key element of this definition is product vision. Roadmapping is an ideal moment to take a step back from the day-to-day business and rethink the big picture: Why are we developing this product in the first place? What will it mean to the customer, to the organization, to the planet?</p><p>Even if Product Roadmaps can take many forms depending on the organization or the stakeholders it is built for, though this example, we propose an applicable framework that you could reuse and adapt in your context easily.</p><h2>How to build a Product Roadmap?</h2><p>Before starting making your roadmap, it is worth spending some valuable time on gathering inputs to make sure you have all the necessary information and context to make the right product decisions and communicate them efficiently. For example, take advantage of this preliminary phase to refresh your understanding of your market and industry, discern who uses your product from who buys clearly, rework your personas, and collect your stakeholders' expectations.</p><p>Then, once you are ready to build your roadmap, you can apply Product Roadmaps Relaunched’s framework. It suggests that a compelling Product Roadmap should include at least five primary components:</p><ul><li>Product vision, a component we will focus on in the next part.</li><li>Business objectives, that should enable you to measure progress.</li><li>Timeframes, that must remain broad to avoid over-focusing on dates and diverting attention from the iterative and uncertain process of today's product development.</li><li>Themes, to categorize customer needs or problems that should be satisfied to reach business outcomes.</li><li>Disclaimer, to mention potential caveats and stress, still a bit more, that changes are possible and inherent to roadmapping in an Agile iterative process.</li></ul><p>To these firsts components, you could add optional secondary components to bring crucial information to stakeholders. For example, product areas can help categorize business objectives and problems you want to tackle. Some high-level features and solutions, the stage of development, a confidence indicator, and target customers can enrich the themes you’ve showcased.</p><img src="./imgs/UI_Examples/ProductRoadmap/Product_Roadmap-Diagram_vEng.png" alt="Product Roadmap Illustration" /><h2>How to determine a compelling strategic vision</h2><p>A vision is the lighthouse that helps you navigate when landmarks are lacking. It provides the course and the sense, at all levels of the organization, and for both internal and external stakeholders.</p><br><p>As corporate strategy is highly inspired by military strategy, you will find how interesting and surprisingly relevant for a product vision are the characteristics of strategic vision as defined by Colonel Richard Mackey in his futuristic essay <span class="italic">Translating vision into reality: The role of the strategic leader</span> (1992). For the U.S. Army War College professor, the set of characteristics that forms an adequate strategic vision is the following:</p><ul><li>“A mental image (a picture in the mind).</li><li>Clearly communicated, easily understood.</li><li>Generates excitement, appeals to the gut.</li><li>Creates energy and commitment.</li><li>Describe a desirable future state.</li><li>Embedded in some environmental context.</li><li>Establishes/reinforces values of the group.”</li></ul>
+			</div>
+
+			<div class="resources-block">
+				<i class="fas fa-bookmark deco"></i>
+				<h2>Suggested resources to go further with Product Roadmap</h2>
+				<ul class="resources-list">
+					<li><i class="fas fa-external-link-alt"></i>Roman Pichler’s <a target="blank_" class="text-link light underline" href="https://www.romanpichler.com/blog/10-tips-creating-agile-product-roadmap/">10 tips for creating an agile product roadmap</a></li><li><i class="far fa-bookmark"></i>John Cutler’s blog article <a target="blank_" class="text-link light underline" href="https://medium.com/hackernoon/beyond-outcomes-over-outputs-6b2677044214">Beyond “Outcomes over Outputs”</a></li><li><i class="fas fa-play-circle"></i>A presentation from Jason Tanner, CEO at Applied Frameworks, at Scrum Gathering called <a target="blank_" class="text-link light underline" href="https://www.youtube.com/watch?v=KOAkLXDZjKM&feature=emb_logo">Product Roadmaps that work</a></li>
+				</ul>
+			</div>
+
+		</section>
+
+		<footer class="examples-nav dark">
+			<nav class="wrapper">
+				<a class="text-link light previous" href="<%= @previous_href %>">
+					<!-- TESTONLY -->
+					<span class="link-label">
+						Previous example lorem
+						<i class="fas fa-long-arrow-alt-left"></i>
+					</span>
+					<!-- ENDTESTONLY -->
+					<!-- PRODONLY
+					<span class="link-label">
+						<%= @previous["label"] %>
+						<i class="fas fa-long-arrow-alt-left"></i>
+					</span>
+					END -->
+				</a>
+				<span class="separator"></span>
+				<span class="current-example">
+					<!-- TESTONLY -->
+					Current example ipsum
+					<!-- ENDTESTONLY -->
+					<!-- PRODONLY
+					<%= @example["label"] %>
+					END -->
+				</span>
+				<span class="separator"></span>
+				<a class="text-link light next" href="<%= @next_href %>">
+					<!-- TESTONLY -->
+					<span class="link-label">
+						Next example consectim
+						<i class="fas fa-long-arrow-alt-right"></i>
+					</span>
+					<!-- ENDTESTONLY -->
+					<!-- PRODONLY
+					<span class="link-label">
+						<%= @next["label"] %>
+						<i class="fas fa-long-arrow-alt-right"></i>
+					</span>
+					END -->
+				</a>
+			</nav>
+		</footer>
+
+	<script src="https://kit.fontawesome.com/6b4515f4ac.js" crossorigin="anonymous"></script>
+
+	<script>
+	if (
+	  "IntersectionObserver" in window &&
+	  "IntersectionObserverEntry" in window &&
+	  "intersectionRatio" in window.IntersectionObserverEntry.prototype
+	) {
+	let observer = new IntersectionObserver(entries => {
+	  if (entries[0].boundingClientRect.y < 0) {
+	    document.body.classList.add("header-not-at-top");
+	  } else {
+	    document.body.classList.remove("header-not-at-top");
+	  }
+	});
+	observer.observe(document.querySelector("#top-of-site-pixel-anchor"));
+	}
+	</script>
+	
+	<!-- PRODONLY
+	<script>
+	document.querySelector('.bloc-cta .cta-border').addEventListener('pointerdown', function() {
+		window.location.href = "/example/create/<%= @example["id"] %>";
+	});
+	</script>
+	END -->
+
+	<!-- PRODONLY 
+  <% if Rails.env == "production" && JSON_CONFIG['ga'] %>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      
+      ga('create', "<%= JSON_CONFIG['ga'] %>", 'auto');
+      ga('send', 'pageview');
+    </script>
+  <% end %>
+  END -->
+	</body>
+</html>
