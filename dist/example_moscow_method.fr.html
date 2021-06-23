@@ -7,14 +7,17 @@
 END -->
 		<title>
 		<!-- TESTONLY -->
-		User Story Mapping - Exemple - Draft
+		Méthode MoSCoW - Exemple - Draft
 		<!-- ENDTESTONLY -->
 		<!-- PRODONLY
-		<%= @example["label"] %> - <%= @lang.example.example %> - Draft
+		<%= @example["label"] %> - <%= @lang.example.examples %> - Draft
 		END -->
 		</title>
+		<!-- PRODONLY
+		<meta name="description" content="<%= @lang.example.pageDescription.gsub('&&example&&', @example["label"]) %>" />
+		END -->
 
-		<meta name="description" content="Le User Story Mapping vous permet de déterminer le MVP et de prioriser votre backlog de façon à apporter le maximum de valeur à vos utilisateurs.">
+		<meta name="description" content="La Méthode MoSCoW (pour Must, Should, Could et Would) est un outil de priorisation du backlog produit efficace et simple à mettre en place.">
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -151,7 +154,7 @@ END -->
 					<i class="fas fa-chevron-right separator"></i>
 					<span class="current">
 						<!-- TESTONLY -->
-						User Story Mapping
+						Méthode MoSCoW
 						<!-- ENDTESTONLY -->
 						<!-- PRODONLY
 						<%= @example["label"] %>
@@ -162,7 +165,7 @@ END -->
 				<div class="title-bar">
 					<h1>
 						<!-- TESTONLY -->
-						User Story Mapping
+						Méthode MoSCoW
 						<!-- ENDTESTONLY -->
 						<!-- PRODONLY
 						<%= @example["label"] %>
@@ -203,7 +206,7 @@ END -->
 
 				<figure class="main-screenshot">
 					<!-- TESTONLY -->
-					<img class="screenshot" src="./imgs/examples/fr/full/example-user-story-mapping.png" alt="" />
+					<img class="screenshot" src="./imgs/examples/fr/full/example-moscow-method.png" alt="" />
 					<!-- ENDTESTONLY -->
 					<!-- PRODONLY
 					<img class="screenshot" src="<%= image_path("site/examples/fr/full/example-" + @example["id"] + ".png") %>" alt="<%= @example["label"] %> example" />
@@ -216,48 +219,10 @@ END -->
 
 		<section class="main-content">
 			<div class="wrapper">
-				<h2>Qu’est ce que le User Story Mapping ?</h2><p>L’objectif du User Story Mapping est de délivrer davantage de valeur à ses utilisateurs en fabriquant moins. Cela semble contradictoire à première vue mais c’est bien de cela dont il s’agit. Et c’est ce que nous allons voir dans cette brève introduction.</p><p>Popularisé par Jeff Patton, le User Story Mapping est devenu une manière commune de faciliter la collaboration entre les business owners et les équipes de développement en vue de fabriquer le bon produit, dans le bon ordre. Compte tenu de sa puissance et de son efficacité, cet atelier est, aujourd’hui, très apprécié des équipes Agiles pour prioriser de façon optimale leur backlog.</p><p>Tout d’abord, il faut que vous vous mettiez dans la peau de vos utilisateurs afin de décrire la cinématique dans laquelle ils s’inscrivent lorsqu’ils utilisent votre produit. Détaillez chaque étape, si possible, en conservant un ordre chronologique. Le flux narratif qui en résulte forme le squelette de votre User Story Map, composé d’activités ou de fonctionnalités macro.</p><p>Ensuite, vous allez lister les user stories qui permettent à vos utilisateurs d’atteindre leurs objectifs à travers votre produit. La définition des user stories favorise l’échange entre les business owners et les équipes de développement, conduisant progressivement à la construction d’une compréhension commune des enjeux business, produit et technique.</p><p>Pour finir, il vous suffit de positionner les user stories selon l’axe vertical et en regrouper un certain nombre avec pour objectif d’apporter le minimum de valeur ajoutée requis à vos utilisateurs : c’est ce qu’on appelle le MVP (pour Minimum Viable Product). Vous pouvez poursuivre l’exercice en déterminant une deuxième puis une troisième version de votre produit, mais sachez que beaucoup de choses peuvent survenir entre temps !</p><h2>Qu’est-ce qu’un MVP ?</h2><p>L’une des erreurs fréquentes au sujet du MVP est de penser qu’il s’agit seulement d’un produit qui fonctionne, sur le plan technique. Faisons l’analogie suivante : quand nous parlons de la nature et que nous utilisons le terme ‘viable’ pour parler d’un organisme vivant, cela signifie que cet organisme peut survivre de façon autonome dans son environnement. Le concept de MVP est similaire.</p><p>En conservant cette analogie à l’esprit, on peut définir le MVP comme étant la plus petite mise en production qui permet aux utilisateurs d’atteindre leurs objectifs (non un produit bâclé !) et, par conséquent, dans le cadre de votre processus Agile, vous permet de tirer des enseignements pertinents auprès de vos utilisateurs.</p>
+				<h2>Qu’est-ce que la méthode MoSCoW ?</h2><p>Imaginée par Dai Clegg, consultant chez Oracle, en 1994, la Méthode MoSCoW est un outil de Product Management qui vise à aider les équipes de développement à prioriser leur backlog produit. Au même titre que le <a target="blank_" class="text-link advanced-underline-over" href="https://draft.io/example/okr-framework"><span>User</span> <span>Story</span> <span>Mapping</span></a>, cet exercice offre un cadre de réflexion pour déterminer les différentes versions cible d’un même produit en fonction de l'importance des besoins utilisateurs visés et des contraintes techniques endogènes (sécurité, fiabilité, etc.) ou exogènes (réglementation, dépendances avec le reste de l’organisation, etc.) de l’équipe.  </p><p>Simple à mettre en place et particulièrement utile pour piloter un projet limité par le temps et/ou les ressources, la Méthode MoSCoW invite les équipes de développement à classer le champ des fonctionnalités possibles par ordre d’importance, selon 4 degrés de priorité :</p><ul><li><span class="emphasized">M</span> pour Must have this : Les fonctionnalités fondamentales nécessaires à la satisfaction des attentes des utilisateurs et/ou des contraintes indépassables en matière de sécurité ou de fiabilité produit. </li><li><span class="emphasized">S</span> pour Should have this if at all possible : Les fonctionnalités nécessaires à la différenciation du produit par rapport aux concurrents. Elles apportent une valeur certaine aux utilisateurs mais sont cependant moins essentielles que les fonctionnalités précédentes et, par conséquent, moins urgentes à implémenter.</li><li><span class="emphasized">C</span> pour Could have this if it does not affect anything else : Le développement de ces fonctionnalités peut représenter un vrai plus dans le succès commercial du produit. Si l’équipe a le temps de les implémenter sans que cela n’affecte la réalisation des fonctionnalités plus essentielles, elles sont à faire. En revanche, si le projet accuse déjà un certain retard, ce sont des fonctionnalités qui peuvent être sacrifiées pour assurer une livraison en temps et en heure d’une version produit moins étoffée.</li><li><span class="emphasized">W</span> pour Would like but won’t get this time : Ce sont des fonctionnalités qui n’ont que très peu de chances d’être réalisées à moyen terme. Elles sont les dernières par ordre d’importance et mises de côté pour le moment. Si la situation évolue, ces fonctionnalités pourront éventuellement remonter dans l’ordre des priorités. </li></ul><h2>Comment utiliser la Méthode MoSCoW en atelier ?</h2><p>Afin d’assurer le respect du processus classique de divergence et de convergence d’une session de réflexion collective, l’atelier de la méthode MoSCoW se déroule en trois étapes:</p><ol><li><span class="emphasized">Listez les tâches à effectuer</span> : L’équipe se réunit et brainstorme collectivement pour lister toutes les tâches relatives à l’exécution du projet, sans souci de les classer dans ce premier temps. Elles sont rassemblées et soumises à réflexion : certaines fonctionnalités peuvent-elles être divisées en plusieurs fonctionnalités plus petites ? Faut-il, au contraire, regrouper des fonctionnalités qui ne peuvent pas être développées de façon autonome ? Quelles sont les éventuelles dépendances internes ou externes ?</li><li><span class="emphasized">Priorisez les actions</span> : Il s’agit de classer les fonctionnalités selon les 4 degrés de priorité précédemment cités : Quelles fonctionnalités sont absolument fondamentales pour proposer un produit fonctionnel et attractif ? Lesquelles sont également essentielles mais moins urgentes ? Quelles fonctionnalités peuvent être développées si le temps le permet ? Et enfin, quelles fonctionnalités sont retirées du projet pour le moment ? En répondant à ces questions, l’équipe priorise les actions en faisant des arbitrages. Certains intérêts risquent de diverger : vous pouvez alors parvenir à un consensus et objectiver le processus de prise de décision en vous appuyant sur un vote ou un référentiel de priorisation de type Valeur Business-Complexité.</li><li><span class="emphasized">Validez la classification</span> : L’enjeu principal de cette ultime étape est de s’assurer que la liste des Must est aussi succincte que possible. La classification doit être validée et acceptée par tous les participants : l’alignement de l’équipe sur les décisions prises est essentiel pour son bon fonctionnement par la suite. Pour valider l’orientation stratégique et lever les éventuels freins ou dépendances organisationnels, il peut être opportun de faire valider le fruit de l’atelier par les décideurs du projet.</li></ol>
 			</div>
 
-			<div class="tips-block">
-				<h2>Quelques conseils de <b>Jeff Patton</b> lui-même</h2>
-
-				<p>En avril 2020, nous avons eu le plaisir d’échanger avec Jeff Patton pour comprendre plus finement sa propre conception du User Story Mapping. Il a pu préciser certains points et partager sa vision de l’exercice. Ainsi, pour Jeff Patton, le User Story Mapping :</p><ul><li>C’est comme la trame du scénario d’un film. Vous écrivez le scénario de vos utilisateurs qui vivent des péripéties à travers votre produit ;</li><li>C’est un outil de réflexion “vivant”. Après quelques mois, il ne faut pas hésiter à le modifier, voire même à le jeter, et recommencer à zéro ;</li><li>C’est par nature incomplet et imprécis. Il ne faut pas essayer d’être exhaustif et se perdre dans trop détail ;</li><li>C’est à la fois une représentation visuelle commune et un portail vers d’autres éléments du produit, ce qui caractérise la puissance et le succès de cet outil ;</li><li>C’est un artefact qui se construit naturellement, au fur et à mesure de l’atelier, et non qui possède une structure a priori.</li></ul>
-
-				<footer>
-					<img src="./imgs/UI_Examples/UserStoryMapping/portrait_Jeff_Patton.jpg" class="portrait" alt="Jeff Patton portrait">
-					<div class="author">
-						<span class="name">Jeff Patton</span>
-						<span class="status">
-							Auteur de "User Story Mapping: Discover the Whole Story, Build the Right Product"
-						</span>
-					</div>
-				</footer>
-			</div>
-
-			<div class="tips-block">
-				<h2>Quelques autres conseils de professionnels du Product Management</h2>
-
-				<p>Fatima-Zahra Hamil, Directrice Conseil et Formation Produit chez Wivoo, souligne deux étapes critiques préalables au bon déroulement d’une session de User Story Mapping :</p><ul><li>Affiner la vision afin que celle-ci reflète la compréhension des enjeux marché et des problèmes rencontrés par les utilisateurs ;</li><li>Poser explicitement les objectifs du projet (monétisation, audience, etc.). Ils vont avoir une grande influence sur le périmètre fonctionnel du MVP ;</li><li>Décrire précisément les <a class="text-link underline-over" href="https://draft.io/fr/example/persona">Personas</a>. C’est ce qui permet, ensuite, de facilement identifier les fonctionnalités qui vont réellement apporter de la valeur ajoutée aux utilisateurs.</li></ul><p>A l’issue d’un atelier de User Story Mapping abouti, vous devriez avoir à disposition tous les éléments nécessaires pour initier la construction de votre <a class="text-link advanced-underline-over" href="https://draft.io/fr/example/product-roadmap"><span>Product</span> <span>Roadmap</span></a>.</p>
-
-				<footer>
-					<img src="./imgs/UI_Examples/UserStoryMapping/portrait_Fatima-Zahra_Hamil.jpg" class="portrait" alt="Fatima-Zahra Hamil portrait">
-					<div class="author">
-						<span class="name">Fatima-Zahra Hamil</span>
-						<span class="status">
-							Directrice Conseil et Formation Produit chez Wivoo
-						</span>
-					</div>
-				</footer>
-			</div>
-
-			<div class="resources-block">
-				<i class="fas fa-bookmark deco"></i>
-				<h2>Suggestions de ressources pour devenir un expert du User Story Mapping</h2>
-				<ul class="resources-list">
-					<li><i class="fas fa-external-link-alt"></i>Pour les anglophones, le site de Jeff Pathon : <a target="blank_" class="text-link light underline" href="https://www.jpattonassociates.com/user-story-mapping/">jpattonassociates.com/user-story-mapping/</a></li><li><i class="far fa-bookmark"></i>Le blog de Judicaël Paquet, Coach Agile, et son billet : <a target="blank_" class="text-link light underline" href="https://blog.myagilepartner.fr/index.php/2017/07/29/story-mapping/">User Story Mapping - Example/</a></li><li><i class="far fa-bookmark"></i>Le blog de Martial Segura, Coach Agile, et son article : <a target="blank_" class="text-link light underline" href="https://www.oeildecoach.com/creer-1er-user-story-mapping/">Comment créer votre 1er User Story Mapping ?/</a></li><li><i class="far fa-play-circle"></i>Scrum Life, la chaîne YouTube de Jean-Pierre Lambert, Coach Agile, avec la vidéo <a target="blank_" class="text-link light underline" href="https://www.youtube.com/watch?v=dvnU_R0mu98">Le storytelling au service du backlog : le User Story Mapping/</a></li>
-				</ul>
-			</div>
+			
 
 		</section>
 

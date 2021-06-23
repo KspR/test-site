@@ -7,14 +7,17 @@
 END -->
 		<title>
 		<!-- TESTONLY -->
-		User Story Mapping - Exemple - Draft
+		Impact Mapping - Exemple - Draft
 		<!-- ENDTESTONLY -->
 		<!-- PRODONLY
-		<%= @example["label"] %> - <%= @lang.example.example %> - Draft
+		<%= @example["label"] %> - <%= @lang.example.examples %> - Draft
 		END -->
 		</title>
+		<!-- PRODONLY
+		<meta name="description" content="<%= @lang.example.pageDescription.gsub('&&example&&', @example["label"]) %>" />
+		END -->
 
-		<meta name="description" content="Le User Story Mapping vous permet de déterminer le MVP et de prioriser votre backlog de façon à apporter le maximum de valeur à vos utilisateurs.">
+		<meta name="description" content="L’Impact Mapping est un outil stratégique qui établit les relations entre un objectif, les acteurs concernés, les impacts attendus et les livrables.">
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -151,7 +154,7 @@ END -->
 					<i class="fas fa-chevron-right separator"></i>
 					<span class="current">
 						<!-- TESTONLY -->
-						User Story Mapping
+						Impact Mapping
 						<!-- ENDTESTONLY -->
 						<!-- PRODONLY
 						<%= @example["label"] %>
@@ -162,7 +165,7 @@ END -->
 				<div class="title-bar">
 					<h1>
 						<!-- TESTONLY -->
-						User Story Mapping
+						Impact Mapping
 						<!-- ENDTESTONLY -->
 						<!-- PRODONLY
 						<%= @example["label"] %>
@@ -203,7 +206,7 @@ END -->
 
 				<figure class="main-screenshot">
 					<!-- TESTONLY -->
-					<img class="screenshot" src="./imgs/examples/fr/full/example-user-story-mapping.png" alt="" />
+					<img class="screenshot" src="./imgs/examples/fr/full/example-impact-mapping.png" alt="" />
 					<!-- ENDTESTONLY -->
 					<!-- PRODONLY
 					<img class="screenshot" src="<%= image_path("site/examples/fr/full/example-" + @example["id"] + ".png") %>" alt="<%= @example["label"] %> example" />
@@ -216,36 +219,20 @@ END -->
 
 		<section class="main-content">
 			<div class="wrapper">
-				<h2>Qu’est ce que le User Story Mapping ?</h2><p>L’objectif du User Story Mapping est de délivrer davantage de valeur à ses utilisateurs en fabriquant moins. Cela semble contradictoire à première vue mais c’est bien de cela dont il s’agit. Et c’est ce que nous allons voir dans cette brève introduction.</p><p>Popularisé par Jeff Patton, le User Story Mapping est devenu une manière commune de faciliter la collaboration entre les business owners et les équipes de développement en vue de fabriquer le bon produit, dans le bon ordre. Compte tenu de sa puissance et de son efficacité, cet atelier est, aujourd’hui, très apprécié des équipes Agiles pour prioriser de façon optimale leur backlog.</p><p>Tout d’abord, il faut que vous vous mettiez dans la peau de vos utilisateurs afin de décrire la cinématique dans laquelle ils s’inscrivent lorsqu’ils utilisent votre produit. Détaillez chaque étape, si possible, en conservant un ordre chronologique. Le flux narratif qui en résulte forme le squelette de votre User Story Map, composé d’activités ou de fonctionnalités macro.</p><p>Ensuite, vous allez lister les user stories qui permettent à vos utilisateurs d’atteindre leurs objectifs à travers votre produit. La définition des user stories favorise l’échange entre les business owners et les équipes de développement, conduisant progressivement à la construction d’une compréhension commune des enjeux business, produit et technique.</p><p>Pour finir, il vous suffit de positionner les user stories selon l’axe vertical et en regrouper un certain nombre avec pour objectif d’apporter le minimum de valeur ajoutée requis à vos utilisateurs : c’est ce qu’on appelle le MVP (pour Minimum Viable Product). Vous pouvez poursuivre l’exercice en déterminant une deuxième puis une troisième version de votre produit, mais sachez que beaucoup de choses peuvent survenir entre temps !</p><h2>Qu’est-ce qu’un MVP ?</h2><p>L’une des erreurs fréquentes au sujet du MVP est de penser qu’il s’agit seulement d’un produit qui fonctionne, sur le plan technique. Faisons l’analogie suivante : quand nous parlons de la nature et que nous utilisons le terme ‘viable’ pour parler d’un organisme vivant, cela signifie que cet organisme peut survivre de façon autonome dans son environnement. Le concept de MVP est similaire.</p><p>En conservant cette analogie à l’esprit, on peut définir le MVP comme étant la plus petite mise en production qui permet aux utilisateurs d’atteindre leurs objectifs (non un produit bâclé !) et, par conséquent, dans le cadre de votre processus Agile, vous permet de tirer des enseignements pertinents auprès de vos utilisateurs.</p>
+				<h2>Qu’est-ce que l’Impact Mapping ?</h2><p>L’Impact Mapping est une méthode de planification stratégique qui aide à établir et à visualiser les relations de causalité entre un objectif, les acteurs impliqués, les impacts attendus sur ces différents acteurs, et les livrables ou les initiatives qui vont mener les acteurs à avoir un impact. Cet atelier a été imaginé par Gojko Adzic, un auteur très influent dans la communauté Agile, dans le but de favoriser la collaboration et les interactions dans la réflexion stratégique, notamment entre business owners et représentants des équipes de développement. </p><p>Plus particulièrement, l’Impact Mapping encourage les équipes à définir les hypothèses sur lesquelles se base leur plan stratégique, leur offrant l’opportunité de challenger à la fois leurs objectifs et leurs contraintes. Au même titre que le <a target="blank_" class="text-link advanced-underline-over" href="https://draft.io/example/mind-mapping"><span>Mind</span> <span>Mapping</span></a>, l’aspect visuel de la méthode facilite l’émergence d’une compréhension commune du problème tout en permettant une certaine prise de recul.</p><p>L’Impact Mapping s’inscrit dans un horizon de décision à moyen-terme et s’avère être un outil judicieux dans la mise en œuvre de la Build-Measure-Learn Feedback Loop de la méthode The Lean Startup. Mené à  l’issue de chaque cycle, cet atelier permet de mesurer le progrès réalisé et de valider ou invalider les hypothèses passées, amenant à explorer plus en détail certaines branches de l’Impact Map ou, au contraire, à en abandonner.</p><h2>Comment construire une Impact Map ?</h2><p>Un Impact Map se décompose en 4 niveaux de réflexion :</p><ol><li><span class="emphasized">L’objectif (le pourquoi ?)</span>: L'élément central de l’Impact Map est l’objectif stratégique poursuivi, en se concentrant sur le rationnel d’un tel choix pour l’organisation. La question à se poser est alors : <i>Pourquoi faisons-nous cela ?</i></li><li><span class="emphasized">Les acteurs (le qui ?)</span>: Dans ce second niveau, il s’agit d’identifier quels sont les acteurs qui peuvent avoir une influence sur le résultat en répondant aux questions suivantes : <i>Sur le comportement de qui souhaitons-nous avoir un impact ? Qui peut produire l’effet attendu ? Qui peut nous aider à atteindre l’objectif ? Qui peut nous empêcher ou nous freiner dans l’atteinte de cet objectif ?</i></li><li><span class="emphasized">Les impacts (le comment ?)</span>: Le troisième de niveau de l’Impact Map se concentre sur les impacts souhaités sur les acteurs. Il s’agit alors de répondre aux questions suivantes : Comment pouvons-nous entraîner un changement de comportement parmi les acteurs ? <i>Comment peuvent-ils nous aider à atteindre notre objectif ? De quelle manière peuvent-ils nous empêcher ou nous freiner dans l’atteinte de cet objectif ?</i></li><li><span class="emphasized">Les livrables (le quoi ?)</span>: Le dernier niveau s’attache à déterminer le périmètre des fonctionnalités et des initiatives qui sont censées avoir un impact sur les éléments précédents. La question est alors la suivante : <i>Que pouvons-nous faire, en tant qu’organisation ou qu’équipe de développement, pour produire les impacts attendus ?</i></li></ol><img src="./imgs/UI_Examples/ImpactMapping/Impact_Mapping_Table_fr.png" alt="Impact Mapping" /><p>Impact Mapping brings a logical context to the delivery plan by connecting deliverables to impact and goals, which may be then crucial to reevaluate decisions and eventually reprioritize the roadmap. As it gives a relevant overview of strategic challenges, Impact Mapping can also be a great workshop to start with when using the <a target="blank_" class="text-link advanced-underline-over" href="https://draft.io/example/okr-framework"><span>OKR</span> <span>Framework</span></a> that addresses operational objectives in a more detailed way.</p>
 			</div>
 
 			<div class="tips-block">
-				<h2>Quelques conseils de <b>Jeff Patton</b> lui-même</h2>
+				<h2>Quelques conseils de Gojko Adzic pour faciliter l’atelier sans encombre</h2>
 
-				<p>En avril 2020, nous avons eu le plaisir d’échanger avec Jeff Patton pour comprendre plus finement sa propre conception du User Story Mapping. Il a pu préciser certains points et partager sa vision de l’exercice. Ainsi, pour Jeff Patton, le User Story Mapping :</p><ul><li>C’est comme la trame du scénario d’un film. Vous écrivez le scénario de vos utilisateurs qui vivent des péripéties à travers votre produit ;</li><li>C’est un outil de réflexion “vivant”. Après quelques mois, il ne faut pas hésiter à le modifier, voire même à le jeter, et recommencer à zéro ;</li><li>C’est par nature incomplet et imprécis. Il ne faut pas essayer d’être exhaustif et se perdre dans trop détail ;</li><li>C’est à la fois une représentation visuelle commune et un portail vers d’autres éléments du produit, ce qui caractérise la puissance et le succès de cet outil ;</li><li>C’est un artefact qui se construit naturellement, au fur et à mesure de l’atelier, et non qui possède une structure a priori.</li></ul>
-
-				<footer>
-					<img src="./imgs/UI_Examples/UserStoryMapping/portrait_Jeff_Patton.jpg" class="portrait" alt="Jeff Patton portrait">
-					<div class="author">
-						<span class="name">Jeff Patton</span>
-						<span class="status">
-							Auteur de "User Story Mapping: Discover the Whole Story, Build the Right Product"
-						</span>
-					</div>
-				</footer>
-			</div>
-
-			<div class="tips-block">
-				<h2>Quelques autres conseils de professionnels du Product Management</h2>
-
-				<p>Fatima-Zahra Hamil, Directrice Conseil et Formation Produit chez Wivoo, souligne deux étapes critiques préalables au bon déroulement d’une session de User Story Mapping :</p><ul><li>Affiner la vision afin que celle-ci reflète la compréhension des enjeux marché et des problèmes rencontrés par les utilisateurs ;</li><li>Poser explicitement les objectifs du projet (monétisation, audience, etc.). Ils vont avoir une grande influence sur le périmètre fonctionnel du MVP ;</li><li>Décrire précisément les <a class="text-link underline-over" href="https://draft.io/fr/example/persona">Personas</a>. C’est ce qui permet, ensuite, de facilement identifier les fonctionnalités qui vont réellement apporter de la valeur ajoutée aux utilisateurs.</li></ul><p>A l’issue d’un atelier de User Story Mapping abouti, vous devriez avoir à disposition tous les éléments nécessaires pour initier la construction de votre <a class="text-link advanced-underline-over" href="https://draft.io/fr/example/product-roadmap"><span>Product</span> <span>Roadmap</span></a>.</p>
+				<p>Basée sur une longue et riche expérience de facilitateur, Gojko Adzic a identifié un certain nombre d’écueils à éviter :</p><ul><li><span class="emphasized">Trop de participants</span>: C’est bien connu, de façon générale, plus il y a de participants à un atelier, plus il est difficile de l’animer. Gojko Adzic recommande de limiter le nombre de participants à 5 ou 6 maximum.</li><li><span class="emphasized">Ne pas impliquer les bonnes personnes</span>: L’atelier doit impliquer des experts techniques et des business owners seniors, qui ont un réel pouvoir de décision et dont l’avis compte et est respecté. Ne pas convier des profils suffisamment seniors peut s’avérer être une réelle perte de temps, les décisions prises devant être revues et potentiellement réévaluées par d’autres personnes.</li><li><span class="emphasized">Critiquer trop tôt</span>: Afin de favoriser l'émergence de propositions alternatives, Gojko Adzic conseille d’accorder suffisamment de temps à la phase divergente de l’atelier. Critiquer les propositions pouvant paraître extravagantes à première vue peut tuer le processus créatif dans l'œuf.</li><li><span class="emphasized">Post rationaliser une liste de fonctionnalités toute faite</span>: Il arrive que certains participants viennent en atelier avec une idée très précise et arrêtée des fonctionnalités à implémenter au cours des prochains mois. Pour contourner cet écueil, vous pouvez utiliser cette liste pour construire le squelette de l’Impact Map et, ensuite, amener les participants à réfléchir aux alternatives.</li><li><span class="emphasized">Se perdre dans les détails dès le début</span>: La méthode étant itérative et répétée à chaque cycle, il n’est pas nécessaire de détailler avec la même rigueur toutes les branches de l’Impact Map. Par ailleurs, pensez à vous concentrer avant tout sur les acteurs et les impacts attendus, les livrables n’étant que la résultant dynamique des premiers. </li></ul>
 
 				<footer>
-					<img src="./imgs/UI_Examples/UserStoryMapping/portrait_Fatima-Zahra_Hamil.jpg" class="portrait" alt="Fatima-Zahra Hamil portrait">
+					<img src="./imgs/UI_Examples/ImpactMapping/portrait_Gojko_Adzic.jpg" class="portrait" alt="Gojko Adzic portrait">
 					<div class="author">
-						<span class="name">Fatima-Zahra Hamil</span>
+						<span class="name">Gojko Adzic</span>
 						<span class="status">
-							Directrice Conseil et Formation Produit chez Wivoo
+							Consultant en développement logiciel et auteur de nombreux ouvrages sur l’Impact Mapping, la Specification by example, le Behavior Driven Development, le Test Driven Development et l’Agile Testing (<a target="blank_" class="text-link underline-over" href="https://gojko.net/">gojko.net</a>)
 						</span>
 					</div>
 				</footer>
@@ -253,9 +240,9 @@ END -->
 
 			<div class="resources-block">
 				<i class="fas fa-bookmark deco"></i>
-				<h2>Suggestions de ressources pour devenir un expert du User Story Mapping</h2>
+				<h2>Suggestions de ressources pour mener à l'atelier avec succès</h2>
 				<ul class="resources-list">
-					<li><i class="fas fa-external-link-alt"></i>Pour les anglophones, le site de Jeff Pathon : <a target="blank_" class="text-link light underline" href="https://www.jpattonassociates.com/user-story-mapping/">jpattonassociates.com/user-story-mapping/</a></li><li><i class="far fa-bookmark"></i>Le blog de Judicaël Paquet, Coach Agile, et son billet : <a target="blank_" class="text-link light underline" href="https://blog.myagilepartner.fr/index.php/2017/07/29/story-mapping/">User Story Mapping - Example/</a></li><li><i class="far fa-bookmark"></i>Le blog de Martial Segura, Coach Agile, et son article : <a target="blank_" class="text-link light underline" href="https://www.oeildecoach.com/creer-1er-user-story-mapping/">Comment créer votre 1er User Story Mapping ?/</a></li><li><i class="far fa-play-circle"></i>Scrum Life, la chaîne YouTube de Jean-Pierre Lambert, Coach Agile, avec la vidéo <a target="blank_" class="text-link light underline" href="https://www.youtube.com/watch?v=dvnU_R0mu98">Le storytelling au service du backlog : le User Story Mapping/</a></li>
+					<li><i class="fas fa-external-link-alt"></i>Le site web officiel d’introduction à la méthode : <a target="blank_" class="text-link light underline" href="https://www.impactmapping.org/">impactmapping.org</a>.</li><li><i class="far fa-play-circle"></i>Une vidéo d’introduction de Judicaël Paquet sur la chaîne La Minute Agile : <a target="blank_" class="text-link light underline" href="https://hubvisory.com/blog/comment-organiser-des-ateliers-d-impact-mapping/">Comment organiser des ateliers d'Impact Mapping ?</a></li><li><i class="far fa-bookmark"></i>Une très bonne synthèse tirée du blog d’Hubvisory : <a target="blank_" class="text-link light underline" href="https://hubvisory.com/blog/comment-organiser-des-ateliers-d-impact-mapping/">Comment organiser des ateliers d'Impact Mapping ?</a></li>
 				</ul>
 			</div>
 
