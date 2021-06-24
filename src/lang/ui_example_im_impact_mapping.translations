@@ -42,7 +42,7 @@ ex_im
 		<img src="./imgs/UI_Examples/ImpactMapping/Impact_Mapping_Table_en.png" alt="Impact Mapping" />
 
 		<p>
-			Impact Mapping brings a logical context to the delivery plan by connecting deliverables to impact and goals, which may be then crucial to reevaluate decisions and eventually reprioritize the roadmap. As it gives a relevant overview of strategic challenges, Impact Mapping can also be a great workshop to start with when using the <a target="blank_" class="text-link advanced-underline-over" href="https://draft.io/example/okr-framework"><span>OKR</span> <span>Framework</span></a> that addresses operational objectives in a more detailed way.
+			Impact Mapping brings a logical context to the delivery plan by connecting deliverables to impact and goals, which may be then crucial to reevaluate decisions and eventually reprioritize the roadmap. As it gives a relevant overview of strategic challenges, Impact Mapping can also be a great workshop to start with when using the <a target="blank_" class="text-link advanced-underline-over" href="https://draft.io/fr/example/okr-framework"><span>OKR</span> <span>Framework</span></a> that addresses operational objectives in a more detailed way.
 		</p>
 		---
 		<h2>Qu’est-ce que l’Impact Mapping ?</h2>
@@ -50,7 +50,7 @@ ex_im
 			L’Impact Mapping est une méthode de planification stratégique qui aide à établir et à visualiser les relations de causalité entre un objectif, les acteurs impliqués, les impacts attendus sur ces différents acteurs, et les livrables ou les initiatives qui vont mener les acteurs à avoir un impact. Cet atelier a été imaginé par Gojko Adzic, un auteur très influent dans la communauté Agile, dans le but de favoriser la collaboration et les interactions dans la réflexion stratégique, notamment entre business owners et représentants des équipes de développement. 
 		</p>
 		<p>
-			Plus particulièrement, l’Impact Mapping encourage les équipes à définir les hypothèses sur lesquelles se base leur plan stratégique, leur offrant l’opportunité de challenger à la fois leurs objectifs et leurs contraintes. Au même titre que le <a target="blank_" class="text-link advanced-underline-over" href="https://draft.io/example/mind-mapping"><span>Mind</span> <span>Mapping</span></a>, l’aspect visuel de la méthode facilite l’émergence d’une compréhension commune du problème tout en permettant une certaine prise de recul.
+			Plus particulièrement, l’Impact Mapping encourage les équipes à définir les hypothèses sur lesquelles se base leur plan stratégique, leur offrant l’opportunité de challenger à la fois leurs objectifs et leurs contraintes. Au même titre que le <a target="blank_" class="text-link advanced-underline-over" href="https://draft.io/fr/example/mind-mapping"><span>Mind</span> <span>Mapping</span></a>, l’aspect visuel de la méthode facilite l’émergence d’une compréhension commune du problème tout en permettant une certaine prise de recul.
 		</p>
 		<p>
 			L’Impact Mapping s’inscrit dans un horizon de décision à moyen-terme et s’avère être un outil judicieux dans la mise en œuvre de la Build-Measure-Learn Feedback Loop de la méthode The Lean Startup. Mené à  l’issue de chaque cycle, cet atelier permet de mesurer le progrès réalisé et de valider ou invalider les hypothèses passées, amenant à explorer plus en détail certaines branches de l’Impact Map ou, au contraire, à en abandonner.
@@ -77,7 +77,7 @@ ex_im
 		<img src="./imgs/UI_Examples/ImpactMapping/Impact_Mapping_Table_fr.png" alt="Impact Mapping" />
 
 		<p>
-			Impact Mapping brings a logical context to the delivery plan by connecting deliverables to impact and goals, which may be then crucial to reevaluate decisions and eventually reprioritize the roadmap. As it gives a relevant overview of strategic challenges, Impact Mapping can also be a great workshop to start with when using the <a target="blank_" class="text-link advanced-underline-over" href="https://draft.io/example/okr-framework"><span>OKR</span> <span>Framework</span></a> that addresses operational objectives in a more detailed way.
+			En mettant en relation les livrables, les impacts et les objectifs, l’Impact Mapping apporte au plan stratégique un contexte logique essentiel pour, par la suite, réévaluer judicieusement certaines décisions et éventuellement redéfinir la roadmap. Cet atelier apporte une vue d’ensemble pertinente des problématiques stratégiques et, de ce fait, s’avère être un complément idéal du <a target="blank_" class="text-link advanced-underline-over" href="https://draft.io/example/okr-framework"><span>OKR</span> <span>Framework</span></a> qui, de son côté, traite les objectifs opérationnels d’une façon plus détaillée. 
 		</p>
 		------
 	tipsBlock1

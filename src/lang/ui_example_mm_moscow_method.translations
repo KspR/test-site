@@ -14,23 +14,23 @@ ex_mm
 		---
 		<h2>Qu’est-ce que la méthode MoSCoW ?</h2>
 		<p>
-			Imaginée par Dai Clegg, consultant chez Oracle, en 1994, la Méthode MoSCoW est un outil de Product Management qui vise à aider les équipes de développement à prioriser leur backlog produit. Au même titre que le <a target="blank_" class="text-link advanced-underline-over" href="https://draft.io/example/okr-framework"><span>User</span> <span>Story</span> <span>Mapping</span></a>, cet exercice offre un cadre de réflexion pour déterminer les différentes versions cible d’un même produit en fonction de l'importance des besoins utilisateurs visés et des contraintes techniques endogènes (sécurité, fiabilité, etc.) ou exogènes (réglementation, dépendances avec le reste de l’organisation, etc.) de l’équipe.  
+			Imaginée par Dai Clegg, consultant chez Oracle, en 1994, la Méthode MoSCoW est un outil de Product Management qui vise à aider les équipes de développement à prioriser leur backlog produit. Au même titre que le <a target="blank_" class="text-link advanced-underline-over" href="https://draft.io/fr/example/user-story-mapping"><span>User</span> <span>Story</span> <span>Mapping</span></a>, cet exercice offre un cadre de réflexion pour déterminer les différentes versions cible d’un même produit en fonction de l'importance des besoins utilisateurs visés et des contraintes techniques endogènes (sécurité, fiabilité, etc.) ou exogènes (réglementation, dépendances avec le reste de l’organisation, etc.) de l’équipe.  
 		</p>
 		<p>
 			Simple à mettre en place et particulièrement utile pour piloter un projet limité par le temps et/ou les ressources, la Méthode MoSCoW invite les équipes de développement à classer le champ des fonctionnalités possibles par ordre d’importance, selon 4 degrés de priorité :
 		</p>
 		<ul>
 			<li>
-				<span class="emphasized">M</span> pour Must have this : Les fonctionnalités fondamentales nécessaires à la satisfaction des attentes des utilisateurs et/ou des contraintes indépassables en matière de sécurité ou de fiabilité produit. 
+				<span class="emphasized">M pour Must have this</span> : Les fonctionnalités fondamentales nécessaires à la satisfaction des attentes des utilisateurs et/ou des contraintes indépassables en matière de sécurité ou de fiabilité produit. 
 			</li>
 			<li>
-				<span class="emphasized">S</span> pour Should have this if at all possible : Les fonctionnalités nécessaires à la différenciation du produit par rapport aux concurrents. Elles apportent une valeur certaine aux utilisateurs mais sont cependant moins essentielles que les fonctionnalités précédentes et, par conséquent, moins urgentes à implémenter.
+				<span class="emphasized">S pour Should have this if at all possible</span> : Les fonctionnalités nécessaires à la différenciation du produit par rapport aux concurrents. Elles apportent une valeur certaine aux utilisateurs mais sont cependant moins essentielles que les fonctionnalités précédentes et, par conséquent, moins urgentes à implémenter.
 			</li>
 			<li>
-				<span class="emphasized">C</span> pour Could have this if it does not affect anything else : Le développement de ces fonctionnalités peut représenter un vrai plus dans le succès commercial du produit. Si l’équipe a le temps de les implémenter sans que cela n’affecte la réalisation des fonctionnalités plus essentielles, elles sont à faire. En revanche, si le projet accuse déjà un certain retard, ce sont des fonctionnalités qui peuvent être sacrifiées pour assurer une livraison en temps et en heure d’une version produit moins étoffée.
+				<span class="emphasized">C pour Could have this if it does not affect anything else</span> : Le développement de ces fonctionnalités peut représenter un vrai plus dans le succès commercial du produit. Si l’équipe a le temps de les implémenter sans que cela n’affecte la réalisation des fonctionnalités plus essentielles, elles sont à faire. En revanche, si le projet accuse déjà un certain retard, ce sont des fonctionnalités qui peuvent être sacrifiées pour assurer une livraison en temps et en heure d’une version produit moins étoffée.
 			</li>
 			<li>
-				<span class="emphasized">W</span> pour Would like but won’t get this time : Ce sont des fonctionnalités qui n’ont que très peu de chances d’être réalisées à moyen terme. Elles sont les dernières par ordre d’importance et mises de côté pour le moment. Si la situation évolue, ces fonctionnalités pourront éventuellement remonter dans l’ordre des priorités. 
+				<span class="emphasized">W pour Would like but won’t get this time</span> : Ce sont des fonctionnalités qui n’ont que très peu de chances d’être réalisées à moyen terme. Elles sont les dernières par ordre d’importance et mises de côté pour le moment. Si la situation évolue, ces fonctionnalités pourront éventuellement remonter dans l’ordre des priorités. 
 			</li>
 		</ul>
 		<h2>Comment utiliser la Méthode MoSCoW en atelier ?</h2>
