@@ -88,7 +88,7 @@ ex_em
 		<p>Comme l’Empathy Map demande de mobiliser ce qu’on appelle son « intelligence émotionnelle », il s’avère utile, si besoin, de s’appuyer sur les différents outils aidant à nommer précisément les émotions. À titre informatif, le psychologue et anthropologue Paul Ekman a identifié 6 émotions universelles dans les années 70 (tristesse, joie, colère, peur, dégoût et surprise) avant de compléter sa liste par 10 émotions supplémentaires dans les années 90 : amusement, satisfaction, gêne, excitation, culpabilité, fierté dans la réussite, soulagement, plaisir sensoriel, honte et mépris. Vous pouvez également utiliser la très célèbre roue des émotions de Robert Plutchick.</p>
 
 
-		<img src="./imgs/UI_Examples/EmpathyMap/roue_des_emotions_fr.png" style="margin: 20px auto 40px auto;max-width: 540px;display: block;" alt="Roue des émotions de Robert Plutchik." />
+		<img src="./imgs/UI_Examples/EmpathyMap/roue_des_emotions_fr.png" style="margin: 20px auto 40px auto;max-width: 480px;display: block;" alt="Roue des émotions de Robert Plutchik." />
 		<p style="text-align: center;font-style: italic;font-size: 1em;margin-top:-2em;">Roue des émotions de Robert Plutchik.</p><br>
 		
 		<p>L’Empathy Map repose sur la collaboration : chacun exprime ses idées et celles-ci sont ensuite examinées collectivement. Lors de cette dernière étape, vous ne devez garder que les idées qui reviennent le plus souvent.</p>
