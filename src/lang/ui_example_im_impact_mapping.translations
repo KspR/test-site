@@ -39,7 +39,7 @@ ex_im
 			</li>
 		</ol>
 
-		<img src="./imgs/UI_Examples/ImpactMapping/Impact_Mapping_Table_en.png" alt="Impact Mapping" />
+		<img src="./imgs/UI_Examples/ImpactMapping/Impact_Mapping_Table_en.png" style="margin: 20px auto 40px auto;max-width: 540px;display: block;" alt="Impact Mapping" />
 
 		<p>
 			Impact Mapping brings a logical context to the delivery plan by connecting deliverables to impact and goals, which may be then crucial to reevaluate decisions and eventually reprioritize the roadmap. As it gives a relevant overview of strategic challenges, Impact Mapping can also be a great workshop to start with when using the <a target="blank_" class="text-link advanced-underline-over" href="https://draft.io/fr/example/okr-framework"><span>OKR</span> <span>Framework</span></a> that addresses operational objectives in a more detailed way.
@@ -74,7 +74,7 @@ ex_im
 			</li>
 		</ol>
 
-		<img src="./imgs/UI_Examples/ImpactMapping/Impact_Mapping_Table_fr.png" alt="Impact Mapping" />
+		<img src="./imgs/UI_Examples/ImpactMapping/Impact_Mapping_Table_fr.png" style="margin: 20px auto 40px auto;max-width: 540px;display: block;" alt="Impact Mapping" />
 
 		<p>
 			En mettant en relation les livrables, les impacts et les objectifs, l’Impact Mapping apporte au plan stratégique un contexte logique essentiel pour, par la suite, réévaluer judicieusement certaines décisions et éventuellement redéfinir la roadmap. Cet atelier apporte une vue d’ensemble pertinente des problématiques stratégiques et, de ce fait, s’avère être un complément idéal du <a target="blank_" class="text-link advanced-underline-over" href="https://draft.io/fr/example/okr-framework"><span>Framework</span> <span>OKR</span></a> qui, de son côté, traite les objectifs opérationnels d’une façon plus détaillée.
@@ -96,9 +96,6 @@ ex_im
 			</li>
 			<li>
 				<span class="emphasized">Criticizing too early</span>: Gojko Adzic encourages to let room for ideation and divergent thinking during the first phase of the workshop. Criticizing too early can kill the discussion before anyone has come up with interesting alternatives.
-			</li>
-			<li>
-				<span class="emphasized">One big group</span>:
 			</li>
 			<li>
 				<span class="emphasized">Reverse-engineering an entire shopping list</span>: Some participants can start an Impact Mapping workshop with a pretty clear list of features to implement to try to influence the group to lead it to their favorite features. As a workaround, you could use the list to draw the map skeleton and then push people to think about alternatives.
