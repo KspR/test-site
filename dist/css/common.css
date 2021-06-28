@@ -4660,6 +4660,9 @@ body {
   .workflow .bloc-features .features .feature:nth-child(2n) {
     background-color: #474747; }
 
+.workflow.visual-management .illu {
+  background-image: url("../imgs/UI_Landing/visual-management.png"); }
+
 .home, .workflow {
   -webkit-font-smoothing: antialiased; }
   .home .bloc-features, .workflow .bloc-features {
