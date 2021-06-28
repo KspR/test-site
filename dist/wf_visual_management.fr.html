@@ -1,0 +1,409 @@
+<!-- PRODONLY
+<% @workflow = 'visual-management' %>
+END -->
+	<html lang="fr">
+		<head>
+			<!-- PRODONLY
+<% if JSON_CONFIG["google-tag-manager"] %>
+	<%= render "partials/google_tag_manager_head" %>
+<% end %>
+END -->
+
+			<title>Draft pour le Management Visuel</title>
+			<meta name="description" content="Gérez visuellement vos processus de production afin de mieux appréhender les flux et lever précocement les obstacles." />
+			
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			
+			<!-- BEGINCSS -->
+<link href="css/common.css" rel="stylesheet">
+<link href="css/colors.css" rel="stylesheet">
+<link href="css/portal-desktop.css" rel="stylesheet">
+<link href="css/portal-mobile.css" rel="stylesheet">
+<link href="css/DDS_draft-design-system.css" rel="stylesheet">
+<link href="css/ui_enterprise.css" rel="stylesheet">
+<link href="css/ui_pricing.css" rel="stylesheet">
+<link href="css/ui_example.css" rel="stylesheet">
+<link href="css/ui_customer-story.css" rel="stylesheet">
+<link href="css/ui_customer-stories.css" rel="stylesheet">
+<link href="css/ui_onboarding.css" rel="stylesheet">
+
+<link href="css/TEST_ONLY_ui_sommaire.css" rel="stylesheet">
+
+<!-- ENDCSS -->
+
+			<link rel="icon" href="/favicon.png?v=5" />
+
+			<!-- PRODONLY
+			<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/fr/<%= @workflow %>" 
+				hreflang="x-default" />
+			<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/<%= @workflow %>" 
+			  hreflang="en-GB" />
+			<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/<%= @workflow %>" 
+			  hreflang="en-US" />
+			<link rel="alternate" href="<%= JSON_CONFIG['host'] %>/fr/<%= @workflow %>" 
+				hreflang="fr-FR" />
+			<% if @lang.code == 'en' %>
+				<link rel="canonical" href="<%= JSON_CONFIG['host'] %>/<%= @workflow %>">
+			<% else %>
+				<link rel="canonical" href="<%= JSON_CONFIG['host'] %>/fr/<%= @workflow %>">
+			<% end %>
+			END -->
+
+		</head>
+		<body class="has-header workflow visual-management">
+			<!-- PRODONLY
+<% if JSON_CONFIG["google-tag-manager"] %>
+	<%= render "partials/google_tag_manager_body" %>
+<% end %>
+END -->
+			<div id="top-of-site-pixel-anchor"></div>
+
+<header class="main-header">
+	<input type="checkbox" id="btnBurgerMenu" name="burger-menu-visibility">
+	<label for="btnBurgerMenu" class="burger-btn">
+		<span class="wrapper">
+			<span class="deco-btn-burger"></span>
+			<span class="deco-btn-burger"></span>
+			<span class="deco-btn-burger"></span>
+		</span>
+	</label>
+	<nav class="nav">
+		<a class="logo text-link" href="/fr/"><img src="./imgs/logo-diag-orange-plus-text.png" alt="Logo Draft"></a>
+		<ul>
+			<li>
+				<div class="toggle-wrapper text-link">
+					<div class="toggle">
+						<!-- Workflows <i class="fas fa-chevron-down"></i> -->
+						<span class="selected">Workflows <i class="fas fa-chevron-down"></i></span>
+						<span class="neutral">Workflows <i class="fas fa-chevron-down"></i></span>
+					</div>
+					<ul class="menu">
+						<li><a class="text-link" href="/fr/agile-project-management">Gestion de projet Agile</a></li>
+						<li><a class="text-link" href="/fr/agility-at-scale">Agilité à l'échelle</a></li>
+						<li><a class="text-link" href="/fr/product-management">Product Management</a></li>
+						<li><a class="text-link" href="/fr/everyday-creative-work">Travail créatif quotidien</a></li>
+					</ul>
+				</div>
+			</li>
+			<li class="page-enterprise-li"><a class="text-link" href="/fr/enterprise">
+				<!-- Entreprise -->
+				<span class="selected">Entreprise</span>
+				<span class="neutral">Entreprise</span>
+			</a></li>
+			<li class="page-customer-stories-li"><a class="text-link" href="/fr/customer-stories">
+				<!-- Customer stories -->
+				<span class="selected">Customer stories</span>
+				<span class="neutral">Customer stories</span>
+			</a></li>
+			<li class="page-examples-li"><a class="text-link" href="/fr/examples">
+				<!-- Exemples -->
+				<span class="selected">Exemples</span>
+				<span class="neutral">Exemples</span>
+			</a></li>
+			<li class="page-pricing-li"><a class="text-link" href="/fr/pricing">
+				<!-- Offres -->
+				<span class="selected">Offres</span>
+				<span class="neutral">Offres</span>
+			</a></li>
+			<li class="login"><a class="text-link" href="/fr/login">
+				<!-- Se connecter -->
+				<span class="selected">Se connecter</span>
+				<span class="neutral">Se connecter</span>
+
+			</a></li>
+			<li class="signup"><a class="cta" href="/fr/get-started">
+				<!-- S'inscrire -->
+				<span class="selected">S'inscrire</span>
+				<span class="neutral">S'inscrire</span>
+			</a></li>
+		</ul>
+
+		<!-- <a class="fav" href="/">d</a> -->
+		<!-- <a class="fav-sheet" href="/">d</a> -->
+	</ul>
+</header>
+
+<script>
+	document.ontouchstart = function (e) {
+		e.stopPropagation();
+	}
+</script>
+
+			<div class="bloc-landing">
+				<div class="wrapper">
+					<div class="punchline">Draft pour<br /><span>le management visuel</span></div>
+					<div class="if-not-1080"><div class="illu"></div></div>
+					<div class="baseline">Construisez des systèmes de management visuel complexes et totalement customisés sans devoir écrire une seule ligne de code.</div>
+					<!-- <div class="baseline">Draft est la façon la plus simple et économique de digitaliser vos murs de management visuel.</div> -->
+				</div>
+				<div class="if-1080"><div class="illu"></div></div>
+			</div>
+
+			<div class="ucs">
+					<div class="uc uc-obeya-room">
+							<div class="top-left-corner"><div class="circle"></div></div>
+
+						<div class="wrapper">
+							<div class="if-1080">
+								<div class="text-container">
+									<div class="visual-artifact"></div>
+									<div class="text-wrapper">
+										<div class="title">Salle Obeya Virtuelle</div>
+										<div class="text">Créez des salles Obeya virtuelles sur-mesure pour contrôler tout votre processus de production depuis le même espace.</div>
+										<div class="if-1080">
+												<a class="text-link" href="example/virtual-obeya-room">
+												Découvrez cet exemple <i class="fas fa-long-arrow-alt-right"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="screenshot-wrapper">
+									<div class="screenshot"></div>
+								</div>
+							</div>
+							<div class="if-not-1080">
+								<div class="screenshot"></div>
+								<div class="text-container">
+									<div class="visual-artifact"></div>
+									<div class="text-wrapper">
+										<div class="title">Salle Obeya Virtuelle</div>
+										<div class="text">Créez des salles Obeya virtuelles sur-mesure pour contrôler tout votre processus de production depuis le même espace.</div>
+										<div class="if-1080">
+												<a href="/fr/example/virtual-obeya-room">
+												Découvrez cet exemple →
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="uc uc-twelve-month">
+
+						<div class="wrapper">
+							<div class="if-1080">
+								<div class="text-container">
+									<div class="visual-artifact"></div>
+									<div class="text-wrapper">
+										<div class="title">Plan Stratégique</div>
+										<div class="text">Projetez le futur de votre organisation et mobilisez les parties prenantes en construisant des roadmaps convaincantes et multiniveaux.</div>
+										<div class="if-1080">
+												<a class="text-link" href="example/twelve-month-roadmap">
+												Découvrez cet exemple <i class="fas fa-long-arrow-alt-right"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="screenshot-wrapper">
+									<div class="screenshot"></div>
+								</div>
+							</div>
+							<div class="if-not-1080">
+								<div class="screenshot"></div>
+								<div class="text-container">
+									<div class="visual-artifact"></div>
+									<div class="text-wrapper">
+										<div class="title">Plan Stratégique</div>
+										<div class="text">Projetez le futur de votre organisation et mobilisez les parties prenantes en construisant des roadmaps convaincantes et multiniveaux.</div>
+										<div class="if-1080">
+												<a href="/fr/example/twelve-month-roadmap">
+												Découvrez cet exemple →
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="uc uc-gantt-chart">
+
+						<div class="wrapper">
+							<div class="if-1080">
+								<div class="text-container">
+									<div class="visual-artifact"></div>
+									<div class="text-wrapper">
+										<div class="title">Diagramme de Gantt</div>
+										<div class="text">Identifiez les risques et anticipez les éventuelles causes de retards de votre projet en cartographiant l&#x27;enchaînement et le lien entre les tâches qui le composent.</div>
+										<div class="if-1080">
+												<a class="text-link" href="example/gantt-chart">
+												Découvrez cet exemple <i class="fas fa-long-arrow-alt-right"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="screenshot-wrapper">
+									<div class="screenshot"></div>
+								</div>
+							</div>
+							<div class="if-not-1080">
+								<div class="screenshot"></div>
+								<div class="text-container">
+									<div class="visual-artifact"></div>
+									<div class="text-wrapper">
+										<div class="title">Diagramme de Gantt</div>
+										<div class="text">Identifiez les risques et anticipez les éventuelles causes de retards de votre projet en cartographiant l&#x27;enchaînement et le lien entre les tâches qui le composent.</div>
+										<div class="if-1080">
+												<a href="/fr/example/gantt-chart">
+												Découvrez cet exemple →
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="uc uc-scheduling">
+
+						<div class="wrapper">
+							<div class="if-1080">
+								<div class="text-container">
+									<div class="visual-artifact"></div>
+									<div class="text-wrapper">
+										<div class="title">Ordonnancement</div>
+										<div class="text">Allouez vos ressources de façon optimale et optimisez la productivité de vos processus en représentant la charge de travail à travers toute votre unité de production.</div>
+										<div class="if-1080">
+												<a class="text-link" href="example/scheduling">
+												Découvrez cet exemple <i class="fas fa-long-arrow-alt-right"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="screenshot-wrapper">
+									<div class="screenshot"></div>
+								</div>
+							</div>
+							<div class="if-not-1080">
+								<div class="screenshot"></div>
+								<div class="text-container">
+									<div class="visual-artifact"></div>
+									<div class="text-wrapper">
+										<div class="title">Ordonnancement</div>
+										<div class="text">Allouez vos ressources de façon optimale et optimisez la productivité de vos processus en représentant la charge de travail à travers toute votre unité de production.</div>
+										<div class="if-1080">
+												<a href="/fr/example/scheduling">
+												Découvrez cet exemple →
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+			</div>
+
+			<div class="section bloc-features">
+				<div class="title">Un véritable outil no-code pour construire votre management visuel</div>
+
+				<div class="features">
+						<div class="feature story-card">
+							<div class="illu"></div>
+							<div class="label">Cartes de <span>management visuel</span></div>
+							<div class="detail">Ces cartes peuvent contenir une multitude d’informations utiles (id, statut, complexité, pastille, lien, etc.).</div>
+						</div>
+						<div class="feature simple-navigation">
+							<div class="illu"></div>
+							<div class="label">Un système de navigation ergonomique</div>
+							<div class="detail">Le système de fichiers à la Google Drive couplé au système d’onglets vous facilitent l’accès à toute information utile, à tout moment.</div>
+						</div>
+						<div class="feature unified-living-environment">
+							<div class="illu"></div>
+							<div class="label">Un environnement unifié et évolutif</div>
+							<div class="detail">Draft forme un univers unifié et évolutif au sein duquel vos projets peuvent prendre forme au fur et à mesure.</div>
+						</div>
+						<div class="feature right-level-of-focus">
+							<div class="illu"></div>
+							<div class="label">Toujours le bon niveau de détail</div>
+							<div class="detail">Fragmentez et associez différents types et niveaux d’information afin d’éclaircir votre réflexion et aider vos prises de décision.</div>
+						</div>
+				</div>
+			</div>
+
+			<div class="bloc-last">
+	<div class="left-visual">
+		<div class="rotated-square"></div>
+	</div>
+	<div class="title">Démarrez dès aujourd’hui</div>
+	<form class="signup-bloc" action="/fr/get-started">
+	<div class="form-wrapper">
+		<input placeHolder="Entrez votre email" name="pre_email"></input>
+		<button class="submit-wrapper" type="submit" class="register cta" value="S'inscrire">
+			<div class="triangle"></div>
+			<!-- <span class="picto anim-1"><img src="imgs/UI_Landing/hot-air-balloon2.svg" alt="picto hot air balloon"></span> -->
+			S'inscrire
+		</button>
+	</div>
+	<div class="if-1080">
+		<div class="detail">Notre plan gratuit est illimité dans le temps et vous donne accès à toutes les fonctionnalités du <a href="/fr/pricing">plan Pro</a>.</div>
+	</div>
+	<div class="if-not-1080">
+		<div class="detail">Notre plan gratuit est illimité dans le temps<br />et vous donne accès à toutes les fonctionnalités du <a href="/fr/pricing">plan Pro</a>.</div>
+	</div>
+</form>
+	<!-- <a class="cta-border cta-border-darkblue" style="margin-left:40px;" href="/agile_project_management">Discover how Scrum Masters use Draft</a> -->
+</div>
+			<div class="footer">
+	<div class="footer-wrapper">
+		<div class="bloc bloc-plan">
+			<div class="title">Produit</div>
+			<a href="/fr/">Accueil</a>
+			<a href="/fr/agile-project-management">Draft pour la gestion de projet Agile</a>
+			<a href="/fr/agility-at-scale">Draft pour l'Agilité à l'échelle</a>
+			<a href="/fr/product-management">Draft pour le Product Management</a>
+			<a href="/fr/everyday-creative-work">Draft pour le travail créatif quotidien</a>
+			<a href="/fr/examples">Exemples</a>
+			<a href="/fr/login">Se connecter</a>
+			<a href="/fr/get-started">S'inscrire</a>
+		</div>
+
+		<div class="bloc bloc-resources">
+			<div class="title">Client</div>
+			<a href="/fr/enterprise">Entreprise</a>
+			<a href="/fr/customer-stories">Customer stories</a>
+			<a href="/fr/pricing">Offres</a>
+		</div>
+
+		<div class="bloc bloc-resources">
+			<div class="title">Ressources</div>
+			<a href="https://www.notion.so/Draft-Centre-d-aide-9d71340d5914419387182628569d83e9" target="_blank">Centre d'aide</a>
+			<a href="https://draft.io/assets/2020 10 27 Terms and conditions - Draft SAS.pdf"
+				target="_blank">Termes</a>
+			<a href="https://draft.io/assets/2020 10 27 Privacy Policy - Draft SAS.pdf" target="_blank">Sécurité et confidentialité</a>
+			<a href="javascript:openAxeptioCookies()">Cookies</a>
+			<a href="mailto:hi@draft.io">Contactez-nous</a>
+
+			<div class="language-bloc">
+				<div class="bloc-title">Langue</div>
+				<div class="menu-wrapper">
+					<div class="toggle-wrapper">
+						<div class="toggle">Française</div>
+						<i class="fas fa-chevron-down"></i>
+					</div>
+					<div class="menu">
+						<a
+							href="<%= @fr_url %>">Français</a>
+						<a
+							href="<%= @en_url %>">English</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="socials">
+			<a href="/" class="logo"></a>
+			<a href="https://linkedin.com/company/draft-io" class="linkedin" target="_blank"></a>
+		</div>
+
+		<div class="copyright">
+			© 2019 - 2021 • Draft SAS
+		</div>
+	</div>
+
+
+	<div class="oblique">
+		<div class="rotated-square"></div>
+	</div>
+</div>
+
+<script src="https://kit.fontawesome.com/6b4515f4ac.js" crossorigin="anonymous"></script>
+		</body>
+	</html>

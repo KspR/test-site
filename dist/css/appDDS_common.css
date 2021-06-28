@@ -1,67 +1,47 @@
 @font-face {
   font-family: regular;
-  src: url("../fonts/Futura/Futura_Book.ttf");
-}
-
+  src: url("../fonts/Futura/Futura_Book.ttf"); }
 @font-face {
   font-family: semibold;
-  src: url("../fonts/Futura/Futura_Std_Book.ttf");
-}
-
+  src: url("../fonts/Futura/Futura_Std_Book.ttf"); }
 @font-face {
   font-family: bold;
-  src: url("../fonts/Futura/Futura_Std_Heavy.ttf");
-}
-
+  src: url("../fonts/Futura/Futura_Std_Heavy.ttf"); }
 @font-face {
-  font-family: 'Futura';
+  font-family: "Futura";
   font-weight: normal;
   src: url("../fonts/Futura/FuturaStd-Medium.eot");
-  src: url("../fonts/Futura/FuturaStd-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Futura/FuturaStd-Medium.ttf") format("truetype"), url("../fonts/Futura/FuturaStd-Medium.svg#FuturaStd-Medium") format("svg");
-}
-
+  src: url("../fonts/Futura/FuturaStd-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Futura/FuturaStd-Medium.ttf") format("truetype"), url("../fonts/Futura/FuturaStd-Medium.svg#FuturaStd-Medium") format("svg"); }
 @font-face {
-  font-family: 'Futura';
+  font-family: "Futura";
   font-weight: 300;
   src: url("../fonts/Futura/FuturaStd-Light.eot");
-  src: url("../fonts/Futura/FuturaStd-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Futura/FuturaStd-Light.ttf") format("truetype"), url("../fonts/Futura/FuturaStd-Light.svg#FuturaStd-Light") format("svg");
-}
-
+  src: url("../fonts/Futura/FuturaStd-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Futura/FuturaStd-Light.ttf") format("truetype"), url("../fonts/Futura/FuturaStd-Light.svg#FuturaStd-Light") format("svg"); }
 @font-face {
-  font-family: 'Futura';
+  font-family: "Futura";
   font-weight: 600;
   src: url("../fonts/Futura/FuturaStd-Medium.eot");
-  src: url("../fonts/Futura/FuturaStd-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Futura/FuturaStd-Medium.ttf") format("truetype"), url("../fonts/Futura/FuturaStd-Medium.svg#FuturaStd-Medium") format("svg");
-}
-
+  src: url("../fonts/Futura/FuturaStd-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Futura/FuturaStd-Medium.ttf") format("truetype"), url("../fonts/Futura/FuturaStd-Medium.svg#FuturaStd-Medium") format("svg"); }
 /* The 'bold' version of Futura is bolder than the Heavy version... strange and not enjoyable... So replaced by the heavy below */
 @font-face {
-  font-family: 'Futura';
+  font-family: "Futura";
   font-weight: 700;
-  src: url("../fonts/Futura/Futura-Heavy.ttf");
-}
-
+  src: url("../fonts/Futura/Futura-Heavy.ttf"); }
 body.app_DDS_styles {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 100%;
-}
+  height: 100%; }
 
 body.app_DDS_styles * {
   box-sizing: border-box;
-  font-family: 'Futura';
-  font-weight: normal;
-}
+  font-family: "Futura";
+  font-weight: normal; }
 
 .app_DDS_styles .text-link {
-  color: rgba(255, 255, 255, 0.8);
-}
-
-.app_DDS_styles .text-link:hover {
-  color: white;
-}
-
+  color: rgba(255, 255, 255, 0.8); }
+  .app_DDS_styles .text-link:hover {
+    color: white; }
 .app_DDS_styles .dark-input, .app_DDS_styles .dark-textarea {
   border-radius: 3px;
   border: 1px solid rgba(255, 255, 255, 0.15);
@@ -69,89 +49,61 @@ body.app_DDS_styles * {
   font-size: 1rem;
   color: rgba(255, 255, 255, 0.85);
   padding: 8px 14px;
-  transition: background .1s;
-}
-
-.app_DDS_styles .dark-input:hover, .app_DDS_styles .dark-textarea:hover {
-  background: rgba(255, 255, 255, 0.1);
-}
-
-.app_DDS_styles .dark-input::placeholder, .app_DDS_styles .dark-textarea::placeholder {
-  font-style: italic;
-  color: rgba(255, 255, 255, 0.35);
-}
-
-.app_DDS_styles .dark-input:focus, .app_DDS_styles .dark-textarea:focus {
-  outline: none;
-}
-
+  transition: background 0.1s; }
+  .app_DDS_styles .dark-input:hover, .app_DDS_styles .dark-textarea:hover {
+    background: rgba(255, 255, 255, 0.1); }
+  .app_DDS_styles .dark-input::placeholder, .app_DDS_styles .dark-textarea::placeholder {
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.35); }
+  .app_DDS_styles .dark-input:focus, .app_DDS_styles .dark-textarea:focus {
+    outline: none; }
 .app_DDS_styles .custom-chkbx-wrapper {
   cursor: pointer;
   position: relative;
-  transition: color .2s;
-}
-
-.app_DDS_styles .custom-chkbx-wrapper input {
-  visibility: hidden;
-  position: absolute;
-  width: 0;
-  height: 0;
-  bacground: blue;
-}
-
-.app_DDS_styles .custom-chkbx-wrapper .custom-chkbx {
-  width: 14px;
-  height: 14px;
-  display: inline-block;
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 4px;
-  transition: border .2s;
-}
-
-.app_DDS_styles .custom-chkbx-wrapper .custom-chkbx::before {
-  display: block;
-  content: "";
-  position: relative;
-  top: 1px;
-  left: 1px;
-  width: 10px;
-  height: 10px;
-  background: #f1852b;
-  border-radius: 3px;
-  opacity: 1;
-  transform: scale(0);
-  transition: opacity .1s, transform .1s;
-}
-
-.app_DDS_styles .custom-chkbx-wrapper .custom-chkbx.small {
-  width: 12px;
-  height: 12px;
-  border-radius: 3px;
-}
-
-.app_DDS_styles .custom-chkbx-wrapper .custom-chkbx.small::before {
-  width: 8px;
-  height: 8px;
-  border-radius: 1px;
-}
-
-.app_DDS_styles .custom-chkbx-wrapper input:checked + .custom-chkbx {
-  border: 1px solid #f1852b;
-}
-
-.app_DDS_styles .custom-chkbx-wrapper input:checked + .custom-chkbx::before {
-  opacity: 1;
-  transform: scale(0.8);
-}
-
-.app_DDS_styles .custom-chkbx-wrapper:hover {
-  color: #fff;
-}
-
-.app_DDS_styles .custom-chkbx-wrapper:hover .custom-chkbx {
-  border: 1px solid #f1852b;
-}
-
+  transition: color 0.2s; }
+  .app_DDS_styles .custom-chkbx-wrapper input {
+    visibility: hidden;
+    position: absolute;
+    width: 0;
+    height: 0;
+    bacground: blue; }
+  .app_DDS_styles .custom-chkbx-wrapper .custom-chkbx {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+    transition: border 0.2s; }
+    .app_DDS_styles .custom-chkbx-wrapper .custom-chkbx::before {
+      display: block;
+      content: "";
+      position: relative;
+      top: 1px;
+      left: 1px;
+      width: 10px;
+      height: 10px;
+      background: #f1852b;
+      border-radius: 3px;
+      opacity: 1;
+      transform: scale(0);
+      transition: opacity 0.1s, transform 0.1s; }
+  .app_DDS_styles .custom-chkbx-wrapper .custom-chkbx.small {
+    width: 12px;
+    height: 12px;
+    border-radius: 3px; }
+    .app_DDS_styles .custom-chkbx-wrapper .custom-chkbx.small::before {
+      width: 8px;
+      height: 8px;
+      border-radius: 1px; }
+  .app_DDS_styles .custom-chkbx-wrapper input:checked + .custom-chkbx {
+    border: 1px solid #f1852b; }
+    .app_DDS_styles .custom-chkbx-wrapper input:checked + .custom-chkbx::before {
+      opacity: 1;
+      transform: scale(0.8); }
+  .app_DDS_styles .custom-chkbx-wrapper:hover {
+    color: #fff; }
+    .app_DDS_styles .custom-chkbx-wrapper:hover .custom-chkbx {
+      border: 1px solid #f1852b; }
 .app_DDS_styles .custom-select-box {
   border-radius: 5px;
   border: 1px solid rgba(255, 255, 255, 0.15);
@@ -159,41 +111,29 @@ body.app_DDS_styles * {
   font-size: 1rem;
   color: rgba(255, 255, 255, 0.85);
   padding: 4px 8px;
-  transition: background .1s;
-}
-
-.app_DDS_styles .custom-select-box:hover {
-  background: rgba(255, 255, 255, 0.15);
-}
-
-.app_DDS_styles .custom-select-box select {
-  cursor: pointer;
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-  display: block;
-  background: none;
-  color: white;
-  border: none;
-}
-
-.app_DDS_styles .custom-select-box select:focus {
-  border: none;
-  outline: none;
-}
-
-.app_DDS_styles .custom-select-box select option {
-  background: #444;
-  border: 1px solid #555;
-  padding: 4px 6px;
-}
-
+  transition: background 0.1s; }
+  .app_DDS_styles .custom-select-box:hover {
+    background: rgba(255, 255, 255, 0.15); }
+  .app_DDS_styles .custom-select-box select {
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: block;
+    background: none;
+    color: white;
+    border: none; }
+    .app_DDS_styles .custom-select-box select:focus {
+      border: none;
+      outline: none; }
+    .app_DDS_styles .custom-select-box select option {
+      background: #444;
+      border: 1px solid #555;
+      padding: 4px 6px; }
 .app_DDS_styles .custom-select-box.small {
   padding: 0 2px;
-  height: 22px;
-}
-
+  height: 22px; }
 .app_DDS_styles .btn {
   padding: 5px 10px;
   border: 0;
@@ -202,17 +142,12 @@ body.app_DDS_styles * {
   color: white;
   border-radius: 5px;
   cursor: pointer;
-  font-size: .9rem;
-}
-
+  font-size: 0.9rem; }
 .app_DDS_styles .btn.dark.outlined {
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: transparent;
   color: rgba(255, 255, 255, 0.9);
-  transition: background .1s;
-}
-
-.app_DDS_styles .btn.dark.outlined:hover {
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-}
+  transition: background 0.1s; }
+  .app_DDS_styles .btn.dark.outlined:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1); }

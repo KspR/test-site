@@ -1,0 +1,57 @@
+{
+  "workflows": {
+    "visual-management": {
+      "id": "visual-management",
+      "pageDescription": "Gérez visuellement vos processus de production afin de mieux appréhender les flux et lever précocement les obstacles.",
+      "title": "Draft pour le Management Visuel",
+      "landing": {
+        "punchline": "Draft pour<br /><span>le management visuel</span>",
+        "baseline": {
+          "one": "Construisez des systèmes de management visuel complexes et totalement customisés sans devoir écrire une seule ligne de code.",
+          "two": "Draft est la façon la plus simple et économique de digitaliser vos murs de management visuel."
+        }
+      },
+      "ucs": {
+        "obeya-room": {
+          "title": "Salle Obeya Virtuelle",
+          "text": "Créez des salles Obeya virtuelles sur-mesure pour contrôler tout votre processus de production depuis le même espace.",
+          "template": "virtual-obeya-room"
+        },
+        "twelve-month": {
+          "title": "Plan Stratégique",
+          "text": "Projetez le futur de votre organisation et mobilisez les parties prenantes en construisant des roadmaps convaincantes et multiniveaux.",
+          "template": "twelve-month-roadmap"
+        },
+        "gantt-chart": {
+          "title": "Diagramme de Gantt",
+          "text": "Identifiez les risques et anticipez les éventuelles causes de retards de votre projet en cartographiant l'enchaînement et le lien entre les tâches qui le composent.",
+          "template": "gantt-chart"
+        },
+        "scheduling": {
+          "title": "Ordonnancement",
+          "text": "Allouez vos ressources de façon optimale et optimisez la productivité de vos processus en représentant la charge de travail à travers toute votre unité de production.",
+          "template": "scheduling"
+        }
+      },
+      "features-bloc-title": "Un véritable outil no-code pour construire votre management visuel",
+      "features": {
+        "story-card": {
+          "title": "Cartes de <span>management visuel</span>",
+          "text": "Ces cartes peuvent contenir une multitude d’informations utiles (id, statut, complexité, pastille, lien, etc.)."
+        },
+        "simple-navigation": {
+          "title": "Un système de navigation ergonomique",
+          "text": "Le système de fichiers à la Google Drive couplé au système d’onglets vous facilitent l’accès à toute information utile, à tout moment."
+        },
+        "unified-living-environment": {
+          "title": "Un environnement unifié et évolutif",
+          "text": "Draft forme un univers unifié et évolutif au sein duquel vos projets peuvent prendre forme au fur et à mesure."
+        },
+        "right-level-of-focus": {
+          "title": "Toujours le bon niveau de détail",
+          "text": "Fragmentez et associez différents types et niveaux d’information afin d’éclaircir votre réflexion et aider vos prises de décision."
+        }
+      }
+    }
+  }
+}
