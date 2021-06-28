@@ -1,0 +1,57 @@
+{
+  "workflows": {
+    "visual-management": {
+      "id": "visual-management",
+      "pageDescription": "Manage complex and interdependent production processes visually to envision workflows and tackle problems upfront better.",
+      "title": "Draft for Visual Management",
+      "landing": {
+        "punchline": "Draft for<br /><span>Visual Management</span>",
+        "baseline": {
+          "one": "Build complex and customized visual management systems without having to write any line of code. ",
+          "two": "Draft is the easiest and cost-effective way of digitizing your visual management walls."
+        }
+      },
+      "ucs": {
+        "obeya-room": {
+          "title": "Virtual Obeya Room",
+          "text": "Create tailor-made virtual Obeya rooms to control visually at the same place your whole lean management process.",
+          "template": "virtual-obeya-room"
+        },
+        "twelve-month": {
+          "title": "Twelve-Month Roadmap",
+          "text": "Envision the future of your organization and rally stakeholders with compelling and multi-layer strategic roadmaps.",
+          "template": "twelve-month-roadmap"
+        },
+        "gantt-chart": {
+          "title": "Gantt Chart",
+          "text": "Identify risks and prevent project delays by mapping how tasks are sequenced and linked to each other.",
+          "template": "gantt-chart"
+        },
+        "scheduling": {
+          "title": "Scheduling",
+          "text": "Allocate your resources optimally and improve your processes’ productivity by representing upcoming workloads across the whole production unit.",
+          "template": "scheduling"
+        }
+      },
+      "features-bloc-title": "A real no-code tool to build visual management systems",
+      "features": {
+        "story-card": {
+          "title": "Visual Management Cards",
+          "text": "Those cards can include various types of valuable data (id, status, complexity, color dots, etc.)."
+        },
+        "simple-navigation": {
+          "title": "Simple Navigation",
+          "text": "Access all of your drafts with a single click via a clean, simple, and intuitive tabbed file management system."
+        },
+        "unified-living-environment": {
+          "title": "Ever-Evolving Environment",
+          "text": "Drive better outcomes via Draft’s seamless, flexible, and intuitive visual document universe."
+        },
+        "right-level-of-focus": {
+          "title": "Stay Focused",
+          "text": "Easily arrange large amounts of diverse information into many smaller, more focused fragments to improve decision-making."
+        }
+      }
+    }
+  }
+}

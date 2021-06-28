@@ -1,0 +1,95 @@
+workflows
+	visual-management
+		id
+			visual-management
+			visual-management
+		pageDescription
+			Manage complex and interdependent production processes visually to envision workflows and tackle problems upfront better.
+			Gérez visuellement vos processus de production afin de mieux appréhender les flux et lever précocement les obstacles.
+		title
+			Draft for Visual Management
+			Draft pour le Management Visuel
+		landing
+			punchline
+				Draft for<br /><span>Visual Management</span>
+				Draft pour<br /><span>le management visuel</span>
+			baseline
+				one
+					Build complex and customized visual management systems without having to write any line of code. 
+					Construisez des systèmes de management visuel complexes et totalement customisés sans devoir écrire une seule ligne de code.
+				two
+					Draft is the easiest and cost-effective way of digitizing your visual management walls.
+					Draft est la façon la plus simple et économique de digitaliser vos murs de management visuel.
+		ucs
+			obeya-room
+				title
+					Virtual Obeya Room
+					Salle Obeya Virtuelle
+				text
+					Create tailor-made virtual Obeya rooms to control visually at the same place your whole lean management process.
+					Créez des salles Obeya virtuelles sur-mesure pour contrôler tout votre processus de production depuis le même espace.
+				template
+					virtual-obeya-room
+					virtual-obeya-room
+			twelve-month
+				title
+					Twelve-Month Roadmap
+					Plan Stratégique
+				text
+					Envision the future of your organization and rally stakeholders with compelling and multi-layer strategic roadmaps.
+					Projetez le futur de votre organisation et mobilisez les parties prenantes en construisant des roadmaps convaincantes et multiniveaux.
+				template
+					twelve-month-roadmap
+					twelve-month-roadmap
+			gantt-chart
+				title
+					Gantt Chart
+					Diagramme de Gantt
+				text
+					Identify risks and prevent project delays by mapping how tasks are sequenced and linked to each other.
+					Identifiez les risques et anticipez les éventuelles causes de retards de votre projet en cartographiant l'enchaînement et le lien entre les tâches qui le composent.
+				template
+					gantt-chart
+					gantt-chart
+			scheduling
+				title
+					Scheduling
+					Ordonnancement
+				text
+					Allocate your resources optimally and improve your processes’ productivity by representing upcoming workloads across the whole production unit.
+					Allouez vos ressources de façon optimale et optimisez la productivité de vos processus en représentant la charge de travail à travers toute votre unité de production.
+				template
+					scheduling
+					scheduling
+		features-bloc-title
+			A real no-code tool to build visual management systems
+			Un véritable outil no-code pour construire votre management visuel
+		features
+			story-card
+				title
+					Visual Management Cards
+					Cartes de <span>management visuel</span>
+				text
+					Those cards can include various types of valuable data (id, status, complexity, color dots, etc.).
+					Ces cartes peuvent contenir une multitude d’informations utiles (id, statut, complexité, pastille, lien, etc.).
+			simple-navigation
+				title
+					Simple Navigation
+					Un système de navigation ergonomique
+				text
+					Access all of your drafts with a single click via a clean, simple, and intuitive tabbed file management system.
+					Le système de fichiers à la Google Drive couplé au système d’onglets vous facilitent l’accès à toute information utile, à tout moment.
+			unified-living-environment
+				title
+					Ever-Evolving Environment
+					Un environnement unifié et évolutif
+				text
+					Drive better outcomes via Draft’s seamless, flexible, and intuitive visual document universe.
+					Draft forme un univers unifié et évolutif au sein duquel vos projets peuvent prendre forme au fur et à mesure.
+			right-level-of-focus
+				title
+					Stay Focused
+					Toujours le bon niveau de détail
+				text
+					Easily arrange large amounts of diverse information into many smaller, more focused fragments to improve decision-making.
+					Fragmentez et associez différents types et niveaux d’information afin d’éclaircir votre réflexion et aider vos prises de décision.

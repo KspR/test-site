@@ -1,40 +1,31 @@
 @media only screen and (min-width: 1400px) {
   .app-new-draft-modal .app-modal > .body .wrapper {
     padding: 0;
-    padding-bottom: 0;
-  }
+    padding-bottom: 0; }
   .app-new-draft-modal .blocs {
-    display: flex;
-  }
+    display: flex; }
   .app-new-draft-modal .left-bloc {
     width: 200px;
     bloc-shrink: 0;
     background: #3a3a3a;
-    padding: 30px;
-  }
+    padding: 30px; }
   .app-new-draft-modal .bloc-template {
     width: 100%;
     background: #373737;
-    border-left: 1px solid #515151;
-  }
-  .app-new-draft-modal .bloc-template nav.bloc-label {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-    height: 50px;
-    line-height: 50px;
-    padding: 0 20px;
-    background: #3a3a3a;
-  }
-  .app-new-draft-modal .bloc-template > .wrapper {
-    display: flex;
-  }
-  .app-new-draft-modal .bloc-template > .wrapper nav.sub-wrapper {
-    width: 150px;
-    flex-shrink: 0;
-    padding: 30px;
-  }
-  .app-new-draft-modal .bloc-template > .wrapper .template-picker-menu {
-    width: 100%;
-    border-left: 1px solid rgba(255, 255, 255, 0.06);
-    padding: 30px;
-  }
-}
+    border-left: 1px solid #515151; }
+    .app-new-draft-modal .bloc-template nav.bloc-label {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      height: 50px;
+      line-height: 50px;
+      padding: 0 20px;
+      background: #3a3a3a; }
+    .app-new-draft-modal .bloc-template > .wrapper {
+      display: flex; }
+      .app-new-draft-modal .bloc-template > .wrapper nav.sub-wrapper {
+        width: 150px;
+        flex-shrink: 0;
+        padding: 30px; }
+      .app-new-draft-modal .bloc-template > .wrapper .template-picker-menu {
+        width: 100%;
+        border-left: 1px solid rgba(255, 255, 255, 0.06);
+        padding: 30px; } }
