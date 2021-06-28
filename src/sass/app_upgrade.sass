@@ -1,0 +1,87 @@
+@import colors
+@import appDDS_helpers
+
+  
+// ============================================================================================
+// ============================================================================================
+// --------------------------------------------------------------------------------------------
+// =============  TEAM DASHBOARD UI special standalone and specific styles 
+// --------------------------------------------------------------------------------------------
+// ============================================================================================
+// ============================================================================================
+
+.app-new-draft-modal
+
+  // "atd_" for "App Team Dashboard _"
+  $atd_generalPadding : 30px
+  $atd_interPanelsPadding : 20px
+  $atd_bkgdColor : #333
+  $atd_panelsBkgdColor : #3d3d3d
+  $atd_rowsListingBkgdColor : #343434
+
+  $tableFilterBarHeight : 50px
+  $tableHeaderHeight : 40px
+  $tableRowHeight : 32px
+  $tableFooterHeight : 50px
+
+  @media only screen and (min-width: 1400px)
+    
+      
+    // ---------------------------------------------
+    // Panels positions and sizes
+    // ---------------------------------------------
+
+  
+    // ---------------------------------------------
+    // end of Panels positions
+    // ---------------------------------------------
+
+
+   
+    .app-modal > .body .wrapper 
+      padding : 0
+      padding-bottom : 0
+    .blocs
+      display : flex
+    .left-bloc
+      width : 200px
+      bloc-shrink : 0
+      background : #3a3a3a
+      padding : 30px
+    .bloc-template
+      width : 100%
+      background : #373737
+      border-left : 1px solid #515151
+      
+      nav.bloc-label
+        border-bottom : 1px solid rgba(255,255,255,.06)
+        height : 50px
+        line-height : 50px
+        padding : 0 20px
+        background : #3a3a3a
+        
+      & > .wrapper
+        display : flex
+        
+        nav.sub-wrapper
+          width : 150px
+          flex-shrink : 0
+          padding : 30px
+        .template-picker-menu
+          width : 100%
+          border-left : 1px solid rgba(255,255,255,.06)
+          padding : 30px
+
+
+
+
+// ============================================================================================
+// ============================================================================================
+// --------------------------------------------------------------------------------------------
+// =============  end of TEAM DASHBOARD UI special autonomous and specific styles 
+// --------------------------------------------------------------------------------------------
+// ============================================================================================
+// ============================================================================================
+
+
+          
