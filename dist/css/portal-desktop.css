@@ -248,7 +248,7 @@
   .workflow .bloc-landing {
     position: relative;
     overflow: hidden;
-    margin-top: 70px; }
+    margin-bottom: 70px; }
     .workflow .bloc-landing .illu {
       width: calc(100% - 900px);
       height: 350px;
